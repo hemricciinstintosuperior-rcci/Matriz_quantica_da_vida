@@ -1858,30 +1858,10 @@ document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;
 
 </script>
-<script>
-/* ===============================
-   ATIVAR PWA DEFINITIVO
-================================ */
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/piramide_da_vida/sw.js")
-      .then(reg => console.log("SW ativo", reg.scope))
-      .catch(err => console.log("Erro SW", err));
-  });
-}
 
-/* força modo app standalone */
-let deferredPrompt;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-
-  console.log("APP pronto para instalar");
-});
-</script>
 </body>
 </html>
+
 
 
 
