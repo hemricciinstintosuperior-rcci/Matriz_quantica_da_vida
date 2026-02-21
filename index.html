@@ -1,0 +1,1820 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Pirâmide da Vida Quântica</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b1020">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Pirâmide Quantica">
+<style>
+body{
+  font-family: Arial;
+  background:#ffffff;
+  color:#000;
+  text-align:center;
+}
+
+input,button{
+  padding:10px;
+  margin:5px;
+  border-radius:6px;
+  border:none;
+}
+/* campos de nome e data maiores */
+input{
+  width:600px;
+  font-size:18px;
+  padding:14px;
+}
+button{
+  background:#facc15;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+#resultado{
+  margin-top:20px;
+}
+
+/* PIRÂMIDE NORMAL (tela) */
+.piramide{
+  font-family: monospace;
+  font-size:12px;
+  line-height:1.6;
+  text-align:center;
+}
+
+/* 🔥 PIRÂMIDE COMPACTA (PDF / caber na tela) */
+.piramide.compacta{
+  font-size:12px;
+  line-height:1.2;
+}
+
+.piramide.compacta .linha{
+  gap:4px;
+  margin:2px;
+}
+
+.piramide.compacta .num{
+  padding:4px 6px;
+  border-radius:6px;
+  font-size:11px;
+}
+
+.linha{
+  display:flex;
+  justify-content:center;
+  gap:6px;
+  margin:2px;
+}
+
+.num{
+  background:#28d3ee;
+  color:#000;
+  padding:4px 7px;
+  border-radius:6px;
+  font-weight:bold;
+  font-size:12px;
+  min-width:18px;
+}
+
+/* 🔴 SEQUÊNCIAS NEGATIVAS */
+.negativo{
+  background:#FF0000!important;
+  color:#fff !important;
+  box-shadow:0 0 6px rgba(255,0,0,0.6);
+}
+.botaoSeq{
+  background:#ef4444;
+  color:#fff;
+  padding:10px 16px;
+  border-radius:8px;
+  font-weight:bold;
+  cursor:pointer;
+  margin-top:20px;
+}
+.boxSeq{
+  background:#fff0f0;
+  border:2px solid #ff4d4d;
+  padding:20px;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+.box{
+  background:#ffffff;
+  border:2px solid #000;
+  padding:15px;
+  margin:15px auto;
+  border-radius:10px;
+  max-width:800px;
+}
+
+/* ===== GRID RELATÓRIOS LADO A LADO ===== */
+.gridRelatorios{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
+  margin-top:25px;
+}
+
+@media(max-width:900px){
+  .gridRelatorios{
+    grid-template-columns:1fr;
+  }
+}  
+  .abas{
+  margin-top:20px;
+}
+
+.abas button{
+  background:#22d3ee;
+  border:none;
+  padding:10px 15px;
+  margin:5px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.aba{
+  margin-top:20px;
+}
+
+.num.negativo{
+  background:#ff6b6b;
+  color:white;
+  font-weight:bold;
+}
+
+.num.especial{
+  background:#f6c445;
+  color:#000;
+  font-weight:bold;
+  box-shadow:0 0 10px rgba(246,196,69,0.8);
+}
+
+.num.financeiro{
+  background:#34c759;
+  color:white;
+  font-weight:bold;
+  box-shadow:0 0 12px rgba(52,199,89,0.9);
+}
+
+.botaoSeq.especial{
+    background:#0000FF;
+}
+  /* ===== RELATÓRIO PIRÂMIDE ===== */
+
+.relatorioTopo{
+  text-align:center;
+  padding-top:60px;
+  padding-bottom:30px;
+}
+
+.logoRelatorio{
+  width:220px;
+  margin-bottom:10px;
+}
+
+.folhaRelatorio{
+  background:white;
+  max-width:800px;
+  margin:30px auto;
+  padding:50px;
+  border-radius:10px;
+  box-shadow:0 0 25px rgba(0,0,0,0.08);
+}
+
+/* rodapé fixo impressão */
+@media print{
+
+  body{
+    background:white !important;
+  }
+
+  .rodapeRelatorio{
+    position:fixed;
+    bottom:8mm;
+    right:12mm;
+    font-size:9px;
+    color:#777;
+  }
+/* VERSÃO AUTOMÁTICA PARA PDF */
+@media print{
+
+  .piramide{
+    transform: scale(0.60);
+    transform-origin: top center;
+    margin-top: 20mm;
+  }
+
+}
+}
+</style>
+</head>
+<div class="rodapeRelatorio">
+
+</div>
+<body>
+<div class="relatorioTopo">
+  <img src="https://static.wixstatic.com/media/748f0c_61e44522ec3540c89e3c2cb8aff5e9b7~mv2.png" class="logoRelatorio">
+  <h1>INSTINTO SUPERIOR</h1>
+  <h2></h2>
+</div>
+<h2>🔺 Pirâmide Quântica  da Vida</h2>
+
+<input id="nome" placeholder="Nome completo"><br>
+<input type="date" id="data"><br>
+
+<button onclick="gerar()">GERAR</button>
+<button onclick="abrirPremium()">PDF (Premium)</button>
+
+<div class="folhaRelatorio">
+  <div id="resultado"></div>
+</div>  <!-- ⭐ ESTA DIV NÃO EXISTIA -->
+
+<div class="abas">
+  <button onclick="mostrarAba('principal')">Principal / Vida</button>
+  <button onclick="mostrarAba('pessoal')">Pessoal</button>
+  <button onclick="mostrarAba('social')">Social</button>
+  <button onclick="mostrarAba('destino')">Influência e Propósito </button>
+</div>
+
+<div id="aba_principal" class="aba"></div>
+<div id="aba_pessoal" class="aba" style="display:none"></div>
+<div id="aba_social" class="aba" style="display:none"></div>
+<div id="aba_destino" class="aba" style="display:none"></div>
+<script>
+
+// =======================
+// 🔢 TABELA CABALÍSTICA
+// =======================
+const mapa = {
+A:1,I:1,Q:1,J:1,Y:1,
+B:2,K:2,R:2,
+C:3,G:3,L:3,S:3,
+D:4,M:4,T:4,
+E:5,H:5,N:5,
+U:6,V:6,W:6,X:6,
+O:7,Z:7,
+F:8,P:8
+};
+
+
+
+// =======================
+// 📚 COLE TEXTOS AQUI
+// =======================
+const textosVida={
+
+1:"Início e Liderança. A Potência Regente 1 representa o princípio da individualidade, da iniciativa e da força criadora. Ela rege toda a vida do indivíduo impulsionando-o a agir liderar e abrir caminhos próprios. É a energia do começo da autonomia e da afirmação do eu. No aspecto positivo manifesta liderança natural coragem criatividade inteligência estratégica capacidade de decisão e forte espírito de independência. Indica personalidade ativa inovadora e determinada com potencial para posições de destaque. No aspecto negativo pode gerar egoísmo autoritarismo impulsividade orgulho excessivo e dificuldade em aceitar limites. Quando desequilibrada pode levar ao isolamento e conflitos. A Potência Regente 1 ensina que o verdadeiro líder domina a si mesmo antes de dominar o mundo",
+
+2:"Sensibilidade e Intuição. A Potência Regente 2 representa percepção espiritual sensibilidade emocional e compreensão do invisível. Rege a vida através da intuição empatia e busca por equilíbrio interior. No aspecto positivo manifesta intuição aguçada espiritualidade diplomacia cooperação e profundidade emocional. No aspecto negativo pode gerar insegurança dependência indecisão passividade e fantasia excessiva levando à fuga da realidade. A Potência Regente 2 ensina que a verdadeira força nasce da sensibilidade consciente",
+
+3:"Expressão e Criação. A Potência Regente 3 representa criatividade comunicação e expansão da consciência. Rege a vida pela expressão intelectual artística e emocional. No aspecto positivo manifesta alegria sociabilidade criatividade e inspiração. No aspecto negativo pode gerar dispersão vaidade instabilidade emocional e dificuldade de concluir projetos. A Potência Regente 3 ensina que criatividade precisa de disciplina para virar realização",
+
+4:"Ordem e Estrutura. A Potência Regente 4 representa estabilidade disciplina e construção de bases sólidas. Rege a vida pelo trabalho organização e perseverança. No aspecto positivo manifesta responsabilidade pragmatismo senso de justiça e confiabilidade. No aspecto negativo pode gerar rigidez medo de mudanças e conservadorismo excessivo. A Potência Regente 4 ensina que segurança nasce da constância",
+
+5:"Sabedoria e Orientação. A Potência Regente 5 representa conhecimento ética e busca da verdade. Rege a vida pelo aprendizado experiência e orientação moral. No aspecto positivo manifesta inteligência espiritualidade e capacidade de ensinar. No aspecto negativo pode gerar dogmatismo intolerância e orgulho intelectual. A Potência Regente 5 ensina que o saber verdadeiro liberta",
+
+6:"Escolha e Equilíbrio Emocional. A Potência Regente 6 representa conflito entre razão e emoção necessidade de escolha e aprendizado do amor consciente. Rege a vida pelas relações afetivas. No aspecto positivo manifesta amor harmonia responsabilidade afetiva e conciliação. No aspecto negativo pode gerar indecisão ciúme dependência emocional e conflitos internos. A Potência Regente 6 ensina que amar é escolher com consciência",
+
+7:"Vitória e Autodomínio. A Potência Regente 7 representa triunfo do espírito sobre a matéria e domínio mental. Rege a vida pela busca de equilíbrio entre razão e instinto. No aspecto positivo manifesta disciplina autoconfiança e superação. No aspecto negativo pode gerar arrogância frieza emocional e obsessão por controle. A Potência Regente 7 ensina que a verdadeira vitória é conquistar a si mesmo",
+
+8:"Justiça e Equilíbrio Universal. A Potência Regente 8 representa lei do equilíbrio causa e efeito e justiça universal. Rege a vida pela harmonização de forças opostas. No aspecto positivo manifesta ética responsabilidade e liderança equilibrada. No aspecto negativo pode gerar fanatismo rigidez moral e autoritarismo. A Potência Regente 8 ensina que toda ação gera consequências",
+
+9:"Sabedoria e Sacrifício. A Potência Regente 9 representa prudência sabedoria e renúncia. Rege a vida pelo autoconhecimento e busca de significado. No aspecto positivo manifesta maturidade espiritualidade e altruísmo. No aspecto negativo pode gerar isolamento pessimismo e apego ao passado. A Potência Regente 9 ensina que a sabedoria nasce da experiência",
+
+11:"Força e Autodomínio. A Potência 11 representa energia vital consciente impulso interior aliado ao controle emocional e inteligência estratégica. Simboliza dominar instintos e direcionar a força interior para objetivos elevados. No aspecto positivo manifesta coragem disciplina autoconfiança liderança e superação tornando a pessoa resiliente e influente. No aspecto negativo pode gerar agressividade orgulho impulsividade autoritarismo e descontrole emocional levando a conflitos. A Potência 11 ensina que a verdadeira força está no domínio consciente de si mesmo",
+
+12:"Renúncia e Transformação Interior. A Potência 12 simboliza sacrifício consciente introspecção e reestruturação da personalidade indicando abandono de padrões antigos para maturidade maior. No aspecto positivo favorece humildade paciência crescimento interior e aprendizado pelas dificuldades. No aspecto negativo pode gerar vitimização estagnação indecisão e sofrimento desnecessário. A Potência 12 ensina que toda renúncia consciente prepara uma conquista maior",
+
+13:"Morte Simbólica e Renascimento. A Potência 13 representa transformação radical fim de ciclos e renascimento da identidade promovendo ruptura com estruturas obsoletas. No aspecto positivo gera libertação renovação desapego e reconstrução autêntica. No aspecto negativo pode trazer medo de mudança perdas dolorosas e apego ao passado. A Potência 13 ensina que todo fim é um novo começo",
+
+14:"Equilíbrio e Harmonia. A Potência 14 simboliza moderação conciliação e integração de opostos unindo razão e emoção. No aspecto positivo manifesta diplomacia serenidade cooperação e resolução de conflitos. No aspecto negativo pode gerar indecisão acomodação e medo de confronto. A Potência 14 ensina que o poder está no equilíbrio interior",
+
+15:"Paixão e Prisão Material. A Potência 15 representa desejos paixões e confronto entre instinto e consciência. No aspecto positivo manifesta magnetismo criatividade ambição saudável e energia realizadora. No aspecto negativo pode gerar vícios obsessões manipulação e autossabotagem. A Potência 15 ensina que o desejo pode aprisionar ou impulsionar a evolução",
+
+16:"Ruptura e Despertar. A Potência 16 simboliza queda de ilusões e destruição de estruturas falsas levando ao despertar da consciência. No aspecto positivo promove libertação clareza e reconstrução sólida. No aspecto negativo pode causar colapsos emocionais perdas e resistência à mudança. A Potência 16 ensina que a destruição necessária é purificação",
+
+17:"Esperança e Inspiração. A Potência 17 representa fé esperança e inspiração após crises conectando o indivíduo a ideais elevados. No aspecto positivo manifesta criatividade altruísmo espiritualidade e renovação de fé. No aspecto negativo pode gerar ilusões expectativas irreais e fuga da realidade. A Potência 17 ensina que esperança é ponte entre dor e realização",
+
+18:"Ilusão e Subconsciente. A Potência 18 simboliza emoções profundas medos inconscientes e contato com o subconsciente. No aspecto positivo desenvolve intuição imaginação e autoconhecimento. No aspecto negativo pode gerar confusão medo paranoia e autoengano. A Potência 18 ensina que a maior batalha ocorre na mente",
+
+19:"Luz e Realização. A Potência 19 representa triunfo clareza e recompensa pelo esforço trazendo iluminação e expansão. No aspecto positivo manifesta sucesso vitalidade reconhecimento e prosperidade. No aspecto negativo pode gerar arrogância egocentrismo e orgulho. A Potência 19 ensina que a luz só é plena quando compartilhada", 
+  
+ 21:"Realização e Plenitude. A Potência 21 representa conclusão de ciclos realização plena e sensação de completude. Indica momento de colher frutos alcançar reconhecimento equilíbrio e expansão pessoal. No aspecto positivo manifesta sucesso estabilidade alegria e missão cumprida. No aspecto negativo pode gerar acomodação orgulho excessivo e dificuldade de iniciar novos ciclos. A Potência 21 ensina que toda conquista deve abrir caminho para novos começos",
+
+22:"Liberdade e Escolha. A Potência 22 representa impulso de romper limites explorar caminhos e assumir riscos conscientes. Indica momentos decisivos e abertura para novas experiências. No aspecto positivo manifesta coragem criatividade inovação e intuição. No aspecto negativo pode gerar impulsividade irresponsabilidade e instabilidade. A Potência 22 ensina que liberdade exige consciência",
+
+23:"Proteção e Conquistas. A Potência 23 representa mérito liderança e proteção obtida pelo esforço. Indica crescimento por disciplina inteligência e determinação. No aspecto positivo manifesta sucesso apoio influência e conquistas sólidas. No aspecto negativo pode gerar autoritarismo rigidez e intolerância. A Potência 23 ensina que mérito nasce do esforço consciente",
+
+24:"Harmonia e Fertilidade. A Potência 24 representa estabilidade proteção e crescimento afetivo e material. Indica fortalecimento de vínculos e bases seguras. No aspecto positivo manifesta prosperidade equilíbrio e harmonia familiar. No aspecto negativo pode gerar apego vaidade e acomodação. A Potência 24 ensina que estabilidade requer movimento consciente",
+
+25:"Ação e Transformação. A Potência 25 representa movimento coragem e mudanças importantes. Indica fases de luta e conquista. No aspecto positivo manifesta iniciativa superação e energia realizadora. No aspecto negativo pode gerar impulsividade agressividade e conflitos. A Potência 25 ensina que agir com consciência transforma destinos",
+
+26:"Potencial e Expectativa. A Potência 26 representa talentos em desenvolvimento e oportunidades futuras. Indica preparação para conquistas maiores. No aspecto positivo manifesta entusiasmo descobertas e crescimento gradual. No aspecto negativo pode gerar frustração e decisões precipitadas. A Potência 26 ensina que potencial exige maturidade",
+
+27:"Desafio e Renovação. A Potência 27 representa provas tensões e necessidade de reconstrução. Indica redefinição de metas e postura. No aspecto positivo manifesta superação adaptação e novos começos. No aspecto negativo pode gerar sobrecarga conflitos e desgaste emocional. A Potência 27 ensina que desafios renovam a consciência",
+
+28:"Estratégia e Prudência. A Potência 28 representa planejamento inteligência e consolidação de conquistas. Indica crescimento estruturado. No aspecto positivo manifesta disciplina estratégia e decisões seguras. No aspecto negativo pode gerar medo de arriscar e rigidez. A Potência 28 ensina que prudência é força quando há ação",
+
+29:"Expansão e Realização. A Potência 29 representa colheita após esforço prolongado e afirmação pessoal. Indica prosperidade e reconhecimento. No aspecto positivo manifesta sucesso alegria e crescimento. No aspecto negativo pode gerar ambição excessiva e disputas. A Potência 29 ensina que persistência leva à vitória",
+
+30:"Silêncio e Latência. A Potência 30 representa pausa preparação interior e amadurecimento invisível. Indica fase de incubação antes da ação. No aspecto positivo manifesta planejamento e fortalecimento interno. No aspecto negativo pode gerar estagnação medo de agir e procrastinação. A Potência 30 ensina que o silêncio prepara a realização",
+  
+31:"Disciplina e Construção. A Potência 31 representa esforço consciente disciplina e construção de bases sólidas para o futuro. Rege a vida pela consolidação de estruturas internas e externas. No aspecto positivo manifesta perseverança estabilidade crescimento gradual e sucesso por mérito. No aspecto negativo pode gerar rigidez orgulho excessivo medo de mudanças e dificuldade em confiar. A Potência 31 ensina que segurança nasce da disciplina e constância",
+
+32:"Estabilidade e Reconhecimento. A Potência 32 representa consolidação de conquistas e reconhecimento dos esforços. Rege a vida pela busca de estabilidade emocional material e social. No aspecto positivo manifesta prosperidade parcerias alianças e relações equilibradas. No aspecto negativo pode gerar acomodação vaidade conflitos de poder e ambição excessiva. A Potência 32 ensina que estabilidade depende de equilíbrio entre ambição e consciência",
+
+33:"Expansão e Prosperidade. A Potência 33 representa crescimento prosperidade e realização por meio de cooperação. Rege a vida pela expansão de projetos e relações. No aspecto positivo manifesta progresso estabilidade emocional e oportunidades de crescimento. No aspecto negativo pode gerar excesso de confiança perda de foco e desprezo por pequenas conquistas. A Potência 33 ensina que prosperidade sustentável nasce da valorização do que já foi conquistado",
+
+34:"Criatividade e Expansão. A Potência 34 representa impulso criativo força produtiva e inovação. Rege a vida pela conquista de novos espaços. No aspecto positivo manifesta criatividade realização profissional e novas oportunidades. No aspecto negativo pode gerar ansiedade impulsividade e dispersão de energia. A Potência 34 ensina que criatividade precisa de disciplina para gerar resultados",
+
+35:"Crise e Reflexão. A Potência 35 representa introspecção dúvidas e crises existenciais. Rege a vida pelo confronto com limites internos. No aspecto positivo manifesta autoconhecimento intuição e redefinição de objetivos. No aspecto negativo pode gerar melancolia pessimismo isolamento e instabilidade emocional. A Potência 35 ensina que crises despertam consciência",
+
+36:"Ruptura e Renovação. A Potência 36 representa quebra de padrões antigos e início de novos ciclos. Rege a vida pela libertação de limitações. No aspecto positivo manifesta mudanças positivas novos começos e libertação emocional. No aspecto negativo pode gerar conflitos instabilidade e medo do desconhecido. A Potência 36 ensina que renovação exige coragem",
+
+37:"Equilíbrio e Mediação. A Potência 37 representa diplomacia harmonia e capacidade de mediação. Rege a vida pelo equilíbrio entre razão e emoção. No aspecto positivo manifesta generosidade popularidade amizades e crescimento social. No aspecto negativo pode gerar indecisão dependência emocional e preocupação excessiva com opinião alheia. A Potência 37 ensina que equilíbrio interior sustenta relações saudáveis",
+
+38:"Sensibilidade e Expressão. A Potência 38 representa despertar emocional e expressão de sentimentos. Rege a vida pela maturidade afetiva e criatividade. No aspecto positivo manifesta amor comunicação e expansão emocional. No aspecto negativo pode gerar exageros emocionais preguiça e extravagância. A Potência 38 ensina que sensibilidade guiada pela consciência é força",
+
+39:"Amor e Conexão. A Potência 39 representa empatia conexão e expansão do amor. Rege a vida pela aproximação do propósito de vida. No aspecto positivo manifesta reconciliações espiritualidade e crescimento emocional. No aspecto negativo pode gerar ilusões afetivas dependência emocional e confiança excessiva. A Potência 39 ensina que amor consciente conduz à realização",
+
+40:"Sensibilidade e Renovação Afetiva. A Potência 40 representa renovação emocional e novas experiências afetivas. Rege a vida pelo despertar de sentimentos. No aspecto positivo manifesta reconciliações crescimento afetivo e fortalecimento de vínculos. No aspecto negativo pode gerar insegurança ilusões amorosas e medo de entrega. A Potência 40 ensina que renovação emocional exige maturidade",
+  
+41:"Felicidade e Harmonia. A Potência 41 representa realização emocional plenitude afetiva e harmonia entre indivíduo família e meio social. Rege a vida pela busca de bem-estar e equilíbrio nas relações. No aspecto positivo manifesta felicidade estabilidade boas relações reconhecimento e sensação de pertencimento. No aspecto negativo pode gerar dependência emocional acomodação e medo de perder estabilidade. A Potência 41 ensina que a felicidade verdadeira nasce do equilíbrio entre autonomia e vínculo",
+
+42:"Expansão e Prosperidade. A Potência 42 representa crescimento realização de desejos e expansão material e emocional. Rege a vida por oportunidades e conquistas. No aspecto positivo manifesta sucesso prosperidade saúde e realização de projetos. No aspecto negativo pode gerar excessos irresponsabilidade e fuga de deveres. A Potência 42 ensina que prosperidade precisa de consciência",
+
+43:"Conflito e Despertar. A Potência 43 representa crises emocionais e conflitos que despertam consciência e revisão de valores. Rege a vida por provas afetivas. No aspecto positivo manifesta autoconhecimento libertação e amadurecimento. No aspecto negativo pode gerar rupturas dolorosas escândalos e frustrações. A Potência 43 ensina que conflitos transformam",
+
+44:"Decisão e Clareza. A Potência 44 representa lucidez mental e escolhas conscientes. Rege a vida pela razão e discernimento. No aspecto positivo manifesta clareza planejamento e oportunidades. No aspecto negativo pode gerar indecisão ilusões e estagnação. A Potência 44 ensina que clareza interior guia evolução",
+
+45:"Memória e Regeneração. A Potência 45 representa resgate do passado e cura emocional. Rege a vida por reconciliações e revisões de valores. No aspecto positivo manifesta cura paz interior e realização de antigos sonhos. No aspecto negativo pode gerar apego ao passado e melancolia. A Potência 45 ensina que o passado deve ser compreendido e não revivido",
+
+46:"Desilusão e Ruptura. A Potência 46 representa quebras de expectativa e crises afetivas. Rege a vida por verdades emocionais. No aspecto positivo manifesta amadurecimento e libertação de ilusões. No aspecto negativo pode gerar frustrações separações e arrependimentos. A Potência 46 ensina que a verdade liberta",
+
+47:"Introspecção e Conflito Interior. A Potência 47 representa conflitos internos e necessidade de recolhimento. Rege a vida por reflexão profunda. No aspecto positivo manifesta autoconhecimento reorganização emocional e consciência. No aspecto negativo pode gerar tristeza ciúmes e desmotivação. A Potência 47 ensina que silêncio interior traz clareza",
+
+48:"Renovação e Abundância. A Potência 48 representa fase de prosperidade alegria e expansão afetiva. Rege a vida por celebrações e novas conquistas. No aspecto positivo manifesta sucesso amizades e crescimento. No aspecto negativo pode gerar egoísmo e excessos. A Potência 48 ensina que abundância deve ser compartilhada",
+
+49:"Amor e Independência. A Potência 49 representa equilíbrio entre amar e manter autonomia. Rege a vida por maturidade emocional. No aspecto positivo manifesta relações verdadeiras autoconfiança e liberdade emocional. No aspecto negativo pode gerar dependência afetiva e conflitos. A Potência 49 ensina que amar é compartilhar sem se perder",
+
+50:"União e Estrutura. A Potência 50 representa consolidação de vínculos e compromissos. Rege a vida por construção de bases sólidas. No aspecto positivo manifesta estabilidade segurança e realização de projetos. No aspecto negativo pode gerar ciúmes rigidez e controle excessivo. A Potência 50 ensina que união precisa de equilíbrio entre compromisso e liberdade",
+  
+51:"Sabedoria e Liderança. A Potência 51 representa maturidade mental estratégia e liderança consciente. Rege a vida pela integração entre razão e emoção para decisões seguras. No aspecto positivo manifesta clareza mental autoconfiança liderança equilibrada e superação de traumas. No aspecto negativo pode gerar frieza emocional excesso de racionalidade e isolamento. A Potência 51 ensina que o verdadeiro líder equilibra mente e sensibilidade",
+  
+52:"Consciência e Autodomínio. A Potência 52 representa consciência das próprias capacidades disciplina e busca de aperfeiçoamento. Rege a vida pelo autodomínio e foco em objetivos. No aspecto positivo manifesta disciplina foco realização e fortalecimento da identidade. No aspecto negativo pode gerar perfeccionismo rigidez ansiedade e autocrítica excessiva. A Potência 52 ensina que crescer exige equilíbrio entre exigência e aceitação",
+  
+53:"Transformação e Desafio. A Potência 53 representa mudanças profundas e quebra de padrões antigos. Rege a vida por desafios que impulsionam evolução. No aspecto positivo manifesta coragem inovação libertação e evolução pessoal. No aspecto negativo pode gerar instabilidade conflitos impulsividade e rupturas dolorosas. A Potência 53 ensina que transformar exige coragem para soltar o passado",
+  
+54:"Conflito e Vigilância. A Potência 54 representa períodos de tensão disputas e necessidade de prudência. Rege a vida pela atenção e discernimento. No aspecto positivo manifesta lucidez proteção estratégia e fortalecimento interior. No aspecto negativo pode gerar paranoia desconfiança conflitos e isolamento. A Potência 54 ensina que consciência e prudência evitam perdas",
+  
+55:"Ruptura e Renascimento. A Potência 55 representa fim de ciclos e início de nova etapa. Rege a vida por encerramentos que levam à renovação. No aspecto positivo manifesta superação aprendizado reconstrução e iluminação interior. No aspecto negativo pode gerar sofrimento tristeza sensação de ruína e luto emocional. A Potência 55 ensina que todo fim prepara um recomeço",
+  
+56:"Dor e Resistência. A Potência 56 representa provações e enfrentamento de medos. Rege a vida por testes que fortalecem o espírito. No aspecto positivo manifesta resiliência amadurecimento e fortalecimento espiritual. No aspecto negativo pode gerar depressão conflitos e bloqueios emocionais. A Potência 56 ensina que a dor compreendida vira força",
+  
+57:"Conflito e Decisão. A Potência 57 representa dilemas e escolhas difíceis. Rege a vida por decisões que moldam o destino. No aspecto positivo manifesta discernimento aprendizado e fortalecimento da vontade. No aspecto negativo pode gerar medo indecisão estagnação e sensação de impotência. A Potência 57 ensina que decidir é evoluir",
+  
+58:"Crise e Despertar. A Potência 58 representa crises que levam ao despertar da consciência. Rege a vida por confrontos com a verdade interior. No aspecto positivo manifesta autoconhecimento libertação de ilusões e reconstrução de propósito. No aspecto negativo pode gerar frustração perdas e sensação de caos. A Potência 58 ensina que grandes crises trazem grandes despertares",
+  
+59:"Revelação e Expansão. A Potência 59 representa revelação de verdades e abertura de caminhos. Rege a vida por descobertas e crescimento. No aspecto positivo manifesta progresso boas notícias crescimento e transformação positiva. No aspecto negativo pode gerar confusão emocional e vitimização. A Potência 59 ensina que a verdade liberta",
+  
+61:"Retiro e Recuperação. A Potência 61 representa introspecção silêncio e recuperação interior. Indica fases de recolhimento para reorganizar emoções e pensamentos. No aspecto positivo manifesta autoconhecimento equilíbrio emocional e clareza mental. No aspecto negativo pode gerar isolamento culpa procrastinação e medo de agir. A Potência 61 ensina que o recolhimento consciente fortalece o espírito",
+  
+62:"Dor e Libertação. A Potência 62 simboliza conflitos emocionais e rupturas necessárias para libertação interior. No aspecto positivo favorece perdão cura emocional e superação de traumas. No aspecto negativo pode gerar tristeza ressentimentos e apego ao passado. A Potência 62 ensina que a dor pode abrir caminho para a libertação",
+  
+63:"Estagnação e Dúvida. A Potência 63 representa períodos de indecisão e paralisação por medo de errar. No aspecto positivo favorece reflexão análise e reorganização de prioridades. No aspecto negativo pode gerar apatia insegurança e bloqueio de ação. A Potência 63 ensina que enfrentar dúvidas traz clareza",
+  
+64:"Luta e Superação. A Potência 64 simboliza persistência diante de obstáculos e esforço consciente. No aspecto positivo manifesta força de vontade conquistas e resolução de conflitos. No aspecto negativo pode gerar rigidez frieza emocional e obsessão por resultados. A Potência 64 ensina que a vitória vem da perseverança equilibrada",
+  
+65:"Ascensão e Propósito. A Potência 65 representa crescimento material e espiritual alinhado ao propósito de vida. No aspecto positivo favorece sucesso clareza de metas e expansão de consciência. No aspecto negativo pode gerar autoritarismo controle excessivo e ambição desmedida. A Potência 65 ensina que sucesso precisa ter propósito",
+  
+66:"Exposição e Autenticidade. A Potência 66 simboliza revelação do verdadeiro eu e coragem de ser autêntico. No aspecto positivo favorece identidade forte realização pessoal e verdade interior. No aspecto negativo pode gerar vulnerabilidade excessiva dependência emocional e medo de julgamento. A Potência 66 ensina que autenticidade é força",
+  
+67:"Confiança e Concretização. A Potência 67 representa capacidade de transformar ideias em realidade. No aspecto positivo manifesta prosperidade estabilidade e realizações práticas. No aspecto negativo pode gerar materialismo excessivo e dureza emocional. A Potência 67 ensina que confiar em si cria resultados",
+  
+68:"Abundância e Valor Pessoal. A Potência 68 simboliza prosperidade e reconhecimento do próprio valor. No aspecto positivo favorece riqueza criatividade e autoestima elevada. No aspecto negativo pode gerar vaidade apego ao dinheiro e egoísmo. A Potência 68 ensina que abundância real começa no valor interior",
+  
+69:"Plenitude e Prosperidade. A Potência 69 representa colheita de esforços e realização plena. No aspecto positivo favorece felicidade estabilidade e prosperidade consciente. No aspecto negativo pode gerar exibicionismo futilidade e perda de propósito. A Potência 69 ensina que plenitude exige consciência",
+  
+70:"Prosperidade e Autossuficiência. A Potência 70 simboliza consolidação material e reconhecimento do próprio valor. No aspecto positivo favorece sucesso financeiro estabilidade e colheita de resultados. No aspecto negativo pode gerar orgulho isolamento emocional e autossuficiência exagerada. A Potência 70 ensina que prosperidade precisa de humildade",
+  
+71:"Aprendizado e Conservação. A Potência 71 representa maturidade mental prudência e valorização das conquistas. Rege a vida pela necessidade de preservar o que foi construído e aprender com a experiência. No aspecto positivo manifesta planejamento responsabilidade crescimento sustentável e uso inteligente de recursos. Indica pessoa cautelosa e estratégica. No aspecto negativo pode gerar apego medo de arriscar rigidez e projetos egocêntricos. A Potência 71 ensina que conservar também é evoluir",
+  
+72:"Clareza e Direcionamento. A Potência 72 representa lucidez mental e alinhamento entre razão e intuição. Rege a vida por decisões conscientes e visão estratégica. No aspecto positivo manifesta discernimento maturidade escolhas acertadas e conquistas pelo mérito. No aspecto negativo pode gerar conservadorismo apego ao passado e dificuldade de inovar. A Potência 72 ensina que propósito claro gera destino firme",
+  
+73:"Generosidade e Expansão. A Potência 73 representa crescimento por meio da troca e cooperação. Rege a vida pelo equilíbrio entre dar e receber. No aspecto positivo manifesta prosperidade altruísmo reconhecimento social e expansão. No aspecto negativo pode gerar ilusões manipulação emocional e decepções. A Potência 73 ensina que generosidade precisa de discernimento",
+  
+74:"Crise e Reestruturação. A Potência 74 representa instabilidades que forçam reorganização interior. Rege a vida por testes de resistência emocional e material. No aspecto positivo manifesta superação aprendizado e reconstrução de valores. No aspecto negativo pode gerar insegurança perdas e conflitos internos. A Potência 74 ensina que crises constroem novas estruturas",
+  
+75:"Riqueza e Consolidação. A Potência 75 representa prosperidade material e segurança conquistada. Rege a vida pelo mérito e pela construção financeira. No aspecto positivo manifesta abundância estabilidade e realização profissional. No aspecto negativo pode gerar ganância apego material e desequilíbrio emocional. A Potência 75 ensina que riqueza exige consciência",
+  
+76:"Reconhecimento e Construção. A Potência 76 representa valorização do esforço e consolidação de projetos. Rege a vida pelo trabalho persistente. No aspecto positivo manifesta crescimento material sucesso e estabilidade. No aspecto negativo pode gerar desgaste pressão excessiva e ansiedade por resultados. A Potência 76 ensina que sucesso precisa de propósito",
+  
+77:"Iluminação e Transformação. A Potência 77 representa despertar espiritual e mudanças profundas. Rege a vida por libertação do passado e renovação de consciência. No aspecto positivo manifesta sabedoria oportunidades novas e evolução. No aspecto negativo pode gerar rupturas bruscas e instabilidade emocional. A Potência 77 ensina que evoluir exige desapego",
+  
+78:"Felicidade e Realização. A Potência 78 representa alegria conquistas e expansão positiva. Rege a vida por ciclos de prosperidade. No aspecto positivo manifesta sucesso celebrações e crescimento. No aspecto negativo pode gerar excessos ilusões e irresponsabilidade. A Potência 78 ensina que felicidade requer equilíbrio",
+  
+79:"Libertação e Renascimento. A Potência 79 representa ruptura com o passado e reconstrução da identidade. Rege a vida por autonomia e reinício de ciclos. No aspecto positivo manifesta independência crescimento pessoal e força interior. No aspecto negativo pode gerar instabilidade conflitos e isolamento. A Potência 79 ensina que libertar-se é renascer",
+  
+81:"Carma e Consciência. A Potência 81 representa colheita de ações passadas e tomada de consciência sobre responsabilidades. Indica momentos em que o indivíduo percebe a relação entre causa e efeito em sua própria vida. No aspecto positivo manifesta maturidade responsabilidade aprendizado cármico e evolução espiritual. No aspecto negativo pode gerar conflitos repetitivos dificuldades legais sensação de peso cármico e necessidade de reparação. A Potência 81 ensina que o presente é fruto do passado e o futuro é construído agora",
+
+82:"Recorrência e Ciclos. A Potência 82 representa repetição de padrões e ciclos de aprendizado. Indica fases em que situações semelhantes retornam até serem compreendidas. No aspecto positivo manifesta consciência dos próprios padrões capacidade de aprendizado e superação de ciclos negativos. No aspecto negativo pode gerar repetição de erros instabilidade emocional e sensação de estar preso à mesma situação. A Potência 82 ensina que reconhecer o padrão é o primeiro passo para transformá-lo",
+
+83:"Autodomínio e Harmonia. A Potência 83 representa controle emocional e domínio das próprias forças interiores. Indica busca por equilíbrio entre poder pessoal e sensibilidade. No aspecto positivo manifesta liderança equilibrada autocontrole sabedoria prática e realização pessoal. No aspecto negativo pode gerar manipulação rigidez emocional e excesso de controle sobre os outros. A Potência 83 ensina que o maior poder é dominar a si mesmo",
+
+84:"Missão e Realização Social. A Potência 84 representa alinhamento entre propósito pessoal e impacto coletivo. Indica atuação no mundo com responsabilidade social. No aspecto positivo manifesta liderança social influência positiva reconhecimento e senso de missão. No aspecto negativo pode gerar autoritarismo desgaste emocional e excesso de responsabilidade. A Potência 84 ensina que servir ao coletivo também faz parte da evolução pessoal",
+
+85:"Queda e Isolamento. A Potência 85 representa fases de crise interior e afastamento social para reflexão. Indica momentos de recolhimento forçado para reavaliação de vida. No aspecto positivo manifesta autoconhecimento reestruturação interna e transformação profunda. No aspecto negativo pode gerar perdas isolamento tristeza e sensação de abandono. A Potência 85 ensina que toda queda pode se tornar ponto de virada",
+
+86:"Luta e Determinação. A Potência 86 representa enfrentamento de obstáculos com firmeza e persistência. Indica períodos de prova que exigem coragem. No aspecto positivo manifesta força de vontade superação foco e conquista após esforço. No aspecto negativo pode gerar conflitos desgaste emocional e frustrações repetidas. A Potência 86 ensina que a vitória nasce da perseverança",
+
+87:"Excesso e Ilusão. A Potência 87 representa domínio das paixões e tentações materiais. Indica confronto com desejos intensos. No aspecto positivo manifesta libertação de vícios transformação interior e consciência dos próprios limites. No aspecto negativo pode gerar dependências exageros autossabotagem e ilusões. A Potência 87 ensina que controlar impulsos é essencial para evoluir",
+
+88:"Ruína e Transformação Radical. A Potência 88 representa colapsos que levam a mudanças profundas. Indica destruição de estruturas antigas para reconstrução. No aspecto positivo manifesta renascimento reconstrução e nova direção de vida. No aspecto negativo pode gerar perdas bruscas conflitos extremos e sensação de caos. A Potência 88 ensina que a destruição pode preparar a criação",
+
+89:"Frustração e Expectativa. A Potência 89 representa tensão entre desejo e realidade. Indica lições de paciência e maturidade emocional. No aspecto positivo manifesta aprendizado emocional amadurecimento e realinhamento de objetivos. No aspecto negativo pode gerar frustrações ansiedade e sensação de impotência. A Potência 89 ensina que nem tudo ocorre no tempo desejado mas no tempo necessário",
+
+90:"Sabedoria e Retiro. A Potência 90 representa introspecção profunda e busca espiritual. Indica fases de recolhimento para compreender a vida. No aspecto positivo manifesta prudência sabedoria autoconhecimento e visão ampliada. No aspecto negativo pode gerar isolamento excessivo estagnação e fuga da realidade. A Potência 90 ensina que o silêncio interior revela verdades profundas",
+  
+91:"Carma e Retorno. A Potência 91 representa o retorno das ações passadas e a colheita cármica. Rege a vida através da responsabilidade espiritual e da consciência de causa e efeito. No aspecto positivo manifesta reparação crescimento interior e amadurecimento espiritual. No aspecto negativo pode gerar solidão dificuldades repetitivas e sensação de peso cármico. A Potência 91 ensina que toda ação retorna ao seu autor",
+
+92:"Dúvida e Reavaliação. A Potência 92 representa períodos de questionamento interior e revisão de caminhos. Rege a vida pela necessidade de repensar escolhas e valores. No aspecto positivo manifesta reflexão amadurecimento e correção de rotas. No aspecto negativo pode gerar insegurança indecisão e estagnação. A Potência 92 ensina que a dúvida pode ser o início da sabedoria",
+
+93:"Sabedoria e Evolução. A Potência 93 representa expansão da consciência e evolução espiritual. Rege a vida pela busca de propósito e compreensão superior. No aspecto positivo manifesta clareza realização e crescimento interior. No aspecto negativo pode gerar rigidez de pensamento e distanciamento emocional. A Potência 93 ensina que evoluir é abandonar velhos padrões",
+
+94:"Desgaste e Transição. A Potência 94 representa fases de cansaço e encerramento de ciclos. Rege a vida pela necessidade de pausa e redirecionamento. No aspecto positivo manifesta reorientação aprendizado e mudança consciente. No aspecto negativo pode gerar perdas desânimo e sensação de solidão. A Potência 94 ensina que parar também faz parte do caminho",
+
+95:"Reconhecimento e Harmonia. A Potência 95 representa integração social amizade e equilíbrio emocional. Rege a vida pelas relações harmoniosas. No aspecto positivo manifesta aceitação sucesso social e estabilidade. No aspecto negativo pode gerar acomodação e dependência de aprovação. A Potência 95 ensina que o reconhecimento nasce da harmonia interior",
+
+96:"Ilusão e Dissolução. A Potência 96 representa dissolução do ego e confrontos emocionais profundos. Rege a vida pela necessidade de enxergar além das ilusões. No aspecto positivo manifesta libertação espiritual e clareza emocional. No aspecto negativo pode gerar paixões destrutivas e confusão sentimental. A Potência 96 ensina que a ilusão precisa cair para a consciência surgir",
+
+97:"Ruptura e Destino. A Potência 97 representa quebras de padrão que revelam a missão de vida. Rege a vida por acontecimentos marcantes que redirecionam o destino. No aspecto positivo manifesta libertação e descoberta de propósito. No aspecto negativo pode gerar conflitos existenciais e afastamentos. A Potência 97 ensina que o destino se revela nas rupturas",
+
+98:"Recompensa e Ascensão. A Potência 98 representa conquista reconhecimento e elevação de status. Rege a vida pela colheita dos méritos. No aspecto positivo manifesta poder influência e sucesso. No aspecto negativo pode gerar arrogância e sede de domínio. A Potência 98 ensina que o poder precisa de consciência",
+
+99:"Sabedoria Suprema. A Potência 99 representa culminação do ciclo evolutivo e domínio da própria essência. Rege a vida pela integração entre experiência e consciência. No aspecto positivo manifesta realização plena sabedoria e visão elevada. No aspecto negativo pode gerar isolamento excesso de controle e distanciamento emocional. A Potência 99 ensina que a verdadeira grandeza une poder sabedoria e consciência",
+  
+  
+};
+  
+const textosPessoal={
+11:"Força Interior e Autodomínio Emocional. Na Pirâmide Pessoal, a Potência 11 indica que a pessoa percebe a realidade como um campo de desafios emocionais que exigem coragem, firmeza e domínio interno. Existe a sensação de que a vida testa constantemente a sua força psicológica, como se fosse necessário manter controle sobre impulsos, reações e sentimentos intensos. No aspecto positivo manifesta autoconfiança emocional, coragem para enfrentar conflitos internos e capacidade de transformar tensão em crescimento psicológico. A pessoa sente que precisa ser forte por dentro e superar a si mesma repetidamente. No aspecto negativo pode gerar irritabilidade, impulsividade emocional e sensação de estar sempre em estado de alerta ou defesa. A Potência 11 ensina que a realidade é percebida como um processo de fortalecimento interior contínuo.",
+  
+12:"Renúncia Psicológica e Transformação Interior Profunda. Na Pirâmide Pessoal, a Potência 12 faz com que a pessoa perceba a realidade como um processo de aprendizado emocional que exige pausas, sacrifícios e mudanças internas. Surge a sensação de que a vida pede paciência, reflexão e abandono de padrões antigos para amadurecer emocionalmente. No aspecto positivo favorece humildade emocional, empatia e crescimento interior profundo. No aspecto negativo pode gerar sensação de estagnação, vitimização e dúvida sobre o próprio caminho. A Potência 12 ensina que a realidade é percebida como um processo de amadurecimento emocional lento e transformador.",
+  
+13:"Renascimento Psicológico e Mudança Interior. Na Pirâmide Pessoal, a Potência 13 faz com que a pessoa perceba a realidade como ciclos constantes de encerramento e recomeço emocional. Existe a sensação de que versões antigas de si mesmo precisam morrer para que novas surjam. No aspecto positivo promove libertação emocional, desapego e reconstrução da identidade interior. No aspecto negativo pode gerar medo de mudanças internas e dificuldade de soltar o passado. A Potência 13 ensina que a realidade é percebida como um processo contínuo de transformação psicológica.",
+  
+14:"Equilíbrio Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 14 indica que a pessoa percebe a realidade como uma busca constante por equilíbrio emocional. Existe a sensação de que é preciso conciliar sentimentos, pensamentos e reações internas para manter a paz interior. No aspecto positivo manifesta serenidade emocional, autocontrole e capacidade de lidar com conflitos internos com maturidade. No aspecto negativo pode gerar indecisão emocional e medo de confrontar sentimentos difíceis. A Potência 14 ensina que a realidade é percebida como um processo de harmonização interior.",
+  
+15:"Desejos Internos e Conflitos Emocionais. Na Pirâmide Pessoal, a Potência 15 faz com que a pessoa perceba a realidade como um campo de desejos intensos e conflitos emocionais. Existe a sensação de que a vida desperta paixões, vontades e impulsos que precisam ser compreendidos e direcionados. No aspecto positivo manifesta magnetismo emocional, criatividade e forte energia afetiva. No aspecto negativo pode gerar dependências emocionais, ciúmes e autossabotagem. A Potência 15 ensina que a realidade é percebida como uma experiência intensa de desejos e emoções.",
+  
+16:"Ruptura Interior e Despertar Psicológico. Na Pirâmide Pessoal, a Potência 16 faz com que a pessoa perceba a realidade como momentos de quebra de ilusões emocionais e mudanças internas inesperadas. Existe a sensação de que a vida frequentemente derruba certezas para revelar verdades mais profundas. No aspecto positivo promove clareza emocional, libertação de padrões mentais limitantes e amadurecimento psicológico acelerado. No aspecto negativo pode gerar crises internas, insegurança e medo de mudanças. A Potência 16 ensina que a realidade é percebida como um processo de despertar interior através de rupturas necessárias.",
+17:"Esperança Interior e Inspiração Emocional. Na Pirâmide Pessoal, a Potência 17 indica que a pessoa percebe a realidade com um olhar de esperança, fé e inspiração emocional. Existe a sensação de que sempre há um propósito maior guiando os acontecimentos da vida. No aspecto positivo manifesta sensibilidade, criatividade e confiança no futuro. No aspecto negativo pode gerar idealização excessiva e expectativas irreais. A Potência 17 ensina que a realidade é percebida como um caminho de esperança e renovação emocional.",
+  
+18:"Sensibilidade Profunda e Percepção Subconsciente. Na Pirâmide Pessoal, a Potência 18 faz com que a pessoa perceba a realidade de forma extremamente sensível e intuitiva. Existe forte conexão com emoções, medos e percepções inconscientes. No aspecto positivo desenvolve intuição, imaginação e autoconhecimento emocional. No aspecto negativo pode gerar ansiedade, insegurança e confusão emocional. A Potência 18 ensina que a realidade é percebida através das emoções e do subconsciente.",
+  
+19:"Clareza Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 19 indica que a pessoa percebe a realidade com sensação de clareza, vitalidade e crescimento emocional. Existe a percepção de que a vida oferece oportunidades de brilho pessoal e reconhecimento interno. No aspecto positivo manifesta autoestima, entusiasmo e confiança emocional. No aspecto negativo pode gerar orgulho e necessidade de validação constante. A Potência 19 ensina que a realidade é percebida como um processo de iluminação interior.",
+  
+21:"Sensação de Conclusão e Plenitude Emocional. Na Pirâmide Pessoal, a Potência 21 faz com que a pessoa perceba a realidade como ciclos de realização emocional e sensação de missão cumprida. Existe a percepção de fechamento de etapas importantes da vida interior. No aspecto positivo manifesta satisfação, maturidade emocional e sensação de completude. No aspecto negativo pode gerar acomodação emocional. A Potência 21 ensina que a realidade é percebida como ciclos de conclusão e integração interior.",
+  
+22:"Impulso de Liberdade Interior e Descoberta. Na Pirâmide Pessoal, a Potência 22 faz com que a pessoa perceba a realidade como um convite constante à liberdade emocional e novas experiências internas. Existe a sensação de necessidade de explorar sentimentos e possibilidades. No aspecto positivo manifesta espontaneidade, criatividade emocional e abertura ao novo. No aspecto negativo pode gerar impulsividade e instabilidade emocional. A Potência 22 ensina que a realidade é percebida como liberdade interior.",
+  
+23:"Autoconfiança Emocional e Sensação de Proteção. Na Pirâmide Pessoal, a Potência 23 faz com que a pessoa perceba a realidade como um caminho de crescimento interno guiado por mérito e esforço pessoal. Existe a sensação de que a vida recompensa o amadurecimento emocional. No aspecto positivo manifesta segurança interior e autoestima fortalecida. No aspecto negativo pode gerar rigidez emocional. A Potência 23 ensina que a realidade é percebida como conquista interior.",
+  
+24:"Busca de Estabilidade Emocional e Afetiva. Na Pirâmide Pessoal, a Potência 24 faz com que a pessoa perceba a realidade como necessidade de segurança emocional e vínculos afetivos estáveis. Existe forte desejo de harmonia e proteção emocional. No aspecto positivo manifesta equilíbrio, carinho e estabilidade emocional. No aspecto negativo pode gerar apego excessivo e medo de mudanças. A Potência 24 ensina que a realidade é percebida como busca de segurança emocional.",
+  
+25:"Movimento Emocional e Necessidade de Mudança. Na Pirâmide Pessoal, a Potência 25 indica que a pessoa percebe a realidade como períodos de transformação emocional e necessidade de ação interior. Existe a sensação de inquietação e desejo de mudança psicológica. No aspecto positivo manifesta coragem emocional e capacidade de superação. No aspecto negativo pode gerar impulsividade emocional. A Potência 25 ensina que a realidade é percebida como movimento interior constante.",
+  
+26:"Expectativa Interior e Potencial Emocional. Na Pirâmide Pessoal, a Potência 26 faz com que a pessoa perceba a realidade como fase de preparação emocional para conquistas futuras. Existe sensação de potencial em desenvolvimento. No aspecto positivo manifesta entusiasmo e crescimento emocional gradual. No aspecto negativo pode gerar frustração e ansiedade. A Potência 26 ensina que a realidade é percebida como fase de preparação interior.",
+  
+27:"Desafios Emocionais e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 27 indica que a pessoa percebe a realidade como testes emocionais que exigem adaptação e fortalecimento psicológico. No aspecto positivo manifesta resiliência e renovação emocional. No aspecto negativo pode gerar sobrecarga emocional. A Potência 27 ensina que a realidade é percebida como processo de superação interior.",
+  
+28:"Prudência Emocional e Planejamento Interno. Na Pirâmide Pessoal, a Potência 28 faz com que a pessoa perceba a realidade com cautela emocional e necessidade de planejamento interno. Existe desejo de segurança psicológica antes de agir. No aspecto positivo manifesta equilíbrio e maturidade emocional. No aspecto negativo pode gerar medo de arriscar emocionalmente. A Potência 28 ensina que a realidade é percebida com prudência interior.",
+  
+29:"Expansão Emocional e Reconhecimento Interno. Na Pirâmide Pessoal, a Potência 29 indica que a pessoa percebe a realidade como crescimento emocional e reconhecimento do próprio valor interior. No aspecto positivo manifesta alegria emocional e autoconfiança. No aspecto negativo pode gerar ambição emocional excessiva. A Potência 29 ensina que a realidade é percebida como expansão interior.",
+  
+30:"Silêncio Interior e Incubação Emocional. Na Pirâmide Pessoal, a Potência 30 faz com que a pessoa perceba a realidade como momentos de pausa, reflexão e amadurecimento interno antes de agir. No aspecto positivo manifesta introspecção e fortalecimento emocional. No aspecto negativo pode gerar procrastinação e medo de agir. A Potência 30 ensina que a realidade é percebida como tempo de preparação interior.",
+  
+31:"Disciplina Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 31 faz com que a pessoa perceba a realidade como um processo que exige disciplina emocional e constância interior. Existe a sensação de que a vida pede responsabilidade psicológica, organização mental e construção gradual de segurança interna. No aspecto positivo manifesta perseverança, maturidade emocional e confiança construída com o tempo. No aspecto negativo pode gerar rigidez emocional, autocobrança excessiva e medo de mudanças internas. A Potência 31 ensina que a realidade é percebida como uma construção emocional contínua baseada em disciplina e estabilidade.",
+  
+32:"Busca de Estabilidade Emocional e Reconhecimento Interior. Na Pirâmide Pessoal, a Potência 32 faz com que a pessoa perceba a realidade como uma busca constante por equilíbrio emocional e validação interna. Surge a sensação de que é importante sentir segurança emocional e estabilidade psicológica nas relações e decisões. No aspecto positivo manifesta sensação de apoio emocional, harmonia interna e segurança afetiva. No aspecto negativo pode gerar dependência de aprovação, medo de perder estabilidade e dificuldade em lidar com mudanças. A Potência 32 ensina que a realidade é percebida como uma busca por segurança emocional e reconhecimento interno.",
+  
+33:"Expansão Interior e Crescimento Emocional. Na Pirâmide Pessoal, a Potência 33 faz com que a pessoa perceba a realidade como um caminho de crescimento emocional e amadurecimento interno. Existe a sensação de que a vida estimula expansão da consciência e evolução psicológica constante. No aspecto positivo manifesta otimismo, confiança emocional e sensação de crescimento interior. No aspecto negativo pode gerar excesso de expectativas e frustração quando o progresso parece lento. A Potência 33 ensina que a realidade é percebida como um processo contínuo de expansão emocional.",
+  
+34:"Criatividade Psicológica e Expressão Interior. Na Pirâmide Pessoal, a Potência 34 faz com que a pessoa perceba a realidade como um espaço de criação emocional e expressão do mundo interno. Existe a sensação de que sentimentos e pensamentos precisam encontrar formas de expressão. No aspecto positivo manifesta criatividade emocional, inspiração e vontade de criar. No aspecto negativo pode gerar ansiedade, inquietação emocional e dispersão mental. A Potência 34 ensina que a realidade é percebida como um campo de expressão da identidade interior.",
+  
+35:"Crises Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 35 faz com que a pessoa perceba a realidade como um processo de questionamento e introspecção constante. Existe a sensação de enfrentar dúvidas, reflexões profundas e crises emocionais que levam ao autoconhecimento. No aspecto positivo manifesta maturidade emocional e capacidade de reflexão profunda. No aspecto negativo pode gerar melancolia, isolamento e excesso de preocupação. A Potência 35 ensina que a realidade é percebida como um caminho de autoconhecimento através da reflexão.",
+  
+36:"Rupturas Emocionais e Renovação Interior. Na Pirâmide Pessoal, a Potência 36 faz com que a pessoa perceba a realidade como mudanças internas inevitáveis e libertadoras. Existe a sensação de que padrões emocionais antigos precisam ser quebrados para que novas versões de si surjam. No aspecto positivo manifesta libertação emocional e renovação interior. No aspecto negativo pode gerar instabilidade emocional e medo do desconhecido. A Potência 36 ensina que a realidade é percebida como um processo de renovação emocional constante.",
+  
+37:"Equilíbrio Emocional e Mediação Interna. Na Pirâmide Pessoal, a Potência 37 faz com que a pessoa perceba a realidade como uma busca por equilíbrio entre sentimentos, pensamentos e relações internas. Existe a sensação de precisar harmonizar emoções e evitar conflitos internos. No aspecto positivo manifesta empatia, sensibilidade e harmonia emocional. No aspecto negativo pode gerar preocupação excessiva com aprovação e dificuldade em impor limites. A Potência 37 ensina que a realidade é percebida como uma busca por equilíbrio emocional.",
+  
+38:"Sensibilidade Emocional e Expressão Afetiva. Na Pirâmide Pessoal, a Potência 38 faz com que a pessoa perceba a realidade através das emoções e da sensibilidade afetiva. Existe a sensação de viver sentimentos intensamente e buscar formas de expressá-los. No aspecto positivo manifesta empatia, comunicação emocional e criatividade afetiva. No aspecto negativo pode gerar exageros emocionais e oscilações de humor. A Potência 38 ensina que a realidade é percebida como uma experiência emocional intensa.",
+  
+39:"Amor Interior e Conexão Emocional. Na Pirâmide Pessoal, a Potência 39 faz com que a pessoa perceba a realidade como um campo de vínculos, afeto e conexões emocionais profundas. Existe a sensação de que o amor e a conexão emocional são fundamentais para a vida. No aspecto positivo manifesta empatia, carinho e desejo de conexão. No aspecto negativo pode gerar dependência emocional e ilusões afetivas. A Potência 39 ensina que a realidade é percebida através do coração.",
+  
+40:"Renovação Emocional e Novos Sentimentos. Na Pirâmide Pessoal, a Potência 40 faz com que a pessoa perceba a realidade como ciclos de renovação emocional. Existe a sensação de que novos sentimentos e experiências afetivas surgem ao longo da vida. No aspecto positivo manifesta crescimento emocional e fortalecimento afetivo. No aspecto negativo pode gerar insegurança emocional e medo de se abrir. A Potência 40 ensina que a realidade é percebida como um fluxo contínuo de renovação emocional.",
+  
+41:"Felicidade Interior e Busca por Harmonia. Na Pirâmide Pessoal, a Potência 41 faz com que a pessoa perceba a realidade como uma busca por felicidade emocional e bem-estar interior. Existe a sensação de querer viver em paz consigo mesma e manter relações equilibradas. No aspecto positivo manifesta alegria, estabilidade emocional e sensação de pertencimento. No aspecto negativo pode gerar medo de perder a estabilidade e dependência emocional. A Potência 41 ensina que a realidade é percebida como uma busca por felicidade interior.",
+  
+42:"Expansão Emocional e Realização Pessoal. Na Pirâmide Pessoal, a Potência 42 faz com que a pessoa perceba a realidade como oportunidades de crescimento e realização emocional. Existe a sensação de expansão da vida interior e conquista de objetivos pessoais. No aspecto positivo manifesta entusiasmo, esperança e confiança emocional. No aspecto negativo pode gerar excessos e expectativas irreais. A Potência 42 ensina que a realidade é percebida como expansão emocional.",
+  
+43:"Conflitos Internos e Despertar Emocional. Na Pirâmide Pessoal, a Potência 43 faz com que a pessoa perceba a realidade como desafios emocionais que despertam consciência. Existe a sensação de enfrentar conflitos internos que levam ao amadurecimento psicológico. No aspecto positivo manifesta autoconhecimento e libertação emocional. No aspecto negativo pode gerar tensão emocional e crises afetivas. A Potência 43 ensina que a realidade é percebida como transformação através dos conflitos.",
+  
+44:"Clareza Mental e Decisões Internas. Na Pirâmide Pessoal, a Potência 44 faz com que a pessoa perceba a realidade como necessidade de compreensão e decisões conscientes. Existe a sensação de precisar entender a si mesma antes de agir. No aspecto positivo manifesta lucidez emocional e discernimento. No aspecto negativo pode gerar indecisão e excesso de análise. A Potência 44 ensina que a realidade é percebida através da clareza interior.",
+  
+45:"Memórias e Cura Emocional. Na Pirâmide Pessoal, a Potência 45 faz com que a pessoa perceba a realidade como um processo de revisitar o passado para curar emoções antigas. Existe a sensação de aprendizado através da memória emocional. No aspecto positivo manifesta cura, reconciliação e amadurecimento. No aspecto negativo pode gerar apego ao passado e melancolia. A Potência 45 ensina que a realidade é percebida como um processo de cura emocional.",
+  
+46:"Desilusões e Verdades Emocionais. Na Pirâmide Pessoal, a Potência 46 faz com que a pessoa perceba a realidade como confrontos com verdades emocionais. Existe a sensação de quebra de expectativas que levam ao amadurecimento psicológico. No aspecto positivo manifesta crescimento emocional e libertação de ilusões. No aspecto negativo pode gerar frustração e tristeza. A Potência 46 ensina que a realidade é percebida como revelação emocional.",
+  
+47:"Introspecção e Conflito Interior Profundo. Na Pirâmide Pessoal, a Potência 47 faz com que a pessoa perceba a realidade como um chamado ao recolhimento e reflexão. Existe a sensação de viver conflitos internos que exigem silêncio e introspecção. No aspecto positivo manifesta autoconhecimento profundo. No aspecto negativo pode gerar isolamento emocional. A Potência 47 ensina que a realidade é percebida através da introspecção.",
+  
+48:"Abundância Emocional e Expansão Afetiva. Na Pirâmide Pessoal, a Potência 48 faz com que a pessoa perceba a realidade como momentos de alegria, celebração e expansão emocional. Existe a sensação de viver fases de felicidade e prosperidade interior. No aspecto positivo manifesta entusiasmo e alegria emocional. No aspecto negativo pode gerar excessos emocionais. A Potência 48 ensina que a realidade é percebida como abundância emocional.",
+  
+49:"Amor Próprio e Independência Emocional. Na Pirâmide Pessoal, a Potência 49 faz com que a pessoa perceba a realidade como aprendizado sobre amar sem perder a própria identidade. Existe a sensação de equilibrar autonomia e afeto. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar conflitos afetivos. A Potência 49 ensina que a realidade é percebida como equilíbrio entre amor e autonomia.",
+  
+50:"União Emocional e Estrutura Interior. Na Pirâmide Pessoal, a Potência 50 faz com que a pessoa perceba a realidade como construção de vínculos e segurança emocional. Existe a sensação de querer criar bases afetivas sólidas. No aspecto positivo manifesta estabilidade emocional e segurança interior. No aspecto negativo pode gerar ciúmes e necessidade de controle. A Potência 50 ensina que a realidade é percebida como construção de vínculos emocionais.",
+  
+51:"Sabedoria Interior e Liderança Psicológica. Na Pirâmide Pessoal, a Potência 51 faz com que a pessoa perceba a realidade como um processo que exige maturidade emocional e decisões conscientes. Existe a sensação de precisar conduzir a própria vida com lucidez e equilíbrio interno. No aspecto positivo manifesta clareza mental, autoconfiança emocional e capacidade de orientar a si mesma. No aspecto negativo pode gerar excesso de racionalidade, frieza emocional e tendência ao isolamento. A Potência 51 ensina que a realidade é percebida como um exercício constante de liderança interior.",
+  
+52:"Autodomínio e Aperfeiçoamento Interior. Na Pirâmide Pessoal, a Potência 52 faz com que a pessoa perceba a realidade como um caminho de disciplina emocional e evolução pessoal. Existe a sensação de que a vida exige organização interna e autoconhecimento constante. No aspecto positivo manifesta foco emocional e fortalecimento da identidade. No aspecto negativo pode gerar perfeccionismo e autocrítica intensa. A Potência 52 ensina que a realidade é percebida como busca por aprimoramento interior.",
+  
+53:"Transformações Emocionais e Quebra de Padrões. Na Pirâmide Pessoal, a Potência 53 faz com que a pessoa perceba a realidade como mudanças internas profundas. Existe a sensação de precisar abandonar versões antigas de si mesma para evoluir emocionalmente. No aspecto positivo manifesta coragem emocional e crescimento interior. No aspecto negativo pode gerar instabilidade e conflitos internos. A Potência 53 ensina que a realidade é percebida como transformação constante.",
+  
+54:"Tensão Interior e Vigilância Emocional. Na Pirâmide Pessoal, a Potência 54 faz com que a pessoa perceba a realidade como um ambiente que exige cautela emocional. Existe a sensação de precisar estar sempre alerta internamente. No aspecto positivo manifesta prudência emocional e percepção aguçada. No aspecto negativo pode gerar ansiedade e desconfiança. A Potência 54 ensina que a realidade é percebida como necessidade de atenção emocional.",
+  
+55:"Fim de Ciclos Internos e Renascimento Psicológico. Na Pirâmide Pessoal, a Potência 55 faz com que a pessoa perceba a realidade como encerramentos emocionais seguidos de renascimentos internos. No aspecto positivo manifesta superação e reconstrução emocional. No aspecto negativo pode gerar tristeza profunda e sensação de perda. A Potência 55 ensina que a realidade é percebida como ciclos de morte e renascimento interior.",
+  
+56:"Provações Emocionais e Fortalecimento Interior. Na Pirâmide Pessoal, a Potência 56 faz com que a pessoa perceba a realidade como testes emocionais que exigem resistência psicológica. No aspecto positivo manifesta resiliência emocional. No aspecto negativo pode gerar sofrimento interno e bloqueios emocionais. A Potência 56 ensina que a realidade é percebida como fortalecimento através das dificuldades.",
+  
+57:"Dilemas Internos e Escolhas Emocionais. Na Pirâmide Pessoal, a Potência 57 faz com que a pessoa perceba a realidade como uma sequência de decisões internas importantes. No aspecto positivo manifesta discernimento emocional. No aspecto negativo pode gerar indecisão e medo de agir. A Potência 57 ensina que a realidade é percebida como escolhas que moldam o mundo interior.",
+  
+58:"Crises Psicológicas e Despertar Interior. Na Pirâmide Pessoal, a Potência 58 faz com que a pessoa perceba a realidade como crises que despertam consciência. No aspecto positivo manifesta autoconhecimento profundo. No aspecto negativo pode gerar sensação de caos emocional. A Potência 58 ensina que a realidade é percebida como despertar através das crises.",
+  
+59:"Descobertas Emocionais e Expansão Interior. Na Pirâmide Pessoal, a Potência 59 faz com que a pessoa perceba a realidade como revelações internas e crescimento psicológico. No aspecto positivo manifesta entusiasmo emocional. No aspecto negativo pode gerar confusão interna. A Potência 59 ensina que a realidade é percebida como descoberta contínua.",
+  
+61:"Recolhimento Interior e Recuperação Emocional. Na Pirâmide Pessoal, a Potência 61 faz com que a pessoa perceba a realidade como necessidade de pausas e silêncio emocional. No aspecto positivo manifesta introspecção e equilíbrio. No aspecto negativo pode gerar isolamento. A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.",
+  
+62:"Dor Emocional e Libertação Interior. Na Pirâmide Pessoal, a Potência 62 faz com que a pessoa perceba a realidade como processo de cura emocional. No aspecto positivo manifesta perdão e libertação interna. No aspecto negativo pode gerar tristeza e apego ao passado. A Potência 62 ensina que a realidade é percebida como libertação emocional.",
+  
+63:"Dúvidas Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 63 faz com que a pessoa perceba a realidade como fase de questionamentos. No aspecto positivo manifesta análise e reorganização interna. No aspecto negativo pode gerar insegurança e bloqueios. A Potência 63 ensina que a realidade é percebida como processo de reflexão.",
+64:"Persistência Emocional e Superação Interior. Na Pirâmide Pessoal, a Potência 64 faz com que a pessoa perceba a realidade como luta interna constante. No aspecto positivo manifesta força emocional. No aspecto negativo pode gerar rigidez emocional. A Potência 64 ensina que a realidade é percebida como superação contínua.",
+  
+65:"Ascensão Interior e Busca de Propósito. Na Pirâmide Pessoal, a Potência 65 faz com que a pessoa perceba a realidade como crescimento interior alinhado ao propósito de vida. No aspecto positivo manifesta clareza emocional. No aspecto negativo pode gerar ambição excessiva. A Potência 65 ensina que a realidade é percebida como busca de propósito.",
+  
+66:"Autenticidade Emocional e Expressão do Eu. Na Pirâmide Pessoal, a Potência 66 faz com que a pessoa perceba a realidade como necessidade de ser verdadeira consigo mesma. No aspecto positivo manifesta identidade forte. No aspecto negativo pode gerar medo de julgamento. A Potência 66 ensina que a realidade é percebida como busca por autenticidade.",
+  
+67:"Confiança Interior e Realização Psicológica. Na Pirâmide Pessoal, a Potência 67 faz com que a pessoa perceba a realidade como capacidade de concretizar sonhos internos. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar materialismo emocional. A Potência 67 ensina que a realidade é percebida como concretização interior.",
+  
+68:"Valor Pessoal e Autoestima Emocional. Na Pirâmide Pessoal, a Potência 68 faz com que a pessoa perceba a realidade como reconhecimento do próprio valor. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar vaidade emocional. A Potência 68 ensina que a realidade é percebida como valorização interior.",
+  
+69:"Plenitude Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 69 faz com que a pessoa perceba a realidade como colheita emocional. No aspecto positivo manifesta felicidade interna. No aspecto negativo pode gerar excesso de satisfação e acomodação. A Potência 69 ensina que a realidade é percebida como plenitude interior.",
+  
+70:"Autossuficiência Emocional e Segurança Interna. Na Pirâmide Pessoal, a Potência 70 faz com que a pessoa perceba a realidade como busca por independência emocional. No aspecto positivo manifesta estabilidade interior. No aspecto negativo pode gerar isolamento emocional. A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.",
+  
+71:"Prudência Emocional e Conservação Interior. Na Pirâmide Pessoal, a Potência 71 faz com que a pessoa perceba a realidade como necessidade de preservar conquistas emocionais. No aspecto positivo manifesta maturidade e planejamento. No aspecto negativo pode gerar medo de mudanças. A Potência 71 ensina que a realidade é percebida como preservação interior.",
+  
+72:"Clareza Mental e Direção Emocional. Na Pirâmide Pessoal, a Potência 72 faz com que a pessoa perceba a realidade como busca por direção clara. No aspecto positivo manifesta discernimento. No aspecto negativo pode gerar rigidez emocional. A Potência 72 ensina que a realidade é percebida como clareza interior.",
+  
+73:"Generosidade Emocional e Trocas Afetivas. Na Pirâmide Pessoal, a Potência 73 faz com que a pessoa perceba a realidade como trocas emocionais constantes. No aspecto positivo manifesta empatia. No aspecto negativo pode gerar ilusões afetivas. A Potência 73 ensina que a realidade é percebida como troca emocional.",
+  
+74:"Instabilidade Interior e Reconstrução Emocional. Na Pirâmide Pessoal, a Potência 74 faz com que a pessoa perceba a realidade como necessidade de reorganização interna. No aspecto positivo manifesta superação emocional. No aspecto negativo pode gerar insegurança. A Potência 74 ensina que a realidade é percebida como reconstrução interior.",
+  
+75:"Segurança Emocional e Consolidação Interior. Na Pirâmide Pessoal, a Potência 75 faz com que a pessoa perceba a realidade como busca por estabilidade emocional. No aspecto positivo manifesta segurança interna. No aspecto negativo pode gerar apego emocional. A Potência 75 ensina que a realidade é percebida como consolidação emocional.",
+  
+76:"Reconhecimento Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 76 faz com que a pessoa perceba a realidade como valorização do próprio esforço interno. No aspecto positivo manifesta crescimento emocional. No aspecto negativo pode gerar ansiedade por resultados. A Potência 76 ensina que a realidade é percebida como reconhecimento interior.",
+  
+77:"Despertar Espiritual e Transformação Psicológica. Na Pirâmide Pessoal, a Potência 77 faz com que a pessoa perceba a realidade como evolução espiritual interna. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar instabilidade emocional. A Potência 77 ensina que a realidade é percebida como despertar interior.",
+  
+78:"Alegria Interior e Expansão Emocional. Na Pirâmide Pessoal, a Potência 78 faz com que a pessoa perceba a realidade como fases de felicidade emocional. No aspecto positivo manifesta entusiasmo e alegria. No aspecto negativo pode gerar excessos emocionais. A Potência 78 ensina que a realidade é percebida como expansão emocional.",
+  
+79:"Libertação Emocional e Novo Começo Interior. Na Pirâmide Pessoal, a Potência 79 faz com que a pessoa perceba a realidade como necessidade de recomeçar emocionalmente. No aspecto positivo manifesta independência emocional. No aspecto negativo pode gerar instabilidade. A Potência 79 ensina que a realidade é percebida como libertação.",
+  
+81:"Consciência Cármica e Responsabilidade Interior. Na Pirâmide Pessoal, a Potência 81 faz com que a pessoa perceba a realidade como aprendizado através das consequências. No aspecto positivo manifesta maturidade emocional. No aspecto negativo pode gerar sensação de peso emocional. A Potência 81 ensina que a realidade é percebida como responsabilidade interior.",
+  
+82:"Ciclos Emocionais e Padrões Internos. Na Pirâmide Pessoal, a Potência 82 faz com que a pessoa perceba a realidade como repetição de padrões emocionais. No aspecto positivo manifesta consciência dos ciclos. No aspecto negativo pode gerar sensação de repetição constante. A Potência 82 ensina que a realidade é percebida como ciclos emocionais.",
+  
+83:"Autocontrole Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 83 faz com que a pessoa perceba a realidade como busca por domínio emocional. No aspecto positivo manifesta equilíbrio interno. No aspecto negativo pode gerar controle excessivo. A Potência 83 ensina que a realidade é percebida como autodomínio.",
+  
+84:"Propósito Interior e Missão Emocional. Na Pirâmide Pessoal, a Potência 84 faz com que a pessoa perceba a realidade como desejo de ter propósito. No aspecto positivo manifesta senso de missão interna. No aspecto negativo pode gerar sobrecarga emocional. A Potência 84 ensina que a realidade é percebida como missão interior.",
+  
+85:"Crise Interior e Recolhimento Emocional. Na Pirâmide Pessoal, a Potência 85 faz com que a pessoa perceba a realidade como períodos de isolamento emocional. No aspecto positivo manifesta transformação interior. No aspecto negativo pode gerar tristeza profunda. A Potência 85 ensina que a realidade é percebida como reflexão profunda.",
+  
+86:"Persistência Emocional e Determinação Interna. Na Pirâmide Pessoal, a Potência 86 faz com que a pessoa perceba a realidade como desafios que exigem força emocional. No aspecto positivo manifesta determinação. No aspecto negativo pode gerar desgaste emocional. A Potência 86 ensina que a realidade é percebida como perseverança.",
+  
+87:"Controle de Impulsos e Conflitos Internos. Na Pirâmide Pessoal, a Potência 87 faz com que a pessoa perceba a realidade como luta contra excessos emocionais. No aspecto positivo manifesta libertação de vícios emocionais. No aspecto negativo pode gerar autossabotagem. A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.",
+  
+88:"Colapso Emocional e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 88 faz com que a pessoa perceba a realidade como mudanças profundas internas. No aspecto positivo manifesta renascimento emocional. No aspecto negativo pode gerar sensação de caos interior. A Potência 88 ensina que a realidade é percebida como reconstrução.",
+  
+89:"Expectativas Emocionais e Aprendizado Interior. Na Pirâmide Pessoal, a Potência 89 faz com que a pessoa perceba a realidade como tensão entre desejo e realidade emocional. No aspecto positivo manifesta amadurecimento. No aspecto negativo pode gerar frustração. A Potência 89 ensina que a realidade é percebida como aprendizado emocional.",
+  
+90:"Sabedoria Interior e Silêncio Emocional. Na Pirâmide Pessoal, a Potência 90 faz com que a pessoa perceba a realidade como necessidade de introspecção profunda. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar isolamento. A Potência 90 ensina que a realidade é percebida como busca espiritual interior.",
+  
+91:"Retorno Emocional e Responsabilidade Psicológica. Na Pirâmide Pessoal, a Potência 91 faz com que a pessoa perceba a realidade como retorno de suas próprias ações emocionais. No aspecto positivo manifesta maturidade. No aspecto negativo pode gerar sensação de peso emocional. A Potência 91 ensina que a realidade é percebida como retorno interno.",
+  
+92:"Reavaliação Interior e Questionamentos Emocionais. Na Pirâmide Pessoal, a Potência 92 faz com que a pessoa perceba a realidade como revisão constante de escolhas internas. No aspecto positivo manifesta reflexão profunda. No aspecto negativo pode gerar insegurança emocional. A Potência 92 ensina que a realidade é percebida como reavaliação.",
+  
+93:"Expansão Espiritual e Evolução Interior. Na Pirâmide Pessoal, a Potência 93 faz com que a pessoa perceba a realidade como crescimento espiritual e emocional. No aspecto positivo manifesta consciência elevada. No aspecto negativo pode gerar distanciamento emocional. A Potência 93 ensina que a realidade é percebida como evolução.",
+  
+94:"Cansaço Emocional e Transição Interior. Na Pirâmide Pessoal, a Potência 94 faz com que a pessoa perceba a realidade como necessidade de pausa emocional. No aspecto positivo manifesta reorientação interna. No aspecto negativo pode gerar desânimo. A Potência 94 ensina que a realidade é percebida como transição.",
+  
+95:"Harmonia Interior e Reconhecimento Emocional. Na Pirâmide Pessoal, a Potência 95 faz com que a pessoa perceba a realidade como busca por equilíbrio emocional nas relações. No aspecto positivo manifesta aceitação emocional. No aspecto negativo pode gerar dependência de aprovação. A Potência 95 ensina que a realidade é percebida como harmonia.",
+  
+96:"Queda de Ilusões e Clareza Emocional. Na Pirâmide Pessoal, a Potência 96 faz com que a pessoa perceba a realidade como confronto com ilusões internas. No aspecto positivo manifesta libertação emocional. No aspecto negativo pode gerar confusão afetiva. A Potência 96 ensina que a realidade é percebida como despertar emocional.",
+  
+97:"Rupturas Emocionais e Descoberta Interior. Na Pirâmide Pessoal, a Potência 97 faz com que a pessoa perceba a realidade como mudanças que revelam propósito emocional. No aspecto positivo manifesta libertação. No aspecto negativo pode gerar conflitos internos. A Potência 97 ensina que a realidade é percebida como redirecionamento.",
+  
+98:"Reconhecimento Interior e Elevação Emocional. Na Pirâmide Pessoal, a Potência 98 faz com que a pessoa perceba a realidade como recompensa emocional por esforços internos. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar orgulho emocional. A Potência 98 ensina que a realidade é percebida como reconhecimento.",
+  
+99:"Consciência Suprema e Integração Interior. Na Pirâmide Pessoal, a Potência 99 faz com que a pessoa perceba a realidade como integração total da experiência emocional. No aspecto positivo manifesta sabedoria profunda. No aspecto negativo pode gerar isolamento emocional. A Potência 99 ensina que a realidade é percebida como integração da consciência."};
+const textosSocial={ 
+11:"Força Social e Percepção de Liderança. Na Pirâmide Social, a Potência 11 indica que a pessoa é percebida no ambiente externo como alguém de presença forte, determinada e naturalmente associada à liderança. Ao mesmo tempo, ela também percebe o meio social dessa forma: enxerga relações como campos de força, iniciativa e tomada de decisões. Costuma notar quem assume o controle, quem lidera e quem evita responsabilidades. No aspecto positivo manifesta postura firme, iniciativa e capacidade de conduzir situações coletivas. No aspecto negativo pode ser vista como autoritária e também perceber o ambiente como competitivo ou exigente demais. A Potência 11 mostra que a pessoa vive e percebe o mundo social como um cenário de liderança e afirmação.",
+12:"Cooperação Social e Percepção de Sacrifício. Na Pirâmide Social, a Potência 12 indica que a pessoa é percebida como colaborativa, paciente e disposta a ajudar. Paralelamente, ela percebe o ambiente social como um espaço onde as pessoas precisam ceder, colaborar e sustentar processos coletivos. Costuma notar quem ajuda, quem se sacrifica e quem evita responsabilidades. No aspecto positivo manifesta espírito de equipe e empatia. No aspecto negativo pode ser vista como alguém que se doa demais e perceber o meio como pesado ou exigente. A Potência 12 revela uma vivência social marcada pela cooperação.",
+13:"Transformação Social e Percepção de Mudanças. Na Pirâmide Social, a Potência 13 indica que a pessoa é percebida como alguém que passa por mudanças e provoca transformações no ambiente. Ao mesmo tempo, percebe o meio social como instável e em constante renovação, notando ciclos de começo e fim nas relações e no trabalho. No aspecto positivo manifesta coragem para mudanças. No aspecto negativo pode ser vista como instável e perceber o meio como imprevisível. A Potência 13 mostra uma vivência social marcada por transformações.",
+14:"Diplomacia Social e Percepção de Harmonia. Na Pirâmide Social, a Potência 14 indica que a pessoa é percebida como conciliadora e diplomática. Também percebe o ambiente social como um espaço que exige equilíbrio, diálogo e mediação. Costuma notar tensões e buscar harmonia nas relações. No aspecto positivo manifesta cooperação e capacidade de mediação. No aspecto negativo pode ser vista como indecisa e perceber conflitos com desconforto. A Potência 14 revela percepção social voltada ao equilíbrio.",
+15:"Magnetismo Social e Percepção de Influência. Na Pirâmide Social, a Potência 15 indica que a pessoa é percebida como carismática e influente. Também percebe o ambiente como cheio de interesses, desejos e disputas por poder. Costuma notar jogos de influência e persuasão. No aspecto positivo manifesta magnetismo e criatividade. No aspecto negativo pode ser vista como manipuladora e perceber o meio como competitivo. A Potência 15 mostra percepção social ligada ao poder de influência.",
+16:"Rupturas Sociais e Percepção de Instabilidade. Na Pirâmide Social, a Potência 16 indica que a pessoa é percebida como alguém que vive mudanças externas importantes. Também percebe o meio como sujeito a quedas, crises e recomeços. Costuma notar rupturas em ambientes e relações. No aspecto positivo manifesta capacidade de reconstrução. No aspecto negativo pode ser vista como instável e perceber o ambiente como inseguro. A Potência 16 revela percepção social de mudanças bruscas.",
+17:"Inspiração Social e Percepção de Esperança. Na Pirâmide Social, a Potência 17 indica que a pessoa é percebida como inspiradora e otimista. Também percebe o ambiente social como cheio de sonhos, talentos e possibilidades. Costuma notar potencial nas pessoas e nas situações. No aspecto positivo manifesta entusiasmo e motivação coletiva. No aspecto negativo pode ser vista como idealista demais. A Potência 17 revela percepção social baseada na esperança.",
+18:"Sensibilidade Social e Percepção Emocional. Na Pirâmide Social, a Potência 18 indica que a pessoa é percebida como sensível e intuitiva. Também percebe o ambiente social de forma emocional e profunda, notando sentimentos ocultos e tensões invisíveis. No aspecto positivo manifesta empatia e percepção aguçada. No aspecto negativo pode ser vista como insegura e perceber o ambiente como confuso. A Potência 18 revela percepção social emocional.",
+19:"Reconhecimento Social e Percepção de Brilho. Na Pirâmide Social, a Potência 19 indica que a pessoa é percebida como alguém que se destaca e chama atenção positivamente. Também percebe o meio como um espaço de reconhecimento e visibilidade, notando quem brilha e quem busca destaque. No aspecto positivo manifesta carisma e sucesso social. No aspecto negativo pode ser vista como vaidosa e perceber o ambiente como competitivo. A Potência 19 revela percepção social ligada ao reconhecimento.",
+21:"Realização Social e Percepção de Conquistas. Na Pirâmide Social, a Potência 21 indica que a pessoa é percebida como alguém que busca conclusão de ciclos e realização no meio externo. Também percebe o ambiente social como um espaço de conquistas, metas atingidas e reconhecimento coletivo. Costuma notar quem alcança resultados e quem encerra fases importantes. No aspecto positivo manifesta sensação de missão cumprida, reconhecimento e estabilidade. No aspecto negativo pode ser vista como acomodada e perceber o meio como repetitivo. A Potência 21 revela percepção social voltada à realização e fechamento de ciclos.",
+22:"Liberdade Social e Percepção de Oportunidades. Na Pirâmide Social, a Potência 22 indica que a pessoa é percebida como ousada, aberta a novidades e pronta para explorar novos caminhos. Ao mesmo tempo, percebe o meio social como cheio de oportunidades, riscos e possibilidades de mudança. Costuma notar portas se abrindo e novos caminhos surgindo. No aspecto positivo manifesta inovação e coragem social. No aspecto negativo pode ser vista como impulsiva e perceber o ambiente como instável. A Potência 22 revela percepção social de liberdade e novos caminhos.",
+23:"Proteção Social e Percepção de Mérito. Na Pirâmide Social, a Potência 23 indica que a pessoa é percebida como competente e merecedora de reconhecimento. Também percebe o ambiente como regido pelo mérito, esforço e responsabilidade. Costuma notar quem conquista espaço pelo próprio trabalho. No aspecto positivo manifesta liderança confiável e apoio social. No aspecto negativo pode ser vista como rígida e perceber o meio como exigente. A Potência 23 revela percepção social baseada no mérito.",
+24:"Harmonia Social e Percepção de Estabilidade. Na Pirâmide Social, a Potência 24 indica que a pessoa é percebida como alguém que busca segurança, estabilidade e relações duradouras. Também percebe o ambiente social como espaço de vínculos, parcerias e proteção coletiva. Costuma notar a importância das relações e do apoio mútuo. No aspecto positivo manifesta cooperação e confiança. No aspecto negativo pode ser vista como acomodada e perceber o ambiente como conservador. A Potência 24 revela percepção social voltada à estabilidade.",
+25:"Ação Social e Percepção de Movimento. Na Pirâmide Social, a Potência 25 indica que a pessoa é percebida como ativa e determinada. Também percebe o ambiente como dinâmico, competitivo e cheio de desafios. Costuma notar oportunidades de ação e conquista. No aspecto positivo manifesta iniciativa e coragem social. No aspecto negativo pode ser vista como impulsiva e perceber o meio como conflituoso. A Potência 25 revela percepção social baseada em movimento e conquista.",
+26:"Potencial Social e Percepção de Expectativas. Na Pirâmide Social, a Potência 26 indica que a pessoa é percebida como alguém em crescimento e desenvolvimento. Também percebe o ambiente como cheio de promessas e possibilidades futuras. Costuma notar oportunidades que ainda estão amadurecendo. No aspecto positivo manifesta entusiasmo e progresso. No aspecto negativo pode ser vista como insegura e perceber o meio como incerto. A Potência 26 revela percepção social de potencial e expectativa.",
+27:"Desafios Sociais e Percepção de Provas. Na Pirâmide Social, a Potência 27 indica que a pessoa é percebida como alguém que enfrenta desafios e superações. Também percebe o ambiente como exigente e repleto de provas sociais. Costuma notar tensões e processos de superação ao redor. No aspecto positivo manifesta resiliência e adaptação. No aspecto negativo pode ser vista como sobrecarregada e perceber o meio como difícil. A Potência 27 revela percepção social de desafios constantes.",
+28:"Estratégia Social e Percepção de Planejamento. Na Pirâmide Social, a Potência 28 indica que a pessoa é percebida como estratégica e prudente. Também percebe o ambiente como um campo onde planejamento e organização são essenciais. Costuma notar quem pensa antes de agir. No aspecto positivo manifesta inteligência estratégica. No aspecto negativo pode ser vista como cautelosa demais e perceber o meio como arriscado. A Potência 28 revela percepção social baseada em estratégia.",
+29:"Expansão Social e Percepção de Reconhecimento. Na Pirâmide Social, a Potência 29 indica que a pessoa é percebida como alguém em crescimento e conquista de espaço. Também percebe o ambiente como palco de reconhecimento e expansão. Costuma notar oportunidades de crescimento coletivo. No aspecto positivo manifesta sucesso e visibilidade. No aspecto negativo pode ser vista como ambiciosa e perceber o meio como competitivo. A Potência 29 revela percepção social voltada ao crescimento.",
+30:"Silêncio Social e Percepção de Preparação. Na Pirâmide Social, a Potência 30 indica que a pessoa é percebida como discreta ou em fase de preparação. Também percebe o ambiente como um espaço onde nem tudo é visível e onde processos acontecem nos bastidores. Costuma notar períodos de espera e amadurecimento coletivo. No aspecto positivo manifesta prudência e observação. No aspecto negativo pode ser vista como distante e perceber o meio como lento. A Potência 30 revela percepção social ligada à preparação.",
+31:"Disciplina Social e Percepção de Esforço. Na Pirâmide Social, a Potência 31 indica que a pessoa é percebida como disciplinada, responsável e comprometida com o que faz. Ao mesmo tempo, percebe o ambiente social como um espaço onde esforço, constância e dedicação são fundamentais para conquistar reconhecimento. Costuma notar quem trabalha com seriedade e quem constrói resultados ao longo do tempo. No aspecto positivo manifesta confiabilidade e perseverança. No aspecto negativo pode ser vista como rígida e perceber o meio como exigente demais. A Potência 31 revela percepção social baseada em disciplina e construção.",
+32:"Estabilidade Social e Percepção de Reconhecimento. Na Pirâmide Social, a Potência 32 indica que a pessoa é percebida como alguém que busca estabilidade e reconhecimento nas relações e na vida profissional. Também percebe o ambiente social como um espaço onde alianças, parcerias e reputação são essenciais. Costuma notar quem conquista segurança e respeito coletivo. No aspecto positivo manifesta prosperidade e boas conexões. No aspecto negativo pode ser vista como ambiciosa e perceber o meio como competitivo. A Potência 32 revela percepção social voltada à estabilidade e reconhecimento.",
+33:"Expansão Social e Percepção de Crescimento Coletivo. Na Pirâmide Social, a Potência 33 indica que a pessoa é percebida como alguém que cresce através de cooperação e relações. Também percebe o ambiente social como um espaço de expansão, oportunidades e progresso coletivo. Costuma notar projetos que crescem com ajuda de outras pessoas. No aspecto positivo manifesta cooperação e crescimento. No aspecto negativo pode ser vista como dependente de aprovação e perceber o meio como exigente. A Potência 33 revela percepção social de crescimento conjunto.",
+34:"Criatividade Social e Percepção de Oportunidades. Na Pirâmide Social, a Potência 34 indica que a pessoa é percebida como criativa e inovadora. Também percebe o ambiente social como cheio de ideias, oportunidades e possibilidades de expansão profissional. Costuma notar novas oportunidades e caminhos alternativos. No aspecto positivo manifesta inovação e iniciativa. No aspecto negativo pode ser vista como dispersa e perceber o meio como instável. A Potência 34 revela percepção social criativa.",
+35:"Crise Social e Percepção de Questionamentos. Na Pirâmide Social, a Potência 35 indica que a pessoa é percebida como alguém que passa por fases de questionamento ou reflexão pública. Também percebe o ambiente como cheio de dúvidas e processos de redefinição. Costuma notar crises coletivas e mudanças de rumo. No aspecto positivo manifesta reflexão e aprendizado. No aspecto negativo pode ser vista como insegura e perceber o meio como instável. A Potência 35 revela percepção social de questionamento.",
+36:"Ruptura Social e Percepção de Mudanças. Na Pirâmide Social, a Potência 36 indica que a pessoa é percebida como alguém que vive mudanças externas importantes. Também percebe o ambiente social como sujeito a transformações e recomeços. Costuma notar mudanças de estruturas e padrões sociais. No aspecto positivo manifesta adaptação e renovação. No aspecto negativo pode ser vista como instável e perceber o meio como incerto. A Potência 36 revela percepção social de renovação.",
+37:"Mediação Social e Percepção de Relações. Na Pirâmide Social, a Potência 37 indica que a pessoa é percebida como diplomática e conciliadora. Também percebe o ambiente social como um espaço de relações, amizades e trocas constantes. Costuma notar dinâmicas de grupo e relações interpessoais. No aspecto positivo manifesta popularidade e empatia. No aspecto negativo pode ser vista como dependente da opinião alheia. A Potência 37 revela percepção social relacional.",
+38:"Expressão Social e Percepção Emocional. Na Pirâmide Social, a Potência 38 indica que a pessoa é percebida como expressiva e comunicativa. Também percebe o ambiente social de forma emocional, valorizando sentimentos e conexões humanas. Costuma notar estados emocionais das pessoas ao redor. No aspecto positivo manifesta comunicação e sensibilidade. No aspecto negativo pode ser vista como exagerada. A Potência 38 revela percepção social emocional.",
+39:"Conexão Social e Percepção de Afeto. Na Pirâmide Social, a Potência 39 indica que a pessoa é percebida como empática e próxima das pessoas. Também percebe o ambiente como um espaço de vínculos afetivos e conexões humanas. Costuma notar laços emocionais nas relações. No aspecto positivo manifesta empatia e união. No aspecto negativo pode ser vista como dependente emocional. A Potência 39 revela percepção social afetiva.",
+40:"Renovação Social e Percepção de Vínculos. Na Pirâmide Social, a Potência 40 indica que a pessoa é percebida como alguém que vive renovação nas relações e conexões. Também percebe o ambiente como um espaço de novas experiências sociais e emocionais. Costuma notar mudanças nos vínculos e nas relações. No aspecto positivo manifesta reconciliação e fortalecimento de laços. No aspecto negativo pode ser vista como instável nas relações. A Potência 40 revela percepção social de renovação.",
+41:"Harmonia Social e Percepção de Bem-Estar. Na Pirâmide Social, a Potência 41 indica que a pessoa é percebida como alguém que busca harmonia, convivência agradável e estabilidade nas relações. Ao mesmo tempo, percebe o meio social como um espaço onde o bem-estar coletivo e a convivência equilibrada são essenciais. Costuma notar ambientes agradáveis, vínculos saudáveis e espaços onde existe cooperação. No aspecto positivo manifesta simpatia, integração e boa convivência. No aspecto negativo pode ser vista como acomodada e perceber o ambiente como dependente de aprovação. A Potência 41 revela percepção social voltada ao equilíbrio e convivência.",
+42:"Prosperidade Social e Percepção de Oportunidades. Na Pirâmide Social, a Potência 42 indica que a pessoa é percebida como alguém que cresce e prospera no meio externo. Também percebe o ambiente como cheio de oportunidades, expansão e crescimento coletivo. Costuma notar momentos de avanço e conquistas ao redor. No aspecto positivo manifesta entusiasmo e sucesso social. No aspecto negativo pode ser vista como excessiva e perceber o ambiente como desorganizado. A Potência 42 revela percepção social de prosperidade.",
+43:"Conflitos Sociais e Percepção de Tensões. Na Pirâmide Social, a Potência 43 indica que a pessoa é percebida como alguém que vive conflitos ou mudanças nas relações. Também percebe o ambiente social como cheio de tensões, divergências e processos de transformação coletiva. Costuma notar crises e confrontos ao redor. No aspecto positivo manifesta amadurecimento e aprendizado. No aspecto negativo pode ser vista como conflituosa. A Potência 43 revela percepção social de transformação através de conflitos.",
+44:"Decisão Social e Percepção de Escolhas. Na Pirâmide Social, a Potência 44 indica que a pessoa é percebida como racional e estratégica. Também percebe o ambiente social como um espaço onde decisões importantes moldam o futuro. Costuma notar escolhas, oportunidades e caminhos profissionais. No aspecto positivo manifesta clareza e planejamento. No aspecto negativo pode ser vista como indecisa ou distante. A Potência 44 revela percepção social estratégica.",
+45:"Memória Social e Percepção de Passado. Na Pirâmide Social, a Potência 45 indica que a pessoa é percebida como alguém ligado ao passado, à experiência e à memória coletiva. Também percebe o ambiente social como influenciado por histórias, vínculos antigos e experiências vividas. Costuma notar padrões repetidos e reencontros. No aspecto positivo manifesta reconciliação e aprendizado. No aspecto negativo pode ser vista como nostálgica. A Potência 45 revela percepção social ligada ao passado.",
+46:"Desilusões Sociais e Percepção de Verdades. Na Pirâmide Social, a Potência 46 indica que a pessoa é percebida como alguém que passa por quebras de expectativa no meio externo. Também percebe o ambiente como um espaço onde ilusões caem e verdades aparecem. Costuma notar frustrações coletivas e mudanças de visão. No aspecto positivo manifesta maturidade e lucidez. No aspecto negativo pode ser vista como pessimista. A Potência 46 revela percepção social realista.",
+47:"Introspecção Social e Percepção de Distanciamento. Na Pirâmide Social, a Potência 47 indica que a pessoa é percebida como reservada ou reflexiva no ambiente externo. Também percebe o meio social como um espaço que exige momentos de recolhimento e análise. Costuma notar períodos de afastamento e reflexão coletiva. No aspecto positivo manifesta sabedoria e observação. No aspecto negativo pode ser vista como distante. A Potência 47 revela percepção social introspectiva.",
+48:"Abundância Social e Percepção de Celebração. Na Pirâmide Social, a Potência 48 indica que a pessoa é percebida como alguém que vive fases de prosperidade e alegria no meio externo. Também percebe o ambiente como cheio de celebrações, encontros e crescimento coletivo. Costuma notar momentos de abundância ao redor. No aspecto positivo manifesta entusiasmo e integração. No aspecto negativo pode ser vista como excessiva. A Potência 48 revela percepção social de abundância.",
+49:"Autonomia Social e Percepção de Liberdade. Na Pirâmide Social, a Potência 49 indica que a pessoa é percebida como independente nas relações. Também percebe o ambiente como um espaço onde liberdade e autonomia são essenciais. Costuma notar a importância da individualidade nas relações. No aspecto positivo manifesta maturidade e autenticidade. No aspecto negativo pode ser vista como distante. A Potência 49 revela percepção social de autonomia.",
+50:"União Social e Percepção de Compromisso. Na Pirâmide Social, a Potência 50 indica que a pessoa é percebida como alguém que constrói vínculos e compromissos sólidos. Também percebe o ambiente social como baseado em responsabilidade, parcerias e estabilidade. Costuma notar compromissos duradouros e estruturas sociais firmes. No aspecto positivo manifesta segurança e confiabilidade. No aspecto negativo pode ser vista como rígida. A Potência 50 revela percepção social de compromisso.",
+51:"Liderança Social e Percepção de Autoridade. Na Pirâmide Social, a Potência 51 indica que a pessoa é percebida como líder natural no ambiente externo. Também percebe o meio como estruturado por autoridade, estratégia e responsabilidade. Costuma notar quem conduz e quem segue. No aspecto positivo manifesta liderança equilibrada. No aspecto negativo pode ser vista como distante. A Potência 51 revela percepção social de liderança.",
+52:"Autodomínio Social e Percepção de Disciplina. Na Pirâmide Social, a Potência 52 indica que a pessoa é percebida como disciplinada e exigente. Também percebe o ambiente como regido por metas, desempenho e evolução. Costuma notar padrões de excelência. No aspecto positivo manifesta foco e competência. No aspecto negativo pode ser vista como rígida. A Potência 52 revela percepção social disciplinada.",
+53:"Transformação Social e Percepção de Mudanças Profundas. Na Pirâmide Social, a Potência 53 indica que a pessoa é percebida como agente de mudanças. Também percebe o ambiente como cheio de transformações e rupturas coletivas. Costuma notar mudanças profundas nas estruturas sociais. No aspecto positivo manifesta inovação. No aspecto negativo pode ser vista como instável. A Potência 53 revela percepção social de transformação.",
+54:"Vigilância Social e Percepção de Tensões. Na Pirâmide Social, a Potência 54 indica que a pessoa é percebida como prudente e observadora. Também percebe o ambiente como cheio de disputas e necessidade de atenção. Costuma notar conflitos e rivalidades. No aspecto positivo manifesta estratégia. No aspecto negativo pode ser vista como desconfiada. A Potência 54 revela percepção social vigilante.",
+55:"Renascimento Social e Percepção de Recomeços. Na Pirâmide Social, a Potência 55 indica que a pessoa é percebida como alguém que recomeça após crises. Também percebe o ambiente como cheio de encerramentos e novos ciclos. Costuma notar recomeços coletivos. A Potência 55 revela percepção social de renascimento.",
+56:"Resistência Social e Percepção de Provações. Na Pirâmide Social, a Potência 56 indica que a pessoa é percebida como resiliente. Também percebe o ambiente como exigente e desafiador. Costuma notar dificuldades coletivas. A Potência 56 revela percepção social de resistência.",
+57:"Decisões Sociais e Percepção de Dilemas. Na Pirâmide Social, a Potência 57 indica que a pessoa é percebida como alguém que enfrenta escolhas difíceis. Também percebe o ambiente como cheio de decisões importantes. A Potência 57 revela percepção social de escolhas.",
+58:"Crises Sociais e Percepção de Despertar. Na Pirâmide Social, a Potência 58 indica que a pessoa é percebida como alguém que amadurece após crises. Também percebe o ambiente como cheio de mudanças profundas. A Potência 58 revela percepção social de despertar.",
+59:"Revelação Social e Percepção de Verdades. Na Pirâmide Social, a Potência 59 indica que a pessoa é percebida como alguém que descobre verdades e caminhos. Também percebe o ambiente como cheio de revelações. A Potência 59 revela percepção social de descobertas.",
+61:"Retiro Social e Percepção de Recolhimento. Na Pirâmide Social, a Potência 61 indica que a pessoa é percebida como reservada em certos períodos, buscando distância para reorganizar ideias e relações. Também percebe o ambiente social como um espaço que alterna entre movimento e silêncio, onde nem tudo acontece de forma visível. Costuma notar momentos de pausa coletiva e afastamentos estratégicos. No aspecto positivo manifesta prudência e observação. No aspecto negativo pode ser vista como distante. A Potência 61 revela percepção social de recolhimento.",
+62:"Libertação Social e Percepção de Conflitos Emocionais. Na Pirâmide Social, a Potência 62 indica que a pessoa é percebida como alguém que passa por rupturas ou reconciliações importantes nas relações. Também percebe o ambiente social como cheio de emoções intensas, conflitos e reconciliações. Costuma notar tensões emocionais nos grupos. A Potência 62 revela percepção social de cura e libertação.",
+63:"Dúvida Social e Percepção de Insegurança Coletiva. Na Pirâmide Social, a Potência 63 indica que a pessoa é percebida como cautelosa ou indecisa em certos contextos sociais. Também percebe o ambiente como cheio de dúvidas e incertezas. Costuma notar hesitação coletiva e necessidade de revisão de caminhos. A Potência 63 revela percepção social de incerteza.",
+64:"Superação Social e Percepção de Luta. Na Pirâmide Social, a Potência 64 indica que a pessoa é percebida como batalhadora e persistente. Também percebe o ambiente como competitivo e exigente. Costuma notar esforço e superação nas pessoas ao redor. A Potência 64 revela percepção social de luta e conquista.",
+65:"Propósito Social e Percepção de Direção. Na Pirâmide Social, a Potência 65 indica que a pessoa é percebida como alguém com metas claras e propósito. Também percebe o ambiente como guiado por objetivos e crescimento coletivo. Costuma notar quem busca evolução e sucesso. A Potência 65 revela percepção social de propósito.",
+66:"Autenticidade Social e Percepção de Exposição. Na Pirâmide Social, a Potência 66 indica que a pessoa é percebida como autêntica e transparente. Também percebe o ambiente como um espaço onde as pessoas se revelam e se mostram como são. Costuma notar quem age com verdade. A Potência 66 revela percepção social de autenticidade.",
+67:"Concretização Social e Percepção de Resultados. Na Pirâmide Social, a Potência 67 indica que a pessoa é percebida como realizadora e prática. Também percebe o ambiente como focado em resultados e conquistas concretas. Costuma notar produtividade e eficiência ao redor. A Potência 67 revela percepção social de realização.",
+68:"Valor Social e Percepção de Prosperidade. Na Pirâmide Social, a Potência 68 indica que a pessoa é percebida como alguém que valoriza estabilidade e prosperidade. Também percebe o ambiente como regido por valor, reconhecimento e conquistas materiais. A Potência 68 revela percepção social de prosperidade.",
+69:"Plenitude Social e Percepção de Sucesso. Na Pirâmide Social, a Potência 69 indica que a pessoa é percebida como bem-sucedida ou em crescimento. Também percebe o ambiente como palco de conquistas e realizações. A Potência 69 revela percepção social de plenitude.",
+70:"Autossuficiência Social e Percepção de Independência. Na Pirâmide Social, a Potência 70 indica que a pessoa é percebida como independente e autossuficiente. Também percebe o ambiente como exigente e competitivo. A Potência 70 revela percepção social de independência.",
+71:"Conservação Social e Percepção de Prudência. Na Pirâmide Social, a Potência 71 indica que a pessoa é percebida como prudente e estratégica. Também percebe o ambiente como exigindo planejamento e cautela. A Potência 71 revela percepção social de prudência.",
+72:"Clareza Social e Percepção de Direcionamento. Na Pirâmide Social, a Potência 72 indica que a pessoa é percebida como lúcida e estratégica. Também percebe o ambiente como guiado por decisões conscientes. A Potência 72 revela percepção social de clareza.",
+73:"Generosidade Social e Percepção de Cooperação. Na Pirâmide Social, a Potência 73 indica que a pessoa é percebida como colaborativa e solidária. Também percebe o ambiente como baseado em trocas e cooperação. A Potência 73 revela percepção social de troca.",
+74:"Crise Social e Percepção de Reestruturação. Na Pirâmide Social, a Potência 74 indica que a pessoa é percebida como alguém que atravessa mudanças externas importantes. Também percebe o ambiente como sujeito a crises e reorganizações. A Potência 74 revela percepção social de reconstrução.",
+75:"Prosperidade Social e Percepção de Segurança. Na Pirâmide Social, a Potência 75 indica que a pessoa é percebida como estável e próspera. Também percebe o ambiente como focado em segurança e estabilidade material. A Potência 75 revela percepção social de segurança.",
+76:"Reconhecimento Social e Percepção de Mérito. Na Pirâmide Social, a Potência 76 indica que a pessoa é percebida como reconhecida pelo esforço. Também percebe o ambiente como baseado em mérito e trabalho. A Potência 76 revela percepção social de reconhecimento.",
+77:"Transformação Social e Percepção de Despertar. Na Pirâmide Social, a Potência 77 indica que a pessoa é percebida como alguém em evolução. Também percebe o ambiente como passando por mudanças profundas. A Potência 77 revela percepção social de despertar.",
+78:"Realização Social e Percepção de Celebração. Na Pirâmide Social, a Potência 78 indica que a pessoa é percebida como alguém que vive conquistas e celebrações. Também percebe o ambiente como cheio de crescimento e alegria coletiva. A Potência 78 revela percepção social de celebração.",
+79:"Libertação Social e Percepção de Recomeços. Na Pirâmide Social, a Potência 79 indica que a pessoa é percebida como independente e renovadora. Também percebe o ambiente como cheio de novos ciclos. A Potência 79 revela percepção social de renovação.",
+81:"Carma Social e Percepção de Consequências. Na Pirâmide Social, a Potência 81 indica que a pessoa é percebida como alguém que aprende através das consequências das próprias ações. Também percebe o ambiente social como regido por responsabilidade, retorno e justiça natural. Costuma notar como atitudes geram resultados nas relações e na vida profissional. No aspecto positivo manifesta maturidade e senso de responsabilidade. No aspecto negativo pode ser vista como rígida ou exigente. A Potência 81 revela percepção social de causa e efeito.",
+82:"Ciclos Sociais e Percepção de Padrões. Na Pirâmide Social, a Potência 82 indica que a pessoa é percebida como alguém que passa por situações repetidas até amadurecer. Também percebe o ambiente social como cheio de padrões que se repetem nas relações e nos grupos. Costuma notar comportamentos recorrentes nas pessoas. A Potência 82 revela percepção social de ciclos.",
+83:"Autodomínio Social e Percepção de Controle. Na Pirâmide Social, a Potência 83 indica que a pessoa é percebida como equilibrada e controlada emocionalmente. Também percebe o ambiente social como um espaço onde o autocontrole é essencial. Costuma notar quem mantém equilíbrio e quem perde o controle. A Potência 83 revela percepção social de equilíbrio.",
+84:"Missão Social e Percepção de Impacto Coletivo. Na Pirâmide Social, a Potência 84 indica que a pessoa é percebida como alguém que exerce influência no coletivo. Também percebe o ambiente como um espaço de responsabilidade social e impacto nas pessoas. Costuma notar a importância do papel coletivo. A Potência 84 revela percepção social de missão.",
+85:"Queda Social e Percepção de Isolamento. Na Pirâmide Social, a Potência 85 indica que a pessoa pode ser percebida como alguém que atravessa momentos de afastamento ou reavaliação social. Também percebe o ambiente como sujeito a afastamentos e mudanças nas relações. A Potência 85 revela percepção social de recolhimento.",
+86:"Determinação Social e Percepção de Esforço. Na Pirâmide Social, a Potência 86 indica que a pessoa é percebida como persistente e determinada. Também percebe o ambiente como competitivo e exigente. Costuma notar esforço e superação nas pessoas ao redor. A Potência 86 revela percepção social de persistência.",
+87:"Excessos Sociais e Percepção de Tentações. Na Pirâmide Social, a Potência 87 indica que a pessoa é percebida como alguém que vive intensidades no ambiente externo. Também percebe o meio social como cheio de tentações, exageros e impulsos. A Potência 87 revela percepção social de excessos.",
+88:"Rupturas Sociais e Percepção de Colapsos. Na Pirâmide Social, a Potência 88 indica que a pessoa é percebida como alguém que atravessa mudanças radicais no meio externo. Também percebe o ambiente social como sujeito a quedas e reconstruções. A Potência 88 revela percepção social de transformação radical.",
+89:"Frustrações Sociais e Percepção de Expectativas. Na Pirâmide Social, a Potência 89 indica que a pessoa é percebida como alguém que aprende através de frustrações e expectativas não atendidas. Também percebe o ambiente como cheio de promessas e atrasos. A Potência 89 revela percepção social de paciência.",
+90:"Sabedoria Social e Percepção de Retiro. Na Pirâmide Social, a Potência 90 indica que a pessoa é percebida como reservada e sábia. Também percebe o ambiente como um espaço que exige reflexão e distanciamento em certos momentos. A Potência 90 revela percepção social introspectiva.",
+91:"Retorno Social e Percepção de Justiça. Na Pirâmide Social, a Potência 91 indica que a pessoa é percebida como alguém que colhe o que planta nas relações. Também percebe o ambiente como regido por justiça e retorno das ações. A Potência 91 revela percepção social de responsabilidade.",
+92:"Reavaliação Social e Percepção de Questionamentos. Na Pirâmide Social, a Potência 92 indica que a pessoa é percebida como reflexiva. Também percebe o ambiente como cheio de dúvidas e necessidade de revisão. A Potência 92 revela percepção social de reflexão.",
+93:"Evolução Social e Percepção de Crescimento. Na Pirâmide Social, a Potência 93 indica que a pessoa é percebida como alguém em evolução constante. Também percebe o ambiente como um espaço de aprendizado coletivo. A Potência 93 revela percepção social de evolução.",
+94:"Transição Social e Percepção de Encerramentos. Na Pirâmide Social, a Potência 94 indica que a pessoa é percebida como alguém que encerra ciclos. Também percebe o ambiente como cheio de finais e novos começos. A Potência 94 revela percepção social de transição.",
+95:"Reconhecimento Social e Percepção de Harmonia. Na Pirâmide Social, a Potência 95 indica que a pessoa é percebida como integrada e bem relacionada. Também percebe o ambiente como baseado em harmonia e convivência. A Potência 95 revela percepção social de integração.",
+96:"Dissolução Social e Percepção de Ilusões. Na Pirâmide Social, a Potência 96 indica que a pessoa é percebida como alguém que enxerga além das aparências. Também percebe o ambiente como cheio de ilusões e emoções profundas. A Potência 96 revela percepção social de verdade.",
+97:"Destino Social e Percepção de Rupturas. Na Pirâmide Social, a Potência 97 indica que a pessoa é percebida como alguém que vive acontecimentos marcantes no meio externo. Também percebe o ambiente como cheio de eventos decisivos. A Potência 97 revela percepção social de destino.",
+98:"Ascensão Social e Percepção de Poder. Na Pirâmide Social, a Potência 98 indica que a pessoa é percebida como influente e poderosa. Também percebe o ambiente como um espaço de conquista e reconhecimento. A Potência 98 revela percepção social de ascensão.",
+99:"Consciência Social e Percepção de Sabedoria. Na Pirâmide Social, a Potência 99 indica que a pessoa é percebida como sábia e experiente. Também percebe o ambiente social com visão ampla e compreensão profunda das pessoas e das relações. A Potência 99 revela percepção social de sabedoria."};
+
+const textosDestino={ 
+11:"Força Interior, Provações e Propósito de Autodomínio. Na Pirâmide do Destino, a Potência 11 indica acontecimentos marcantes que colocam a pessoa diante de desafios que exigem coragem, firmeza emocional e domínio dos próprios impulsos. Ela percebe que o destino frequentemente a conduz a situações que testam sua liderança, sua força interior e sua capacidade de agir com consciência. Esses eventos não ocorrem por acaso: fazem parte do propósito de desenvolver autodomínio, coragem e autoridade interior. No aspecto positivo manifesta superação, vitórias e fortalecimento pessoal. No aspecto negativo pode trazer confrontos intensos e pressões emocionais. A Potência 11 revela um destino guiado por provas de força e pelo propósito de aprender a dominar a si mesmo.",
+12:"Renúncias Necessárias e Propósito de Crescimento Interior. Na Pirâmide do Destino, a Potência 12 indica acontecimentos que exigem pausas, sacrifícios e mudanças profundas de perspectiva. A pessoa percebe momentos em que a vida pede espera, reflexão e abandono de velhos caminhos. Esses eventos fazem parte do propósito de amadurecimento espiritual e emocional. No aspecto positivo manifesta crescimento interior e sabedoria. No aspecto negativo pode trazer sensação de atraso ou estagnação. A Potência 12 revela um destino guiado por renúncias com propósito evolutivo.",
+13:"Rupturas Transformadoras e Propósito de Renascimento. Na Pirâmide do Destino, a Potência 13 indica acontecimentos intensos de encerramento e recomeço. A pessoa percebe que o destino promove mudanças profundas para libertá-la de ciclos antigos. Esses eventos fazem parte do propósito de renovação e reconstrução da identidade. No aspecto positivo manifesta libertação e renascimento. No aspecto negativo pode trazer perdas e mudanças dolorosas. A Potência 13 revela um destino guiado por transformações com propósito.",
+14:"Equilíbrio, Reconciliações e Propósito de Harmonia. Na Pirâmide do Destino, a Potência 14 indica acontecimentos que conduzem à conciliação e reorganização emocional. A pessoa percebe momentos em que a vida pede moderação e equilíbrio. Esses eventos fazem parte do propósito de aprender a harmonizar opostos. A Potência 14 revela um destino guiado pelo propósito de equilíbrio.",
+15:"Tentações, Escolhas e Propósito de Consciência. Na Pirâmide do Destino, a Potência 15 indica acontecimentos ligados a desejos intensos, tentações e decisões importantes. A pessoa percebe situações que testam sua maturidade emocional e sua consciência. Esses eventos fazem parte do propósito de aprender a lidar com o poder dos desejos. A Potência 15 revela um destino guiado por provas de consciência.",
+16:"Quedas de Ilusões e Propósito de Despertar. Na Pirâmide do Destino, a Potência 16 indica acontecimentos inesperados que derrubam estruturas antigas. A pessoa percebe eventos que mudam sua visão de mundo. Esses acontecimentos fazem parte do propósito de despertar e reconstruir bases mais sólidas. A Potência 16 revela um destino guiado pelo despertar.",
+17:"Renovação, Esperança e Propósito de Inspiração. Na Pirâmide do Destino, a Potência 17 indica acontecimentos que surgem após períodos difíceis trazendo fé e novas oportunidades. A pessoa percebe momentos em que o destino renova sua esperança. Esses eventos fazem parte do propósito de inspirar e renovar a fé na vida. A Potência 17 revela um destino guiado pela esperança.",
+18:"Despertar Emocional e Propósito de Autoconhecimento. Na Pirâmide do Destino, a Potência 18 indica acontecimentos ligados ao mundo emocional e ao subconsciente. A pessoa percebe situações que despertam intuição e sensibilidade. Esses eventos fazem parte do propósito de desenvolver autoconhecimento profundo. A Potência 18 revela um destino guiado pelo despertar emocional.",
+19:"Sucesso, Luz e Propósito de Realização. Na Pirâmide do Destino, a Potência 19 indica acontecimentos de conquista, reconhecimento e expansão. A pessoa percebe momentos de alegria e vitórias importantes. Esses eventos fazem parte do propósito de realizar e compartilhar sua luz. A Potência 19 revela um destino guiado pela realização.",
+20:"Chamados do Destino e Propósito de Despertar de Missão. Na Pirâmide do Destino, a Potência 20 indica acontecimentos marcantes que mudam o rumo da vida. A pessoa percebe momentos decisivos que parecem chamar para uma nova fase. Esses eventos fazem parte do propósito de despertar para a missão de vida. A Potência 20 revela um destino guiado por chamados e propósito.",
+21:"Conclusões Importantes e Propósito de Realização. Na Pirâmide do Destino, a Potência 21 indica acontecimentos que marcam encerramentos de ciclos e sensação de missão cumprida. A pessoa percebe momentos em que a vida entrega resultados após longos processos. Esses eventos fazem parte do propósito de aprender a concluir etapas e reconhecer conquistas. A Potência 21 revela um destino guiado pela realização e pela conclusão de ciclos.",
+22:"Mudanças de Rumo e Propósito de Liberdade. Na Pirâmide do Destino, a Potência 22 indica acontecimentos inesperados que abrem novos caminhos e exigem coragem para recomeçar. A pessoa percebe que o destino a coloca diante de escolhas ousadas. Esses eventos fazem parte do propósito de desenvolver liberdade e confiança no desconhecido. A Potência 22 revela um destino guiado por novos começos.",
+23:"Proteção do Caminho e Propósito de Conquista. Na Pirâmide do Destino, a Potência 23 indica acontecimentos que demonstram apoio invisível e oportunidades importantes. A pessoa percebe situações em que portas se abrem após esforço. Esses eventos fazem parte do propósito de aprender a confiar no mérito e na proteção do caminho. A Potência 23 revela um destino guiado por conquistas.",
+24:"Estabilidade e Propósito de Construção. Na Pirâmide do Destino, a Potência 24 indica acontecimentos ligados à segurança emocional e material. A pessoa percebe momentos de consolidação e fortalecimento de vínculos. Esses eventos fazem parte do propósito de construir bases sólidas na vida. A Potência 24 revela um destino guiado pela estabilidade.",
+25:"Movimento e Propósito de Ação. Na Pirâmide do Destino, a Potência 25 indica acontecimentos que exigem iniciativa e coragem para agir. A pessoa percebe fases de luta e mudanças importantes. Esses eventos fazem parte do propósito de desenvolver ação consciente. A Potência 25 revela um destino guiado pelo movimento.",
+26:"Preparação e Propósito de Desenvolvimento. Na Pirâmide do Destino, a Potência 26 indica acontecimentos que funcionam como preparação para conquistas futuras. A pessoa percebe fases de aprendizado e amadurecimento. Esses eventos fazem parte do propósito de desenvolver potencial. A Potência 26 revela um destino guiado pela preparação.",
+27:"Desafios e Propósito de Renovação. Na Pirâmide do Destino, a Potência 27 indica acontecimentos desafiadores que exigem adaptação. A pessoa percebe períodos de tensão que impulsionam mudanças. Esses eventos fazem parte do propósito de renovar a consciência. A Potência 27 revela um destino guiado por desafios transformadores.",
+28:"Planejamento e Propósito de Consolidação. Na Pirâmide do Destino, a Potência 28 indica acontecimentos que pedem estratégia e prudência. A pessoa percebe momentos em que a vida exige planejamento cuidadoso. Esses eventos fazem parte do propósito de consolidar conquistas. A Potência 28 revela um destino guiado pela estratégia.",
+29:"Colheita e Propósito de Prosperidade. Na Pirâmide do Destino, a Potência 29 indica acontecimentos ligados à recompensa e reconhecimento. A pessoa percebe momentos em que os frutos do esforço aparecem. Esses eventos fazem parte do propósito de experimentar prosperidade. A Potência 29 revela um destino guiado pela colheita.",
+30:"Pausas e Propósito de Preparação Interior. Na Pirâmide do Destino, a Potência 30 indica acontecimentos que pedem recolhimento e silêncio antes de novos ciclos. A pessoa percebe fases de espera e amadurecimento. Esses eventos fazem parte do propósito de fortalecer o interior. A Potência 30 revela um destino guiado pela preparação.",
+31:"Construção e Propósito de Disciplina. Na Pirâmide do Destino, a Potência 31 indica acontecimentos ligados ao esforço contínuo e à construção de bases duradouras. A pessoa percebe fases em que a vida exige disciplina e perseverança. Esses eventos fazem parte do propósito de aprender constância. A Potência 31 revela um destino guiado pela disciplina.",
+32:"Reconhecimento e Propósito de Estabilidade. Na Pirâmide do Destino, a Potência 32 indica acontecimentos que trazem reconhecimento e consolidação social. A pessoa percebe momentos de estabilidade e valorização. Esses eventos fazem parte do propósito de equilibrar conquistas e responsabilidade. A Potência 32 revela um destino guiado pela estabilidade.",
+33:"Expansão e Propósito de Prosperidade. Na Pirâmide do Destino, a Potência 33 indica acontecimentos de crescimento e oportunidades. A pessoa percebe fases de expansão em várias áreas da vida. Esses eventos fazem parte do propósito de prosperar de forma consciente. A Potência 33 revela um destino guiado pela expansão.",
+34:"Criação e Propósito de Inovação. Na Pirâmide do Destino, a Potência 34 indica acontecimentos ligados à criatividade e novos projetos. A pessoa percebe oportunidades de inovação. Esses eventos fazem parte do propósito de criar e expandir horizontes. A Potência 34 revela um destino guiado pela criatividade.",
+35:"Crises e Propósito de Reflexão. Na Pirâmide do Destino, a Potência 35 indica acontecimentos que levam à introspecção. A pessoa percebe momentos de questionamento profundo. Esses eventos fazem parte do propósito de gerar autoconhecimento. A Potência 35 revela um destino guiado pela reflexão.",
+36:"Mudanças e Propósito de Libertação. Na Pirâmide do Destino, a Potência 36 indica acontecimentos que quebram padrões antigos. A pessoa percebe mudanças inevitáveis. Esses eventos fazem parte do propósito de libertação. A Potência 36 revela um destino guiado pela renovação.",
+37:"Relações e Propósito de Harmonia Social. Na Pirâmide do Destino, a Potência 37 indica acontecimentos ligados a amizades e conexões importantes. A pessoa percebe encontros significativos. Esses eventos fazem parte do propósito de desenvolver relações saudáveis. A Potência 37 revela um destino guiado pelas conexões.",
+38:"Emoções e Propósito de Expressão. Na Pirâmide do Destino, a Potência 38 indica acontecimentos ligados à expressão emocional. A pessoa percebe fases de abertura emocional. Esses eventos fazem parte do propósito de aprender a expressar sentimentos. A Potência 38 revela um destino guiado pela expressão.",
+39:"Amor e Propósito de Conexão. Na Pirâmide do Destino, a Potência 39 indica acontecimentos ligados ao amor e reconciliações. A pessoa percebe experiências que fortalecem vínculos. Esses eventos fazem parte do propósito de aprender a amar conscientemente. A Potência 39 revela um destino guiado pelo amor.",
+40:"Renovação Emocional e Propósito de Crescimento Afetivo. Na Pirâmide do Destino, a Potência 40 indica acontecimentos que trazem novas experiências emocionais. A pessoa percebe fases de renovação afetiva. Esses eventos fazem parte do propósito de amadurecer emocionalmente. A Potência 40 revela um destino guiado pelo crescimento afetivo.",
+41:"Felicidade e Propósito de Harmonia. Na Pirâmide do Destino, a Potência 41 indica acontecimentos que conduzem a momentos de alegria, estabilidade e sensação de pertencimento. A pessoa percebe fases em que a vida favorece o equilíbrio nas relações e no ambiente. Esses eventos fazem parte do propósito de aprender a construir felicidade de forma consciente. A Potência 41 revela um destino guiado pela harmonia e pelo bem-estar.",
+42:"Realizações e Propósito de Expansão. Na Pirâmide do Destino, a Potência 42 indica acontecimentos ligados à realização de desejos e crescimento material e emocional. A pessoa percebe oportunidades que ampliam horizontes. Esses eventos fazem parte do propósito de aprender a lidar com prosperidade com consciência. A Potência 42 revela um destino guiado pela expansão.",
+43:"Conflitos e Propósito de Despertar. Na Pirâmide do Destino, a Potência 43 indica acontecimentos marcados por conflitos que exigem maturidade emocional. A pessoa percebe momentos de tensão que revelam verdades importantes. Esses eventos fazem parte do propósito de despertar a consciência. A Potência 43 revela um destino guiado por transformações emocionais.",
+44:"Escolhas e Propósito de Clareza. Na Pirâmide do Destino, a Potência 44 indica acontecimentos que exigem decisões importantes e clareza mental. A pessoa percebe momentos decisivos que mudam o rumo da vida. Esses eventos fazem parte do propósito de desenvolver discernimento. A Potência 44 revela um destino guiado por escolhas conscientes.",
+45:"Reconciliações e Propósito de Cura. Na Pirâmide do Destino, a Potência 45 indica acontecimentos ligados ao passado, memórias e reconciliações. A pessoa percebe oportunidades de cura emocional. Esses eventos fazem parte do propósito de compreender a própria história. A Potência 45 revela um destino guiado pela cura.",
+46:"Desilusões e Propósito de Verdade. Na Pirâmide do Destino, a Potência 46 indica acontecimentos que revelam verdades ocultas. A pessoa percebe momentos de quebra de expectativas. Esses eventos fazem parte do propósito de libertar-se de ilusões. A Potência 46 revela um destino guiado pela verdade.",
+47:"Recolhimento e Propósito de Autoconhecimento. Na Pirâmide do Destino, a Potência 47 indica acontecimentos que levam à introspecção. A pessoa percebe fases de isolamento necessário. Esses eventos fazem parte do propósito de aprofundar o autoconhecimento. A Potência 47 revela um destino guiado pela reflexão.",
+48:"Prosperidade e Propósito de Abundância. Na Pirâmide do Destino, a Potência 48 indica acontecimentos ligados a prosperidade, celebrações e conquistas. A pessoa percebe fases de crescimento e alegria. Esses eventos fazem parte do propósito de aprender a compartilhar abundância. A Potência 48 revela um destino guiado pela prosperidade.",
+49:"Relacionamentos e Propósito de Equilíbrio Afetivo. Na Pirâmide do Destino, a Potência 49 indica acontecimentos ligados ao amadurecimento emocional e às relações. A pessoa percebe experiências que ensinam equilíbrio entre amor e liberdade. Esses eventos fazem parte do propósito de desenvolver vínculos conscientes. A Potência 49 revela um destino guiado pelo amor equilibrado.",
+50:"Compromissos e Propósito de Construção de Vínculos. Na Pirâmide do Destino, a Potência 50 indica acontecimentos ligados à união, compromissos e construção de estruturas afetivas e materiais. A pessoa percebe momentos de consolidação de vínculos. Esses eventos fazem parte do propósito de aprender a construir estabilidade. A Potência 50 revela um destino guiado pela união.",
+51:"Sabedoria e Propósito de Liderança. Na Pirâmide do Destino, a Potência 51 indica acontecimentos que exigem liderança e decisões importantes. A pessoa percebe fases em que precisa assumir responsabilidades. Esses eventos fazem parte do propósito de desenvolver liderança consciente. A Potência 51 revela um destino guiado pela sabedoria.",
+52:"Autodomínio e Propósito de Evolução. Na Pirâmide do Destino, a Potência 52 indica acontecimentos que exigem disciplina e aperfeiçoamento pessoal. A pessoa percebe desafios que fortalecem o autocontrole. Esses eventos fazem parte do propósito de evolução interior. A Potência 52 revela um destino guiado pelo autodomínio.",
+53:"Mudanças e Propósito de Transformação. Na Pirâmide do Destino, a Potência 53 indica acontecimentos que provocam mudanças profundas. A pessoa percebe rupturas que impulsionam evolução. Esses eventos fazem parte do propósito de transformação. A Potência 53 revela um destino guiado por mudanças.",
+54:"Tensões e Propósito de Vigilância. Na Pirâmide do Destino, a Potência 54 indica acontecimentos que exigem prudência e atenção. A pessoa percebe momentos de tensão que pedem cautela. Esses eventos fazem parte do propósito de desenvolver consciência e estratégia. A Potência 54 revela um destino guiado pela prudência.",
+55:"Encerramentos e Propósito de Renascimento. Na Pirâmide do Destino, a Potência 55 indica acontecimentos de fim de ciclos. A pessoa percebe fases de encerramento seguidas de recomeços. Esses eventos fazem parte do propósito de renascimento. A Potência 55 revela um destino guiado por novos começos.",
+56:"Provações e Propósito de Resistência. Na Pirâmide do Destino, a Potência 56 indica acontecimentos que testam a força emocional. A pessoa percebe desafios que fortalecem o espírito. Esses eventos fazem parte do propósito de desenvolver resiliência. A Potência 56 revela um destino guiado pela superação.",
+57:"Decisões e Propósito de Direção de Vida. Na Pirâmide do Destino, a Potência 57 indica acontecimentos que exigem escolhas difíceis. A pessoa percebe momentos decisivos que moldam o futuro. Esses eventos fazem parte do propósito de aprender a decidir. A Potência 57 revela um destino guiado por decisões.",
+58:"Crises e Propósito de Despertar. Na Pirâmide do Destino, a Potência 58 indica acontecimentos que abalam estruturas antigas. A pessoa percebe crises que levam ao despertar. Esses eventos fazem parte do propósito de reconstrução interior. A Potência 58 revela um destino guiado pelo despertar.",
+59:"Descobertas e Propósito de Expansão. Na Pirâmide do Destino, a Potência 59 indica acontecimentos que trazem revelações importantes. A pessoa percebe novas possibilidades surgindo. Esses eventos fazem parte do propósito de expansão de consciência. A Potência 59 revela um destino guiado pela descoberta.",
+60:"Equilíbrio e Propósito de Responsabilidade. Na Pirâmide do Destino, a Potência 60 indica acontecimentos ligados à responsabilidade e equilíbrio entre áreas da vida. A pessoa percebe momentos que exigem maturidade e organização. Esses eventos fazem parte do propósito de assumir responsabilidades com consciência. A Potência 60 revela um destino guiado pelo equilíbrio.",
+61:"Recolhimento e Propósito de Recuperação Interior. Na Pirâmide do Destino, a Potência 61 indica acontecimentos que conduzem a fases de introspecção e necessidade de pausa. A pessoa percebe momentos em que o destino pede silêncio e reorganização emocional. Esses eventos fazem parte do propósito de restaurar o equilíbrio interno. A Potência 61 revela um destino guiado pelo recolhimento consciente.",
+62:"Rupturas e Propósito de Libertação Emocional. Na Pirâmide do Destino, a Potência 62 indica acontecimentos que rompem vínculos ou padrões emocionais. A pessoa percebe experiências que a levam ao perdão e à cura. Esses eventos fazem parte do propósito de libertação interior. A Potência 62 revela um destino guiado pela cura emocional.",
+63:"Dúvidas e Propósito de Redefinição. Na Pirâmide do Destino, a Potência 63 indica acontecimentos que provocam indecisão e reflexão profunda. A pessoa percebe momentos de questionamento sobre o caminho de vida. Esses eventos fazem parte do propósito de reorganizar prioridades. A Potência 63 revela um destino guiado pela reflexão.",
+64:"Persistência e Propósito de Superação. Na Pirâmide do Destino, a Potência 64 indica acontecimentos que exigem esforço contínuo. A pessoa percebe desafios que pedem perseverança. Esses eventos fazem parte do propósito de desenvolver força de vontade. A Potência 64 revela um destino guiado pela superação.",
+65:"Ascensão e Propósito de Propósito de Vida. Na Pirâmide do Destino, a Potência 65 indica acontecimentos ligados ao crescimento material e espiritual. A pessoa percebe oportunidades de evolução alinhadas ao propósito maior. Esses eventos fazem parte do propósito de crescimento com sentido. A Potência 65 revela um destino guiado pelo propósito.",
+66:"Autenticidade e Propósito de Expressão do Eu. Na Pirâmide do Destino, a Potência 66 indica acontecimentos que revelam a verdadeira identidade. A pessoa percebe situações que exigem autenticidade. Esses eventos fazem parte do propósito de viver a própria verdade. A Potência 66 revela um destino guiado pela autenticidade.",
+67:"Realização e Propósito de Concretização. Na Pirâmide do Destino, a Potência 67 indica acontecimentos que transformam ideias em realidade. A pessoa percebe oportunidades de concretização. Esses eventos fazem parte do propósito de materializar sonhos. A Potência 67 revela um destino guiado pela realização.",
+68:"Valor Pessoal e Propósito de Prosperidade Consciente. Na Pirâmide do Destino, a Potência 68 indica acontecimentos ligados ao reconhecimento do próprio valor. A pessoa percebe fases de prosperidade. Esses eventos fazem parte do propósito de aprender a valorizar a si mesmo. A Potência 68 revela um destino guiado pela abundância.",
+69:"Plenitude e Propósito de Realização Completa. Na Pirâmide do Destino, a Potência 69 indica acontecimentos de colheita e satisfação pessoal. A pessoa percebe fases de realização plena. Esses eventos fazem parte do propósito de experimentar plenitude. A Potência 69 revela um destino guiado pela realização.",
+70:"Autossuficiência e Propósito de Consolidação. Na Pirâmide do Destino, a Potência 70 indica acontecimentos ligados à estabilidade material. A pessoa percebe fases de consolidação. Esses eventos fazem parte do propósito de construir segurança. A Potência 70 revela um destino guiado pela estabilidade.",
+71:"Experiência e Propósito de Sabedoria. Na Pirâmide do Destino, a Potência 71 indica acontecimentos que ensinam por meio da experiência. A pessoa percebe a importância de preservar conquistas. A Potência 71 revela um destino guiado pela maturidade.",
+72:"Direcionamento e Propósito de Clareza. Na Pirâmide do Destino, a Potência 72 indica acontecimentos que trazem clareza e decisões importantes. A Potência 72 revela um destino guiado pela lucidez.",
+73:"Trocas e Propósito de Expansão Social. Na Pirâmide do Destino, a Potência 73 indica acontecimentos ligados à cooperação. A Potência 73 revela um destino guiado pela troca.",
+74:"Crises e Propósito de Reestruturação. Na Pirâmide do Destino, a Potência 74 indica acontecimentos que exigem reconstrução. A Potência 74 revela um destino guiado pela reorganização.",
+75:"Prosperidade e Propósito de Segurança Material. Na Pirâmide do Destino, a Potência 75 indica acontecimentos ligados à estabilidade financeira. A Potência 75 revela um destino guiado pela segurança.",
+76:"Reconhecimento e Propósito de Consolidação Profissional. Na Pirâmide do Destino, a Potência 76 indica acontecimentos ligados ao reconhecimento. A Potência 76 revela um destino guiado pelo mérito.",
+77:"Despertar e Propósito de Evolução Espiritual. Na Pirâmide do Destino, a Potência 77 indica acontecimentos de transformação espiritual. A Potência 77 revela um destino guiado pela evolução.",
+78:"Alegria e Propósito de Expansão Positiva. Na Pirâmide do Destino, a Potência 78 indica acontecimentos de felicidade e celebração. A Potência 78 revela um destino guiado pela alegria.",
+79:"Libertação e Propósito de Renascimento. Na Pirâmide do Destino, a Potência 79 indica acontecimentos de ruptura com o passado. A Potência 79 revela um destino guiado pelo recomeço.",
+80:"Consolidação e Propósito de Responsabilidade. Na Pirâmide do Destino, a Potência 80 indica acontecimentos que exigem maturidade e estrutura. A Potência 80 revela um destino guiado pela responsabilidade.",
+81:"Carma e Propósito de Consciência. Na Pirâmide do Destino, a Potência 81 indica acontecimentos ligados ao retorno das ações. A Potência 81 revela um destino guiado pela responsabilidade espiritual.",
+82:"Ciclos e Propósito de Aprendizado. Na Pirâmide do Destino, a Potência 82 indica repetição de experiências até o aprendizado. A Potência 82 revela um destino guiado pelos ciclos.",
+83:"Autodomínio e Propósito de Harmonia Interior. Na Pirâmide do Destino, a Potência 83 indica acontecimentos que exigem equilíbrio emocional. A Potência 83 revela um destino guiado pelo autocontrole.",
+84:"Missão e Propósito Coletivo. Na Pirâmide do Destino, a Potência 84 indica acontecimentos ligados à contribuição social. A Potência 84 revela um destino guiado pela missão.",
+85:"Quedas e Propósito de Transformação. Na Pirâmide do Destino, a Potência 85 indica acontecimentos de crise profunda. A Potência 85 revela um destino guiado pela reconstrução.",
+86:"Luta e Propósito de Determinação. Na Pirâmide do Destino, a Potência 86 indica acontecimentos de enfrentamento de obstáculos. A Potência 86 revela um destino guiado pela perseverança.",
+87:"Tentações e Propósito de Autocontrole. Na Pirâmide do Destino, a Potência 87 indica acontecimentos ligados a excessos. A Potência 87 revela um destino guiado pela consciência.",
+88:"Colapsos e Propósito de Renascimento. Na Pirâmide do Destino, a Potência 88 indica acontecimentos radicais de mudança. A Potência 88 revela um destino guiado pela reconstrução.",
+89:"Frustrações e Propósito de Paciência. Na Pirâmide do Destino, a Potência 89 indica acontecimentos de espera. A Potência 89 revela um destino guiado pelo amadurecimento.",
+90:"Silêncio e Propósito de Sabedoria. Na Pirâmide do Destino, a Potência 90 indica acontecimentos de recolhimento espiritual. A Potência 90 revela um destino guiado pela introspecção.",
+91:"Retorno e Propósito de Reparação. Na Pirâmide do Destino, a Potência 91 indica acontecimentos ligados ao retorno das ações passadas. A Potência 91 revela um destino guiado pela reparação.",
+92:"Questionamentos e Propósito de Reavaliação. Na Pirâmide do Destino, a Potência 92 indica acontecimentos de revisão de caminhos. A Potência 92 revela um destino guiado pela reflexão.",
+93:"Consciência e Propósito de Evolução. Na Pirâmide do Destino, a Potência 93 indica acontecimentos ligados ao crescimento espiritual. A Potência 93 revela um destino guiado pela evolução.",
+94:"Transições e Propósito de Redirecionamento. Na Pirâmide do Destino, a Potência 94 indica acontecimentos de encerramento de fases. A Potência 94 revela um destino guiado pela mudança.",
+95:"Reconhecimento e Propósito de Harmonia Social. Na Pirâmide do Destino, a Potência 95 indica acontecimentos ligados à aceitação social. A Potência 95 revela um destino guiado pela integração.",
+96:"Dissolução e Propósito de Libertação do Ego. Na Pirâmide do Destino, a Potência 96 indica acontecimentos que dissolvem ilusões. A Potência 96 revela um destino guiado pela libertação.",
+97:"Rupturas e Propósito de Missão. Na Pirâmide do Destino, a Potência 97 indica acontecimentos que revelam o propósito de vida. A Potência 97 revela um destino guiado pela missão.",
+98:"Reconhecimento e Propósito de Ascensão. Na Pirâmide do Destino, a Potência 98 indica acontecimentos de conquista e poder. A Potência 98 revela um destino guiado pela ascensão.",
+99:"Realização Suprema e Propósito de Sabedoria. Na Pirâmide do Destino, a Potência 99 indica acontecimentos de culminação e sabedoria. A Potência 99 revela um destino guiado pela plenitude."};
+
+// 🚨 TEXTOS SEQUÊNCIAS NEGATIVAS
+const textosSeqNeg = {
+
+1:`➢ SEQUÊNCIA DE 1 – Iniciativa e Determinação
+Esta sequência pode impor dificuldades que afetam motivação,
+iniciativa e coragem para agir e se arriscar.`,
+
+2:`➢ SEQUÊNCIA DE 2 – Autoconfiança
+Pode afetar autoestima, gerar timidez, insegurança e dependência
+emocional ou material.`,
+
+3:`➢ SEQUÊNCIA DE 3 – Comunicação e Expressão
+Dificuldades para se expressar, dialogar e interagir socialmente.`,
+
+4:`➢ SEQUÊNCIA DE 4 – Carreira e Profissão
+Obstáculos profissionais, dificuldades financeiras e estabilidade.`,
+
+5:`➢ SEQUÊNCIA DE 5 – Instabilidade
+Mudanças constantes, altos e baixos e dificuldade em se firmar.`,
+
+6:`➢ SEQUÊNCIA DE 6 – Afeto e Sentimentos
+Decepções emocionais e dificuldades em relações.`,
+
+7:`➢ SEQUÊNCIA DE 7 – Medo e Isolamento
+Tendência ao isolamento, frustrações e conflitos internos.`,
+
+8:`➢ SEQUÊNCIA DE 8 – Problemas Emocionais e Financeiros
+Perdas, injustiças e instabilidade material.`,
+
+9:`➢ SEQUÊNCIA DE 9 – Perdas e Frustrações
+Dificuldades financeiras, emocionais e sensação de estagnação.`
+
+};
+
+// ⭐ TEXTOS SEQUÊNCIAS ESPECIAIS
+const textosSeqEsp = {
+  "116": "Período em que poderá sofrer difamação, perda de credibilidade ou prestígio.",
+  "123": "Recebimento de honraria por trabalho, criatividade ou filhos.",
+  "252": "Separação conjugal, divórcio ou perda do cônjuge.",
+  "575": "Mudanças inesperadas, perdas materiais e dificuldades profissionais.",
+  "757": "Mudanças que forçarão crescimento e evolução pessoal.",
+  "922": "Favorecimento em concursos, política, vestibular ou disputas.",
+  "923": "Harmonia familiar e apoio de amizades sinceras.",
+  "924": "Ascensão social e contato com pessoas influentes.",
+  "925": "Cautela com amigos ou funcionários; possível decepção.",
+  "926": "Necessidade de auxílio familiar por doença ou problemas.",
+  "927": "Intrigas, escândalos ou segredos vindo à tona."
+};
+
+
+  
+// =======================
+// 📖 TEXTOS EXPLICATIVOS DAS PIRÂMIDES
+// =======================
+const explicacoes = {
+
+principal: `
+<div class="box">
+<h2>🔺 Pirâmide da Vida</h2>
+<p>
+A Pirâmide da Vida representa a estrutura geral da existência do indivíduo.
+Ela revela o caminho principal da vida, as fases evolutivas, os ciclos e as
+potências que atuam ao longo da jornada.
+</p>
+<p>
+Matriz principal
+Formado pelo nome batismo da pessoa; reflete os aspectos gerais da vida.
+O triângulo formado pelas potências a partir somente da equivalência numérica de cada letra que compõe o nome da pessoa, apresenta o cenário geral dos acontecimentos previstos para aquela pessoa individualmente.
+Todas as vigências (idades e períodos) são baseadas nesta pirâmide.
+Ela é a pirâmide central que governa todas as outras.
+</p>
+</div>
+`,
+
+pessoal: `
+<div class="box">
+<h2>👤 Pirâmide Pessoal</h2>
+<p>Formado pela equivalência numérica de cada letra do Nome de Nascimento da pessoa, somada a seu dia de nascimento reduzido a um único digito, demonstra as atitudes íntimas da pessoa individualmente diante do quadro geral apresentado na Matriz Principal.
+
+A Pirâmide Pessoal revela o mundo interno, emocional e psicológico.
+Mostra como a pessoa vive cada fase internamente,
+seus sentimentos, conflitos e crescimento interior.
+</p>
+</div>
+`,
+
+social: `
+<div class="box">
+<h2>🌎 Pirâmide influencia do meio Social</h2>
+<p>O nome mais o mês de nascimento; reflete a vida pública e social da pessoa.
+Formado pela equivalência numérica de cada letra do Nome de Nascimento da pessoa, somada a seu mês de nascimento reduzido a um único digito, refere-se a vida social da pessoa e demonstra com influências externas interferem na vida da pessoa individualmente diante do quadro geral apresentado na Matriz Principal.
+
+A Pirâmide de influencia do meio Social mostra a atuação no mundo externo.
+Ela revela como a pessoa é percebida, sua vida profissional,
+relações sociais e interação com o meio.
+</p>
+</div>
+`,
+
+destino: `
+<div class="box">
+<h2>⭐ Pirâmide do Propósito e Influencia </h2>
+<p>O nome mais o dia e o mês de nascimento; reflete aspectos do destino da pessoa.
+Formado pela equivalência numérica de cada letra do Nome de Nascimento da pessoa, somada ao dia e mês de nascimento da pessoa, reduzido a um único digito, refere-se ao destino da pessoa individualmente e demonstra os possíveis eventos diante do quadro geral apresentado na Matriz Principal, combinado com as Matrizes Pessoal e do Meio Social.
+
+A Pirâmide do Propósito e Influencia mostra os acontecimentos marcantes
+e eventos que conduzem o caminho da vida.
+Ela revela as experiências que moldam o destino ao longo do tempo.
+</p>
+</div>
+`
+
+};  
+
+// =======================
+
+function valorLetra(letra){
+
+  if(!letra || letra===" ") return 0;
+
+  // separa letra e acentos
+  let normal = letra.normalize("NFD");
+
+  let base = normal[0];
+  let acentos = normal.slice(1);
+
+  let valorBase = mapa[base] ?? 0;
+
+  let somaAcentos = 0;
+  let multAcentos = 1;
+
+  for(let a of acentos){
+
+    if(a === "\u0301") somaAcentos += 2;      // agudo
+    else if(a === "\u0302") somaAcentos += 7; // circunflexo
+    else if(a === "\u0303") somaAcentos += 3; // til
+    else if(a === "\u0327") somaAcentos += 6; // cedilha
+
+    else if(a === "\u0300") multAcentos *= 2; // grave
+    else if(a === "\u0308") multAcentos *= 2; // trema
+  }
+
+  return (valorBase + somaAcentos) * multAcentos;
+}
+
+function reduzir(n){
+  while(n>9){
+    n=n.toString().split('').reduce((a,b)=>+a+ +b,0);
+  }
+  return n;
+}
+
+function nomeNumeros(nome){
+  nome=nome.toUpperCase();
+  let arr=[];
+  for(let l of nome){
+    if(l===" ")continue;
+    let v=valorLetra(l);
+    if(v)arr.push(v);
+  }
+  return arr;
+}
+
+function piramide(base){
+  let linhas=[base];
+  while(base.length>1){
+    let nova=[];
+    for(let i=0;i<base.length-1;i++){
+      nova.push(reduzir(base[i]+base[i+1]));
+    }
+    linhas.push(nova);
+    base=nova;
+  }
+  return linhas;
+}
+
+// =======================
+// 🚨 DETECTOR DE SEQUÊNCIAS NEGATIVAS
+// =======================
+function detectarSequencias(linhas){
+
+  let sequencias=[];
+  let posicoes=[];
+
+  linhas.forEach((linha, i)=>{
+
+    let cont=1;
+
+    for(let j=1;j<linha.length;j++){
+
+      if(linha[j] === linha[j-1]){
+        cont++;
+      }else{
+
+        if(cont>=3){
+          sequencias.push({
+            numero: linha[j-1],
+            repeticoes: cont
+          });
+
+          for(let k=j-cont;k<j;k++){
+            posicoes.push({linha:i,indice:k});
+          }
+        }
+
+        cont=1;
+      }
+}
+// detectar sequência no FINAL da linha
+if(cont >= 3){
+  sequencias.push({
+    numero: linha[linha.length-1],
+    repeticoes: cont
+  });
+
+  for(let k = linha.length - cont; k < linha.length; k++){
+    posicoes.push({linha:i, indice:k});
+  }
+}
+   
+
+  });
+
+  return {sequencias,posicoes};
+}
+
+// =====================================
+// ⭐ DETECTOR DE SEQUÊNCIAS ESPECIAIS
+// =====================================
+function detectarSequenciasEspeciais(linhas){
+
+  let encontradas = new Set(); // evita repetição
+
+  linhas.forEach(linha => {
+
+    // percorre janela de 3 números consecutivos
+    for(let i=0; i < linha.length-2; i++){
+
+      let codigo =
+        "" + linha[i] + linha[i+1] + linha[i+2];
+
+      if(sequenciasEspeciais.includes(codigo)){
+        encontradas.add(codigo);
+      }
+
+    }
+  });
+
+  return Array.from(encontradas);
+}
+
+// ⭐ POSIÇÕES DAS SEQUÊNCIAS ESPECIAIS NA PIRÂMIDE
+function detectarPosicoesEspeciais(linhas){
+
+  let posicoes = [];
+
+  linhas.forEach((linha,i)=>{
+
+    for(let j=0;j<linha.length-2;j++){
+
+      let seq = "" + linha[j] + linha[j+1] + linha[j+2];
+
+      if(sequenciasEspeciais[seq]){
+        posicoes.push({linha:i, indice:j});
+        posicoes.push({linha:i, indice:j+1});
+        posicoes.push({linha:i, indice:j+2});
+      }
+
+    }
+
+  });
+
+  return posicoes;
+}
+
+
+
+function desenhar(linhas, compacta=false){
+
+  let classe = compacta ? "piramide compacta" : "piramide";
+
+  // 🔴 NEGATIVAS
+  const analise = detectarSequencias(linhas);
+  const posNeg = analise.posicoes;
+
+  // ⭐ ESPECIAIS (posições já criadas anteriormente)
+  const posEsp = detectarPosicoesEspeciais(linhas);
+
+  // 💰 FINANCEIRA (99 com 9 abaixo)
+  const posFin = detectarSequenciaFinanceira(linhas);
+
+  function ehNegativo(i,j){
+    return posNeg.some(p => p.linha===i && p.indice===j);
+  }
+
+  function ehEspecial(i,j){
+    return posEsp.some(p => p.linha===i && p.indice===j);
+  }
+
+  function ehFinanceiro(i,j){
+    return posFin.some(p => p.linha===i && p.indice===j);
+  }
+
+  let html=`<div class="${classe}">`;
+
+  linhas.forEach((linha,i)=>{
+    html += `<div class="linha">`;
+
+    linha.forEach((n,j)=>{
+
+      let classeNum = "num";
+
+      if(ehNegativo(i,j))   classeNum += " negativo";
+      if(ehEspecial(i,j))   classeNum += " especial";
+      if(ehFinanceiro(i,j)) classeNum += " financeiro";
+
+      html += `<div class="${classeNum}">${n}</div>`;
+    });
+
+    html += `</div>`;
+  });
+
+  html += `</div>`;
+  return html;
+}
+
+// 💰 DETECTOR SEQUÊNCIA FINANCEIRA (99 com 9 abaixo)
+function detectarSequenciaFinanceira(linhas){
+
+  let posicoes = [];
+
+  for(let i=0; i < linhas.length-1; i++){
+    let linhaAtual = linhas[i];
+    let linhaAbaixo = linhas[i+1];
+
+    for(let j=0; j < linhaAtual.length-1; j++){
+
+      // procura 99 lado a lado
+      if(linhaAtual[j] === 9 && linhaAtual[j+1] === 9){
+
+        // verifica se abaixo existe o 9 central
+        if(linhaAbaixo[j] === 9){
+
+          posicoes.push({linha:i, indice:j});
+          posicoes.push({linha:i, indice:j+1});
+          posicoes.push({linha:i+1, indice:j});
+        }
+
+      }
+
+    }
+  }
+
+  return posicoes;
+}
+
+
+function vigencias(arcanos,data){
+
+  let lista=[];
+
+  // corrigir fuso
+  const [ano, mes, dia] = data.split("-").map(Number);
+  let atual = new Date(ano, mes-1, dia);
+
+  let idade = 0;
+  let indice = 0; // <- posição dentro da pirâmide
+
+  const IDADE_MAX = 100; // pode mudar para 120 ou 150
+
+  while(idade < IDADE_MAX){
+
+    // pega potência atual da pirâmide (loop infinito)
+    let a = arcanos[indice];
+
+    // duração da potência (mesma regra que você já usa)
+    let anos = parseInt(a.toString()[0]);
+    if(anos === 0) anos = 1;
+
+    let inicio = new Date(atual);
+    atual.setFullYear(atual.getFullYear()+anos);
+    let fim = new Date(atual);
+
+    lista.push({
+      num:a,
+      idadeIni:idade,
+      idadeFim:idade+anos,
+      ini:inicio.toLocaleDateString('pt-BR'),
+      fim:fim.toLocaleDateString('pt-BR')
+    });
+
+    idade += anos;
+
+    // 🔁 aqui está o segredo do ciclo infinito
+    indice = (indice + 1) % arcanos.length;
+  }
+
+  return lista;
+}
+// =======================
+// 🧩 FUNÇÕES DAS NOVAS PIRÂMIDES
+// =======================
+// =======================
+// 🧩 PIRÂMIDES CORRETAS (SEM EXPLODIR BASE)
+// =======================
+
+// gera pirâmide aplicando um fator (dia / mês / destino)
+// o fator entra SOMENTE na soma dos pares
+function piramideComFator(baseNome, fator){
+
+  let base = baseNome.map(n => reduzir(n + fator));
+  let linhas=[base];
+
+  while(base.length>1){
+    let nova=[];
+    for(let i=0;i<base.length-1;i++){
+      nova.push(reduzir(base[i]+base[i+1]));
+    }
+    linhas.push(nova);
+    base=nova;
+  }
+
+  return linhas;
+}
+
+// ===== PIRÂMIDE PESSOAL (DIA)
+function piramidePessoal(baseNome,dia){
+  let fator = reduzir(dia);
+  return piramideComFator(baseNome,fator);
+}
+
+// ===== PIRÂMIDE SOCIAL (MÊS)
+function piramideSocial(baseNome,mes){
+  let fator = reduzir(mes);
+  return piramideComFator(baseNome,fator);
+}
+
+// ===== PIRÂMIDE DESTINO (DIA + MÊS)
+function piramideDestino(baseNome,dia,mes){
+  let fator = reduzir(reduzir(dia) + reduzir(mes));
+  return piramideComFator(baseNome,fator);
+}
+  function arcanosDoTopoPiramide(linhas){
+  let topo = linhas[0];
+  let arcanos = [];
+
+  for(let i=0;i<topo.length-1;i++){
+    arcanos.push(parseInt(""+topo[i]+topo[i+1]));
+  }
+
+  return arcanos;
+}
+// =======================
+// 📜 HTML DAS VIGÊNCIAS
+// =======================
+// =======================
+// 📜 VIGÊNCIAS COM ARCANO DE CADA PIRÂMIDE
+// =======================
+function montarVigencias(lista, textosMapa, arcanosOverride=null){
+
+  let html="<div class='box'><h3>⏳ Vigências</h3>";
+
+  lista.forEach((x,i)=>{
+
+    let numeroArcano = arcanosOverride ? arcanosOverride[i] : x.num;
+
+    html+=`
+    <div class="box">
+      <h3>🔹 Potência ${numeroArcano}</h3>
+      <b>Idade:</b> ${x.idadeIni} → ${x.idadeFim}<br>
+      <b>Período:</b> ${x.ini} - ${x.fim}
+      <br><br>
+      ${textosMapa[numeroArcano] ?? ""}
+    </div>`;
+  });
+
+  html+="</div>";
+  return html;
+}
+
+// =======================
+// 📜 RELATÓRIO SEQUÊNCIAS NEGATIVAS
+// =======================
+function gerarRelatorioSequencias(linhas, textosMapa){
+
+  const resultado = detectarSequencias(linhas);
+  const seq = resultado.sequencias;
+
+  let html="<div class='boxSeq'><h3>⚠️ Sequências Numéricas Negativas</h3>";
+
+  if(seq.length===0){
+    html+="Você não possui sequências numéricas negativas nesta pirâmide.";
+  }else{
+    seq.forEach(s=>{
+      html+=`
+      <div class="box">
+        <h3>Sequência de ${s.numero}</h3>
+        ${textosMapa[s.numero] ?? ""}
+      </div>`;
+    });
+  }
+
+  html+="</div>";
+  return html;
+}
+
+// 🔴 PIRÂMIDES GLOBAIS (necessário para o botão funcionar)
+let pirPrincipal;
+let pirPes;
+let pirSoc;
+let pirDes;
+
+// 🔺 GERA ARCANO DO TOPO (pares da base)
+function topo(base){
+
+  let arcanos = [];
+
+  for(let i=0;i<base.length-1;i++){
+    arcanos.push(
+      parseInt("" + base[i] + base[i+1])
+    );
+  }
+
+  return arcanos;
+}
+
+function gerar(){
+
+   nomeTxt = document.getElementById("nome").value;
+   dataTxt = document.getElementById("data").value;
+  if(!nomeTxt || !dataTxt) return;
+
+  baseNome = nomeNumeros(nomeTxt);
+   [ano,mes,dia] = dataTxt.split("-").map(Number);
+
+  // =========================
+  // 🔺 PIRÂMIDE PRINCIPAL (VIDA)
+  // =========================
+   pirPrincipal = piramide(baseNome);
+   regPrincipal = pirPrincipal.at(-1)[0];
+
+   arcanosPrincipal = topo(baseNome);
+   vig = vigencias(arcanosPrincipal,dataTxt);
+
+document.getElementById("aba_principal").innerHTML =
+  explicacoes.principal +
+  `<h2 style="text-align:center">🔺 Pirâmide da Vida</h2>` +
+  desenhar(pirPrincipal,true) +
+
+  `<div class="box"><h3>Regente ${regPrincipal}</h3>${textosVida[regPrincipal] ?? ""}</div>` +
+
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirPrincipal)}
+      ${gerarRelatorioEspeciaisCompacto(pirPrincipal)}
+      ${gerarRelatorioFinanceiroCompacto(pirPrincipal)}
+   </div>` +
+
+  montarVigencias(vig, textosVida);
+
+  // =========================
+  // 👤 PIRÂMIDE PESSOAL
+  // =========================
+   pirPes = piramidePessoal(baseNome,dia);
+   regPes = pirPes.at(-1)[0];
+  arcanosPes = topo(pirPes[0]);
+
+document.getElementById("aba_pessoal").innerHTML =
+  explicacoes.pessoal +
+  `<h2 style="text-align:center">👤 Pirâmide Pessoal</h2>` +
+  desenhar(pirPes,true) +
+
+  `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
+
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirPes)}
+      ${gerarRelatorioEspeciaisCompacto(pirPes)}
+      ${gerarRelatorioFinanceiroCompacto(pirPes)}
+   </div>` +
+
+  montarVigencias(vig, textosPessoal, arcanosPes);
+
+  // =========================
+  // 🌎 PIRÂMIDE SOCIAL
+  // =========================
+   pirSoc = piramideSocial(baseNome,mes);
+   regSoc = pirSoc.at(-1)[0];
+   arcanosSoc = topo(pirSoc[0]);
+
+document.getElementById("aba_social").innerHTML =
+  explicacoes.social +
+  `<h2 style="text-align:center">🌎 Pirâmide Social</h2>` +
+  desenhar(pirSoc,true) +
+
+  `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
+
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirSoc)}
+      ${gerarRelatorioEspeciaisCompacto(pirSoc)}
+      ${gerarRelatorioFinanceiroCompacto(pirSoc)}
+   </div>` +
+
+  montarVigencias(vig, textosSocial, arcanosSoc);
+
+  // =========================
+  // ⭐ PIRÂMIDE DESTINO
+  // =========================
+   pirDes = piramideDestino(baseNome,dia,mes);
+   regDes = pirDes.at(-1)[0];
+   arcanosDes = topo(pirDes[0]);
+
+document.getElementById("aba_destino").innerHTML =
+  explicacoes.destino +
+  `<h2 style="text-align:center">⭐ Pirâmide Destino</h2>` +
+  desenhar(pirDes,true) +
+
+  `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
+
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirDes)}
+      ${gerarRelatorioEspeciaisCompacto(pirDes)}
+      ${gerarRelatorioFinanceiroCompacto(pirDes)}
+   </div>` +
+
+  montarVigencias(vig, textosDestino, arcanosDes);
+
+}
+// =======================
+// 📄 PDF
+// =======================
+function gerarPDF(){
+  window.print();
+}
+function mostrarAba(nome){
+  document.getElementById("aba_principal").style.display="none";
+  document.getElementById("aba_pessoal").style.display="none";
+  document.getElementById("aba_social").style.display="none";
+  document.getElementById("aba_destino").style.display="none";
+
+  document.getElementById("aba_"+nome).style.display="block";
+}
+
+function mostrarSeq(tipo){
+
+  if(tipo==="principal"){
+    document.getElementById("seq_principal").innerHTML =
+      gerarRelatorioSequencias(pirPrincipal, textosSeqNeg);
+  }
+
+  if(tipo==="pessoal"){
+    document.getElementById("seq_pessoal").innerHTML =
+      gerarRelatorioSequencias(pirPes, textosSeqNeg);
+  }
+
+  if(tipo==="social"){
+    document.getElementById("seq_social").innerHTML =
+      gerarRelatorioSequencias(pirSoc, textosSeqNeg);
+  }
+
+  if(tipo==="destino"){
+    document.getElementById("seq_destino").innerHTML =
+      gerarRelatorioSequencias(pirDes, textosSeqNeg);
+  }
+if(tipo==="especial_principal"){
+  document.getElementById("seq_esp_principal").innerHTML =
+    gerarRelatorioEspeciais(pirPrincipal);
+}
+
+if(tipo==="especial_pessoal"){
+  document.getElementById("seq_esp_pessoal").innerHTML =
+    gerarRelatorioEspeciais(pirPes);
+}
+
+if(tipo==="especial_social"){
+  document.getElementById("seq_esp_social").innerHTML =
+    gerarRelatorioEspeciais(pirSoc);
+}
+
+if(tipo==="especial_destino"){
+  document.getElementById("seq_esp_destino").innerHTML =
+    gerarRelatorioEspeciais(pirDes);
+}
+
+}
+// =====================================
+// 🔴 DETECTOR DE SEQUÊNCIAS NEGATIVAS
+// =====================================
+function detectarSequenciasNegativas(linhas){
+
+  let contagem = {}; // {numero: quantidade}
+
+  linhas.forEach(linha=>{
+    linha.forEach(num=>{
+      contagem[num] = (contagem[num] || 0) + 1;
+    });
+  });
+
+  let sequencias = [];
+
+  for(let num in contagem){
+    if(contagem[num] >= 3){
+      sequencias.push(Number(num));
+    }
+  }
+
+  return sequencias;
+}
+
+// ======================================
+// ⭐ DETECTOR DE SEQUÊNCIAS ESPECIAIS
+// ======================================
+
+const sequenciasEspeciais = {
+  "116":"Possível difamação, perda de prestígio ou credibilidade.",
+  "123":"Recebimento de honraria ou reconhecimento.",
+  "252":"Possível separação conjugal ou perda do cônjuge.",
+  "575":"Mudanças inesperadas e perdas materiais.",
+  "757":"Mudanças forçando evolução pessoal.",
+  "922":"Favorecimento em concursos e disputas.",
+  "923":"Período de harmonia familiar e amizades.",
+  "924":"Ascensão social e contatos influentes.",
+  "925":"Cuidado com amigos ou subordinados.",
+  "926":"Necessidade de auxílio familiar.",
+  "927":"Intrigas, escândalos ou segredos revelados."
+};
+
+function detectarSequenciasEspeciais(linhas){
+
+  let encontradas = new Set();
+
+  linhas.forEach(linha => {
+
+    for(let i=0; i < linha.length-2; i++){
+
+      let codigo = "" + linha[i] + linha[i+1] + linha[i+2];
+
+      if(sequenciasEspeciais[codigo]){
+        encontradas.add(codigo);
+      }
+
+    }
+  });
+
+  return Array.from(encontradas);
+}
+
+// 💰 DETECTOR SEQUÊNCIA FINANCEIRA (99 com 9 abaixo)
+function detectarSequenciaFinanceira(linhas){
+
+  let posicoes = [];
+
+  for(let i=0;i<linhas.length-1;i++){
+
+    let linhaAtual = linhas[i];
+    let linhaBaixo = linhas[i+1];
+
+    for(let j=0;j<linhaAtual.length-1;j++){
+
+      // encontrou 99
+      if(linhaAtual[j]===9 && linhaAtual[j+1]===9){
+
+        // posição do número abaixo (centro)
+        if(linhaBaixo[j]===9){
+
+          // marca os 3 números
+          posicoes.push({linha:i, indice:j});
+          posicoes.push({linha:i, indice:j+1});
+          posicoes.push({linha:i+1, indice:j});
+        }
+      }
+    }
+  }
+
+  return posicoes;
+}
+
+function gerarRelatorioEspeciais(piramide){
+
+  // usa a MESMA detecção da pirâmide
+  const encontrados = detectarSequenciasEspeciais(piramide);
+
+  if(encontrados.length === 0){
+    return `
+      <div class="box">
+        <h3>⭐ Sequências Especiais</h3>
+        Nenhuma sequência especial encontrada.
+      </div>
+    `;
+  }
+
+  let html = `<div class="box"><h3>⭐ Sequências Especiais</h3>`;
+
+  encontrados.forEach(seq=>{
+    html += `
+      <div class="cardSeq">
+        <h4>Sequência ${seq}</h4>
+        <p>${sequenciasEspeciais[seq]}</p>
+      </div>`;
+  });
+
+  html += "</div>";
+
+  return html;
+}// =====================================
+// 📄 RELATÓRIO DAS SEQUÊNCIAS
+// =====================================
+function gerarRelatorioSequencias(linhas, textosSeq){
+
+  const analise = detectarSequencias(linhas);
+  const sequencias = analise.sequencias;
+
+  // remover duplicadas (se aparecer em várias linhas)
+  const numerosUnicos = [...new Set(sequencias.map(s => s.numero))];
+
+  // se não existir nenhuma sequência
+  if(numerosUnicos.length === 0){
+    return `
+      <div class="box">
+        <h3>✨ Nenhuma sequência negativa encontrada</h3>
+        <p>Não foram identificadas repetições numéricas negativas nesta pirâmide.</p>
+      </div>
+    `;
+  }
+
+  let html = `<h2>⚠️ Sequências Numéricas Negativas</h2>`;
+
+  numerosUnicos.forEach(num => {
+    html += `
+      <div class="box">
+        <h3>Sequência de ${num}</h3>
+        <p>${textosSeq[num] ?? "Texto não cadastrado."}</p>
+      </div>
+    `;
+  });
+
+  return html;
+}
+
+// =====================================
+// 🔻 RELATÓRIOS COMPACTOS (NOVOS)
+// usados dentro da aba automaticamente
+// =====================================
+
+function gerarRelatorioNegativasCompacto(linhas){
+
+  const analise = detectarSequencias(linhas);
+  const numerosUnicos = [...new Set(analise.sequencias.map(s => s.numero))];
+
+  let html = `<div class="box"><h3>⚠️ Negativas</h3>`;
+
+  if(numerosUnicos.length === 0){
+    html += `<p>Nenhuma sequência negativa.</p>`;
+  }else{
+    numerosUnicos.forEach(num=>{
+      html += `<p><b>${num}</b> — ${textosSeqNeg[num]}</p>`;
+    });
+  }
+
+  html += "</div>";
+  return html;
+}
+
+function gerarRelatorioEspeciaisCompacto(piramide){
+
+  const encontrados = detectarSequenciasEspeciais(piramide);
+
+  let html = `<div class="box"><h3>⭐ Especiais</h3>`;
+
+  if(encontrados.length === 0){
+    html += `<p>Nenhuma sequência especial.</p>`;
+  }else{
+    encontrados.forEach(seq=>{
+      html += `<p><b>${seq}</b> — ${sequenciasEspeciais[seq]}</p>`;
+    });
+  }
+
+  html += "</div>";
+  return html;
+}
+
+function gerarRelatorioFinanceiroCompacto(piramide){
+
+  const posicoes = detectarSequenciaFinanceira(piramide);
+
+  let html = `<div class="box"><h3>💰 Financeiro</h3>`;
+
+  if(posicoes.length === 0){
+    html += `<p>Não encontrado.</p>`;
+  }else{
+    html += `<p>Sequência 99/9 presente. Potencial de prosperidade material.</p>`;
+  }
+
+  html += "</div>";
+  return html;
+}
+  
+
+// ======================================
+// 🚀 GERAR RELATÓRIO PREMIUM COMPLETO
+// ======================================
+// 💾 SALVAR RELATÓRIO PREMIUM PIRÂMIDE
+// ======================================
+function salvarRelatorioPiramide(){
+
+  const nome = document.getElementById("nome").value;
+  const data = document.getElementById("data").value;
+
+  if(!nome || !data){
+    alert("Gere a pirâmide antes de exportar.");
+    return;
+  }
+
+  // 🔺 CAPTURA HTML PRONTO DE CADA PIRÂMIDE
+  const htmlPrincipal = document.getElementById("aba_principal").innerHTML;
+  const htmlPessoal   = document.getElementById("aba_pessoal").innerHTML;
+  const htmlSocial    = document.getElementById("aba_social").innerHTML;
+  const htmlDestino   = document.getElementById("aba_destino").innerHTML;
+
+  // 📦 PACOTE COMPLETO ENVIADO AO PREMIUM
+  const pacotePiramide = {
+    nome: nome,
+    data: data,
+
+    piramidePrincipal: htmlPrincipal,
+    piramidePessoal: htmlPessoal,
+    piramideSocial: htmlSocial,
+    piramideDestino: htmlDestino
+  };
+
+  // salva no navegador
+  localStorage.setItem("relatorioPiramide", JSON.stringify(pacotePiramide));
+}
+  
+// ======================================
+// 🚀 ABRIR RELATÓRIO PREMIUM
+// ======================================
+function abrirPremium(){
+
+  const nome = document.getElementById("nome").value;
+  const data = document.getElementById("data").value;
+
+  if(!nome || !data){
+    alert("Gere a pirâmide primeiro.");
+    return;
+  }
+
+  // captura conteúdo das 4 abas já geradas
+  const pacote = {
+    nome: nome,
+    data: data,
+    piramidePrincipal: document.getElementById("aba_principal").innerHTML,
+    piramidePessoal:   document.getElementById("aba_pessoal").innerHTML,
+    piramideSocial:    document.getElementById("aba_social").innerHTML,
+    piramideDestino:   document.getElementById("aba_destino").innerHTML
+  };
+
+  // salva no navegador
+  localStorage.setItem("relatorioPiramide", JSON.stringify(pacote));
+
+  // abre HTML Premium
+  window.open(
+    "https://hemricciinstintosuperior-rcci.github.io/piramide_da_vida/piramide-premium.html?token=ABC123",
+    "_blank"
+  );
+}
+
+// =======================
+// 🔒 BLOQUEIO CÓPIA
+// =======================
+document.oncontextmenu=()=>false;
+document.onselectstart=()=>false;
+
+</script>
+<script>
+/* ===============================
+   ATIVAR PWA DEFINITIVO
+================================ */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/piramide_da_vida/sw.js")
+      .then(reg => console.log("SW ativo", reg.scope))
+      .catch(err => console.log("Erro SW", err));
+  });
+}
+
+/* força modo app standalone */
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  console.log("APP pronto para instalar");
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

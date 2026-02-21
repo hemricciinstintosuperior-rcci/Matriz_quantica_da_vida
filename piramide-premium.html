@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatório Premium • Pirâmide Cabalística</title>
+
+<style>
+body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0;}
+*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
+
+.capa{background:white;text-align:center;padding:120px 40px;}
+.logo{width:650px;margin-bottom:40px;}
+.titulo{font-size:42px;letter-spacing:3px;}
+.subtitulo{font-size:22px;margin-top:10px;}
+.nomeCliente{margin-top:70px;font-size:24px;}
+
+.secao{
+ max-width:1000px;margin:40px auto;background:white;
+ padding:40px;border-radius:10px;box-shadow:0 0 20px rgba(0,0,0,.05);
+}
+
+.texto{white-space:pre-line;font-size:19px;line-height:1.6;}
+.tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px;}
+
+.piramide{display:flex;flex-direction:column;align-items:center;margin:40px 0;}
+.linha{display:flex;justify-content:center;margin:2px 0;}
+.num{
+ width:28px;height:28px;border-radius:6px;
+ display:flex;align-items:center;justify-content:center;
+ font-weight:bold;font-size:14px;margin:2px;color:#fff;
+ background:#63c7d6;
+}
+.num.negativo{background:#e74c3c;}
+.num.especial{background:#f1c40f;color:#000;}
+.num.financeiro{background:#2ecc71;}
+
+.rodape{text-align:right;margin-top:80px;font-size:12px;color:#777;}
+@media print{.no-print{display:none!important;}}
+
+
+/* =========================
+📱 RESPONSIVO MOBILE
+========================= */
+@media screen and (max-width: 768px){
+
+  body{
+    background:#fff;
+  }
+
+  .capa{
+    padding:60px 20px;
+  }
+
+  .logo{
+    width:90%;
+    max-width:320px;
+  }
+
+  .titulo{
+    font-size:28px;
+    letter-spacing:1px;
+  }
+
+  .subtitulo{
+    font-size:18px;
+  }
+
+  .nomeCliente{
+    font-size:18px;
+    margin-top:40px;
+  }
+
+  .secao{
+    margin:20px 12px;
+    padding:25px 18px;
+    border-radius:14px;
+  }
+
+  .texto{
+    font-size:16px;
+    line-height:1.7;
+  }
+
+  .tituloPiramide{
+    font-size:22px;
+  }
+
+  /* PIRÂMIDE MOBILE */
+  .num{
+    width:22px;
+    height:22px;
+    font-size:12px;
+    margin:1px;
+    border-radius:5px;
+  }
+
+  .linha{
+    margin:1px 0;
+  }
+
+  /* botão */
+  button{
+    width:90%;
+    padding:14px;
+    font-size:18px;
+    border-radius:10px;
+  }
+
+}
+
+ 
+</style>
+</head>
+
+<body>
+<div id="conteudo">Gerando relatório...</div>
+
+<script>
+// valida token
+const params=new URLSearchParams(window.location.search);
+if(params.get("token")!=="ABC123"){
+ document.body.innerHTML="Acesso inválido"; throw new Error();
+}
+
+// recebe dados do gerador
+const dados=localStorage.getItem("relatorioPiramide");
+if(!dados){document.body.innerHTML="Nenhum relatório encontrado.";throw new Error();}
+const relatorio=JSON.parse(dados);
+
+// TEXTOS FIXOS
+const textos={
+introducaoMetodo:`A Pirâmide Cabalística é um método de autoconhecimento profundo.
+Ela revela padrões ocultos da vida através das vibrações do nome e data de nascimento.
+Este relatório apresenta a leitura completa da pirâmide gerada.`,
+
+introRegente:`O Regente representa a força central que governa toda a estrutura energética da pirâmide.`,
+
+introNegativas:`Sequências negativas indicam padrões repetitivos que podem gerar desafios.`,
+
+introEspeciais:`Sequências especiais representam acontecimentos marcantes e fases de transformação.`,
+
+introFinanceiro:`A sequência financeira 99/9 indica potencial de prosperidade e expansão material.`,
+
+introVigencias:`As vigências representam os ciclos de atuação das potências ao longo da vida.`,
+
+agradecimento:`Este relatório foi desenvolvido para autoconhecimento.
+O livre-arbítrio é sempre o fator decisivo da jornada.
+Gratidão por confiar no Instinto Superior.`
+};
+
+function montarSecao(nome,html){
+ return `<div class="secao"><div class="tituloPiramide">${nome}</div>${html}</div>`;
+}
+
+// =========================
+// RELATÓRIO COMPLETO
+// =========================
+document.getElementById("conteudo").innerHTML=`
+
+<div class="capa">
+<img class="logo" src="https://static.wixstatic.com/media/748f0c_61e44522ec3540c89e3c2cb8aff5e9b7~mv2.png">
+<div class="titulo">INSTINTO SUPERIOR</div>
+<div class="subtitulo">Pirâmide Cabalística</div>
+<div class="nomeCliente"><b>${relatorio.nome}</b><br>${relatorio.data}</div>
+</div>
+
+<div class="secao">
+<h2>Introdução ao Método</h2>
+<div class="texto">${textos.introducaoMetodo}</div>
+</div>
+
+<!-- 🔴 NOVO BLOCO ADICIONADO -->
+<div class="secao">
+<h2>Como interpretar o relatório</h2>
+<div class="texto">
+
+<b>Regente</b><br>
+${textos.introRegente}<br><br>
+
+<b>Sequências Numéricas Negativas</b><br>
+${textos.introNegativas}<br><br>
+
+<b>Sequências Especiais</b><br>
+${textos.introEspeciais}<br><br>
+
+<b>Sequência Financeira</b><br>
+${textos.introFinanceiro}<br><br>
+
+<b>Vigências</b><br>
+${textos.introVigencias}
+
+</div>
+</div>
+
+${montarSecao("Pirâmide da Vida",relatorio.piramidePrincipal)}
+${montarSecao("Pirâmide Pessoal",relatorio.piramidePessoal)}
+${montarSecao("Pirâmide Social",relatorio.piramideSocial)}
+${montarSecao("Pirâmide de Destino",relatorio.piramideDestino)}
+
+<div class="secao">
+<h2>Considerações Finais</h2>
+<div class="texto">${textos.agradecimento}</div>
+</div>
+
+<div class="rodape">Relatório Confidencial • Instinto Superior</div>
+
+<div style="text-align:center;margin:40px;">
+<button class="no-print" onclick="window.print()">📄 Baixar PDF</button>
+</div>
+`;
+// ===============================
+// GERAR PDF AUTOMÁTICO (MOBILE + PC)
+// ===============================
+function gerarPDF(){
+  window.scrollTo(0,0); // garante topo
+  setTimeout(()=>{
+    window.print();
+  },800);
+}
+
+// gera automaticamente após montar o relatório
+setTimeout(gerarPDF, 1200);
+// impressão automática
+
+// =======================
+// 🔒 BLOQUEIO CÓPIA
+// =======================
+document.oncontextmenu=()=>false;
+document.onselectstart=()=>false;
+
+</script>
+</body>
+</html>
