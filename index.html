@@ -1828,11 +1828,17 @@ function abrirPremium(){
 // =======================
 document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;
-
+</script>
+  
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
 </script>
 
 </body>
 </html>
+
 
 
 
