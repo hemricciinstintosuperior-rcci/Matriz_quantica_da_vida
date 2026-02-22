@@ -1442,7 +1442,6 @@ function gerar() {
     `<h2 style="text-align:center">🔺 Pirâmide da Vida</h2>` +
     desenhar(pirPrincipal, true) +
     `<div class="box"><h3>Regente ${regPrincipal}</h3>${textosVida[regPrincipal] ?? ""}</div>` +
-    // Relatórios extras exclusivos da Principal
     `<div class="gridRelatorios">
         ${gerarRelatorioNegativasCompacto(pirPrincipal)}
         ${gerarRelatorioEspeciaisCompacto(pirPrincipal)}
@@ -1451,10 +1450,9 @@ function gerar() {
     montarVigencias(vig, textosVida);
 
   // =========================
-  // 👤 PIRÂMIDE PESSOAL - SEM RELATÓRIOS EXTRAS
+  // 👤 PIRÂMIDE PESSOAL - APENAS DESENHO E VIGÊNCIAS
   // =========================
   pirPes = piramidePessoal(baseNome, dia);
-  regPes = pirPes.at(-1)[0];
   arcanosPes = topo(pirPes[0]);
   let vigPes = vigencias(arcanosPes, dataTxt);
 
@@ -1462,14 +1460,12 @@ function gerar() {
     explicacoes.pessoal +
     `<h2 style="text-align:center">👤 Pirâmide Pessoal</h2>` +
     desenhar(pirPes, true) + 
-    `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
     montarVigencias(vigPes, textosPessoal, arcanosPes);
 
   // =========================
-  // 🌎 PIRÂMIDE SOCIAL - SEM RELATÓRIOS EXTRAS
+  // 🌎 PIRÂMIDE SOCIAL - APENAS DESENHO E VIGÊNCIAS
   // =========================
   pirSoc = piramideSocial(baseNome, mes);
-  regSoc = pirSoc.at(-1)[0];
   arcanosSoc = topo(pirSoc[0]);
   let vigSoc = vigencias(arcanosSoc, dataTxt);
 
@@ -1477,14 +1473,12 @@ function gerar() {
     explicacoes.social +
     `<h2 style="text-align:center">🌎 Pirâmide Social</h2>` +
     desenhar(pirSoc, true) +
-    `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
     montarVigencias(vigSoc, textosSocial, arcanosSoc);
 
   // =========================
-  // ⭐ PIRÂMIDE DESTINO - SEM RELATÓRIOS EXTRAS
+  // ⭐ PIRÂMIDE DESTINO - APENAS DESENHO E VIGÊNCIAS
   // =========================
   pirDes = piramideDestino(baseNome, dia, mes);
-  regDes = pirDes.at(-1)[0];
   arcanosDes = topo(pirDes[0]);
   let vigDes = vigencias(arcanosDes, dataTxt);
 
@@ -1492,7 +1486,6 @@ function gerar() {
     explicacoes.destino +
     `<h2 style="text-align:center">⭐ Pirâmide Destino</h2>` +
     desenhar(pirDes, true) +
-    `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
     montarVigencias(vigDes, textosDestino, arcanosDes);
 }
 // =======================
@@ -1844,6 +1837,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
