@@ -1546,41 +1546,15 @@ function mostrarSeq(tipo){
       gerarRelatorioSequencias(pirPrincipal, textosSeqNeg);
   }
 
-  if(tipo==="pessoal"){
-    document.getElementById("seq_pessoal").innerHTML =
-      gerarRelatorioSequencias(pirPes, textosSeqNeg);
-  }
 
-  if(tipo==="social"){
-    document.getElementById("seq_social").innerHTML =
-      gerarRelatorioSequencias(pirSoc, textosSeqNeg);
-  }
-
-  if(tipo==="destino"){
-    document.getElementById("seq_destino").innerHTML =
-      gerarRelatorioSequencias(pirDes, textosSeqNeg);
   }
 if(tipo==="especial_principal"){
   document.getElementById("seq_esp_principal").innerHTML =
     gerarRelatorioEspeciais(pirPrincipal);
 }
 
-if(tipo==="especial_pessoal"){
-  document.getElementById("seq_esp_pessoal").innerHTML =
-    gerarRelatorioEspeciais(pirPes);
-}
 
-if(tipo==="especial_social"){
-  document.getElementById("seq_esp_social").innerHTML =
-    gerarRelatorioEspeciais(pirSoc);
-}
 
-if(tipo==="especial_destino"){
-  document.getElementById("seq_esp_destino").innerHTML =
-    gerarRelatorioEspeciais(pirDes);
-}
-
-}
 // =====================================
 // 🔴 DETECTOR DE SEQUÊNCIAS NEGATIVAS
 // =====================================
@@ -1873,6 +1847,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
