@@ -1474,7 +1474,8 @@ document.getElementById("aba_pessoal").innerHTML =
       ${gerarRelatorioFinanceiroCompacto(pirPes)}
    </div>` +
 
-  montarVigencias(vig, textosPessoal, arcanosPes);
+let vigPes = vigencias(arcanosPes, dataTxt);
+montarVigencias(vigPes, textosPessoal);
 
   // =========================
   // 🌎 PIRÂMIDE SOCIAL
@@ -1496,7 +1497,8 @@ document.getElementById("aba_social").innerHTML =
       ${gerarRelatorioFinanceiroCompacto(pirSoc)}
    </div>` +
 
-  montarVigencias(vig, textosSocial, arcanosSoc);
+ let vigSoc = vigencias(arcanosSoc, dataTxt);
+montarVigencias(vigSoc, textosSocial);
 
   // =========================
   // ⭐ PIRÂMIDE DESTINO
@@ -1518,7 +1520,8 @@ document.getElementById("aba_destino").innerHTML =
       ${gerarRelatorioFinanceiroCompacto(pirDes)}
    </div>` +
 
-  montarVigencias(vig, textosDestino, arcanosDes);
+  let vigDes = vigencias(arcanosDes, dataTxt);
+montarVigencias(vigDes, textosDestino);
 
 }
 // =======================
@@ -1870,6 +1873,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
