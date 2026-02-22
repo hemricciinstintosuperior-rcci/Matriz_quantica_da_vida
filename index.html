@@ -1468,11 +1468,7 @@ document.getElementById("aba_pessoal").innerHTML =
 
   `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
 
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirPes)}
-      ${gerarRelatorioEspeciaisCompacto(pirPes)}
-      ${gerarRelatorioFinanceiroCompacto(pirPes)}
-   </div>` +
+
 
 
 montarVigencias(vig, textosPessoal);
@@ -1491,11 +1487,6 @@ document.getElementById("aba_social").innerHTML =
 
   `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
 
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirSoc)}
-      ${gerarRelatorioEspeciaisCompacto(pirSoc)}
-      ${gerarRelatorioFinanceiroCompacto(pirSoc)}
-   </div>` +
 
 
 montarVigencias(vig, textosSocial);
@@ -1514,11 +1505,7 @@ document.getElementById("aba_destino").innerHTML =
 
   `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
 
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirDes)}
-      ${gerarRelatorioEspeciaisCompacto(pirDes)}
-      ${gerarRelatorioFinanceiroCompacto(pirDes)}
-   </div>` +
+ 
 
   
 montarVigencias(vig, textosDestino);
@@ -1845,6 +1832,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
