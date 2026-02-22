@@ -1468,10 +1468,13 @@ document.getElementById("aba_pessoal").innerHTML =
 
   `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
 
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirPes)}
+      ${gerarRelatorioEspeciaisCompacto(pirPes)}
+      ${gerarRelatorioFinanceiroCompacto(pirPes)}
+   </div>` +
 
-
-
-montarVigencias(vig, textosPessoal);
+  montarVigencias(vig, textosPessoal, arcanosPes);
 
   // =========================
   // 🌎 PIRÂMIDE SOCIAL
@@ -1487,9 +1490,13 @@ document.getElementById("aba_social").innerHTML =
 
   `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
 
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirSoc)}
+      ${gerarRelatorioEspeciaisCompacto(pirSoc)}
+      ${gerarRelatorioFinanceiroCompacto(pirSoc)}
+   </div>` +
 
-
-montarVigencias(vig, textosSocial);
+  montarVigencias(vig, textosSocial, arcanosSoc);
 
   // =========================
   // ⭐ PIRÂMIDE DESTINO
@@ -1505,10 +1512,13 @@ document.getElementById("aba_destino").innerHTML =
 
   `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
 
- 
+  `<div class="gridRelatorios">
+      ${gerarRelatorioNegativasCompacto(pirDes)}
+      ${gerarRelatorioEspeciaisCompacto(pirDes)}
+      ${gerarRelatorioFinanceiroCompacto(pirDes)}
+   </div>` +
 
-  
-montarVigencias(vig, textosDestino);
+  montarVigencias(vig, textosDestino, arcanosDes);
 
 }
 // =======================
@@ -1533,11 +1543,39 @@ function mostrarSeq(tipo){
       gerarRelatorioSequencias(pirPrincipal, textosSeqNeg);
   }
 
+  if(tipo==="pessoal"){
+    document.getElementById("seq_pessoal").innerHTML =
+      gerarRelatorioSequencias(pirPes, textosSeqNeg);
+  }
+
+  if(tipo==="social"){
+    document.getElementById("seq_social").innerHTML =
+      gerarRelatorioSequencias(pirSoc, textosSeqNeg);
+  }
+
+  if(tipo==="destino"){
+    document.getElementById("seq_destino").innerHTML =
+      gerarRelatorioSequencias(pirDes, textosSeqNeg);
+  }
 if(tipo==="especial_principal"){
   document.getElementById("seq_esp_principal").innerHTML =
     gerarRelatorioEspeciais(pirPrincipal);
 }
 
+if(tipo==="especial_pessoal"){
+  document.getElementById("seq_esp_pessoal").innerHTML =
+    gerarRelatorioEspeciais(pirPes);
+}
+
+if(tipo==="especial_social"){
+  document.getElementById("seq_esp_social").innerHTML =
+    gerarRelatorioEspeciais(pirSoc);
+}
+
+if(tipo==="especial_destino"){
+  document.getElementById("seq_esp_destino").innerHTML =
+    gerarRelatorioEspeciais(pirDes);
+}
 
 }
 // =====================================
@@ -1832,6 +1870,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
