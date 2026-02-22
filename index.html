@@ -1421,105 +1421,79 @@ function topo(base){
   return arcanos;
 }
 
-function gerar(){
-
-   nomeTxt = document.getElementById("nome").value;
-   dataTxt = document.getElementById("data").value;
+function gerar() {
+  nomeTxt = document.getElementById("nome").value;
+  dataTxt = document.getElementById("data").value;
   if(!nomeTxt || !dataTxt) return;
 
   baseNome = nomeNumeros(nomeTxt);
-   [ano,mes,dia] = dataTxt.split("-").map(Number);
+  [ano, mes, dia] = dataTxt.split("-").map(Number);
 
   // =========================
-  // 🔺 PIRÂMIDE PRINCIPAL (VIDA)
+  // 🔺 PIRÂMIDE PRINCIPAL (VIDA) - COMPLETA
   // =========================
-   pirPrincipal = piramide(baseNome);
-   regPrincipal = pirPrincipal.at(-1)[0];
+  pirPrincipal = piramide(baseNome);
+  regPrincipal = pirPrincipal.at(-1)[0];
+  arcanosPrincipal = topo(baseNome);
+  vig = vigencias(arcanosPrincipal, dataTxt);
 
-   arcanosPrincipal = topo(baseNome);
-   vig = vigencias(arcanosPrincipal,dataTxt);
-
-document.getElementById("aba_principal").innerHTML =
-  explicacoes.principal +
-  `<h2 style="text-align:center">🔺 Pirâmide da Vida</h2>` +
-  desenhar(pirPrincipal,true) +
-
-  `<div class="box"><h3>Regente ${regPrincipal}</h3>${textosVida[regPrincipal] ?? ""}</div>` +
-
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirPrincipal)}
-      ${gerarRelatorioEspeciaisCompacto(pirPrincipal)}
-      ${gerarRelatorioFinanceiroCompacto(pirPrincipal)}
-   </div>` +
-
-  montarVigencias(vig, textosVida);
+  document.getElementById("aba_principal").innerHTML =
+    explicacoes.principal +
+    `<h2 style="text-align:center">🔺 Pirâmide da Vida</h2>` +
+    desenhar(pirPrincipal, true) +
+    `<div class="box"><h3>Regente ${regPrincipal}</h3>${textosVida[regPrincipal] ?? ""}</div>` +
+    // Relatórios extras exclusivos da Principal
+    `<div class="gridRelatorios">
+        ${gerarRelatorioNegativasCompacto(pirPrincipal)}
+        ${gerarRelatorioEspeciaisCompacto(pirPrincipal)}
+        ${gerarRelatorioFinanceiroCompacto(pirPrincipal)}
+     </div>` +
+    montarVigencias(vig, textosVida);
 
   // =========================
-  // 👤 PIRÂMIDE PESSOAL
+  // 👤 PIRÂMIDE PESSOAL - SEM RELATÓRIOS EXTRAS
   // =========================
-   pirPes = piramidePessoal(baseNome,dia);
-   regPes = pirPes.at(-1)[0];
+  pirPes = piramidePessoal(baseNome, dia);
+  regPes = pirPes.at(-1)[0];
   arcanosPes = topo(pirPes[0]);
+  let vigPes = vigencias(arcanosPes, dataTxt);
 
-document.getElementById("aba_pessoal").innerHTML =
-  explicacoes.pessoal +
-  `<h2 style="text-align:center">👤 Pirâmide Pessoal</h2>` +
-  desenhar(pirPes,true) +
-
-  `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
-
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirPes)}
-      ${gerarRelatorioEspeciaisCompacto(pirPes)}
-      ${gerarRelatorioFinanceiroCompacto(pirPes)}
-   </div>` +
-
-  montarVigencias(vig, textosPessoal, arcanosPes);
+  document.getElementById("aba_pessoal").innerHTML =
+    explicacoes.pessoal +
+    `<h2 style="text-align:center">👤 Pirâmide Pessoal</h2>` +
+    desenhar(pirPes, true) + 
+    `<div class="box"><h3>Regente ${regPes}</h3>${textosPessoal[regPes] ?? ""}</div>` +
+    montarVigencias(vigPes, textosPessoal, arcanosPes);
 
   // =========================
-  // 🌎 PIRÂMIDE SOCIAL
+  // 🌎 PIRÂMIDE SOCIAL - SEM RELATÓRIOS EXTRAS
   // =========================
-   pirSoc = piramideSocial(baseNome,mes);
-   regSoc = pirSoc.at(-1)[0];
-   arcanosSoc = topo(pirSoc[0]);
+  pirSoc = piramideSocial(baseNome, mes);
+  regSoc = pirSoc.at(-1)[0];
+  arcanosSoc = topo(pirSoc[0]);
+  let vigSoc = vigencias(arcanosSoc, dataTxt);
 
-document.getElementById("aba_social").innerHTML =
-  explicacoes.social +
-  `<h2 style="text-align:center">🌎 Pirâmide Social</h2>` +
-  desenhar(pirSoc,true) +
-
-  `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
-
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirSoc)}
-      ${gerarRelatorioEspeciaisCompacto(pirSoc)}
-      ${gerarRelatorioFinanceiroCompacto(pirSoc)}
-   </div>` +
-
-  montarVigencias(vig, textosSocial, arcanosSoc);
+  document.getElementById("aba_social").innerHTML =
+    explicacoes.social +
+    `<h2 style="text-align:center">🌎 Pirâmide Social</h2>` +
+    desenhar(pirSoc, true) +
+    `<div class="box"><h3>Regente ${regSoc}</h3>${textosSocial[regSoc] ?? ""}</div>` +
+    montarVigencias(vigSoc, textosSocial, arcanosSoc);
 
   // =========================
-  // ⭐ PIRÂMIDE DESTINO
+  // ⭐ PIRÂMIDE DESTINO - SEM RELATÓRIOS EXTRAS
   // =========================
-   pirDes = piramideDestino(baseNome,dia,mes);
-   regDes = pirDes.at(-1)[0];
-   arcanosDes = topo(pirDes[0]);
+  pirDes = piramideDestino(baseNome, dia, mes);
+  regDes = pirDes.at(-1)[0];
+  arcanosDes = topo(pirDes[0]);
+  let vigDes = vigencias(arcanosDes, dataTxt);
 
-document.getElementById("aba_destino").innerHTML =
-  explicacoes.destino +
-  `<h2 style="text-align:center">⭐ Pirâmide Destino</h2>` +
-  desenhar(pirDes,true) +
-
-  `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
-
-  `<div class="gridRelatorios">
-      ${gerarRelatorioNegativasCompacto(pirDes)}
-      ${gerarRelatorioEspeciaisCompacto(pirDes)}
-      ${gerarRelatorioFinanceiroCompacto(pirDes)}
-   </div>` +
-
-  montarVigencias(vig, textosDestino, arcanosDes);
-
+  document.getElementById("aba_destino").innerHTML =
+    explicacoes.destino +
+    `<h2 style="text-align:center">⭐ Pirâmide Destino</h2>` +
+    desenhar(pirDes, true) +
+    `<div class="box"><h3>Regente ${regDes}</h3>${textosDestino[regDes] ?? ""}</div>` +
+    montarVigencias(vigDes, textosDestino, arcanosDes);
 }
 // =======================
 // 📄 PDF
@@ -1870,6 +1844,7 @@ document.onselectstart=()=>false;
 
 </body>
 </html>
+
 
 
 
