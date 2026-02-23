@@ -20,10 +20,16 @@ input,button{
   border:none;
 }
 /* campos de nome e data maiores */
-input{
-  width:600px;
-  font-size:18px;
-  padding:14px;
+/* campos de nome e data maiores e cinzas */
+input {
+  width: 600px;
+  font-size: 18px;
+  padding: 14px;
+  background-color: #e5e7eb; /* Cor cinza idêntica ao padrão do sistema */
+  border: 1px solid #ccc;    /* Borda suave para dar profundidade */
+  color: #333;               /* Cor do texto ao digitar */
+  display: block;            /* Garante que fiquem um abaixo do outro */
+  margin: 10px auto;         /* Centraliza e dá espaçamento */
 }
 button{
   background:#facc15;
@@ -2010,6 +2016,7 @@ if ("serviceWorker" in navigator) {
 
 </body>
 </html>
+
 
 
 
