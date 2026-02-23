@@ -1381,28 +1381,29 @@ function detectarSequenciaFinanceira(linhas){
 }
 
 
+// ==========================================
+// 🔄 FUNÇÃO DE VIGÊNCIAS COM LOOP INFINITO
+// ==========================================
 function vigencias(arcanos, data) {
   let lista = [];
 
-  // Corrige o fuso horário
+  // Corrige o fuso horário da data
   const [ano, mes, dia] = data.split("-").map(Number);
   let atual = new Date(ano, mes - 1, dia);
 
   let idade = 0;
-  let indiceCiclo = 0; // Usaremos este contador para girar a pirâmide
-
-  const IDADE_MAX = 106; // Garante o cálculo até a idade que você pediu
+  let contadorCiclo = 0; // Controla a posição atual na pirâmide
+  const IDADE_MAX = 106; // Agora vai até 106 anos sem erro
 
   while (idade < IDADE_MAX) {
-    // 🔄 O PULO DO GATO: O resto da divisão (%) faz o índice voltar ao 0 
-    // quando chega no final da lista de arcanos.
-    let pos = indiceCiclo % arcanos.length;
-    let a = arcanos[pos];
+    // 🔁 O SEGREDO: Uso do % para retornar ao início da lista de arcanos
+    let indiceProtegido = contadorCiclo % arcanos.length;
+    let a = arcanos[indiceProtegido];
 
-    // Se o arcano for inválido, define como 0 para não quebrar o texto
+    // Se por algum motivo o arcano falhar, evita o "undefined"
     if (a === undefined || a === null) a = 0;
 
-    // Pega o primeiro dígito para a duração (Ex: 53 -> 5 anos)
+    // Pega o primeiro dígito para definir a duração (ex: 53 dura 5 anos)
     let anosDuracao = parseInt(a.toString()[0]);
     if (anosDuracao === 0 || isNaN(anosDuracao)) anosDuracao = 1;
 
@@ -1419,11 +1420,16 @@ function vigencias(arcanos, data) {
     });
 
     idade += anosDuracao;
-    indiceCiclo++; // Avança para a próxima potência da pirâmide
+    contadorCiclo++; // Avança para o próximo arcano da lista
   }
 
   return lista;
 }
+
+// ==========================================
+// 📜 EXIBIÇÃO DAS VIGÊNCIAS (SEM UNDEFINED)
+// ==========================================
+
 // =======================
 // 🧩 FUNÇÕES DAS NOVAS PIRÂMIDES
 // =======================
@@ -1483,28 +1489,26 @@ function piramideDestino(baseNome,dia,mes){
 // =======================
 // 📜 VIGÊNCIAS COM ARCANO DE CADA PIRÂMIDE
 // =======================
-function montarVigencias(lista, textosMapa, arcanosOverride=null){
+function montarVigencias(lista, textosMapa, arcanosOverride=null) {
+  let html = "<div class='box'><h3>⏳ Vigências</h3>";
 
-  let html="<div class='box'><h3>⏳ Vigências</h3>";
+  lista.forEach((x, i) => {
+    // Proteção extra para garantir que o número sempre exista
+    let numeroArcano = x.num;
 
-  lista.forEach((x,i)=>{
-
-    let numeroArcano = arcanosOverride ? arcanosOverride[i] : x.num;
-
-    html+=`
+    html += `
     <div class="box">
       <h3>🔹 Potência ${numeroArcano}</h3>
       <b>Idade:</b> ${x.idadeIni} → ${x.idadeFim}<br>
       <b>Período:</b> ${x.ini} - ${x.fim}
       <br><br>
-      ${textosMapa[numeroArcano] ?? ""}
+      ${textosMapa[numeroArcano] || "<i>Interpretação em análise para esta potência.</i>"}
     </div>`;
   });
 
-  html+="</div>";
+  html += "</div>";
   return html;
 }
-
 // =======================
 // 📜 RELATÓRIO SEQUÊNCIAS NEGATIVAS
 // =======================
@@ -2005,6 +2009,7 @@ if ("serviceWorker" in navigator) {
 
 </body>
 </html>
+
 
 
 
