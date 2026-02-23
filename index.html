@@ -205,7 +205,7 @@ button{
   .piramide{
     transform: scale(0.60);
     transform-origin: top center;
-    margin-top: 20mm;
+    margin-top: 10mm;
   }
 /* Isso força os campos a aparecerem e ficarem empilhados no celular */
 @media (max-width: 768px) {
@@ -235,10 +235,10 @@ button{
 </div>
 <h2>🔺 </h2>
 
-<input id="nome" placeholder="Nome completo igual a certidão"><br>
+Nome completo igual a certidão<input id="nome" placeholder=""><br>
  
-<input type="date" id="data"><br>
-data de nascimento
+data de nascimento<input type="date" id="data"><br>
+
 <button onclick="gerar()">GERAR</button>
 <button onclick="abrirPremium()">PDF (Premium)</button>
 
@@ -2009,6 +2009,7 @@ if ("serviceWorker" in navigator) {
 
 </body>
 </html>
+
 
 
 
