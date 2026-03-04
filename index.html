@@ -1112,15 +1112,6 @@ function salvarRelatorioPiramide(){
 // 🚀 ABRIR RELATÓRIO PREMIUM
 // ======================================
 // --- CONFIGURAÇÃO DE SEGURANÇA E TRAVA (MATRIZ QUÂNTICA) ---
-const urlParams = new URLSearchParams(window.location.search);
-const userEmail = urlParams.get('user'); 
-const DB_URL = "https://vendas-numerologia-default-rtdb.firebaseio.com/";
-
-// Bloqueio de entrada sem passar pelo portal
-if (!userEmail) {
-    alert("Acesso não autorizado. Por favor, valide seu código no portal.");
-    window.location.href = "index.html";
-}
 
 // 🚀 ABRIR RELATÓRIO PREMIUM
 // ======================================
@@ -1169,6 +1160,7 @@ if ("serviceWorker" in navigator) {
 
 </body>
 </html>
+
 
 
 
