@@ -1147,56 +1147,14 @@ function abrirPremium(){
         piramideDestino: document.getElementById("aba_destino").innerHTML
     };
     localStorage.setItem("relatorioPiramide", JSON.stringify(pacote));
-    window.open("https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/piramide-premium.html?token=ABC123", "_blank");
+    window.open("https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/piramide-premium.html"_blank");
 }
 
 document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;
 
   
-// ======================================
-// 🚀 ABRIR RELATÓRIO PREMIUM
-// ======================================
-// --- CONFIGURAÇÃO DE SEGURANÇA E TRAVA (MATRIZ QUÂNTICA) ---
 
-// 🚀 ABRIR RELATÓRIO PREMIUM
-// ======================================
-function abrirPremium(){
-
-  const nome = document.getElementById("nome").value;
-  const data = document.getElementById("data").value;
-
-  if(!nome || !data){
-    alert("Gere a pirâmide primeiro.");
-    return;
-  }
-
-  // captura conteúdo das 4 abas já geradas
-  const pacote = {
-    nome: nome,
-    data: data,
-    piramidePrincipal: document.getElementById("aba_principal").innerHTML,
-    piramidePessoal:   document.getElementById("aba_pessoal").innerHTML,
-    piramideSocial:    document.getElementById("aba_social").innerHTML,
-    piramideDestino:   document.getElementById("aba_destino").innerHTML
-  };
-
-  // salva no navegador
-  localStorage.setItem("relatorioPiramide", JSON.stringify(pacote));
-
-  // abre HTML Premium
-  window.open(
-    "https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/piramide-premium.html",
-    "_blank"
-  );
-}
-
-// =======================
-// 🔒 BLOQUEIO CÓPIA
-// =======================
-document.oncontextmenu=()=>false;
-document.onselectstart=()=>false;
-</script>
   
 <script>
 if ("serviceWorker" in navigator) {
@@ -1205,6 +1163,7 @@ if ("serviceWorker" in navigator) {
 </script>
 </body>
 </html>
+
 
 
 
