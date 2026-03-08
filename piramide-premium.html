@@ -4,105 +4,42 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Relatório Premium • Pirâmide Quântica</title>
-
 <style>
-/* MANTENDO TODA SUA ESTILIZAÇÃO ORIGINAL */
 body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1a1a;}
 *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
-
 .capa{background:white;text-align:center;padding:120px 40px; page-break-after: always;}
 .logo{width:550px;margin-bottom:40px;}
 .nomeCliente{margin-top:70px;font-size:28px; border-top: 1px solid #ccc; padding-top: 20px; display: inline-block;}
-
-.secao{
- max-width:900px;margin:30px auto;background:white;
- padding:50px;border-radius:10px;box-shadow:0 0 20px rgba(0,0,0,.05);
- page-break-inside: avoid;
-}
-
+.secao{ max-width:900px;margin:30px auto;background:white; padding:50px;border-radius:10px;box-shadow:0 0 20px rgba(0,0,0,.05); page-break-inside: avoid; }
 .texto{white-space:pre-line;font-size:18px;line-height:1.6; text-align: justify;}
-.tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px; font-weight: bold; color: #111;}
-
+.tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px; font-weight: bold; color: #111; text-transform: uppercase;}
 .piramide{display:flex;flex-direction:column;align-items:center;margin:30px 0; font-family: monospace;}
 .linha{display:flex;justify-content:center;margin:1px 0; gap: 4px;}
-.num{
- width:24px;height:24px;border-radius:4px;
- display:flex;align-items:center;justify-content:center;
- font-weight:bold;font-size:14px; color:#000;
- background:#28d3ee;
-}
-
+.num{ width:24px;height:24px;border-radius:4px; display:flex;align-items:center;justify-content:center; font-weight:bold;font-size:14px; color:#000; background:#28d3ee; }
 .num.negativo{background:#FF0000 !important; color:#fff !important;}
 .num.especial{background:#f6c445 !important; color:#000 !important;}
 .num.financeiro{background:#34c759 !important; color:#fff !important;}
-
-.box { 
-    border: 1px solid #ddd; 
-    padding: 20px; 
-    margin: 15px 0; 
-    border-radius: 8px;
-    background: #fafafa;
-}
-
-div[style*="border-left:4px solid #ff6b6b"] { background: #fff5f5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
-div[style*="border-left:4px solid #f6c445"] { background: #fffdf5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
-div[style*="border-left:4px solid #34c759"] { background: #f5fff5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
-
+.box { border: 1px solid #ddd; padding: 20px; margin: 15px 0; border-radius: 8px; background: #fafafa; }
+div[style*="border-left:4px solid #ff6b6b"] { background: #fff5f5 !important; padding: 10px; margin-bottom: 5px; }
+div[style*="border-left:4px solid #f6c445"] { background: #fffdf5 !important; padding: 10px; margin-bottom: 5px; }
+div[style*="border-left:4px solid #34c759"] { background: #f5fff5 !important; padding: 10px; margin-bottom: 5px; }
 .rodape{text-align:center;margin-top:50px;font-size:12px;color:#999; border-top: 1px solid #eee; padding-top: 20px;}
-
-button{ 
-    background: #facc15; border: none; padding: 15px 30px; 
-    font-weight: bold; font-size: 18px; border-radius: 8px; cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-@media print{
-    .no-print{display:none!important;}
-    body { background: white; }
-    .secao { box-shadow: none; margin: 0 auto; width: 100%; padding: 30px; }
-}
+.btn-container { text-align:center; margin: 40px 0; }
+button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold; font-size: 18px; border-radius: 8px; cursor: pointer; }
+@media print{ .no-print{display:none!important;} body { background: white; } .secao { box-shadow: none; margin: 0 auto; width: 100%; padding: 30px; } }
 </style>
 </head>
-
 <body>
 <div id="conteudo">Gerando seu relatório quântico premium...</div>
-
 <script>
 const dados = localStorage.getItem("relatorioPiramide");
-if(!dados){
-    document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado. Por favor, gere a matriz novamente.</div>";
-    throw new Error();
-}
+if(!dados){ document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado.</div>"; throw new Error(); }
 const relatorio = JSON.parse(dados);
 
-// Mantendo seus textos originais de introdução
-const textos = {
-    introRegente: `O Regente é o coração da sua pirâmide...`,
-    introNegativas: `As Sequências Negativas dentro da Pirâmide Quântica não devem ser vistas como "má sorte"...`,
-    introEspeciais: `As Sequências Especiais representam ocorrências pontuais...`,
-    introFinanceiro: `A análise da Sequência Financeira foca em uma vibração específica...`,
-    introVigencias: `As Vigências representam os ciclos de atuação das potências numerológicas ao longo da sua vida...`,
-    agradecimento: `Este relatório foi desenvolvido exclusivamente para apoiar o seu processo...`
-};
-
-function montarSecao(titulo, conteudoHtml){
-    if(!conteudoHtml) return "";
-    return `
-    <div class="secao">
-        <div class="tituloPiramide">${titulo}</div>
-        <div>${conteudoHtml}</div>
-    </div>`;
-}
-
-// MONTAGEM DO HTML FINAL - Adaptado para o novo salvamento por abas
 document.getElementById("conteudo").innerHTML = `
 <div class="capa">
     <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
-    <div class="nomeCliente">
-        Relatório Personalizado para:<br>
-        <strong>${relatorio.nome}</strong><br>
-        Nascimento: ${relatorio.data}
-    </div>
+    <div class="nomeCliente">Relatório Personalizado para:<br><strong>${relatorio.nome}</strong><br>Nascimento: ${relatorio.data}</div>
 </div>
 
 <div class="secao">
@@ -111,35 +48,24 @@ document.getElementById("conteudo").innerHTML = `
 </div>
 
 <div class="secao">
-
     <h2>Guia de Interpretação</h2>
-     
     <div class="texto">
-  
-        <strong>Regente:</strong> ${textos.introRegente}<br><br>
-          
-  <div class="texto">
-        <strong>Sequências Negativas:</strong> ${textos.introNegativas}<br><br>
-       
-      <div class="texto">
-        <strong>Sequências Especiais:</strong> ${textos.introEspeciais}<br><br>
-        <div class="texto">
-        <strong>Fluxo Financeiro:</strong> ${textos.introFinanceiro}<br><br>
-      <div class="texto">
-        <strong>Ciclos de Vigência:</strong> ${textos.introVigencias}
+        <strong>Regente:</strong> Essência central da matriz.<br><br>
+        <strong>Sequências Negativas:</strong> Desafios e bloqueios a serem superados.<br><br>
+        <strong>Sequências Especiais:</strong> Eventos e impactos pontuais importantes.<br><br>
+        <strong>Fluxo Financeiro:</strong> Oportunidades de prosperidade 99/9.<br><br>
+        <strong>Ciclos de Vigência:</strong> Cronograma das potências ao longo da vida.
     </div>
 </div>
 
-${relatorio.abaPrincipal ? montarSecao("Matriz da Vida", relatorio.abaPrincipal) : ''}
-${relatorio.abaPessoal ? montarSecao("Matriz Pessoal", relatorio.abaPessoal) : ''}
-${relatorio.abaSocial ? montarSecao("Matriz Social", relatorio.abaSocial) : ''}
-${relatorio.abaDestino ? montarSecao("Matriz de Destino", relatorio.abaDestino) : ''}
-
-${!relatorio.abaPrincipal && relatorio.conteudo ? relatorio.conteudo : ''}
+${relatorio.abaPrincipal ? `<div class="secao">${relatorio.abaPrincipal}</div>` : ''}
+${relatorio.abaPessoal ? `<div class="secao">${relatorio.abaPessoal}</div>` : ''}
+${relatorio.abaSocial ? `<div class="secao">${relatorio.abaSocial}</div>` : ''}
+${relatorio.abaDestino ? `<div class="secao">${relatorio.abaDestino}</div>` : ''}
 
 <div class="secao">
     <h2>Considerações Finais</h2>
-    <div class="texto">${textos.agradecimento}</div>
+    <div class="texto">Este relatório foi desenvolvido para apoiar o seu processo de autoconhecimento.</div>
     <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
 </div>
 
@@ -147,15 +73,6 @@ ${!relatorio.abaPrincipal && relatorio.conteudo ? relatorio.conteudo : ''}
     <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
 </div>
 `;
-
-window.onload = () => {
-    setTimeout(() => {
-        // window.print(); 
-    }, 1500);
-};
-
-document.oncontextmenu = () => false;
-document.onselectstart = () => false;
 </script>
 </body>
 </html>
