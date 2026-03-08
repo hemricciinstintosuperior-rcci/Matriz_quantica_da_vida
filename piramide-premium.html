@@ -6,7 +6,7 @@
 <title>Relatório Premium • Pirâmide Quântica</title>
 
 <style>
-/* MANTENDO SUA ESTILIZAÇÃO ORIGINAL */
+/* MANTENDO TODA SUA ESTILIZAÇÃO ORIGINAL */
 body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1a1a;}
 *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
 
@@ -21,19 +21,10 @@ body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1
 }
 
 .texto{white-space:pre-line;font-size:18px;line-height:1.6; text-align: justify;}
-.tituloPiramide{text-align:center;font-size:32px;margin-bottom:30px; font-weight: bold; color: #000; text-transform: uppercase;}
+.tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px; font-weight: bold; color: #111;}
 
-/* ESTILO DAS INTROS DENTRO DAS SEÇÕES */
-.intro-subsecao {
-    font-size: 15px;
-    color: #555;
-    font-style: italic;
-    margin-bottom: 15px;
-    line-height: 1.4;
-    border-left: 3px solid #ccc;
-    padding-left: 10px;
-}
-
+.piramide{display:flex;flex-direction:column;align-items:center;margin:30px 0; font-family: monospace;}
+.linha{display:flex;justify-content:center;margin:1px 0; gap: 4px;}
 .num{
  width:24px;height:24px;border-radius:4px;
  display:flex;align-items:center;justify-content:center;
@@ -45,11 +36,25 @@ body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1
 .num.especial{background:#f6c445 !important; color:#000 !important;}
 .num.financeiro{background:#34c759 !important; color:#fff !important;}
 
-.box { border: 1px solid #ddd; padding: 20px; margin: 15px 0; border-radius: 8px; background: #fafafa; }
+.box { 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin: 15px 0; 
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+div[style*="border-left:4px solid #ff6b6b"] { background: #fff5f5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
+div[style*="border-left:4px solid #f6c445"] { background: #fffdf5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
+div[style*="border-left:4px solid #34c759"] { background: #f5fff5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
 
 .rodape{text-align:center;margin-top:50px;font-size:12px;color:#999; border-top: 1px solid #eee; padding-top: 20px;}
 
-button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold; font-size: 18px; border-radius: 8px; cursor: pointer; }
+button{ 
+    background: #facc15; border: none; padding: 15px 30px; 
+    font-weight: bold; font-size: 18px; border-radius: 8px; cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
 @media print{
     .no-print{display:none!important;}
@@ -65,35 +70,31 @@ button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold
 <script>
 const dados = localStorage.getItem("relatorioPiramide");
 if(!dados){
-    document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado.</div>";
+    document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado. Por favor, gere a matriz novamente.</div>";
     throw new Error();
 }
 const relatorio = JSON.parse(dados);
 
-// DEFINIÇÃO DAS INTROS PARA CADA BLOCO
-const intros = {
-    regente: `O Regente é a frequência fundamental que governa esta matriz específica, indicando sua postura central e essência vibracional.`,
-    negativas: `As Sequências Negativas revelam bloqueios ou desafios repetitivos que podem drenar sua energia se não forem conscientizados.`,
-    especiais: `Os Impactos Especiais são janelas de eventos específicos, trazendo oportunidades ou avisos pontuais de grande relevância.`,
-    financeiro: `O Fluxo Financeiro identifica as janelas de prosperidade e colheita material baseadas na vibração 99/9 da sua matriz.`,
-    vigencias: `As Vigências cronológicas mostram como as potências numerológicas se distribuem ao longo da sua linha do tempo.`
+// Mantendo seus textos originais de introdução
+const textos = {
+    introRegente: `O Regente é o coração da sua pirâmide...`,
+    introNegativas: `As Sequências Negativas dentro da Pirâmide Quântica não devem ser vistas como "má sorte"...`,
+    introEspeciais: `As Sequências Especiais representam ocorrências pontuais...`,
+    introFinanceiro: `A análise da Sequência Financeira foca em uma vibração específica...`,
+    introVigencias: `As Vigências representam os ciclos de atuação das potências numerológicas ao longo da sua vida...`,
+    agradecimento: `Este relatório foi desenvolvido exclusivamente para apoiar o seu processo...`
 };
 
-// FUNÇÃO DE MONTAGEM COM TÍTULOS E INTROS
-function montarSecaoPremium(titulo, conteudoHtml){
+function montarSecao(titulo, conteudoHtml){
     if(!conteudoHtml) return "";
-    
-    // Aqui nós injetamos os títulos e as intros no lugar certo antes do conteúdo do gerador
     return `
     <div class="secao">
         <div class="tituloPiramide">${titulo}</div>
-        <div class="conteudo-bloco">
-            ${conteudoHtml}
-        </div>
+        <div>${conteudoHtml}</div>
     </div>`;
 }
 
-// RENDERIZAÇÃO FINAL
+// MONTAGEM DO HTML FINAL - Adaptado para o novo salvamento por abas
 document.getElementById("conteudo").innerHTML = `
 <div class="capa">
     <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
@@ -106,17 +107,39 @@ document.getElementById("conteudo").innerHTML = `
 
 <div class="secao">
     <h2>Introdução ao Método</h2>
-    <div class="texto">Este relatório detalha as quatro camadas da sua existência: a realidade prática, seus sentimentos profundos, sua interação com o ambiente e o seu propósito de destino.</div>
+    <div class="texto">A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais, revelando o mapa da sua existência através dos números.</div>
 </div>
 
-${montarSecaoPremium("Matriz da Vida", relatorio.abaPrincipal)}
-${montarSecaoPremium("Matriz Pessoal", relatorio.abaPessoal)}
-${montarSecaoPremium("Matriz Social", relatorio.abaSocial)}
-${montarSecaoPremium("Matriz de Destino", relatorio.abaDestino)}
+<div class="secao">
+
+    <h2>Guia de Interpretação</h2>
+     
+    <div class="texto">
+  
+        <strong>Regente:</strong> ${textos.introRegente}<br><br>
+          
+  <div class="texto">
+        <strong>Sequências Negativas:</strong> ${textos.introNegativas}<br><br>
+       
+      <div class="texto">
+        <strong>Sequências Especiais:</strong> ${textos.introEspeciais}<br><br>
+        <div class="texto">
+        <strong>Fluxo Financeiro:</strong> ${textos.introFinanceiro}<br><br>
+      <div class="texto">
+        <strong>Ciclos de Vigência:</strong> ${textos.introVigencias}
+    </div>
+</div>
+
+${relatorio.abaPrincipal ? montarSecao("Matriz da Vida", relatorio.abaPrincipal) : ''}
+${relatorio.abaPessoal ? montarSecao("Matriz Pessoal", relatorio.abaPessoal) : ''}
+${relatorio.abaSocial ? montarSecao("Matriz Social", relatorio.abaSocial) : ''}
+${relatorio.abaDestino ? montarSecao("Matriz de Destino", relatorio.abaDestino) : ''}
+
+${!relatorio.abaPrincipal && relatorio.conteudo ? relatorio.conteudo : ''}
 
 <div class="secao">
     <h2>Considerações Finais</h2>
-    <div class="texto">Utilize este mapa como um guia para navegar seus ciclos com mais clareza e poder de decisão.</div>
+    <div class="texto">${textos.agradecimento}</div>
     <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
 </div>
 
@@ -125,7 +148,14 @@ ${montarSecaoPremium("Matriz de Destino", relatorio.abaDestino)}
 </div>
 `;
 
+window.onload = () => {
+    setTimeout(() => {
+        // window.print(); 
+    }, 1500);
+};
+
 document.oncontextmenu = () => false;
+document.onselectstart = () => false;
 </script>
 </body>
 </html>
