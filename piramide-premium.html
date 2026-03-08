@@ -101,62 +101,33 @@ if(!dados){
     document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado. Por favor, gere a matriz novamente.</div>";
     throw new Error();
 }
+// ... (mantenha o início do script igual até a parte do JSON.parse)
+
 const relatorio = JSON.parse(dados);
 
-const textos = {
-    introducaoMetodo: `A Pirâmide Quântica representa um dos métodos mais sofisticados de autoconhecimento da atualidade... (seu texto completo aqui)`,
-    introRegente: `O Regente é o coração da sua pirâmide...`,
-    introNegativas: `As Sequências Negativas dentro da Pirâmide Quântica não devem ser vistas como "má sorte"...`,
-    introEspeciais: `As Sequências Especiais representam ocorrências pontuais...`,
-    introFinanceiro: `A análise da Sequência Financeira foca em uma vibração específica...`,
-    introVigencias: `As Vigências representam os ciclos de atuação das potências numerológicas ao longo da sua vida...`,
-    agradecimento: `Este relatório foi desenvolvido exclusivamente para apoiar o seu processo...`
-};
-
-function montarSecao(titulo, conteudoHtml){
-    if(!conteudoHtml) return "";
-    return `
-    <div class="secao">
-        <div class="tituloPiramide">${titulo}</div>
-        <div class="conteudo-dinamico">${conteudoHtml}</div>
-    </div>`;
-}
-
-// MONTAGEM DO HTML FINAL
+// MONTAGEM DO HTML FINAL - ADAPTADO PARA RECEBER O CONTEÚDO COMPLETO
 document.getElementById("conteudo").innerHTML = `
 <div class="capa">
     <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
     <div class="nomeCliente">
         Relatório Personalizado para:<br>
         <strong>${relatorio.nome}</strong><br>
-        Nascimento: ${relatorio.data.split('-').reverse().join('/')}
+        Nascimento: ${relatorio.data}
     </div>
 </div>
 
 <div class="secao">
     <h2>Introdução ao Método</h2>
-    <div class="texto">${relatorio.introducaoMetodo || "A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais..."}</div>
+    <div class="texto">A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais...</div>
 </div>
 
-<div class="secao">
-    <h2>Guia de Interpretação</h2>
-    <div class="texto">
-        <strong>Regente:</strong> ${textos.introRegente}<br><br>
-        <strong>Sequências Negativas:</strong> ${textos.introNegativas}<br><br>
-        <strong>Sequências Especiais:</strong> ${textos.introEspeciais}<br><br>
-        <strong>Fluxo Financeiro:</strong> ${textos.introFinanceiro}<br><br>
-        <strong>Ciclos de Vigência:</strong> ${textos.introVigencias}
-    </div>
+<div id="corpo-relatorio">
+    ${relatorio.conteudo}
 </div>
-
-${montarSecao("Matriz da Vida (Realidade)", relatorio.piramidePrincipal)}
-${montarSecao("Matriz Pessoal (Sentimento)", relatorio.piramidePessoal)}
-${montarSecao("Matriz Social (Ambiente)", relatorio.piramideSocial)}
-${montarSecao("Matriz de Destino (Propósito)", relatorio.piramideDestino)}
 
 <div class="secao">
     <h2>Considerações Finais</h2>
-    <div class="texto">${textos.agradecimento}</div>
+    <div class="texto">Este relatório foi desenvolvido exclusivamente para apoiar o seu processo de autoconhecimento. Utilize estas informações como um mapa de navegação para suas escolhas.</div>
     <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
 </div>
 
@@ -178,4 +149,5 @@ document.onselectstart = () => false;
 </script>
 </body>
 </html>
+
 
