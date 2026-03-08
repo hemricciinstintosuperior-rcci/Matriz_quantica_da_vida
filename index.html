@@ -323,46 +323,52 @@ function gerar() {
     const base = nomeNumeros(nome);
     const [y, m, d] = data.split("-").map(Number);
 
-    // 1. Pirâmide da Vida
+    // 1. Pirâmide da Vida (Realidade)
     const pVida = piramide(base);
     const aVida = topo(base);
     const crono = gerarCronogramaMestre(aVida, data);
     const reg = pVida.at(-1)[0];
 
-    // Montamos o HTML da Aba Principal (AQUI ESTÁ O SEGREDO: passar pVida no final)
+    // Montagem Aba Principal (REGENTE FICA AQUI NO TOPO)
     const htmlPrincipal = desenhar(pVida, true) + 
-        `<div class="box"><h3>Regente ${reg}</h3>${textosVida[reg] || ''}</div>` +
-        `<div class="gridRelatorios">${gerarRelatorioNegativasCompacto(pVida)}${gerarRelatorioEspeciaisCompacto(pVida)}${gerarRelatorioFinanceiroCompacto(pVida)}</div>` +
-        montarVigenciasSincronizadas(crono, aVida, textosVida, pVida);
+        `<div class="box"><h2>⭐ Regente da Vida: ${reg}</h2>${textosVida[reg] || ''}</div>` +
+        montarVigenciasSincronizadas(crono, aVida, textosVida, pVida, "vida"); 
     
     document.getElementById("aba_principal").innerHTML = htmlPrincipal;
 
-    // 2. Pirâmide Pessoal
+    // 2. Pirâmide Pessoal (O Regente aqui é o da vida também ou o da própria pirâmide)
     const pPes = piramidePessoal(base, d);
-    const htmlPessoal = desenhar(pPes, true) + montarVigenciasSincronizadas(crono, topo(pPes[0]), textosPessoal, pPes);
+    const regPes = pPes.at(-1)[0];
+    const htmlPessoal = desenhar(pPes, true) + 
+        `<div class="box"><h2>⭐ Regente Pessoal: ${regPes}</h2>${textosPessoal[regPes] || ''}</div>` +
+        montarVigenciasSincronizadas(crono, topo(pPes[0]), textosPessoal, pPes, "pessoal");
     document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
 
     // 3. Pirâmide Social
     const pSoc = piramideSocial(base, m);
-    const htmlSocial = desenhar(pSoc, true) + montarVigenciasSincronizadas(crono, topo(pSoc[0]), textosSocial, pSoc);
+    const regSoc = pSoc.at(-1)[0];
+    const htmlSocial = desenhar(pSoc, true) + 
+        `<div class="box"><h2>⭐ Regente Social: ${regSoc}</h2>${textosSocial[regSoc] || ''}</div>` +
+        montarVigenciasSincronizadas(crono, topo(pSoc[0]), textosSocial, pSoc, "social");
     document.getElementById("aba_social").innerHTML = htmlSocial;
 
     // 4. Pirâmide de Destino
     const pDes = piramideDestino(base, d, m);
-    const htmlDestino = desenhar(pDes, true) + montarVigenciasSincronizadas(crono, topo(pDes[0]), textosDestino, pDes);
+    const regDes = pDes.at(-1)[0];
+    const htmlDestino = desenhar(pDes, true) + 
+        `<div class="box"><h2>⭐ Regente de Destino: ${regDes}</h2>${textosDestino[regDes] || ''}</div>` +
+        montarVigenciasSincronizadas(crono, topo(pDes[0]), textosDestino, pDes, "destino");
     document.getElementById("aba_destino").innerHTML = htmlDestino;
 
-    // --- AGORA SALVAMOS NO LOCALSTORAGE COM OS ALERTAS JÁ INCLUÍDOS ---
+    // Salva tudo para o Premium
     const pacote = {
-        nome: nome,
-        data: data,
+        nome, data,
         piramidePrincipal: htmlPrincipal,
         piramidePessoal: htmlPessoal,
         piramideSocial: htmlSocial,
         piramideDestino: htmlDestino
     };
     localStorage.setItem("relatorioPiramide", JSON.stringify(pacote));
-
     mostrarAba('principal');
 }
 // === FIM DA FUNÇÃO GERAR ===
@@ -395,3 +401,85 @@ if ("serviceWorker" in navigator) {
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
