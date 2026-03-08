@@ -116,10 +116,14 @@ const textos = {
 function montarSecao(titulo, conteudoHtml){
     if(!conteudoHtml) return "";
     return `
-    <div class="secao">
-        <div class="tituloPiramide">${titulo}</div>
-        <div class="conteudo-dinamico">${conteudoHtml}</div>
-    </div>`;
+<div class="secao">
+    <h2 style="text-align:center;">Sua Matriz de Realidade (Mapa Mestre)</h2>
+    <div class="piramide">${relatorio.piramidePrincipal}</div>
+</div>`
+
+<div class="secao">
+    ${relatorio.conteudoUnificado}
+</div>
 }
 
 // Localize onde o HTML é injetado no seu arquivo Premium
@@ -168,4 +172,5 @@ document.onselectstart = () => false;
 </script>
 </body>
 </html>
+
 
