@@ -122,43 +122,33 @@ function montarSecao(titulo, conteudoHtml){
     </div>`;
 }
 
-// MONTAGEM DO HTML FINAL
+// Localize onde o HTML é injetado no seu arquivo Premium
 document.getElementById("conteudo").innerHTML = `
 <div class="capa">
     <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
-    <div class="nomeCliente">
-        Relatório Personalizado para:<br>
-        <strong>${relatorio.nome}</strong><br>
-        Nascimento: ${relatorio.data.split('-').reverse().join('/')}
-    </div>
+    <div class="nomeCliente"><b>${relatorio.nome}</b><br>${relatorio.data}</div>
 </div>
 
 <div class="secao">
     <h2>Introdução ao Método</h2>
-    <div class="texto">${relatorio.introducaoMetodo || "A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais..."}</div>
+    <div class="texto">${textos.introducaoMetodo}</div>
 </div>
 
 <div class="secao">
-    <h2>Guia de Interpretação</h2>
-    <div class="texto">
-        <strong>Regente:</strong> ${textos.introRegente}<br><br>
-        <strong>Sequências Negativas:</strong> ${textos.introNegativas}<br><br>
-        <strong>Sequências Especiais:</strong> ${textos.introEspeciais}<br><br>
-        <strong>Fluxo Financeiro:</strong> ${textos.introFinanceiro}<br><br>
-        <strong>Ciclos de Vigência:</strong> ${textos.introVigencias}
-    </div>
+    <h2 style="text-align:center;">Sua Matriz de Realidade (Mapa Mestre)</h2>
+    <div class="piramide">${relatorio.piramidePrincipal}</div>
 </div>
 
-${montarSecao("Matriz da Vida (Realidade)", relatorio.piramidePrincipal)}
-${montarSecao("Matriz Pessoal (Sentimento)", relatorio.piramidePessoal)}
-${montarSecao("Matriz Social (Ambiente)", relatorio.piramideSocial)}
-${montarSecao("Matriz de Destino (Propósito)", relatorio.piramideDestino)}
+<div class="secao">
+    ${relatorio.conteudoUnificado}
+</div>
 
 <div class="secao">
     <h2>Considerações Finais</h2>
     <div class="texto">${textos.agradecimento}</div>
-    <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
 </div>
+
+<div class="rodape">Relatório Confidencial • Instinto Superior</div>
 
 <div class="btn-container no-print">
     <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
@@ -178,3 +168,4 @@ document.onselectstart = () => false;
 </script>
 </body>
 </html>
+
