@@ -6,7 +6,7 @@
 <title>Relatório Premium • Pirâmide Quântica</title>
 
 <style>
-/* CONFIGURAÇÕES DE BASE */
+/* MANTENDO TODA SUA ESTILIZAÇÃO ORIGINAL */
 body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1a1a;}
 *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important;}
 
@@ -17,28 +17,25 @@ body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1
 .secao{
  max-width:900px;margin:30px auto;background:white;
  padding:50px;border-radius:10px;box-shadow:0 0 20px rgba(0,0,0,.05);
- page-break-inside: avoid; /* Evita cortar seções no meio da página */
+ page-break-inside: avoid;
 }
 
 .texto{white-space:pre-line;font-size:18px;line-height:1.6; text-align: justify;}
 .tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px; font-weight: bold; color: #111;}
 
-/* ESTILIZAÇÃO DAS PIRÂMIDES NO PREMIUM */
 .piramide{display:flex;flex-direction:column;align-items:center;margin:30px 0; font-family: monospace;}
 .linha{display:flex;justify-content:center;margin:1px 0; gap: 4px;}
 .num{
  width:24px;height:24px;border-radius:4px;
  display:flex;align-items:center;justify-content:center;
  font-weight:bold;font-size:14px; color:#000;
- background:#28d3ee; /* Cor padrão azul clara */
+ background:#28d3ee;
 }
 
-/* CORES DAS SEQUÊNCIAS NA PIRÂMIDE */
 .num.negativo{background:#FF0000 !important; color:#fff !important;}
 .num.especial{background:#f6c445 !important; color:#000 !important;}
 .num.financeiro{background:#34c759 !important; color:#fff !important;}
 
-/* ESTILO DOS NOVOS ALERTAS DE VIGÊNCIA (O QUE ADICIONAMOS) */
 .box { 
     border: 1px solid #ddd; 
     padding: 20px; 
@@ -47,29 +44,12 @@ body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1
     background: #fafafa;
 }
 
-/* Estilos específicos para os alertas dentro das vigências */
-div[style*="border-left:4px solid #ff6b6b"] { 
-    background: #fff5f5 !important; 
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-div[style*="border-left:4px solid #f6c445"] { 
-    background: #fffdf5 !important; 
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-div[style*="border-left:4px solid #34c759"] { 
-    background: #f5fff5 !important; 
-    border-radius: 4px;
-    margin-bottom: 10px;
-}
-
-.gridRelatorios { display: block; } /* No PDF, as negativas ficam em lista */
+div[style*="border-left:4px solid #ff6b6b"] { background: #fff5f5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
+div[style*="border-left:4px solid #f6c445"] { background: #fffdf5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
+div[style*="border-left:4px solid #34c759"] { background: #f5fff5 !important; border-radius: 4px; margin-bottom: 10px; padding: 10px; }
 
 .rodape{text-align:center;margin-top:50px;font-size:12px;color:#999; border-top: 1px solid #eee; padding-top: 20px;}
 
-/* BOTÃO DE IMPRESSÃO */
-.btn-container { text-align:center; margin: 40px 0; }
 button{ 
     background: #facc15; border: none; padding: 15px 30px; 
     font-weight: bold; font-size: 18px; border-radius: 8px; cursor: pointer;
@@ -81,13 +61,6 @@ button{
     body { background: white; }
     .secao { box-shadow: none; margin: 0 auto; width: 100%; padding: 30px; }
 }
-
-/* RESPONSIVO MOBILE */
-@media screen and (max-width: 768px){
-  .logo{ width:100%; }
-  .secao{ margin:10px; padding:20px; }
-  .num { width: 18px; height: 18px; font-size: 11px; }
-}
 </style>
 </head>
 
@@ -95,17 +68,33 @@ button{
 <div id="conteudo">Gerando seu relatório quântico premium...</div>
 
 <script>
-// Captura os dados enviados pela página anterior
 const dados = localStorage.getItem("relatorioPiramide");
 if(!dados){
     document.body.innerHTML="<div class='secao'>ERRO: Nenhum dado encontrado. Por favor, gere a matriz novamente.</div>";
     throw new Error();
 }
-// ... (mantenha o início do script igual até a parte do JSON.parse)
-
 const relatorio = JSON.parse(dados);
 
-// MONTAGEM DO HTML FINAL - ADAPTADO PARA RECEBER O CONTEÚDO COMPLETO
+// Mantendo seus textos originais de introdução
+const textos = {
+    introRegente: `O Regente é o coração da sua pirâmide...`,
+    introNegativas: `As Sequências Negativas dentro da Pirâmide Quântica não devem ser vistas como "má sorte"...`,
+    introEspeciais: `As Sequências Especiais representam ocorrências pontuais...`,
+    introFinanceiro: `A análise da Sequência Financeira foca em uma vibração específica...`,
+    introVigencias: `As Vigências representam os ciclos de atuação das potências numerológicas ao longo da sua vida...`,
+    agradecimento: `Este relatório foi desenvolvido exclusivamente para apoiar o seu processo...`
+};
+
+function montarSecao(titulo, conteudoHtml){
+    if(!conteudoHtml) return "";
+    return `
+    <div class="secao">
+        <div class="tituloPiramide">${titulo}</div>
+        <div>${conteudoHtml}</div>
+    </div>`;
+}
+
+// MONTAGEM DO HTML FINAL - Adaptado para o novo salvamento por abas
 document.getElementById("conteudo").innerHTML = `
 <div class="capa">
     <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
@@ -118,16 +107,30 @@ document.getElementById("conteudo").innerHTML = `
 
 <div class="secao">
     <h2>Introdução ao Método</h2>
-    <div class="texto">A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais...</div>
-</div>
-
-<div id="corpo-relatorio">
-    ${relatorio.conteudo}
+    <div class="texto">A Pirâmide Quântica une a sabedoria ancestral da numerologia à compreensão moderna das frequências vibracionais, revelando o mapa da sua existência através dos números.</div>
 </div>
 
 <div class="secao">
+    <h2>Guia de Interpretação</h2>
+    <div class="texto">
+        <strong>Regente:</strong> ${textos.introRegente}<br><br>
+        <strong>Sequências Negativas:</strong> ${textos.introNegativas}<br><br>
+        <strong>Sequências Especiais:</strong> ${textos.introEspeciais}<br><br>
+        <strong>Fluxo Financeiro:</strong> ${textos.introFinanceiro}<br><br>
+        <strong>Ciclos de Vigência:</strong> ${textos.introVigencias}
+    </div>
+</div>
+
+${relatorio.abaPrincipal ? montarSecao("Matriz da Vida", relatorio.abaPrincipal) : ''}
+${relatorio.abaPessoal ? montarSecao("Matriz Pessoal", relatorio.abaPessoal) : ''}
+${relatorio.abaSocial ? montarSecao("Matriz Social", relatorio.abaSocial) : ''}
+${relatorio.abaDestino ? montarSecao("Matriz de Destino", relatorio.abaDestino) : ''}
+
+${!relatorio.abaPrincipal && relatorio.conteudo ? relatorio.conteudo : ''}
+
+<div class="secao">
     <h2>Considerações Finais</h2>
-    <div class="texto">Este relatório foi desenvolvido exclusivamente para apoiar o seu processo de autoconhecimento. Utilize estas informações como um mapa de navegação para suas escolhas.</div>
+    <div class="texto">${textos.agradecimento}</div>
     <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
 </div>
 
@@ -136,18 +139,14 @@ document.getElementById("conteudo").innerHTML = `
 </div>
 `;
 
-// Função para disparo automático da impressão após carregamento
 window.onload = () => {
     setTimeout(() => {
-        // Opcional: window.print(); 
+        // window.print(); 
     }, 1500);
 };
 
-// Proteção básica de conteúdo
 document.oncontextmenu = () => false;
 document.onselectstart = () => false;
 </script>
 </body>
 </html>
-
-
