@@ -338,6 +338,34 @@ function mostrarAba(nome){
 }
 
 // === FUNÇÃO GERAR (ALERTAS ABAIXO DA PIRÂMIDE) ===
+function montarConteudoComIntros(pir, reg, txtReg, cron, tMapa, titulo) {
+    let r = `<h2 class="tituloPiramide">${titulo}</h2>`;
+    r += desenhar(pir, true);
+    
+    // REGENTE COM INTRO
+    r += `<div class="box">
+            <p style="font-size:14px; color:#666; font-style:italic; margin-bottom:5px;">${textos.introRegente}</p>
+            <h2>⭐ Regente: ${reg}</h2>${txtReg[reg] || ''}
+          </div>`;
+    
+    // NEGATIVAS COM INTRO
+    const neg = gerarRelatorioNegativasComVigencia(pir, cron);
+    if(neg) r += `<div class="box"><p style="font-size:14px; color:#666; font-style:italic;">${textos.introNegativas}</p>${neg}</div>`;
+
+    // ESPECIAIS COM INTRO
+    const esp = gerarRelatorioEspeciaisComVigencia(pir, cron);
+    if(esp) r += `<div class="box"><p style="font-size:14px; color:#666; font-style:italic;">${textos.introEspeciais}</p>${esp}</div>`;
+
+    // FINANCEIRO COM INTRO
+    const fin = gerarRelatorioFinanceiroComVigencia(pir, cron);
+    if(fin) r += `<div class="box"><p style="font-size:14px; color:#666; font-style:italic;">${textos.introFinanceiro}</p>${fin}</div>`;
+
+    // VIGÊNCIAS COM INTRO
+    r += `<div class="box"><p style="font-size:14px; color:#666; font-style:italic;">${textos.introVigencias}</p>${montarVigenciasSincronizadas(cron, topo(pir[0]), tMapa)}</div>`;
+    
+    return r;
+}
+
 function gerar() {
     const nome = document.getElementById("nome").value;
     const data = document.getElementById("data").value;
@@ -345,40 +373,30 @@ function gerar() {
 
     const base = nomeNumeros(nome);
     const [y, m, d] = data.split("-").map(Number);
-
     const pVida = piramide(base);
     const aVida = topo(base);
     const crono = gerarCronogramaMestre(aVida, data);
-    const regVida = pVida.at(-1)[0];
     
-    document.getElementById("aba_principal").innerHTML = 
-        desenhar(pVida, true) + 
-        `<div class="box"><h2>⭐ Regente da Vida: ${regVida}</h2>${textosVida[regVida] || ''}</div>` +
-        gerarRelatorioNegativasComVigencia(pVida, crono) +
-        gerarRelatorioEspeciaisComVigencia(pVida, crono) +
-        gerarRelatorioFinanceiroComVigencia(pVida, crono) +
-        montarVigenciasSincronizadas(crono, aVida, textosVida);
+    // Gerando cada aba
+    const htmlVida = montarConteudoComIntros(pVida, pVida.at(-1)[0], textosVida, crono, textosVida, "Matriz da Vida");
+    const htmlPessoal = montarConteudoComIntros(piramidePessoal(base, d), piramidePessoal(base, d).at(-1)[0], textosPessoal, crono, textosPessoal, "Matriz Pessoal");
+    const htmlSocial = montarConteudoComIntros(piramideSocial(base, m), piramideSocial(base, m).at(-1)[0], textosSocial, crono, textosSocial, "Matriz Social");
+    const htmlDestino = montarConteudoComIntros(piramideDestino(base, d, m), piramideDestino(base, d, m).at(-1)[0], textosDestino, crono, textosDestino, "Matriz de Destino");
 
-    const matrizes = [
-        { id: "pessoal", p: piramidePessoal(base, d), t: textosPessoal, reg: "Pessoal" },
-        { id: "social", p: piramideSocial(base, m), t: textosSocial, reg: "Social" },
-        { id: "destino", p: piramideDestino(base, d, m), t: textosDestino, reg: "Destino" }
-    ];
+    // Exibindo na tela
+    document.getElementById("aba_principal").innerHTML = htmlVida;
+    document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
+    document.getElementById("aba_social").innerHTML = htmlSocial;
+    document.getElementById("aba_destino").innerHTML = htmlDestino;
 
-    matrizes.forEach(m => {
-        const regVal = m.p.at(-1)[0];
-        document.getElementById("aba_" + m.id).innerHTML = 
-            desenhar(m.p, true) + 
-            `<div class="box"><h2>⭐ Regente ${m.reg}: ${regVal}</h2>${m.t[regVal] || ''}</div>` +
-            gerarRelatorioNegativasComVigencia(m.p, crono) +
-            gerarRelatorioEspeciaisComVigencia(m.p, crono) +
-            gerarRelatorioFinanceiroComVigencia(m.p, crono) +
-            montarVigenciasSincronizadas(crono, topo(m.p[0]), m.t);
-    });
-
+    // SALVANDO TUDO PARA O PREMIUM
     localStorage.setItem("relatorioPiramide", JSON.stringify({
-        nome, data: data.split("-").reverse().join("/"),
-        conteudo: document.querySelector(".folhaRelatorio").innerHTML
+        nome, 
+        data: data.split("-").reverse().join("/"),
+        abaPrincipal: htmlVida,
+        abaPessoal: htmlPessoal,
+        abaSocial: htmlSocial,
+        abaDestino: htmlDestino
     }));
     mostrarAba('principal');
 }
@@ -393,3 +411,4 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
