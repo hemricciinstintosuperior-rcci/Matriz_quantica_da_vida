@@ -13,8 +13,8 @@ body{font-family:"Times New Roman",serif;background:#f4f4f4;margin:0; color:#1a1
 .secao{ max-width:900px;margin:30px auto;background:white; padding:50px;border-radius:10px;box-shadow:0 0 20px rgba(0,0,0,.05); page-break-inside: avoid; }
 .texto{white-space:pre-line;font-size:18px;line-height:1.6; text-align: justify;}
 .tituloPiramide{text-align:center;font-size:28px;margin-bottom:30px; font-weight: bold; color: #111; text-transform: uppercase;}
-.piramide{display:flex;flex-direction:column;align-items:center;margin:30px 0; font-family: monospace;}
-.linha{display:flex;justify-content:center;margin:1px 0; gap: 4px;}
+.piramide{display:flex;flex-direction:column;align-items:center;margin:15px 0; font-family: monospace;}
+.linha{display:flex;justify-content:center;margin:1px 0; gap: 1px;}
 .num{ width:24px;height:24px;border-radius:4px; display:flex;align-items:center;justify-content:center; font-weight:bold;font-size:14px; color:#000; background:#28d3ee; }
 .num.negativo{background:#FF0000 !important; color:#fff !important;}
 .num.especial{background:#f6c445 !important; color:#000 !important;}
@@ -38,12 +38,12 @@ button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold
     
     /* Faz a pirâmide caber na tela do celular sem cortar */
     .num { 
-        width: 18px; 
-        height: 18px; 
+        width: 15px; 
+        height: 15px; 
         font-size: 10px; 
-        border-radius: 2px;
+        border-radius: 1px;
     }
-    .linha { gap: 2px; }
+    .linha { gap: 1px; }
 }
 
 </style>
@@ -113,6 +113,7 @@ ${relatorio.abaDestino ? `<div class="secao">${relatorio.abaDestino}</div>` : ''
 </script>
 </body>
 </html>
+
 
 
 
