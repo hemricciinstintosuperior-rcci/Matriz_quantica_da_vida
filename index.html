@@ -129,6 +129,7 @@ Data de nascimento<input type="date" id="data">
 
 <script>
 // Adicione isso no topo do seu script principal
+// 1. Definições Iniciais
 const textos = window.textos || {
     introRegente: "O Regente é o coração da sua pirâmide...",
     introNegativas: "As Sequências Negativas revelam desafios vibracionais...",
@@ -139,6 +140,7 @@ const textos = window.textos || {
     
 const mapa = { A:1,I:1,Q:1,J:1,Y:1, B:2,K:2,R:2, C:3,G:3,L:3,S:3, D:4,M:4,T:4, E:5,H:5,N:5, U:6,V:6,W:6,X:6, O:7,Z:7, F:8,P:8 };
 
+// 2. Funções Matemáticas Base
 function valorLetra(letra){
     if(!letra || letra===" ") return 0;
     let normal = letra.normalize("NFD");
@@ -170,12 +172,13 @@ function nomeNumeros(nome){
 }
 
 function piramide(base){
-    let linhas=[base];
-    while(base.length>1){
+    let b = [...base];
+    let linhas=[b];
+    while(b.length>1){
         let nova=[];
-        for(let i=0;i<base.length-1;i++){ nova.push(reduzir(base[i]+base[i+1])); }
+        for(let i=0;i<b.length-1;i++){ nova.push(reduzir(b[i]+b[i+1])); }
         linhas.push(nova);
-        base=nova;
+        b=nova;
     }
     return linhas;
 }
@@ -186,95 +189,17 @@ function topo(base){
     return arcanos;
 }
 
-// === CÁLCULO DE VIGÊNCIA POR AMPLITUDE (DIAGONAL CORRIGIDO) ===
+// 3. Vigências e Cronograma
 function calcularVigenciaPorPosicao(linha, coluna, cronograma) {
     let indiceInicio = coluna;
     let indiceFim = coluna + linha; 
-
     let periodosAfetados = cronograma.filter(p => p.indiceArcano >= indiceInicio && p.indiceArcano <= indiceFim);
-
     if (periodosAfetados.length === 0) return "Fase de transição";
-
     let idadeIni = periodosAfetados[0].idadeIni;
     let idadeFim = periodosAfetados[periodosAfetados.length - 1].idadeFim;
-
     return `${idadeIni} a ${idadeFim} anos`;
 }
 
-// === RELATÓRIOS GRUPADOS (EVITA REPETIÇÃO E ERRO DE CONTAGEM) ===
-// === RELATÓRIOS ADAPTADOS PARA BANCOS MÚLTIPLOS ===
-
-function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
-    const { posNeg } = detectarSequencias(linhas);
-    let h = <div class="box"><h3 style="color:#d32f2f;">⚠️ Sequências Negativas</h3>;
-    let gruposContados = new Set();
-    let encontrou = false;
-    posNeg.forEach(p => {
-        let num = linhas[p.linha][p.indice];
-        let idGrupo = neg-${num}-L${p.linha};
-        if (!gruposContados.has(idGrupo)) {
-            encontrou = true;
-            gruposContados.add(idGrupo);
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
-                    <b style="font-size:16px;">🚫 Sequência ${num}</b><br>
-                    <small><b>Período Crítico:</b> ${vigencia}</small><br>
-                    <span style="font-size:14px; color:#444;">${bancoTxt[num] || 'Desafio vibracional detectado.'}</span>
-                  </div>`;
-        }
-    });
-    return encontrou ? h + "</div>" : "";
-}
-
-function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
-    let h = <div class="box"><h3 style="color:#b8860b;">⭐ Impactos Especiais</h3>;
-    let gruposContados = new Set();
-    let encontrou = false;
-    linhas.forEach((linha, i) => {
-        for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            if (bancoTxt && bancoTxt[seq]) {
-                let idImpacto = esp-${seq}-L${i}-C${j};
-                if (!gruposContados.has(idImpacto)) {
-                    encontrou = true;
-                    gruposContados.add(idImpacto);
-                    let vigencia = calcularVigenciaPorPosicao(i, j, crono);
-                    h += `<div style="margin-bottom:12px; border-left:4px solid #f6c445; padding-left:10px; text-align:left;">
-                            <b style="font-size:16px;">✨ Impacto ${seq}</b><br>
-                            <small><b>Período Ativo:</b> ${vigencia}</small><br>
-                            <span style="font-size:14px; color:#444;">${bancoTxt[seq]}</span>
-                          </div>`;
-                }
-            }
-        }
-    });
-    return encontrou ? h + "</div>" : "";
-}
-
-function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
-    const posFin = detectarSequenciaFinanceira(linhas);
-    let h = <div class="box"><h3 style="color:#2e7d32;">💰 Fluxos de Prosperidade</h3>;
-    let gruposIdentificados = new Set();
-    let contadorReal = 0;
-    posFin.forEach(p => {
-        let idGrupo = linha-${p.linha}-col-${p.indice};
-        if (!gruposIdentificados.has(idGrupo)) {
-            gruposIdentificados.add(linha-${p.linha}-col-${p.indice});
-            gruposIdentificados.add(linha-${p.linha}-col-${p.indice + 1});
-            gruposIdentificados.add(linha-${p.linha + 1}-col-${p.indice});
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
-                    <b style="font-size:16px;">✅ Sequência Financeira 99/9</b><br>
-                    <small><b>Janela:</b> ${vigencia}</small><br>
-                    <span style="font-size:14px; color:#444;">${bancoTxt[999] || 'Momento de expansão financeira conforme a matriz.'}</span>
-                  </div>`;
-            contadorReal++;
-        }
-    });
-    return contadorReal > 0 ? h + "</div>" : "";
-}
-
-// === CRONOGRAMA E DETECÇÃO ===
 function gerarCronogramaMestre(arcanosVida, data) {
     let cronograma = [];
     const [ano, mes, dia] = data.split("-").map(Number);
@@ -298,20 +223,87 @@ function gerarCronogramaMestre(arcanosVida, data) {
     return cronograma;
 }
 
+// 4. Relatórios Adaptados (CORRIGIDOS)
+function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
+    const { posNeg } = detectarSequencias(linhas);
+    if (!posNeg || posNeg.length === 0) return "";
+    let h = `<div class="box"><h3 style="color:#d32f2f;">⚠️ Sequências Negativas</h3>`;
+    let gruposContados = new Set();
+    let encontrou = false;
+    posNeg.forEach(p => {
+        let num = linhas[p.linha][p.indice];
+        let idGrupo = `neg-${num}-L${p.linha}`;
+        if (!gruposContados.has(idGrupo)) {
+            encontrou = true;
+            gruposContados.add(idGrupo);
+            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
+            h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
+                    <b style="font-size:16px;">🚫 Sequência ${num}</b><br>
+                    <small><b>Período Crítico:</b> ${vigencia}</small><br>
+                    <span style="font-size:14px; color:#444;">${bancoTxt[num] || 'Desafio vibracional detectado.'}</span>
+                  </div>`;
+        }
+    });
+    return encontrou ? h + "</div>" : "";
+}
+
+function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
+    let h = `<div class="box"><h3 style="color:#b8860b;">⭐ Impactos Especiais</h3>`;
+    let gruposContados = new Set();
+    let encontrou = false;
+    linhas.forEach((linha, i) => {
+        for (let j = 0; j < linha.length - 2; j++) {
+            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
+            if (bancoTxt && bancoTxt[seq]) {
+                let idImpacto = `esp-${seq}-L${i}-C${j}`;
+                if (!gruposContados.has(idImpacto)) {
+                    encontrou = true;
+                    gruposContados.add(idImpacto);
+                    let vigencia = calcularVigenciaPorPosicao(i, j, crono);
+                    h += `<div style="margin-bottom:12px; border-left:4px solid #f6c445; padding-left:10px; text-align:left;">
+                            <b style="font-size:16px;">✨ Impacto ${seq}</b><br>
+                            <small><b>Período Ativo:</b> ${vigencia}</small><br>
+                            <span style="font-size:14px; color:#444;">${bancoTxt[seq]}</span>
+                          </div>`;
+                }
+            }
+        }
+    });
+    return encontrou ? h + "</div>" : "";
+}
+
+function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
+    const posFin = detectarSequenciaFinanceira(linhas);
+    if (!posFin || posFin.length === 0) return "";
+    let h = `<div class="box"><h3 style="color:#2e7d32;">💰 Fluxos de Prosperidade</h3>`;
+    let gruposIdentificados = new Set();
+    let contadorReal = 0;
+    posFin.forEach(p => {
+        let idGrupo = `linha-${p.linha}-col-${p.indice}`;
+        if (!gruposIdentificados.has(idGrupo)) {
+            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice}`);
+            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice + 1}`);
+            gruposIdentificados.add(`linha-${p.linha + 1}-col-${p.indice}`);
+            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
+            h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
+                    <b style="font-size:16px;">✅ Sequência Financeira 99/9</b><br>
+                    <small><b>Janela:</b> ${vigencia}</small><br>
+                    <span style="font-size:14px; color:#444;">${bancoTxt[999] || 'Momento de colheita material.'}</span>
+                  </div>`;
+            contadorReal++;
+        }
+    });
+    return contadorReal > 0 ? h + "</div>" : "";
+}
+
+// 5. Funções de Montagem de Conteúdo
 function montarConteudoComIntros(pir, reg, txtReg, cron, tMapa, titulo, bNeg, bEsp, bFin) {
-    let r = <h2 class="tituloPiramide">${titulo}</h2>;
+    let r = `<h2 class="tituloPiramide">${titulo}</h2>`;
     r += desenhar(pir, true);
-    r += <div class="box"><h2>⭐ Regente: ${reg}</h2>${txtReg[reg] || ''}</div>;
-    
-    const neg = gerarRelatorioNegativasComVigencia(pir, cron, bNeg);
-    if(neg) r += neg;
-
-    const esp = gerarRelatorioEspeciaisComVigencia(pir, cron, bEsp);
-    if(esp) r += esp;
-
-    const fin = gerarRelatorioFinanceiroComVigencia(pir, cron, bFin);
-    if(fin) r += fin;
-
+    r += `<div class="box"><h2>⭐ Regente: ${reg}</h2>${txtReg[reg] || ''}</div>`;
+    r += gerarRelatorioNegativasComVigencia(pir, cron, bNeg);
+    r += gerarRelatorioEspeciaisComVigencia(pir, cron, bEsp);
+    r += gerarRelatorioFinanceiroComVigencia(pir, cron, bFin);
     r += montarVigenciasSincronizadas(cron, topo(pir[0]), tMapa);
     return r;
 }    
@@ -329,6 +321,7 @@ function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa)
     return html + "</div>";
 }
 
+// 6. Detecção de Sequências no Desenho
 function detectarSequencias(linhas){
     let posNeg=[]; let sequencias=[];
     linhas.forEach((linha, i)=>{
@@ -351,14 +344,14 @@ function detectarSequencias(linhas){
     return {sequencias, posNeg};
 }
 
-
-
 function detectarPosicoesEspeciais(linhas){
     let pos=[];
     linhas.forEach((linha,i)=>{
         for(let j=0;j<linha.length-2;j++){
             let seq = "" + linha[j] + linha[j+1] + linha[j+2];
-            if(sequenciasEspeciais[seq]){ pos.push({linha:i, indice:j},{linha:i, indice:j+1},{linha:i, indice:j+2}); }
+            if(typeof sequenciasEspeciais !== 'undefined' && sequenciasEspeciais[seq]){ 
+                pos.push({linha:i, indice:j},{linha:i, indice:j+1},{linha:i, indice:j+2}); 
+            }
         }
     });
     return pos;
@@ -396,6 +389,7 @@ function desenhar(linhas, compacta=false){
     return html + `</div>`;
 }
 
+// 7. Tipos de Pirâmide
 function piramidePessoal(baseNome, dia) { return piramide(baseNome.map(n => reduzir(n + reduzir(dia)))); }
 function piramideSocial(baseNome, mes) { return piramide(baseNome.map(n => reduzir(n + reduzir(mes)))); }
 function piramideDestino(baseNome, dia, mes) { return piramide(baseNome.map(n => reduzir(n + reduzir(reduzir(dia) + reduzir(mes))))); }
@@ -405,8 +399,7 @@ function mostrarAba(nome){
     document.getElementById("aba_"+nome).style.display="block";
 }
 
-
-
+// 8. Função Principal Gerar
 function gerar() {
     const nome = document.getElementById("nome").value;
     const data = document.getElementById("data").value;
@@ -449,6 +442,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
