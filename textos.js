@@ -1402,9 +1402,7 @@ Existe uma tendência vibracional que pode afetar o sistema cardíaco se o estre
 É um momento que exige esforço consciente para não se deixar abater pelo desemprego ou pela falta de propósito.
 A chave aqui é buscar reacender sua determinação interna, mesmo quando o cenário externo parecer desfavorável.`,
 
-  2: `➢ SEQUENCIA 222 Esta configuração vibracional atua diretamente sobre o seu senso de valor próprio e autoconfiança.
-Você poderá se perceber mais vulnerável à opinião alheia, permitindo que amigos ou parceiros influencem demais suas decisões.
-A indecisão e a timidez podem se tornar obstáculos frequentes, dificultando a imposição de suas vontades e desejos.
+  2: `➢ SEQUENCIA 222 Esta configuração vibracional atua diretamente sobre a sua mente fazendo papapapapa.
 
 Há um risco real de desenvolver comportamentos submissos, onde você anula sua identidade em prol do convívio com os outros.
 Essa insegurança constante acaba limitando o desenvolvimento de projetos pessoais que exigem autonomia.
@@ -1992,6 +1990,7 @@ destino: `
 `
 
 };  
+
 
 
 
