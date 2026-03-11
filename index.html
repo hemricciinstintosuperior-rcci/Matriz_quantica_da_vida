@@ -280,101 +280,128 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
 }
 
 function montarConteudoComIntros(
-pir,
-reg,
+piramide,
+regente,
 txtReg,
-cron,
-tMapa,
-titulo,
-bNeg,
-bEsp,
-bFin,
-tipoPiramide   // NOVO PARÂMETRO
+crono,
+txtVig,
+nomePiramide,
+txtNeg,
+txtEsp,
+txtFin
 ){
-
-const intro = window.introsPiramides[tipoPiramide] || {};
 
 let html = "";
 
-html += `
-<div class="tituloRelatorio">${titulo}</div>
-`;
+/* identifica qual pirâmide estamos gerando */
+let tipo = "vida";
+if(nomePiramide.includes("Pessoal")) tipo = "pessoal";
+if(nomePiramide.includes("Social")) tipo = "social";
+if(nomePiramide.includes("Destino")) tipo = "destino";
 
+/* pega intros do textos.js */
+const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
 
+/* =========================
+REGENTE
+========================= */
 
-/* REGENTE */
-
-if(textos.introRegente && textos.introRegente[tipoPiramide]){
-html += `
-<div class="introBloco">
-${textos.introRegente[tipoPiramide]}
-</div>
-`;
+if(intro.regente){
+html += `<div class="intro">${intro.regente}</div>`;
 }
 
-html += txtReg;
-
-
-
-/* NEGATIVAS */
-
-if(textos.introNegativas && textos.introNegativas[tipoPiramide]){
-html += `
-<div class="introBloco">
-${textos.introNegativas[tipoPiramide]}
-</div>
-`;
+if(txtReg && txtReg[regente]){
+html += `<div class="texto-regente">${txtReg[regente]}</div>`;
 }
 
-html += bNeg;
+/* =========================
+SEQUÊNCIAS NEGATIVAS
+========================= */
 
+const negEncontradas = [];
 
+piramide.flat().forEach(n=>{
+const seq = String(n);
+if(txtNeg && txtNeg[seq]) negEncontradas.push(seq);
+});
 
-/* ESPECIAIS */
+if(negEncontradas.length){
 
-if(textos.introEspeciais && textos.introEspeciais[tipoPiramide]){
-html += `
-<div class="introBloco">
-${textos.introEspeciais[tipoPiramide]}
-</div>
-`;
+if(intro.negativas){
+html += `<div class="intro">${intro.negativas}</div>`;
 }
 
-html += bEsp;
+negEncontradas.forEach(seq=>{
+html += `<div class="bloco-neg">${txtNeg[seq]}</div>`;
+});
 
-
-
-/* FINANCEIRO */
-
-if(textos.introFinanceiro && textos.introFinanceiro[tipoPiramide]){
-html += `
-<div class="introBloco">
-${textos.introFinanceiro[tipoPiramide]}
-</div>
-`;
 }
 
-html += bFin;
+/* =========================
+SEQUÊNCIAS ESPECIAIS
+========================= */
 
+const espEncontradas = [];
 
+piramide.flat().forEach(n=>{
+const seq = String(n);
+if(txtEsp && txtEsp[seq]) espEncontradas.push(seq);
+});
 
-/* VIGÊNCIAS */
+if(espEncontradas.length){
 
-if(textos.introVigencias && textos.introVigencias[tipoPiramide]){
-html += `
-<div class="introBloco">
-${textos.introVigencias[tipoPiramide]}
-</div>
-`;
+if(intro.especiais){
+html += `<div class="intro">${intro.especiais}</div>`;
 }
 
-html += montarVigenciasSincronizadas(cron, pir, tMapa);
+espEncontradas.forEach(seq=>{
+html += `<div class="bloco-esp">${txtEsp[seq]}</div>`;
+});
 
+}
 
+/* =========================
+FINANCEIRO
+========================= */
+
+const finEncontradas = [];
+
+piramide.flat().forEach(n=>{
+const seq = String(n);
+if(txtFin && txtFin[seq]) finEncontradas.push(seq);
+});
+
+if(finEncontradas.length){
+
+if(intro.financeiro){
+html += `<div class="intro">${intro.financeiro}</div>`;
+}
+
+finEncontradas.forEach(seq=>{
+html += `<div class="bloco-fin">${txtFin[seq]}</div>`;
+});
+
+}
+
+/* =========================
+VIGÊNCIAS
+========================= */
+
+if(crono && crono.length){
+
+if(intro.vigencias){
+html += `<div class="intro">${intro.vigencias}</div>`;
+}
+
+crono.forEach(v=>{
+html += `<div class="vigencia">${v}</div>`;
+});
+
+}
 
 return html;
 
-} 
+}
 
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
     let html = "<div class='box'><h1>⏳ Fluxo das Potências Quânticas</h1>";
@@ -570,6 +597,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
