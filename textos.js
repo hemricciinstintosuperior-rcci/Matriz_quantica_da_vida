@@ -1992,6 +1992,45 @@ destino: `
 
 };  
 
+// TODO O SEU CÓDIGO ORIGINAL ABAIXO (SEM ALTERAR UMA VÍRGULA DAS FUNÇÕES)
+window.textos = {
+
+introRegente:{
+vida:"ggggg",
+pessoal:"hhhhh",
+social:"yyyyy",
+destino:"zzzzz"
+},
+
+introNegativas:{
+vida:"jjjjj",
+pessoal:"ffff",
+social:"aaaaa",
+destino:"iii"
+},
+
+introEspeciais:{
+vida:"hhhhh",
+pessoal:"ssss",
+social:"fff",
+destino:"uuuu"
+},
+
+introFinanceiro:{
+vida:"...",
+pessoal:"...",
+social:"...",
+destino:"..."
+},
+
+introVigencias:{
+vida:"hhhhh",
+pessoal:"gggg",
+social:"oooo",
+destino:".ppppp."
+}
+
+}
 
 
 
