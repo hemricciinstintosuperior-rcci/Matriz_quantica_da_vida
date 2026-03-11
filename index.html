@@ -293,14 +293,25 @@ txtFin
 
 let html = "";
 
+/* TÍTULO + PIRÂMIDE */
+
+html += `<div class="box">`;
+html += `<h2>${nomePiramide}</h2>`;
+html += desenhar(linhas, true, txtEsp);
+html += `</div>`;
+
+
 /* identifica tipo da pirâmide */
+
 let tipo = "vida";
 if(nomePiramide.includes("Pessoal")) tipo = "pessoal";
 if(nomePiramide.includes("Social")) tipo = "social";
 if(nomePiramide.includes("Destino")) tipo = "destino";
 
 /* intros */
+
 const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
+
 
 /* REGENTE */
 
@@ -312,7 +323,8 @@ if(txtReg && txtReg[regente]){
 html += `<div class="box">${txtReg[regente]}</div>`;
 }
 
-/* SEQUÊNCIAS NEGATIVAS */
+
+/* NEGATIVAS */
 
 const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg);
 
@@ -326,7 +338,8 @@ html += relNeg;
 
 }
 
-/* SEQUÊNCIAS ESPECIAIS */
+
+/* ESPECIAIS */
 
 const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp);
 
@@ -339,6 +352,7 @@ html += `<div class="box">${intro.especiais}</div>`;
 html += relEsp;
 
 }
+
 
 /* FINANCEIRO */
 
@@ -353,6 +367,7 @@ html += `<div class="box">${intro.financeiro}</div>`;
 html += relFin;
 
 }
+
 
 /* VIGÊNCIAS */
 
@@ -564,6 +579,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
