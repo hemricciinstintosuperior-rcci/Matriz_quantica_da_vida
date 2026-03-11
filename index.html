@@ -253,80 +253,58 @@ function gerarCronogramaMestre(arcanosVida, data) {
     return cronograma;
 }
 
-function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
-    const { posNeg } = detectarSequencias(linhas);
-    if (!posNeg || posNeg.length === 0) return "";
-    let h = `<div class="blocoRelatorio"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
-    let gruposContados = new Set();
-    let encontrou = false;
-    posNeg.forEach(p => {
-        let num = linhas[p.linha][p.indice];
-        let idGrupo = `neg-${num}-L${p.linha}`;
-        if (!gruposContados.has(idGrupo)) {
-            encontrou = true;
-            gruposContados.add(idGrupo);
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            h += `<div class="blocoRelatorio">
-<strong>Sequência ${item.seq}</strong><br>
-Vigência: ${item.inicio} até ${item.fim}<br>
-${item.texto}
-</div>
-`;
-        }
-    });
-    return encontrou ? h + "</div>" : "";
+function gerarRelatorioNegativas(seqs, vigencias, bancoTxt){
+
+let h = "";
+
+seqs.forEach(num => {
+
+   const vigencia = vigencias[num] || "";
+
+   h += `<div class="blocoRelatorio">
+<strong>Sequência ${num}</strong><br>
+Período: ${vigencia}<br>
+${bancoTxt[num] || "Desafio vibracional detectado."}
+</div>`;
+
+});
+
+return h;
+
 }
 
-function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
-    let gruposContados = new Set();
-    let encontrou = false;
-    linhas.forEach((linha, i) => {
-        for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            if (bancoTxt && bancoTxt[seq]) {
-                let idImpacto = `esp-${seq}-L${i}-C${j}`;
-                if (!gruposContados.has(idImpacto)) {
-                    encontrou = true;
-                    gruposContados.add(idImpacto);
-                    let vigencia = calcularVigenciaPorPosicao(i, j, crono);
-                    h += `
-<div class="blocoRelatorio">
-<strong>Sequência Especial ${item.seq}</strong><br>
-Vigência: ${item.inicio} até ${item.fim}<br>
-${item.texto}
-</div>
-`;
-                }
-            }
-        }
-    });
-    return encontrou ? h + "</div>" : "";
+function gerarRelatorioEspeciais(seqs, vigencias, bancoTxt){
+
+let h = "";
+
+seqs.forEach(seq => {
+
+   const vigencia = vigencias[seq] || "";
+
+   h += `<div class="blocoRelatorio">
+<strong>Sequência Especial ${seq}</strong><br>
+Período: ${vigencia}<br>
+${bancoTxt[seq] || ""}
+</div>`;
+
+});
+
+return h;
+
 }
 
-function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
-    const posFin = detectarSequenciaFinanceira(linhas);
-    if (!posFin || posFin.length === 0) return "";
-    let h = `<div class="blocoRelatorio"><h2 style="color:#2e7d32;">💰 Fluxo financeiro</h2>`;
-    let gruposIdentificados = new Set();
-    let contadorReal = 0;
-    posFin.forEach(p => {
-        let idGrupo = `linha-${p.linha}-col-${p.indice}`;
-        if (!gruposIdentificados.has(idGrupo)) {
-            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice}`);
-            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice + 1}`);
-            gruposIdentificados.add(`linha-${p.linha + 1}-col-${p.indice}`);
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            h += `<div class="blocoRelatorio">
-<strong>Sequência Financeira ${item.seq}</strong><br>
-Vigência: ${item.inicio} até ${item.fim}<br>
-${item.texto}
-</div>
-`;
-            contadorReal++;
-        }
-    });
-    return contadorReal > 0 ? h + "</div>" : "";
+function gerarRelatorioFinanceiro(vigencia, bancoTxt){
+
+let h = "";
+
+h += `<div class="blocoRelatorio">
+<strong>Sequência Financeira 99</strong><br>
+Período: ${vigencia}<br>
+${bancoTxt[999] || "Momento de colheita material."}
+</div>`;
+
+return h;
+
 }
 
 function montarConteudoComIntros(pir, reg, txtReg, cron, tMapa, titulo, bNeg, bEsp, bFin) {
@@ -362,21 +340,24 @@ function montarConteudoComIntros(pir, reg, txtReg, cron, tMapa, titulo, bNeg, bE
 } 
 
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
-    let html = `<div class="blocoRelatorio"><h1>⏳ Fluxo das Potências Quânticas</h1>`;
-    
-    cronograma.forEach((periodo) => {
-        let indiceTopo = periodo.indiceArcano % arcanosDaPiramide.length;
-        let numArcano = arcanosDaPiramide[indiceTopo];
-        
-        // Aqui acrescentamos o período de data (ini e fim) ao lado da idade
-        html += `<div class="blocoRelatorio">
-<strong>${item.titulo}</strong><br>
-Período: ${item.inicio} até ${item.fim}
-</div>
-`;
-    });
-    
-    return html + "</div>";
+let html = "";
+
+periodos.forEach(periodo => {
+
+const numArcano = periodo.num;
+
+html += `<div class="blocoRelatorio">
+<strong>Potência ${numArcano}</strong><br>
+Período: ${periodo.ini} até ${periodo.fim}<br>
+Idade: ${periodo.idadeIni} a ${periodo.idadeFim}
+
+<p>${textosMapa[numArcano] || ""}</p>
+</div>`;
+
+});
+
+return html;
+
 }
 
 function detectarSequencias(linhas){
@@ -506,6 +487,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
