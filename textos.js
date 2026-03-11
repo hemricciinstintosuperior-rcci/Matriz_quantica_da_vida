@@ -443,7 +443,7 @@ O aprendizado do Regente 9 da Vida consiste em transformar experiência em sabed
 
 98:"Recompensa e Ascensão. A Potência 98 representa conquista reconhecimento e elevação de status. Rege a vida pela colheita dos méritos. No aspecto positivo manifesta poder influência e sucesso. No aspecto negativo pode gerar arrogância e sede de domínio. A Potência 98 ensina que o poder precisa de consciência",
 
-99:"Sabedoria Suprema. A Potência 99 representa culminação do ciclo evolutivo e domínio da própria essência. Rege a vida pela integração entre experiência e consciência. No aspecto positivo manifesta realização plena sabedoria e visão elevada. No aspecto negativo pode gerar isolamento excesso de controle e distanciamento emocional. A Potência 99 ensina que a verdadeira grandeza une poder sabedoria e consciência",
+99:"Sabedoria Suprema. A Potência 99 representa culminação do ciclo evolutivo e domínio da própria essência. Rege a vida pela integração entre experiência e consciência. No aspecto positivo manifesta realização plena sabedoria e visão elevada. No aspecto negativo pode gerar isolamento excesso de controle e distanciamento emocional. A Potência 99 ensina que a verdadeira grandeza une poder sabedoria e consciência"
   
   
 };
@@ -3197,6 +3197,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
