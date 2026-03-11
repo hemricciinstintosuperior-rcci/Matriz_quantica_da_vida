@@ -280,7 +280,7 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
 }
 
 function montarConteudoComIntros(
-piramide,
+linhas,
 regente,
 txtReg,
 crono,
@@ -293,109 +293,76 @@ txtFin
 
 let html = "";
 
-/* identifica qual pirâmide estamos gerando */
+/* identifica tipo da pirâmide */
 let tipo = "vida";
 if(nomePiramide.includes("Pessoal")) tipo = "pessoal";
 if(nomePiramide.includes("Social")) tipo = "social";
 if(nomePiramide.includes("Destino")) tipo = "destino";
 
-/* pega intros do textos.js */
+/* intros */
 const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
 
-/* =========================
-REGENTE
-========================= */
+/* REGENTE */
 
 if(intro.regente){
-html += `<div class="intro">${intro.regente}</div>`;
+html += `<div class="box">${intro.regente}</div>`;
 }
 
 if(txtReg && txtReg[regente]){
-html += `<div class="texto-regente">${txtReg[regente]}</div>`;
+html += `<div class="box">${txtReg[regente]}</div>`;
 }
 
-/* =========================
-SEQUÊNCIAS NEGATIVAS
-========================= */
+/* SEQUÊNCIAS NEGATIVAS */
 
-const negEncontradas = [];
+const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg);
 
-piramide.flat().forEach(n=>{
-const seq = String(n);
-if(txtNeg && txtNeg[seq]) negEncontradas.push(seq);
-});
-
-if(negEncontradas.length){
+if(relNeg){
 
 if(intro.negativas){
-html += `<div class="intro">${intro.negativas}</div>`;
+html += `<div class="box">${intro.negativas}</div>`;
 }
 
-negEncontradas.forEach(seq=>{
-html += `<div class="bloco-neg">${txtNeg[seq]}</div>`;
-});
+html += relNeg;
 
 }
 
-/* =========================
-SEQUÊNCIAS ESPECIAIS
-========================= */
+/* SEQUÊNCIAS ESPECIAIS */
 
-const espEncontradas = [];
+const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp);
 
-piramide.flat().forEach(n=>{
-const seq = String(n);
-if(txtEsp && txtEsp[seq]) espEncontradas.push(seq);
-});
-
-if(espEncontradas.length){
+if(relEsp){
 
 if(intro.especiais){
-html += `<div class="intro">${intro.especiais}</div>`;
+html += `<div class="box">${intro.especiais}</div>`;
 }
 
-espEncontradas.forEach(seq=>{
-html += `<div class="bloco-esp">${txtEsp[seq]}</div>`;
-});
+html += relEsp;
 
 }
 
-/* =========================
-FINANCEIRO
-========================= */
+/* FINANCEIRO */
 
-const finEncontradas = [];
+const relFin = gerarRelatorioFinanceiroComVigencia(linhas, crono, txtFin);
 
-piramide.flat().forEach(n=>{
-const seq = String(n);
-if(txtFin && txtFin[seq]) finEncontradas.push(seq);
-});
-
-if(finEncontradas.length){
+if(relFin){
 
 if(intro.financeiro){
-html += `<div class="intro">${intro.financeiro}</div>`;
+html += `<div class="box">${intro.financeiro}</div>`;
 }
 
-finEncontradas.forEach(seq=>{
-html += `<div class="bloco-fin">${txtFin[seq]}</div>`;
-});
+html += relFin;
 
 }
 
-/* =========================
-VIGÊNCIAS
-========================= */
+/* VIGÊNCIAS */
 
-if(crono && crono.length){
+if(crono){
 
 if(intro.vigencias){
-html += `<div class="intro">${intro.vigencias}</div>`;
+html += `<div class="box">${intro.vigencias}</div>`;
 }
 
-crono.forEach(v=>{
-html += `<div class="vigencia">${v}</div>`;
-});
+html += montarVigenciasSincronizadas(crono, topo(linhas[0]), txtVig);
 
 }
 
@@ -597,6 +564,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
