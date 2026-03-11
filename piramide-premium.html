@@ -6,17 +6,18 @@
 <title>Relatório Premium • Pirâmide Quântica</title>
 <style>
 
-*{
-box-sizing:border-box;
--webkit-print-color-adjust:exact!important;
-print-color-adjust:exact!important;
-}
-
 body{
 font-family:"Times New Roman",serif;
 background:#f4f4f4;
 margin:0;
 color:#1a1a1a;
+}
+
+/* estabiliza cálculo de largura */
+*{
+box-sizing:border-box;
+-webkit-print-color-adjust:exact!important;
+print-color-adjust:exact!important;
 }
 
 .capa{
@@ -40,15 +41,14 @@ padding-top:20px;
 display:inline-block;
 }
 
-/* largura estabilizada */
 .secao{
-width:760px;
+max-width:800px;
 margin:20px auto;
 background:white;
 padding:20px;
 border-radius:10px;
 box-shadow:0 0 20px rgba(0,0,0,.05);
-page-break-inside:avoid;
+break-inside:avoid;
 }
 
 .texto{
@@ -95,14 +95,25 @@ color:#000;
 background:#28d3ee;
 }
 
-.num.negativo{background:#FF0000!important;color:#fff!important;}
-.num.especial{background:#f6c445!important;color:#000!important;}
-.num.financeiro{background:#34c759!important;color:#fff!important;}
+.num.negativo{
+background:#FF0000!important;
+color:#fff!important;
+}
+
+.num.especial{
+background:#f6c445!important;
+color:#000!important;
+}
+
+.num.financeiro{
+background:#34c759!important;
+color:#fff!important;
+}
 
 .box{
 border:1px solid #333;
 padding:20px;
-margin:10px 0;
+margin:5px 0;
 border-radius:8px;
 background:#FAFAFA;
 text-align:left;
@@ -133,41 +144,45 @@ border-radius:8px;
 cursor:pointer;
 }
 
-/* respeita quebras de linha */
-.box p,.box span{
+/* respeita quebras de linha do textos.js */
+.box p,
+.box span{
 white-space:pre-wrap;
 display:block;
 margin-bottom:15px;
 line-height:1.4;
 }
 
-/* -------- IMPRESSÃO PDF -------- */
+/* -------- PDF / IMPRESSÃO -------- */
 
 @media print{
 
 body{
-background:white!important;
-margin:0!important;
 padding:0!important;
+margin:0!important;
+background:white!important;
 }
 
-/* largura fixa A4 */
+/* mantém largura estável da seção */
 .secao{
-width:760px!important;
+max-width:800px!important;
 margin:20px auto!important;
 box-shadow:none!important;
+break-inside:avoid!important;
 }
 
 /* impede recalculo progressivo */
 .box{
 width:100%!important;
-margin:10px 0!important;
+margin:5px 0!important;
 padding:20px!important;
-page-break-inside:avoid!important;
+break-inside:avoid!important;
 }
 
-/* remove botão no PDF */
-button,.abas,h5:not(.tituloPiramide){
+/* remove elementos que não devem aparecer no PDF */
+button,
+.abas,
+h5:not(.tituloPiramide){
 display:none!important;
 }
 
@@ -178,9 +193,8 @@ display:none!important;
 @media screen and (max-width:600px){
 
 .secao{
-width:auto;
-margin:10px;
 padding:20px 15px;
+margin:10px;
 }
 
 .capa{
@@ -209,7 +223,9 @@ border-radius:1px;
 padding:1px 2px!important;
 }
 
-.linha{gap:1px;}
+.linha{
+gap:1px;
+}
 
 }
 
