@@ -1932,6 +1932,7 @@ const textosFinPessoal = { 999: "Realização financeira através do intelecto..
 const textosFinSocial = { 999: "Oportunidades financeiras no meio de convivência..." };
 const textosFinDestino = { 999: "Propósito de abundância e legado financeiro..." };
 
+
 // --- Certifica-te que tens o mesmo para Negativas e Especiais (Vida, Pessoal, Social, Destino) ---  
 // =======================
 // 📖 TEXTOS EXPLICATIVOS DAS PIRÂMIDES
