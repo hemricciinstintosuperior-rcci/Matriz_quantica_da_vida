@@ -2272,8 +2272,8 @@ Essa influência pode estimular maturidade nas decisões e capacidade de reconhe
 
 <p>A potência 99 favorece conclusão, síntese e preparação para novos ciclos. A percepção central desse período envolve reconhecer os aprendizados acumulados e encerrar etapas com consciência e compreensão ampliada.</p>
 `,
-
-  };  
+};
+    
 
 // 🚨 TEXTOS SEQUÊNCIAS NEGATIVAS
 const textosSeqNegVida = {
@@ -2997,8 +2997,8 @@ destino: `
 </div>
 `
 
-};  
-
+ 
+};
 window.introsPiramides = {
 
 vida:{
@@ -3196,8 +3196,8 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 <p>Conhecer essas vigências ajuda a perceber quando determinados acontecimentos fazem parte de um ciclo maior de transformação. Isso permite encarar essas fases com mais consciência, compreendendo que cada período pode trazer lições e oportunidades importantes para a construção do seu caminho.</p>`
 
 },
-
 };
+
 
 
 
