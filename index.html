@@ -292,7 +292,7 @@ bFin,
 tipoPiramide   // NOVO PARÂMETRO
 ){
 
-const textos = window.textos || {};
+const intro = window.introsPiramides[tipoPiramide] || {};
 
 let html = "";
 
@@ -570,6 +570,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
