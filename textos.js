@@ -1992,45 +1992,41 @@ destino: `
 
 };  
 
-// TODO O SEU CÓDIGO ORIGINAL ABAIXO (SEM ALTERAR UMA VÍRGULA DAS FUNÇÕES)
-window.textos = {
+window.introsPiramides = {
 
-introRegente:{
-vida:"ggggg",
-pessoal:"hhhhh",
-social:"yyyyy",
-destino:"zzzzz"
+vida:{
+regente:"Introdução do regente da pirâmide da vida",
+negativas:"Introdução das sequências negativas da vida",
+especiais:"Introdução das sequências especiais da vida",
+financeiro:"Introdução do fluxo financeiro da vida",
+vigencias:"Introdução das vigências da vida"
 },
 
-introNegativas:{
-vida:"jjjjj",
-pessoal:"ffff",
-social:"aaaaa",
-destino:"iii"
+pessoal:{
+regente:"Introdução do regente da pirâmide pessoal",
+negativas:"Introdução das sequências negativas pessoais",
+especiais:"Introdução das sequências especiais pessoais",
+financeiro:"Introdução financeira pessoal",
+vigencias:"Introdução vigências pessoais"
 },
 
-introEspeciais:{
-vida:"hhhhh",
-pessoal:"ssss",
-social:"fff",
-destino:"uuuu"
+social:{
+regente:"Introdução do regente da pirâmide social",
+negativas:"Introdução das sequências negativas sociais",
+especiais:"Introdução das sequências especiais sociais",
+financeiro:"Introdução financeira social",
+vigencias:"Introdução vigências sociais"
 },
 
-introFinanceiro:{
-vida:"...",
-pessoal:"...",
-social:"...",
-destino:"..."
-},
-
-introVigencias:{
-vida:"hhhhh",
-pessoal:"gggg",
-social:"oooo",
-destino:".ppppp."
+destino:{
+regente:"Introdução do regente da pirâmide destino",
+negativas:"Introdução das sequências negativas destino",
+especiais:"Introdução das sequências especiais destino",
+financeiro:"Introdução financeira destino",
+vigencias:"Introdução vigências destino"
 }
 
-}
+};
 
 
 
