@@ -239,7 +239,7 @@ const dados = localStorage.getItem("relatorioPiramide");
 if(!dados){ document.body.innerHTML="<div class='secao'>ERRO: Dados não encontrados. Gere as matrizes primeiro.</div>"; }
 else {
     const rel = JSON.parse(dados);
-    document.getElementById("conteudo").innerHTML = `     <div class="btn-container no-print">
+    document.getElementById("conteudo").innerHTML = `    
        <button onclick="gerarPDF()">Gerar PDF</button>
     </div>
     <div class="capa">
@@ -299,10 +299,10 @@ A proposta final do método é ampliar consciência. Quando há clareza sobre es
         <div class="rodape">Relatório Confidencial • Instinto Superior • 2026</div>
     </div>`;
 
-
-}
-  document.oncontextmenu=()=>false;
+ document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;  
+}
+ 
 </script>
 <script>
 
@@ -352,6 +352,7 @@ pdf.save("Relatorio-Numerologico.pdf");
 
 </body>
 </html>
+
 
 
 
