@@ -4,35 +4,37 @@
 const textosVida={
 
 
-1:`Iniciativa, Autonomia e Caminho Individual. Para você, o Regente 1 da Vida representa a força que impulsiona a construção da própria identidade e o desenvolvimento da independência. Essa vibração indica uma trajetória marcada pela iniciativa, pela coragem de tomar decisões e pela capacidade de abrir caminhos novos ao longo da existência.
+1:`<h3>1️⃣Iniciativa, Autonomia e Caminho Individual.1️⃣</h3> 
 
-A presença do Regente 1 revela natureza ativa, espírito de liderança e desejo profundo de conquistar espaço próprio no mundo. Ao longo da vida você tende a desenvolver autonomia, aprendendo através das experiências a confiar na própria capacidade de agir, decidir e conduzir o próprio destino.
+<p>Para você, o Regente 1 da Vida representa a força que impulsiona a construção da própria identidade e o desenvolvimento da independência. Essa vibração indica uma trajetória marcada pela iniciativa, pela coragem de tomar decisões e pela capacidade de abrir caminhos novos ao longo da existência.</p> 
 
-Quando essa vibração se origina da potência 10 pode indicar momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida.
+<p>A presença do Regente 1 revela natureza ativa, espírito de liderança e desejo profundo de conquistar espaço próprio no mundo. Ao longo da vida você tende a desenvolver autonomia, aprendendo através das experiências a confiar na própria capacidade de agir, decidir e conduzir o próprio destino.</p> 
 
-Quando se origina da potência 19 pode revelar desafios relacionados ao orgulho ou à necessidade de aprender lições importantes sobre responsabilidade e humildade.
+<p>Quando essa vibração se origina da potência 10 pode indicar momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida.</p> 
 
-Quando se origina da potência 28 pode indicar experiências ligadas a disputas, rivalidades ou situações que exigem firmeza para defender seus interesses.
+<p>Quando se origina da potência 19 pode revelar desafios relacionados ao orgulho ou à necessidade de aprender lições importantes sobre responsabilidade e humildade.</p> 
 
-Quando se origina da potência 37 revela potencial para crescimento através da inteligência, da estratégia e da capacidade de tomar decisões firmes.
+<p>Quando se origina da potência 28 pode indicar experiências ligadas a disputas, rivalidades ou situações que exigem firmeza para defender seus interesses.</p> 
 
-Quando se origina da potência 46 pode indicar conquistas materiais alcançadas através de esforço constante e disciplina.
+<p>Quando se origina da potência 37 revela potencial para crescimento através da inteligência, da estratégia e da capacidade de tomar decisões firmes.</p> 
 
-Quando se origina da potência 55 revela forte impulso de liberdade e necessidade de viver experiências intensas ao longo da vida.
+<p>Quando se origina da potência 46 pode indicar conquistas materiais alcançadas através de esforço constante e disciplina.</p> 
 
-Quando se origina da potência 64 pode indicar mudanças repentinas ou situações inesperadas que servem como aprendizado e transformação.
+<p>Quando se origina da potência 55 revela forte impulso de liberdade e necessidade de viver experiências intensas ao longo da vida.</p> 
 
-Quando se origina da potência 73 pode revelar natureza reflexiva e tendência a desenvolver sabedoria através das experiências pessoais.
+<p>Quando se origina da potência 64 pode indicar mudanças repentinas ou situações inesperadas que servem como aprendizado e transformação.</p> 
 
-Quando se origina da potência 82 pode indicar aprendizado sobre poder pessoal, liderança e responsabilidade diante das consequências das próprias ações.
+<p>Quando se origina da potência 73 pode revelar natureza reflexiva e tendência a desenvolver sabedoria através das experiências pessoais.</p> 
 
-Quando se origina da potência 91 pode revelar forte processo de maturidade espiritual, conduzindo a pessoa a compreender a vida através de experiências profundas.
+<p>Quando se origina da potência 82 pode indicar aprendizado sobre poder pessoal, liderança e responsabilidade diante das consequências das próprias ações.</p> 
 
-No aspecto positivo manifesta liderança, coragem, criatividade, iniciativa e capacidade de abrir novos caminhos.
+<p>Quando se origina da potência 91 pode revelar forte processo de maturidade espiritual, conduzindo a pessoa a compreender a vida através de experiências profundas.</p> 
 
-No aspecto negativo pode gerar arrogância, impulsividade, individualismo excessivo ou conflitos provocados pelo desejo de dominar situações.
+<p>No aspecto positivo manifesta liderança, coragem, criatividade, iniciativa e capacidade de abrir novos caminhos.</p> 
 
-O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.`,
+<p>No aspecto negativo pode gerar arrogância, impulsividade, individualismo excessivo ou conflitos provocados pelo desejo de dominar situações.</p> 
+
+<p>O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.</p> `,
 
 
 2:`Sensibilidade, Dualidade e Consciência das Relações. Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.
@@ -3196,6 +3198,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
