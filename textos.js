@@ -446,7 +446,7 @@ O aprendizado do Regente 9 da Vida consiste em transformar experiência em sabed
 99:"Sabedoria Suprema. A Potência 99 representa culminação do ciclo evolutivo e domínio da própria essência. Rege a vida pela integração entre experiência e consciência. No aspecto positivo manifesta realização plena sabedoria e visão elevada. No aspecto negativo pode gerar isolamento excesso de controle e distanciamento emocional. A Potência 99 ensina que a verdadeira grandeza une poder sabedoria e consciência"
   
   
-};
+},
   
 const textosPessoal={
 
@@ -3197,6 +3197,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
