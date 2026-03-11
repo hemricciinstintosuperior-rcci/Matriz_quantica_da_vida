@@ -242,7 +242,7 @@ else {
     const rel = JSON.parse(dados);
     document.getElementById("conteudo").innerHTML = `    
        <button onclick="gerarPDF()">Gerar PDF</button>
-    </div>
+    
     <div class="capa">
         <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png">
         <div class="nomeCliente">Relatório Personalizado para:<br><strong>${rel.nome}</strong><br>Nascimento: ${rel.data}</div>
@@ -353,6 +353,7 @@ pdf.save("Relatorio-Numerologico.pdf");
 
 </body>
 </html>
+
 
 
 
