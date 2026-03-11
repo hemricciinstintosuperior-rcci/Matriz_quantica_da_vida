@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Relatório Premium • Pirâmide Quântica</title>
 <style>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 body{
 font-family:"Times New Roman",serif;
 background:#f4f4f4;
@@ -239,7 +240,7 @@ if(!dados){ document.body.innerHTML="<div class='secao'>ERRO: Dados não encontr
 else {
     const rel = JSON.parse(dados);
     document.getElementById("conteudo").innerHTML = `     <div class="btn-container no-print">
-        <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
+       <button onclick="gerarPDF()">Gerar PDF</button>
     </div>
     <div class="capa">
         <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png">
@@ -300,12 +301,58 @@ A proposta final do método é ampliar consciência. Quando há clareza sobre es
 
 
 }
-document.oncontextmenu=()=>false;
-document.onselectstart=()=>false;
-    
+  document.oncontextmenu=()=>false;
+document.onselectstart=()=>false;  
 </script>
+<script>
+
+async function gerarPDF(){
+
+const { jsPDF } = window.jspdf;
+
+const pdf = new jsPDF({
+orientation: "portrait",
+unit: "mm",
+format: "a4"
+});
+
+const secoes = document.querySelectorAll(".secao");
+
+let primeira = true;
+
+for(const secao of secoes){
+
+const canvas = await html2canvas(secao,{
+scale:2,
+useCORS:true
+});
+
+const img = canvas.toDataURL("image/png");
+
+const larguraPDF = 210;
+const alturaPDF = (canvas.height * larguraPDF) / canvas.width;
+
+if(!primeira){
+pdf.addPage();
+}
+
+pdf.addImage(img,"PNG",0,0,larguraPDF,alturaPDF);
+
+primeira=false;
+
+}
+
+pdf.save("Relatorio-Numerologico.pdf");
+
+}
+
+</script>    
+
+    
+
 </body>
 </html>
+
 
 
 
