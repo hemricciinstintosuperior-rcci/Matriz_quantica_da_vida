@@ -362,7 +362,7 @@ function montarConteudoComIntros(pir, reg, txtReg, cron, tMapa, titulo, bNeg, bE
 } 
 
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
-    let html = "<div class="blocoRelatorio"><h1>⏳ Fluxo das Potências Quânticas</h1>";
+    let html = `<div class="blocoRelatorio"><h1>⏳ Fluxo das Potências Quânticas</h1>`;
     
     cronograma.forEach((periodo) => {
         let indiceTopo = periodo.indiceArcano % arcanosDaPiramide.length;
@@ -506,6 +506,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
