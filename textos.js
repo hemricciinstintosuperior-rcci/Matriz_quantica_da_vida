@@ -34,7 +34,6 @@ No aspecto negativo pode gerar arrogância, impulsividade, individualismo excess
 
 O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.`,
 
-vidaRegente = {
 
 2:`Sensibilidade, Dualidade e Consciência das Relações. Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.
 
@@ -3197,6 +3196,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
