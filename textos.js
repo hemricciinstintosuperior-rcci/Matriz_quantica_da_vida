@@ -3265,18 +3265,42 @@ const textosSeqEspVida = {
 Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
 É essencial agir com máxima integridade e discrição para blindar seu nome contra fofocas ou tentativas de difamação.`,
 
+    "119": `Este ciclo traz um alerta crítico sobre a distorção de valores e o perigo do autoengano. 
+    Você pode se deparar com situações de hipocrisia ou fanatismo, onde causas falsas são defendidas sob o manto de uma aparente virtude. 
+    Existe o risco do uso indevido de preceitos espirituais ou religiosos para justificar atitudes egoístas, exigindo de você um discernimento aguçado para não se deixar levar por aparências enganosas.`,
+ 
   "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
 Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
 Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração através de seus filhos.`,
 
+  "168":`  Uma poderosa corrente de prosperidade se manifesta nesta fase, favorecendo diretamente seus ganhos materiais e o sucesso nos negócios. 
+  É um período propício para a obtenção de prêmios, bonificações ou resultados financeiros acima da média, fruto de um alinhamento favorável em suas atividades práticas. 
+  A energia de realização está em alta, facilitando a conclusão bem-sucedida de negociações importantes e a colheita de frutos de investimentos anteriores.`,
+  
   "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa data.
 Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
 É um momento de transição que pede acolhimento interno e maturidade para lidar com a ausência ou o afastamento definitivo do cônjuge.`,
 
+  "518": `Você entra em um estágio de prosperidade duradoura, onde as bases da sua segurança financeira tendem a se consolidar de forma mais permanente. 
+  Diferente de ganhos momentâneos, esta influência favorece a construção de um patrimônio sólido e a estabilidade a longo prazo. 
+  É um momento de colheita generosa, onde o fluxo de recursos permite planejar o futuro com maior tranquilidade e confiança na continuidade do seu sucesso material.`,
+  
   "575": `Prepare-se para um período de reviravoltas súbitas que podem desestabilizar temporariamente sua segurança material e carreira.
 Modificações imprevistas no ambiente de trabalho podem trazer dificuldades financeiras que exigirão cautela extrema e economia.
 Esteja pronto para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
 
+"637":` Este período sinaliza um momento de encerramento de um ciclo evolutivo que pode trazer a sensação de retrocesso ao ponto inicial. 
+Projetos ou situações que pareciam estar em plena expansão podem sofrer uma interrupção, exigindo que você retorne à base para reavaliar a estratégia. 
+Não se trata de uma derrota, mas de uma necessidade vibracional de reconstruir fundamentos que talvez tenham sido ignorados na pressa do crescimento.`,
+
+  "665" : `O cenário é extremamente favorável para a ascensão social e profissional, indicando a possibilidade real de aprovação em concursos ou a obtenção de altos cargos de liderança. 
+  Sua competência e autoridade serão reconhecidas por instâncias superiores, abrindo caminho para postos de grande responsabilidade e prestígio. 
+  É o momento de focar em grandes ambições, pois o destino favorece o seu posicionamento em patamares mais elevados de poder.`, 
+ 
+  "667" : `Uma vibração de estabilidade e harmonia profunda abençoa este período, favorecendo a realização de um bom casamento ou a formação de uma sociedade comercial sólida e ética. 
+  Existe um senso de equilíbrio nas parcerias, onde os interesses mútuos convergem para a construção de algo duradouro. 
+  É uma fase de segurança nos acordos, trazendo paz de espírito tanto na vida íntima quanto nas colaborações profissionais.`,
+  
   "757": `Você está entrando em um ciclo de transformações intensas que atuarão como molas propulsoras para sua evolução individual.
 Embora as mudanças impostas pelo destino possam parecer desafiadoras no início, elas são necessárias para expandir sua consciência.
 O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e apareça.`,
@@ -3307,148 +3331,71 @@ Evite comentários desnecessários ou julgamentos para não alimentar fofocas qu
 
 };
 
-const textosSeqEspPessoal = {  "116": `Este é um estágio onde sua imagem pública e reputação podem ser postas à prova por interferências de terceiros.
-Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
-É essencial agir com máxima integridade e discrição para blindar seu nome contra fofocas ou tentativas de difamação.`,
-
-  "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
-Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
-Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração através de seus filhos.`,
-
-  "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa data.
-Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
-É um momento de transição que pede acolhimento interno e maturidade para lidar com a ausência ou o afastamento definitivo do cônjuge.`,
-
-  "575": `Prepare-se para um período de reviravoltas súbitas que podem desestabilizar temporariamente sua segurança material e carreira.
-Modificações imprevistas no ambiente de trabalho podem trazer dificuldades financeiras que exigirão cautela extrema e economia.
-Esteja pronto para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
-
-  "757": `Você está entrando em um ciclo de transformações intensas que atuarão como molas propulsoras para sua evolução individual.
-Embora as mudanças impostas pelo destino possam parecer desafiadoras no início, elas são necessárias para expandir sua consciência.
-O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e apareça.`,
-
-  "922": `A sorte e o mérito caminham juntos nesta fase, favorecendo vitórias expressivas em concursos, vestibulares ou cargos de relevância.
-Seus esforços em disputas políticas ou processos seletivos complexos encontrarão um terreno extremamente fértil para o sucesso absoluto.
-Aproveite este magnetismo de conquista para se posicionar com destaque em qualquer teste de capacidade ou avaliação de competência.`,
-
-  "923": `Um período de profunda paz e entendimento reina em seu ambiente doméstico, fortalecendo os laços com aqueles que você mais ama.
-Você se sentirá plenamente amparado por amizades verdadeiras, cujas palavras e gestos servirão de porto seguro para sua jornada atual.
-É o momento ideal para cultivar a gratidão e desfrutar da serenidade que as relações sinceras e leais proporcionam ao seu coração.`,
-
-  "924": `Suas conexões sociais ganham um novo nível de prestígio, abrindo portas valiosas para círculos de grande influência, autoridade e poder.
-A ascensão em sua posição social será facilitada pelo contato direto com pessoas que admiram profundamente sua conduta e sua visão.
-Novos horizontes se abrem através de convites e parcerias estratégicas com indivíduos que podem acelerar drasticamente o seu crescimento.`,
-
-  "925": `O momento exige olhos atentos e um discernimento redobrado em relação a quem você confia suas ideias, segredos e tarefas diárias.
-Existe uma predisposição para desapontamentos vindos de funcionários ou de amizades que você considerava sólidas e inabaláveis.
-Proteja seus planos mantendo a discrição total e evitando delegar responsabilidades críticas sem a devida e constante supervisão.`,
-
-  "926": `Seus laços familiares serão convocados para uma ação de cuidado, paciência e suporte mútuo diante de adversidades inesperadas na rotina.
-Pode haver a necessidade de dedicar mais tempo e energia pessoal para auxiliar parentes próximos em questões de saúde ou crises graves.
-A união e a presença física da família serão os seus maiores pilares para atravessar instabilidades que exijam sacrifício e dedicação.`,
-
-  "927": `Fique alerta para movimentações de bastidores, pois segredos antigos, informações ocultas ou escândalos do passado podem vir a público agora.
-O risco de envolvimento direto ou indireto em intrigas alheias é elevado, pedindo que você mantenha uma postura neutra e muito ética.
-Evite comentários desnecessários ou julgamentos para não alimentar fofocas que possam expor situações que deveriam permanecer privadas.`
-
+const textosSeqEspPessoal = {
+  "116": `<p>➢ No nível pessoal, você pode ou não sentir uma preocupação interna com sua própria imagem. Pode surgir o pensamento ou a insegurança de que outros estão julgando sua conduta. 
+  É um processo puramente mental sobre como você imagina que sua reputação está sendo percebida.</p>`,
+  "119": `<p>➢ Esta vibração pode despertar conflitos internos de fé ou valores. Você pode se pegar questionando suas próprias crenças ou sentindo uma desconfiança mental sobre o que é verdadeiro, podendo gerar um sentimento de desilusão com conceitos que antes considerava sagrados.</p>`,
+  "123": `<p>➢ Você pode sentir um despertar interno de autovalorização. Mentalmente, surge a percepção do próprio mérito, como se você estivesse finalmente celebrando suas capacidades dentro de sua própria mente, independentemente de qualquer prêmio físico.</p>`,
+  "168": `<p>➢ Pode surgir um sentimento de abundância e confiança interna. É uma fase onde a mente foca no sucesso e na capacidade de atrair coisas boas, gerando um otimismo psicológico sobre seus projetos e posses.</p>`,
+  "252": `<p>➢ No campo dos pensamentos, pode haver uma sensação de desapego ou medo da perda afetiva. Você pode se pegar imaginando como seria sua vida sem certas parcerias, processando internamente o conceito de separação ou mudança nos vínculos.</p>`,
+  "518": `<p>➢ Surge uma percepção interna de segurança e paz mental em relação ao futuro. Você pode sentir que, no nível do pensamento, não há mais necessidade de ansiedade sobre a escassez, cultivando uma mente mais estável e próspera.</p>`,
+  "575": `<p>➢ A mente pode se tornar inquieta, antecipando mudanças. Você pode ou não sentir um desejo interno de romper com a rotina ou uma insegurança mental sobre sua estabilidade, como se o pensamento estivesse se preparando para algo novo.</p>`,
+  "637": `<p>➢ Mentalmente, pode surgir a sensação de que você precisa recomeçar algo do zero. É um sentimento de "voltar ao início" em algum aprendizado pessoal, uma percepção interna de que uma fase de sua evolução pessoal se completou.</p>`,
+  "665": `<p>➢ Pode despertar um sentimento de autoridade e confiança interna. Você se sente mentalmente pronto para assumir grandes responsabilidades, enxergando-se em uma posição de destaque e liderança.</p>`,
+  "667": `<p>➢ No nível pessoal, surge um sentimento de paz e concórdia. Você pode sentir uma vontade interna de se unir a alguém ou de pacificar seus próprios conflitos, buscando uma harmonia mental em suas parcerias.</p>`,
+  "757": `<p>➢ Pode surgir um impulso interno para a transformação. É o sentimento de que sua consciência está se expandindo, provocando questionamentos internos que o convidam a sair da sua zona de conforto mental.</p>`,
+  "922": `<p>➢ Mentalmente, você pode sentir um forte magnetismo de vitória. É uma confiança psicológica absoluta na sua inteligência e capacidade de vencer desafios intelectuais ou avaliações.</p>`,
+  "923": `<p>➢ Surge um sentimento profundo de serenidade. Você pode ou não perceber um estado de espírito mais acolhedor, sentindo internamente que está em harmonia com o mundo e com seus sentimentos mais puros.</p>`,
+  "924": `<p>➢ Pode haver uma percepção interna de importância social. Mentalmente, você se sente mais conectado a figuras de poder ou autoridade, projetando em sua imaginação novas possibilidades de ascensão.</p>`,
+  "925": `<p>➢ No nível do pensamento, pode surgir uma desconfiança intuitiva. Você pode se sentir mais vigilante ou desconfiado sobre as intenções das pessoas, mesmo que nada tenha ocorrido no mundo real ainda.</p>`,
+  "926": `<p>➢ Pode despertar um sentimento de dedicação profunda aos seus. Mentalmente, o foco se volta para o cuidado com a família, sentindo internamente a responsabilidade de ser um pilar para os outros.</p>`,
+  "927": `<p>➢ No plano da imaginação, pode haver a preocupação com segredos ou informações ocultas. Você pode se sentir mentalmente curioso ou apreensivo sobre o que não foi dito, voltando seus pensamentos para mistérios do passado.</p>`
 };
 
-const textosSeqEspSocial = {   "116": `Este é um estágio onde sua imagem pública e reputação podem ser postas à prova por interferências de terceiros.
-Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
-É essencial agir com máxima integridade e discrição para blindar seu nome contra fofocas ou tentativas de difamação.`,
-
-  "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
-Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
-Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração através de seus filhos.`,
-
-  "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa data.
-Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
-É um momento de transição que pede acolhimento interno e maturidade para lidar com a ausência ou o afastamento definitivo do cônjuge.`,
-
-  "575": `Prepare-se para um período de reviravoltas súbitas que podem desestabilizar temporariamente sua segurança material e carreira.
-Modificações imprevistas no ambiente de trabalho podem trazer dificuldades financeiras que exigirão cautela extrema e economia.
-Esteja pronto para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
-
-  "757": `Você está entrando em um ciclo de transformações intensas que atuarão como molas propulsoras para sua evolução individual.
-Embora as mudanças impostas pelo destino possam parecer desafiadoras no início, elas são necessárias para expandir sua consciência.
-O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e apareça.`,
-
-  "922": `A sorte e o mérito caminham juntos nesta fase, favorecendo vitórias expressivas em concursos, vestibulares ou cargos de relevância.
-Seus esforços em disputas políticas ou processos seletivos complexos encontrarão um terreno extremamente fértil para o sucesso absoluto.
-Aproveite este magnetismo de conquista para se posicionar com destaque em qualquer teste de capacidade ou avaliação de competência.`,
-
-  "923": `Um período de profunda paz e entendimento reina em seu ambiente doméstico, fortalecendo os laços com aqueles que você mais ama.
-Você se sentirá plenamente amparado por amizades verdadeiras, cujas palavras e gestos servirão de porto seguro para sua jornada atual.
-É o momento ideal para cultivar a gratidão e desfrutar da serenidade que as relações sinceras e leais proporcionam ao seu coração.`,
-
-  "924": `Suas conexões sociais ganham um novo nível de prestígio, abrindo portas valiosas para círculos de grande influência, autoridade e poder.
-A ascensão em sua posição social será facilitada pelo contato direto com pessoas que admiram profundamente sua conduta e sua visão.
-Novos horizontes se abrem através de convites e parcerias estratégicas com indivíduos que podem acelerar drasticamente o seu crescimento.`,
-
-  "925": `O momento exige olhos atentos e um discernimento redobrado em relação a quem você confia suas ideias, segredos e tarefas diárias.
-Existe uma predisposição para desapontamentos vindos de funcionários ou de amizades que você considerava sólidas e inabaláveis.
-Proteja seus planos mantendo a discrição total e evitando delegar responsabilidades críticas sem a devida e constante supervisão.`,
-
-  "926": `Seus laços familiares serão convocados para uma ação de cuidado, paciência e suporte mútuo diante de adversidades inesperadas na rotina.
-Pode haver a necessidade de dedicar mais tempo e energia pessoal para auxiliar parentes próximos em questões de saúde ou crises graves.
-A união e a presença física da família serão os seus maiores pilares para atravessar instabilidades que exijam sacrifício e dedicação.`,
-
-  "927": `Fique alerta para movimentações de bastidores, pois segredos antigos, informações ocultas ou escândalos do passado podem vir a público agora.
-O risco de envolvimento direto ou indireto em intrigas alheias é elevado, pedindo que você mantenha uma postura neutra e muito ética.
-Evite comentários desnecessários ou julgamentos para não alimentar fofocas que possam expor situações que deveriam permanecer privadas.`
-
+const textosSeqEspSocial = {
+  "116": `<p>➢ No seu ambiente social, você pode notar pessoas sendo alvo de críticas ou discussões sobre reputação. É um momento onde a fofoca ou o julgamento público ganham força nos grupos que você frequenta.</p>`,
+  "119": `<p>➢ Você poderá observar comportamentos de fanatismo ou falsas promessas vindo de pessoas próximas ou do meio coletivo. O ambiente social pode estar carregado de influências hipócritas ou causas vazias.</p>`,
+  "123": `<p>➢ O círculo social ao seu redor vive um momento de celebração e reconhecimento. Você pode ver amigos ou conhecidos recebendo prêmios, ou o sucesso dos filhos de pessoas próximas sendo o assunto principal.</p>`,
+  "168": `<p>➢ O meio social onde você circula demonstra sinais de prosperidade e bons negócios. Você observa pessoas ao seu redor fechando acordos lucrativos e colhendo prêmios e ganhos financeiros.</p>`,
+  "252": `<p>➢ Você pode notar uma onda de separações ou mudanças drásticas em parcerias e casamentos de pessoas conhecidas. O ambiente social reflete o fim de vínculos e transições afetivas coletivas.</p>`,
+  "518": `<p>➢ O ambiente ao redor transparece estabilidade e segurança. Você observa um fluxo de prosperidade duradoura na vida das pessoas que compõem seu círculo social ou profissional.</p>`,
+  "575": `<p>➢ O meio social pode apresentar sinais de instabilidade. Você percebe pessoas ao seu redor enfrentando mudanças súbitas de emprego ou crises financeiras inesperadas que agitam o coletivo.</p>`,
+  "637": `<p>➢ Você pode observar grupos ou projetos sociais que pareciam evoluídos retornando à estaca zero. É um movimento visível de retrocesso ou reinício coletivo em alguma área comum.</p>`,
+  "665": `<p>➢ O ambiente social favorece a ascensão. Você vê pessoas do seu convívio sendo promovidas, assumindo altos cargos ou vencendo concursos importantes, gerando um clima de prestígio.</p>`,
+  "667": `<p>➢ O clima social é de união e colaboração. Você observa a formação de novas e boas sociedades, ou casamentos harmoniosos acontecendo nas pessoas próximas a você.</p>`,
+  "757": `<p>➢ Você percebe um movimento de transformação nas pessoas ao seu redor. O meio social parece estar sendo forçado a sair da zona de conforto, gerando mudanças visíveis no comportamento coletivo.</p>`,
+  "922": `<p>➢ O ambiente social exala um clima de vitória e mérito. Você vê amigos ou colegas conquistando posições de destaque através de testes e seleções rigorosas.</p>`,
+  "923": `<p>➢ Reina uma atmosfera de paz e apoio mútuo nos seus grupos. Você observa pessoas sendo mais leais e amigáveis umas com as outras, facilitando o convívio social.</p>`,
+  "924": `<p>➢ Você nota uma aproximação de pessoas influentes no seu círculo social. O meio onde você vive ganha um ar de autoridade, com convites e parcerias importantes circulando entre conhecidos.</p>`,
+  "925": `<p>➢ O ambiente social pode apresentar situações de deslealdade ou erros cometidos por colaboradores de terceiros. Você observa quebras de confiança acontecendo nos grupos próximos.</p>`,
+  "926": `<p>➢ O tema familiar ganha força no seu círculo social. Você vê pessoas ao seu redor se dedicando intensamente ao cuidado de parentes ou enfrentando crises familiares coletivas.</p>`,
+  "927": `<p>➢ Você percebe um clima de mistério ou revelação de segredos no seu meio. É uma fase onde intrigas e escândalos de terceiros podem vir à tona nos círculos de convivência.</p>`
 };
 
-const textosSeqEspDestino = {   "116": `Este é um estágio onde sua imagem pública e reputação podem ser postas à prova por interferências de terceiros.
-Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
-É essencial agir com máxima integridade e discrição para blindar seu nome contra fofocas ou tentativas de difamação.`,
-
-  "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
-Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
-Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração através de seus filhos.`,
-
-  "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa data.
-Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
-É um momento de transição que pede acolhimento interno e maturidade para lidar com a ausência ou o afastamento definitivo do cônjuge.`,
-
-  "575": `Prepare-se para um período de reviravoltas súbitas que podem desestabilizar temporariamente sua segurança material e carreira.
-Modificações imprevistas no ambiente de trabalho podem trazer dificuldades financeiras que exigirão cautela extrema e economia.
-Esteja pronto para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
-
-  "757": `Você está entrando em um ciclo de transformações intensas que atuarão como molas propulsoras para sua evolução individual.
-Embora as mudanças impostas pelo destino possam parecer desafiadoras no início, elas são necessárias para expandir sua consciência.
-O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e apareça.`,
-
-  "922": `A sorte e o mérito caminham juntos nesta fase, favorecendo vitórias expressivas em concursos, vestibulares ou cargos de relevância.
-Seus esforços em disputas políticas ou processos seletivos complexos encontrarão um terreno extremamente fértil para o sucesso absoluto.
-Aproveite este magnetismo de conquista para se posicionar com destaque em qualquer teste de capacidade ou avaliação de competência.`,
-
-  "923": `Um período de profunda paz e entendimento reina em seu ambiente doméstico, fortalecendo os laços com aqueles que você mais ama.
-Você se sentirá plenamente amparado por amizades verdadeiras, cujas palavras e gestos servirão de porto seguro para sua jornada atual.
-É o momento ideal para cultivar a gratidão e desfrutar da serenidade que as relações sinceras e leais proporcionam ao seu coração.`,
-
-  "924": `Suas conexões sociais ganham um novo nível de prestígio, abrindo portas valiosas para círculos de grande influência, autoridade e poder.
-A ascensão em sua posição social será facilitada pelo contato direto com pessoas que admiram profundamente sua conduta e sua visão.
-Novos horizontes se abrem através de convites e parcerias estratégicas com indivíduos que podem acelerar drasticamente o seu crescimento.`,
-
-  "925": `O momento exige olhos atentos e um discernimento redobrado em relação a quem você confia suas ideias, segredos e tarefas diárias.
-Existe uma predisposição para desapontamentos vindos de funcionários ou de amizades que você considerava sólidas e inabaláveis.
-Proteja seus planos mantendo a discrição total e evitando delegar responsabilidades críticas sem a devida e constante supervisão.`,
-
-  "926": `Seus laços familiares serão convocados para uma ação de cuidado, paciência e suporte mútuo diante de adversidades inesperadas na rotina.
-Pode haver a necessidade de dedicar mais tempo e energia pessoal para auxiliar parentes próximos em questões de saúde ou crises graves.
-A união e a presença física da família serão os seus maiores pilares para atravessar instabilidades que exijam sacrifício e dedicação.`,
-
-  "927": `Fique alerta para movimentações de bastidores, pois segredos antigos, informações ocultas ou escândalos do passado podem vir a público agora.
-O risco de envolvimento direto ou indireto em intrigas alheias é elevado, pedindo que você mantenha uma postura neutra e muito ética.
-Evite comentários desnecessários ou julgamentos para não alimentar fofocas que possam expor situações que deveriam permanecer privadas.`
-
+const textosSeqEspDestino = {
+  "116": `<p>➢ O destino pode trazer eventos externos que testam sua resistência à opinião pública. Podem surgir situações inesperadas que exigem que você defenda sua integridade diante do mundo.</p>`,
+  "119": `<p>➢ Situações do destino podem colocá-lo frente a frente com instituições ou causas que se revelam falsas. O caminho pode apresentar obstáculos criados por visões dogmáticas de terceiros.</p>`,
+  "123": `<p>➢ O destino abre portas para o reconhecimento oficial. Podem surgir oportunidades externas, como prêmios ou honrarias, que chegam até você como um reflexo de sua trajetória.</p>`,
+  "168": `<p>➢ Ventos favoráveis do destino trazem oportunidades de ganhos inesperados e bons negócios. Circunstâncias externas se alinham para facilitar a entrada de recursos e o sucesso material.</p>`,
+  "252": `<p>➢ O destino pode influenciar mudanças drásticas em parcerias por meio de eventos fora de seu controle imediato, forçando novos rumos nas relações mais próximas.</p>`,
+  "518": `<p>➢ O caminho do destino se torna mais suave e estável. Situações externas conspiram para que sua prosperidade seja mantida, protegendo suas bases financeiras a longo prazo.</p>`,
+  "575": `<p>➢ O destino pode apresentar reviravoltas súbitas na economia ou no mercado de trabalho que impactam sua segurança. São eventos externos que exigem adaptação e cautela estratégica.</p>`,
+  "637": `<p>➢ Circunstâncias do destino podem forçar a interrupção de um avanço, obrigando-o a lidar com um reinício necessário em algum projeto de vida importante.</p>`,
+  "665": `<p>➢ Portais de ascensão se abrem através do destino. Podem surgir editais, convites para altos cargos ou oportunidades de poder que mudam seu status de forma definitiva.</p>`,
+  "667": `<p>➢ O destino facilita encontros e parcerias sólidas. Eventos externos podem aproximar você de pessoas ideais para construir uniões duradouras e estáveis.</p>`,
+  "757": `<p>➢ O destino atua como um catalisador de mudanças. Eventos inesperados no caminho forçam você a evoluir e a buscar novos potenciais que estavam adormecidos.</p>`,
+  "922": `<p>➢ A sorte e as circunstâncias externas favorecem sua vitória em disputas e seleções. O caminho do destino parece estar pavimentado para que sua competência seja coroada.</p>`,
+  "923": `<p>➢ O destino traz um período de proteção e tranquilidade externa. Situações difíceis são suavizadas por mãos amigas ou intervenções favoráveis que trazem paz ao caminho.</p>`,
+  "924": `<p>➢ Portas para círculos de poder se abrem por meio de eventos fortuitos. O destino coloca você em contato com autoridades ou situações que elevam seu prestígio social.</p>`,
+  "925": `<p>➢ O destino pode apresentar desafios através de falhas de terceiros ou desapontamentos externos, exigindo que você revise sua confiança em estruturas que pareciam sólidas.</p>`,
+  "926": `<p>➢ Situações externas podem exigir sua presença e suporte em questões familiares. O destino traz eventos que pedem sacrifício pessoal em nome da união e do cuidado com os seus.</p>`,
+  "927": `<p>➢ O caminho pode ser atravessado por revelações de fatos ocultos ou situações do passado que retornam através de eventos externos, exigindo ética e neutralidade.</p>`
 };
 // --- BANCOS FINANCEIROS SEPARADOS ---
-const textosFinVida = { 999: "Fluxo de prosperidade na jornada principal..." };
-const textosFinPessoal = { 999: "Realização financeira através do intelecto..." };
-const textosFinSocial = { 999: "Oportunidades financeiras no meio de convivência..." };
-const textosFinDestino = { 999: "Propósito de abundância e legado financeiro..." };
+const textosFinVida = { 999: "Fluxo de recebimento financeiro na jornada principal..." };
+const textosFinPessoal = { 999: "Fluxo de pensamento em relação a dinheiro, contudo apenas no nivel da mente nada factual..." };
+const textosFinSocial = { 999: "Oportunidades financeiras no seu meio de convivência, ou seja, de outras pessoas..." };
+const textosFinDestino = { 999: "Propósito de abundância e legado financeiro, provavelmente recebimento vindo de influência externa ou ganhos pessoais...." };
 
 
 // --- Certifica-te que tens o mesmo para Negativas e Especiais (Vida, Pessoal, Social, Destino) ---  
@@ -3708,6 +3655,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
