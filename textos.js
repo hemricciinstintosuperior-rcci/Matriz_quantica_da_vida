@@ -2505,305 +2505,207 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 
     
-11: `Força e Autodomínio
 
-Você, durante a vigência da Potência 11, pode perceber uma fase em que surge a necessidade de desenvolver domínio interior diante das circunstâncias da vida. A sensação de enfrentar desafios ou situações que exigem firmeza emocional pode aparecer com mais intensidade, como se a própria experiência estivesse convidando ao fortalecimento da vontade e da consciência.
+11: `<p>Força e Autodomínio</p>
+<p>Você, durante a vigência da Potência 11, pode perceber uma fase em que surge a necessidade de desenvolver domínio interior diante das circunstâncias da vida. A sensação de enfrentar desafios ou situações que exigem firmeza emocional pode aparecer com mais intensidade, como se a própria experiência estivesse convidando ao fortalecimento da vontade e da consciência.</p>
+<p>Essa influência pode ser percebida como um impulso para agir com equilíbrio mesmo diante de pressões externas. Surge a percepção de que determinadas situações pedem paciência, controle das reações e clareza nas decisões. Quando compreendida com maturidade, essa potência revela um período voltado ao fortalecimento interior e ao desenvolvimento da verdadeira força que nasce do autocontrole.</p>`,
 
-Essa influência pode ser percebida como um impulso para agir com equilíbrio mesmo diante de pressões externas. Surge a percepção de que determinadas situações pedem paciência, controle das reações e clareza nas decisões. Quando compreendida com maturidade, essa potência revela um período voltado ao fortalecimento interior e ao desenvolvimento da verdadeira força que nasce do autocontrole.`,
-    
-12: `Sacrifício e Nova Perspectiva
+12: `<p>Sacrifício e Nova Perspectiva</p>
+<p>Você, durante a vigência da Potência 12, pode perceber momentos em que a vida parece convidar a observar determinadas situações sob outro ponto de vista. Circunstâncias que exigem pausa, reflexão ou mudança de perspectiva podem surgir, trazendo a sensação de que algo precisa ser compreendido com mais profundidade.</p>
+<p>Essa influência pode despertar a percepção de que certos avanços acontecem apenas depois de um período de observação ou de aceitação de limites momentâneos. A experiência pode estimular reflexão sobre valores, escolhas e prioridades. Quando assimilada com consciência, essa fase revela aprendizado ligado à paciência e à capacidade de enxergar novas possibilidades dentro de situações aparentemente paralisadas.</p>`,
 
-Você, durante a vigência da Potência 12, pode perceber momentos em que a vida parece convidar a observar determinadas situações sob outro ponto de vista. Circunstâncias que exigem pausa, reflexão ou mudança de perspectiva podem surgir, trazendo a sensação de que algo precisa ser compreendido com mais profundidade.
+13: `<p>Transformação e Renascimento</p>
+<p>Você, durante a vigência da Potência 13, pode perceber uma fase marcada por mudanças significativas ou pela necessidade de encerrar determinados ciclos. Surge a sensação de que algumas estruturas antigas já não correspondem ao momento atual, estimulando uma reorganização natural de caminhos e escolhas.</p>
+<p>Essa influência pode trazer percepções profundas sobre desapego e renovação. Em alguns momentos pode surgir resistência diante das mudanças, porém essa potência indica aprendizado ligado à transformação. Quando compreendida com clareza, essa fase revela que todo encerramento abre espaço para novas possibilidades de crescimento e evolução.</p>`,
 
-Essa influência pode despertar a percepção de que certos avanços acontecem apenas depois de um período de observação ou de aceitação de limites momentâneos. A experiência pode estimular reflexão sobre valores, escolhas e prioridades. Quando assimilada com consciência, essa fase revela aprendizado ligado à paciência e à capacidade de enxergar novas possibilidades dentro de situações aparentemente paralisadas.`,
-    
-13: `Transformação e Renascimento
+14: `<p>Equilíbrio e Harmonia</p>
+<p>Você, durante a vigência da Potência 14, pode perceber uma influência voltada à busca de equilíbrio entre diferentes áreas da vida. Surge a sensação de que conciliar ideias, emoções e atitudes passa a ser fundamental para manter estabilidade diante das experiências do cotidiano.</p>
+<p>Essa potência pode estimular percepção mais consciente sobre moderação, paciência e adaptação às circunstâncias. Em alguns momentos pode surgir a necessidade de reorganizar rotinas ou ajustar expectativas. Quando bem assimilada, essa fase revela aprendizado sobre harmonia e construção gradual de estabilidade interior.</p>`,
 
-Você, durante a vigência da Potência 13, pode perceber uma fase marcada por mudanças significativas ou pela necessidade de encerrar determinados ciclos. Surge a sensação de que algumas estruturas antigas já não correspondem ao momento atual, estimulando uma reorganização natural de caminhos e escolhas.
+15: `<p>Conflito e Vigilância</p>
+<p>Você, durante a vigência da Potência 15, pode perceber uma fase em que desejos intensos, pressões externas ou situações desafiadoras chamam atenção para escolhas importantes. Surge a sensação de confronto entre impulsos imediatos e decisões mais conscientes.</p>
+<p>Essa influência pode despertar maior percepção sobre limites pessoais, responsabilidades e consequências das escolhas. Em alguns momentos podem surgir tentações ou situações que exigem discernimento. Quando compreendida com maturidade, essa potência revela aprendizado sobre consciência das próprias decisões e liberdade interior diante das influências externas.</p>`,
 
-Essa influência pode trazer percepções profundas sobre desapego e renovação. Em alguns momentos pode surgir resistência diante das mudanças, porém essa potência indica aprendizado ligado à transformação. Quando compreendida com clareza, essa fase revela que todo encerramento abre espaço para novas possibilidades de crescimento e evolução.`,
-    
-14: `Equilíbrio e Harmonia
+16: `<p>Ruptura e Despertar</p>
+<p>Você, durante a vigência da Potência 16, pode perceber momentos de quebra de padrões ou mudanças inesperadas em determinadas situações. Estruturas que pareciam sólidas podem sofrer alterações, trazendo a sensação de que algo precisa ser reconstruído de forma diferente.</p>
+<p>Essa influência pode provocar reflexão sobre crenças antigas, atitudes repetidas ou caminhos que já não correspondem à realidade atual. Embora certas mudanças possam gerar desconforto inicial, essa potência revela aprendizado ligado ao despertar de novas compreensões e à reconstrução de bases mais conscientes para o futuro.</p>`,
 
-Você, durante a vigência da Potência 14, pode perceber uma influência voltada à busca de equilíbrio entre diferentes áreas da vida. Surge a sensação de que conciliar ideias, emoções e atitudes passa a ser fundamental para manter estabilidade diante das experiências do cotidiano.
+17: `<p>Esperança e Inspiração</p>
+<p>Você, durante a vigência da Potência 17, pode perceber uma fase marcada por renovação de expectativas e inspiração em relação ao futuro. Surge a sensação de que novas possibilidades começam a se revelar gradualmente, trazendo confiança na continuidade da jornada.</p>
+<p>Essa influência pode estimular percepção mais otimista sobre experiências vividas e caminhos que ainda podem ser construídos. Ideias, projetos ou sonhos podem ganhar novo significado durante esse período. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre confiança, esperança e abertura para novos horizontes.</p>`,
 
-Essa potência pode estimular percepção mais consciente sobre moderação, paciência e adaptação às circunstâncias. Em alguns momentos pode surgir a necessidade de reorganizar rotinas ou ajustar expectativas. Quando bem assimilada, essa fase revela aprendizado sobre harmonia e construção gradual de estabilidade interior.`,
-    
-15: `Conflito e Vigilância
+18: `<p>Intuição e Profundidade Interior</p>
+<p>Você, durante a vigência da Potência 18, pode perceber intensificação da sensibilidade e maior atenção aos aspectos internos da experiência humana. Emoções, pressentimentos e percepções subjetivas podem ganhar destaque na forma como determinadas situações são interpretadas.</p>
+<p>Essa influência pode estimular reflexão sobre medos, dúvidas ou aspectos ocultos das próprias escolhas. Em alguns momentos pode surgir necessidade de buscar clareza entre imaginação e realidade. Quando compreendida com maturidade, essa fase revela aprendizado sobre desenvolvimento da intuição e compreensão mais profunda do mundo interior.</p>`,
 
-Você, durante a vigência da Potência 15, pode perceber uma fase em que desejos intensos, pressões externas ou situações desafiadoras chamam atenção para escolhas importantes. Surge a sensação de confronto entre impulsos imediatos e decisões mais conscientes.
+19: `<p>Clareza e Vitalidade</p>
+<p>Você, durante a vigência da Potência 19, pode perceber uma fase marcada por maior sensação de clareza, vitalidade e confiança nas próprias capacidades. Circunstâncias que favorecem expressão pessoal e realização de objetivos podem surgir com mais evidência.</p>
+<p>Essa influência pode estimular percepção positiva sobre conquistas, progresso e desenvolvimento das próprias habilidades. Em determinados momentos pode surgir tendência ao excesso de confiança, exigindo atenção ao equilíbrio. Quando bem integrada, essa potência revela aprendizado sobre autenticidade, transparência e reconhecimento das próprias capacidades.</p>`,
 
-Essa influência pode despertar maior percepção sobre limites pessoais, responsabilidades e consequências das escolhas. Em alguns momentos podem surgir tentações ou situações que exigem discernimento. Quando compreendida com maturidade, essa potência revela aprendizado sobre consciência das próprias decisões e liberdade interior diante das influências externas.`,
-    
-16: `Ruptura e Despertar
+20: `<p>Chamado e Renovação de Caminho</p>
+<p>Você, durante a vigência da Potência 20, pode perceber momentos que despertam reflexão profunda sobre escolhas, valores e direção da própria jornada. Surge a sensação de que determinadas experiências funcionam como um chamado para reavaliar caminhos e assumir novas responsabilidades.</p>
+<p>Essa influência pode estimular percepção de que acontecimentos recentes carregam significado importante para o futuro. Surge a oportunidade de revisar atitudes passadas e reorganizar prioridades. Quando compreendida com clareza, essa fase revela aprendizado sobre renovação de propósito e alinhamento com direções mais conscientes da própria trajetória.</p>`,
 
-Você, durante a vigência da Potência 16, pode perceber momentos de quebra de padrões ou mudanças inesperadas em determinadas situações. Estruturas que pareciam sólidas podem sofrer alterações, trazendo a sensação de que algo precisa ser reconstruído de forma diferente.
+21: `<p>Expansão e Realização</p>
+<p>Você, durante a vigência da Potência 21, pode perceber uma fase em que surge a sensação de ampliação de horizontes e compreensão mais abrangente sobre a própria trajetória. Experiências que antes pareciam isoladas passam a formar conexões mais claras, permitindo perceber como diferentes acontecimentos participam de um mesmo processo de crescimento.</p>
+<p>Essa influência pode despertar percepção de conclusão de ciclos importantes e abertura para novos caminhos. Surge a sensação de que determinadas conquistas representam não apenas resultados externos, mas também aprendizado acumulado ao longo da jornada. Quando assimilada com consciência, essa potência revela um período de integração e realização gradual.</p>`,
 
-Essa influência pode provocar reflexão sobre crenças antigas, atitudes repetidas ou caminhos que já não correspondem à realidade atual. Embora certas mudanças possam gerar desconforto inicial, essa potência revela aprendizado ligado ao despertar de novas compreensões e à reconstrução de bases mais conscientes para o futuro.`,
-    
-17: `Esperança e Inspiração
+22: `<p>Liberdade e Novo Caminho</p>
+<p>Você, durante a vigência da Potência 22, pode perceber uma fase marcada pela sensação de liberdade diante das possibilidades da vida. Surge a percepção de que novos caminhos podem ser explorados sem necessariamente seguir padrões já conhecidos, estimulando curiosidade e abertura para experiências diferentes.</p>
+<p>Essa influência pode despertar desejo de iniciar novas direções ou abandonar limitações que antes pareciam inevitáveis. Em alguns momentos pode surgir dispersão ou decisões impulsivas, exigindo atenção ao equilíbrio entre liberdade e responsabilidade. Quando compreendida com maturidade, essa potência revela aprendizado ligado à confiança na própria jornada.</p>`,
 
-Você, durante a vigência da Potência 17, pode perceber uma fase marcada por renovação de expectativas e inspiração em relação ao futuro. Surge a sensação de que novas possibilidades começam a se revelar gradualmente, trazendo confiança na continuidade da jornada.
+23: `<p>Comunicação e Movimento</p>
+<p>Você, durante a vigência da Potência 23, pode perceber maior estímulo para troca de ideias, diálogo e interação com o ambiente ao redor. Conversas, informações e contatos podem ganhar relevância na forma como caminhos e decisões passam a ser percebidos.</p>
+<p>Essa influência pode favorecer novas conexões, aprendizado através da comunicação e abertura para diferentes pontos de vista. Em alguns momentos pode surgir excesso de estímulos ou dificuldade em manter concentração em apenas uma direção. Quando equilibrada, essa fase revela aprendizado sobre expressão clara e construção de caminhos através do diálogo.</p>`,
 
-Essa influência pode estimular percepção mais otimista sobre experiências vividas e caminhos que ainda podem ser construídos. Ideias, projetos ou sonhos podem ganhar novo significado durante esse período. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre confiança, esperança e abertura para novos horizontes.`,
-    
-18: `Intuição e Profundidade Interior
+24: `<p>Estrutura e Estabilidade</p>
+<p>Você, durante a vigência da Potência 24, pode perceber uma fase voltada para construção de bases mais sólidas na própria vida. Questões relacionadas à organização, responsabilidades e compromissos cotidianos podem ganhar maior destaque na percepção das prioridades.</p>
+<p>Essa influência pode estimular atenção à segurança, à estrutura das relações e ao fortalecimento de projetos duradouros. Em alguns momentos pode surgir excesso de preocupação com estabilidade ou necessidade de controle sobre as circunstâncias. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de segurança.</p>`,
 
-Você, durante a vigência da Potência 18, pode perceber intensificação da sensibilidade e maior atenção aos aspectos internos da experiência humana. Emoções, pressentimentos e percepções subjetivas podem ganhar destaque na forma como determinadas situações são interpretadas.
+25: `<p>Reflexão e Sabedoria</p>
+<p>Você, durante a vigência da Potência 25, pode perceber uma fase marcada por questionamentos e busca por compreensão mais profunda das experiências vividas. Surge a sensação de necessidade de analisar acontecimentos com mais atenção, procurando perceber significados que antes passavam despercebidos.</p>
+<p>Essa influência pode estimular introspecção, estudo e observação cuidadosa da própria trajetória. Em alguns momentos pode surgir sensação de afastamento em relação ao ambiente externo, favorecendo momentos de silêncio e reflexão. Quando assimilada com maturidade, essa potência revela aprendizado ligado ao desenvolvimento da sabedoria interior.</p>`,
 
-Essa influência pode estimular reflexão sobre medos, dúvidas ou aspectos ocultos das próprias escolhas. Em alguns momentos pode surgir necessidade de buscar clareza entre imaginação e realidade. Quando compreendida com maturidade, essa fase revela aprendizado sobre desenvolvimento da intuição e compreensão mais profunda do mundo interior.`,
-    
-19: `Clareza e Vitalidade
+26: `<p>Realização e Responsabilidade</p>
+<p>Você, durante a vigência da Potência 26, pode perceber uma fase em que objetivos concretos e resultados práticos passam a ocupar maior espaço na percepção das prioridades. Surge a sensação de necessidade de organizar esforços para alcançar conquistas e consolidar projetos importantes.</p>
+<p>Essa influência pode estimular disciplina, planejamento e foco em realizações materiais ou profissionais. Em alguns momentos pode surgir pressão por resultados ou excesso de cobrança pessoal. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de conquistas duradouras.</p>`,
 
-Você, durante a vigência da Potência 19, pode perceber uma fase marcada por maior sensação de clareza, vitalidade e confiança nas próprias capacidades. Circunstâncias que favorecem expressão pessoal e realização de objetivos podem surgir com mais evidência.
+27: `<p>Sensibilidade e Compreensão</p>
+<p>Você, durante a vigência da Potência 27, pode perceber intensificação da sensibilidade em relação às necessidades das pessoas ao redor. Surge a sensação de maior empatia diante das experiências humanas, estimulando compreensão mais profunda das relações.</p>
+<p>Essa influência pode favorecer atitudes de cooperação, apoio e cuidado nas interações sociais. Em alguns momentos pode surgir desgaste emocional ao absorver situações externas com intensidade. Quando bem equilibrada, essa fase revela aprendizado sobre compaixão e desenvolvimento de sensibilidade consciente.</p>`,
 
-Essa influência pode estimular percepção positiva sobre conquistas, progresso e desenvolvimento das próprias habilidades. Em determinados momentos pode surgir tendência ao excesso de confiança, exigindo atenção ao equilíbrio. Quando bem integrada, essa potência revela aprendizado sobre autenticidade, transparência e reconhecimento das próprias capacidades.`,
-    
-20: `Chamado e Renovação de Caminho
+28: `<p>Iniciativa e Liderança</p>
+<p>Você, durante a vigência da Potência 28, pode perceber estímulo para agir com maior autonomia diante das circunstâncias da vida. Surge a sensação de impulso para iniciar projetos, tomar decisões importantes ou conduzir determinadas situações com mais independência.</p>
+<p>Essa influência pode fortalecer percepção de capacidade para assumir responsabilidades e direcionar caminhos com confiança. Em alguns momentos pode surgir impaciência ou tendência a agir rapidamente diante dos desafios. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e iniciativa equilibrada.</p>`,
 
-Você, durante a vigência da Potência 20, pode perceber momentos que despertam reflexão profunda sobre escolhas, valores e direção da própria jornada. Surge a sensação de que determinadas experiências funcionam como um chamado para reavaliar caminhos e assumir novas responsabilidades.
+29: `<p>Emoção e Introspecção</p>
+<p>Você, durante a vigência da Potência 29, pode perceber intensificação das emoções e maior sensibilidade em relação às experiências da própria vida. Situações afetivas ou relações próximas podem ganhar destaque na forma como acontecimentos são interpretados.</p>
+<p>Essa influência pode estimular reflexão sobre sentimentos, vínculos e necessidades emocionais. Em alguns momentos pode surgir dificuldade em compreender plenamente determinadas reações internas. Quando compreendida com equilíbrio, essa fase revela aprendizado sobre maturidade emocional e desenvolvimento da percepção interior.</p>`,
 
-Essa influência pode estimular percepção de que acontecimentos recentes carregam significado importante para o futuro. Surge a oportunidade de revisar atitudes passadas e reorganizar prioridades. Quando compreendida com clareza, essa fase revela aprendizado sobre renovação de propósito e alinhamento com direções mais conscientes da própria trajetória.`,
-    21: `Expansão e Realização
+30: `<p>Expressão e Criatividade</p>
+<p>Você, durante a vigência da Potência 30, pode perceber estímulo à expressão pessoal e ao compartilhamento das próprias ideias. Surge a sensação de desejo de comunicar pensamentos, desenvolver criatividade ou transformar percepções em algo que possa ser manifestado no mundo.</p>
+<p>Essa influência pode favorecer projetos criativos, troca de ideias e expansão da imaginação. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando assimilada com consciência, essa potência revela aprendizado sobre expressão criativa equilibrada e manifestação das próprias percepções de forma construtiva.</p>`,
 
-Você, durante a vigência da Potência 21, pode perceber uma fase em que surge a sensação de ampliação de horizontes e compreensão mais abrangente sobre a própria trajetória. Experiências que antes pareciam isoladas passam a formar conexões mais claras, permitindo perceber como diferentes acontecimentos participam de um mesmo processo de crescimento.
+31: `<p>Iniciativa e Construção de Caminho</p>
+<p>Você, durante a vigência da Potência 31, pode perceber um impulso para iniciar movimentos que dependem principalmente da própria decisão. Surge a sensação de que determinadas direções precisam ser assumidas com mais autonomia, como se a experiência estivesse convidando à construção consciente de novos caminhos.</p>
+<p>Essa influência pode estimular atitudes mais independentes e disposição para transformar ideias em ações concretas. Em alguns momentos pode surgir a percepção de que certas escolhas dependem menos da aprovação externa e mais da própria convicção interior. Quando assimilada com equilíbrio, essa potência revela aprendizado ligado à iniciativa e à construção responsável do próprio percurso.</p>`,
 
-Essa influência pode despertar percepção de conclusão de ciclos importantes e abertura para novos caminhos. Surge a sensação de que determinadas conquistas representam não apenas resultados externos, mas também aprendizado acumulado ao longo da jornada. Quando assimilada com consciência, essa potência revela um período de integração e realização gradual.`,
+32: `<p>Cooperação e Alinhamento</p>
+<p>Você, durante a vigência da Potência 32, pode perceber maior atenção às relações de parceria e colaboração. Surge a sensação de que determinados objetivos se desenvolvem melhor quando existe troca equilibrada de ideias e esforços entre diferentes pessoas.</p>
+<p>Essa influência pode estimular percepção sobre a importância do diálogo, da diplomacia e da construção conjunta de soluções. Em alguns momentos pode surgir a necessidade de ajustar expectativas ou encontrar pontos de equilíbrio nas relações. Quando compreendida com maturidade, essa potência revela aprendizado sobre cooperação consciente e harmonia nas interações.</p>`,
 
-22: `Liberdade e Novo Caminho
+33: `<p>Compreensão e Expansão Interior</p>
+<p>Você, durante a vigência da Potência 33, pode perceber uma fase marcada pela ampliação da sensibilidade em relação ao significado das experiências humanas. Surge a sensação de compreender com mais profundidade situações que envolvem crescimento, aprendizado e desenvolvimento coletivo.</p>
+<p>Essa influência pode estimular atitudes voltadas ao apoio, à orientação e à compreensão das necessidades ao redor. Em alguns momentos pode surgir tendência a assumir responsabilidades que pertencem a outras pessoas. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre consciência ampliada e responsabilidade no uso da própria influência.</p>`,
 
-Você, durante a vigência da Potência 22, pode perceber uma fase marcada pela sensação de liberdade diante das possibilidades da vida. Surge a percepção de que novos caminhos podem ser explorados sem necessariamente seguir padrões já conhecidos, estimulando curiosidade e abertura para experiências diferentes.
+34: `<p>Disciplina e Estrutura</p>
+<p>Você, durante a vigência da Potência 34, pode perceber uma fase voltada à organização prática da vida e ao fortalecimento de estruturas necessárias para alcançar estabilidade. Surge a sensação de que certos resultados dependem diretamente de esforço constante e planejamento cuidadoso.</p>
+<p>Essa influência pode estimular foco no trabalho, na responsabilidade e na construção gradual de objetivos sólidos. Em alguns momentos pode surgir sensação de esforço intenso ou necessidade de enfrentar desafios com persistência. Quando compreendida com maturidade, essa potência revela aprendizado sobre disciplina e construção consistente de resultados.</p>`,
 
-Essa influência pode despertar desejo de iniciar novas direções ou abandonar limitações que antes pareciam inevitáveis. Em alguns momentos pode surgir dispersão ou decisões impulsivas, exigindo atenção ao equilíbrio entre liberdade e responsabilidade. Quando compreendida com maturidade, essa potência revela aprendizado ligado à confiança na própria jornada.`,
+35: `<p>Mudança e Adaptação</p>
+<p>Você, durante a vigência da Potência 35, pode perceber uma fase marcada por transformações, movimento e adaptação às circunstâncias que surgem ao longo da jornada. Situações inesperadas podem convidar a desenvolver flexibilidade diante das experiências.</p>
+<p>Essa influência pode estimular curiosidade, aprendizado através de novas vivências e abertura para caminhos diferentes dos planejados inicialmente. Em alguns momentos pode surgir sensação de instabilidade ou dificuldade em manter uma direção fixa. Quando assimilada com consciência, essa potência revela aprendizado sobre adaptação inteligente às mudanças.</p>`,
 
-23: `Comunicação e Movimento
-
-Você, durante a vigência da Potência 23, pode perceber maior estímulo para troca de ideias, diálogo e interação com o ambiente ao redor. Conversas, informações e contatos podem ganhar relevância na forma como caminhos e decisões passam a ser percebidos.
-
-Essa influência pode favorecer novas conexões, aprendizado através da comunicação e abertura para diferentes pontos de vista. Em alguns momentos pode surgir excesso de estímulos ou dificuldade em manter concentração em apenas uma direção. Quando equilibrada, essa fase revela aprendizado sobre expressão clara e construção de caminhos através do diálogo.`,
-
-24: `Estrutura e Estabilidade
-
-Você, durante a vigência da Potência 24, pode perceber uma fase voltada para construção de bases mais sólidas na própria vida. Questões relacionadas à organização, responsabilidades e compromissos cotidianos podem ganhar maior destaque na percepção das prioridades.
-
-Essa influência pode estimular atenção à segurança, à estrutura das relações e ao fortalecimento de projetos duradouros. Em alguns momentos pode surgir excesso de preocupação com estabilidade ou necessidade de controle sobre as circunstâncias. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de segurança.`,
-
-25: `Reflexão e Sabedoria
-
-Você, durante a vigência da Potência 25, pode perceber uma fase marcada por questionamentos e busca por compreensão mais profunda das experiências vividas. Surge a sensação de necessidade de analisar acontecimentos com mais atenção, procurando perceber significados que antes passavam despercebidos.
-
-Essa influência pode estimular introspecção, estudo e observação cuidadosa da própria trajetória. Em alguns momentos pode surgir sensação de afastamento em relação ao ambiente externo, favorecendo momentos de silêncio e reflexão. Quando assimilada com maturidade, essa potência revela aprendizado ligado ao desenvolvimento da sabedoria interior.`,
-
-26: `Realização e Responsabilidade
-
-Você, durante a vigência da Potência 26, pode perceber uma fase em que objetivos concretos e resultados práticos passam a ocupar maior espaço na percepção das prioridades. Surge a sensação de necessidade de organizar esforços para alcançar conquistas e consolidar projetos importantes.
-
-Essa influência pode estimular disciplina, planejamento e foco em realizações materiais ou profissionais. Em alguns momentos pode surgir pressão por resultados ou excesso de cobrança pessoal. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de conquistas duradouras.`,
-
-27: `Sensibilidade e Compreensão
-
-Você, durante a vigência da Potência 27, pode perceber intensificação da sensibilidade em relação às necessidades das pessoas ao redor. Surge a sensação de maior empatia diante das experiências humanas, estimulando compreensão mais profunda das relações.
-
-Essa influência pode favorecer atitudes de cooperação, apoio e cuidado nas interações sociais. Em alguns momentos pode surgir desgaste emocional ao absorver situações externas com intensidade. Quando bem equilibrada, essa fase revela aprendizado sobre compaixão e desenvolvimento de sensibilidade consciente.`,
-
-28: `Iniciativa e Liderança
-
-Você, durante a vigência da Potência 28, pode perceber estímulo para agir com maior autonomia diante das circunstâncias da vida. Surge a sensação de impulso para iniciar projetos, tomar decisões importantes ou conduzir determinadas situações com mais independência.
-
-Essa influência pode fortalecer percepção de capacidade para assumir responsabilidades e direcionar caminhos com confiança. Em alguns momentos pode surgir impaciência ou tendência a agir rapidamente diante dos desafios. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e iniciativa equilibrada.`,
-
-29: `Emoção e Introspecção
-
-Você, durante a vigência da Potência 29, pode perceber intensificação das emoções e maior sensibilidade em relação às experiências da própria vida. Situações afetivas ou relações próximas podem ganhar destaque na forma como acontecimentos são interpretados.
-
-Essa influência pode estimular reflexão sobre sentimentos, vínculos e necessidades emocionais. Em alguns momentos pode surgir dificuldade em compreender plenamente determinadas reações internas. Quando compreendida com equilíbrio, essa fase revela aprendizado sobre maturidade emocional e desenvolvimento da percepção interior.`,
-
-30: `Expressão e Criatividade
-
-Você, durante a vigência da Potência 30, pode perceber estímulo à expressão pessoal e ao compartilhamento das próprias ideias. Surge a sensação de desejo de comunicar pensamentos, desenvolver criatividade ou transformar percepções em algo que possa ser manifestado no mundo.
-
-Essa influência pode favorecer projetos criativos, troca de ideias e expansão da imaginação. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando assimilada com consciência, essa potência revela aprendizado sobre expressão criativa equilibrada e manifestação das próprias percepções de forma construtiva.`,
-    31: `Iniciativa e Construção de Caminho
-
-Você, durante a vigência da Potência 31, pode perceber um impulso para iniciar movimentos que dependem principalmente da própria decisão. Surge a sensação de que determinadas direções precisam ser assumidas com mais autonomia, como se a experiência estivesse convidando à construção consciente de novos caminhos.
-
-Essa influência pode estimular atitudes mais independentes e disposição para transformar ideias em ações concretas. Em alguns momentos pode surgir a percepção de que certas escolhas dependem menos da aprovação externa e mais da própria convicção interior. Quando assimilada com equilíbrio, essa potência revela aprendizado ligado à iniciativa e à construção responsável do próprio percurso.`,
-
-32: `Cooperação e Alinhamento
-
-Você, durante a vigência da Potência 32, pode perceber maior atenção às relações de parceria e colaboração. Surge a sensação de que determinados objetivos se desenvolvem melhor quando existe troca equilibrada de ideias e esforços entre diferentes pessoas.
-
-Essa influência pode estimular percepção sobre a importância do diálogo, da diplomacia e da construção conjunta de soluções. Em alguns momentos pode surgir a necessidade de ajustar expectativas ou encontrar pontos de equilíbrio nas relações. Quando compreendida com maturidade, essa potência revela aprendizado sobre cooperação consciente e harmonia nas interações.`,
-
-33: `Compreensão e Expansão Interior
-
-Você, durante a vigência da Potência 33, pode perceber uma fase marcada pela ampliação da sensibilidade em relação ao significado das experiências humanas. Surge a sensação de compreender com mais profundidade situações que envolvem crescimento, aprendizado e desenvolvimento coletivo.
-
-Essa influência pode estimular atitudes voltadas ao apoio, à orientação e à compreensão das necessidades ao redor. Em alguns momentos pode surgir tendência a assumir responsabilidades que pertencem a outras pessoas. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre consciência ampliada e responsabilidade no uso da própria influência.`,
-
-34: `Disciplina e Estrutura
-
-Você, durante a vigência da Potência 34, pode perceber uma fase voltada à organização prática da vida e ao fortalecimento de estruturas necessárias para alcançar estabilidade. Surge a sensação de que certos resultados dependem diretamente de esforço constante e planejamento cuidadoso.
-
-Essa influência pode estimular foco no trabalho, na responsabilidade e na construção gradual de objetivos sólidos. Em alguns momentos pode surgir sensação de esforço intenso ou necessidade de enfrentar desafios com persistência. Quando compreendida com maturidade, essa potência revela aprendizado sobre disciplina e construção consistente de resultados.`,
-
-35: `Mudança e Adaptação
-
-Você, durante a vigência da Potência 35, pode perceber uma fase marcada por transformações, movimento e adaptação às circunstâncias que surgem ao longo da jornada. Situações inesperadas podem convidar a desenvolver flexibilidade diante das experiências.
-
-Essa influência pode estimular curiosidade, aprendizado através de novas vivências e abertura para caminhos diferentes dos planejados inicialmente. Em alguns momentos pode surgir sensação de instabilidade ou dificuldade em manter uma direção fixa. Quando assimilada com consciência, essa potência revela aprendizado sobre adaptação inteligente às mudanças.`,
-
-36: `Responsabilidade e Harmonia
-
-Você, durante a vigência da Potência 36, pode perceber maior atenção às responsabilidades ligadas à vida familiar, às relações próximas ou aos compromissos que sustentam estabilidade emocional. Surge a sensação de necessidade de cuidar de estruturas importantes que mantêm equilíbrio na vida cotidiana.
-
-Essa influência pode estimular atitudes de proteção, organização e comprometimento com o bem-estar coletivo. Em alguns momentos pode surgir tendência a assumir mais responsabilidades do que o necessário. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade consciente e manutenção da harmonia nas relações.`,
-
-37: `Conhecimento e Reflexão
-
-Você, durante a vigência da Potência 37, pode perceber uma fase em que o interesse pelo conhecimento, pela observação e pela análise das experiências se intensifica. Surge a sensação de necessidade de compreender melhor determinados acontecimentos antes de tomar decisões importantes.
-
-Essa influência pode estimular estudo, investigação e reflexão sobre caminhos futuros. Em alguns momentos pode surgir tendência ao isolamento ou à busca excessiva por respostas internas. Quando assimilada com maturidade, essa potência revela aprendizado sobre sabedoria construída através da reflexão e do entendimento profundo.`,
-
-38: `Autoridade e Realização
-
-Você, durante a vigência da Potência 38, pode perceber estímulo para assumir responsabilidades ligadas à liderança ou à organização de projetos importantes. Surge a sensação de que determinadas circunstâncias exigem postura firme diante de decisões que afetam o próprio caminho.
-
-Essa influência pode favorecer conquistas materiais, reconhecimento por esforços anteriores ou consolidação de objetivos práticos. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre liderança consciente e realização estruturada.`,
-
-39: `Sensibilidade e Propósito Coletivo
-
-Você, durante a vigência da Potência 39, pode perceber intensificação da sensibilidade em relação às necessidades humanas e aos movimentos que acontecem no ambiente ao redor. Surge a sensação de conexão mais profunda com questões que envolvem cooperação e compreensão coletiva.
-
-Essa influência pode estimular atitudes voltadas à solidariedade, ao apoio e à participação em causas que beneficiam outras pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver com intensidade as experiências externas. Quando assimilada com maturidade, essa potência revela aprendizado sobre consciência coletiva e propósito compartilhado.`,
-
-40: `Estrutura e Consolidação
-
-Você, durante a vigência da Potência 40, pode perceber uma fase voltada à consolidação de aprendizados e à construção de bases mais estáveis para o futuro. Surge a sensação de que determinadas experiências pedem organização, responsabilidade e continuidade de esforços.
-
-Essa influência pode estimular planejamento cuidadoso e atenção às estruturas que sustentam segurança a longo prazo. Em alguns momentos pode surgir necessidade de rever estratégias ou reorganizar prioridades. Quando compreendida com clareza, essa potência revela aprendizado sobre estabilidade, maturidade e consolidação de caminhos já iniciados.`,
-    41: `Iniciativa e Renovação de Caminho
-
-Você, durante a vigência da Potência 41, pode perceber o surgimento de um impulso para iniciar novas etapas dentro da própria trajetória. Algumas situações podem apresentar a sensação de recomeço ou abertura de possibilidades que antes não estavam visíveis.
-
-Essa influência pode estimular decisões que favorecem movimento e renovação de objetivos. Em alguns momentos pode surgir a necessidade de agir com coragem diante de mudanças que exigem posicionamento. Quando compreendida com clareza, essa potência revela aprendizado relacionado à capacidade de iniciar novos caminhos com consciência.`,
-
-42: `Equilíbrio e Cooperação
-
-Você, durante a vigência da Potência 42, pode perceber maior atenção às relações e à forma como decisões afetam o equilíbrio entre diferentes pessoas e situações. Surge a sensação de que determinados avanços dependem de diálogo, compreensão e cooperação.
-
-Essa influência pode estimular atitudes conciliadoras e a busca por harmonia nas interações cotidianas. Em alguns momentos pode surgir necessidade de ajustar expectativas ou rever acordos. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio relacional e construção conjunta de soluções.`,
-
-43: `Expressão e Desenvolvimento
-
-Você, durante a vigência da Potência 43, pode perceber estímulo à expressão das próprias ideias e à expansão da criatividade. Surge a sensação de que pensamentos, projetos ou percepções desejam ganhar forma e serem compartilhados.
-
-Essa influência pode favorecer comunicação, inovação e desenvolvimento de talentos pessoais. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre transformar inspiração em manifestação prática.`,
-
-44: `Estrutura e Segurança
-
-Você, durante a vigência da Potência 44, pode perceber uma fase em que estabilidade e organização ganham importância dentro da própria jornada. Algumas situações podem exigir planejamento cuidadoso e construção de bases sólidas para o futuro.
-
-Essa influência pode estimular disciplina, responsabilidade e atenção às estruturas que sustentam segurança material ou emocional. Em alguns momentos pode surgir sensação de peso nas responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre construção de estabilidade duradoura.`,
-
-45: `Mudança e Movimento
-
-Você, durante a vigência da Potência 45, pode perceber maior dinamismo nas experiências que surgem ao longo do caminho. Situações inesperadas ou mudanças de direção podem convidar à adaptação e ao desenvolvimento de flexibilidade.
-
-Essa influência pode estimular curiosidade, aprendizado através de novas experiências e ampliação de perspectivas. Em alguns momentos pode surgir sensação de instabilidade diante das transformações. Quando compreendida com maturidade, essa potência revela aprendizado sobre adaptação inteligente às mudanças da vida.`,
-
-46: `Responsabilidade e Harmonia Familiar
-
-Você, durante a vigência da Potência 46, pode perceber maior atenção às relações próximas e aos compromissos que envolvem estabilidade emocional ou familiar. Surge a sensação de necessidade de cuidar de estruturas que sustentam equilíbrio no cotidiano.
-
-Essa influência pode estimular atitudes de proteção, cuidado e organização das responsabilidades compartilhadas. Em alguns momentos pode surgir tendência a assumir encargos além do necessário. Quando assimilada com consciência, essa potência revela aprendizado sobre responsabilidade equilibrada nas relações.`,
-
-47: `Busca de Conhecimento
-
-Você, durante a vigência da Potência 47, pode perceber intensificação do interesse por compreensão, estudo e reflexão sobre as experiências vividas. Surge a sensação de que determinadas respostas exigem observação mais profunda antes de qualquer decisão.
-
-Essa influência pode estimular investigação, aprendizado e desenvolvimento de sabedoria através da análise das situações. Em alguns momentos pode surgir tendência ao recolhimento ou introspecção. Quando compreendida com equilíbrio, essa potência revela aprendizado ligado à construção de conhecimento interior.`,
-
-48: `Autoridade e Conquista
-
-Você, durante a vigência da Potência 48, pode perceber estímulo para assumir responsabilidades que envolvem liderança, organização ou tomada de decisões importantes. Algumas circunstâncias podem convidar à consolidação de conquistas materiais ou profissionais.
-
-Essa influência pode favorecer realização prática, reconhecimento de esforços anteriores e fortalecimento de posições alcançadas. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e realização estruturada.`,
-
-49: `Compaixão e Consciência Coletiva
-
-Você, durante a vigência da Potência 49, pode perceber maior sensibilidade em relação às necessidades humanas e aos acontecimentos que envolvem o coletivo. Surge a sensação de conexão mais profunda com questões que ultrapassam interesses exclusivamente pessoais.
-
-Essa influência pode estimular atitudes de solidariedade, cooperação e compreensão das experiências compartilhadas entre as pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver intensamente as situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre consciência coletiva e empatia.`,
-
-50: `Liberdade e Transformação
-
-Você, durante a vigência da Potência 50, pode perceber um período marcado por desejo de liberdade diante de padrões que antes pareciam fixos. Algumas situações podem convidar a experimentar novos caminhos ou a transformar percepções estabelecidas.
-
-Essa influência pode estimular mudanças importantes na forma de conduzir escolhas e projetos. Em alguns momentos pode surgir sensação de ruptura com antigos hábitos ou estruturas. Quando assimilada com consciência, essa potência revela aprendizado sobre liberdade responsável e transformação de direção na própria jornada.`,
-    
-    
-    51: `Impulso e Determinação
-
-Você, durante a vigência da Potência 51, pode perceber um impulso mais intenso para agir diante de situações que exigem decisão. Circunstâncias podem despertar uma sensação de urgência para assumir direção em questões que antes estavam em espera.
-
-Essa influência pode estimular coragem para enfrentar desafios e iniciar movimentos que exigem firmeza interior. Em alguns momentos pode surgir tensão ou necessidade de controlar impulsos antes de agir. Quando compreendida com consciência, essa potência revela aprendizado sobre determinação e uso equilibrado da força de vontade.`,
-
-52: `Pausa e Observação
-
-Você, durante a vigência da Potência 52, pode perceber uma fase que convida à redução do ritmo habitual das ações. Algumas situações podem despertar a sensação de que observar com atenção é mais importante do que agir imediatamente.
-
-Essa influência pode estimular introspecção, silêncio interior e análise das experiências em andamento. Em alguns momentos pode surgir a percepção de que determinadas respostas aparecem apenas quando existe espaço para reflexão. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio entre ação e contemplação.`,
-
-53: `Crescimento Gradual
-
-Você, durante a vigência da Potência 53, pode perceber uma fase marcada por evolução progressiva das experiências. Situações podem se desenvolver passo a passo, revelando que determinados resultados exigem paciência e continuidade de esforços.
-
-Essa influência pode estimular perseverança e confiança no processo natural de crescimento. Em alguns momentos pode surgir sensação de lentidão diante dos acontecimentos. Quando compreendida com clareza, essa potência revela aprendizado sobre desenvolvimento constante e construção gradual de caminhos.`,
-
-54: `Ambição e Realização
-
-Você, durante a vigência da Potência 54, pode perceber maior atenção aos objetivos ligados à realização material ou reconhecimento social. Algumas circunstâncias podem despertar motivação para alcançar posições mais estáveis ou ampliar conquistas já iniciadas.
-
-Essa influência pode estimular planejamento estratégico, iniciativa e foco em resultados concretos. Em alguns momentos pode surgir conflito entre ambição e equilíbrio interior. Quando assimilada com consciência, essa potência revela aprendizado sobre uso responsável da ambição na construção de realizações.`,
-
-55: `Expansão e Experiência
-
-Você, durante a vigência da Potência 55, pode perceber um período marcado por movimento, novidades e desejo de experimentar caminhos diferentes. Situações inesperadas podem abrir novas possibilidades de aprendizado.
-
-Essa influência pode estimular curiosidade, liberdade de pensamento e ampliação de perspectivas. Em alguns momentos pode surgir dispersão diante de muitas opções disponíveis. Quando compreendida com maturidade, essa potência revela aprendizado sobre expansão de horizontes através da experiência.`,
-
-56: `Responsabilidade e Compromisso
-
-Você, durante a vigência da Potência 56, pode perceber maior atenção às responsabilidades assumidas ao longo da jornada. Algumas situações podem convidar à reorganização de compromissos e ao fortalecimento de vínculos importantes.
-
-Essa influência pode estimular senso de dever, cuidado com relações próximas e busca por estabilidade nas estruturas que sustentam a vida cotidiana. Em alguns momentos pode surgir sensação de peso diante das responsabilidades. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre compromisso consciente.`,
-
-57: `Intuição e Percepção
-
-Você, durante a vigência da Potência 57, pode perceber maior sensibilidade para captar nuances sutis das experiências ao redor. Situações podem despertar percepção intuitiva sobre caminhos, decisões ou ambientes.
-
-Essa influência pode estimular observação profunda e confiança nas percepções internas que surgem diante das circunstâncias. Em alguns momentos pode surgir dúvida sobre como interpretar essas impressões. Quando compreendida com maturidade, essa potência revela aprendizado sobre integração entre intuição e discernimento.`,
-
-58: `Conquista e Liderança
-
-Você, durante a vigência da Potência 58, pode perceber estímulo para assumir responsabilidades que envolvem liderança ou organização de projetos relevantes. Algumas situações podem apresentar oportunidades de avanço em áreas que exigem capacidade de decisão.
-
-Essa influência pode favorecer realização prática, fortalecimento de autoridade pessoal e reconhecimento de competências. Em alguns momentos pode surgir pressão associada às responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre liderança equilibrada e construção de resultados sólidos.`,
-
-59: `Compreensão e Humanidade
-
-Você, durante a vigência da Potência 59, pode perceber ampliação da sensibilidade em relação às experiências humanas e às necessidades das pessoas ao redor. Algumas situações podem despertar reflexão sobre valores ligados à cooperação e compreensão.
-
-Essa influência pode estimular atitudes de empatia, solidariedade e atenção às dimensões emocionais das relações. Em alguns momentos pode surgir desgaste ao absorver intensamente situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre compaixão e consciência coletiva.`,
-
-60: `Síntese e Maturidade
-
-Você, durante a vigência da Potência 60, pode perceber um período voltado à integração de experiências vividas anteriormente. Situações podem convidar à reflexão sobre caminhos percorridos e sobre os aprendizados acumulados ao longo da jornada.
-
-Essa influência pode estimular maturidade nas decisões e capacidade de reconhecer o valor das experiências passadas. Em alguns momentos pode surgir necessidade de reorganizar prioridades para consolidar conquistas. Quando assimilada com clareza, essa potência revela aprendizado sobre síntese, responsabilidade e maturidade interior.`,
-    
-    61: `Expansão e Visão Ampliada
+36: `<p>Responsabilidade e Harmonia</p>
+<p>Você, durante a vigência da Potência 36, pode perceber maior atenção às responsabilidades ligadas à vida familiar, às relações próximas ou aos compromissos que sustentam estabilidade emocional. Surge a sensação de necessidade de cuidar de estruturas importantes que mantêm equilíbrio na vida cotidiana.</p>
+<p>Essa influência pode estimular atitudes de proteção, organização e comprometimento com o bem-estar coletivo. Em alguns momentos pode surgir tendência a assumir mais responsabilidades do que o necessário. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade consciente e manutenção da harmonia nas relações.</p>`,
+
+37: `<p>Conhecimento e Reflexão</p>
+<p>Você, durante a vigência da Potência 37, pode perceber uma fase em que o interesse pelo conhecimento, pela observação e pela análise das experiências se intensifica. Surge a sensação de necessidade de compreender melhor determinados acontecimentos antes de tomar decisões importantes.</p>
+<p>Essa influência pode estimular estudo, investigação e reflexão sobre caminhos futuros. Em alguns momentos pode surgir tendência ao isolamento ou à busca excessiva por respostas internas. Quando assimilada com maturidade, essa potência revela aprendizado sobre sabedoria construída através da reflexão e do entendimento profundo.</p>`,
+
+38: `<p>Autoridade e Realização</p>
+<p>Você, durante a vigência da Potência 38, pode perceber estímulo para assumir responsabilidades ligadas à liderança ou à organização de projetos importantes. Surge a sensação de que determinadas circunstâncias exigem postura firme diante de decisões que afetam o próprio caminho.</p>
+<p>Essa influência pode favorecer conquistas materiais, reconhecimento por esforços anteriores ou consolidação de objetivos práticos. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
+
+39: `<p>Sensibilidade e Propósito Coletivo</p>
+<p>Você, durante a vigência da Potência 39, pode perceber intensificação da sensibilidade em relação às necessidades humanas e aos movimentos que acontecem no ambiente ao redor. Surge a sensação de conexão mais profunda com questões que envolvem cooperação e compreensão coletiva.</p>
+<p>Essa influência pode estimular atitudes voltadas à solidariedade, ao apoio e à participação em causas que beneficiam outras pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver com intensidade as experiências externas. Quando assimilada com maturidade, essa potência revela aprendizado sobre consciência coletiva e propósito compartilhado.</p>`,
+
+40: `<p>Estrutura e Consolidação</p>
+<p>Você, durante a vigência da Potência 40, pode perceber uma fase voltada à consolidação de aprendizados e à construção de bases mais estáveis para o futuro. Surge a sensação de que determinadas experiências pedem organização, responsabilidade e continuidade de esforços.</p>
+<p>Essa influência pode estimular planejamento cuidadoso e atenção às estruturas que sustentam segurança a longo prazo. Em alguns momentos pode surgir necessidade de rever estratégias ou reorganizar prioridades. Quando compreendida com clareza, essa potência revela aprendizado sobre estabilidade, maturidade e consolidação de caminhos já iniciados.</p>`,
+
+41: `<p>Iniciativa e Renovação de Caminho</p>
+<p>Você, durante a vigência da Potência 41, pode perceber o surgimento de um impulso para iniciar novas etapas dentro da própria trajetória. Algumas situações podem apresentar a sensação de recomeço ou abertura de possibilidades que antes não estavam visíveis.</p>
+<p>Essa influência pode estimular decisões que favorecem movimento e renovação de objetivos. Em alguns momentos pode surgir a necessidade de agir com coragem diante de mudanças que exigem posicionamento. Quando compreendida com clareza, essa potência revela aprendizado relacionado à capacidade de iniciar novos caminhos com consciência.</p>`,
+
+42: `<p>Equilíbrio e Cooperação</p>
+<p>Você, durante a vigência da Potência 42, pode perceber maior atenção às relações e à forma como decisões afetam o equilíbrio entre diferentes pessoas e situações. Surge a sensação de que determinados avanços dependem de diálogo, compreensão e cooperação.</p>
+<p>Essa influência pode estimular atitudes conciliadoras e a busca por harmonia nas interações cotidianas. Em alguns momentos pode surgir necessidade de ajustar expectativas ou rever acordos. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio relacional e construção conjunta de soluções.</p>`,
+
+43: `<p>Expressão e Desenvolvimento</p>
+<p>Você, durante a vigência da Potência 43, pode perceber estímulo à expressão das próprias ideias e à expansão da criatividade. Surge a sensação de que pensamentos, projetos ou percepções desejam ganhar forma e serem compartilhados.</p>
+<p>Essa influência pode favorecer comunicação, inovação e desenvolvimento de talentos pessoais. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre transformar inspiração em manifestação prática.</p>`,
+
+44: `<p>Estrutura e Segurança</p>
+<p>Você, durante a vigência da Potência 44, pode perceber uma fase em que estabilidade e organização ganham importância dentro da própria jornada. Algumas situações podem exigir planejamento cuidadoso e construção de bases sólidas para o futuro.</p>
+<p>Essa influência pode estimular disciplina, responsabilidade e atenção às estruturas que sustentam segurança material ou emocional. Em alguns momentos pode surgir sensação de peso nas responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre construção de estabilidade duradoura.</p>`,
+
+45: `<p>Mudança e Movimento</p>
+<p>Você, durante a vigência da Potência 45, pode perceber maior dinamismo nas experiências que surgem ao longo do caminho. Situações inesperadas ou mudanças de direção podem convidar à adaptação e ao desenvolvimento de flexibilidade.</p>
+<p>Essa influência pode estimular curiosidade, aprendizado através de novas experiências e ampliação de perspectivas. Em alguns momentos pode surgir sensação de instabilidade diante das transformações. Quando compreendida com maturidade, essa potência revela aprendizado sobre adaptação inteligente às mudanças da vida.</p>`,
+
+46: `<p>Responsabilidade e Harmonia Familiar</p>
+<p>Você, durante a vigência da Potência 46, pode perceber maior atenção às relações próximas e aos compromissos que envolvem estabilidade emocional ou familiar. Surge a sensação de necessidade de cuidar de estruturas que sustentam equilíbrio no cotidiano.</p>
+<p>Essa influência pode estimular atitudes de proteção, cuidado e organização das responsabilidades compartilhadas. Em alguns momentos pode surgir tendência a assumir encargos além do necessário. Quando assimilada com consciência, essa potência revela aprendizado sobre responsabilidade equilibrada nas relações.</p>`,
+
+47: `<p>Busca de Conhecimento</p>
+<p>Você, durante a vigência da Potência 47, pode perceber intensificação do interesse por compreensão, estudo e reflexão sobre as experiências vividas. Surge a sensação de que determinadas respostas exigem observação mais profunda antes de qualquer decisão.</p>
+<p>Essa influência pode estimular investigação, aprendizado e desenvolvimento de sabedoria através da análise das situações. Em alguns momentos pode surgir tendência ao recolhimento ou introspecção. Quando compreendida com equilíbrio, essa potência revela aprendizado ligado à construção de conhecimento interior.</p>`,
+
+48: `<p>Autoridade e Conquista</p>
+<p>Você, durante a vigência da Potência 48, pode perceber estímulo para assumir responsabilidades que envolvem liderança, organização ou tomada de decisões importantes. Algumas circunstâncias podem convidar à consolidação de conquistas materiais ou profissionais.</p>
+<p>Essa influência pode favorecer realização prática, reconhecimento de esforços anteriores e fortalecimento de posições alcançadas. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
+
+49: `<p>Compaixão e Consciência Coletiva</p>
+<p>Você, durante a vigência da Potência 49, pode perceber maior sensibilidade em relação às necessidades humanas e aos acontecimentos que envolvem o coletivo. Surge a sensação de conexão mais profunda com questões que ultrapassam interesses exclusivamente pessoais.</p>
+<p>Essa influência pode estimular atitudes de solidariedade, cooperação e compreensão das experiências compartilhadas entre as pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver intensamente as situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre consciência coletiva e empatia.</p>`,
+
+50: `<p>Liberdade e Transformação</p>
+<p>Você, durante a vigência da Potência 50, pode perceber um período marcado por desejo de liberdade diante de padrões que antes pareciam fixos. Algumas situações podem convidar a experimentar novos caminhos ou a transformar percepções estabelecidas.</p>
+<p>Essa influência pode estimular mudanças importantes na forma de conduzir escolhas e projetos. Em alguns momentos pode surgir sensação de ruptura com antigos hábitos ou estruturas. Quando assimilada com consciência, essa potência revela aprendizado sobre liberdade responsável e transformação de direção na própria jornada.</p>`,
+
+51: `<p>Impulso e Determinação</p>
+<p>Você, durante a vigência da Potência 51, pode perceber um impulso mais intenso para agir diante de situações que exigem decisão. Circunstâncias podem despertar uma sensação de urgência para assumir direção em questões que antes estavam em espera.</p>
+<p>Essa influência pode estimular coragem para enfrentar desafios e iniciar movimentos que exigem firmeza interior. Em alguns momentos pode surgir tensão ou necessidade de controlar impulsos antes de agir. Quando compreendida com consciência, essa potência revela aprendizado sobre determinação e uso equilibrado da força de vontade.</p>`,
+
+52: `<p>Pausa e Observação</p>
+<p>Você, durante a vigência da Potência 52, pode perceber uma fase que convida à redução do ritmo habitual das ações. Algumas situações podem despertar a sensação de que observar com atenção é mais importante do que agir imediatamente.</p>
+<p>Essa influência pode estimular introspecção, silêncio interior e análise das experiências em andamento. Em alguns momentos pode surgir a percepção de que determinadas respostas aparecem apenas quando existe espaço para reflexão. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio entre ação e contemplação.</p>`,
+
+53: `<p>Crescimento Gradual</p>
+<p>Você, durante a vigência da Potência 53, pode perceber uma fase marcada por evolução progressiva das experiências. Situações podem se desenvolver passo a passo, revelando que determinados resultados exigem paciência e continuidade de esforços.</p>
+<p>Essa influência pode estimular perseverança e confiança no processo natural de crescimento. Em alguns momentos pode surgir sensação de lentidão diante dos acontecimentos. Quando compreendida com clareza, essa potência revela aprendizado sobre desenvolvimento constante e construção gradual de caminhos.</p>`,
+
+54: `<p>Ambição e Realização</p>
+<p>Você, durante a vigência da Potência 54, pode perceber maior atenção aos objetivos ligados à realização material ou reconhecimento social. Algumas circunstâncias podem despertar motivação para alcançar posições mais estáveis ou ampliar conquistas já iniciadas.</p>
+<p>Essa influência pode estimular planejamento estratégico, iniciativa e foco em resultados concretos. Em alguns momentos pode surgir conflito entre ambição e equilíbrio interior. Quando assimilada com consciência, essa potência revela aprendizado sobre uso responsável da ambição na construção de realizações.</p>`,
+
+55: `<p>Expansão e Experiência</p>
+<p>Você, durante a vigência da Potência 55, pode perceber um período marcado por movimento, novidades e desejo de experimentar caminhos diferentes. Situações inesperadas podem abrir novas possibilidades de aprendizado.</p>
+<p>Essa influência pode estimular curiosidade, liberdade de pensamento e ampliação de perspectivas. Em alguns momentos pode surgir dispersão diante de muitas opções disponíveis. Quando compreendida com maturidade, essa potência revela aprendizado sobre expansão de horizontes através da experiência.</p>`,
+
+56: `<p>Responsabilidade e Compromisso</p>
+<p>Você, durante a vigência da Potência 56, pode perceber maior atenção às responsabilidades assumidas ao longo da jornada. Algumas situações podem convidar à reorganização de compromissos e ao fortalecimento de vínculos importantes.</p>
+<p>Essa influência pode estimular senso de dever, cuidado com relações próximas e busca por estabilidade nas estruturas que sustentam a vida cotidiana. Em alguns momentos pode surgir sensação de peso diante das responsabilidades. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre compromisso consciente.</p>`,
+
+57: `<p>Intuição e Percepção</p>
+<p>Você, durante a vigência da Potência 57, pode perceber maior sensibilidade para captar nuances sutis das experiências ao redor. Situações podem despertar percepção intuitiva sobre caminhos, decisões ou ambientes.</p>
+<p>Essa influência pode estimular observação profunda e confiança nas percepções internas que surgem diante das circunstâncias. Em alguns momentos pode surgir dúvida sobre como interpretar essas impressões. Quando compreendida com maturidade, essa potência revela aprendizado sobre integração entre intuição e discernimento.</p>`,
+
+58: `<p>Conquista e Liderança</p>
+<p>Você, durante a vigência da Potência 58, pode perceber estímulo para assumir responsabilidades que envolvem liderança ou organização de projetos relevantes. Algumas situações podem apresentar oportunidades de avanço em áreas que exigem capacidade de decisão.</p>
+<p>Essa influência pode favorecer realização prática, fortalecimento de autoridade pessoal e reconhecimento de competências. Em alguns momentos pode surgir pressão associada às responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre liderança equilibrada e construção de resultados sólidos.</p>`,
+
+59: `<p>Compreensão e Humanidade</p>
+<p>Você, durante a vigência da Potência 59, pode perceber ampliação da sensibilidade em relação às experiências humanas e às necessidades das pessoas ao redor. Algumas situações podem despertar reflexão sobre valores ligados à cooperação e compreensão.</p>
+<p>Essa influência pode estimular atitudes de empatia, solidariedade e atenção às dimensões emocionais das relações. Em alguns momentos pode surgir desgaste ao absorver intensamente situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre compaixão e consciência coletiva.</p>`,
+
+60: `<p>Síntese e Maturidade</p>
+<p>Você, durante a vigência da Potência 60, pode perceber um período voltado à integração de experiências vividas anteriormente. Situações podem convidar à reflexão sobre caminhos percorridos e sobre os aprendizados acumulados ao longo da jornada.</p>
+<p>Essa influência pode estimular maturidade nas decisões e capacidade de reconhecer o valor das experiências passadas. Em alguns momentos pode surgir necessidade de reorganizar prioridades para consolidar conquistas. Quando assimilada com clareza, essa potência revela aprendizado sobre síntese, responsabilidade e maturidade interior.</p>`,
+    61: `<p>Expansão e Visão Ampliada</p>
 
 <p>Durante a vigência da potência 61, você pode perceber um movimento interior voltado à ampliação de visão e compreensão da própria trajetória. Surge uma sensação de que novas ideias, possibilidades ou caminhos começam a aparecer com mais clareza, como se o destino abrisse pequenas janelas de entendimento sobre o futuro.</p>
 
@@ -4097,6 +3999,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
