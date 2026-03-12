@@ -1835,10 +1835,10 @@ A Potência 99 ensina que a realidade é percebida como integração da consciê
 
 
 1:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°1</h2> 
-<h3>1️⃣Influência de Iniciativa e Despertar da Autonomia1️⃣ </h3>
+<h3>1️⃣Influência de Iniciativa e Despertar da Autonomia1️⃣ </h3>`
 
 
-Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.
+`Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.
 
 
 Essa regência indica que acontecimentos externos frequentemente impulsionam você a assumir liderança, tomar decisões importantes ou iniciar novos caminhos. Muitas vezes a vida coloca diante de você circunstâncias que exigem atitude, independência e confiança na própria capacidade.
@@ -1980,10 +1980,10 @@ No aspecto negativo pode gerar rigidez ou excesso de responsabilidade.
 O aprendizado do Regente 4 da Influência consiste em construir estabilidade através da perseverança.`,
 
 5:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°5</h2>
-<h3> 5️⃣Influência de Mudança e Experiência5️⃣</h3> 
+<h3> 5️⃣Influência de Mudança e Experiência5️⃣</h3> `
 
 
-Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.
+`Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.
 
 
 Essa regência indica que sua vida tende a ser influenciada por situações inesperadas, viagens, novos contatos ou mudanças de ambiente.
@@ -3776,6 +3776,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
