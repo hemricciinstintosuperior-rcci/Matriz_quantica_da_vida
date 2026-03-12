@@ -477,7 +477,7 @@ const textosPessoal={
 
 
 
-1:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)1 </h2> 
+1:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 1 </h2> 
 <h3>1️⃣Autonomia Mental e Consciência Individual1️⃣</h3> 
 
 <p>Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
@@ -510,7 +510,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.</p>`,
 
-2:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)2</h2> 
+2:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 2</h2> 
 <h3> 2️⃣Sensibilidade Intelectual e Percepção Psicológica2️⃣</h3>  
 
 <p>Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
@@ -539,7 +539,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.</p>`,
 
-3:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)3</h2> 
+3:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 3</h2> 
 <h3>3️⃣Criatividade Mental e Expressão Intelectual3️⃣</h3>  
 
 <p>Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.</p>
@@ -572,7 +572,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.</p>`,
 
-4:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)4</h2> 
+4:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 4</h2> 
 <h3>4️⃣Estrutura Mental e Disciplina Intelectual4️⃣</h3> 
 
 <p>Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
@@ -605,7 +605,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.</p>`,
 
-5:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)5</h2> 
+5:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 5</h2> 
 <h3> 5️⃣Curiosidade Intelectual e Movimento Mental5️⃣</h3>  
 
 <p>Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.</p>
@@ -638,7 +638,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.</p>`,
 
-6:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)6</h2> 
+6:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 6</h2> 
 <h3>6️⃣Consciência Emocional e Harmonia Interior6️⃣</h3>
 
 <p>Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.</p>
@@ -671,7 +671,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.</p>`,
 
-7:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)7</h2> 
+7:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 7</h2> 
 <h3>7️⃣Investigação Mental e Busca de Sabedoria7️⃣</h3> 
 
 <p>Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.</p>
@@ -704,7 +704,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.</p>`,
 
-8:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)8</h2> 
+8:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 8</h2> 
 <h3> 8️⃣Força Mental e Consciência de Poder8️⃣</h3>  
 
 Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
@@ -735,7 +735,7 @@ No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</
 
 O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
 
-9:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional)9</h2> 
+9:`<h2>🔱Regente Pessoal(Aspecto Mental e Emocional) 9</h2> 
 <h3> 9️⃣Consciência Interior e Sabedoria Mental9️⃣ </h3> 
 
 Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
@@ -1363,295 +1363,299 @@ A Potência 99 ensina que a realidade é percebida como integração da consciê
 
 
 
-1:`<h2>🔱Regente Social(Aspecto Fisico)1</h2> 
+1:`<h2>🔱Regente Social(Aspecto Fisico) 1</h2> 
 <h3> 1️⃣Percepção de Liderança no Meio Social1️⃣</h3>  
 
 
-Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.
+<p>Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.</p>
 
-Essa regência indica que você tende a observar o meio social como um espaço onde indivíduos buscam afirmar suas ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe nas outras pessoas atitudes de competição, iniciativa ou desejo de se destacar.
+<p>Essa regência indica que você tende a observar o meio social como um espaço onde indivíduos buscam afirmar suas ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe nas outras pessoas atitudes de competição, iniciativa ou desejo de se destacar.</p>
 
-Quando essa vibração se origina da potência 10 pode indicar percepção de ambientes sociais dinâmicos e cheios de oportunidades.
+<p>Quando essa vibração se origina da potência 10 pode indicar percepção de ambientes sociais dinâmicos e cheios de oportunidades.</p>
 
-Quando se origina da potência 19 pode revelar visão crítica sobre atitudes de orgulho ou autoritarismo nas pessoas.
+<p>Quando se origina da potência 19 pode revelar visão crítica sobre atitudes de orgulho ou autoritarismo nas pessoas.</p>
 
-Quando se origina da potência 28 pode indicar percepção de disputas ou rivalidades no meio social.
+<p>Quando se origina da potência 28 pode indicar percepção de disputas ou rivalidades no meio social.</p>
 
-Quando se origina da potência 37 revela visão estratégica das relações sociais.
+<p>Quando se origina da potência 37 revela visão estratégica das relações sociais.</p>
 
-Quando se origina da potência 46 pode indicar percepção de ambientes voltados ao trabalho e às conquistas materiais.
+<p>Quando se origina da potência 46 pode indicar percepção de ambientes voltados ao trabalho e às conquistas materiais.</p>
 
-Quando se origina da potência 55 revela ambientes sociais inquietos ou marcados pela busca de liberdade.
+<p>Quando se origina da potência 55 revela ambientes sociais inquietos ou marcados pela busca de liberdade.</p>
 
-Quando se origina da potência 64 pode indicar percepção de mudanças repentinas nas relações sociais.
+<p>Quando se origina da potência 64 pode indicar percepção de mudanças repentinas nas relações sociais.</p>
 
-Quando se origina da potência 73 revela tendência a observar as pessoas com análise profunda.
+<p>Quando se origina da potência 73 revela tendência a observar as pessoas com análise profunda.</p>
 
-Quando se origina da potência 82 pode indicar percepção de disputas por poder no meio social.
+<p>Quando se origina da potência 82 pode indicar percepção de disputas por poder no meio social.</p>
 
-Quando se origina da potência 91 revela compreensão madura das atitudes humanas.
+<p>Quando se origina da potência 91 revela compreensão madura das atitudes humanas.</p>
 
-No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes.
+<p>No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes.</p>
 
-No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou dominado por conflitos de ego.
+<p>No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou dominado por conflitos de ego.</p>
 
-O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.`,
+<p>O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.</p>`,
 
-2:`<h2>🔱Regente Social(Aspecto Fisico)2</h2> 
+2:`<h2>🔱Regente Social(Aspecto Fisico) 2</h2> 
 <h3> 2️⃣vPercepção Sensível das Relações Sociais2️⃣</h3>  
 
-Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.
+<p>Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.</p>
 
-Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos que outras pessoas não percebem com facilidade.
+<p>Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos que outras pessoas não percebem com facilidade.</p>
 
-Quando essa vibração se origina da potência 29 pode indicar percepção de ambientes sociais emocionalmente complexos.
+<p>Quando essa vibração se origina da potência 29 pode indicar percepção de ambientes sociais emocionalmente complexos.</p>
 
-Quando se origina da potência 38 revela visão sensível das relações humanas.
+<p>Quando se origina da potência 38 revela visão sensível das relações humanas.</p>
 
-Quando se origina da potência 47 pode indicar percepção de ambientes organizados ou estruturados.
+<p>Quando se origina da potência 47 pode indicar percepção de ambientes organizados ou estruturados.</p>
 
-Quando se origina da potência 56 revela ambientes sociais ativos e competitivos.
+<p>Quando se origina da potência 56 revela ambientes sociais ativos e competitivos.</p>
 
-Quando se origina da potência 65 pode indicar forte percepção das relações afetivas no meio social.
+<p>Quando se origina da potência 65 pode indicar forte percepção das relações afetivas no meio social.</p>
 
-Quando se origina da potência 74 revela ambientes que exigem disciplina nas relações.
+<p>Quando se origina da potência 74 revela ambientes que exigem disciplina nas relações.</p>
 
-Quando se origina da potência 83 pode indicar percepção de pessoas comunicativas e intelectuais.
+<p>Quando se origina da potência 83 pode indicar percepção de pessoas comunicativas e intelectuais.</p>
 
-Quando se origina da potência 92 revela forte sensibilidade espiritual na observação das pessoas.
+<p>Quando se origina da potência 92 revela forte sensibilidade espiritual na observação das pessoas.</p>
 
-No aspecto positivo manifesta empatia social e grande percepção emocional.
+<p>No aspecto positivo manifesta empatia social e grande percepção emocional.</p>
 
-No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos das pessoas ao redor.
+<p>No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos das pessoas ao redor.</p>
 
-O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.`,
+<p>O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.</p>`,
 
-3:`<h2>🔱Regente Social(Aspecto Fisico)3</h2> 
+3:`<h2>🔱Regente Social(Aspecto Fisico) 3</h2> 
 <h3>3️⃣Percepção Criativa das Relações Sociais3️⃣</h3> 
 
-Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.
+<p>Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.</p>
 
-Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade.
+<p>Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade.</p>
 
-Quando essa vibração se origina da potência 12 pode indicar percepção de pessoas que passam por processos de aprendizado ou transformação.
+<p>Quando essa vibração se origina da potência 12 pode indicar percepção de pessoas que passam por processos de aprendizado ou transformação.</p>
 
-Quando se origina da potência 21 revela ambientes sociais dinâmicos e comunicativos.
+<p>Quando se origina da potência 21 revela ambientes sociais dinâmicos e comunicativos.</p>
 
-Quando se origina da potência 30 pode indicar percepção de criatividade coletiva.
+<p>Quando se origina da potência 30 pode indicar percepção de criatividade coletiva.</p>
 
-Quando se origina da potência 39 revela ambientes animados e sociáveis.
+<p>Quando se origina da potência 39 revela ambientes animados e sociáveis.</p>
 
-Quando se origina da potência 48 pode indicar percepção de conflitos relacionados à organização social.
+<p>Quando se origina da potência 48 pode indicar percepção de conflitos relacionados à organização social.</p>
 
-Quando se origina da potência 57 revela ambientes onde a estratégia e a inteligência são valorizadas.
+<p>Quando se origina da potência 57 revela ambientes onde a estratégia e a inteligência são valorizadas.</p>
 
-Quando se origina da potência 66 pode indicar forte presença de emoções nas relações sociais.
+<p>Quando se origina da potência 66 pode indicar forte presença de emoções nas relações sociais.</p>
 
-Quando se origina da potência 75 revela ambientes reflexivos ou intelectuais.
+<p>Quando se origina da potência 75 revela ambientes reflexivos ou intelectuais.</p>
 
-Quando se origina da potência 84 pode indicar percepção de responsabilidade social.
+<p>Quando se origina da potência 84 pode indicar percepção de responsabilidade social.</p>
 
-Quando se origina da potência 93 revela visão madura das relações humanas.
+<p>Quando se origina da potência 93 revela visão madura das relações humanas.</p>
 
-No aspecto positivo manifesta visão otimista e comunicativa das relações sociais.
+<p>No aspecto positivo manifesta visão otimista e comunicativa das relações sociais.</p>
 
-No aspecto negativo pode gerar tendência a perceber superficialidade nas interações sociais.
+<p>No aspecto negativo pode gerar tendência a perceber superficialidade nas interações sociais.</p>
 
-O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.`,
+<p>O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.</p>`,
 
-4:`<h2>🔱Regente Social(Aspecto Fisico)4</h2> 
+4:`<h2>🔱Regente Social(Aspecto Fisico) 4</h2> 
 <h3>4️⃣Percepção Estruturada do Ambiente Social4️⃣</h3> 
 
-Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.
+<p>Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.</p>
 
-Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas.
+<p>Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas.</p>
 
-Quando essa vibração se origina da potência 13 pode indicar percepção de mudanças intensas nas relações sociais.
+<p>Quando essa vibração se origina da potência 13 pode indicar percepção de mudanças intensas nas relações sociais.</p>
 
-Quando se origina da potência 22 revela ambientes sociais ligados a grandes responsabilidades.
+<p>Quando se origina da potência 22 revela ambientes sociais ligados a grandes responsabilidades.</p>
 
-Quando se origina da potência 31 pode indicar percepção de comunicação estruturada.
+<p>Quando se origina da potência 31 pode indicar percepção de comunicação estruturada.</p>
 
-Quando se origina da potência 40 revela ambientes marcados por reflexão ou pausa.
+<p>Quando se origina da potência 40 revela ambientes marcados por reflexão ou pausa.</p>
 
-Quando se origina da potência 49 pode indicar percepção de conflitos ou transformações sociais.
+<p>Quando se origina da potência 49 pode indicar percepção de conflitos ou transformações sociais.</p>
 
-Quando se origina da potência 58 revela ambientes voltados ao poder ou às conquistas materiais.
+<p>Quando se origina da potência 58 revela ambientes voltados ao poder ou às conquistas materiais.</p>
 
-Quando se origina da potência 67 pode indicar percepção de ambientes ligados ao conhecimento.
+<p>Quando se origina da potência 67 pode indicar percepção de ambientes ligados ao conhecimento.</p>
 
-Quando se origina da potência 76 revela ambientes introspectivos ou reservados.
+<p>Quando se origina da potência 76 revela ambientes introspectivos ou reservados.</p>
 
-Quando se origina da potência 85 pode indicar disputas de autoridade.
+<p>Quando se origina da potência 85 pode indicar disputas de autoridade.</p>
 
-Quando se origina da potência 94 revela percepção de transformações profundas na sociedade.
+<p>Quando se origina da potência 94 revela percepção de transformações profundas na sociedade.</p>
 
-No aspecto positivo manifesta visão organizada e realista das relações sociais.
+<p>No aspecto positivo manifesta visão organizada e realista das relações sociais.</p>
 
-No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das pessoas.
+<p>No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das pessoas.</p>
 
-O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.`,
+<p>O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.</p>`,
 
-5:`<h2>🔱Regente Social(Aspecto Fisico)5</h2> 
+5:`<h2>🔱Regente Social(Aspecto Fisico) 5</h2> 
 <h3> 5️⃣Percepção Dinâmica do Meio Social5️⃣</h3>  
 
-Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.
+<p>Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.</p>
 
-Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências.
+<p>Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências.</p>
 
-Quando essa vibração se origina da potência 14 pode indicar percepção de pessoas comunicativas.
+<p>Quando essa vibração se origina da potência 14 pode indicar percepção de pessoas comunicativas.</p>
 
-Quando se origina da potência 23 revela ambientes sociais protegidos por influências positivas.
+<p>Quando se origina da potência 23 revela ambientes sociais protegidos por influências positivas.</p>
 
-Quando se origina da potência 32 pode indicar criatividade coletiva.
+<p>Quando se origina da potência 32 pode indicar criatividade coletiva.</p>
 
-Quando se origina da potência 41 revela percepção de liderança social.
+<p>Quando se origina da potência 41 revela percepção de liderança social.</p>
 
-Quando se origina da potência 50 pode indicar períodos de pausa ou reflexão coletiva.
+<p>Quando se origina da potência 50 pode indicar períodos de pausa ou reflexão coletiva.</p>
 
-Quando se origina da potência 59 revela ambientes espirituais ou sensíveis.
+<p>Quando se origina da potência 59 revela ambientes espirituais ou sensíveis.</p>
 
-Quando se origina da potência 68 pode indicar disputas por poder ou recursos.
+<p>Quando se origina da potência 68 pode indicar disputas por poder ou recursos.</p>
 
-Quando se origina da potência 77 revela ambientes intelectuais.
+<p>Quando se origina da potência 77 revela ambientes intelectuais.</p>
 
-Quando se origina da potência 86 pode indicar responsabilidades sociais intensas.
+<p>Quando se origina da potência 86 pode indicar responsabilidades sociais intensas.</p>
 
-Quando se origina da potência 95 revela transformações sociais importantes.
+<p>Quando se origina da potência 95 revela transformações sociais importantes.</p>
 
-No aspecto positivo manifesta curiosidade social e capacidade de compreender diferentes tipos de pessoas.
+<p>No aspecto positivo manifesta curiosidade social e capacidade de compreender diferentes tipos de pessoas.</p>
 
-No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.
+<p>No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.</p>
 
-O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.`,
+<p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.</p></p>`,
 
-6:`Percepção Afetiva do Meio Social. 
+6:`<h2>🔱Regente Social(Aspecto Fisico) 6</h2> 
+<h3> 6️⃣Percepção Afetiva do Meio Social6️⃣ </h3> 
 
-Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.
+<p>Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p></p>
 
-Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas.
+<p>Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas.</p>
 
-Quando essa vibração se origina da potência 15 pode indicar percepção de forte magnetismo social.
+<p>Quando essa vibração se origina da potência 15 pode indicar percepção de forte magnetismo social.</p>
 
-Quando se origina da potência 24 revela ambientes harmoniosos.
+<p>Quando se origina da potência 24 revela ambientes harmoniosos.</p>
 
-Quando se origina da potência 33 pode indicar percepção de generosidade coletiva.
+<p>Quando se origina da potência 33 pode indicar percepção de generosidade coletiva.</p>
 
-Quando se origina da potência 42 revela responsabilidades familiares ou sociais.
+<p>Quando se origina da potência 42 revela responsabilidades familiares ou sociais.</p>
 
-Quando se origina da potência 51 pode indicar mudanças importantes nas relações sociais.
+<p>Quando se origina da potência 51 pode indicar mudanças importantes nas relações sociais.</p>
 
-Quando se origina da potência 60 revela períodos de reflexão emocional coletiva.
+<p>Quando se origina da potência 60 revela períodos de reflexão emocional coletiva.</p>
 
-Quando se origina da potência 69 pode indicar forte sensibilidade social.
+<p>Quando se origina da potência 69 pode indicar forte sensibilidade social.</p>
 
-Quando se origina da potência 78 revela desafios nas relações.
+<p>Quando se origina da potência 78 revela desafios nas relações.</p>
 
-Quando se origina da potência 87 indica aprendizado social através das relações.
+<p>Quando se origina da potência 87 indica aprendizado social através das relações.</p>
 
-Quando se origina da potência 96 revela maturidade nas relações humanas.
+<p>Quando se origina da potência 96 revela maturidade nas relações humanas.</p>
 
-No aspecto positivo manifesta percepção de amor, cooperação e harmonia social.
+<p>No aspecto positivo manifesta percepção de amor, cooperação e harmonia social.</p>
 
-No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre as pessoas.
+<p>No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre as pessoas.</p>
 
-O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.`,
+<p>O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.</p>`,
 
-7:`Percepção Analítica do Meio Social. 
+7:`<h2>🔱Regente Social(Aspecto Fisico) 7</h2> 
+<h3>7️⃣Percepção Analítica do Meio Social7️⃣ </h3>
 
-Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.
+<p>Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.</p>
 
-Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações.
+<p>Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações.</p>
 
-Quando essa vibração se origina da potência 16 pode indicar percepção de mudanças bruscas no comportamento das pessoas.
+<p>Quando essa vibração se origina da potência 16 pode indicar percepção de mudanças bruscas no comportamento das pessoas.</p>
 
-Quando se origina da potência 25 revela sensibilidade intelectual.
+<p>Quando se origina da potência 25 revela sensibilidade intelectual.</p>
 
-Quando se origina da potência 34 pode indicar criatividade social.
+<p>Quando se origina da potência 34 pode indicar criatividade social.</p>
 
-Quando se origina da potência 43 revela liderança intelectual.
+<p>Quando se origina da potência 43 revela liderança intelectual.</p>
 
-Quando se origina da potência 52 indica aprendizado através das experiências sociais.
+<p>Quando se origina da potência 52 indica aprendizado através das experiências sociais.</p>
 
-Quando se origina da potência 61 revela sensibilidade espiritual nas relações.
+<p>Quando se origina da potência 61 revela sensibilidade espiritual nas relações.</p>
 
-Quando se origina da potência 70 pode indicar períodos de reflexão coletiva.
+<p>Quando se origina da potência 70 pode indicar períodos de reflexão coletiva.</p>
 
-Quando se origina da potência 79 revela busca intensa por conhecimento social.
+<p>Quando se origina da potência 79 revela busca intensa por conhecimento social.</p>
 
-Quando se origina da potência 88 pode indicar percepção de grande poder coletivo.
+<p>Quando se origina da potência 88 pode indicar percepção de grande poder coletivo.</p>
 
-Quando se origina da potência 97 revela maturidade social profunda.
+<p>Quando se origina da potência 97 revela maturidade social profunda.</p>
 
-No aspecto positivo manifesta compreensão profunda do comportamento humano.
+<p>No aspecto positivo manifesta compreensão profunda do comportamento humano.</p>
 
-No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de análise.
+<p>No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de análise.</p>
 
-O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.`,
+<p>O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.</p>`,
 
-8:`Percepção de Poder no Meio Social. 
+8:`<h2>🔱Regente Social(Aspecto Fisico) 8</h2> 
+<h3> 8️⃣Percepção de Poder no Meio Social8️⃣ </h3> 
 
-Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.
+<p>Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.</p>
 
-Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência.
+<p>Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência.</p>
 
-Quando essa vibração se origina da potência 17 pode indicar percepção de proteção ou reconhecimento social.
+<p>Quando essa vibração se origina da potência 17 pode indicar percepção de proteção ou reconhecimento social.</p>
 
-Quando se origina da potência 26 revela aprendizado através de responsabilidades materiais.
+<p>Quando se origina da potência 26 revela aprendizado através de responsabilidades materiais.</p>
 
-Quando se origina da potência 35 pode indicar inteligência estratégica nas relações.
+<p>Quando se origina da potência 35 pode indicar inteligência estratégica nas relações.</p>
 
-Quando se origina da potência 44 revela ambientes sociais ligados à liderança.
+<p>Quando se origina da potência 44 revela ambientes sociais ligados à liderança.</p>
 
-Quando se origina da potência 53 pode indicar mudanças inesperadas no meio social.
+<p>Quando se origina da potência 53 pode indicar mudanças inesperadas no meio social.</p>
 
-Quando se origina da potência 62 revela aprendizado através das relações humanas.
+<p>Quando se origina da potência 62 revela aprendizado através das relações humanas.</p>
 
-Quando se origina da potência 71 indica análise profunda das estruturas sociais.
+<p>Quando se origina da potência 71 indica análise profunda das estruturas sociais.</p>
 
-Quando se origina da potência 80 revela necessidade de disciplina coletiva.
+<p>Quando se origina da potência 80 revela necessidade de disciplina coletiva.</p>
 
-Quando se origina da potência 89 pode indicar percepção de conflitos de poder.
+<p>Quando se origina da potência 89 pode indicar percepção de conflitos de poder.</p>
 
-Quando se origina da potência 98 revela maturidade social e compreensão das leis da vida.
+<p>Quando se origina da potência 98 revela maturidade social e compreensão das leis da vida.</p>
 
-No aspecto positivo manifesta visão estratégica e compreensão das estruturas sociais.
+<p>No aspecto positivo manifesta visão estratégica e compreensão das estruturas sociais.</p>
 
-No aspecto negativo pode gerar percepção excessiva de competição ou disputa por poder.
+<p>No aspecto negativo pode gerar percepção excessiva de competição ou disputa por poder.</p>
 
-O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.`,
+<p>O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.</p>`,
 
-9:`Percepção Humanitária do Meio Social. 
+9:`<h2>🔱Regente Social(Aspecto Fisico) 9</h2> 
+<h3>9️⃣Percepção Humanitária do Meio Social9️⃣</h3>
 
-Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.
+<p>Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.</p>
 
-Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário.
+<p>Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário.</p>
 
-Quando essa vibração se origina da potência 18 pode indicar percepção de conflitos emocionais no meio social.
+<p>Quando essa vibração se origina da potência 18 pode indicar percepção de conflitos emocionais no meio social.</p>
 
-Quando se origina da potência 27 revela sensibilidade espiritual nas relações humanas.
+<p>Quando se origina da potência 27 revela sensibilidade espiritual nas relações humanas.</p>
 
-Quando se origina da potência 36 pode indicar criatividade coletiva.
+<p>Quando se origina da potência 36 pode indicar criatividade coletiva.</p>
 
-Quando se origina da potência 45 revela responsabilidade social.
+<p>Quando se origina da potência 45 revela responsabilidade social.</p>
 
-Quando se origina da potência 54 pode indicar mudanças sociais importantes.
+<p>Quando se origina da potência 54 pode indicar mudanças sociais importantes.</p>
 
-Quando se origina da potência 63 revela maturidade emocional coletiva.
+<p>Quando se origina da potência 63 revela maturidade emocional coletiva.</p>
 
-Quando se origina da potência 72 indica percepção intuitiva das pessoas.
+<p>Quando se origina da potência 72 indica percepção intuitiva das pessoas.</p>
 
-Quando se origina da potência 81 revela liderança social espiritualizada.
+<p><p>Quando se origina da potência 81 revela liderança social espiritualizada.</p>
 
-Quando se origina da potência 90 pode indicar encerramento de ciclos sociais.
+<p><p>Quando se origina da potência 90 pode indicar encerramento de ciclos sociais.</p>
 
-Quando se origina da potência 99 revela compreensão profunda da humanidade.
+<p>Quando se origina da potência 99 revela compreensão profunda da humanidade.</p>
 
-No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária.
+<p>No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária.</p>
 
-No aspecto negativo pode gerar sensação de distância emocional ou desilusão com o comportamento humano.
+<p>No aspecto negativo pode gerar sensação de distância emocional ou desilusão com o comportamento humano.</p>
 
-O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria e equilíbrio.`,
+<p>O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria e equilíbrio.</p>`,
 
    
 11:"Força Social e Percepção de Liderança. Na Pirâmide Social, a Potência 11 indica que a pessoa percebe o ambiente externo como um campo de força, iniciativa e tomada de decisões. Enxerga as relações sociais como espaços onde liderança, posicionamento e atitude definem os rumos coletivos. Costuma notar quem assume o controle, quem conduz situações e quem evita responsabilidades. No aspecto positivo manifesta postura firme, visão estratégica e capacidade de compreender dinâmicas de poder. No aspecto negativo pode perceber o ambiente como excessivamente competitivo ou exigente. A Potência 11 mostra que a pessoa vive e interpreta o mundo social como um cenário de liderança e afirmação.",
@@ -1830,39 +1834,56 @@ O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade c
   const textosDestino={ 
 
 
-1:`Influência de Iniciativa e Despertar da Autonomia. 
+1:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°1</h2> 
+<h3>1️⃣Influência de Iniciativa e Despertar da Autonomia1️⃣ </h3>
+
 
 Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.
 
+
 Essa regência indica que acontecimentos externos frequentemente impulsionam você a assumir liderança, tomar decisões importantes ou iniciar novos caminhos. Muitas vezes a vida coloca diante de você circunstâncias que exigem atitude, independência e confiança na própria capacidade.
+
 
 Quando essa vibração se origina da potência 10 pode indicar influências favoráveis que despertam oportunidades de crescimento pessoal.
 
+
 Quando se origina da potência 19 pode revelar situações que desafiam o orgulho ou a necessidade de aprender lições de humildade.
+
 
 Quando se origina da potência 28 pode indicar influências externas ligadas a disputas ou desafios que exigem firmeza de caráter.
 
+
 Quando se origina da potência 37 revela acontecimentos que estimulam inteligência estratégica e tomada de decisões importantes.
+
 
 Quando se origina da potência 46 pode indicar influências ligadas ao trabalho e às conquistas materiais.
 
+
 Quando se origina da potência 55 revela situações que despertam desejo de liberdade e mudança.
+
 
 Quando se origina da potência 64 pode indicar acontecimentos inesperados que transformam sua direção de vida.
 
+
 Quando se origina da potência 73 revela influências que conduzem ao desenvolvimento da sabedoria interior.
+
 
 Quando se origina da potência 82 pode indicar situações relacionadas a poder ou responsabilidade.
 
+
 Quando se origina da potência 91 revela influências que conduzem à maturidade espiritual.
+
 
 No aspecto positivo manifesta coragem, liderança e capacidade de iniciar novos caminhos.
 
+
 No aspecto negativo pode gerar impulsividade ou tendência a enfrentar conflitos desnecessários.
+
 
 O aprendizado do Regente 1 da Influência consiste em transformar desafios externos em crescimento pessoal.`,
 
-2:`Influência de Sensibilidade e Aprendizado Emocional. 
+2:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°2</h2> 
+<h3>3️⃣Influência de Sensibilidade e Aprendizado Emocional3️⃣ </h3>
 
 Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem sensibilidade emocional, empatia e compreensão das relações humanas.
 
@@ -1890,7 +1911,8 @@ No aspecto negativo pode gerar excesso de preocupação emocional ou tendência 
 
 O aprendizado do Regente 2 da Influência consiste em desenvolver equilíbrio emocional diante das experiências da vida.`,
 
-3:`Influência de Criatividade e Expansão de Ideias. 
+3:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°3</h2> 
+<h3>3️⃣Influência de Criatividade e Expansão de Ideias3️⃣ </h3>
 
 Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam criatividade, comunicação e expressão intelectual.
 
@@ -1922,9 +1944,12 @@ No aspecto negativo pode gerar dispersão ou excesso de estímulos mentais.
 
 O aprendizado do Regente 3 da Influência consiste em transformar inspiração em realização.`,
 
-4:`Influência de Estrutura e Construção da Vida. 
+4:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°4</h2> 
+<h3>4️⃣Influência de Estrutura e Construção da Vida4️⃣</h3> 
+
 
 Para você, o Regente 4 da Influência representa a ação do universo trazendo experiências que desenvolvem disciplina, organização e construção de estabilidade.
+
 
 Essa regência indica que acontecimentos externos frequentemente exigem responsabilidade e esforço constante para alcançar segurança.
 
@@ -1954,97 +1979,146 @@ No aspecto negativo pode gerar rigidez ou excesso de responsabilidade.
 
 O aprendizado do Regente 4 da Influência consiste em construir estabilidade através da perseverança.`,
 
-5:`Influência de Mudança e Experiência. 
+5:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°5</h2>
+<h3> 5️⃣Influência de Mudança e Experiência5️⃣</h3> 
+
 
 Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.
 
+
 Essa regência indica que sua vida tende a ser influenciada por situações inesperadas, viagens, novos contatos ou mudanças de ambiente.
+
 
 Quando essa vibração se origina da potência 14 pode indicar influência de comunicação pública.
 
+
 Quando se origina da potência 23 revela proteção ou auxílio de pessoas influentes.
+
 
 Quando se origina da potência 32 pode indicar criatividade e expressão.
 
+
 Quando se origina da potência 41 revela estímulo à liderança.
+
 
 Quando se origina da potência 50 pode indicar momentos de pausa ou reflexão.
 
+
 Quando se origina da potência 59 revela influências espirituais.
+
 
 Quando se origina da potência 68 pode indicar experiências relacionadas ao poder material.
 
+
 Quando se origina da potência 77 revela forte busca por conhecimento.
+
 
 Quando se origina da potência 86 pode indicar responsabilidades intensas.
 
+
 Quando se origina da potência 95 revela transformações profundas.
+
 
 No aspecto positivo manifesta adaptação, versatilidade e espírito aventureiro.
 
+
 No aspecto negativo pode gerar instabilidade ou impulsividade.
+
 
 O aprendizado do Regente 5 da Influência consiste em transformar mudanças em crescimento.`,
 
-6:`Influência de Amor e Responsabilidade Afetiva. 
+6:`<h2>🔱Regente Destino(Aspecto Fisico e Intuitivo) n°6</h2>
+<h3> 6️⃣Influência de Amor e Responsabilidade Afetiva6️⃣</h3>  
+
 
 Para você, o Regente 6 da Influência representa a ação do universo trazendo experiências relacionadas ao amor, à família e às responsabilidades emocionais.
 
+
 Essa regência indica que muitas influências externas chegam através das relações afetivas.
+
 
 Quando essa vibração se origina da potência 15 pode indicar magnetismo emocional.
 
+
 Quando se origina da potência 24 revela ambientes harmoniosos.
+
 
 Quando se origina da potência 33 indica forte influência de generosidade e ajuda aos outros.
 
+
 Quando se origina da potência 42 pode indicar responsabilidades familiares.
+
 
 Quando se origina da potência 51 revela mudanças emocionais importantes.
 
+
 Quando se origina da potência 60 indica momentos de reflexão afetiva.
+
 
 Quando se origina da potência 69 revela profunda sensibilidade emocional.
 
+
 Quando se origina da potência 78 pode indicar desafios nos relacionamentos.
+
 
 Quando se origina da potência 87 revela aprendizado espiritual através das relações.
 
+
 Quando se origina da potência 96 indica maturidade emocional ao longo da vida.
+
 
 No aspecto positivo manifesta amor, harmonia e responsabilidade afetiva.
 
+
 No aspecto negativo pode gerar dependência emocional.
+
 
 O aprendizado do Regente 6 da Influência consiste em desenvolver equilíbrio nas relações.`,
 
-7:`Influência de Conhecimento e Despertar Espiritual. Para você, o Regente 7 da Influência representa a ação do universo trazendo experiências que despertam reflexão, busca de conhecimento e compreensão espiritual.
+7:`
+Influência de Conhecimento e Despertar Espiritual. 
+
+Para você, o Regente 7 da Influência representa a ação do universo trazendo experiências que despertam reflexão, busca de conhecimento e compreensão espiritual.
+
 
 Essa regência indica que acontecimentos externos muitas vezes conduzem você ao estudo, à introspecção ou à busca de significado mais profundo para a vida.
 
+
 Quando essa vibração se origina da potência 16 pode indicar eventos que provocam grandes mudanças na visão de mundo.
+
 
 Quando se origina da potência 25 revela sensibilidade intelectual.
 
+
 Quando se origina da potência 34 pode indicar criatividade mental.
+
 
 Quando se origina da potência 43 revela liderança intelectual.
 
+
 Quando se origina da potência 52 indica aprendizado através da experiência.
+
 
 Quando se origina da potência 61 revela sensibilidade espiritual.
 
+
 Quando se origina da potência 70 pode indicar períodos de recolhimento.
+
 
 Quando se origina da potência 79 revela intensa busca por conhecimento.
 
+
 Quando se origina da potência 88 pode indicar grande poder mental.
+
 
 Quando se origina da potência 97 revela maturidade espiritual profunda.
 
+
 No aspecto positivo manifesta sabedoria e compreensão profunda da vida.
 
+
 No aspecto negativo pode gerar isolamento ou excesso de introspecção.
+
 
 O aprendizado do Regente 7 da Influência consiste em transformar experiências em sabedoria.`,
 
@@ -3702,6 +3776,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
