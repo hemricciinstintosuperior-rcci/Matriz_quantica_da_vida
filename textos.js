@@ -1066,88 +1066,288 @@ No aspecto positivo manifesta autoconhecimento profundo.
 No aspecto negativo pode gerar sensação de caos emocional. 
 A Potência 58 ensina que a realidade é percebida como despertar através das crises.`,
   
-59:`Descobertas Emocionais e Expansão Interior. Na Pirâmide Pessoal, a Potência 59 faz com que a pessoa perceba a realidade como revelações internas e crescimento psicológico. No aspecto positivo manifesta entusiasmo emocional. No aspecto negativo pode gerar confusão interna. A Potência 59 ensina que a realidade é percebida como descoberta contínua.`,
-  
-61:`Recolhimento Interior e Recuperação Emocional. Na Pirâmide Pessoal, a Potência 61 faz com que a pessoa perceba a realidade como necessidade de pausas e silêncio emocional. No aspecto positivo manifesta introspecção e equilíbrio. No aspecto negativo pode gerar isolamento. A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.`,
-  
-62:`Dor Emocional e Libertação Interior. Na Pirâmide Pessoal, a Potência 62 faz com que a pessoa perceba a realidade como processo de cura emocional. No aspecto positivo manifesta perdão e libertação interna. No aspecto negativo pode gerar tristeza e apego ao passado. A Potência 62 ensina que a realidade é percebida como libertação emocional.`,
-  
-63:`Dúvidas Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 63 faz com que a pessoa perceba a realidade como fase de questionamentos. No aspecto positivo manifesta análise e reorganização interna. No aspecto negativo pode gerar insegurança e bloqueios. A Potência 63 ensina que a realidade é percebida como processo de reflexão.`,
-64:`Persistência Emocional e Superação Interior. Na Pirâmide Pessoal, a Potência 64 faz com que a pessoa perceba a realidade como luta interna constante. No aspecto positivo manifesta força emocional. No aspecto negativo pode gerar rigidez emocional. A Potência 64 ensina que a realidade é percebida como superação contínua.`,
-  
-65:`Ascensão Interior e Busca de Propósito. Na Pirâmide Pessoal, a Potência 65 faz com que a pessoa perceba a realidade como crescimento interior alinhado ao propósito de vida. No aspecto positivo manifesta clareza emocional. No aspecto negativo pode gerar ambição excessiva. A Potência 65 ensina que a realidade é percebida como busca de propósito.`,
-  
-66:`Autenticidade Emocional e Expressão do Eu. Na Pirâmide Pessoal, a Potência 66 faz com que a pessoa perceba a realidade como necessidade de ser verdadeira consigo mesma. No aspecto positivo manifesta identidade forte. No aspecto negativo pode gerar medo de julgamento. A Potência 66 ensina que a realidade é percebida como busca por autenticidade.`,
-  
-67:`Confiança Interior e Realização Psicológica. Na Pirâmide Pessoal, a Potência 67 faz com que a pessoa perceba a realidade como capacidade de concretizar sonhos internos. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar materialismo emocional. A Potência 67 ensina que a realidade é percebida como concretização interior.`,
-  
-68:`Valor Pessoal e Autoestima Emocional. Na Pirâmide Pessoal, a Potência 68 faz com que a pessoa perceba a realidade como reconhecimento do próprio valor. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar vaidade emocional. A Potência 68 ensina que a realidade é percebida como valorização interior.`,
-  
-69:`Plenitude Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 69 faz com que a pessoa perceba a realidade como colheita emocional. No aspecto positivo manifesta felicidade interna. No aspecto negativo pode gerar excesso de satisfação e acomodação. A Potência 69 ensina que a realidade é percebida como plenitude interior.`,
-  
-70:`Autossuficiência Emocional e Segurança Interna. Na Pirâmide Pessoal, a Potência 70 faz com que a pessoa perceba a realidade como busca por independência emocional. No aspecto positivo manifesta estabilidade interior. No aspecto negativo pode gerar isolamento emocional. A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.`,
-  
-71:`Prudência Emocional e Conservação Interior. Na Pirâmide Pessoal, a Potência 71 faz com que a pessoa perceba a realidade como necessidade de preservar conquistas emocionais. No aspecto positivo manifesta maturidade e planejamento. No aspecto negativo pode gerar medo de mudanças. A Potência 71 ensina que a realidade é percebida como preservação interior.`,
-  
-72:`Clareza Mental e Direção Emocional. Na Pirâmide Pessoal, a Potência 72 faz com que a pessoa perceba a realidade como busca por direção clara. No aspecto positivo manifesta discernimento. No aspecto negativo pode gerar rigidez emocional. A Potência 72 ensina que a realidade é percebida como clareza interior.`,
-  
-73:`Generosidade Emocional e Trocas Afetivas. Na Pirâmide Pessoal, a Potência 73 faz com que a pessoa perceba a realidade como trocas emocionais constantes. No aspecto positivo manifesta empatia. No aspecto negativo pode gerar ilusões afetivas. A Potência 73 ensina que a realidade é percebida como troca emocional.`,
-  
-74:`Instabilidade Interior e Reconstrução Emocional. Na Pirâmide Pessoal, a Potência 74 faz com que a pessoa perceba a realidade como necessidade de reorganização interna. No aspecto positivo manifesta superação emocional. No aspecto negativo pode gerar insegurança. A Potência 74 ensina que a realidade é percebida como reconstrução interior.`,
-  
-75:`Segurança Emocional e Consolidação Interior. Na Pirâmide Pessoal, a Potência 75 faz com que a pessoa perceba a realidade como busca por estabilidade emocional. No aspecto positivo manifesta segurança interna. No aspecto negativo pode gerar apego emocional. A Potência 75 ensina que a realidade é percebida como consolidação emocional.`,
-  
-76:`Reconhecimento Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 76 faz com que a pessoa perceba a realidade como valorização do próprio esforço interno. No aspecto positivo manifesta crescimento emocional. No aspecto negativo pode gerar ansiedade por resultados. A Potência 76 ensina que a realidade é percebida como reconhecimento interior.`,
-  
-77:`Despertar Espiritual e Transformação Psicológica. Na Pirâmide Pessoal, a Potência 77 faz com que a pessoa perceba a realidade como evolução espiritual interna. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar instabilidade emocional. A Potência 77 ensina que a realidade é percebida como despertar interior.`,
-  
-78:`Alegria Interior e Expansão Emocional. Na Pirâmide Pessoal, a Potência 78 faz com que a pessoa perceba a realidade como fases de felicidade emocional. No aspecto positivo manifesta entusiasmo e alegria. No aspecto negativo pode gerar excessos emocionais. A Potência 78 ensina que a realidade é percebida como expansão emocional.`,
+59:`Descobertas Emocionais e Expansão Interior. 
 
-79:`Libertação Emocional e Novo Começo Interior. Na Pirâmide Pessoal, a Potência 79 faz com que a pessoa perceba a realidade como necessidade de recomeçar emocionalmente. No aspecto positivo manifesta independência emocional. No aspecto negativo pode gerar instabilidade. A Potência 79 ensina que a realidade é percebida como libertação.`,
+Na Pirâmide Pessoal, a Potência 59 faz com que você perceba a realidade como revelações internas e crescimento psicológico. 
+No aspecto positivo manifesta entusiasmo emocional. 
+No aspecto negativo pode gerar confusão interna. 
+A Potência 59 ensina que a realidade é percebida como descoberta contínua.`,
   
-81:`Consciência Cármica e Responsabilidade Interior. Na Pirâmide Pessoal, a Potência 81 faz com que a pessoa perceba a realidade como aprendizado através das consequências. No aspecto positivo manifesta maturidade emocional. No aspecto negativo pode gerar sensação de peso emocional. A Potência 81 ensina que a realidade é percebida como responsabilidade interior.`,
+61:`Recolhimento Interior e Recuperação Emocional. 
+
+Na Pirâmide Pessoal, a Potência 61 faz com que você perceba a realidade como necessidade de pausas e silêncio emocional. 
+No aspecto positivo manifesta introspecção e equilíbrio. 
+No aspecto negativo pode gerar isolamento. 
+A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.`,
   
-82:`Ciclos Emocionais e Padrões Internos. Na Pirâmide Pessoal, a Potência 82 faz com que a pessoa perceba a realidade como repetição de padrões emocionais. No aspecto positivo manifesta consciência dos ciclos. No aspecto negativo pode gerar sensação de repetição constante. A Potência 82 ensina que a realidade é percebida como ciclos emocionais.`,
+62:`Dor Emocional e Libertação Interior. 
+
+Na Pirâmide Pessoal, a Potência 62 faz com que você perceba a realidade como processo de cura emocional. 
+No aspecto positivo manifesta perdão e libertação interna. 
+No aspecto negativo pode gerar tristeza e apego ao passado. 
+A Potência 62 ensina que a realidade é percebida como libertação emocional.`,
   
-83:`Autocontrole Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 83 faz com que a pessoa perceba a realidade como busca por domínio emocional. No aspecto positivo manifesta equilíbrio interno. No aspecto negativo pode gerar controle excessivo. A Potência 83 ensina que a realidade é percebida como autodomínio.`,
+63:`Dúvidas Internas e Reflexão Profunda. 
+
+Na Pirâmide Pessoal, a Potência 63 faz com que você perceba a realidade como fase de questionamentos. 
+No aspecto positivo manifesta análise e reorganização interna. 
+No aspecto negativo pode gerar insegurança e bloqueios. 
+A Potência 63 ensina que a realidade é percebida como processo de reflexão.`,
   
-84:`Propósito Interior e Missão Emocional. Na Pirâmide Pessoal, a Potência 84 faz com que a pessoa perceba a realidade como desejo de ter propósito. No aspecto positivo manifesta senso de missão interna. No aspecto negativo pode gerar sobrecarga emocional. A Potência 84 ensina que a realidade é percebida como missão interior.`,
+64:`Persistência Emocional e Superação Interior. 
+
+Na Pirâmide Pessoal, a Potência 64 faz com que você perceba a realidade como luta interna constante. 
+No aspecto positivo manifesta força emocional. 
+No aspecto negativo pode gerar rigidez emocional. 
+A Potência 64 ensina que a realidade é percebida como superação contínua.`,
   
-85:`Crise Interior e Recolhimento Emocional. Na Pirâmide Pessoal, a Potência 85 faz com que a pessoa perceba a realidade como períodos de isolamento emocional. No aspecto positivo manifesta transformação interior. No aspecto negativo pode gerar tristeza profunda. A Potência 85 ensina que a realidade é percebida como reflexão profunda.`,
+65:`Ascensão Interior e Busca de Propósito. 
+
+Na Pirâmide Pessoal, a Potência 65 faz com que você perceba a realidade como crescimento interior alinhado ao propósito de vida. 
+No aspecto positivo manifesta clareza emocional. 
+No aspecto negativo pode gerar ambição excessiva. 
+A Potência 65 ensina que a realidade é percebida como busca de propósito.`,
   
-86:`Persistência Emocional e Determinação Interna. Na Pirâmide Pessoal, a Potência 86 faz com que a pessoa perceba a realidade como desafios que exigem força emocional. No aspecto positivo manifesta determinação. No aspecto negativo pode gerar desgaste emocional. A Potência 86 ensina que a realidade é percebida como perseverança.`,
+66:`Autenticidade Emocional e Expressão do Eu. 
+
+Na Pirâmide Pessoal, a Potência 66 faz com que você perceba a realidade como necessidade de ser verdadeira consigo mesma. 
+No aspecto positivo manifesta identidade forte. 
+No aspecto negativo pode gerar medo de julgamento. 
+A Potência 66 ensina que a realidade é percebida como busca por autenticidade.`,
   
-87:`Controle de Impulsos e Conflitos Internos. Na Pirâmide Pessoal, a Potência 87 faz com que a pessoa perceba a realidade como luta contra excessos emocionais. No aspecto positivo manifesta libertação de vícios emocionais. No aspecto negativo pode gerar autossabotagem. A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.`,
+67:`Confiança Interior e Realização Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 67 faz com que você perceba a realidade como capacidade de concretizar sonhos internos. 
+No aspecto positivo manifesta autoconfiança emocional. 
+No aspecto negativo pode gerar materialismo emocional. 
+A Potência 67 ensina que a realidade é percebida como concretização interior.`,
   
-88:`Colapso Emocional e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 88 faz com que a pessoa perceba a realidade como mudanças profundas internas. No aspecto positivo manifesta renascimento emocional. No aspecto negativo pode gerar sensação de caos interior. A Potência 88 ensina que a realidade é percebida como reconstrução.`,
+68:`Valor Pessoal e Autoestima Emocional. 
+
+Na Pirâmide Pessoal, a Potência 68 faz com que você perceba a realidade como reconhecimento do próprio valor. 
+No aspecto positivo manifesta autoestima elevada. 
+No aspecto negativo pode gerar vaidade emocional. 
+A Potência 68 ensina que a realidade é percebida como valorização interior.`,
   
-89:`Expectativas Emocionais e Aprendizado Interior. Na Pirâmide Pessoal, a Potência 89 faz com que a pessoa perceba a realidade como tensão entre desejo e realidade emocional. No aspecto positivo manifesta amadurecimento. No aspecto negativo pode gerar frustração. A Potência 89 ensina que a realidade é percebida como aprendizado emocional.`,
+69:`Plenitude Emocional e Realização Interior. 
+
+Na Pirâmide Pessoal, a Potência 69 faz com que você perceba a realidade como colheita emocional. 
+No aspecto positivo manifesta felicidade interna. 
+No aspecto negativo pode gerar excesso de satisfação e acomodação. 
+A Potência 69 ensina que a realidade é percebida como plenitude interior.`,
   
-90:`Sabedoria Interior e Silêncio Emocional. Na Pirâmide Pessoal, a Potência 90 faz com que a pessoa perceba a realidade como necessidade de introspecção profunda. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar isolamento. A Potência 90 ensina que a realidade é percebida como busca espiritual interior.`,
+70:`Autossuficiência Emocional e Segurança Interna. 
+
+Na Pirâmide Pessoal, a Potência 70 faz com que você perceba a realidade como busca por independência emocional. 
+No aspecto positivo manifesta estabilidade interior. 
+No aspecto negativo pode gerar isolamento emocional. 
+A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.`,
   
-91:`Retorno Emocional e Responsabilidade Psicológica. Na Pirâmide Pessoal, a Potência 91 faz com que a pessoa perceba a realidade como retorno de suas próprias ações emocionais. No aspecto positivo manifesta maturidade. No aspecto negativo pode gerar sensação de peso emocional. A Potência 91 ensina que a realidade é percebida como retorno interno.`,
+71:`Prudência Emocional e Conservação Interior. 
+
+Na Pirâmide Pessoal, a Potência 71 faz com que você perceba a realidade como necessidade de preservar conquistas emocionais. 
+No aspecto positivo manifesta maturidade e planejamento. 
+No aspecto negativo pode gerar medo de mudanças. 
+A Potência 71 ensina que a realidade é percebida como preservação interior.`,
   
-92:`Reavaliação Interior e Questionamentos Emocionais. Na Pirâmide Pessoal, a Potência 92 faz com que a pessoa perceba a realidade como revisão constante de escolhas internas. No aspecto positivo manifesta reflexão profunda. No aspecto negativo pode gerar insegurança emocional. A Potência 92 ensina que a realidade é percebida como reavaliação.`,
+72:`Clareza Mental e Direção Emocional. 
+
+Na Pirâmide Pessoal, a Potência 72 faz com que você perceba a realidade como busca por direção clara. 
+No aspecto positivo manifesta discernimento. 
+No aspecto negativo pode gerar rigidez emocional. 
+A Potência 72 ensina que a realidade é percebida como clareza interior.`,
   
-93:`Expansão Espiritual e Evolução Interior. Na Pirâmide Pessoal, a Potência 93 faz com que a pessoa perceba a realidade como crescimento espiritual e emocional. No aspecto positivo manifesta consciência elevada. No aspecto negativo pode gerar distanciamento emocional. A Potência 93 ensina que a realidade é percebida como evolução.`,
+73:`Generosidade Emocional e Trocas Afetivas. 
+
+Na Pirâmide Pessoal, a Potência 73 faz com que você perceba a realidade como trocas emocionais constantes. 
+No aspecto positivo manifesta empatia. 
+No aspecto negativo pode gerar ilusões afetivas. 
+A Potência 73 ensina que a realidade é percebida como troca emocional.`,
   
-94:`Cansaço Emocional e Transição Interior. Na Pirâmide Pessoal, a Potência 94 faz com que a pessoa perceba a realidade como necessidade de pausa emocional. No aspecto positivo manifesta reorientação interna. No aspecto negativo pode gerar desânimo. A Potência 94 ensina que a realidade é percebida como transição.`,
+74:`Instabilidade Interior e Reconstrução Emocional. 
+
+Na Pirâmide Pessoal, a Potência 74 faz com que você perceba a realidade como necessidade de reorganização interna. 
+No aspecto positivo manifesta superação emocional. 
+No aspecto negativo pode gerar insegurança. 
+A Potência 74 ensina que a realidade é percebida como reconstrução interior.`,
   
-95:`Harmonia Interior e Reconhecimento Emocional. Na Pirâmide Pessoal, a Potência 95 faz com que a pessoa perceba a realidade como busca por equilíbrio emocional nas relações. No aspecto positivo manifesta aceitação emocional. No aspecto negativo pode gerar dependência de aprovação. A Potência 95 ensina que a realidade é percebida como harmonia.`,
+75:`Segurança Emocional e Consolidação Interior. 
+
+Na Pirâmide Pessoal, a Potência 75 faz com que você perceba a realidade como busca por estabilidade emocional. 
+No aspecto positivo manifesta segurança interna. 
+No aspecto negativo pode gerar apego emocional. 
+A Potência 75 ensina que a realidade é percebida como consolidação emocional.`,
   
-96:`Queda de Ilusões e Clareza Emocional. Na Pirâmide Pessoal, a Potência 96 faz com que a pessoa perceba a realidade como confronto com ilusões internas. No aspecto positivo manifesta libertação emocional. No aspecto negativo pode gerar confusão afetiva. A Potência 96 ensina que a realidade é percebida como despertar emocional.`,
+76:`Reconhecimento Interior e Construção Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 76 faz com que você perceba a realidade como valorização do próprio esforço interno. 
+No aspecto positivo manifesta crescimento emocional. 
+No aspecto negativo pode gerar ansiedade por resultados. 
+A Potência 76 ensina que a realidade é percebida como reconhecimento interior.`,
   
-97:`Rupturas Emocionais e Descoberta Interior. Na Pirâmide Pessoal, a Potência 97 faz com que a pessoa perceba a realidade como mudanças que revelam propósito emocional. No aspecto positivo manifesta libertação. No aspecto negativo pode gerar conflitos internos. A Potência 97 ensina que a realidade é percebida como redirecionamento.`,
+77:`Despertar Espiritual e Transformação Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 77 faz com que você perceba a realidade como evolução espiritual interna. 
+No aspecto positivo manifesta sabedoria emocional. 
+No aspecto negativo pode gerar instabilidade emocional. 
+A Potência 77 ensina que a realidade é percebida como despertar interior.`,
   
-98:`Reconhecimento Interior e Elevação Emocional. Na Pirâmide Pessoal, a Potência 98 faz com que a pessoa perceba a realidade como recompensa emocional por esforços internos. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar orgulho emocional. A Potência 98 ensina que a realidade é percebida como reconhecimento.`,
+78:`Alegria Interior e Expansão Emocional. 
+
+Na Pirâmide Pessoal, a Potência 78 faz com que você perceba a realidade como fases de felicidade emocional. 
+No aspecto positivo manifesta entusiasmo e alegria. 
+No aspecto negativo pode gerar excessos emocionais. 
+A Potência 78 ensina que a realidade é percebida como expansão emocional.`,
+
+79:`Libertação Emocional e Novo Começo Interior. 
+
+Na Pirâmide Pessoal, a Potência 79 faz com que você perceba a realidade como necessidade de recomeçar emocionalmente. 
+No aspecto positivo manifesta independência emocional. 
+No aspecto negativo pode gerar instabilidade. 
+A Potência 79 ensina que a realidade é percebida como libertação.`,
   
-99:`Consciência Suprema e Integração Interior. Na Pirâmide Pessoal, a Potência 99 faz com que a pessoa perceba a realidade como integração total da experiência emocional. No aspecto positivo manifesta sabedoria profunda. No aspecto negativo pode gerar isolamento emocional. A Potência 99 ensina que a realidade é percebida como integração da consciência.`};
+81:`Consciência Cármica e Responsabilidade Interior. 
+
+Na Pirâmide Pessoal, a Potência 81 faz com que você perceba a realidade como aprendizado através das consequências. 
+
+No aspecto positivo manifesta maturidade emocional. 
+No aspecto negativo pode gerar sensação de peso emocional. 
+A Potência 81 ensina que a realidade é percebida como responsabilidade interior.`,
+  
+82:`Ciclos Emocionais e Padrões Internos. 
+
+Na Pirâmide Pessoal, a Potência 82 faz com que você perceba a realidade como repetição de padrões emocionais. 
+No aspecto positivo manifesta consciência dos ciclos. 
+No aspecto negativo pode gerar sensação de repetição constante. 
+A Potência 82 ensina que a realidade é percebida como ciclos emocionais.`,
+  
+83:`Autocontrole Emocional e Harmonia Interior. 
+
+Na Pirâmide Pessoal, a Potência 83 faz com que você perceba a realidade como busca por domínio emocional. 
+No aspecto positivo manifesta equilíbrio interno. 
+No aspecto negativo pode gerar controle excessivo. 
+A Potência 83 ensina que a realidade é percebida como autodomínio.`,
+  
+84:`Propósito Interior e Missão Emocional. 
+
+Na Pirâmide Pessoal, a Potência 84 faz com que você perceba a realidade como desejo de ter propósito. 
+No aspecto positivo manifesta senso de missão interna. 
+No aspecto negativo pode gerar sobrecarga emocional. 
+A Potência 84 ensina que a realidade é percebida como missão interior.`,
+  
+85:`Crise Interior e Recolhimento Emocional. 
+
+Na Pirâmide Pessoal, a Potência 85 faz com que você perceba a realidade como períodos de isolamento emocional. 
+No aspecto positivo manifesta transformação interior. 
+No aspecto negativo pode gerar tristeza profunda. 
+A Potência 85 ensina que a realidade é percebida como reflexão profunda.`,
+  
+86:`Persistência Emocional e Determinação Interna. 
+
+Na Pirâmide Pessoal, a Potência 86 faz com que você perceba a realidade como desafios que exigem força emocional. 
+No aspecto positivo manifesta determinação. 
+No aspecto negativo pode gerar desgaste emocional. 
+A Potência 86 ensina que a realidade é percebida como perseverança.`,
+  
+87:`Controle de Impulsos e Conflitos Internos. 
+
+Na Pirâmide Pessoal, a Potência 87 faz com que você perceba a realidade como luta contra excessos emocionais. 
+No aspecto positivo manifesta libertação de vícios emocionais. 
+No aspecto negativo pode gerar autossabotagem. 
+A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.`,
+  
+88:`Colapso Emocional e Reconstrução Interior. 
+
+Na Pirâmide Pessoal, a Potência 88 faz com que você perceba a realidade como mudanças profundas internas. 
+No aspecto positivo manifesta renascimento emocional. 
+No aspecto negativo pode gerar sensação de caos interior. 
+A Potência 88 ensina que a realidade é percebida como reconstrução.`,
+  
+89:`Expectativas Emocionais e Aprendizado Interior. 
+
+Na Pirâmide Pessoal, a Potência 89 faz com que você perceba a realidade como tensão entre desejo e realidade emocional. 
+
+No aspecto positivo manifesta amadurecimento. 
+No aspecto negativo pode gerar frustração. 
+A Potência 89 ensina que a realidade é percebida como aprendizado emocional.`,
+  
+90:`Sabedoria Interior e Silêncio Emocional. 
+
+Na Pirâmide Pessoal, a Potência 90 faz com que você perceba a realidade como necessidade de introspecção profunda. 
+No aspecto positivo manifesta sabedoria emocional. 
+No aspecto negativo pode gerar isolamento. 
+A Potência 90 ensina que a realidade é percebida como busca espiritual interior.`,
+  
+91:`Retorno Emocional e Responsabilidade Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 91 faz com que você perceba a realidade como retorno de suas próprias ações emocionais. 
+No aspecto positivo manifesta maturidade. 
+No aspecto negativo pode gerar sensação de peso emocional. 
+A Potência 91 ensina que a realidade é percebida como retorno interno.`,
+  
+92:`Reavaliação Interior e Questionamentos Emocionais. 
+
+Na Pirâmide Pessoal, a Potência 92 faz com que você perceba a realidade como revisão constante de escolhas internas. 
+No aspecto positivo manifesta reflexão profunda. 
+No aspecto negativo pode gerar insegurança emocional. 
+A Potência 92 ensina que a realidade é percebida como reavaliação.`,
+  
+93:`Expansão Espiritual e Evolução Interior. 
+
+Na Pirâmide Pessoal, a Potência 93 faz com que você perceba a realidade como crescimento espiritual e emocional. 
+No aspecto positivo manifesta consciência elevada. 
+No aspecto negativo pode gerar distanciamento emocional. 
+A Potência 93 ensina que a realidade é percebida como evolução.`,
+  
+94:`Cansaço Emocional e Transição Interior. 
+
+Na Pirâmide Pessoal, a Potência 94 faz com que você perceba a realidade como necessidade de pausa emocional. 
+No aspecto positivo manifesta reorientação interna. 
+No aspecto negativo pode gerar desânimo. 
+A Potência 94 ensina que a realidade é percebida como transição.`,
+  
+95:`Harmonia Interior e Reconhecimento Emocional. 
+
+Na Pirâmide Pessoal, a Potência 95 faz com que você perceba a realidade como busca por equilíbrio emocional nas relações. 
+No aspecto positivo manifesta aceitação emocional. 
+No aspecto negativo pode gerar dependência de aprovação. 
+A Potência 95 ensina que a realidade é percebida como harmonia.`,
+  
+96:`Queda de Ilusões e Clareza Emocional. 
+
+Na Pirâmide Pessoal, a Potência 96 faz com que você perceba a realidade como confronto com ilusões internas. 
+No aspecto positivo manifesta libertação emocional. 
+No aspecto negativo pode gerar confusão afetiva. 
+A Potência 96 ensina que a realidade é percebida como despertar emocional.`,
+  
+97:`Rupturas Emocionais e Descoberta Interior. 
+
+Na Pirâmide Pessoal, a Potência 97 faz com que você perceba a realidade como mudanças que revelam propósito emocional. 
+No aspecto positivo manifesta libertação. 
+No aspecto negativo pode gerar conflitos internos. 
+A Potência 97 ensina que a realidade é percebida como redirecionamento.`,
+  
+98:`Reconhecimento Interior e Elevação Emocional. 
+
+Na Pirâmide Pessoal, a Potência 98 faz com que você perceba a realidade como recompensa emocional por esforços internos. 
+No aspecto positivo manifesta autoestima elevada. 
+No aspecto negativo pode gerar orgulho emocional. 
+A Potência 98 ensina que a realidade é percebida como reconhecimento.`,
+  
+99:`Consciência Suprema e Integração Interior. 
+
+Na Pirâmide Pessoal, a Potência 99 faz com que você perceba a realidade como integração total da experiência emocional. 
+No aspecto positivo manifesta sabedoria profunda. 
+No aspecto negativo pode gerar isolamento emocional. 
+A Potência 99 ensina que a realidade é percebida como integração da consciência.`};
 
   const textosSocial={ 
 
 
 
-1:`Percepção de Liderança no Meio Social. Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.
+1:`Percepção de Liderança no Meio Social. 
+
+Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.
 
 Essa regência indica que você tende a observar o meio social como um espaço onde indivíduos buscam afirmar suas ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe nas outras pessoas atitudes de competição, iniciativa ou desejo de se destacar.
 
@@ -1177,7 +1377,9 @@ No aspecto negativo pode gerar tendência a perceber o meio social como competit
 
 O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.`,
 
-2:`Percepção Sensível das Relações Sociais. Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.
+2:`Percepção Sensível das Relações Sociais. 
+
+Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.
 
 Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos que outras pessoas não percebem com facilidade.
 
@@ -1203,7 +1405,9 @@ No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos
 
 O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.`,
 
-3:`Percepção Criativa das Relações Sociais. Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.
+3:`Percepção Criativa das Relações Sociais. 
+
+Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.
 
 Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade.
 
@@ -1233,7 +1437,9 @@ No aspecto negativo pode gerar tendência a perceber superficialidade nas intera
 
 O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.`,
 
-4:`Percepção Estruturada do Ambiente Social. Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.
+4:`Percepção Estruturada do Ambiente Social. 
+
+Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.
 
 Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas.
 
@@ -1263,7 +1469,9 @@ No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das 
 
 O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.`,
 
-5:`Percepção Dinâmica do Meio Social. Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.
+5:`Percepção Dinâmica do Meio Social. 
+
+Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.
 
 Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências.
 
@@ -1293,7 +1501,9 @@ No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade
 
 O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.`,
 
-6:`Percepção Afetiva do Meio Social. Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.
+6:`Percepção Afetiva do Meio Social. 
+
+Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.
 
 Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas.
 
@@ -1323,7 +1533,9 @@ No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre 
 
 O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.`,
 
-7:`Percepção Analítica do Meio Social. Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.
+7:`Percepção Analítica do Meio Social. 
+
+Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.
 
 Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações.
 
@@ -1353,7 +1565,9 @@ No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de
 
 O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.`,
 
-8:`Percepção de Poder no Meio Social. Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.
+8:`Percepção de Poder no Meio Social. 
+
+Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.
 
 Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência.
 
@@ -1383,7 +1597,9 @@ No aspecto negativo pode gerar percepção excessiva de competição ou disputa 
 
 O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.`,
 
-9:`Percepção Humanitária do Meio Social. Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.
+9:`Percepção Humanitária do Meio Social. 
+
+Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.
 
 Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário.
 
@@ -1590,7 +1806,9 @@ O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade c
   const textosDestino={ 
 
 
-1:`Influência de Iniciativa e Despertar da Autonomia. Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.
+1:`Influência de Iniciativa e Despertar da Autonomia. 
+
+Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.
 
 Essa regência indica que acontecimentos externos frequentemente impulsionam você a assumir liderança, tomar decisões importantes ou iniciar novos caminhos. Muitas vezes a vida coloca diante de você circunstâncias que exigem atitude, independência e confiança na própria capacidade.
 
@@ -1620,7 +1838,9 @@ No aspecto negativo pode gerar impulsividade ou tendência a enfrentar conflitos
 
 O aprendizado do Regente 1 da Influência consiste em transformar desafios externos em crescimento pessoal.`,
 
-2:`Influência de Sensibilidade e Aprendizado Emocional. Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem sensibilidade emocional, empatia e compreensão das relações humanas.
+2:`Influência de Sensibilidade e Aprendizado Emocional. 
+
+Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem sensibilidade emocional, empatia e compreensão das relações humanas.
 
 Essa regência indica que muitas influências externas chegam até você através das relações com outras pessoas. Situações emocionais, encontros e vínculos afetivos tendem a desempenhar papel importante em seu crescimento.
 
@@ -1646,7 +1866,9 @@ No aspecto negativo pode gerar excesso de preocupação emocional ou tendência 
 
 O aprendizado do Regente 2 da Influência consiste em desenvolver equilíbrio emocional diante das experiências da vida.`,
 
-3:`Influência de Criatividade e Expansão de Ideias. Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam criatividade, comunicação e expressão intelectual.
+3:`Influência de Criatividade e Expansão de Ideias. 
+
+Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam criatividade, comunicação e expressão intelectual.
 
 Essa regência indica que acontecimentos externos frequentemente despertam em você novas ideias, formas de expressão ou oportunidades de compartilhar pensamentos.
 
@@ -1676,7 +1898,9 @@ No aspecto negativo pode gerar dispersão ou excesso de estímulos mentais.
 
 O aprendizado do Regente 3 da Influência consiste em transformar inspiração em realização.`,
 
-4:`Influência de Estrutura e Construção da Vida. Para você, o Regente 4 da Influência representa a ação do universo trazendo experiências que desenvolvem disciplina, organização e construção de estabilidade.
+4:`Influência de Estrutura e Construção da Vida. 
+
+Para você, o Regente 4 da Influência representa a ação do universo trazendo experiências que desenvolvem disciplina, organização e construção de estabilidade.
 
 Essa regência indica que acontecimentos externos frequentemente exigem responsabilidade e esforço constante para alcançar segurança.
 
@@ -1706,7 +1930,9 @@ No aspecto negativo pode gerar rigidez ou excesso de responsabilidade.
 
 O aprendizado do Regente 4 da Influência consiste em construir estabilidade através da perseverança.`,
 
-5:`Influência de Mudança e Experiência. Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.
+5:`Influência de Mudança e Experiência. 
+
+Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.
 
 Essa regência indica que sua vida tende a ser influenciada por situações inesperadas, viagens, novos contatos ou mudanças de ambiente.
 
@@ -1736,7 +1962,9 @@ No aspecto negativo pode gerar instabilidade ou impulsividade.
 
 O aprendizado do Regente 5 da Influência consiste em transformar mudanças em crescimento.`,
 
-6:`Influência de Amor e Responsabilidade Afetiva. Para você, o Regente 6 da Influência representa a ação do universo trazendo experiências relacionadas ao amor, à família e às responsabilidades emocionais.
+6:`Influência de Amor e Responsabilidade Afetiva. 
+
+Para você, o Regente 6 da Influência representa a ação do universo trazendo experiências relacionadas ao amor, à família e às responsabilidades emocionais.
 
 Essa regência indica que muitas influências externas chegam através das relações afetivas.
 
@@ -3450,6 +3678,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
