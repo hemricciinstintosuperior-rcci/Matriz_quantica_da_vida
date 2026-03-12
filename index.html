@@ -279,112 +279,72 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     return contadorReal > 0 ? h + "</div>" : "";
 }
 
-function montarConteudoComIntros(
-linhas,
-regente,
-txtReg,
-crono,
-txtVig,
-nomePiramide,
-txtNeg,
-txtEsp,
-txtFin
-){
-
-let html = "";
-
-/* TÍTULO + PIRÂMIDE */
-
-html += `<div class="box">`;
-html += `<h2>${nomePiramide}</h2>`;
-html += desenhar(linhas, true, txtEsp);
-html += `</div>`;
-
-
-/* identifica tipo da pirâmide */
-
-let tipo = "vida";
-if(nomePiramide.includes("Pessoal")) tipo = "pessoal";
-if(nomePiramide.includes("Social")) tipo = "social";
-if(nomePiramide.includes("Destino")) tipo = "destino";
-
-/* intros */
-
-const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
-
-
-/* REGENTE */
-
-if(intro.regente){
-html += `<div class="box">${intro.regente}</div>`;
+// 1. Função que limpa e personaliza qualquer texto que venha do banco
+function personalizarTexto(texto) {
+    if (!texto) return "";
+    const nomeCompleto = document.getElementById("nome").value.trim();
+    const primeiroNome = nomeCompleto.split(" ")[0] || "você";
+    
+    // Substitui a marcação "de você" pelo primeiro nome em negrito
+    return texto.replace(/de você/g, `de <strong>${primeiroNome}</strong>`);
 }
 
-if(txtReg && txtReg[regente]){
-html += `<div class="box">${txtReg[regente]}</div>`;
+// 2. Nova versão da montarConteudoComIntros (Ajustada para processar os textos)
+function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePiramide, txtNeg, txtEsp, txtFin) {
+    let html = "";
+
+    /* TÍTULO + PIRÂMIDE */
+    html += `<div class="box">`;
+    html += `<h2>${nomePiramide}</h2>`;
+    html += desenhar(linhas, true, txtEsp);
+    html += `</div>`;
+
+    let tipo = "vida";
+    if(nomePiramide.includes("Pessoal")) tipo = "pessoal";
+    if(nomePiramide.includes("Social")) tipo = "social";
+    if(nomePiramide.includes("Destino")) tipo = "destino";
+
+    const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
+
+    /* REGENTE (Personalizado) */
+    if(intro.regente) {
+        html += `<div class="box">${personalizarTexto(intro.regente)}</div>`;
+    }
+    if(txtReg && txtReg[regente]) {
+        html += `<div class="box">${personalizarTexto(txtReg[regente])}</div>`;
+    }
+
+    /* NEGATIVAS (Personalizado dentro da função original) */
+    const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg);
+    if(relNeg) {
+        if(intro.negativas) html += `<div class="box">${personalizarTexto(intro.negativas)}</div>`;
+        html += personalizarTexto(relNeg);
+    }
+
+    /* ESPECIAIS (Personalizado) */
+    const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp);
+    if(relEsp) {
+        if(intro.especiais) html += `<div class="box">${personalizarTexto(intro.especiais)}</div>`;
+        html += personalizarTexto(relEsp);
+    }
+
+    /* FINANCEIRO (Personalizado) */
+    const relFin = gerarRelatorioFinanceiroComVigencia(linhas, crono, txtFin);
+    if(relFin) {
+        if(intro.financeiro) html += `<div class="box">${personalizarTexto(intro.financeiro)}</div>`;
+        html += personalizarTexto(relFin);
+    }
+
+    /* VIGÊNCIAS (Personalizado) */
+    if(crono) {
+        if(intro.vigencias) html += `<div class="box">${personalizarTexto(intro.vigencias)}</div>`;
+        html += montarVigenciasSincronizadas(crono, topo(linhas[0]), txtVig);
+    }
+
+    return html;
 }
 
-
-/* NEGATIVAS */
-
-const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg);
-
-if(relNeg){
-
-if(intro.negativas){
-html += `<div class="box">${intro.negativas}</div>`;
-}
-
-html += relNeg;
-
-}
-
-
-/* ESPECIAIS */
-
-const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp);
-
-if(relEsp){
-
-if(intro.especiais){
-html += `<div class="box">${intro.especiais}</div>`;
-}
-
-html += relEsp;
-
-}
-
-
-/* FINANCEIRO */
-
-const relFin = gerarRelatorioFinanceiroComVigencia(linhas, crono, txtFin);
-
-if(relFin){
-
-if(intro.financeiro){
-html += `<div class="box">${intro.financeiro}</div>`;
-}
-
-html += relFin;
-
-}
-
-
-/* VIGÊNCIAS */
-
-if(crono){
-
-if(intro.vigencias){
-html += `<div class="box">${intro.vigencias}</div>`;
-}
-
-html += montarVigenciasSincronizadas(crono, topo(linhas[0]), txtVig);
-
-}
-
-return html;
-
-}
-
+// 3. Nova versão da montarVigenciasSincronizadas
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
     let html = "<div class='box'><h2>⏳ Fluxo das Potências Quânticas</h2>";
     
@@ -392,13 +352,16 @@ function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa)
         let indiceTopo = periodo.indiceArcano % arcanosDaPiramide.length;
         let numArcano = arcanosDaPiramide[indiceTopo];
         
-        // Aqui acrescentamos o período de data (ini e fim) ao lado da idade
+        // Pega o texto e já passa pela personalização
+        let textoFinal = personalizarTexto(textosMapa[numArcano] || `<i>Interpretação da Potência ${numArcano} em análise.</i>`);
+
         html += `<div class="blocoRelatorio" style="text-align:center; border-left: 5px solid #111827;">
                  <h2 style="margin:0; color:#111827;">✡︎ Potência ${numArcano}</h2>
-                <span style="margin:0; color:#111827;"> 📅 Período: de ${periodo.ini} até ${periodo.fim} </span>
-                  <span style="color: #111827; font-weight: normal;">🔍de ${periodo.idadeIni} a ${periodo.idadeFim} anos de idade</span>
-                 </p>
-                 <p style= "font-size:18px; margin-top:5px;">${textosMapa[numArcano] || `<i>Interpretação em análise.</i>`}</p>
+                 <span style="margin:0; color:#111827;"> 📅 Período: de ${periodo.ini} até ${periodo.fim} </span><br>
+                 <span style="color: #111827; font-weight: normal;">🔍 de ${periodo.idadeIni} a ${periodo.idadeFim} anos de idade</span>
+                 <div style="font-size:18px; margin-top:15px; text-align:left; color:#333;">
+                    ${textoFinal}
+                 </div>
                  </div>`;
     });
     
@@ -579,6 +542,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
