@@ -212,22 +212,22 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     if (!posNeg || posNeg.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let gruposContados = new Set();
-    let encontrou = false;
     posNeg.forEach(p => {
         let num = linhas[p.linha][p.indice];
         let idGrupo = `neg-${num}-L${p.linha}`;
         if (!gruposContados.has(idGrupo)) {
-            encontrou = true;
             gruposContados.add(idGrupo);
             let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
+            // ADICIONADO personalizarTexto AQUI:
+            let textoFormatado = personalizarTexto(bancoTxt[num] || "Desafio vibracional detectado.");
             h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">🚫 Sequência ${num}</b><br>
-                    <small><h3>Período Crítico:</h3><h3> ${vigencia}</small><br></h3>
-                    <span style="font-size:16px; color:#000;">${bancoTxt[num] || "Desafio vibracional detectado."}</span>
+                    <small><h3>Período Crítico: ${vigencia}</h3></small>
+                    <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                   </div>`;
         }
     });
-    return encontrou ? h + "</div>" : "";
+    return h + "</div>";
 }
 
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
@@ -243,10 +243,12 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                     encontrou = true;
                     gruposContados.add(idImpacto);
                     let vigencia = calcularVigenciaPorPosicao(i, j, crono);
+                    // ADICIONADO personalizarTexto AQUI:
+                    let textoFormatado = personalizarTexto(bancoTxt[seq]);
                     h += `<div style="margin-bottom:12px; border-left:4px solid #b8860b; padding-left:10px; text-align:left;">
                             <b style="font-size:20px;"><h3>✨ Impacto ${seq}</b></h3>
-                            <small><h3>Período Ativo:</h3> <h3> de ${vigencia}</small></h3>
-                            <span style="font-size:16px; color:#000;">${bancoTxt[seq]}</span>
+                            <small><h3>Período Ativo: de ${vigencia}</h3></small>
+                            <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                           </div>`;
                 }
             }
@@ -264,14 +266,14 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     posFin.forEach(p => {
         let idGrupo = `linha-${p.linha}-col-${p.indice}`;
         if (!gruposIdentificados.has(idGrupo)) {
-            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice}`);
-            gruposIdentificados.add(`linha-${p.linha}-col-${p.indice + 1}`);
-            gruposIdentificados.add(`linha-${p.linha + 1}-col-${p.indice}`);
+            gruposIdentificados.add(idGrupo);
             let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
+            // ADICIONADO personalizarTexto AQUI:
+            let textoFormatado = personalizarTexto(bancoTxt[999] || 'Momento de colheita material.');
             h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">✅ Sequência Financeira 99/9</b><br>
-                    <small><h3>Janela:</h3><h3>de ${vigencia}</small><br></h3>
-                    <span style="font-size:16px; color:#000;">${bancoTxt[999] || 'Momento de colheita material.'}</span>
+                    <small><h3>Janela: de ${vigencia}</h3></small>
+                    <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                   </div>`;
             contadorReal++;
         }
@@ -285,8 +287,8 @@ function personalizarTexto(texto) {
     const nomeCompleto = document.getElementById("nome").value.trim();
     const primeiroNome = nomeCompleto.split(" ")[0] || "você";
     
-    // Substitui a marcação "de você" pelo primeiro nome em negrito
-    return texto.replace(/de você/g, `de <strong>${primeiroNome}</strong>`);
+    // Procura por "de você" e troca pelo nome real do usuário em negrito
+    return texto.replace(/de você/g, `<strong>${primeiroNome}</strong>`);
 }
 
 // 2. Nova versão da montarConteudoComIntros (Ajustada para processar os textos)
@@ -542,6 +544,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
