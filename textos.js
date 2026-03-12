@@ -37,239 +37,254 @@ const textosVida={
 <p>O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.</p> `,
 
 
-2:`Sensibilidade, Dualidade e Consciência das Relações. Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.
+2:`<h3>2️⃣Sensibilidade, Dualidade e Consciência das Relações2️⃣</h3> 
+<p>Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.</p>
 
-A presença do Regente 2 revela natureza sensível e observadora. Ao longo da vida você tende a perceber com facilidade os sentimentos das pessoas e os movimentos sutis das situações. Muitas experiências surgem para ensinar equilíbrio entre razão e emoção.
+<p>A presença do Regente 2 revela natureza sensível e observadora. Ao longo da vida você tende a perceber com facilidade os sentimentos das pessoas e os movimentos sutis das situações. Muitas experiências surgem para ensinar equilíbrio entre razão e emoção.</p>
 
-Quando essa vibração se origina da potência 29 pode indicar inteligência brilhante, porém acompanhada de desafios emocionais que exigem maturidade e discernimento.
+<p>Quando essa vibração se origina da potência 29 pode indicar inteligência brilhante, porém acompanhada de desafios emocionais que exigem maturidade e discernimento.</p>
 
-Quando se origina da potência 38 revela capacidade de adaptação, sensibilidade artística e facilidade para lidar com pessoas.
+<p>Quando se origina da potência 38 revela capacidade de adaptação, sensibilidade artística e facilidade para lidar com pessoas.</p>
 
-Quando se origina da potência 47 pode indicar habilidade para lidar com questões materiais e capacidade de organização.
+<p>Quando se origina da potência 47 pode indicar habilidade para lidar com questões materiais e capacidade de organização.</p>
 
-Quando se origina da potência 56 revela natureza ativa e potencial para conquistar posições de destaque através da iniciativa.
+<p>Quando se origina da potência 56 revela natureza ativa e potencial para conquistar posições de destaque através da iniciativa.</p>
 
-Quando se origina da potência 65 pode indicar aprendizado através das relações afetivas e das responsabilidades emocionais.
+<p>Quando se origina da potência 65 pode indicar aprendizado através das relações afetivas e das responsabilidades emocionais.</p>
 
-Quando se origina da potência 74 revela necessidade de disciplina e estrutura para alcançar estabilidade na vida.
+<p>Quando se origina da potência 74 revela necessidade de disciplina e estrutura para alcançar estabilidade na vida.</p>
 
-Quando se origina da potência 83 pode indicar talento intelectual e facilidade de comunicação.
+<p>Quando se origina da potência 83 pode indicar talento intelectual e facilidade de comunicação.</p>
 
-Quando se origina da potência 92 revela sensibilidade espiritual e forte intuição.
+<p>Quando se origina da potência 92 revela sensibilidade espiritual e forte intuição.</p>
 
-No aspecto positivo manifesta empatia, diplomacia, cooperação e grande percepção emocional.
+<p>No aspecto positivo manifesta empatia, diplomacia, cooperação e grande percepção emocional.</p>
 
-No aspecto negativo pode gerar insegurança, dependência emocional ou tendência a viver preso às expectativas dos outros.
+<p>No aspecto negativo pode gerar insegurança, dependência emocional ou tendência a viver preso às expectativas dos outros.</p>
 
-O aprendizado do Regente 2 da Vida consiste em desenvolver equilíbrio emocional e confiar na própria intuição.`,
+<p>O aprendizado do Regente 2 da Vida consiste em desenvolver equilíbrio emocional e confiar na própria intuição.</p>`,
 
-3:`Criatividade, Expressão e Expansão da Consciência. Para você, o Regente 3 da Vida representa a vibração da criatividade, da comunicação e da expressão dos talentos naturais. Essa regência indica uma trajetória marcada pela busca de experiências que estimulem o pensamento, a imaginação e o contato com diferentes ambientes.
+3:`<h3> 3️⃣Criatividade, Expressão e Expansão da Consciência3️⃣ </h3> 
 
-A presença do Regente 3 revela mente ativa, espírito curioso e grande capacidade de expressão. Ao longo da vida você tende a desenvolver habilidades relacionadas à comunicação, às artes ou à transmissão de ideias.
+<p>Para você, o Regente 3 da Vida representa a vibração da criatividade, da comunicação e da expressão dos talentos naturais. Essa regência indica uma trajetória marcada pela busca de experiências que estimulem o pensamento, a imaginação e o contato com diferentes ambientes.</p>
 
-Quando essa vibração se origina da potência 12 pode indicar aprendizado através de sacrifícios ou experiências que exigem mudança de perspectiva.
+<p>A presença do Regente 3 revela mente ativa, espírito curioso e grande capacidade de expressão. Ao longo da vida você tende a desenvolver habilidades relacionadas à comunicação, às artes ou à transmissão de ideias.</p>
 
-Quando se origina da potência 21 revela potencial para crescimento social e reconhecimento através da comunicação.
+<p>Quando essa vibração se origina da potência 12 pode indicar aprendizado através de sacrifícios ou experiências que exigem mudança de perspectiva.</p>
 
-Quando se origina da potência 30 pode indicar forte criatividade e imaginação.
+<p>Quando se origina da potência 21 revela potencial para crescimento social e reconhecimento através da comunicação.</p>
 
-Quando se origina da potência 39 revela natureza entusiasta e facilidade de interação social.
+<p>Quando se origina da potência 30 pode indicar forte criatividade e imaginação.</p>
 
-Quando se origina da potência 48 pode indicar desafios ligados à disciplina ou à organização da vida prática.
+<p>Quando se origina da potência 39 revela natureza entusiasta e facilidade de interação social.</p>
 
-Quando se origina da potência 57 revela inteligência estratégica e capacidade de adaptação.
+<p>Quando se origina da potência 48 pode indicar desafios ligados à disciplina ou à organização da vida prática.</p>
 
-Quando se origina da potência 66 pode indicar grande sensibilidade emocional e inclinação para ajudar outras pessoas.
+<p>Quando se origina da potência 57 revela inteligência estratégica e capacidade de adaptação.</p>
 
-Quando se origina da potência 75 revela natureza reflexiva e capacidade de aprendizado profundo.
+<p>Quando se origina da potência 66 pode indicar grande sensibilidade emocional e inclinação para ajudar outras pessoas.</p>
 
-Quando se origina da potência 84 pode indicar experiências ligadas à responsabilidade material.
+<p>Quando se origina da potência 75 revela natureza reflexiva e capacidade de aprendizado profundo.</p>
 
-Quando se origina da potência 93 revela maturidade espiritual e compreensão mais ampla da vida.
+<p>Quando se origina da potência 84 pode indicar experiências ligadas à responsabilidade material.</p>
 
-No aspecto positivo manifesta criatividade, entusiasmo, sociabilidade e talento para comunicação.
+<p>Quando se origina da potência 93 revela maturidade espiritual e compreensão mais ampla da vida.</p>
 
-No aspecto negativo pode gerar dispersão, instabilidade emocional ou tendência a prometer mais do que consegue realizar.
+<p>No aspecto positivo manifesta criatividade, entusiasmo, sociabilidade e talento para comunicação.</p>
 
-O aprendizado do Regente 3 da Vida consiste em transformar criatividade em realização concreta.`,
+<p>No aspecto negativo pode gerar dispersão, instabilidade emocional ou tendência a prometer mais do que consegue realizar.</p>
 
-4:`Estrutura, Disciplina e Construção da Vida. Para você, o Regente 4 da Vida representa a vibração da estabilidade, da organização e do esforço constante para construir bases sólidas. Essa regência indica uma trajetória marcada pelo trabalho persistente e pela necessidade de criar segurança material e emocional.
+<p>O aprendizado do Regente 3 da Vida consiste em transformar criatividade em realização concreta.</p>`,
 
-A presença do Regente 4 revela natureza responsável, disciplinada e prática. Ao longo da vida você tende a desenvolver habilidades relacionadas à organização, à estrutura e ao planejamento.
+4:`<h3> 4️⃣Estrutura, Disciplina e Construção da Vida4️⃣ </h3> 
 
-Quando essa vibração se origina da potência 13 pode indicar experiências desafiadoras que exigem transformação e coragem.
+<p>Para você, o Regente 4 da Vida representa a vibração da estabilidade, da organização e do esforço constante para construir bases sólidas. Essa regência indica uma trajetória marcada pelo trabalho persistente e pela necessidade de criar segurança material e emocional.</p>
 
-Quando se origina da potência 22 revela potencial para liderança e construção de projetos importantes.
+<p>A presença do Regente 4 revela natureza responsável, disciplinada e prática. Ao longo da vida você tende a desenvolver habilidades relacionadas à organização, à estrutura e ao planejamento.</p>
 
-Quando se origina da potência 31 pode indicar talento intelectual e capacidade de expressão.
+<p>Quando essa vibração se origina da potência 13 pode indicar experiências desafiadoras que exigem transformação e coragem.</p>
 
-Quando se origina da potência 40 revela necessidade de superar períodos de estagnação ou reflexão profunda.
+<p>Quando se origina da potência 22 revela potencial para liderança e construção de projetos importantes.</p>
 
-Quando se origina da potência 49 pode indicar experiências intensas que transformam sua visão de mundo.
+<p>Quando se origina da potência 31 pode indicar talento intelectual e capacidade de expressão.</p>
 
-Quando se origina da potência 58 revela desafios ligados ao poder material ou às ambições pessoais.
+<p>Quando se origina da potência 40 revela necessidade de superar períodos de estagnação ou reflexão profunda.</p>
 
-Quando se origina da potência 67 pode indicar desenvolvimento espiritual através do conhecimento.
+<p>Quando se origina da potência 49 pode indicar experiências intensas que transformam sua visão de mundo.</p>
 
-Quando se origina da potência 76 revela natureza introspectiva e tendência ao estudo profundo.
+<p>Quando se origina da potência 58 revela desafios ligados ao poder material ou às ambições pessoais.</p>
 
-Quando se origina da potência 85 pode indicar lições relacionadas ao uso equilibrado do poder.
+<p>Quando se origina da potência 67 pode indicar desenvolvimento espiritual através do conhecimento.</p>
 
-Quando se origina da potência 94 revela processos de transformação que levam à maturidade.
+<p>Quando se origina da potência 76 revela natureza introspectiva e tendência ao estudo profundo.</p>
 
-No aspecto positivo manifesta disciplina, responsabilidade e capacidade de construir estabilidade duradoura.
+<p>Quando se origina da potência 85 pode indicar lições relacionadas ao uso equilibrado do poder.</p>
 
-No aspecto negativo pode gerar rigidez, teimosia ou excesso de preocupação material.
+<p>Quando se origina da potência 94 revela processos de transformação que levam à maturidade.</p>
 
-O aprendizado do Regente 4 da Vida consiste em equilibrar disciplina com flexibilidade.`,
+<p>No aspecto positivo manifesta disciplina, responsabilidade e capacidade de construir estabilidade duradoura.</p>
 
-5:`Movimento, Experiência e Liberdade. Para você, o Regente 5 da Vida representa a vibração da mudança, da curiosidade e da busca por experiências variadas. Essa regência indica uma trajetória marcada pelo aprendizado através do movimento e da adaptação às circunstâncias.
+<p>No aspecto negativo pode gerar rigidez, teimosia ou excesso de preocupação material.</p>
 
-A presença do Regente 5 revela natureza inquieta e mente aberta para novas possibilidades. Ao longo da vida você tende a buscar conhecimento através da experiência direta.
+<p>O aprendizado do Regente 4 da Vida consiste em equilibrar disciplina com flexibilidade.</p>`,
 
-Quando essa vibração se origina da potência 14 pode indicar habilidade para comunicação e expressão pública.
+5:`<h3> 5️⃣Movimento, Experiência e Liberdade5️⃣ </h3> 
 
-Quando se origina da potência 23 revela proteção ou auxílio de pessoas influentes.
+<p>Para você, o Regente 5 da Vida representa a vibração da mudança, da curiosidade e da busca por experiências variadas. Essa regência indica uma trajetória marcada pelo aprendizado através do movimento e da adaptação às circunstâncias.</p>
 
-Quando se origina da potência 32 pode indicar talento criativo e facilidade de comunicação.
+<p>A presença do Regente 5 revela natureza inquieta e mente aberta para novas possibilidades. Ao longo da vida você tende a buscar conhecimento através da experiência direta.</p>
 
-Quando se origina da potência 41 revela capacidade de liderança prática.
+<p>Quando essa vibração se origina da potência 14 pode indicar habilidade para comunicação e expressão pública.</p>
 
-Quando se origina da potência 50 pode indicar momentos de pausa ou reflexão importantes.
+<p>Quando se origina da potência 23 revela proteção ou auxílio de pessoas influentes.</p>
 
-Quando se origina da potência 59 revela sensibilidade espiritual e intuição.
+<p>Quando se origina da potência 32 pode indicar talento criativo e facilidade de comunicação.</p>
 
-Quando se origina da potência 68 pode indicar aprendizado sobre poder material.
+<p>Quando se origina da potência 41 revela capacidade de liderança prática.</p>
 
-Quando se origina da potência 77 revela forte inclinação para conhecimento profundo.
+<p>Quando se origina da potência 50 pode indicar momentos de pausa ou reflexão importantes.</p>
 
-Quando se origina da potência 86 pode indicar experiências intensas ligadas a responsabilidades materiais.
+<p>Quando se origina da potência 59 revela sensibilidade espiritual e intuição.</p>
 
-Quando se origina da potência 95 revela processos de transformação e renovação.
+<p>Quando se origina da potência 68 pode indicar aprendizado sobre poder material.</p>
 
-No aspecto positivo manifesta versatilidade, inteligência e grande capacidade de adaptação.
+<p>Quando se origina da potência 77 revela forte inclinação para conhecimento profundo.</p>
 
-No aspecto negativo pode gerar instabilidade, impulsividade ou dificuldade em manter constância.
+<p>Quando se origina da potência 86 pode indicar experiências intensas ligadas a responsabilidades materiais.</p>
 
-O aprendizado do Regente 5 da Vida consiste em transformar experiência em sabedoria.`,
+<p>Quando se origina da potência 95 revela processos de transformação e renovação.</p>
 
-6:`Amor, Harmonia e Responsabilidade Afetiva. Para você, o Regente 6 da Vida representa a vibração do amor, da família e da responsabilidade emocional. Essa regência indica uma trajetória marcada por experiências relacionadas ao cuidado, à proteção e ao desenvolvimento das relações afetivas.
+<p>No aspecto positivo manifesta versatilidade, inteligência e grande capacidade de adaptação.</p>
 
-A presença do Regente 6 revela natureza sensível e desejo de construir harmonia nas relações.
+<p>No aspecto negativo pode gerar instabilidade, impulsividade ou dificuldade em manter constância.</p>
 
-Quando essa vibração se origina da potência 15 pode indicar forte magnetismo pessoal.
+<p>O aprendizado do Regente 5 da Vida consiste em transformar experiência em sabedoria.</p>`,
 
-Quando se origina da potência 24 revela facilidade para construir relações estáveis.
+6:`<h3>6️⃣Amor, Harmonia e Responsabilidade Afetiva6️⃣ </h3>
 
-Quando se origina da potência 33 indica grande potencial de prosperidade e ajuda aos outros.
+<p>Para você, o Regente 6 da Vida representa a vibração do amor, da família e da responsabilidade emocional. Essa regência indica uma trajetória marcada por experiências relacionadas ao cuidado, à proteção e ao desenvolvimento das relações afetivas.</p>
 
-Quando se origina da potência 42 pode indicar aprendizado através das responsabilidades familiares.
+<p>A presença do Regente 6 revela natureza sensível e desejo de construir harmonia nas relações.</p>
 
-Quando se origina da potência 51 revela experiências de mudança importantes.
+<p>Quando essa vibração se origina da potência 15 pode indicar forte magnetismo pessoal.</p>
 
-Quando se origina da potência 60 pode indicar períodos de reflexão emocional.
+<p>Quando se origina da potência 24 revela facilidade para construir relações estáveis.</p>
 
-Quando se origina da potência 69 revela sensibilidade profunda e busca de equilíbrio afetivo.
+<p>Quando se origina da potência 33 indica grande potencial de prosperidade e ajuda aos outros.</p>
 
-Quando se origina da potência 78 pode indicar desafios relacionados à disciplina emocional.
+<p>Quando se origina da potência 42 pode indicar aprendizado através das responsabilidades familiares.</p>
 
-Quando se origina da potência 87 revela desenvolvimento espiritual através das relações.
+<p>Quando se origina da potência 51 revela experiências de mudança importantes.</p>
 
-Quando se origina da potência 96 pode indicar maturidade emocional conquistada através das experiências.
+<p>Quando se origina da potência 60 pode indicar períodos de reflexão emocional.</p>
 
-No aspecto positivo manifesta amor, generosidade e capacidade de harmonizar ambientes.
+<p>Quando se origina da potência 69 revela sensibilidade profunda e busca de equilíbrio afetivo.</p>
 
-No aspecto negativo pode gerar ciúme, dependência emocional ou excesso de preocupação com os outros.
+<p>Quando se origina da potência 78 pode indicar desafios relacionados à disciplina emocional.</p>
 
-O aprendizado do Regente 6 da Vida consiste em amar com equilíbrio e responsabilidade.`,
+<p>Quando se origina da potência 87 revela desenvolvimento espiritual através das relações.</p>
 
-7:`Busca de Conhecimento e Evolução Interior. Para você, o Regente 7 da Vida representa a vibração da introspecção, da investigação e da busca por sabedoria. Essa regência indica uma trajetória marcada pelo desenvolvimento intelectual e espiritual.
+<p>Quando se origina da potência 96 pode indicar maturidade emocional conquistada através das experiências.</p>
 
-A presença do Regente 7 revela mente analítica e necessidade de compreender profundamente os mistérios da vida.
+<p>No aspecto positivo manifesta amor, generosidade e capacidade de harmonizar ambientes.</p>
 
-Quando essa vibração se origina da potência 16 pode indicar experiências que levam a profundas transformações pessoais.
+<p>No aspecto negativo pode gerar ciúme, dependência emocional ou excesso de preocupação com os outros.</p>
 
-Quando se origina da potência 25 revela sensibilidade intelectual e capacidade de reflexão.
+<p>O aprendizado do Regente 6 da Vida consiste em amar com equilíbrio e responsabilidade.</p>`,
 
-Quando se origina da potência 34 pode indicar criatividade aliada à inteligência.
+7:`<h3>7️⃣Busca de Conhecimento e Evolução Interior7️⃣ </h3>
 
-Quando se origina da potência 43 revela capacidade de liderança intelectual.
+<p>Para você, o Regente 7 da Vida representa a vibração da introspecção, da investigação e da busca por sabedoria. Essa regência indica uma trajetória marcada pelo desenvolvimento intelectual e espiritual.</p>
 
-Quando se origina da potência 52 pode indicar aprendizado através das experiências práticas.
+<p>A presença do Regente 7 revela mente analítica e necessidade de compreender profundamente os mistérios da vida.</p>
 
-Quando se origina da potência 61 revela sensibilidade espiritual.
+<p>Quando essa vibração se origina da potência 16 pode indicar experiências que levam a profundas transformações pessoais.</p>
 
-Quando se origina da potência 70 pode indicar períodos de recolhimento e reflexão.
+<p>Quando se origina da potência 25 revela sensibilidade intelectual e capacidade de reflexão.</p>
 
-Quando se origina da potência 79 revela busca intensa por conhecimento.
+<p>Quando se origina da potência 34 pode indicar criatividade aliada à inteligência.</p>
 
-Quando se origina da potência 88 pode indicar grande poder mental.
+<p>Quando se origina da potência 43 revela capacidade de liderança intelectual.</p>
 
-Quando se origina da potência 97 revela maturidade espiritual profunda.
+<p>Quando se origina da potência 52 pode indicar aprendizado através das experiências práticas.</p>
 
-No aspecto positivo manifesta sabedoria, intuição e grande capacidade de análise.
+<p>Quando se origina da potência 61 revela sensibilidade espiritual.</p>
 
-No aspecto negativo pode gerar isolamento, excesso de introspecção ou dificuldade de convivência social.
+<p>Quando se origina da potência 70 pode indicar períodos de recolhimento e reflexão.</p>
 
-O aprendizado do Regente 7 da Vida consiste em transformar conhecimento em sabedoria.`,
+<p>Quando se origina da potência 79 revela busca intensa por conhecimento.</p>
 
-8:`Poder, Justiça e Responsabilidade Material. Para você, o Regente 8 da Vida representa a vibração do poder, da organização e da lei de causa e efeito. Essa regência indica uma trajetória marcada por experiências relacionadas à liderança, à administração e ao equilíbrio entre conquistas materiais e valores morais.
+<p>Quando se origina da potência 88 pode indicar grande poder mental.</p>
 
-Quando essa vibração se origina da potência 17 pode indicar proteção espiritual e sucesso gradual.
+<p>Quando se origina da potência 97 revela maturidade espiritual profunda.</p>
 
-Quando se origina da potência 26 revela aprendizado através de responsabilidades financeiras.
+<p>No aspecto positivo manifesta sabedoria, intuição e grande capacidade de análise.</p>
 
-Quando se origina da potência 35 pode indicar inteligência estratégica.
+<p>No aspecto negativo pode gerar isolamento, excesso de introspecção ou dificuldade de convivência social.</p>
 
-Quando se origina da potência 44 revela grande potencial de liderança.
+<p>O aprendizado do Regente 7 da Vida consiste em transformar conhecimento em sabedoria.</p>`,
 
-Quando se origina da potência 53 pode indicar mudanças inesperadas.
+8:`<h3>8️⃣Poder, Justiça e Responsabilidade Material8️⃣</h3> 
 
-Quando se origina da potência 62 revela aprendizado através das relações.
+<p>Para você, o Regente 8 da Vida representa a vibração do poder, da organização e da lei de causa e efeito. Essa regência indica uma trajetória marcada por experiências relacionadas à liderança, à administração e ao equilíbrio entre conquistas materiais e valores morais.</p>
 
-Quando se origina da potência 71 pode indicar forte capacidade de análise.
+<p>Quando essa vibração se origina da potência 17 pode indicar proteção espiritual e sucesso gradual.</p>
 
-Quando se origina da potência 80 revela necessidade de disciplina material.
+<p>Quando se origina da potência 26 revela aprendizado através de responsabilidades financeiras.</p>
 
-Quando se origina da potência 89 pode indicar experiências intensas relacionadas ao poder.
+<p>Quando se origina da potência 35 pode indicar inteligência estratégica.</p>
 
-Quando se origina da potência 98 revela maturidade e compreensão profunda da justiça da vida.
+<p>Quando se origina da potência 44 revela grande potencial de liderança.</p>
 
-No aspecto positivo manifesta liderança equilibrada, disciplina e senso de justiça.
+<p>Quando se origina da potência 53 pode indicar mudanças inesperadas.</p>
 
-No aspecto negativo pode gerar autoritarismo, materialismo excessivo ou abuso de poder.
+<p>Quando se origina da potência 62 revela aprendizado através das relações.</p>
 
-O aprendizado do Regente 8 da Vida consiste em utilizar o poder com responsabilidade.`,
+<p>Quando se origina da potência 71 pode indicar forte capacidade de análise.</p>
 
-9:`Sabedoria, Conclusões e Consciência Universal. Para você, o Regente 9 da Vida representa a vibração da experiência acumulada, da maturidade espiritual e da compreensão profunda da existência.
+<p>Quando se origina da potência 80 revela necessidade de disciplina material.</p>
 
-Essa regência indica uma trajetória marcada por aprendizados intensos e momentos de reflexão que conduzem ao desenvolvimento da sabedoria.
+<p>Quando se origina da potência 89 pode indicar experiências intensas relacionadas ao poder.</p>
 
-Quando essa vibração se origina da potência 18 pode indicar desafios emocionais ou situações que exigem grande discernimento.
+<p>Quando se origina da potência 98 revela maturidade e compreensão profunda da justiça da vida.</p>
 
-Quando se origina da potência 27 revela sensibilidade espiritual e capacidade de ajudar outras pessoas.
+<p>No aspecto positivo manifesta liderança equilibrada, disciplina e senso de justiça.</p>
 
-Quando se origina da potência 36 pode indicar forte criatividade aliada à sensibilidade.
+<p>No aspecto negativo pode gerar autoritarismo, materialismo excessivo ou abuso de poder.</p>
 
-Quando se origina da potência 45 revela aprendizado através de responsabilidades materiais.
+<p>O aprendizado do Regente 8 da Vida consiste em utilizar o poder com responsabilidade.</p>`,
 
-Quando se origina da potência 54 pode indicar experiências ligadas a mudanças e transformações.
+9:`<h3> 9️⃣Sabedoria, Conclusões e Consciência Universal9️⃣</h3>  
 
-Quando se origina da potência 63 revela maturidade emocional.
+<p>Para você, o Regente 9 da Vida representa a vibração da experiência acumulada, da maturidade espiritual e da compreensão profunda da existência.</p>
 
-Quando se origina da potência 72 pode indicar grande percepção intuitiva.
+<p>Essa regência indica uma trajetória marcada por aprendizados intensos e momentos de reflexão que conduzem ao desenvolvimento da sabedoria.</p>
 
-Quando se origina da potência 81 revela forte capacidade de liderança espiritual.
+<p>Quando essa vibração se origina da potência 18 pode indicar desafios emocionais ou situações que exigem grande discernimento.</p>
 
-Quando se origina da potência 90 pode indicar encerramento de ciclos importantes.
+<p>Quando se origina da potência 27 revela sensibilidade espiritual e capacidade de ajudar outras pessoas.</p>
 
-Quando se origina da potência 99 revela vibração espiritual elevada e profunda compreensão da vida.
+<p>Quando se origina da potência 36 pode indicar forte criatividade aliada à sensibilidade.</p>
 
-No aspecto positivo manifesta sabedoria, generosidade e compaixão.
+<p>Quando se origina da potência 45 revela aprendizado através de responsabilidades materiais.</p>
 
-No aspecto negativo pode gerar isolamento, pessimismo ou dificuldade em desapegar do passado.
+<p>Quando se origina da potência 54 pode indicar experiências ligadas a mudanças e transformações.</p>
 
-O aprendizado do Regente 9 da Vida consiste em transformar experiência em sabedoria e utilizar esse conhecimento para ajudar outras pessoas.`,
+<p>Quando se origina da potência 63 revela maturidade emocional.</p>
+
+<p>Quando se origina da potência 72 pode indicar grande percepção intuitiva.</p>
+
+<p>Quando se origina da potência 81 revela forte capacidade de liderança espiritual.</p>
+
+<p>Quando se origina da potência 90 pode indicar encerramento de ciclos importantes.</p>
+
+<p>Quando se origina da potência 99 revela vibração espiritual elevada e profunda compreensão da vida.</p>
+
+<p>No aspecto positivo manifesta sabedoria, generosidade e compaixão.</p>
+
+<p>No aspecto negativo pode gerar isolamento, pessimismo ou dificuldade em desapegar do passado.</p>
+
+<p>O aprendizado do Regente 9 da Vida consiste em transformar experiência em sabedoria e utilizar esse conhecimento para ajudar outras pessoas.</p>`,
 
 
 
@@ -453,443 +468,680 @@ const textosPessoal={
 
 
 
-1:`Autonomia Mental e Consciência Individual. Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.
+1:`<h3>1️⃣Autonomia Mental e Consciência Individual1️⃣</h3> 
 
-Essa regência revela uma mente ativa, direta e orientada para a ação. No campo interior você tende a confiar na própria opinião e prefere construir suas conclusões através da experiência pessoal. Existe forte necessidade de autonomia no pensamento e resistência natural a imposições externas.
+<p>Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
 
-Quando essa vibração se origina da potência 10 pode indicar mente criativa e facilidade para iniciar projetos ou ideias originais.
+<p>Essa regência revela uma mente ativa, direta e orientada para a ação. No campo interior você tende a confiar na própria opinião e prefere construir suas conclusões através da experiência pessoal. Existe forte necessidade de autonomia no pensamento e resistência natural a imposições externas.</p>
 
-Quando se origina da potência 19 pode revelar conflitos internos relacionados ao orgulho ou à necessidade de aprender lições de humildade.
+<p>Quando essa vibração se origina da potência 10 pode indicar mente criativa e facilidade para iniciar projetos ou ideias originais.</p>
 
-Quando se origina da potência 28 pode indicar tendência a enfrentar disputas de ideias ou desafios intelectuais.
+<p>Quando se origina da potência 19 pode revelar conflitos internos relacionados ao orgulho ou à necessidade de aprender lições de humildade.</p>
 
-Quando se origina da potência 37 revela inteligência estratégica e facilidade para encontrar soluções rápidas.
+<p>Quando se origina da potência 28 pode indicar tendência a enfrentar disputas de ideias ou desafios intelectuais.</p>
 
-Quando se origina da potência 46 pode indicar mente prática voltada para conquistas materiais.
+<p>Quando se origina da potência 37 revela inteligência estratégica e facilidade para encontrar soluções rápidas.</p>
 
-Quando se origina da potência 55 revela pensamento inquieto e forte desejo de liberdade intelectual.
+<p>Quando se origina da potência 46 pode indicar mente prática voltada para conquistas materiais.</p>
 
-Quando se origina da potência 64 pode indicar mudanças repentinas na forma de pensar ou momentos de revisão profunda de ideias.
+<p>Quando se origina da potência 55 revela pensamento inquieto e forte desejo de liberdade intelectual.</p>
 
-Quando se origina da potência 73 revela tendência a reflexões profundas e busca de conhecimento interior.
+<p>Quando se origina da potência 64 pode indicar mudanças repentinas na forma de pensar ou momentos de revisão profunda de ideias.</p>
 
-Quando se origina da potência 82 pode indicar forte senso de autoridade intelectual.
+<p>Quando se origina da potência 73 revela tendência a reflexões profundas e busca de conhecimento interior.</p>
 
-Quando se origina da potência 91 revela amadurecimento mental através de experiências marcantes.
+<p>Quando se origina da potência 82 pode indicar forte senso de autoridade intelectual.</p>
 
-No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias.
+<p>Quando se origina da potência 91 revela amadurecimento mental através de experiências marcantes.</p>
 
-No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade de ouvir opiniões diferentes.
+<p>No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias.</p>
 
-O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.`,
+<p>No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade de ouvir opiniões diferentes.</p>
 
-2:`Sensibilidade Intelectual e Percepção Psicológica. Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.
+<p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.</p>`,
 
-Essa regência revela mente observadora e sensível aos detalhes das relações humanas. Você tende a perceber facilmente o ambiente emocional das situações e das pessoas, desenvolvendo forte capacidade de empatia e compreensão psicológica.
+2:`<h3> 2️⃣Sensibilidade Intelectual e Percepção Psicológica2️⃣</h3>  
 
-Quando essa vibração se origina da potência 29 pode indicar inteligência sensível acompanhada de conflitos emocionais que exigem equilíbrio interior.
+<p>Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
 
-Quando se origina da potência 38 revela talento criativo e sensibilidade artística.
+<p>Essa regência revela mente observadora e sensível aos detalhes das relações humanas. Você tende a perceber facilmente o ambiente emocional das situações e das pessoas, desenvolvendo forte capacidade de empatia e compreensão psicológica.</p>
 
-Quando se origina da potência 47 pode indicar mente organizada e habilidade para lidar com assuntos práticos.
+<p>Quando essa vibração se origina da potência 29 pode indicar inteligência sensível acompanhada de conflitos emocionais que exigem equilíbrio interior.</p>
 
-Quando se origina da potência 56 revela pensamento ativo e espírito competitivo.
+<p>Quando se origina da potência 38 revela talento criativo e sensibilidade artística.</p>
 
-Quando se origina da potência 65 pode indicar forte ligação entre pensamento e emoções.
+<p>Quando se origina da potência 47 pode indicar mente organizada e habilidade para lidar com assuntos práticos.</p>
 
-Quando se origina da potência 74 revela necessidade de disciplina mental.
+<p>Quando se origina da potência 56 revela pensamento ativo e espírito competitivo.</p>
 
-Quando se origina da potência 83 pode indicar facilidade de comunicação e raciocínio rápido.
+<p>Quando se origina da potência 65 pode indicar forte ligação entre pensamento e emoções.</p>
 
-Quando se origina da potência 92 revela intuição profunda e percepção espiritual.
+<p>Quando se origina da potência 74 revela necessidade de disciplina mental.</p>
 
-No aspecto positivo manifesta empatia, diplomacia, percepção emocional e inteligência intuitiva.
+<p>Quando se origina da potência 83 pode indicar facilidade de comunicação e raciocínio rápido.</p>
 
-No aspecto negativo pode gerar insegurança mental, indecisão ou tendência a absorver excessivamente os problemas dos outros.
+<p>Quando se origina da potência 92 revela intuição profunda e percepção espiritual.</p>
 
-O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.`,
+<p>No aspecto positivo manifesta empatia, diplomacia, percepção emocional e inteligência intuitiva.</p>
 
-3:`Criatividade Mental e Expressão Intelectual. Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.
+<p>No aspecto negativo pode gerar insegurança mental, indecisão ou tendência a absorver excessivamente os problemas dos outros.</p>
 
-Essa regência revela mente dinâmica, comunicativa e inclinada à expressão verbal ou artística. Existe facilidade para aprender através da observação, da conversa e do intercâmbio de ideias.
+<p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.</p>`,
 
-Quando essa vibração se origina da potência 12 pode indicar momentos de sacrifício ou aprendizado profundo que transformam sua forma de pensar.
+3:`<h3>3️⃣Criatividade Mental e Expressão Intelectual3️⃣</h3>  
 
-Quando se origina da potência 21 revela facilidade para crescimento intelectual através das relações sociais.
+<p>Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.</p>
 
-Quando se origina da potência 30 pode indicar forte imaginação e criatividade mental.
+<p>Essa regência revela mente dinâmica, comunicativa e inclinada à expressão verbal ou artística. Existe facilidade para aprender através da observação, da conversa e do intercâmbio de ideias.</p>
 
-Quando se origina da potência 39 revela entusiasmo intelectual e sociabilidade.
+<p>Quando essa vibração se origina da potência 12 pode indicar momentos de sacrifício ou aprendizado profundo que transformam sua forma de pensar.</p>
 
-Quando se origina da potência 48 pode indicar desafios relacionados à disciplina mental.
+<p>Quando se origina da potência 21 revela facilidade para crescimento intelectual através das relações sociais.</p>
 
-Quando se origina da potência 57 revela inteligência estratégica e visão analítica.
+<p>Quando se origina da potência 30 pode indicar forte imaginação e criatividade mental.</p>
 
-Quando se origina da potência 66 pode indicar forte sensibilidade emocional influenciando o pensamento.
+<p>Quando se origina da potência 39 revela entusiasmo intelectual e sociabilidade.</p>
 
-Quando se origina da potência 75 revela mente investigativa e reflexiva.
+<p>Quando se origina da potência 48 pode indicar desafios relacionados à disciplina mental.</p>
 
-Quando se origina da potência 84 pode indicar responsabilidade intelectual em assuntos materiais.
+<p>Quando se origina da potência 57 revela inteligência estratégica e visão analítica.</p>
 
-Quando se origina da potência 93 revela maturidade mental e visão ampla da vida.
+<p>Quando se origina da potência 66 pode indicar forte sensibilidade emocional influenciando o pensamento.</p>
 
-No aspecto positivo manifesta criatividade, comunicação clara, imaginação e entusiasmo intelectual.
+<p><p>Quando se origina da potência 75 revela mente investigativa e reflexiva.</p>
 
-No aspecto negativo pode gerar dispersão, superficialidade ou dificuldade de manter foco em objetivos.
+<p><p>Quando se origina da potência 84 pode indicar responsabilidade intelectual em assuntos materiais.</p>
 
-O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.`,
+<p>Quando se origina da potência 93 revela maturidade mental e visão ampla da vida.</p>
 
-4:`Estrutura Mental e Disciplina Intelectual. Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.
+<p>No aspecto positivo manifesta criatividade, comunicação clara, imaginação e entusiasmo intelectual.</p>
 
-Essa regência revela mente prática e analítica, inclinada a organizar pensamentos de forma objetiva. Existe forte necessidade de segurança intelectual e coerência nas decisões.
+<p>No aspecto negativo pode gerar dispersão, superficialidade ou dificuldade de manter foco em objetivos.</p>
 
-Quando essa vibração se origina da potência 13 pode indicar transformações profundas na forma de pensar.
+<p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.</p>`,
 
-Quando se origina da potência 22 revela potencial intelectual voltado para grandes projetos ou liderança.
+4:`<h3>4️⃣Estrutura Mental e Disciplina Intelectual4️⃣</h3> 
 
-Quando se origina da potência 31 pode indicar talento para comunicação estruturada.
+<p>Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
 
-Quando se origina da potência 40 revela períodos de reflexão profunda.
+<p>Essa regência revela mente prática e analítica, inclinada a organizar pensamentos de forma objetiva. Existe forte necessidade de segurança intelectual e coerência nas decisões.</p>
 
-Quando se origina da potência 49 pode indicar mudanças importantes na visão de mundo.
+<p>Quando essa vibração se origina da potência 13 pode indicar transformações profundas na forma de pensar.</p>
 
-Quando se origina da potência 58 revela desafios ligados ao poder intelectual.
+<p>Quando se origina da potência 22 revela potencial intelectual voltado para grandes projetos ou liderança.</p>
 
-Quando se origina da potência 67 pode indicar interesse por conhecimento espiritual.
+<p>Quando se origina da potência 31 pode indicar talento para comunicação estruturada.</p>
 
-Quando se origina da potência 76 revela mente introspectiva e investigativa.
+<p>Quando se origina da potência 40 revela períodos de reflexão profunda.</p>
 
-Quando se origina da potência 85 pode indicar aprendizado sobre responsabilidade intelectual.
+<p>Quando se origina da potência 49 pode indicar mudanças importantes na visão de mundo.</p>
 
-Quando se origina da potência 94 revela maturidade mental através das experiências.
+<p>Quando se origina da potência 58 revela desafios ligados ao poder intelectual.</p>
 
-No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico.
+<p>Quando se origina da potência 67 pode indicar interesse por conhecimento espiritual.</p>
 
-No aspecto negativo pode gerar rigidez de pensamento ou resistência a novas ideias.
+<p>Quando se origina da potência 76 revela mente introspectiva e investigativa.</p>
 
-O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.`,
+<p>Quando se origina da potência 85 pode indicar aprendizado sobre responsabilidade intelectual.</p>
 
-5:`Curiosidade Intelectual e Movimento Mental. Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.
+<p>Quando se origina da potência 94 revela maturidade mental através das experiências.</p>
 
-Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista.
+<p>No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico.</p>
 
-Quando essa vibração se origina da potência 14 pode indicar talento para comunicação pública.
+<p>No aspecto negativo pode gerar rigidez de pensamento ou resistência a novas ideias.</p>
 
-Quando se origina da potência 23 revela auxílio intelectual de pessoas influentes.
+<p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.</p>`,
 
-Quando se origina da potência 32 pode indicar criatividade e facilidade de expressão.
+5:`<h3> 5️⃣Curiosidade Intelectual e Movimento Mental5️⃣</h3>  
 
-Quando se origina da potência 41 revela liderança intelectual.
+<p>Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.</p>
 
-Quando se origina da potência 50 pode indicar períodos de reflexão mental.
+<p>Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista.</p>
 
-Quando se origina da potência 59 revela sensibilidade espiritual.
+<p>Quando essa vibração se origina da potência 14 pode indicar talento para comunicação pública.</p>
 
-Quando se origina da potência 68 pode indicar aprendizado relacionado ao poder material.
+<p>Quando se origina da potência 23 revela auxílio intelectual de pessoas influentes.</p>
 
-Quando se origina da potência 77 revela forte inclinação para estudos profundos.
+<p>Quando se origina da potência 32 pode indicar criatividade e facilidade de expressão.</p>
 
-Quando se origina da potência 86 pode indicar desafios intelectuais ligados a responsabilidades.
+<p>Quando se origina da potência 41 revela liderança intelectual.</p>
 
-Quando se origina da potência 95 revela transformações importantes na forma de pensar.
+<p>Quando se origina da potência 50 pode indicar períodos de reflexão mental.</p>
 
-No aspecto positivo manifesta inteligência versátil, curiosidade e capacidade de adaptação.
+<p>Quando se origina da potência 59 revela sensibilidade espiritual.</p>
 
-No aspecto negativo pode gerar inquietação mental ou dificuldade de concentração.
+<p>Quando se origina da potência 68 pode indicar aprendizado relacionado ao poder material.</p>
 
-O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.`,
+<p>Quando se origina da potência 77 revela forte inclinação para estudos profundos.</p>
 
-6:`Consciência Emocional e Harmonia Interior. Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.
+<p>Quando se origina da potência 86 pode indicar desafios intelectuais ligados a responsabilidades.</p>
 
-Essa regência revela mente sensível às relações afetivas e forte preocupação com o bem-estar das pessoas próximas.
+<p>Quando se origina da potência 95 revela transformações importantes na forma de pensar.</p>
 
-Quando essa vibração se origina da potência 15 pode indicar magnetismo emocional e forte influência afetiva.
+<p>No aspecto positivo manifesta inteligência versátil, curiosidade e capacidade de adaptação.</p>
 
-Quando se origina da potência 24 revela facilidade para construir relações estáveis.
+<p>No aspecto negativo pode gerar inquietação mental ou dificuldade de concentração.</p>
 
-Quando se origina da potência 33 indica generosidade e vocação para ajudar os outros.
+<p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.</p>`,
 
-Quando se origina da potência 42 pode indicar responsabilidades emocionais importantes.
+6:`<h3>6️⃣Consciência Emocional e Harmonia Interior6️⃣</h3>
 
-Quando se origina da potência 51 revela mudanças emocionais marcantes.
+<p>Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.</p>
 
-Quando se origina da potência 60 pode indicar momentos de reflexão interior.
+<p>Essa regência revela mente sensível às relações afetivas e forte preocupação com o bem-estar das pessoas próximas.</p>
 
-Quando se origina da potência 69 revela forte sensibilidade afetiva.
+<p>Quando essa vibração se origina da potência 15 pode indicar magnetismo emocional e forte influência afetiva.</p>
 
-Quando se origina da potência 78 pode indicar desafios ligados ao autocontrole emocional.
+<p>Quando se origina da potência 24 revela facilidade para construir relações estáveis.</p>
 
-Quando se origina da potência 87 revela aprendizado espiritual através das relações.
+<p>Quando se origina da potência 33 indica generosidade e vocação para ajudar os outros.</p>
 
-Quando se origina da potência 96 indica maturidade emocional conquistada ao longo do tempo.
+<p>Quando se origina da potência 42 pode indicar responsabilidades emocionais importantes.</p>
 
-No aspecto positivo manifesta amor, compaixão e capacidade de harmonizar ambientes.
+<p>Quando se origina da potência 51 revela mudanças emocionais marcantes.</p>
 
-No aspecto negativo pode gerar dependência emocional ou excesso de preocupação com os outros.
+<p>Quando se origina da potência 60 pode indicar momentos de reflexão interior.</p>
 
-O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.`,
+<p>Quando se origina da potência 69 revela forte sensibilidade afetiva.</p>
 
-7:`Investigação Mental e Busca de Sabedoria. Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.
+<p>Quando se origina da potência 78 pode indicar desafios ligados ao autocontrole emocional.</p>
 
-Essa regência revela mente analítica e tendência natural a refletir sobre os mistérios da vida.
+<p>Quando se origina da potência 87 revela aprendizado espiritual através das relações.</p>
 
-Quando essa vibração se origina da potência 16 pode indicar experiências que provocam mudanças profundas na forma de pensar.
+<p>Quando se origina da potência 96 indica maturidade emocional conquistada ao longo do tempo.</p>
 
-Quando se origina da potência 25 revela sensibilidade intelectual.
+<p>No aspecto positivo manifesta amor, compaixão e capacidade de harmonizar ambientes.</p>
 
-Quando se origina da potência 34 pode indicar criatividade mental.
+<p>No aspecto negativo pode gerar dependência emocional ou excesso de preocupação com os outros.</p>
 
-Quando se origina da potência 43 revela liderança intelectual.
+<p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.</p>`,
 
-Quando se origina da potência 52 indica aprendizado através das experiências práticas.
+7:`<h3>7️⃣Investigação Mental e Busca de Sabedoria7️⃣</h3> 
 
-Quando se origina da potência 61 revela sensibilidade espiritual.
+<p>Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.</p>
 
-Quando se origina da potência 70 pode indicar períodos de recolhimento mental.
+<p>Essa regência revela mente analítica e tendência natural a refletir sobre os mistérios da vida.</p>
 
-Quando se origina da potência 79 revela intensa busca por conhecimento.
+<p>Quando essa vibração se origina da potência 16 pode indicar experiências que provocam mudanças profundas na forma de pensar.</p>
 
-Quando se origina da potência 88 pode indicar grande poder mental.
+<p>Quando se origina da potência 25 revela sensibilidade intelectual.</p>
 
-Quando se origina da potência 97 revela maturidade intelectual profunda.
+<p>Quando se origina da potência 34 pode indicar criatividade mental.</p>
 
-No aspecto positivo manifesta sabedoria, intuição e capacidade de análise profunda.
+<p>Quando se origina da potência 43 revela liderança intelectual.</p>
 
-No aspecto negativo pode gerar isolamento mental ou excesso de introspecção.
+<p>Quando se origina da potência 52 indica aprendizado através das experiências práticas.</p>
 
-O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.`,
+<p>Quando se origina da potência 61 revela sensibilidade espiritual.</p>
 
-8:`Força Mental e Consciência de Poder. Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.
+<p>Quando se origina da potência 70 pode indicar períodos de recolhimento mental.</p>
 
-Essa regência revela mente estratégica e capacidade de liderança intelectual.
+<p>Quando se origina da potência 79 revela intensa busca por conhecimento.</p>
 
-Quando essa vibração se origina da potência 17 pode indicar proteção espiritual.
+<p>Quando se origina da potência 88 pode indicar grande poder mental.</p>
 
-Quando se origina da potência 26 revela aprendizado relacionado a responsabilidades materiais.
+<p>Quando se origina da potência 97 revela maturidade intelectual profunda.</p>
 
-Quando se origina da potência 35 pode indicar inteligência estratégica.
+<p>No aspecto positivo manifesta sabedoria, intuição e capacidade de análise profunda.</p>
 
-Quando se origina da potência 44 revela grande poder de liderança.
+<p>No aspecto negativo pode gerar isolamento mental ou excesso de introspecção.</p>
 
-Quando se origina da potência 53 pode indicar mudanças inesperadas na visão de mundo.
+<p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.</p>`,
 
-Quando se origina da potência 62 revela aprendizado através das relações.
+8:`<h3> 8️⃣Força Mental e Consciência de Poder8️⃣</h3>  
 
-Quando se origina da potência 71 indica mente analítica e investigativa.
+Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
 
-Quando se origina da potência 80 revela necessidade de disciplina mental.
+Essa regência revela mente estratégica e capacidade de liderança intelectual.</p>
 
-Quando se origina da potência 89 pode indicar experiências intensas ligadas ao poder.
+Quando essa vibração se origina da potência 17 pode indicar proteção espiritual.</p>
 
-Quando se origina da potência 98 revela maturidade e compreensão profunda da vida.
+Quando se origina da potência 26 revela aprendizado relacionado a responsabilidades materiais.</p>
 
-No aspecto positivo manifesta liderança intelectual, disciplina e senso de justiça.
+Quando se origina da potência 35 pode indicar inteligência estratégica.</p>
 
-No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.
+Quando se origina da potência 44 revela grande poder de liderança.</p>
 
-O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.`,
+Quando se origina da potência 53 pode indicar mudanças inesperadas na visão de mundo.</p>
 
-9:`Consciência Interior e Sabedoria Mental. Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.
+Quando se origina da potência 62 revela aprendizado através das relações.</p>
 
-Essa regência revela mente filosófica, sensível e inclinada a compreender o significado das experiências da vida.
+Quando se origina da potência 71 indica mente analítica e investigativa.</p>
 
-Quando essa vibração se origina da potência 18 pode indicar conflitos emocionais que conduzem ao amadurecimento mental.
+Quando se origina da potência 89 pode indicar experiências intensas ligadas ao poder.</p>
 
-Quando se origina da potência 27 revela sensibilidade espiritual.
+Quando se origina da potência 98 revela maturidade e compreensão profunda da vida.</p>
 
-Quando se origina da potência 36 pode indicar criatividade aliada à sensibilidade.
+No aspecto positivo manifesta liderança intelectual, disciplina e senso de justiça.</p>
 
-Quando se origina da potência 45 revela aprendizado através de responsabilidades.
+No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</p>
 
-Quando se origina da potência 54 pode indicar mudanças importantes na forma de pensar.
+O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
 
-Quando se origina da potência 63 revela maturidade emocional.
+9:`<h3> 9️⃣Consciência Interior e Sabedoria Mental9️⃣ </h3> 
 
-Quando se origina da potência 72 indica forte percepção intuitiva.
+Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
 
-Quando se origina da potência 81 revela liderança espiritual.
+Essa regência revela mente filosófica, sensível e inclinada a compreender o significado das experiências da vida.</p>
 
-Quando se origina da potência 90 pode indicar encerramento de ciclos intelectuais.
+Quando essa vibração se origina da potência 18 pode indicar conflitos emocionais que conduzem ao amadurecimento mental.</p>
 
-Quando se origina da potência 99 revela elevada compreensão espiritual.
+Quando se origina da potência 27 revela sensibilidade espiritual.</p>
 
-No aspecto positivo manifesta sabedoria, compaixão e visão ampla da vida.
+Quando se origina da potência 36 pode indicar criatividade aliada à sensibilidade.</p>
 
-No aspecto negativo pode gerar isolamento mental ou excesso de idealismo.
+Quando se origina da potência 45 revela aprendizado através de responsabilidades.</p>
 
-O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria.`,
+Quando se origina da potência 54 pode indicar mudanças importantes na forma de pensar.</p>
 
+Quando se origina da potência 63 revela maturidade emocional.</p>
 
-  
-11:"Força Interior e Autodomínio Emocional. Na Pirâmide Pessoal, a Potência 11 indica que a pessoa percebe a realidade como um campo de desafios emocionais que exigem coragem, firmeza e domínio interno. Existe a sensação de que a vida testa constantemente a sua força psicológica, como se fosse necessário manter controle sobre impulsos, reações e sentimentos intensos. No aspecto positivo manifesta autoconfiança emocional, coragem para enfrentar conflitos internos e capacidade de transformar tensão em crescimento psicológico. A pessoa sente que precisa ser forte por dentro e superar a si mesma repetidamente. No aspecto negativo pode gerar irritabilidade, impulsividade emocional e sensação de estar sempre em estado de alerta ou defesa. A Potência 11 ensina que a realidade é percebida como um processo de fortalecimento interior contínuo.",
-  
-12:"Renúncia Psicológica e Transformação Interior Profunda. Na Pirâmide Pessoal, a Potência 12 faz com que a pessoa perceba a realidade como um processo de aprendizado emocional que exige pausas, sacrifícios e mudanças internas. Surge a sensação de que a vida pede paciência, reflexão e abandono de padrões antigos para amadurecer emocionalmente. No aspecto positivo favorece humildade emocional, empatia e crescimento interior profundo. No aspecto negativo pode gerar sensação de estagnação, vitimização e dúvida sobre o próprio caminho. A Potência 12 ensina que a realidade é percebida como um processo de amadurecimento emocional lento e transformador.",
-  
-13:"Renascimento Psicológico e Mudança Interior. Na Pirâmide Pessoal, a Potência 13 faz com que a pessoa perceba a realidade como ciclos constantes de encerramento e recomeço emocional. Existe a sensação de que versões antigas de si mesmo precisam morrer para que novas surjam. No aspecto positivo promove libertação emocional, desapego e reconstrução da identidade interior. No aspecto negativo pode gerar medo de mudanças internas e dificuldade de soltar o passado. A Potência 13 ensina que a realidade é percebida como um processo contínuo de transformação psicológica.",
-  
-14:"Equilíbrio Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 14 indica que a pessoa percebe a realidade como uma busca constante por equilíbrio emocional. Existe a sensação de que é preciso conciliar sentimentos, pensamentos e reações internas para manter a paz interior. No aspecto positivo manifesta serenidade emocional, autocontrole e capacidade de lidar com conflitos internos com maturidade. No aspecto negativo pode gerar indecisão emocional e medo de confrontar sentimentos difíceis. A Potência 14 ensina que a realidade é percebida como um processo de harmonização interior.",
-  
-15:"Desejos Internos e Conflitos Emocionais. Na Pirâmide Pessoal, a Potência 15 faz com que a pessoa perceba a realidade como um campo de desejos intensos e conflitos emocionais. Existe a sensação de que a vida desperta paixões, vontades e impulsos que precisam ser compreendidos e direcionados. No aspecto positivo manifesta magnetismo emocional, criatividade e forte energia afetiva. No aspecto negativo pode gerar dependências emocionais, ciúmes e autossabotagem. A Potência 15 ensina que a realidade é percebida como uma experiência intensa de desejos e emoções.",
+Quando se origina da potência 72 indica forte percepção intuitiva.</p>
+
+Quando se origina da potência 81 revela liderança espiritual.</p>
+
+Quando se origina da potência 90 pode indicar encerramento de ciclos intelectuais.</p>
+
+Quando se origina da potência 99 revela elevada compreensão espiritual.</p>
+
+No aspecto positivo manifesta sabedoria, compaixão e visão ampla da vida.</p>
+
+No aspecto negativo pode gerar isolamento mental ou excesso de idealismo.</p>
+
+O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria.</p>`,
+
+
   
-16:"Ruptura Interior e Despertar Psicológico. Na Pirâmide Pessoal, a Potência 16 faz com que a pessoa perceba a realidade como momentos de quebra de ilusões emocionais e mudanças internas inesperadas. Existe a sensação de que a vida frequentemente derruba certezas para revelar verdades mais profundas. No aspecto positivo promove clareza emocional, libertação de padrões mentais limitantes e amadurecimento psicológico acelerado. No aspecto negativo pode gerar crises internas, insegurança e medo de mudanças. A Potência 16 ensina que a realidade é percebida como um processo de despertar interior através de rupturas necessárias.",
-17:"Esperança Interior e Inspiração Emocional. Na Pirâmide Pessoal, a Potência 17 indica que a pessoa percebe a realidade com um olhar de esperança, fé e inspiração emocional. Existe a sensação de que sempre há um propósito maior guiando os acontecimentos da vida. No aspecto positivo manifesta sensibilidade, criatividade e confiança no futuro. No aspecto negativo pode gerar idealização excessiva e expectativas irreais. A Potência 17 ensina que a realidade é percebida como um caminho de esperança e renovação emocional.",
+11:`Força Interior e Autodomínio Emocional. 
+
+Na Pirâmide Pessoal, a Potência 11 indica que você percebe a realidade como um campo de desafios emocionais que exigem coragem, firmeza e domínio interno. Existe a sensação de que a vida testa constantemente a sua força psicológica, como se fosse necessário manter controle sobre impulsos, reações e sentimentos intensos. 
+No aspecto positivo manifesta autoconfiança emocional, coragem para enfrentar conflitos internos e capacidade de transformar tensão em crescimento psicológico. A pessoa sente que precisa ser forte por dentro e superar a si mesma repetidamente. 
+No aspecto negativo pode gerar irritabilidade, impulsividade emocional e sensação de estar sempre em estado de alerta ou defesa. 
+A Potência 11 ensina que a realidade é percebida como um processo de fortalecimento interior contínuo.`,
   
-18:"Sensibilidade Profunda e Percepção Subconsciente. Na Pirâmide Pessoal, a Potência 18 faz com que a pessoa perceba a realidade de forma extremamente sensível e intuitiva. Existe forte conexão com emoções, medos e percepções inconscientes. No aspecto positivo desenvolve intuição, imaginação e autoconhecimento emocional. No aspecto negativo pode gerar ansiedade, insegurança e confusão emocional. A Potência 18 ensina que a realidade é percebida através das emoções e do subconsciente.",
+12:`Renúncia Psicológica e Transformação Interior Profunda. 
+
+Na Pirâmide Pessoal, a Potência 12 faz com que você perceba a realidade como um processo de aprendizado emocional que exige pausas, sacrifícios e mudanças internas. Surge a sensação de que a vida pede paciência, reflexão e abandono de padrões antigos para amadurecer emocionalmente. 
+No aspecto positivo favorece humildade emocional, empatia e crescimento interior profundo. 
+No aspecto negativo pode gerar sensação de estagnação, vitimização e dúvida sobre o próprio caminho. 
+A Potência 12 ensina que a realidade é percebida como um processo de amadurecimento emocional lento e transformador.`,
   
-19:"Clareza Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 19 indica que a pessoa percebe a realidade com sensação de clareza, vitalidade e crescimento emocional. Existe a percepção de que a vida oferece oportunidades de brilho pessoal e reconhecimento interno. No aspecto positivo manifesta autoestima, entusiasmo e confiança emocional. No aspecto negativo pode gerar orgulho e necessidade de validação constante. A Potência 19 ensina que a realidade é percebida como um processo de iluminação interior.",
+13:`Renascimento Psicológico e Mudança Interior. 
+
+Na Pirâmide Pessoal, a Potência 13 faz com que você perceba a realidade como ciclos constantes de encerramento e recomeço emocional. Existe a sensação de que versões antigas de si mesmo precisam morrer para que novas surjam. 
+No aspecto positivo promove libertação emocional, desapego e reconstrução da identidade interior. 
+No aspecto negativo pode gerar medo de mudanças internas e dificuldade de soltar o passado. 
+A Potência 13 ensina que a realidade é percebida como um processo contínuo de transformação psicológica.`,
   
-21:"Sensação de Conclusão e Plenitude Emocional. Na Pirâmide Pessoal, a Potência 21 faz com que a pessoa perceba a realidade como ciclos de realização emocional e sensação de missão cumprida. Existe a percepção de fechamento de etapas importantes da vida interior. No aspecto positivo manifesta satisfação, maturidade emocional e sensação de completude. No aspecto negativo pode gerar acomodação emocional. A Potência 21 ensina que a realidade é percebida como ciclos de conclusão e integração interior.",
+14:`Equilíbrio Emocional e Harmonia Interior. 
+
+Na Pirâmide Pessoal, a Potência 14 indica que você percebe a realidade como uma busca constante por equilíbrio emocional. Existe a sensação de que é preciso conciliar sentimentos, pensamentos e reações internas para manter a paz interior. 
+No aspecto positivo manifesta serenidade emocional, autocontrole e capacidade de lidar com conflitos internos com maturidade. 
+No aspecto negativo pode gerar indecisão emocional e medo de confrontar sentimentos difíceis. 
+A Potência 14 ensina que a realidade é percebida como um processo de harmonização interior.`,
   
-22:"Impulso de Liberdade Interior e Descoberta. Na Pirâmide Pessoal, a Potência 22 faz com que a pessoa perceba a realidade como um convite constante à liberdade emocional e novas experiências internas. Existe a sensação de necessidade de explorar sentimentos e possibilidades. No aspecto positivo manifesta espontaneidade, criatividade emocional e abertura ao novo. No aspecto negativo pode gerar impulsividade e instabilidade emocional. A Potência 22 ensina que a realidade é percebida como liberdade interior.",
+15:`Desejos Internos e Conflitos Emocionais. 
+
+Na Pirâmide Pessoal, a Potência 15 faz com que você perceba a realidade como um campo de desejos intensos e conflitos emocionais. Existe a sensação de que a vida desperta paixões, vontades e impulsos que precisam ser compreendidos e direcionados. 
+No aspecto positivo manifesta magnetismo emocional, criatividade e forte energia afetiva. 
+No aspecto negativo pode gerar dependências emocionais, ciúmes e autossabotagem. 
+A Potência 15 ensina que a realidade é percebida como uma experiência intensa de desejos e emoções.`,
   
-23:"Autoconfiança Emocional e Sensação de Proteção. Na Pirâmide Pessoal, a Potência 23 faz com que a pessoa perceba a realidade como um caminho de crescimento interno guiado por mérito e esforço pessoal. Existe a sensação de que a vida recompensa o amadurecimento emocional. No aspecto positivo manifesta segurança interior e autoestima fortalecida. No aspecto negativo pode gerar rigidez emocional. A Potência 23 ensina que a realidade é percebida como conquista interior.",
+16:`Ruptura Interior e Despertar Psicológico. 
+
+Na Pirâmide Pessoal, a Potência 16 faz com que você perceba a realidade como momentos de quebra de ilusões emocionais e mudanças internas inesperadas. Existe a sensação de que a vida frequentemente derruba certezas para revelar verdades mais profundas. 
+No aspecto positivo promove clareza emocional, libertação de padrões mentais limitantes e amadurecimento psicológico acelerado. 
+No aspecto negativo pode gerar crises internas, insegurança e medo de mudanças. 
+A Potência 16 ensina que a realidade é percebida como um processo de despertar interior através de rupturas necessárias.`,
   
-24:"Busca de Estabilidade Emocional e Afetiva. Na Pirâmide Pessoal, a Potência 24 faz com que a pessoa perceba a realidade como necessidade de segurança emocional e vínculos afetivos estáveis. Existe forte desejo de harmonia e proteção emocional. No aspecto positivo manifesta equilíbrio, carinho e estabilidade emocional. No aspecto negativo pode gerar apego excessivo e medo de mudanças. A Potência 24 ensina que a realidade é percebida como busca de segurança emocional.",
+17:`Esperança Interior e Inspiração Emocional. 
+
+Na Pirâmide Pessoal, a Potência 17 indica que você percebe a realidade com um olhar de esperança, fé e inspiração emocional. Existe a sensação de que sempre há um propósito maior guiando os acontecimentos da vida. 
+No aspecto positivo manifesta sensibilidade, criatividade e confiança no futuro. 
+No aspecto negativo pode gerar idealização excessiva e expectativas irreais. 
+A Potência 17 ensina que a realidade é percebida como um caminho de esperança e renovação emocional.`,
   
-25:"Movimento Emocional e Necessidade de Mudança. Na Pirâmide Pessoal, a Potência 25 indica que a pessoa percebe a realidade como períodos de transformação emocional e necessidade de ação interior. Existe a sensação de inquietação e desejo de mudança psicológica. No aspecto positivo manifesta coragem emocional e capacidade de superação. No aspecto negativo pode gerar impulsividade emocional. A Potência 25 ensina que a realidade é percebida como movimento interior constante.",
+18:`Sensibilidade Profunda e Percepção Subconsciente. 
+
+Na Pirâmide Pessoal, a Potência 18 faz com que você perceba a realidade de forma extremamente sensível e intuitiva. Existe forte conexão com emoções, medos e percepções inconscientes. 
+No aspecto positivo desenvolve intuição, imaginação e autoconhecimento emocional. 
+No aspecto negativo pode gerar ansiedade, insegurança e confusão emocional. 
+A Potência 18 ensina que a realidade é percebida através das emoções e do subconsciente.`,
   
-26:"Expectativa Interior e Potencial Emocional. Na Pirâmide Pessoal, a Potência 26 faz com que a pessoa perceba a realidade como fase de preparação emocional para conquistas futuras. Existe sensação de potencial em desenvolvimento. No aspecto positivo manifesta entusiasmo e crescimento emocional gradual. No aspecto negativo pode gerar frustração e ansiedade. A Potência 26 ensina que a realidade é percebida como fase de preparação interior.",
+19:`Clareza Emocional e Realização Interior. 
+
+Na Pirâmide Pessoal, a Potência 19 indica que você percebe a realidade com sensação de clareza, vitalidade e crescimento emocional. Existe a percepção de que a vida oferece oportunidades de brilho pessoal e reconhecimento interno. 
+No aspecto positivo manifesta autoestima, entusiasmo e confiança emocional. 
+No aspecto negativo pode gerar orgulho e necessidade de validação constante. 
+A Potência 19 ensina que a realidade é percebida como um processo de iluminação interior.`,
   
-27:"Desafios Emocionais e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 27 indica que a pessoa percebe a realidade como testes emocionais que exigem adaptação e fortalecimento psicológico. No aspecto positivo manifesta resiliência e renovação emocional. No aspecto negativo pode gerar sobrecarga emocional. A Potência 27 ensina que a realidade é percebida como processo de superação interior.",
+21:`Sensação de Conclusão e Plenitude Emocional. 
+
+Na Pirâmide Pessoal, a Potência 21 faz com que você perceba a realidade como ciclos de realização emocional e sensação de missão cumprida. Existe a percepção de fechamento de etapas importantes da vida interior. 
+No aspecto positivo manifesta satisfação, maturidade emocional e sensação de completude. 
+No aspecto negativo pode gerar acomodação emocional. 
+A Potência 21 ensina que a realidade é percebida como ciclos de conclusão e integração interior.`,
   
-28:"Prudência Emocional e Planejamento Interno. Na Pirâmide Pessoal, a Potência 28 faz com que a pessoa perceba a realidade com cautela emocional e necessidade de planejamento interno. Existe desejo de segurança psicológica antes de agir. No aspecto positivo manifesta equilíbrio e maturidade emocional. No aspecto negativo pode gerar medo de arriscar emocionalmente. A Potência 28 ensina que a realidade é percebida com prudência interior.",
+22:`Impulso de Liberdade Interior e Descoberta. 
+
+Na Pirâmide Pessoal, a Potência 22 faz com que você perceba a realidade como um convite constante à liberdade emocional e novas experiências internas. Existe a sensação de necessidade de explorar sentimentos e possibilidades. 
+No aspecto positivo manifesta espontaneidade, criatividade emocional e abertura ao novo. 
+No aspecto negativo pode gerar impulsividade e instabilidade emocional. 
+A Potência 22 ensina que a realidade é percebida como liberdade interior.`,
   
-29:"Expansão Emocional e Reconhecimento Interno. Na Pirâmide Pessoal, a Potência 29 indica que a pessoa percebe a realidade como crescimento emocional e reconhecimento do próprio valor interior. No aspecto positivo manifesta alegria emocional e autoconfiança. No aspecto negativo pode gerar ambição emocional excessiva. A Potência 29 ensina que a realidade é percebida como expansão interior.",
+23:`Autoconfiança Emocional e Sensação de Proteção. 
+
+Na Pirâmide Pessoal, a Potência 23 faz com que você perceba a realidade como um caminho de crescimento interno guiado por mérito e esforço pessoal. Existe a sensação de que a vida recompensa o amadurecimento emocional. 
+No aspecto positivo manifesta segurança interior e autoestima fortalecida. 
+No aspecto negativo pode gerar rigidez emocional. 
+A Potência 23 ensina que a realidade é percebida como conquista interior.`,
   
-30:"Silêncio Interior e Incubação Emocional. Na Pirâmide Pessoal, a Potência 30 faz com que a pessoa perceba a realidade como momentos de pausa, reflexão e amadurecimento interno antes de agir. No aspecto positivo manifesta introspecção e fortalecimento emocional. No aspecto negativo pode gerar procrastinação e medo de agir. A Potência 30 ensina que a realidade é percebida como tempo de preparação interior.",
+24:`Busca de Estabilidade Emocional e Afetiva. 
+
+Na Pirâmide Pessoal, a Potência 24 faz com que você perceba a realidade como necessidade de segurança emocional e vínculos afetivos estáveis. Existe forte desejo de harmonia e proteção emocional. 
+No aspecto positivo manifesta equilíbrio, carinho e estabilidade emocional. 
+No aspecto negativo pode gerar apego excessivo e medo de mudanças. 
+A Potência 24 ensina que a realidade é percebida como busca de segurança emocional.`,
   
-31:"Disciplina Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 31 faz com que a pessoa perceba a realidade como um processo que exige disciplina emocional e constância interior. Existe a sensação de que a vida pede responsabilidade psicológica, organização mental e construção gradual de segurança interna. No aspecto positivo manifesta perseverança, maturidade emocional e confiança construída com o tempo. No aspecto negativo pode gerar rigidez emocional, autocobrança excessiva e medo de mudanças internas. A Potência 31 ensina que a realidade é percebida como uma construção emocional contínua baseada em disciplina e estabilidade.",
+25:`Movimento Emocional e Necessidade de Mudança. 
+
+Na Pirâmide Pessoal, a Potência 25 indica que você percebe a realidade como períodos de transformação emocional e necessidade de ação interior. Existe a sensação de inquietação e desejo de mudança psicológica. 
+No aspecto positivo manifesta coragem emocional e capacidade de superação. 
+No aspecto negativo pode gerar impulsividade emocional. 
+A Potência 25 ensina que a realidade é percebida como movimento interior constante.`,
   
-32:"Busca de Estabilidade Emocional e Reconhecimento Interior. Na Pirâmide Pessoal, a Potência 32 faz com que a pessoa perceba a realidade como uma busca constante por equilíbrio emocional e validação interna. Surge a sensação de que é importante sentir segurança emocional e estabilidade psicológica nas relações e decisões. No aspecto positivo manifesta sensação de apoio emocional, harmonia interna e segurança afetiva. No aspecto negativo pode gerar dependência de aprovação, medo de perder estabilidade e dificuldade em lidar com mudanças. A Potência 32 ensina que a realidade é percebida como uma busca por segurança emocional e reconhecimento interno.",
+26:`Expectativa Interior e Potencial Emocional. 
+
+Na Pirâmide Pessoal, a Potência 26 faz com que você perceba a realidade como fase de preparação emocional para conquistas futuras. Existe sensação de potencial em desenvolvimento. 
+No aspecto positivo manifesta entusiasmo e crescimento emocional gradual. 
+No aspecto negativo pode gerar frustração e ansiedade. 
+A Potência 26 ensina que a realidade é percebida como fase de preparação interior.`,
   
-33:"Expansão Interior e Crescimento Emocional. Na Pirâmide Pessoal, a Potência 33 faz com que a pessoa perceba a realidade como um caminho de crescimento emocional e amadurecimento interno. Existe a sensação de que a vida estimula expansão da consciência e evolução psicológica constante. No aspecto positivo manifesta otimismo, confiança emocional e sensação de crescimento interior. No aspecto negativo pode gerar excesso de expectativas e frustração quando o progresso parece lento. A Potência 33 ensina que a realidade é percebida como um processo contínuo de expansão emocional.",
+27:`Desafios Emocionais e Reconstrução Interior. 
+
+Na Pirâmide Pessoal, a Potência 27 indica que você percebe a realidade como testes emocionais que exigem adaptação e fortalecimento psicológico. 
+No aspecto positivo manifesta resiliência e renovação emocional. 
+No aspecto negativo pode gerar sobrecarga emocional. 
+A Potência 27 ensina que a realidade é percebida como processo de superação interior.`,
   
-34:"Criatividade Psicológica e Expressão Interior. Na Pirâmide Pessoal, a Potência 34 faz com que a pessoa perceba a realidade como um espaço de criação emocional e expressão do mundo interno. Existe a sensação de que sentimentos e pensamentos precisam encontrar formas de expressão. No aspecto positivo manifesta criatividade emocional, inspiração e vontade de criar. No aspecto negativo pode gerar ansiedade, inquietação emocional e dispersão mental. A Potência 34 ensina que a realidade é percebida como um campo de expressão da identidade interior.",
+28:`Prudência Emocional e Planejamento Interno. Na Pirâmide Pessoal, a Potência 28 faz com que você perceba a realidade com cautela emocional e necessidade de planejamento interno. Existe desejo de segurança psicológica antes de agir. 
+No aspecto positivo manifesta equilíbrio e maturidade emocional. 
+No aspecto negativo pode gerar medo de arriscar emocionalmente. 
+A Potência 28 ensina que a realidade é percebida com prudência interior.`,
   
-35:"Crises Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 35 faz com que a pessoa perceba a realidade como um processo de questionamento e introspecção constante. Existe a sensação de enfrentar dúvidas, reflexões profundas e crises emocionais que levam ao autoconhecimento. No aspecto positivo manifesta maturidade emocional e capacidade de reflexão profunda. No aspecto negativo pode gerar melancolia, isolamento e excesso de preocupação. A Potência 35 ensina que a realidade é percebida como um caminho de autoconhecimento através da reflexão.",
+29:`Expansão Emocional e Reconhecimento Interno. 
+
+Na Pirâmide Pessoal, a Potência 29 indica que você percebe a realidade como crescimento emocional e reconhecimento do próprio valor interior. No aspecto positivo manifesta alegria emocional e autoconfiança. 
+No aspecto negativo pode gerar ambição emocional excessiva. 
+A Potência 29 ensina que a realidade é percebida como expansão interior.`,
   
-36:"Rupturas Emocionais e Renovação Interior. Na Pirâmide Pessoal, a Potência 36 faz com que a pessoa perceba a realidade como mudanças internas inevitáveis e libertadoras. Existe a sensação de que padrões emocionais antigos precisam ser quebrados para que novas versões de si surjam. No aspecto positivo manifesta libertação emocional e renovação interior. No aspecto negativo pode gerar instabilidade emocional e medo do desconhecido. A Potência 36 ensina que a realidade é percebida como um processo de renovação emocional constante.",
+30:`Silêncio Interior e Incubação Emocional. 
+
+Na Pirâmide Pessoal, a Potência 30 faz com que você perceba a realidade como momentos de pausa, reflexão e amadurecimento interno antes de agir. 
+No aspecto positivo manifesta introspecção e fortalecimento emocional. 
+No aspecto negativo pode gerar procrastinação e medo de agir. 
+A Potência 30 ensina que a realidade é percebida como tempo de preparação interior.`,
   
-37:"Equilíbrio Emocional e Mediação Interna. Na Pirâmide Pessoal, a Potência 37 faz com que a pessoa perceba a realidade como uma busca por equilíbrio entre sentimentos, pensamentos e relações internas. Existe a sensação de precisar harmonizar emoções e evitar conflitos internos. No aspecto positivo manifesta empatia, sensibilidade e harmonia emocional. No aspecto negativo pode gerar preocupação excessiva com aprovação e dificuldade em impor limites. A Potência 37 ensina que a realidade é percebida como uma busca por equilíbrio emocional.",
+31:`Disciplina Interior e Construção Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 31 faz com que você perceba a realidade como um processo que exige disciplina emocional e constância interior. Existe a sensação de que a vida pede responsabilidade psicológica, organização mental e construção gradual de segurança interna. 
+No aspecto positivo manifesta perseverança, maturidade emocional e confiança construída com o tempo. 
+No aspecto negativo pode gerar rigidez emocional, autocobrança excessiva e medo de mudanças internas. 
+A Potência 31 ensina que a realidade é percebida como uma construção emocional contínua baseada em disciplina e estabilidade.`,
   
-38:"Sensibilidade Emocional e Expressão Afetiva. Na Pirâmide Pessoal, a Potência 38 faz com que a pessoa perceba a realidade através das emoções e da sensibilidade afetiva. Existe a sensação de viver sentimentos intensamente e buscar formas de expressá-los. No aspecto positivo manifesta empatia, comunicação emocional e criatividade afetiva. No aspecto negativo pode gerar exageros emocionais e oscilações de humor. A Potência 38 ensina que a realidade é percebida como uma experiência emocional intensa.",
+32:`Busca de Estabilidade Emocional e Reconhecimento Interior. 
+
+Na Pirâmide Pessoal, a Potência 32 faz com que você perceba a realidade como uma busca constante por equilíbrio emocional e validação interna. Surge a sensação de que é importante sentir segurança emocional e estabilidade psicológica nas relações e decisões. 
+No aspecto positivo manifesta sensação de apoio emocional, harmonia interna e segurança afetiva. 
+No aspecto negativo pode gerar dependência de aprovação, medo de perder estabilidade e dificuldade em lidar com mudanças. 
+A Potência 32 ensina que a realidade é percebida como uma busca por segurança emocional e reconhecimento interno.`,
   
-39:"Amor Interior e Conexão Emocional. Na Pirâmide Pessoal, a Potência 39 faz com que a pessoa perceba a realidade como um campo de vínculos, afeto e conexões emocionais profundas. Existe a sensação de que o amor e a conexão emocional são fundamentais para a vida. No aspecto positivo manifesta empatia, carinho e desejo de conexão. No aspecto negativo pode gerar dependência emocional e ilusões afetivas. A Potência 39 ensina que a realidade é percebida através do coração.",
+33:`Expansão Interior e Crescimento Emocional. 
+
+Na Pirâmide Pessoal, a Potência 33 faz com que você perceba a realidade como um caminho de crescimento emocional e amadurecimento interno. Existe a sensação de que a vida estimula expansão da consciência e evolução psicológica constante. 
+No aspecto positivo manifesta otimismo, confiança emocional e sensação de crescimento interior. 
+No aspecto negativo pode gerar excesso de expectativas e frustração quando o progresso parece lento. 
+A Potência 33 ensina que a realidade é percebida como um processo contínuo de expansão emocional.`,
   
-40:"Renovação Emocional e Novos Sentimentos. Na Pirâmide Pessoal, a Potência 40 faz com que a pessoa perceba a realidade como ciclos de renovação emocional. Existe a sensação de que novos sentimentos e experiências afetivas surgem ao longo da vida. No aspecto positivo manifesta crescimento emocional e fortalecimento afetivo. No aspecto negativo pode gerar insegurança emocional e medo de se abrir. A Potência 40 ensina que a realidade é percebida como um fluxo contínuo de renovação emocional.",
+34:`Criatividade Psicológica e Expressão Interior. 
+
+Na Pirâmide Pessoal, a Potência 34 faz com que você perceba a realidade como um espaço de criação emocional e expressão do mundo interno. Existe a sensação de que sentimentos e pensamentos precisam encontrar formas de expressão. 
+No aspecto positivo manifesta criatividade emocional, inspiração e vontade de criar. 
+No aspecto negativo pode gerar ansiedade, inquietação emocional e dispersão mental. 
+A Potência 34 ensina que a realidade é percebida como um campo de expressão da identidade interior.`,
   
-41:"Felicidade Interior e Busca por Harmonia. Na Pirâmide Pessoal, a Potência 41 faz com que a pessoa perceba a realidade como uma busca por felicidade emocional e bem-estar interior. Existe a sensação de querer viver em paz consigo mesma e manter relações equilibradas. No aspecto positivo manifesta alegria, estabilidade emocional e sensação de pertencimento. No aspecto negativo pode gerar medo de perder a estabilidade e dependência emocional. A Potência 41 ensina que a realidade é percebida como uma busca por felicidade interior.",
+35:`Crises Internas e Reflexão Profunda. 
+
+Na Pirâmide Pessoal, a Potência 35 faz com que você perceba a realidade como um processo de questionamento e introspecção constante. Existe a sensação de enfrentar dúvidas, reflexões profundas e crises emocionais que levam ao autoconhecimento. 
+No aspecto positivo manifesta maturidade emocional e capacidade de reflexão profunda. 
+No aspecto negativo pode gerar melancolia, isolamento e excesso de preocupação. 
+A Potência 35 ensina que a realidade é percebida como um caminho de autoconhecimento através da reflexão.`,
   
-42:"Expansão Emocional e Realização Pessoal. Na Pirâmide Pessoal, a Potência 42 faz com que a pessoa perceba a realidade como oportunidades de crescimento e realização emocional. Existe a sensação de expansão da vida interior e conquista de objetivos pessoais. No aspecto positivo manifesta entusiasmo, esperança e confiança emocional. No aspecto negativo pode gerar excessos e expectativas irreais. A Potência 42 ensina que a realidade é percebida como expansão emocional.",
+36:`Rupturas Emocionais e Renovação Interior. 
+
+Na Pirâmide Pessoal, a Potência 36 faz com que você perceba a realidade como mudanças internas inevitáveis e libertadoras. Existe a sensação de que padrões emocionais antigos precisam ser quebrados para que novas versões de si surjam. 
+No aspecto positivo manifesta libertação emocional e renovação interior. 
+No aspecto negativo pode gerar instabilidade emocional e medo do desconhecido. 
+A Potência 36 ensina que a realidade é percebida como um processo de renovação emocional constante.`,
   
-43:"Conflitos Internos e Despertar Emocional. Na Pirâmide Pessoal, a Potência 43 faz com que a pessoa perceba a realidade como desafios emocionais que despertam consciência. Existe a sensação de enfrentar conflitos internos que levam ao amadurecimento psicológico. No aspecto positivo manifesta autoconhecimento e libertação emocional. No aspecto negativo pode gerar tensão emocional e crises afetivas. A Potência 43 ensina que a realidade é percebida como transformação através dos conflitos.",
+37:`Equilíbrio Emocional e Mediação Interna. 
+
+Na Pirâmide Pessoal, a Potência 37 faz com que você perceba a realidade como uma busca por equilíbrio entre sentimentos, pensamentos e relações internas. Existe a sensação de precisar harmonizar emoções e evitar conflitos internos. 
+No aspecto positivo manifesta empatia, sensibilidade e harmonia emocional. 
+No aspecto negativo pode gerar preocupação excessiva com aprovação e dificuldade em impor limites. 
+A Potência 37 ensina que a realidade é percebida como uma busca por equilíbrio emocional.`,
   
-44:"Clareza Mental e Decisões Internas. Na Pirâmide Pessoal, a Potência 44 faz com que a pessoa perceba a realidade como necessidade de compreensão e decisões conscientes. Existe a sensação de precisar entender a si mesma antes de agir. No aspecto positivo manifesta lucidez emocional e discernimento. No aspecto negativo pode gerar indecisão e excesso de análise. A Potência 44 ensina que a realidade é percebida através da clareza interior.",
+38:`Sensibilidade Emocional e Expressão Afetiva. 
+
+Na Pirâmide Pessoal, a Potência 38 faz com que você perceba a realidade através das emoções e da sensibilidade afetiva. Existe a sensação de viver sentimentos intensamente e buscar formas de expressá-los. 
+No aspecto positivo manifesta empatia, comunicação emocional e criatividade afetiva. 
+No aspecto negativo pode gerar exageros emocionais e oscilações de humor. 
+A Potência 38 ensina que a realidade é percebida como uma experiência emocional intensa.`,
   
-45:"Memórias e Cura Emocional. Na Pirâmide Pessoal, a Potência 45 faz com que a pessoa perceba a realidade como um processo de revisitar o passado para curar emoções antigas. Existe a sensação de aprendizado através da memória emocional. No aspecto positivo manifesta cura, reconciliação e amadurecimento. No aspecto negativo pode gerar apego ao passado e melancolia. A Potência 45 ensina que a realidade é percebida como um processo de cura emocional.",
+39:`Amor Interior e Conexão Emocional. 
+
+Na Pirâmide Pessoal, a Potência 39 faz com que você perceba a realidade como um campo de vínculos, afeto e conexões emocionais profundas. Existe a sensação de que o amor e a conexão emocional são fundamentais para a vida. 
+No aspecto positivo manifesta empatia, carinho e desejo de conexão. 
+No aspecto negativo pode gerar dependência emocional e ilusões afetivas. 
+A Potência 39 ensina que a realidade é percebida através do coração.`,
+ 
+
+41:`Felicidade Interior e Busca por Harmonia. 
+
+Na Pirâmide Pessoal, a Potência 41 faz com que você perceba a realidade como uma busca por felicidade emocional e bem-estar interior. Existe a sensação de querer viver em paz consigo mesma e manter relações equilibradas. 
+No aspecto positivo manifesta alegria, estabilidade emocional e sensação de pertencimento. 
+No aspecto negativo pode gerar medo de perder a estabilidade e dependência emocional. 
+A Potência 41 ensina que a realidade é percebida como uma busca por felicidade interior.`,
   
-46:"Desilusões e Verdades Emocionais. Na Pirâmide Pessoal, a Potência 46 faz com que a pessoa perceba a realidade como confrontos com verdades emocionais. Existe a sensação de quebra de expectativas que levam ao amadurecimento psicológico. No aspecto positivo manifesta crescimento emocional e libertação de ilusões. No aspecto negativo pode gerar frustração e tristeza. A Potência 46 ensina que a realidade é percebida como revelação emocional.",
+42:`Expansão Emocional e Realização Pessoal. 
+
+Na Pirâmide Pessoal, a Potência 42 faz com que você perceba a realidade como oportunidades de crescimento e realização emocional. Existe a sensação de expansão da vida interior e conquista de objetivos pessoais. 
+No aspecto positivo manifesta entusiasmo, esperança e confiança emocional. 
+No aspecto negativo pode gerar excessos e expectativas irreais. 
+A Potência 42 ensina que a realidade é percebida como expansão emocional.`,
   
-47:"Introspecção e Conflito Interior Profundo. Na Pirâmide Pessoal, a Potência 47 faz com que a pessoa perceba a realidade como um chamado ao recolhimento e reflexão. Existe a sensação de viver conflitos internos que exigem silêncio e introspecção. No aspecto positivo manifesta autoconhecimento profundo. No aspecto negativo pode gerar isolamento emocional. A Potência 47 ensina que a realidade é percebida através da introspecção.",
+43:`Conflitos Internos e Despertar Emocional. 
+
+Na Pirâmide Pessoal, a Potência 43 faz com que você perceba a realidade como desafios emocionais que despertam consciência. Existe a sensação de enfrentar conflitos internos que levam ao amadurecimento psicológico. 
+No aspecto positivo manifesta autoconhecimento e libertação emocional. 
+No aspecto negativo pode gerar tensão emocional e crises afetivas. 
+A Potência 43 ensina que a realidade é percebida como transformação através dos conflitos.`,
   
-48:"Abundância Emocional e Expansão Afetiva. Na Pirâmide Pessoal, a Potência 48 faz com que a pessoa perceba a realidade como momentos de alegria, celebração e expansão emocional. Existe a sensação de viver fases de felicidade e prosperidade interior. No aspecto positivo manifesta entusiasmo e alegria emocional. No aspecto negativo pode gerar excessos emocionais. A Potência 48 ensina que a realidade é percebida como abundância emocional.",
+44:`Clareza Mental e Decisões Internas. 
+
+Na Pirâmide Pessoal, a Potência 44 faz com que você perceba a realidade como necessidade de compreensão e decisões conscientes. Existe a sensação de precisar entender a si mesma antes de agir. 
+No aspecto positivo manifesta lucidez emocional e discernimento. 
+No aspecto negativo pode gerar indecisão e excesso de análise. 
+A Potência 44 ensina que a realidade é percebida através da clareza interior.`,
   
-49:"Amor Próprio e Independência Emocional. Na Pirâmide Pessoal, a Potência 49 faz com que a pessoa perceba a realidade como aprendizado sobre amar sem perder a própria identidade. Existe a sensação de equilibrar autonomia e afeto. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar conflitos afetivos. A Potência 49 ensina que a realidade é percebida como equilíbrio entre amor e autonomia.",
+45:`Memórias e Cura Emocional. 
+
+Na Pirâmide Pessoal, a Potência 45 faz com que você perceba a realidade como um processo de revisitar o passado para curar emoções antigas. Existe a sensação de aprendizado através da memória emocional. 
+No aspecto positivo manifesta cura, reconciliação e amadurecimento. 
+No aspecto negativo pode gerar apego ao passado e melancolia. 
+A Potência 45 ensina que a realidade é percebida como um processo de cura emocional.`,
   
-50:"União Emocional e Estrutura Interior. Na Pirâmide Pessoal, a Potência 50 faz com que a pessoa perceba a realidade como construção de vínculos e segurança emocional. Existe a sensação de querer criar bases afetivas sólidas. No aspecto positivo manifesta estabilidade emocional e segurança interior. No aspecto negativo pode gerar ciúmes e necessidade de controle. A Potência 50 ensina que a realidade é percebida como construção de vínculos emocionais.",
+46:`Desilusões e Verdades Emocionais. 
+
+Na Pirâmide Pessoal, a Potência 46 faz com que você perceba a realidade como confrontos com verdades emocionais. Existe a sensação de quebra de expectativas que levam ao amadurecimento psicológico. 
+No aspecto positivo manifesta crescimento emocional e libertação de ilusões. 
+No aspecto negativo pode gerar frustração e tristeza. 
+A Potência 46 ensina que a realidade é percebida como revelação emocional.`,
   
-51:"Sabedoria Interior e Liderança Psicológica. Na Pirâmide Pessoal, a Potência 51 faz com que a pessoa perceba a realidade como um processo que exige maturidade emocional e decisões conscientes. Existe a sensação de precisar conduzir a própria vida com lucidez e equilíbrio interno. No aspecto positivo manifesta clareza mental, autoconfiança emocional e capacidade de orientar a si mesma. No aspecto negativo pode gerar excesso de racionalidade, frieza emocional e tendência ao isolamento. A Potência 51 ensina que a realidade é percebida como um exercício constante de liderança interior.",
+47:`Introspecção e Conflito Interior Profundo. 
+
+Na Pirâmide Pessoal, a Potência 47 faz com que você perceba a realidade como um chamado ao recolhimento e reflexão. Existe a sensação de viver conflitos internos que exigem silêncio e introspecção. 
+No aspecto positivo manifesta autoconhecimento profundo. 
+No aspecto negativo pode gerar isolamento emocional. 
+A Potência 47 ensina que a realidade é percebida através da introspecção.`,
   
-52:"Autodomínio e Aperfeiçoamento Interior. Na Pirâmide Pessoal, a Potência 52 faz com que a pessoa perceba a realidade como um caminho de disciplina emocional e evolução pessoal. Existe a sensação de que a vida exige organização interna e autoconhecimento constante. No aspecto positivo manifesta foco emocional e fortalecimento da identidade. No aspecto negativo pode gerar perfeccionismo e autocrítica intensa. A Potência 52 ensina que a realidade é percebida como busca por aprimoramento interior.",
+48:`Abundância Emocional e Expansão Afetiva. 
+
+Na Pirâmide Pessoal, a Potência 48 faz com que você perceba a realidade como momentos de alegria, celebração e expansão emocional. Existe a sensação de viver fases de felicidade e prosperidade interior. 
+No aspecto positivo manifesta entusiasmo e alegria emocional. 
+No aspecto negativo pode gerar excessos emocionais. 
+A Potência 48 ensina que a realidade é percebida como abundância emocional.`,
+
+49:`Amor Próprio e Independência Emocional. 
+
+Na Pirâmide Pessoal, a Potência 49 faz com que você perceba a realidade como aprendizado sobre amar sem perder a própria identidade. Existe a sensação de equilibrar autonomia e afeto. 
+No aspecto positivo manifesta autoconfiança emocional. 
+No aspecto negativo pode gerar conflitos afetivos. 
+A Potência 49 ensina que a realidade é percebida como equilíbrio entre amor e autonomia.`,
+ 
+
+51:`Sabedoria Interior e Liderança Psicológica. 
+
+Na Pirâmide Pessoal, a Potência 51 faz com que você perceba a realidade como um processo que exige maturidade emocional e decisões conscientes. Existe a sensação de precisar conduzir a própria vida com lucidez e equilíbrio interno. 
+No aspecto positivo manifesta clareza mental, autoconfiança emocional e capacidade de orientar a si mesma. 
+No aspecto negativo pode gerar excesso de racionalidade, frieza emocional e tendência ao isolamento. 
+A Potência 51 ensina que a realidade é percebida como um exercício constante de liderança interior.`,
   
-53:"Transformações Emocionais e Quebra de Padrões. Na Pirâmide Pessoal, a Potência 53 faz com que a pessoa perceba a realidade como mudanças internas profundas. Existe a sensação de precisar abandonar versões antigas de si mesma para evoluir emocionalmente. No aspecto positivo manifesta coragem emocional e crescimento interior. No aspecto negativo pode gerar instabilidade e conflitos internos. A Potência 53 ensina que a realidade é percebida como transformação constante.",
+52:`Autodomínio e Aperfeiçoamento Interior. 
+
+Na Pirâmide Pessoal, a Potência 52 faz com que você perceba a realidade como um caminho de disciplina emocional e evolução pessoal. Existe a sensação de que a vida exige organização interna e autoconhecimento constante. 
+No aspecto positivo manifesta foco emocional e fortalecimento da identidade. 
+No aspecto negativo pode gerar perfeccionismo e autocrítica intensa. 
+A Potência 52 ensina que a realidade é percebida como busca por aprimoramento interior.`,
   
-54:"Tensão Interior e Vigilância Emocional. Na Pirâmide Pessoal, a Potência 54 faz com que a pessoa perceba a realidade como um ambiente que exige cautela emocional. Existe a sensação de precisar estar sempre alerta internamente. No aspecto positivo manifesta prudência emocional e percepção aguçada. No aspecto negativo pode gerar ansiedade e desconfiança. A Potência 54 ensina que a realidade é percebida como necessidade de atenção emocional.",
+53:`Transformações Emocionais e Quebra de Padrões. 
+
+Na Pirâmide Pessoal, a Potência 53 faz com que você perceba a realidade como mudanças internas profundas. Existe a sensação de precisar abandonar versões antigas de si mesma para evoluir emocionalmente. 
+No aspecto positivo manifesta coragem emocional e crescimento interior. 
+No aspecto negativo pode gerar instabilidade e conflitos internos. 
+A Potência 53 ensina que a realidade é percebida como transformação constante.`,
   
-55:"Fim de Ciclos Internos e Renascimento Psicológico. Na Pirâmide Pessoal, a Potência 55 faz com que a pessoa perceba a realidade como encerramentos emocionais seguidos de renascimentos internos. No aspecto positivo manifesta superação e reconstrução emocional. No aspecto negativo pode gerar tristeza profunda e sensação de perda. A Potência 55 ensina que a realidade é percebida como ciclos de morte e renascimento interior.",
+54:`Tensão Interior e Vigilância Emocional. 
+
+Na Pirâmide Pessoal, a Potência 54 faz com que você perceba a realidade como um ambiente que exige cautela emocional. Existe a sensação de precisar estar sempre alerta internamente. 
+No aspecto positivo manifesta prudência emocional e percepção aguçada.
+No aspecto negativo pode gerar ansiedade e desconfiança. 
+A Potência 54 ensina que a realidade é percebida como necessidade de atenção emocional.`,
   
-56:"Provações Emocionais e Fortalecimento Interior. Na Pirâmide Pessoal, a Potência 56 faz com que a pessoa perceba a realidade como testes emocionais que exigem resistência psicológica. No aspecto positivo manifesta resiliência emocional. No aspecto negativo pode gerar sofrimento interno e bloqueios emocionais. A Potência 56 ensina que a realidade é percebida como fortalecimento através das dificuldades.",
+55:`Fim de Ciclos Internos e Renascimento Psicológico. 
+
+Na Pirâmide Pessoal, a Potência 55 faz com que você perceba a realidade como encerramentos emocionais seguidos de renascimentos internos. 
+No aspecto positivo manifesta superação e reconstrução emocional. 
+No aspecto negativo pode gerar tristeza profunda e sensação de perda. 
+A Potência 55 ensina que a realidade é percebida como ciclos de morte e renascimento interior.`,
   
-57:"Dilemas Internos e Escolhas Emocionais. Na Pirâmide Pessoal, a Potência 57 faz com que a pessoa perceba a realidade como uma sequência de decisões internas importantes. No aspecto positivo manifesta discernimento emocional. No aspecto negativo pode gerar indecisão e medo de agir. A Potência 57 ensina que a realidade é percebida como escolhas que moldam o mundo interior.",
+56:`Provações Emocionais e Fortalecimento Interior. 
+
+Na Pirâmide Pessoal, a Potência 56 faz com que você perceba a realidade como testes emocionais que exigem resistência psicológica. 
+No aspecto positivo manifesta resiliência emocional. 
+No aspecto negativo pode gerar sofrimento interno e bloqueios emocionais. 
+A Potência 56 ensina que a realidade é percebida como fortalecimento através das dificuldades.`,
   
-58:"Crises Psicológicas e Despertar Interior. Na Pirâmide Pessoal, a Potência 58 faz com que a pessoa perceba a realidade como crises que despertam consciência. No aspecto positivo manifesta autoconhecimento profundo. No aspecto negativo pode gerar sensação de caos emocional. A Potência 58 ensina que a realidade é percebida como despertar através das crises.",
+57:`Dilemas Internos e Escolhas Emocionais. 
+
+Na Pirâmide Pessoal, a Potência 57 faz com que você perceba a realidade como uma sequência de decisões internas importantes. 
+No aspecto positivo manifesta discernimento emocional. 
+No aspecto negativo pode gerar indecisão e medo de agir. 
+A Potência 57 ensina que a realidade é percebida como escolhas que moldam o mundo interior.`,
   
-59:"Descobertas Emocionais e Expansão Interior. Na Pirâmide Pessoal, a Potência 59 faz com que a pessoa perceba a realidade como revelações internas e crescimento psicológico. No aspecto positivo manifesta entusiasmo emocional. No aspecto negativo pode gerar confusão interna. A Potência 59 ensina que a realidade é percebida como descoberta contínua.",
+58:`Crises Psicológicas e Despertar Interior. 
+
+Na Pirâmide Pessoal, a Potência 58 faz com que você perceba a realidade como crises que despertam consciência. 
+No aspecto positivo manifesta autoconhecimento profundo. 
+No aspecto negativo pode gerar sensação de caos emocional. 
+A Potência 58 ensina que a realidade é percebida como despertar através das crises.`,
   
-61:"Recolhimento Interior e Recuperação Emocional. Na Pirâmide Pessoal, a Potência 61 faz com que a pessoa perceba a realidade como necessidade de pausas e silêncio emocional. No aspecto positivo manifesta introspecção e equilíbrio. No aspecto negativo pode gerar isolamento. A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.",
+59:`Descobertas Emocionais e Expansão Interior. Na Pirâmide Pessoal, a Potência 59 faz com que a pessoa perceba a realidade como revelações internas e crescimento psicológico. No aspecto positivo manifesta entusiasmo emocional. No aspecto negativo pode gerar confusão interna. A Potência 59 ensina que a realidade é percebida como descoberta contínua.`,
   
-62:"Dor Emocional e Libertação Interior. Na Pirâmide Pessoal, a Potência 62 faz com que a pessoa perceba a realidade como processo de cura emocional. No aspecto positivo manifesta perdão e libertação interna. No aspecto negativo pode gerar tristeza e apego ao passado. A Potência 62 ensina que a realidade é percebida como libertação emocional.",
+61:`Recolhimento Interior e Recuperação Emocional. Na Pirâmide Pessoal, a Potência 61 faz com que a pessoa perceba a realidade como necessidade de pausas e silêncio emocional. No aspecto positivo manifesta introspecção e equilíbrio. No aspecto negativo pode gerar isolamento. A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.`,
   
-63:"Dúvidas Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 63 faz com que a pessoa perceba a realidade como fase de questionamentos. No aspecto positivo manifesta análise e reorganização interna. No aspecto negativo pode gerar insegurança e bloqueios. A Potência 63 ensina que a realidade é percebida como processo de reflexão.",
-64:"Persistência Emocional e Superação Interior. Na Pirâmide Pessoal, a Potência 64 faz com que a pessoa perceba a realidade como luta interna constante. No aspecto positivo manifesta força emocional. No aspecto negativo pode gerar rigidez emocional. A Potência 64 ensina que a realidade é percebida como superação contínua.",
+62:`Dor Emocional e Libertação Interior. Na Pirâmide Pessoal, a Potência 62 faz com que a pessoa perceba a realidade como processo de cura emocional. No aspecto positivo manifesta perdão e libertação interna. No aspecto negativo pode gerar tristeza e apego ao passado. A Potência 62 ensina que a realidade é percebida como libertação emocional.`,
   
-65:"Ascensão Interior e Busca de Propósito. Na Pirâmide Pessoal, a Potência 65 faz com que a pessoa perceba a realidade como crescimento interior alinhado ao propósito de vida. No aspecto positivo manifesta clareza emocional. No aspecto negativo pode gerar ambição excessiva. A Potência 65 ensina que a realidade é percebida como busca de propósito.",
+63:`Dúvidas Internas e Reflexão Profunda. Na Pirâmide Pessoal, a Potência 63 faz com que a pessoa perceba a realidade como fase de questionamentos. No aspecto positivo manifesta análise e reorganização interna. No aspecto negativo pode gerar insegurança e bloqueios. A Potência 63 ensina que a realidade é percebida como processo de reflexão.`,
+64:`Persistência Emocional e Superação Interior. Na Pirâmide Pessoal, a Potência 64 faz com que a pessoa perceba a realidade como luta interna constante. No aspecto positivo manifesta força emocional. No aspecto negativo pode gerar rigidez emocional. A Potência 64 ensina que a realidade é percebida como superação contínua.`,
   
-66:"Autenticidade Emocional e Expressão do Eu. Na Pirâmide Pessoal, a Potência 66 faz com que a pessoa perceba a realidade como necessidade de ser verdadeira consigo mesma. No aspecto positivo manifesta identidade forte. No aspecto negativo pode gerar medo de julgamento. A Potência 66 ensina que a realidade é percebida como busca por autenticidade.",
+65:`Ascensão Interior e Busca de Propósito. Na Pirâmide Pessoal, a Potência 65 faz com que a pessoa perceba a realidade como crescimento interior alinhado ao propósito de vida. No aspecto positivo manifesta clareza emocional. No aspecto negativo pode gerar ambição excessiva. A Potência 65 ensina que a realidade é percebida como busca de propósito.`,
   
-67:"Confiança Interior e Realização Psicológica. Na Pirâmide Pessoal, a Potência 67 faz com que a pessoa perceba a realidade como capacidade de concretizar sonhos internos. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar materialismo emocional. A Potência 67 ensina que a realidade é percebida como concretização interior.",
+66:`Autenticidade Emocional e Expressão do Eu. Na Pirâmide Pessoal, a Potência 66 faz com que a pessoa perceba a realidade como necessidade de ser verdadeira consigo mesma. No aspecto positivo manifesta identidade forte. No aspecto negativo pode gerar medo de julgamento. A Potência 66 ensina que a realidade é percebida como busca por autenticidade.`,
   
-68:"Valor Pessoal e Autoestima Emocional. Na Pirâmide Pessoal, a Potência 68 faz com que a pessoa perceba a realidade como reconhecimento do próprio valor. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar vaidade emocional. A Potência 68 ensina que a realidade é percebida como valorização interior.",
+67:`Confiança Interior e Realização Psicológica. Na Pirâmide Pessoal, a Potência 67 faz com que a pessoa perceba a realidade como capacidade de concretizar sonhos internos. No aspecto positivo manifesta autoconfiança emocional. No aspecto negativo pode gerar materialismo emocional. A Potência 67 ensina que a realidade é percebida como concretização interior.`,
   
-69:"Plenitude Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 69 faz com que a pessoa perceba a realidade como colheita emocional. No aspecto positivo manifesta felicidade interna. No aspecto negativo pode gerar excesso de satisfação e acomodação. A Potência 69 ensina que a realidade é percebida como plenitude interior.",
+68:`Valor Pessoal e Autoestima Emocional. Na Pirâmide Pessoal, a Potência 68 faz com que a pessoa perceba a realidade como reconhecimento do próprio valor. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar vaidade emocional. A Potência 68 ensina que a realidade é percebida como valorização interior.`,
   
-70:"Autossuficiência Emocional e Segurança Interna. Na Pirâmide Pessoal, a Potência 70 faz com que a pessoa perceba a realidade como busca por independência emocional. No aspecto positivo manifesta estabilidade interior. No aspecto negativo pode gerar isolamento emocional. A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.",
+69:`Plenitude Emocional e Realização Interior. Na Pirâmide Pessoal, a Potência 69 faz com que a pessoa perceba a realidade como colheita emocional. No aspecto positivo manifesta felicidade interna. No aspecto negativo pode gerar excesso de satisfação e acomodação. A Potência 69 ensina que a realidade é percebida como plenitude interior.`,
   
-71:"Prudência Emocional e Conservação Interior. Na Pirâmide Pessoal, a Potência 71 faz com que a pessoa perceba a realidade como necessidade de preservar conquistas emocionais. No aspecto positivo manifesta maturidade e planejamento. No aspecto negativo pode gerar medo de mudanças. A Potência 71 ensina que a realidade é percebida como preservação interior.",
+70:`Autossuficiência Emocional e Segurança Interna. Na Pirâmide Pessoal, a Potência 70 faz com que a pessoa perceba a realidade como busca por independência emocional. No aspecto positivo manifesta estabilidade interior. No aspecto negativo pode gerar isolamento emocional. A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.`,
   
-72:"Clareza Mental e Direção Emocional. Na Pirâmide Pessoal, a Potência 72 faz com que a pessoa perceba a realidade como busca por direção clara. No aspecto positivo manifesta discernimento. No aspecto negativo pode gerar rigidez emocional. A Potência 72 ensina que a realidade é percebida como clareza interior.",
+71:`Prudência Emocional e Conservação Interior. Na Pirâmide Pessoal, a Potência 71 faz com que a pessoa perceba a realidade como necessidade de preservar conquistas emocionais. No aspecto positivo manifesta maturidade e planejamento. No aspecto negativo pode gerar medo de mudanças. A Potência 71 ensina que a realidade é percebida como preservação interior.`,
   
-73:"Generosidade Emocional e Trocas Afetivas. Na Pirâmide Pessoal, a Potência 73 faz com que a pessoa perceba a realidade como trocas emocionais constantes. No aspecto positivo manifesta empatia. No aspecto negativo pode gerar ilusões afetivas. A Potência 73 ensina que a realidade é percebida como troca emocional.",
+72:`Clareza Mental e Direção Emocional. Na Pirâmide Pessoal, a Potência 72 faz com que a pessoa perceba a realidade como busca por direção clara. No aspecto positivo manifesta discernimento. No aspecto negativo pode gerar rigidez emocional. A Potência 72 ensina que a realidade é percebida como clareza interior.`,
   
-74:"Instabilidade Interior e Reconstrução Emocional. Na Pirâmide Pessoal, a Potência 74 faz com que a pessoa perceba a realidade como necessidade de reorganização interna. No aspecto positivo manifesta superação emocional. No aspecto negativo pode gerar insegurança. A Potência 74 ensina que a realidade é percebida como reconstrução interior.",
+73:`Generosidade Emocional e Trocas Afetivas. Na Pirâmide Pessoal, a Potência 73 faz com que a pessoa perceba a realidade como trocas emocionais constantes. No aspecto positivo manifesta empatia. No aspecto negativo pode gerar ilusões afetivas. A Potência 73 ensina que a realidade é percebida como troca emocional.`,
   
-75:"Segurança Emocional e Consolidação Interior. Na Pirâmide Pessoal, a Potência 75 faz com que a pessoa perceba a realidade como busca por estabilidade emocional. No aspecto positivo manifesta segurança interna. No aspecto negativo pode gerar apego emocional. A Potência 75 ensina que a realidade é percebida como consolidação emocional.",
+74:`Instabilidade Interior e Reconstrução Emocional. Na Pirâmide Pessoal, a Potência 74 faz com que a pessoa perceba a realidade como necessidade de reorganização interna. No aspecto positivo manifesta superação emocional. No aspecto negativo pode gerar insegurança. A Potência 74 ensina que a realidade é percebida como reconstrução interior.`,
   
-76:"Reconhecimento Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 76 faz com que a pessoa perceba a realidade como valorização do próprio esforço interno. No aspecto positivo manifesta crescimento emocional. No aspecto negativo pode gerar ansiedade por resultados. A Potência 76 ensina que a realidade é percebida como reconhecimento interior.",
+75:`Segurança Emocional e Consolidação Interior. Na Pirâmide Pessoal, a Potência 75 faz com que a pessoa perceba a realidade como busca por estabilidade emocional. No aspecto positivo manifesta segurança interna. No aspecto negativo pode gerar apego emocional. A Potência 75 ensina que a realidade é percebida como consolidação emocional.`,
   
-77:"Despertar Espiritual e Transformação Psicológica. Na Pirâmide Pessoal, a Potência 77 faz com que a pessoa perceba a realidade como evolução espiritual interna. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar instabilidade emocional. A Potência 77 ensina que a realidade é percebida como despertar interior.",
+76:`Reconhecimento Interior e Construção Psicológica. Na Pirâmide Pessoal, a Potência 76 faz com que a pessoa perceba a realidade como valorização do próprio esforço interno. No aspecto positivo manifesta crescimento emocional. No aspecto negativo pode gerar ansiedade por resultados. A Potência 76 ensina que a realidade é percebida como reconhecimento interior.`,
   
-78:"Alegria Interior e Expansão Emocional. Na Pirâmide Pessoal, a Potência 78 faz com que a pessoa perceba a realidade como fases de felicidade emocional. No aspecto positivo manifesta entusiasmo e alegria. No aspecto negativo pode gerar excessos emocionais. A Potência 78 ensina que a realidade é percebida como expansão emocional.",
+77:`Despertar Espiritual e Transformação Psicológica. Na Pirâmide Pessoal, a Potência 77 faz com que a pessoa perceba a realidade como evolução espiritual interna. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar instabilidade emocional. A Potência 77 ensina que a realidade é percebida como despertar interior.`,
   
-79:"Libertação Emocional e Novo Começo Interior. Na Pirâmide Pessoal, a Potência 79 faz com que a pessoa perceba a realidade como necessidade de recomeçar emocionalmente. No aspecto positivo manifesta independência emocional. No aspecto negativo pode gerar instabilidade. A Potência 79 ensina que a realidade é percebida como libertação.",
+78:`Alegria Interior e Expansão Emocional. Na Pirâmide Pessoal, a Potência 78 faz com que a pessoa perceba a realidade como fases de felicidade emocional. No aspecto positivo manifesta entusiasmo e alegria. No aspecto negativo pode gerar excessos emocionais. A Potência 78 ensina que a realidade é percebida como expansão emocional.`,
+
+79:`Libertação Emocional e Novo Começo Interior. Na Pirâmide Pessoal, a Potência 79 faz com que a pessoa perceba a realidade como necessidade de recomeçar emocionalmente. No aspecto positivo manifesta independência emocional. No aspecto negativo pode gerar instabilidade. A Potência 79 ensina que a realidade é percebida como libertação.`,
   
-81:"Consciência Cármica e Responsabilidade Interior. Na Pirâmide Pessoal, a Potência 81 faz com que a pessoa perceba a realidade como aprendizado através das consequências. No aspecto positivo manifesta maturidade emocional. No aspecto negativo pode gerar sensação de peso emocional. A Potência 81 ensina que a realidade é percebida como responsabilidade interior.",
+81:`Consciência Cármica e Responsabilidade Interior. Na Pirâmide Pessoal, a Potência 81 faz com que a pessoa perceba a realidade como aprendizado através das consequências. No aspecto positivo manifesta maturidade emocional. No aspecto negativo pode gerar sensação de peso emocional. A Potência 81 ensina que a realidade é percebida como responsabilidade interior.`,
   
-82:"Ciclos Emocionais e Padrões Internos. Na Pirâmide Pessoal, a Potência 82 faz com que a pessoa perceba a realidade como repetição de padrões emocionais. No aspecto positivo manifesta consciência dos ciclos. No aspecto negativo pode gerar sensação de repetição constante. A Potência 82 ensina que a realidade é percebida como ciclos emocionais.",
+82:`Ciclos Emocionais e Padrões Internos. Na Pirâmide Pessoal, a Potência 82 faz com que a pessoa perceba a realidade como repetição de padrões emocionais. No aspecto positivo manifesta consciência dos ciclos. No aspecto negativo pode gerar sensação de repetição constante. A Potência 82 ensina que a realidade é percebida como ciclos emocionais.`,
   
-83:"Autocontrole Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 83 faz com que a pessoa perceba a realidade como busca por domínio emocional. No aspecto positivo manifesta equilíbrio interno. No aspecto negativo pode gerar controle excessivo. A Potência 83 ensina que a realidade é percebida como autodomínio.",
+83:`Autocontrole Emocional e Harmonia Interior. Na Pirâmide Pessoal, a Potência 83 faz com que a pessoa perceba a realidade como busca por domínio emocional. No aspecto positivo manifesta equilíbrio interno. No aspecto negativo pode gerar controle excessivo. A Potência 83 ensina que a realidade é percebida como autodomínio.`,
   
-84:"Propósito Interior e Missão Emocional. Na Pirâmide Pessoal, a Potência 84 faz com que a pessoa perceba a realidade como desejo de ter propósito. No aspecto positivo manifesta senso de missão interna. No aspecto negativo pode gerar sobrecarga emocional. A Potência 84 ensina que a realidade é percebida como missão interior.",
+84:`Propósito Interior e Missão Emocional. Na Pirâmide Pessoal, a Potência 84 faz com que a pessoa perceba a realidade como desejo de ter propósito. No aspecto positivo manifesta senso de missão interna. No aspecto negativo pode gerar sobrecarga emocional. A Potência 84 ensina que a realidade é percebida como missão interior.`,
   
-85:"Crise Interior e Recolhimento Emocional. Na Pirâmide Pessoal, a Potência 85 faz com que a pessoa perceba a realidade como períodos de isolamento emocional. No aspecto positivo manifesta transformação interior. No aspecto negativo pode gerar tristeza profunda. A Potência 85 ensina que a realidade é percebida como reflexão profunda.",
+85:`Crise Interior e Recolhimento Emocional. Na Pirâmide Pessoal, a Potência 85 faz com que a pessoa perceba a realidade como períodos de isolamento emocional. No aspecto positivo manifesta transformação interior. No aspecto negativo pode gerar tristeza profunda. A Potência 85 ensina que a realidade é percebida como reflexão profunda.`,
   
-86:"Persistência Emocional e Determinação Interna. Na Pirâmide Pessoal, a Potência 86 faz com que a pessoa perceba a realidade como desafios que exigem força emocional. No aspecto positivo manifesta determinação. No aspecto negativo pode gerar desgaste emocional. A Potência 86 ensina que a realidade é percebida como perseverança.",
+86:`Persistência Emocional e Determinação Interna. Na Pirâmide Pessoal, a Potência 86 faz com que a pessoa perceba a realidade como desafios que exigem força emocional. No aspecto positivo manifesta determinação. No aspecto negativo pode gerar desgaste emocional. A Potência 86 ensina que a realidade é percebida como perseverança.`,
   
-87:"Controle de Impulsos e Conflitos Internos. Na Pirâmide Pessoal, a Potência 87 faz com que a pessoa perceba a realidade como luta contra excessos emocionais. No aspecto positivo manifesta libertação de vícios emocionais. No aspecto negativo pode gerar autossabotagem. A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.",
+87:`Controle de Impulsos e Conflitos Internos. Na Pirâmide Pessoal, a Potência 87 faz com que a pessoa perceba a realidade como luta contra excessos emocionais. No aspecto positivo manifesta libertação de vícios emocionais. No aspecto negativo pode gerar autossabotagem. A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.`,
   
-88:"Colapso Emocional e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 88 faz com que a pessoa perceba a realidade como mudanças profundas internas. No aspecto positivo manifesta renascimento emocional. No aspecto negativo pode gerar sensação de caos interior. A Potência 88 ensina que a realidade é percebida como reconstrução.",
+88:`Colapso Emocional e Reconstrução Interior. Na Pirâmide Pessoal, a Potência 88 faz com que a pessoa perceba a realidade como mudanças profundas internas. No aspecto positivo manifesta renascimento emocional. No aspecto negativo pode gerar sensação de caos interior. A Potência 88 ensina que a realidade é percebida como reconstrução.`,
   
-89:"Expectativas Emocionais e Aprendizado Interior. Na Pirâmide Pessoal, a Potência 89 faz com que a pessoa perceba a realidade como tensão entre desejo e realidade emocional. No aspecto positivo manifesta amadurecimento. No aspecto negativo pode gerar frustração. A Potência 89 ensina que a realidade é percebida como aprendizado emocional.",
+89:`Expectativas Emocionais e Aprendizado Interior. Na Pirâmide Pessoal, a Potência 89 faz com que a pessoa perceba a realidade como tensão entre desejo e realidade emocional. No aspecto positivo manifesta amadurecimento. No aspecto negativo pode gerar frustração. A Potência 89 ensina que a realidade é percebida como aprendizado emocional.`,
   
-90:"Sabedoria Interior e Silêncio Emocional. Na Pirâmide Pessoal, a Potência 90 faz com que a pessoa perceba a realidade como necessidade de introspecção profunda. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar isolamento. A Potência 90 ensina que a realidade é percebida como busca espiritual interior.",
+90:`Sabedoria Interior e Silêncio Emocional. Na Pirâmide Pessoal, a Potência 90 faz com que a pessoa perceba a realidade como necessidade de introspecção profunda. No aspecto positivo manifesta sabedoria emocional. No aspecto negativo pode gerar isolamento. A Potência 90 ensina que a realidade é percebida como busca espiritual interior.`,
   
-91:"Retorno Emocional e Responsabilidade Psicológica. Na Pirâmide Pessoal, a Potência 91 faz com que a pessoa perceba a realidade como retorno de suas próprias ações emocionais. No aspecto positivo manifesta maturidade. No aspecto negativo pode gerar sensação de peso emocional. A Potência 91 ensina que a realidade é percebida como retorno interno.",
+91:`Retorno Emocional e Responsabilidade Psicológica. Na Pirâmide Pessoal, a Potência 91 faz com que a pessoa perceba a realidade como retorno de suas próprias ações emocionais. No aspecto positivo manifesta maturidade. No aspecto negativo pode gerar sensação de peso emocional. A Potência 91 ensina que a realidade é percebida como retorno interno.`,
   
-92:"Reavaliação Interior e Questionamentos Emocionais. Na Pirâmide Pessoal, a Potência 92 faz com que a pessoa perceba a realidade como revisão constante de escolhas internas. No aspecto positivo manifesta reflexão profunda. No aspecto negativo pode gerar insegurança emocional. A Potência 92 ensina que a realidade é percebida como reavaliação.",
+92:`Reavaliação Interior e Questionamentos Emocionais. Na Pirâmide Pessoal, a Potência 92 faz com que a pessoa perceba a realidade como revisão constante de escolhas internas. No aspecto positivo manifesta reflexão profunda. No aspecto negativo pode gerar insegurança emocional. A Potência 92 ensina que a realidade é percebida como reavaliação.`,
   
-93:"Expansão Espiritual e Evolução Interior. Na Pirâmide Pessoal, a Potência 93 faz com que a pessoa perceba a realidade como crescimento espiritual e emocional. No aspecto positivo manifesta consciência elevada. No aspecto negativo pode gerar distanciamento emocional. A Potência 93 ensina que a realidade é percebida como evolução.",
+93:`Expansão Espiritual e Evolução Interior. Na Pirâmide Pessoal, a Potência 93 faz com que a pessoa perceba a realidade como crescimento espiritual e emocional. No aspecto positivo manifesta consciência elevada. No aspecto negativo pode gerar distanciamento emocional. A Potência 93 ensina que a realidade é percebida como evolução.`,
   
-94:"Cansaço Emocional e Transição Interior. Na Pirâmide Pessoal, a Potência 94 faz com que a pessoa perceba a realidade como necessidade de pausa emocional. No aspecto positivo manifesta reorientação interna. No aspecto negativo pode gerar desânimo. A Potência 94 ensina que a realidade é percebida como transição.",
+94:`Cansaço Emocional e Transição Interior. Na Pirâmide Pessoal, a Potência 94 faz com que a pessoa perceba a realidade como necessidade de pausa emocional. No aspecto positivo manifesta reorientação interna. No aspecto negativo pode gerar desânimo. A Potência 94 ensina que a realidade é percebida como transição.`,
   
-95:"Harmonia Interior e Reconhecimento Emocional. Na Pirâmide Pessoal, a Potência 95 faz com que a pessoa perceba a realidade como busca por equilíbrio emocional nas relações. No aspecto positivo manifesta aceitação emocional. No aspecto negativo pode gerar dependência de aprovação. A Potência 95 ensina que a realidade é percebida como harmonia.",
+95:`Harmonia Interior e Reconhecimento Emocional. Na Pirâmide Pessoal, a Potência 95 faz com que a pessoa perceba a realidade como busca por equilíbrio emocional nas relações. No aspecto positivo manifesta aceitação emocional. No aspecto negativo pode gerar dependência de aprovação. A Potência 95 ensina que a realidade é percebida como harmonia.`,
   
-96:"Queda de Ilusões e Clareza Emocional. Na Pirâmide Pessoal, a Potência 96 faz com que a pessoa perceba a realidade como confronto com ilusões internas. No aspecto positivo manifesta libertação emocional. No aspecto negativo pode gerar confusão afetiva. A Potência 96 ensina que a realidade é percebida como despertar emocional.",
+96:`Queda de Ilusões e Clareza Emocional. Na Pirâmide Pessoal, a Potência 96 faz com que a pessoa perceba a realidade como confronto com ilusões internas. No aspecto positivo manifesta libertação emocional. No aspecto negativo pode gerar confusão afetiva. A Potência 96 ensina que a realidade é percebida como despertar emocional.`,
   
-97:"Rupturas Emocionais e Descoberta Interior. Na Pirâmide Pessoal, a Potência 97 faz com que a pessoa perceba a realidade como mudanças que revelam propósito emocional. No aspecto positivo manifesta libertação. No aspecto negativo pode gerar conflitos internos. A Potência 97 ensina que a realidade é percebida como redirecionamento.",
+97:`Rupturas Emocionais e Descoberta Interior. Na Pirâmide Pessoal, a Potência 97 faz com que a pessoa perceba a realidade como mudanças que revelam propósito emocional. No aspecto positivo manifesta libertação. No aspecto negativo pode gerar conflitos internos. A Potência 97 ensina que a realidade é percebida como redirecionamento.`,
   
-98:"Reconhecimento Interior e Elevação Emocional. Na Pirâmide Pessoal, a Potência 98 faz com que a pessoa perceba a realidade como recompensa emocional por esforços internos. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar orgulho emocional. A Potência 98 ensina que a realidade é percebida como reconhecimento.",
+98:`Reconhecimento Interior e Elevação Emocional. Na Pirâmide Pessoal, a Potência 98 faz com que a pessoa perceba a realidade como recompensa emocional por esforços internos. No aspecto positivo manifesta autoestima elevada. No aspecto negativo pode gerar orgulho emocional. A Potência 98 ensina que a realidade é percebida como reconhecimento.`,
   
-99:"Consciência Suprema e Integração Interior. Na Pirâmide Pessoal, a Potência 99 faz com que a pessoa perceba a realidade como integração total da experiência emocional. No aspecto positivo manifesta sabedoria profunda. No aspecto negativo pode gerar isolamento emocional. A Potência 99 ensina que a realidade é percebida como integração da consciência."};
+99:`Consciência Suprema e Integração Interior. Na Pirâmide Pessoal, a Potência 99 faz com que a pessoa perceba a realidade como integração total da experiência emocional. No aspecto positivo manifesta sabedoria profunda. No aspecto negativo pode gerar isolamento emocional. A Potência 99 ensina que a realidade é percebida como integração da consciência.`};
 
   const textosSocial={ 
 
@@ -3198,6 +3450,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
