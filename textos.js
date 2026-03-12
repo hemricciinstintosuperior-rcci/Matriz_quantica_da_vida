@@ -1642,438 +1642,523 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 <p>O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria e equilíbrio.</p>`,
 
    
-​11:`<p>Força Social e Percepção de Liderança.</p>
-​<p>Na Pirâmide Social, a Potência 11 indica que você percebe o ambiente externo como um campo de força, iniciativa e tomada de decisões. Enxerga as relações sociais como espaços onde liderança, posicionamento e atitude definem os rumos coletivos. Costuma notar quem assume o controle, quem conduz situações e quem evita responsabilidades.</p>
+
+11: `<p>Força Social e Percepção de Liderança.</p>
+<p>Na Pirâmide Social, a Potência 11 indica que você percebe o ambiente externo como um campo de força, iniciativa e tomada de decisões. Enxerga as relações sociais como espaços onde liderança, posicionamento e atitude definem os rumos coletivos. Costuma notar quem assume o controle, quem conduz situações e quem evita responsabilidades.</p>
 <p>No aspecto positivo manifesta postura firme, visão estratégica e capacidade de compreender dinâmicas de poder.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo ou exigente.</p>
 <p>A Potência 11 mostra que a pessoa vive e interpreta o mundo social como um cenário de liderança e afirmação.</p>`,
-​12:`<p>Cooperação Social e Percepção de Sacrifício.</p>
-​<p>Na Pirâmide Social, a Potência 12 indica que você percebe o ambiente social como um espaço onde colaboração, paciência e concessões são necessárias para manter o equilíbrio coletivo. Enxerga as relações como processos que exigem apoio mútuo e sustentação constante. Costuma notar quem ajuda, quem se sacrifica e quem evita compromissos.</p>
+
+12: `<p>Cooperação Social e Percepção de Sacrifício.</p>
+<p>Na Pirâmide Social, a Potência 12 indica que você percebe o ambiente social como um espaço onde colaboração, paciência e concessões são necessárias para manter o equilíbrio coletivo. Enxerga as relações como processos que exigem apoio mútuo e sustentação constante. Costuma notar quem ajuda, quem se sacrifica e quem evita compromissos.</p>
 <p>No aspecto positivo manifesta empatia e compreensão das necessidades do grupo.</p>
 <p>No aspecto negativo pode perceber o meio como pesado ou marcado por cobranças excessivas.</p>
 <p>A Potência 12 revela uma vivência social interpretada sob a ótica da cooperação.</p>`,
-​13:`<p>Transformação Social e Percepção de Mudanças.</p>
-​<p>Na Pirâmide Social, a Potência 13 indica que você percebe o ambiente como instável e sujeito a constantes renovações. Enxerga ciclos de começo e fim nas relações, no trabalho e nas estruturas coletivas. Costuma notar processos de encerramento, rupturas e recomeços ao seu redor.</p>
+
+13: `<p>Transformação Social e Percepção de Mudanças.</p>
+<p>Na Pirâmide Social, a Potência 13 indica que você percebe o ambiente como instável e sujeito a constantes renovações. Enxerga ciclos de começo e fim nas relações, no trabalho e nas estruturas coletivas. Costuma notar processos de encerramento, rupturas e recomeços ao seu redor.</p>
 <p>No aspecto positivo manifesta coragem para aceitar mudanças e compreender transições sociais.</p>
 <p>No aspecto negativo pode perceber o meio como imprevisível ou excessivamente mutável.</p>
 <p>A Potência 13 mostra uma vivência social marcada por transformações contínuas.</p>`,
-​14:`<p>Diplomacia Social e Percepção de Harmonia.</p>
-​<p>Na Pirâmide Social, a Potência 14 indica que você percebe o ambiente social como um espaço que exige equilíbrio, diálogo e mediação constante. Enxerga tensões nas relações e identifica a necessidade de conciliar diferenças. Costuma notar conflitos sutis e buscar compreensão entre as partes envolvidas.</p>
+
+14: `<p>Diplomacia Social e Percepção de Harmonia.</p>
+<p>Na Pirâmide Social, a Potência 14 indica que você percebe o ambiente social como um espaço que exige equilíbrio, diálogo e mediação constante. Enxerga tensões nas relações e identifica a necessidade de conciliar diferenças. Costuma notar conflitos sutis e buscar compreensão entre as partes envolvidas.</p>
 <p>No aspecto positivo manifesta cooperação e visão harmonizadora das situações coletivas.</p>
 <p>No aspecto negativo pode perceber divergências com desconforto ou excesso de cautela.</p>
 <p>A Potência 14 revela uma percepção social voltada ao equilíbrio e à harmonia.</p>`,
-​15:`<p>Magnetismo Social e Percepção de Influência.</p>
-​<p>Na Pirâmide Social, a Potência 15 indica que você percebe o ambiente como repleto de interesses, desejos e disputas por influência. Enxerga jogos de poder, estratégias de persuasão e movimentações ocultas nas relações sociais. Costuma notar intenções, seduções e mecanismos de convencimento ao seu redor.</p>
+
+15: `<p>Magnetismo Social e Percepção de Influência.</p>
+<p>Na Pirâmide Social, a Potência 15 indica que você percebe o ambiente como repleto de interesses, desejos e disputas por influência. Enxerga jogos de poder, estratégias de persuasão e movimentações ocultas nas relações sociais. Costuma notar intenções, seduções e mecanismos de convencimento ao seu redor.</p>
 <p>No aspecto positivo manifesta compreensão do magnetismo e da criatividade presentes no coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como excessivamente competitivo ou manipulador.</p>
 <p>A Potência 15 mostra uma percepção social ligada à dinâmica do poder e da influência.</p>`,
-​16:`<p>Rupturas Sociais e Percepção de Instabilidade.</p>
-​<p>Na Pirâmide Social, a Potência 16 indica que você percebe o ambiente como sujeito a quedas, crises e recomeços inesperados. Enxerga o meio social como um campo onde estruturas podem se romper e onde mudanças bruscas alteram relações e contextos profissionais. Costuma notar instabilidades, rompimentos e reconstruções ao seu redor.</p>
+
+16: `<p>Rupturas Sociais e Percepção de Instabilidade.</p>
+<p>Na Pirâmide Social, a Potência 16 indica que você percebe o ambiente como sujeito a quedas, crises e recomeços inesperados. Enxerga o meio social como um campo onde estruturas podem se romper e onde mudanças bruscas alteram relações e contextos profissionais. Costuma notar instabilidades, rompimentos e reconstruções ao seu redor.</p>
 <p>No aspecto positivo manifesta capacidade de compreender processos de reconstrução e aprendizado coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como inseguro ou imprevisível demais.</p>
 <p>A Potência 16 revela uma percepção social marcada por mudanças abruptas e necessidade de adaptação.</p>`,
-​17:`<p>Inspiração Social e Percepção de Esperança.</p>
-​<p>Na Pirâmide Social, a Potência 17 indica que você percebe o ambiente social como um espaço de possibilidades, talentos e sonhos em construção. Enxerga potencial nas pessoas e nas situações, identificando caminhos de crescimento e superação coletiva. Costuma notar oportunidades de evolução e aspectos positivos nos grupos.</p>
+
+17: `<p>Inspiração Social e Percepção de Esperança.</p>
+<p>Na Pirâmide Social, a Potência 17 indica que você percebe o ambiente social como um espaço de possibilidades, talentos e sonhos em construção. Enxerga potencial nas pessoas e nas situações, identificando caminhos de crescimento e superação coletiva. Costuma notar oportunidades de evolução e aspectos positivos nos grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e motivação ao interpretar o meio social.</p>
 <p>No aspecto negativo pode perceber o ambiente com idealismo excessivo.</p>
 <p>A Potência 17 revela uma percepção social baseada na esperança e na inspiração.</p>`,
-​18:`<p>Sensibilidade Social e Percepção Emocional.</p>
-​<p>Na Pirâmide Social, a Potência 18 indica que você percebe o ambiente social de forma profunda e emocional. Enxerga sentimentos ocultos, tensões invisíveis e nuances afetivas nas relações coletivas. Costuma notar mudanças de humor, inseguranças e climas emocionais nos grupos.</p>
+
+18: `<p>Sensibilidade Social e Percepção Emocional.</p>
+<p>Na Pirâmide Social, a Potência 18 indica que você percebe o ambiente social de forma profunda e emocional. Enxerga sentimentos ocultos, tensões invisíveis e nuances afetivas nas relações coletivas. Costuma notar mudanças de humor, inseguranças e climas emocionais nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e leitura intuitiva do campo social.</p>
 <p>No aspecto negativo pode perceber o ambiente como confuso ou carregado emocionalmente.</p>
 <p>A Potência 18 revela uma percepção social guiada pela sensibilidade.</p>`,
-​19:`<p>Reconhecimento Social e Percepção de Brilho.</p>
-​<p>Na Pirâmide Social, a Potência 19 indica que você percebe o ambiente como um espaço de visibilidade, reconhecimento e destaque. Enxerga quem se sobressai, quem assume protagonismo e quem busca afirmação social. Costuma notar movimentos de sucesso e necessidade de validação coletiva.</p>
+
+19: `<p>Reconhecimento Social e Percepção de Brilho.</p>
+<p>Na Pirâmide Social, a Potência 19 indica que você percebe o ambiente como um espaço de visibilidade, reconhecimento e destaque. Enxerga quem se sobressai, quem assume protagonismo e quem busca afirmação social. Costuma notar movimentos de sucesso e necessidade de validação coletiva.</p>
 <p>No aspecto positivo manifesta compreensão da importância da autoconfiança e da expressão pessoal.</p>
 <p>No aspecto negativo pode perceber o meio como competitivo ou centrado em aparências.</p>
 <p>A Potência 19 revela uma percepção social ligada ao brilho e ao reconhecimento.</p>`,
-​21:`<p>Realização Social e Percepção de Conquistas.</p>
-​<p>Na Pirâmide Social, a Potência 21 indica que você percebe o ambiente como um espaço de metas concluídas, ciclos encerrados e resultados alcançados. Enxerga processos coletivos que chegam ao fim e situações que exigem fechamento. Costuma notar quem concretiza objetivos e quem finaliza etapas importantes.</p>
+
+21: `<p>Realização Social e Percepção de Conquistas.</p>
+<p>Na Pirâmide Social, a Potência 21 indica que você percebe o ambiente como um espaço de metas concluídas, ciclos encerrados e resultados alcançados. Enxerga processos coletivos que chegam ao fim e situações que exigem fechamento. Costuma notar quem concretiza objetivos e quem finaliza etapas importantes.</p>
 <p>No aspecto positivo manifesta sensação de estabilidade e compreensão de conquistas coletivas.</p>
 <p>No aspecto negativo pode perceber o meio como repetitivo ou acomodado.</p>
 <p>A Potência 21 revela uma percepção social voltada à realização e conclusão de ciclos.</p>`,
-​22:`<p>Liberdade Social e Percepção de Oportunidades.</p>
-​<p>Na Pirâmide Social, a Potência 22 indica que você percebe o ambiente como cheio de oportunidades, riscos e novos caminhos. Enxerga o meio social como um espaço aberto à experimentação e mudanças inesperadas. Costuma notar portas se abrindo e possibilidades surgindo de forma repentina.</p>
+
+22: `<p>Liberdade Social e Percepção de Oportunidades.</p>
+<p>Na Pirâmide Social, a Potência 22 indica que você percebe o ambiente como cheio de oportunidades, riscos e novos caminhos. Enxerga o meio social como um espaço aberto à experimentação e mudanças inesperadas. Costuma notar portas se abrindo e possibilidades surgindo de forma repentina.</p>
 <p>No aspecto positivo manifesta visão inovadora e coragem ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível.</p>
 <p>A Potência 22 revela uma percepção social marcada pela liberdade e expansão.</p>`,
-​23:`<p>Proteção Social e Percepção de Mérito.</p>
-​<p>Na Pirâmide Social, a Potência 23 indica que você percebe o ambiente como regido por mérito, esforço e responsabilidade. Enxerga as relações sociais como estruturadas por competência e reconhecimento do trabalho realizado. Costuma notar quem conquista espaço por dedicação e disciplina.</p>
+
+23: `<p>Proteção Social e Percepção de Mérito.</p>
+<p>Na Pirâmide Social, a Potência 23 indica que você percebe o ambiente como regido por mérito, esforço e responsabilidade. Enxerga as relações sociais como estruturadas por competência e reconhecimento do trabalho realizado. Costuma notar quem conquista espaço por dedicação e disciplina.</p>
 <p>No aspecto positivo manifesta compreensão do valor do compromisso coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como exigente ou rigoroso demais.</p>
 <p>A Potência 23 revela uma percepção social baseada em mérito e responsabilidade.</p>`,
-​24:`<p>Harmonia Social e Percepção de Estabilidade.</p>
-​<p>Na Pirâmide Social, a Potência 24 indica que você percebe o ambiente como um espaço de vínculos, segurança e estabilidade relacional. Enxerga a importância das parcerias, do apoio mútuo e da construção de relações duradouras. Costuma notar a necessidade de cooperação e proteção coletiva.</p>
+
+24: `<p>Harmonia Social e Percepção de Estabilidade.</p>
+<p>Na Pirâmide Social, a Potência 24 indica que você percebe o ambiente como um espaço de vínculos, segurança e estabilidade relacional. Enxerga a importância das parcerias, do apoio mútuo e da construção de relações duradouras. Costuma notar a necessidade de cooperação e proteção coletiva.</p>
 <p>No aspecto positivo manifesta confiança nas estruturas sociais consolidadas.</p>
 <p>No aspecto negativo pode perceber o ambiente como conservador ou resistente a mudanças.</p>
 <p>A Potência 24 revela uma percepção social voltada à estabilidade e harmonia.</p>`,
-​25:`<p>Ação Social e Percepção de Movimento.</p>
-​<p>Na Pirâmide Social, a Potência 25 indica que você percebe o ambiente como dinâmico, competitivo e orientado para conquistas. Enxerga o meio social como um campo de desafios e oportunidades de ação. Costuma notar movimentações estratégicas, disputas e iniciativas coletivas.</p>
+
+25: `<p>Ação Social e Percepção de Movimento.</p>
+<p>Na Pirâmide Social, a Potência 25 indica que você percebe o ambiente como dinâmico, competitivo e orientado para conquistas. Enxerga o meio social como um campo de desafios e oportunidades de ação. Costuma notar movimentações estratégicas, disputas e iniciativas coletivas.</p>
 <p>No aspecto positivo manifesta coragem e iniciativa ao interpretar o cenário social.</p>
 <p>No aspecto negativo pode perceber o ambiente como conflituoso ou excessivamente acelerado.</p>
 <p>A Potência 25 revela uma percepção social baseada em movimento e conquista.</p>`,
-​26:`<p>Potencial Social e Percepção de Expectativas.</p>
-​<p>Na Pirâmide Social, a Potência 26 indica que você percebe o ambiente como cheio de promessas, possibilidades futuras e situações ainda em desenvolvimento. Enxerga o meio social como um campo onde projetos amadurecem gradualmente e onde o crescimento depende de preparo e constância. Costuma notar oportunidades em fase inicial e contextos que exigem paciência para se consolidar.</p>
+
+26: `<p>Potencial Social e Percepção de Expectativas.</p>
+<p>Na Pirâmide Social, a Potência 26 indica que você percebe o ambiente como cheio de promessas, possibilidades futuras e situações ainda em desenvolvimento. Enxerga o meio social como um campo onde projetos amadurecem gradualmente e onde o crescimento depende de preparo e constância. Costuma notar oportunidades em fase inicial e contextos que exigem paciência para se consolidar.</p>
 <p>No aspecto positivo manifesta entusiasmo diante do progresso coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como incerto ou excessivamente dependente de fatores externos.</p>
 <p>A Potência 26 revela uma percepção social voltada ao potencial e às expectativas futuras.</p>`,
-​27:`<p>Desafios Sociais e Percepção de Provas.</p>
-​<p>Na Pirâmide Social, a Potência 27 indica que você percebe o ambiente como exigente e repleto de desafios constantes. Enxerga as relações e contextos profissionais como campos de prova e superação. Costuma notar tensões, dificuldades e processos de amadurecimento ao redor.</p>
+
+27: `<p>Desafios Sociais e Percepção de Provas.</p>
+<p>Na Pirâmide Social, a Potência 27 indica que você percebe o ambiente como exigente e repleto de desafios constantes. Enxerga as relações e contextos profissionais como campos de prova e superação. Costuma notar tensões, dificuldades e processos de amadurecimento ao redor.</p>
 <p>No aspecto positivo manifesta resiliência e capacidade de adaptação diante das pressões coletivas.</p>
 <p>No aspecto negativo pode perceber o meio como pesado ou excessivamente desafiador.</p>
 <p>A Potência 27 revela uma percepção social marcada por provas e superações contínuas.</p>`,
-​28:`<p>Estratégia Social e Percepção de Planejamento.</p>
-​<p>Na Pirâmide Social, a Potência 28 indica que você percebe o ambiente como um campo onde organização, planejamento e prudência são fundamentais. Enxerga o meio social como estruturado por estratégias e decisões calculadas. Costuma notar quem age com método e quem se precipita.</p>
+
+28: `<p>Estratégia Social e Percepção de Planejamento.</p>
+<p>Na Pirâmide Social, a Potência 28 indica que você percebe o ambiente como um campo onde organização, planejamento e prudência são fundamentais. Enxerga o meio social como estruturado por estratégias e decisões calculadas. Costuma notar quem age com método e quem se precipita.</p>
 <p>No aspecto positivo manifesta visão estratégica ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como arriscado ou exigir cautela excessiva.</p>
 <p>A Potência 28 revela uma percepção social baseada em estratégia e análise.</p>`,
-​29:`<p>Expansão Social e Percepção de Reconhecimento.</p>
-​<p>Na Pirâmide Social, a Potência 29 indica que você percebe o ambiente como palco de crescimento, visibilidade e busca por reconhecimento. Enxerga o meio social como um espaço de expansão coletiva e conquista de espaço. Costuma notar movimentos de ascensão e necessidade de afirmação pública.</p>
+
+29: `<p>Expansão Social e Percepção de Reconhecimento.</p>
+<p>Na Pirâmide Social, a Potência 29 indica que você percebe o ambiente como palco de crescimento, visibilidade e busca por reconhecimento. Enxerga o meio social como um espaço de expansão coletiva e conquista de espaço. Costuma notar movimentos de ascensão e necessidade de afirmação pública.</p>
 <p>No aspecto positivo manifesta compreensão da importância da projeção social.</p>
 <p>No aspecto negativo pode perceber o ambiente como competitivo ou marcado por disputas por destaque.</p>
 <p>A Potência 29 revela uma percepção social voltada ao crescimento e à expansão.</p>`,
-​30:`<p>Silêncio Social e Percepção de Preparação.</p>
-​<p>Na Pirâmide Social, a Potência 30 indica que você percebe o ambiente como um espaço onde nem tudo é visível e onde processos acontecem nos bastidores. Enxerga períodos de preparação, amadurecimento e construção silenciosa nas relações coletivas. Costuma notar fases de espera e reorganização antes de grandes movimentos sociais.</p>
+
+30: `<p>Silêncio Social e Percepção de Preparação.</p>
+<p>Na Pirâmide Social, a Potência 30 indica que você percebe o ambiente como um espaço onde nem tudo é visível e onde processos acontecem nos bastidores. Enxerga períodos de preparação, amadurecimento e construção silenciosa nas relações coletivas. Costuma notar fases de espera e reorganização antes de grandes movimentos sociais.</p>
 <p>No aspecto positivo manifesta prudência e observação atenta.</p>
 <p>No aspecto negativo pode perceber o meio como lento ou indefinido.</p>
 <p>A Potência 30 revela uma percepção social ligada à preparação e ao tempo de maturação.</p>`,
-​31:`<p>Disciplina Social e Percepção de Esforço.</p>
-​<p>Na Pirâmide Social, a Potência 31 indica que você percebe o ambiente como um espaço onde constância, dedicação e responsabilidade são determinantes para conquistar reconhecimento. Enxerga o meio social como estruturado por trabalho consistente e construção gradual de resultados. Costuma notar quem se compromete seriamente e quem persevera ao longo do tempo.</p>
+
+31: `<p>Disciplina Social e Percepção de Esforço.</p>
+<p>Na Pirâmide Social, a Potência 31 indica que você percebe o ambiente como um espaço onde constância, dedicação e responsabilidade são determinantes para conquistar reconhecimento. Enxerga o meio social como estruturado por trabalho consistente e construção gradual de resultados. Costuma notar quem se compromete seriamente e quem persevera ao longo do tempo.</p>
 <p>No aspecto positivo manifesta confiabilidade e visão de longo prazo.</p>
 <p>No aspecto negativo pode perceber o ambiente como exigente ou rígido demais.</p>
 <p>A Potência 31 revela uma percepção social baseada em disciplina e construção sólida.</p>`,
-​32:`<p>Estabilidade Social e Percepção de Reconhecimento.</p>
-​<p>Na Pirâmide Social, a Potência 32 indica que você percebe o ambiente como um espaço onde alianças, parcerias e reputação são essenciais para manter equilíbrio coletivo. Enxerga a importância de vínculos estruturados e reconhecimento mútuo nas relações sociais. Costuma notar quem constrói segurança e consolida posições ao longo do tempo.</p>
+
+32: `<p>Estabilidade Social e Percepção de Reconhecimento.</p>
+<p>Na Pirâmide Social, a Potência 32 indica que você percebe o ambiente como um espaço onde alianças, parcerias e reputação são essenciais para manter equilíbrio coletivo. Enxerga a importância de vínculos estruturados e reconhecimento mútuo nas relações sociais. Costuma notar quem constrói segurança e consolida posições ao longo do tempo.</p>
 <p>No aspecto positivo manifesta compreensão da estabilidade relacional.</p>
 <p>No aspecto negativo pode perceber o meio como competitivo ou excessivamente voltado à imagem pública.</p>
 <p>A Potência 32 revela uma percepção social orientada à estabilidade e reconhecimento.</p>`,
-​33:`<p>Expansão Social e Percepção de Crescimento Coletivo.</p>
-​<p>Na Pirâmide Social, a Potência 33 indica que você percebe o ambiente como um espaço de cooperação e desenvolvimento conjunto. Enxerga o meio social como terreno fértil para projetos que crescem através da colaboração. Costuma notar oportunidades que se fortalecem por meio da união e da troca entre pessoas.</p>
+
+33: `<p>Expansão Social e Percepção de Crescimento Coletivo.</p>
+<p>Na Pirâmide Social, a Potência 33 indica que você percebe o ambiente como um espaço de cooperação e desenvolvimento conjunto. Enxerga o meio social como terreno fértil para projetos que crescem através da colaboração. Costuma notar oportunidades que se fortalecem por meio da união e da troca entre pessoas.</p>
 <p>No aspecto positivo manifesta visão de crescimento compartilhado.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de validação externa.</p>
 <p>A Potência 33 revela uma percepção social de expansão conjunta.</p>`,
-​34:`<p>Criatividade Social e Percepção de Oportunidades.</p>
-​<p>Na Pirâmide Social, a Potência 34 indica que você percebe o ambiente como cheio de ideias, caminhos alternativos e possibilidades inovadoras. Enxerga o meio social como dinâmico e aberto a soluções criativas. Costuma notar oportunidades que surgem de forma inesperada e contextos que permitem reinvenção.</p>
+
+34: `<p>Criatividade Social e Percepção de Oportunidades.</p>
+<p>Na Pirâmide Social, a Potência 34 indica que você percebe o ambiente como cheio de ideias, caminhos alternativos e possibilidades inovadoras. Enxerga o meio social como dinâmico e aberto a soluções criativas. Costuma notar oportunidades que surgem de forma inesperada e contextos que permitem reinvenção.</p>
 <p>No aspecto positivo manifesta iniciativa e originalidade ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou disperso.</p>
 <p>A Potência 34 revela uma percepção social criativa e expansiva.</p>`,
-​35:`<p>Crise Social e Percepção de Questionamentos.</p>
-​<p>Na Pirâmide Social, a Potência 35 indica que você percebe o ambiente como atravessado por dúvidas, revisões e processos de redefinição. Enxerga momentos de crise coletiva como fases de aprendizado e questionamento profundo. Costuma notar mudanças de direção, rupturas de ideias e necessidade de ajustes sociais.</p>
+
+35: `<p>Crise Social e Percepção de Questionamentos.</p>
+<p>Na Pirâmide Social, a Potência 35 indica que você percebe o ambiente como atravessado por dúvidas, revisões e processos de redefinição. Enxerga momentos de crise coletiva como fases de aprendizado e questionamento profundo. Costuma notar mudanças de direção, rupturas de ideias e necessidade de ajustes sociais.</p>
 <p>No aspecto positivo manifesta reflexão e amadurecimento diante das incertezas.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou excessivamente crítico.</p>
 <p>A Potência 35 revela uma percepção social marcada por questionamento e reconstrução.</p>`,
-​36:`<p>Ruptura Social e Percepção de Mudanças.</p>
-​<p>Na Pirâmide Social, a Potência 36 indica que você percebe o ambiente como sujeito a transformações estruturais e recomeços significativos. Enxerga o meio social como um campo onde padrões antigos se desfazem para dar lugar a novas configurações. Costuma notar alterações nas relações, nas hierarquias e nos contextos profissionais.</p>
+
+36: `<p>Ruptura Social e Percepção de Mudanças.</p>
+<p>Na Pirâmide Social, a Potência 36 indica que você percebe o ambiente como sujeito a transformações estruturais e recomeços significativos. Enxerga o meio social como um campo onde padrões antigos se desfazem para dar lugar a novas configurações. Costuma notar alterações nas relações, nas hierarquias e nos contextos profissionais.</p>
 <p>No aspecto positivo manifesta capacidade de adaptação e renovação diante das mudanças coletivas.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível demais.</p>
 <p>A Potência 36 revela uma percepção social marcada por transição e reconstrução.</p>`,
-​37:`<p>Mediação Social e Percepção de Relações.</p>
-​<p>Na Pirâmide Social, a Potência 37 indica que você percebe o ambiente como um espaço de trocas constantes, amizades e interações dinâmicas. Enxerga o meio social como estruturado por vínculos, acordos e relações interpessoais. Costuma notar a importância da comunicação e das alianças nos grupos.</p>
+
+37: `<p>Mediação Social e Percepção de Relações.</p>
+<p>Na Pirâmide Social, a Potência 37 indica que você percebe o ambiente como um espaço de trocas constantes, amizades e interações dinâmicas. Enxerga o meio social como estruturado por vínculos, acordos e relações interpessoais. Costuma notar a importância da comunicação e das alianças nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e habilidade de compreender dinâmicas relacionais.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais da opinião coletiva.</p>
 <p>A Potência 37 revela uma percepção social essencialmente relacional.</p>`,
-​38:`<p>Expressão Social e Percepção Emocional.</p>
-​<p>Na Pirâmide Social, a Potência 38 indica que você percebe o ambiente de forma emocional e expressiva. Enxerga o meio social como um espaço onde sentimentos, palavras e gestos moldam as relações. Costuma notar estados emocionais, reações intensas e climas afetivos nos grupos.</p>
+
+38: `<p>Expressão Social e Percepção Emocional.</p>
+<p>Na Pirâmide Social, a Potência 38 indica que você percebe o ambiente de forma emocional e expressiva. Enxerga o meio social como um espaço onde sentimentos, palavras e gestos moldam as relações. Costuma notar estados emocionais, reações intensas e climas afetivos nos grupos.</p>
 <p>No aspecto positivo manifesta sensibilidade comunicativa e compreensão emocional.</p>
 <p>No aspecto negativo pode perceber o ambiente como exagerado ou instável emocionalmente.</p>
 <p>A Potência 38 revela uma percepção social guiada pela expressão e emoção.</p>`,
-​39:`<p>Conexão Social e Percepção de Afeto.</p>
-​<p>Na Pirâmide Social, a Potência 39 indica que você percebe o ambiente como um espaço de vínculos afetivos e conexões humanas profundas. Enxerga as relações sociais como baseadas em proximidade, acolhimento e troca emocional. Costuma notar laços de união e sentimentos compartilhados entre as pessoas.</p>
+
+39: `<p>Conexão Social e Percepção de Afeto.</p>
+<p>Na Pirâmide Social, a Potência 39 indica que você percebe o ambiente como um espaço de vínculos afetivos e conexões humanas profundas. Enxerga as relações sociais como baseadas em proximidade, acolhimento e troca emocional. Costuma notar laços de união e sentimentos compartilhados entre as pessoas.</p>
 <p>No aspecto positivo manifesta empatia e valorização das relações humanas.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de validação afetiva.</p>
 <p>A Potência 39 revela uma percepção social voltada à conexão emocional.</p>`,
-​40:`<p>Renovação Social e Percepção de Vínculos.</p>
-​<p>Na Pirâmide Social, a Potência 40 indica que a pessoa percebe o ambiente como um espaço de renovação constante nas relações e nos grupos. Enxerga o meio social como sujeito a mudanças de vínculos, ciclos de aproximação e afastamento. Costuma notar reconfigurações nos relacionamentos e nas estruturas coletivas.</p>
+
+40: `<p>Renovação Social e Percepção de Vínculos.</p>
+<p>Na Pirâmide Social, a Potência 40 indica que a pessoa percebe o ambiente como um espaço de renovação constante nas relações e nos grupos. Enxerga o meio social como sujeito a mudanças de vínculos, ciclos de aproximação e afastamento. Costuma notar reconfigurações nos relacionamentos e nas estruturas coletivas.</p>
 <p>No aspecto positivo manifesta abertura para novas experiências sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável nos laços estabelecidos.</p>
 <p>A Potência 40 revela uma percepção social de renovação relacional.</p>`,
-​41:`<p>Harmonia Social e Percepção de Bem-Estar.</p>
-​<p>Na Pirâmide Social, a Potência 41 indica que você percebe o ambiente como um espaço onde convivência equilibrada e bem-estar coletivo são fundamentais. Enxerga a importância de ambientes agradáveis e relações harmoniosas. Costuma notar onde existe cooperação e onde há desequilíbrio nas interações sociais.</p>
+
+41: `<p>Harmonia Social e Percepção de Bem-Estar.</p>
+<p>Na Pirâmide Social, a Potência 41 indica que você percebe o ambiente como um espaço onde convivência equilibrada e bem-estar coletivo são fundamentais. Enxerga a importância de ambientes agradáveis e relações harmoniosas. Costuma notar onde existe cooperação e onde há desequilíbrio nas interações sociais.</p>
 <p>No aspecto positivo manifesta busca por integração e equilíbrio nas relações.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais de aprovação coletiva.</p>
 <p>A Potência 41 revela uma percepção social orientada à convivência harmoniosa.</p>`,
-​42:`<p>Prosperidade Social e Percepção de Oportunidades.</p>
-​<p>Na Pirâmide Social, a Potência 42 indica que você percebe o ambiente como repleto de oportunidades de crescimento e expansão coletiva. Enxerga o meio social como um campo fértil para desenvolvimento e conquistas. Costuma notar momentos de avanço, prosperidade e crescimento ao redor.</p>
+
+42: `<p>Prosperidade Social e Percepção de Oportunidades.</p>
+<p>Na Pirâmide Social, a Potência 42 indica que você percebe o ambiente como repleto de oportunidades de crescimento e expansão coletiva. Enxerga o meio social como um campo fértil para desenvolvimento e conquistas. Costuma notar momentos de avanço, prosperidade e crescimento ao redor.</p>
 <p>No aspecto positivo manifesta entusiasmo diante das possibilidades sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente acelerado ou desorganizado.</p>
 <p>A Potência 42 revela uma percepção social voltada à prosperidade.</p>`,
-​43:`<p>Conflitos Sociais e Percepção de Tensões.</p>
-​<p>Na Pirâmide Social, a Potência 43 indica que você percebe o ambiente como atravessado por divergências e tensões que provocam transformação. Enxerga conflitos como motores de mudança coletiva. Costuma notar disputas, debates e confrontos nas relações sociais.</p>
+
+43: `<p>Conflitos Sociais e Percepção de Tensões.</p>
+<p>Na Pirâmide Social, a Potência 43 indica que você percebe o ambiente como atravessado por divergências e tensões que provocam transformação. Enxerga conflitos como motores de mudança coletiva. Costuma notar disputas, debates e confrontos nas relações sociais.</p>
 <p>No aspecto positivo manifesta maturidade ao compreender processos de crescimento através das diferenças.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou excessivamente conflituoso.</p>
 <p>A Potência 43 revela uma percepção social marcada por tensão e aprendizado.</p>`,
-​44:`<p>Decisão Social e Percepção de Escolhas.</p>
-​<p>Na Pirâmide Social, a Potência 44 indica que você percebe o ambiente como estruturado por decisões estratégicas e escolhas determinantes. Enxerga o meio social como um espaço onde planejamento e análise moldam o futuro coletivo. Costuma notar caminhos possíveis, alternativas e consequências das decisões.</p>
+
+44: `<p>Decisão Social e Percepção de Escolhas.</p>
+<p>Na Pirâmide Social, a Potência 44 indica que você percebe o ambiente como estruturado por decisões estratégicas e escolhas determinantes. Enxerga o meio social como um espaço onde planejamento e análise moldam o futuro coletivo. Costuma notar caminhos possíveis, alternativas e consequências das decisões.</p>
 <p>No aspecto positivo manifesta clareza e visão estratégica ao interpretar o contexto social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente racional ou calculista.</p>
 <p>A Potência 44 revela uma percepção social estratégica.</p>`,
-​45:`<p>Memória Social e Percepção de Passado.</p>
-​<p>Na Pirâmide Social, a Potência 45 indica que você percebe o ambiente como influenciado por histórias, experiências e vínculos antigos. Enxerga padrões repetidos e ciclos que retornam nas relações coletivas. Costuma notar reencontros, memórias compartilhadas e aprendizados acumulados ao longo do tempo.</p>
+
+45: `<p>Memória Social e Percepção de Passado.</p>
+<p>Na Pirâmide Social, a Potência 45 indica que você percebe o ambiente como influenciado por histórias, experiências e vínculos antigos. Enxerga padrões repetidos e ciclos que retornam nas relações coletivas. Costuma notar reencontros, memórias compartilhadas e aprendizados acumulados ao longo do tempo.</p>
 <p>No aspecto positivo manifesta capacidade de aprender com experiências passadas.</p>
 <p>No aspecto negativo pode perceber o meio como preso a padrões antigos.</p>
 <p>A Potência 45 revela uma percepção social ligada à memória e ao passado.</p>`,
-​46:`<p>Desilusões Sociais e Percepção de Verdades.</p>
-​<p>Na Pirâmide Social, a Potência 46 indica que você percebe o ambiente como um espaço onde ilusões se desfazem e verdades emergem com clareza. Enxerga o meio social como cenário de revelações e ajustes de expectativa. Costuma notar incoerências, promessas não cumpridas e mudanças de postura nas relações.</p>
+
+46: `<p>Desilusões Sociais e Percepção de Verdades.</p>
+<p>Na Pirâmide Social, a Potência 46 indica que você percebe o ambiente como um espaço onde ilusões se desfazem e verdades emergem com clareza. Enxerga o meio social como cenário de revelações e ajustes de expectativa. Costuma notar incoerências, promessas não cumpridas e mudanças de postura nas relações.</p>
 <p>No aspecto positivo manifesta lucidez e maturidade ao interpretar os fatos coletivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como decepcionante ou excessivamente crítico.</p>
 <p>A Potência 46 revela uma percepção social realista e desmistificadora.</p>`,
-​47:`<p>Introspecção Social e Percepção de Distanciamento.</p>
-​<p>Na Pirâmide Social, a Potência 47 indica que a pessoa percebe o ambiente como um espaço que alterna entre interação e recolhimento. Enxerga momentos em que o distanciamento é necessário para compreender melhor as dinâmicas coletivas. Costuma notar períodos de afastamento estratégico e análise silenciosa nas relações.</p>
+
+47: `<p>Introspecção Social e Percepção de Distanciamento.</p>
+<p>Na Pirâmide Social, a Potência 47 indica que a pessoa percebe o ambiente como um espaço que alterna entre interação e recolhimento. Enxerga momentos em que o distanciamento é necessário para compreender melhor as dinâmicas coletivas. Costuma notar períodos de afastamento estratégico e análise silenciosa nas relações.</p>
 <p>No aspecto positivo manifesta sabedoria e observação profunda.</p>
 <p>No aspecto negativo pode perceber o meio como frio ou emocionalmente distante.</p>
 <p>A Potência 47 revela uma percepção social introspectiva.</p>`,
-​48:`<p>Abundância Social e Percepção de Celebração.</p>
-​<p>Na Pirâmide Social, a Potência 48 indica que a pessoa percebe o ambiente como fértil, expansivo e propício a encontros e celebrações. Enxerga momentos de crescimento coletivo e integração social. Costuma notar fases de prosperidade, eventos marcantes e união entre grupos.</p>
+
+48: `<p>Abundância Social e Percepção de Celebração.</p>
+<p>Na Pirâmide Social, a Potência 48 indica que a pessoa percebe o ambiente como fértil, expansivo e propício a encontros e celebrações. Enxerga momentos de crescimento coletivo e integração social. Costuma notar fases de prosperidade, eventos marcantes e união entre grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e valorização da convivência.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivo ou disperso.</p>
 <p>A Potência 48 revela uma percepção social voltada à abundância e integração.</p>`,
-​49:`<p>Autonomia Social e Percepção de Liberdade.</p>
-​<p>Na Pirâmide Social, a Potência 49 indica que a pessoa percebe o ambiente como um espaço onde liberdade e individualidade são essenciais. Enxerga as relações sociais como campos que exigem respeito à autonomia pessoal. Costuma notar limites, independência e necessidade de espaço nas interações.</p>
+
+49: `<p>Autonomia Social e Percepção de Liberdade.</p>
+<p>Na Pirâmide Social, a Potência 49 indica que a pessoa percebe o ambiente como um espaço onde liberdade e individualidade são essenciais. Enxerga as relações sociais como campos que exigem respeito à autonomia pessoal. Costuma notar limites, independência e necessidade de espaço nas interações.</p>
 <p>No aspecto positivo manifesta maturidade e autenticidade ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como distante ou fragmentado.</p>
 <p>A Potência 49 revela uma percepção social orientada à autonomia.</p>`,
-​50:`<p>União Social e Percepção de Compromisso.</p>
-​<p>Na Pirâmide Social, a Potência 50 indica que a pessoa percebe o ambiente como estruturado por vínculos, compromissos e responsabilidades compartilhadas. Enxerga as relações sociais como baseadas em estabilidade e acordos duradouros. Costuma notar estruturas firmes e alianças consolidadas no meio coletivo.</p>
+
+50: `<p>União Social e Percepção de Compromisso.</p>
+<p>Na Pirâmide Social, a Potência 50 indica que a pessoa percebe o ambiente como estruturado por vínculos, compromissos e responsabilidades compartilhadas. Enxerga as relações sociais como baseadas em estabilidade e acordos duradouros. Costuma notar estruturas firmes e alianças consolidadas no meio coletivo.</p>
 <p>No aspecto positivo manifesta valorização da segurança e da confiança mútua.</p>
 <p>No aspecto negativo pode perceber o ambiente como rígido ou tradicional demais.</p>
 <p>A Potência 50 revela uma percepção social voltada ao compromisso.</p>`,
-​51:`<p>Liderança Social e Percepção de Autoridade.</p>
-​<p>Na Pirâmide Social, a Potência 51 indica que a pessoa percebe o ambiente como organizado por hierarquias, estratégias e centros de decisão. Enxerga claramente quem conduz processos e quem assume responsabilidades. Costuma notar movimentos de liderança e influência nos grupos.</p>
+
+51: `<p>Liderança Social e Percepção de Autoridade.</p>
+<p>Na Pirâmide Social, a Potência 51 indica que a pessoa percebe o ambiente como organizado por hierarquias, estratégias e centros de decisão. Enxerga claramente quem conduz processos e quem assume responsabilidades. Costuma notar movimentos de liderança e influência nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão estratégica das estruturas sociais.</p>
 <p>No aspecto negativo pode perceber o meio como autoritário ou centralizador.</p>
 <p>A Potência 51 revela uma percepção social de liderança e comando.</p>`,
-​52:`<p>Autodomínio Social e Percepção de Disciplina.</p>
-​<p>Na Pirâmide Social, a Potência 52 indica que a pessoa percebe o ambiente como regido por metas, desempenho e exigência de resultados. Enxerga o meio social como estruturado por regras e padrões de excelência. Costuma notar quem mantém foco e quem se dispersa.</p>
+
+52: `<p>Autodomínio Social e Percepção de Disciplina.</p>
+<p>Na Pirâmide Social, a Potência 52 indica que a pessoa percebe o ambiente como regido por metas, desempenho e exigência de resultados. Enxerga o meio social como estruturado por regras e padrões de excelência. Costuma notar quem mantém foco e quem se dispersa.</p>
 <p>No aspecto positivo manifesta visão organizada e orientada a objetivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente rigoroso.</p>
 <p>A Potência 52 revela uma percepção social disciplinada.</p>`,
-​53:`<p>Transformação Social e Percepção de Mudanças Profundas.</p>
-​<p>Na Pirâmide Social, a Potência 53 indica que a pessoa percebe o ambiente como atravessado por transformações significativas e rupturas estruturais. Enxerga ciclos de encerramento e reconstrução nas relações coletivas. Costuma notar alterações profundas em valores, posições e estruturas sociais.</p>
+
+53: `<p>Transformação Social e Percepção de Mudanças Profundas.</p>
+<p>Na Pirâmide Social, a Potência 53 indica que a pessoa percebe o ambiente como atravessado por transformações significativas e rupturas estruturais. Enxerga ciclos de encerramento e reconstrução nas relações coletivas. Costuma notar alterações profundas em valores, posições e estruturas sociais.</p>
 <p>No aspecto positivo manifesta abertura à inovação e evolução coletiva.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou imprevisível.</p>
 <p>A Potência 53 revela uma percepção social transformadora.</p>`,
-​54:`<p>Vigilância Social e Percepção de Tensões.</p>
-​<p>Na Pirâmide Social, a Potência 54 indica que a pessoa percebe o ambiente como exigindo atenção constante e leitura estratégica das situações. Enxerga disputas, rivalidades e jogos de interesse nas relações sociais. Costuma notar conflitos latentes e mudanças sutis no comportamento coletivo.</p>
+
+54: `<p>Vigilância Social e Percepção de Tensões.</p>
+<p>Na Pirâmide Social, a Potência 54 indica que a pessoa percebe o ambiente como exigindo atenção constante e leitura estratégica das situações. Enxerga disputas, rivalidades e jogos de interesse nas relações sociais. Costuma notar conflitos latentes e mudanças sutis no comportamento coletivo.</p>
 <p>No aspecto positivo manifesta prudência e análise cuidadosa.</p>
 <p>No aspecto negativo pode perceber o ambiente como ameaçador ou excessivamente competitivo.</p>
 <p>A Potência 54 revela uma percepção social vigilante.</p>`,
-​55:`<p>Renascimento Social e Percepção de Recomeços.</p>
-​<p>Na Pirâmide Social, a Potência 55 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos. Enxerga fases de reconstrução e retomada após momentos de crise coletiva. Costuma notar oportunidades de recomeço nas relações e nos projetos sociais.</p>
+
+55: `<p>Renascimento Social e Percepção de Recomeços.</p>
+<p>Na Pirâmide Social, a Potência 55 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos. Enxerga fases de reconstrução e retomada após momentos de crise coletiva. Costuma notar oportunidades de recomeço nas relações e nos projetos sociais.</p>
 <p>No aspecto positivo manifesta capacidade de renovação e esperança.</p>
 <p>No aspecto negativo pode perceber o meio como instável devido às constantes mudanças.</p>
 <p>A Potência 55 revela uma percepção social de renascimento e reinício.</p>`,
-​56:`<p>Resistência Social e Percepção de Provações.</p>
-​<p>Na Pirâmide Social, a Potência 56 indica que a pessoa percebe o ambiente como exigente e desafiador, onde a resistência é necessária para manter posição e equilíbrio. Enxerga o meio social como campo de testes constantes e situações que exigem firmeza emocional. Costuma notar dificuldades coletivas e momentos em que é preciso suportar pressões externas.</p>
+
+56: `<p>Resistência Social e Percepção de Provações.</p>
+<p>Na Pirâmide Social, a Potência 56 indica que a pessoa percebe o ambiente como exigente e desafiador, onde a resistência é necessária para manter posição e equilíbrio. Enxerga o meio social como campo de testes constantes e situações que exigem firmeza emocional. Costuma notar dificuldades coletivas e momentos em que é preciso suportar pressões externas.</p>
 <p>No aspecto positivo manifesta força interior e perseverança diante das adversidades sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente pesado ou desgastante.</p>
 <p>A Potência 56 revela uma percepção social baseada em resistência e superação.</p>`,
-​57:`<p>Decisões Sociais e Percepção de Dilemas.</p>
-​<p>Na Pirâmide Social, a Potência 57 indica que a pessoa percebe o ambiente como marcado por escolhas importantes e dilemas constantes. Enxerga o meio social como um espaço onde decisões moldam relações e caminhos profissionais. Costuma notar bifurcações, alternativas e consequências nas atitudes coletivas.</p>
+
+57: `<p>Decisões Sociais e Percepção de Dilemas.</p>
+<p>Na Pirâmide Social, a Potência 57 indica que a pessoa percebe o ambiente como marcado por escolhas importantes e dilemas constantes. Enxerga o meio social como um espaço onde decisões moldam relações e caminhos profissionais. Costuma notar bifurcações, alternativas e consequências nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta clareza ao analisar opções disponíveis.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável devido às incertezas.</p>
 <p>A Potência 57 revela uma percepção social voltada às decisões e responsabilidades.</p>`,
-​58:`<p>Crises Sociais e Percepção de Despertar.</p>
-​<p>Na Pirâmide Social, a Potência 58 indica que a pessoa percebe o ambiente como atravessado por crises que provocam amadurecimento coletivo. Enxerga rupturas como momentos de aprendizado e evolução social. Costuma notar mudanças bruscas que exigem reestruturação de valores e atitudes.</p>
+
+58: `<p>Crises Sociais e Percepção de Despertar.</p>
+<p>Na Pirâmide Social, a Potência 58 indica que a pessoa percebe o ambiente como atravessado por crises que provocam amadurecimento coletivo. Enxerga rupturas como momentos de aprendizado e evolução social. Costuma notar mudanças bruscas que exigem reestruturação de valores e atitudes.</p>
 <p>No aspecto positivo manifesta consciência crítica e capacidade de adaptação.</p>
 <p>No aspecto negativo pode perceber o meio como turbulento ou imprevisível.</p>
 <p>A Potência 58 revela uma percepção social ligada ao despertar através das crises.</p>`,
-​59:`<p>Revelação Social e Percepção de Verdades.</p>
-​<p>Na Pirâmide Social, a Potência 59 indica que a pessoa percebe o ambiente como um espaço onde verdades ocultas vêm à tona. Enxerga revelações e esclarecimentos nas relações e nos contextos coletivos. Costuma notar informações que mudam a compreensão das situações sociais.</p>
+
+59: `<p>Revelação Social e Percepção de Verdades.</p>
+<p>Na Pirâmide Social, a Potência 59 indica que a pessoa percebe o ambiente como um espaço onde verdades ocultas vêm à tona. Enxerga revelações e esclarecimentos nas relações e nos contextos coletivos. Costuma notar informações que mudam a compreensão das situações sociais.</p>
 <p>No aspecto positivo manifesta discernimento e busca por autenticidade.</p>
 <p>No aspecto negativo pode perceber o meio como instável diante das revelações.</p>
 <p>A Potência 59 revela uma percepção social orientada à descoberta e clareza.</p>`,
-​61:`<p>Retiro Social e Percepção de Recolhimento.</p>
-​<p>Na Pirâmide Social, a Potência 61 indica que a pessoa percebe o ambiente como alternando entre movimento e silêncio. Enxerga momentos em que o recolhimento é necessário para reorganizar relações e estratégias sociais. Costuma notar pausas coletivas e afastamentos estratégicos.</p>
+
+61: `<p>Retiro Social e Percepção de Recolhimento.</p>
+<p>Na Pirâmide Social, a Potência 61 indica que a pessoa percebe o ambiente como alternando entre movimento e silêncio. Enxerga momentos em que o recolhimento é necessário para reorganizar relações e estratégias sociais. Costuma notar pausas coletivas e afastamentos estratégicos.</p>
 <p>No aspecto positivo manifesta prudência e capacidade de observação profunda.</p>
 <p>No aspecto negativo pode perceber o meio como distante ou pouco comunicativo.</p>
 <p>A Potência 61 revela uma percepção social de recolhimento e reorganização.</p>`,
-​62:`<p>Libertação Social e Percepção de Conflitos Emocionais.</p>
-​<p>Na Pirâmide Social, a Potência 62 indica que a pessoa percebe o ambiente como marcado por emoções intensas, rupturas e reconciliações. Enxerga conflitos como processos de cura e libertação coletiva. Costuma notar tensões emocionais e necessidade de resolução nos grupos.</p>
+
+62: `<p>Libertação Social e Percepção de Conflitos Emocionais.</p>
+<p>Na Pirâmide Social, a Potência 62 indica que a pessoa percebe o ambiente como marcado por emoções intensas, rupturas e reconciliações. Enxerga conflitos como processos de cura e libertação coletiva. Costuma notar tensões emocionais e necessidade de resolução nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e compreensão das dinâmicas afetivas.</p>
 <p>No aspecto negativo pode perceber o meio como instável emocionalmente.</p>
 <p>A Potência 62 revela uma percepção social voltada à libertação emocional.</p>`,
-​63:`<p>Dúvida Social e Percepção de Insegurança Coletiva.</p>
-​<p>Na Pirâmide Social, a Potência 63 indica que a pessoa percebe o ambiente como permeado por hesitação e incertezas. Enxerga o meio social como atravessado por revisões e questionamentos constantes. Costuma notar indecisões e necessidade de ajustes nas relações.</p>
+
+63: `<p>Dúvida Social e Percepção de Insegurança Coletiva.</p>
+<p>Na Pirâmide Social, a Potência 63 indica que a pessoa percebe o ambiente como permeado por hesitação e incertezas. Enxerga o meio social como atravessado por revisões e questionamentos constantes. Costuma notar indecisões e necessidade de ajustes nas relações.</p>
 <p>No aspecto positivo manifesta prudência e reflexão antes de agir.</p>
 <p>No aspecto negativo pode perceber o ambiente como frágil ou indefinido.</p>
 <p>A Potência 63 revela uma percepção social baseada em análise e cautela.</p>`,
-​64:`<p>Superação Social e Percepção de Luta.</p>
-​<p>Na Pirâmide Social, a Potência 64 indica que a pessoa percebe o ambiente como competitivo e exigente. Enxerga o meio social como campo de esforço, disputa e necessidade de conquista. Costuma notar empenho, resistência e superação nas atitudes coletivas.</p>
+
+64: `<p>Superação Social e Percepção de Luta.</p>
+<p>Na Pirâmide Social, a Potência 64 indica que a pessoa percebe o ambiente como competitivo e exigente. Enxerga o meio social como campo de esforço, disputa e necessidade de conquista. Costuma notar empenho, resistência e superação nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta determinação e foco em resultados.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente duro ou conflituoso.</p>
 <p>A Potência 64 revela uma percepção social orientada à luta e conquista.</p>`,
-​65:`<p>Propósito Social e Percepção de Direção.</p>
-​<p>Na Pirâmide Social, a Potência 65 indica que a pessoa percebe o ambiente como guiado por metas, objetivos e crescimento coletivo. Enxerga sentido nas ações sociais e direção nas relações estabelecidas. Costuma notar quem possui clareza de propósito e quem age sem rumo definido.</p>
+
+65: `<p>Propósito Social e Percepção de Direção.</p>
+<p>Na Pirâmide Social, a Potência 65 indica que a pessoa percebe o ambiente como guiado por metas, objetivos e crescimento coletivo. Enxerga sentido nas ações sociais e direção nas relações estabelecidas. Costuma notar quem possui clareza de propósito e quem age sem rumo definido.</p>
 <p>No aspecto positivo manifesta visão estratégica e orientação para evolução.</p>
 <p>No aspecto negativo pode perceber o meio como disperso ou sem foco.</p>
 <p>A Potência 65 revela uma percepção social direcionada por propósito e metas.</p>`,
-​66:`<p>Autenticidade Social e Percepção de Exposição.</p>
-​<p>Na Pirâmide Social, a Potência 66 indica que a pessoa percebe o ambiente como um espaço onde autenticidade e transparência são constantemente testadas. Enxerga o meio social como cenário de revelações pessoais e exposição de verdades. Costuma notar quem age com coerência e quem assume máscaras sociais.</p>
+
+66: `<p>Autenticidade Social e Percepção de Exposição.</p>
+<p>Na Pirâmide Social, a Potência 66 indica que a pessoa percebe o ambiente como um espaço onde autenticidade e transparência são constantemente testadas. Enxerga o meio social como cenário de revelações pessoais e exposição de verdades. Costuma notar quem age com coerência e quem assume máscaras sociais.</p>
 <p>No aspecto positivo manifesta valorização da sinceridade e das relações verdadeiras.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente crítico ou invasivo.</p>
 <p>A Potência 66 revela uma percepção social centrada na autenticidade e na clareza das intenções.</p>`,
-​67:`<p>Concretização Social e Percepção de Resultados.</p>
-​<p>Na Pirâmide Social, a Potência 67 indica que a pessoa percebe o ambiente como orientado à produtividade e à realização concreta. Enxerga o meio social como campo de execução prática e construção de resultados tangíveis. Costuma notar eficiência, organização e cumprimento de metas nas relações profissionais.</p>
+
+67: `<p>Concretização Social e Percepção de Resultados.</p>
+<p>Na Pirâmide Social, a Potência 67 indica que a pessoa percebe o ambiente como orientado à produtividade e à realização concreta. Enxerga o meio social como campo de execução prática e construção de resultados tangíveis. Costuma notar eficiência, organização e cumprimento de metas nas relações profissionais.</p>
 <p>No aspecto positivo manifesta objetividade e foco na concretização coletiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente pragmático ou materialista.</p>
 <p>A Potência 67 revela uma percepção social voltada à realização prática.</p>`,
-​68:`<p>Valor Social e Percepção de Prosperidade.</p>
-​<p>Na Pirâmide Social, a Potência 68 indica que a pessoa percebe o ambiente como regido por valor, reconhecimento e estabilidade material. Enxerga o meio social como estruturado por recompensas e conquistas financeiras ou profissionais. Costuma notar quem prospera, quem consolida patrimônio e quem busca crescimento seguro.</p>
+
+68: `<p>Valor Social e Percepção de Prosperidade.</p>
+<p>Na Pirâmide Social, a Potência 68 indica que a pessoa percebe o ambiente como regido por valor, reconhecimento e estabilidade material. Enxerga o meio social como estruturado por recompensas e conquistas financeiras ou profissionais. Costuma notar quem prospera, quem consolida patrimônio e quem busca crescimento seguro.</p>
 <p>No aspecto positivo manifesta compreensão estratégica sobre prosperidade coletiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente voltado ao ganho material.</p>
 <p>A Potência 68 revela uma percepção social associada a valor e prosperidade.</p>`,
-​69:`<p>Plenitude Social e Percepção de Sucesso.</p>
-​<p>Na Pirâmide Social, a Potência 69 indica que a pessoa percebe o ambiente como palco de conquistas, realizações e reconhecimento amplo. Enxerga o meio social como espaço de crescimento consistente e expansão consolidada. Costuma notar momentos de sucesso coletivo e consolidação de projetos.</p>
+
+69: `<p>Plenitude Social e Percepção de Sucesso.</p>
+<p>Na Pirâmide Social, a Potência 69 indica que a pessoa percebe o ambiente como palco de conquistas, realizações e reconhecimento amplo. Enxerga o meio social como espaço de crescimento consistente e expansão consolidada. Costuma notar momentos de sucesso coletivo e consolidação de projetos.</p>
 <p>No aspecto positivo manifesta visão otimista sobre evolução social.</p>
 <p>No aspecto negativo pode perceber o ambiente como competitivo ou centrado em status.</p>
 <p>A Potência 69 revela uma percepção social de plenitude e êxito.</p>`,
-​70:`<p>Autossuficiência Social e Percepção de Independência.</p>
-​<p>Na Pirâmide Social, a Potência 70 indica que a pessoa percebe o ambiente como exigente e estruturado pela autonomia individual. Enxerga as relações sociais como campos onde cada um responde por suas próprias escolhas. Costuma notar independência, responsabilidade pessoal e limites claros nas interações.</p>
+
+70: `<p>Autossuficiência Social e Percepção de Independência.</p>
+<p>Na Pirâmide Social, a Potência 70 indica que a pessoa percebe o ambiente como exigente e estruturado pela autonomia individual. Enxerga as relações sociais como campos onde cada um responde por suas próprias escolhas. Costuma notar independência, responsabilidade pessoal e limites claros nas interações.</p>
 <p>No aspecto positivo manifesta maturidade e firmeza interpretativa.</p>
 <p>No aspecto negativo pode perceber o ambiente como distante ou excessivamente individualista.</p>
 <p>A Potência 70 revela uma percepção social orientada à autossuficiência.</p>`,
-​71:`<p>Conservação Social e Percepção de Prudência.</p>
-​<p>Na Pirâmide Social, a Potência 71 indica que a pessoa percebe o ambiente como exigindo planejamento, cautela e preservação de recursos. Enxerga o meio social como estruturado por estratégias de manutenção e equilíbrio. Costuma notar riscos, excessos e necessidade de contenção nas atitudes coletivas.</p>
+
+71: `<p>Conservação Social e Percepção de Prudência.</p>
+<p>Na Pirâmide Social, a Potência 71 indica que a pessoa percebe o ambiente como exigindo planejamento, cautela e preservação de recursos. Enxerga o meio social como estruturado por estratégias de manutenção e equilíbrio. Costuma notar riscos, excessos e necessidade de contenção nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta prudência e visão preventiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como restritivo ou conservador demais.</p>
 <p>A Potência 71 revela uma percepção social baseada em prudência e conservação.</p>`,
-​72:`<p>Clareza Social e Percepção de Direcionamento.</p>
-​<p>Na Pirâmide Social, a Potência 72 indica que a pessoa percebe o ambiente como guiado por decisões conscientes e direcionamentos estratégicos. Enxerga o meio social como organizado por escolhas claras e objetivos definidos. Costuma notar coerência ou incoerência nas atitudes coletivas.</p>
+
+72: `<p>Clareza Social e Percepção de Direcionamento.</p>
+<p>Na Pirâmide Social, a Potência 72 indica que a pessoa percebe o ambiente como guiado por decisões conscientes e direcionamentos estratégicos. Enxerga o meio social como organizado por escolhas claras e objetivos definidos. Costuma notar coerência ou incoerência nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta discernimento e capacidade analítica.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente racional ou calculado.</p>
 <p>A Potência 72 revela uma percepção social voltada à clareza e direcionamento.</p>`,
-​73:`<p>Generosidade Social e Percepção de Cooperação.</p>
-​<p>Na Pirâmide Social, a Potência 73 indica que a pessoa percebe o ambiente como estruturado por trocas, colaboração e apoio mútuo. Enxerga o meio social como espaço de ajuda recíproca e construção coletiva. Costuma notar gestos de solidariedade e parcerias produtivas.</p>
+
+73: `<p>Generosidade Social e Percepção de Cooperação.</p>
+<p>Na Pirâmide Social, a Potência 73 indica que a pessoa percebe o ambiente como estruturado por trocas, colaboração e apoio mútuo. Enxerga o meio social como espaço de ajuda recíproca e construção coletiva. Costuma notar gestos de solidariedade e parcerias produtivas.</p>
 <p>No aspecto positivo manifesta abertura para cooperação e integração.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais de validação externa.</p>
 <p>A Potência 73 revela uma percepção social centrada na cooperação.</p>`,
-​74:`<p>Crise Social e Percepção de Reestruturação.</p>
-​<p>Na Pirâmide Social, a Potência 74 indica que a pessoa percebe o ambiente como sujeito a crises que exigem reorganização estrutural. Enxerga o meio social como campo de ajustes profundos e redefinições de posição. Costuma notar rupturas que precedem reconstruções coletivas.</p>
+
+74: `<p>Crise Social e Percepção de Reestruturação.</p>
+<p>Na Pirâmide Social, a Potência 74 indica que a pessoa percebe o ambiente como sujeito a crises que exigem reorganização estrutural. Enxerga o meio social como campo de ajustes profundos e redefinições de posição. Costuma notar rupturas que precedem reconstruções coletivas.</p>
 <p>No aspecto positivo manifesta capacidade de adaptação estratégica.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou inseguro.</p>
 <p>A Potência 74 revela uma percepção social de reconstrução e reestruturação.</p>`,
-​75:`<p>Prosperidade Social e Percepção de Segurança.</p>
-​<p>Na Pirâmide Social, a Potência 75 indica que a pessoa percebe o ambiente como focado em estabilidade material e segurança coletiva. Enxerga o meio social como estruturado por crescimento financeiro e consolidação de recursos. Costuma notar oportunidades de fortalecimento econômico e estabilidade profissional.</p>
+
+75: `<p>Prosperidade Social e Percepção de Segurança.</p>
+<p>Na Pirâmide Social, a Potência 75 indica que a pessoa percebe o ambiente como focado em estabilidade material e segurança coletiva. Enxerga o meio social como estruturado por crescimento financeiro e consolidação de recursos. Costuma notar oportunidades de fortalecimento econômico e estabilidade profissional.</p>
 <p>No aspecto positivo manifesta confiança no desenvolvimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente conservador ou materialista.</p>
 <p>A Potência 75 revela uma percepção social orientada à segurança e prosperidade.</p>`,
-​76:`<p>Reconhecimento Social e Percepção de Mérito.</p>
-​<p>Na Pirâmide Social, a Potência 76 indica que a pessoa percebe o ambiente como estruturado por esforço, mérito e recompensa proporcional às ações realizadas. Enxerga o meio social como campo onde dedicação e competência geram reconhecimento legítimo. Costuma notar quem conquista espaço por trabalho consistente e quem depende de fatores externos.</p>
+
+76: `<p>Reconhecimento Social e Percepção de Mérito.</p>
+<p>Na Pirâmide Social, a Potência 76 indica que a pessoa percebe o ambiente como estruturado por esforço, mérito e recompensa proporcional às ações realizadas. Enxerga o meio social como campo onde dedicação e competência geram reconhecimento legítimo. Costuma notar quem conquista espaço por trabalho consistente e quem depende de fatores externos.</p>
 <p>No aspecto positivo manifesta senso de justiça e valorização do empenho coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo ou comparativo.</p>
 <p>A Potência 76 revela uma percepção social baseada em mérito e reconhecimento.</p>`,
-​77:`<p>Transformação Social e Percepção de Despertar.</p>
-​<p>Na Pirâmide Social, a Potência 77 indica que a pessoa percebe o ambiente como atravessado por processos de evolução profunda e mudanças estruturais. Enxerga o meio social como campo de despertar coletivo e revisão de valores antigos. Costuma notar transições significativas nas atitudes e nas consciências das pessoas ao redor.</p>
+
+77: `<p>Transformação Social e Percepção de Despertar.</p>
+<p>Na Pirâmide Social, a Potência 77 indica que a pessoa percebe o ambiente como atravessado por processos de evolução profunda e mudanças estruturais. Enxerga o meio social como campo de despertar coletivo e revisão de valores antigos. Costuma notar transições significativas nas atitudes e nas consciências das pessoas ao redor.</p>
 <p>No aspecto positivo manifesta compreensão sobre ciclos de crescimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível.</p>
 <p>A Potência 77 revela uma percepção social de transformação e despertar.</p>`,
-​78:`<p>Realização Social e Percepção de Celebração.</p>
-​<p>Na Pirâmide Social, a Potência 78 indica que a pessoa percebe o ambiente como propício a conquistas, reconhecimento e celebrações coletivas. Enxerga o meio social como palco de resultados positivos e momentos de expansão compartilhada. Costuma notar fases de prosperidade e alegria nos grupos.</p>
+
+78: `<p>Realização Social e Percepção de Celebração.</p>
+<p>Na Pirâmide Social, a Potência 78 indica que a pessoa percebe o ambiente como propício a conquistas, reconhecimento e celebrações coletivas. Enxerga o meio social como palco de resultados positivos e momentos de expansão compartilhada. Costuma notar fases de prosperidade e alegria nos grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e valorização das vitórias sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como superficial ou excessivamente voltado à aparência de sucesso.</p>
 <p>A Potência 78 revela uma percepção social orientada à realização e celebração.</p>`,
-​79:`<p>Libertação Social e Percepção de Recomeços.</p>
-​<p>Na Pirâmide Social, a Potência 79 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos de autonomia. Enxerga o meio social como campo de libertação de padrões antigos e início de novas fases coletivas. Costuma notar rupturas que geram independência e renovação nas relações.</p>
+
+79: `<p>Libertação Social e Percepção de Recomeços.</p>
+<p>Na Pirâmide Social, a Potência 79 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos de autonomia. Enxerga o meio social como campo de libertação de padrões antigos e início de novas fases coletivas. Costuma notar rupturas que geram independência e renovação nas relações.</p>
 <p>No aspecto positivo manifesta compreensão sobre a importância de recomeços.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou fragmentado.</p>
 <p>A Potência 79 revela uma percepção social voltada à libertação e renovação.</p>`,
-​81:`<p>Carma Social e Percepção de Consequências.</p>
-​<p>Na Pirâmide Social, a Potência 81 indica que a pessoa percebe o ambiente como regido por responsabilidade e retorno das ações praticadas. Enxerga o meio social como estruturado por causa e efeito nas relações e nos contextos profissionais. Costuma notar como atitudes produzem resultados proporcionais ao longo do tempo.</p>
+
+81: `<p>Carma Social e Percepção de Consequências.</p>
+<p>Na Pirâmide Social, a Potência 81 indica que a pessoa percebe o ambiente como regido por responsabilidade e retorno das ações praticadas. Enxerga o meio social como estruturado por causa e efeito nas relações e nos contextos profissionais. Costuma notar como atitudes produzrent resultados proporcionais ao longo do tempo.</p>
 <p>No aspecto positivo manifesta maturidade e senso de responsabilidade coletiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como rígido ou severo nas consequências.</p>
 <p>A Potência 81 revela uma percepção social baseada em responsabilidade e retorno.</p>`,
-​82:`<p>Ciclos Sociais e Percepção de Padrões.</p>
-​<p>Na Pirâmide Social, a Potência 82 indica que a pessoa percebe o ambiente como composto por situações que se repetem até serem compreendidas. Enxerga padrões recorrentes nas relações e nos comportamentos coletivos. Costuma notar repetições de atitudes, erros ou aprendizados nos grupos sociais.</p>
+
+82: `<p>Ciclos Sociais e Percepção de Padrões.</p>
+<p>Na Pirâmide Social, a Potência 82 indica que a pessoa percebe o ambiente como composto por situações que se repetem até serem compreendidas. Enxerga padrões recorrentes nas relações e nos comportamentos coletivos. Costuma notar repetições de atitudes, erros ou aprendizados nos grupos sociais.</p>
 <p>No aspecto positivo manifesta capacidade de identificar e romper ciclos improdutivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como previsível ou repetitivo demais.</p>
 <p>A Potência 82 revela uma percepção social orientada à identificação de padrões.</p>`,
-​83:`<p>Autodomínio Social e Percepção de Controle.</p>
-​<p>Na Pirâmide Social, a Potência 83 indica que a pessoa percebe o ambiente como exigindo equilíbrio emocional e controle das próprias reações. Enxerga o meio social como campo onde autocontrole é essencial para manter estabilidade nas relações. Costuma notar quem mantém serenidade e quem age por impulso.</p>
+
+83: `<p>Autodomínio Social e Percepção de Controle.</p>
+<p>Na Pirâmide Social, a Potência 83 indica que a pessoa percebe o ambiente como exigindo equilíbrio emocional e controle das próprias reações. Enxerga o meio social como campo onde autocontrole é essencial para manter estabilidade nas relações. Costuma notar quem mantém serenidade e quem age por impulso.</p>
 <p>No aspecto positivo manifesta maturidade emocional e disciplina interpretativa.</p>
 <p>No aspecto negativo pode perceber o ambiente como tenso ou sujeito a excessos.</p>
 <p>A Potência 83 revela uma percepção social baseada em equilíbrio e autocontrole.</p>`,
-​84:`<p>Missão Social e Percepção de Impacto Coletivo.</p>
-​<p>Na Pirâmide Social, a Potência 84 indica que a pessoa percebe o ambiente como um espaço de responsabilidade coletiva e impacto social. Enxerga as relações como oportunidades de exercer influência significativa no grupo. Costuma notar o papel de cada indivíduo na construção do todo.</p>
+
+84: `<p>Missão Social e Percepção de Impacto Coletivo.</p>
+<p>Na Pirâmide Social, a Potência 84 indica que a pessoa percebe o ambiente como um espaço de responsabilidade coletiva e impacto social. Enxerga as relações como oportunidades de exercer influência significativa no grupo. Costuma notar o papel de cada indivíduo na construção do todo.</p>
 <p>No aspecto positivo manifesta senso de propósito e consciência social ampliada.</p>
 <p>No aspecto negativo pode perceber o ambiente como pesado devido às responsabilidades assumidas.</p>
 <p>A Potência 84 revela uma percepção social orientada à missão e impacto coletivo.</p>`,
-​85:`<p>Queda Social e Percepção de Isolamento.</p>
-​<p>Na Pirâmide Social, a Potência 85 indica que a pessoa percebe o ambiente como sujeito a afastamentos, revisões e momentos de introspecção coletiva. Enxerga fases de distanciamento como necessárias para reorganizar vínculos e estruturas sociais. Costuma notar períodos de isolamento ou retração nos grupos.</p>
+
+85: `<p>Queda Social e Percepção de Isolamento.</p>
+<p>Na Pirâmide Social, a Potência 85 indica que a pessoa percebe o ambiente como sujeito a afastamentos, revisões e momentos de introspecção coletiva. Enxerga fases de distanciamento como necessárias para reorganizar vínculos e estruturas sociais. Costuma notar períodos de isolamento ou retração nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão sobre a importância do recolhimento estratégico.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou emocionalmente distante.</p>
 <p>A Potência 85 revela uma percepção social ligada a isolamento e reavaliação.</p>`,
-​86:`<p>Determinação Social e Percepção de Esforço.</p>
-​<p>Na Pirâmide Social, a Potência 86 indica que a pessoa percebe o ambiente como competitivo e orientado por persistência. Enxerga o meio social como campo onde esforço contínuo é indispensável para manter posição e reconhecimento. Costuma notar dedicação, disciplina e resistência nas atitudes coletivas.</p>
+
+86: `<p>Determinação Social e Percepção de Esforço.</p>
+<p>Na Pirâmide Social, a Potência 86 indica que a pessoa percebe o ambiente como competitivo e orientado por persistência. Enxerga o meio social como campo onde esforço contínuo é indispensável para manter posição e reconhecimento. Costuma notar dedicação, disciplina e resistência nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta firmeza e constância diante das exigências sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente exigente ou desgastante.</p>
 <p>A Potência 86 revela uma percepção social baseada em determinação e esforço.</p>`,
-​87:`<p>Excessos Sociais e Percepção de Tentações.</p>
-​<p>Na Pirâmide Social, a Potência 87 indica que a pessoa percebe o ambiente como permeado por impulsos, exageros e disputas de intensidade. Enxerga o meio social como cenário de tentações e comportamentos extremos. Costuma notar exageros emocionais, ambições desmedidas e atitudes impulsivas nos grupos.</p>
+
+87: `<p>Excessos Sociais e Percepção de Tentações.</p>
+<p>Na Pirâmide Social, a Potência 87 indica que a pessoa percebe o ambiente como permeado por impulsos, exageros e disputas de intensidade. Enxerga o meio social como cenário de tentações e comportamentos extremos. Costuma notar exageros emocionais, ambições desmedidas e atitudes impulsivas nos grupos.</p>
 <p>No aspecto positivo manifesta consciência crítica diante dos excessos coletivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou descontrolado.</p>
 <p>A Potência 87 revela uma percepção social ligada à intensidade e aos excessos.</p>`,
-​88:`<p>Rupturas Sociais e Percepção de Colapsos.</p>
-​<p>Na Pirâmide Social, a Potência 88 indica que a pessoa percebe o ambiente como sujeito a quedas estruturais e transformações radicais. Enxerga o meio social como campo de colapsos que antecedem reconstruções significativas. Costuma notar crises profundas e mudanças abruptas nas estruturas coletivas.</p>
+
+88: `<p>Rupturas Sociais e Percepção de Colapsos.</p>
+<p>Na Pirâmide Social, a Potência 88 indica que a pessoa percebe o ambiente como sujeito a quedas estruturais e transformações radicais. Enxerga o meio social como campo de colapsos que antecedem reconstruções significativas. Costuma notar crises profundas e mudanças abruptas nas estruturas coletivas.</p>
 <p>No aspecto positivo manifesta compreensão sobre a necessidade de reconstrução.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível demais.</p>
 <p>A Potência 88 revela uma percepção social de transformação radical.</p>`,
-​89:`<p>Frustrações Sociais e Percepção de Expectativas.</p>
-​<p>Na Pirâmide Social, a Potência 89 indica que a pessoa percebe o ambiente como marcado por promessas, atrasos e expectativas não plenamente atendidas. Enxerga o meio social como espaço onde resultados dependem de maturação e paciência. Costuma notar discrepâncias entre o que é anunciado e o que se concretiza.</p>
+
+89: `<p>Frustrações Sociais e Percepção de Expectativas.</p>
+<p>Na Pirâmide Social, a Potência 89 indica que a pessoa percebe o ambiente como marcado por promessas, atrasos e expectativas não plenamente atendidas. Enxerga o meio social como espaço onde resultados dependem de maturação e paciência. Costuma notar discrepâncias entre o que é anunciado e o que se concretiza.</p>
 <p>No aspecto positivo manifesta tolerância e aprendizado diante das frustrações.</p>
 <p>No aspecto negativo pode perceber o ambiente como decepcionante ou inconsistente.</p>
 <p>A Potência 89 revela uma percepção social orientada à paciência e maturação.</p>`,
-​90:`<p>Sabedoria Social e Percepção de Retiro.</p>
-​<p>Na Pirâmide Social, a Potência 90 indica que a pessoa percebe o ambiente como exigindo reflexão e distanciamento estratégico em determinados momentos. Enxerga o meio social como campo de aprendizado acumulado e observação madura. Costuma notar a importância do silêncio e da análise antes de agir coletivamente.</p>
+
+90: `<p>Sabedoria Social e Percepção de Retiro.</p>
+<p>Na Pirâmide Social, a Potência 90 indica que a pessoa percebe o ambiente como exigindo reflexão e distanciamento estratégico em determinados momentos. Enxerga o meio social como campo de aprendizado acumulado e observação madura. Costuma notar a importância do silêncio e da análise antes de agir coletivamente.</p>
 <p>No aspecto positivo manifesta discernimento e visão ampla das situações sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente reservado ou lento.</p>
 <p>A Potência 90 revela uma percepção social introspectiva e reflexiva.</p>`,
-​91:`<p>Retorno Social e Percepção de Justiça.</p>
-​<p>Na Pirâmide Social, a Potência 91 indica que a pessoa percebe o ambiente como regido por justiça natural e retorno proporcional às atitudes praticadas. Enxerga o meio social como estruturado por consequências inevitáveis. Costuma notar como comportamentos geram resultados diretos nas relações.</p>
+
+91: `<p>Retorno Social e Percepção de Justiça.</p>
+<p>Na Pirâmide Social, a Potência 91 indica que a pessoa percebe o ambiente como regido por justiça natural e retorno proporcional às atitudes praticadas. Enxerga o meio social como estruturado por consequências inevitáveis. Costuma notar como comportamentos geram resultados diretos nas relações.</p>
 <p>No aspecto positivo manifesta senso de responsabilidade e equilíbrio interpretativo.</p>
 <p>No aspecto negativo pode perceber o ambiente como severo ou rígido nas respostas.</p>
 <p>A Potência 91 revela uma percepção social baseada em justiça e retorno.</p>`,
-​92:`<p>Reavaliação Social e Percepção de Questionamentos.</p>
-​<p>Na Pirâmide Social, a Potência 92 indica que a pessoa percebe o ambiente como atravessado por dúvidas e necessidade de revisão constante. Enxerga o meio social como campo de reflexão coletiva e ajustes de postura. Costuma notar incertezas e debates nas relações e decisões grupais.</p>
+
+92: `<p>Reavaliação Social e Percepção de Questionamentos.</p>
+<p>Na Pirâmide Social, a Potência 92 indica que a pessoa percebe o ambiente como atravessado por dúvidas e necessidade de revisão constante. Enxerga o meio social como campo de reflexão coletiva e ajustes de postura. Costuma notar incertezas e debates nas relações e decisões grupais.</p>
 <p>No aspecto positivo manifesta análise criteriosa antes de conclusões.</p>
 <p>No aspecto negativo pode perceber o ambiente como indeciso ou instável.</p>
 <p>A Potência 92 revela uma percepção social marcada por questionamento e revisão.</p>`,
-​93:`<p>Evolução Social e Percepção de Crescimento.</p>
-​<p>Na Pirâmide Social, a Potência 93 indica que a pessoa percebe o ambiente como espaço de aprendizado contínuo e desenvolvimento coletivo. Enxerga o meio social como processo evolutivo em constante expansão. Costuma notar amadurecimento progressivo nas atitudes e nos projetos coletivos.</p>
+
+93: `<p>Evolução Social e Percepção de Crescimento.</p>
+<p>Na Pirâmide Social, a Potência 93 indica que a pessoa percebe o ambiente como espaço de aprendizado contínuo e desenvolvimento coletivo. Enxerga o meio social como processo evolutivo em constante expansão. Costuma notar amadurecimento progressivo nas atitudes e nos projetos coletivos.</p>
 <p>No aspecto positivo manifesta visão otimista sobre crescimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como lento em sua evolução.</p>
 <p>A Potência 93 revela uma percepção social voltada ao progresso e amadurecimento.</p>`,
-​94:`<p>Transição Social e Percepção de Encerramentos.</p>
-​<p>Na Pirâmide Social, a Potência 94 indica que a pessoa percebe o ambiente como marcado por finais de ciclo e preparações para novos começos. Enxerga o meio social como campo de encerramentos necessários e redefinições estruturais. Costuma notar conclusões de processos e mudanças de direção nas relações coletivas.</p>
+
+94: `<p>Transição Social e Percepção de Encerramentos.</p>
+<p>Na Pirâmide Social, a Potência 94 indica que a pessoa percebe o ambiente como marcado por finais de ciclo e preparações para novos começos. Enxerga o meio social como campo de encerramentos necessários e redefinições estruturais. Costuma notar conclusões de processos e mudanças de direção nas relações coletivas.</p>
 <p>No aspecto positivo manifesta compreensão sobre o tempo correto de finalizar etapas.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável devido às constantes transições.</p>
 <p>A Potência 94 revela uma percepção social de encerramento e renovação.</p>`,
-​95:`<p>Reconhecimento Social e Percepção de Harmonia.</p>
-​<p>Na Pirâmide Social, a Potência 95 indica que a pessoa percebe o ambiente como estruturado por integração e convivência equilibrada. Enxerga o meio social como espaço onde harmonia e cooperação sustentam estabilidade coletiva. Costuma notar ambientes bem organizados e relações saudáveis.</p>
+
+95: `<p>Reconhecimento Social e Percepção de Harmonia.</p>
+<p>Na Pirâmide Social, a Potência 95 indica que a pessoa percebe o ambiente como estruturado por integração e convivência equilibrada. Enxerga o meio social como espaço onde harmonia e cooperação sustentam estabilidade coletiva. Costuma notar ambientes bem organizados e relações saudáveis.</p>
 <p>No aspecto positivo manifesta valorização da integração e da paz social.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de consenso excessivo.</p>
 <p>A Potência 95 revela uma percepção social orientada à harmonia.</p>`,
-​96:`<p>Dissolução Social e Percepção de Ilusões.</p>
-​<p>Na Pirâmide Social, a Potência 96 indica que a pessoa percebe o ambiente como espaço onde ilusões se desfazem e emoções profundas emergem. Enxerga o meio social como campo de revelação emocional e compreensão além das aparências. Costuma notar incoerências e máscaras sociais sendo gradualmente removidas.</p>
+
+96: `<p>Dissolução Social e Percepção de Ilusões.</p>
+<p>Na Pirâmide Social, a Potência 96 indica que a pessoa percebe o ambiente como espaço onde ilusões se desfazem e emoções profundas emergem. Enxerga o meio social como campo de revelação emocional e compreensão além das aparências. Costuma notar incoerências e máscaras sociais sendo gradualmente removidas.</p>
 <p>No aspecto positivo manifesta sensibilidade e percepção aguçada.</p>
 <p>No aspecto negativo pode perceber o ambiente como confuso ou emocionalmente instável.</p>
 <p>A Potência 96 revela uma percepção social de verdade e dissolução de ilusões.</p>`,
-​97:`<p>Destino Social e Percepção de Rupturas.</p>
-​<p>Na Pirâmide Social, a Potência 97 indica que a pessoa percebe o ambiente como palco de acontecimentos decisivos e mudanças marcantes. Enxerga o meio social como campo de eventos que alteram trajetórias coletivas. Costuma notar situações determinantes que redefinem vínculos e posições.</p>
+
+97: `<p>Destino Social e Percepção de Rupturas.</p>
+<p>Na Pirâmide Social, a Potência 97 indica que a pessoa percebe o ambiente como palco de acontecimentos decisivos e mudanças marcantes. Enxerga o meio social como campo de eventos que alteram trajetórias coletivas. Costuma notar situações determinantes que redefinem vínculos e posições.</p>
 <p>No aspecto positivo manifesta consciência estratégica diante de eventos importantes.</p>
 <p>No aspecto negativo pode perceber o ambiente como imprevisível ou abrupto.</p>
 <p>A Potência 97 revela uma percepção social ligada a destino e rupturas significativas.</p>`,
-​98:`<p>Ascensão Social e Percepção de Power.</p>
-​<p>Na Pirâmide Social, a Potência 98 indica que a pessoa percebe o ambiente como estruturado por conquista, influência e reconhecimento de autoridade. Enxerga o meio social como campo de ascensão e consolidação de poder. Costuma notar hierarquias e disputas por posição nos grupos.</p>
+
+98: `<p>Ascensão Social e Percepção de Poder.</p>
+<p>Na Pirâmide Social, a Potência 98 indica que a pessoa percebe o ambiente como estruturado por conquista, influência e reconhecimento de autoridade. Enxerga o meio social como campo de ascensão e consolidação de poder. Costuma notar hierarquias e disputas por posição nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão estratégica das estruturas sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo.</p>
 <p>A Potência 98 revela uma percepção social voltada à ascensão e poder.</p>`,
-​99:`<p>Consciência Social e Percepção de Sabedoria.</p>
-​<p>Na Pirâmide Social, a Potência 99 indica que a pessoa percebe o ambiente com visão ampla e maturidade interpretativa. Enxerga o meio social como campo de aprendizado profundo e compreensão das dinâmicas humanas. Costuma notar padrões complexos e conexões sutis nas relações coletivas.</p>
+
+99: `<p>Consciência Social e Percepção de Sabedoria.</p>
+<p>Na Pirâmide Social, a Potência 99 indica que a pessoa percebe o ambiente com visão ampla e maturidade interpretativa. Enxerga o meio social como campo de aprendizado profundo e compreensão das dinâmicas humanas. Costuma notar padrões complexos e conexões sutis nas relações coletivas.</p>
 <p>No aspecto positivo manifesta sabedoria e equilíbrio na leitura social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente denso ou carregado de responsabilidades.</p>
 <p>A Potência 99 revela uma percepção social marcada por consciência e sabedoria.</p>`
-​​
-  };
+};
   
   const textosDestino={ 
 
@@ -3982,6 +4067,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 },
 };
+
 
 
 
