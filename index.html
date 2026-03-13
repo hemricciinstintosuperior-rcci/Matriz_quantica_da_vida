@@ -183,22 +183,17 @@ function topo(base){
 }
 
 function calcularVigenciaPorPosicao(linha, coluna, cronograma) {
-    // LÓGICA LINEAR VERTICAL:
-    // Uma sequência que começa na 'coluna' X da linha Y, 
-    // recebe a influência dos Arcanos do Topo (crono) a partir do índice X.
-    
-    // Se for uma sequência de 3 números (Negativas ou Especiais), ela ocupa 3 colunas de influência.
-    // Se for Financeira (99/9), o cálculo também se aplica às colunas de origem.
-    
+    // Lógica Linear Vertical: 
+    // Ignoramos a 'linha' e focamos na 'coluna' que mapeia direto pro topo.
     let indiceInicio = coluna;
-    let indiceFim = coluna + 2; // Pega a abrangência vertical (3 colunas de influência)
+    let indiceFim = coluna + 2; // Pega a influência dos arcanos acima (abrangência de 3 colunas)
 
     let periodosAfetados = cronograma.filter(p => p.indiceArcano >= indiceInicio && p.indiceArcano <= indiceFim);
     
     if (periodosAfetados.length === 0) return "Período em transição";
 
-    let idadeIni = periodosAfetados[0].idadeIni;
-    let idadeFim = periodosAfetados[periodosAfetados.length - 1].idadeFim;
+    let idadeIni = periodosAfetados[0].ageIni || periodosAfetados[0].idadeIni;
+    let idadeFim = periodosAfetados[periodosAfetados.length - 1].ageFim || periodosAfetados[periodosAfetados.length - 1].idadeFim;
     
     return `${idadeIni} a ${idadeFim} anos`;
 }
@@ -287,7 +282,7 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
         if (!gruposIdentificados.has(idGrupo)) {
             gruposIdentificados.add(idGrupo);
             
-            // Para o 99/9, pegamos apenas 2 colunas de influência vertical (coluna e coluna+1)
+            // Pega os arcanos do topo que estão EXATAMENTE acima dos dois "9" da sequência
             let periodos = crono.filter(cp => cp.indiceArcano >= p.indice && cp.indiceArcano <= p.indice + 1);
             let vigencia = "Fase de transição";
             if(periodos.length > 0) {
@@ -560,6 +555,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
