@@ -3653,7 +3653,7 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 <p>Conhecer essas vigências ajuda a perceber quando determinados acontecimentos fazem parte de um ciclo maior de transformação. Isso permite encarar essas fases com mais consciência, compreendendo que cada período pode trazer lições e oportunidades importantes para a construção do seu caminho.</p>`
 
-};
+},
 
 window.textosSintese = {
     "pessoal_vida": "Você é o mestre da sua própria realidade. Esta sincronia indica que o seu interior (quem você é) está em total alinhamento com os acontecimentos reais da sua vida. O que você projeta internamente se manifesta no mundo externo, permitindo que você sinta que tem o controle total sobre o seu destino, criando as situações que deseja viver.",
@@ -3674,7 +3674,7 @@ window.textosSintese = {
     "convergencia_total": "Você está em um estado de **Alinhamento Absoluto**. Todas as suas potências convergem para o mesmo número, indicando que seu interior, seu social, sua vida e seu destino caminham em uma única e poderosa direção. É um momento de clareza total, onde não há conflitos de interesse entre o que você quer e o que o mundo te oferece.",
     
     "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
-};
+},
   
 };
 
