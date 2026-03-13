@@ -227,46 +227,57 @@ function gerarCronogramaMestre(arcanosVida, data) {
 }
 
 // 1. RELATÓRIO DE NEGATIVAS (Blocos de 3 ou mais números)
+// 1. RELATÓRIO DE NEGATIVAS (Ajustado para bater com suas idades 38-45, 49-68, etc.)
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let encontrou = false;
 
+    // Varremos cada linha da pirâmide
     linhas.forEach((linha, i) => {
         let j = 0;
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
             
-            // Conta quantos números iguais existem em sequência
+            // Agrupa números iguais (3 ou mais) para formar o bloco
             while (j + cont < linha.length && linha[j + cont] === num) {
                 cont++;
             }
 
-            // Se for 3 ou mais, é UMA sequência única (mesmo que tenha 4, 5, 6...)
             if (cont >= 3) {
                 encontrou = true;
+                
+                // --- O SEGREDO DO CÁLCULO VERTICAL ---
+                // O tempo e a idade vêm das colunas do TOPO que estão acima da sequência
                 let duracaoTotal = 0;
-                
-                // Idade inicial na primeira coluna, final na última coluna do bloco
-                let idadeIni = crono.find(c => c.indiceArcano === j).idadeIni;
-                let idadeFim = crono.find(c => c.indiceArcano === j + cont - 1).idadeFim;
-                
-                // TÚNEL ALARGADO: Sobe reto para a Linha 0 pegando TODA a largura da sequência
+                let idadeMinima = 999;
+                let idadeMaxima = 0;
+
                 for (let k = 0; k < cont; k++) {
                     let colTrilho = j + k;
+                    
+                    // 1. Pega a potência no topo (Linha 0)
                     let arcTopo = linhas[0][colTrilho];
                     if (arcTopo) {
                         duracaoTotal += parseInt(arcTopo.toString()[0]) || 0;
+                    }
+
+                    // 2. Busca no cronograma mestre qual idade corresponde a essa COLUNA vertical
+                    // O cronograma mestre é a bússola que diz "Coluna X = Idade Y"
+                    let periodo = crono.find(c => c.indiceArcano === colTrilho);
+                    if (periodo) {
+                        if (periodo.idadeIni < idadeMinima) idadeMinima = periodo.idadeIni;
+                        if (periodo.idadeFim > idadeMaxima) idadeMaxima = periodo.idadeFim;
                     }
                 }
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeMinima} aos ${idadeMaxima} anos)</span>
                         <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num] || "Desafio detectado.")}</p>
                       </div>`;
                 
-                j += cont; // Pula o bloco já processado
+                j += cont; 
             } else {
                 j++;
             }
@@ -600,6 +611,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
