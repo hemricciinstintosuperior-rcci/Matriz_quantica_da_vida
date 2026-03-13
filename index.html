@@ -231,53 +231,56 @@ function gerarCronogramaMestre(arcanosVida, data) {
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let encontrou = false;
+    
+    // A Linha 0 contém os números que formam as potências duplas
+    const baseTopo = linhas[0];
 
-    // Varremos cada linha da pirâmide
     linhas.forEach((linha, i) => {
         let j = 0;
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
             
-            // Agrupa números iguais (3 ou mais) para formar o bloco
+            // Agrupa o bloco de números iguais (3 ou mais)
             while (j + cont < linha.length && linha[j + cont] === num) {
                 cont++;
             }
 
             if (cont >= 3) {
                 encontrou = true;
+                let duracaoAnosTotal = 0;
                 
-                // --- O SEGREDO DO CÁLCULO VERTICAL ---
-                // O tempo e a idade vêm das colunas do TOPO que estão acima da sequência
-                let duracaoTotal = 0;
-                let idadeMinima = 999;
-                let idadeMaxima = 0;
+                // Pega as idades no cronograma baseadas nas colunas de início e fim do bloco
+                let periodoInicio = crono.find(c => c.indiceArcano === j);
+                let periodoFim = crono.find(c => c.indiceArcano === j + cont - 1);
 
+                let idadeIni = periodoInicio ? periodoInicio.idadeIni : 0;
+                let idadeFim = periodoFim ? periodoFim.idadeFim : 0;
+
+                // TRILHO VERTICAL: Cálculo das Potências Duplas
                 for (let k = 0; k < cont; k++) {
-                    let colTrilho = j + k;
+                    let colAtual = j + k;
                     
-                    // 1. Pega a potência no topo (Linha 0)
-                    let arcTopo = linhas[0][colTrilho];
-                    if (arcTopo) {
-                        duracaoTotal += parseInt(arcTopo.toString()[0]) || 0;
-                    }
-
-                    // 2. Busca no cronograma mestre qual idade corresponde a essa COLUNA vertical
-                    // O cronograma mestre é a bússola que diz "Coluna X = Idade Y"
-                    let periodo = crono.find(c => c.indiceArcano === colTrilho);
-                    if (periodo) {
-                        if (periodo.idadeIni < idadeMinima) idadeMinima = periodo.idadeIni;
-                        if (periodo.idadeFim > idadeMaxima) idadeMaxima = periodo.idadeFim;
+                    // Forma a potência dupla pegando o número atual e o próximo do topo
+                    // Exemplo: se baseTopo[col] é 1 e baseTopo[col+1] é 3, forma "13"
+                    if (colAtual < baseTopo.length - 1) {
+                        let n1 = baseTopo[colAtual];
+                        let n2 = baseTopo[colAtual + 1];
+                        let potenciaDupla = "" + n1 + n2; // Ex: "13"
+                        
+                        // Pega o primeiro dígito da potência para a vigência
+                        let valorVigencia = parseInt(potenciaDupla[0]) || 0;
+                        duracaoAnosTotal += valorVigencia;
                     }
                 }
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeMinima} aos ${idadeMaxima} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num] || "Desafio detectado.")}</p>
+                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num] || "Impacto negativo detectado.")}</p>
                       </div>`;
                 
-                j += cont; 
+                j += cont;
             } else {
                 j++;
             }
@@ -611,6 +614,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
