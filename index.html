@@ -183,12 +183,23 @@ function topo(base){
 }
 
 function calcularVigenciaPorPosicao(linha, coluna, cronograma) {
+    // LÓGICA LINEAR VERTICAL:
+    // Uma sequência que começa na 'coluna' X da linha Y, 
+    // recebe a influência dos Arcanos do Topo (crono) a partir do índice X.
+    
+    // Se for uma sequência de 3 números (Negativas ou Especiais), ela ocupa 3 colunas de influência.
+    // Se for Financeira (99/9), o cálculo também se aplica às colunas de origem.
+    
     let indiceInicio = coluna;
-    let indiceFim = coluna + linha; 
+    let indiceFim = coluna + 2; // Pega a abrangência vertical (3 colunas de influência)
+
     let periodosAfetados = cronograma.filter(p => p.indiceArcano >= indiceInicio && p.indiceArcano <= indiceFim);
-    if (periodosAfetados.length === 0) return "Fase de transição";
+    
+    if (periodosAfetados.length === 0) return "Período em transição";
+
     let idadeIni = periodosAfetados[0].idadeIni;
     let idadeFim = periodosAfetados[periodosAfetados.length - 1].idadeFim;
+    
     return `${idadeIni} a ${idadeFim} anos`;
 }
 
@@ -270,23 +281,28 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     if (!posFin || posFin.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo financeiro</h2>`;
     let gruposIdentificados = new Set();
-    let contadorReal = 0;
+    
     posFin.forEach(p => {
-        let idGrupo = `linha-${p.linha}-col-${p.indice}`;
+        let idGrupo = `fin-${p.linha}-${p.indice}`; 
         if (!gruposIdentificados.has(idGrupo)) {
             gruposIdentificados.add(idGrupo);
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            // ADICIONADO personalizarTexto AQUI:
+            
+            // Para o 99/9, pegamos apenas 2 colunas de influência vertical (coluna e coluna+1)
+            let periodos = crono.filter(cp => cp.indiceArcano >= p.indice && cp.indiceArcano <= p.indice + 1);
+            let vigencia = "Fase de transição";
+            if(periodos.length > 0) {
+                vigencia = `${periodos[0].idadeIni} a ${periodos[periodos.length-1].idadeFim} anos`;
+            }
+
             let textoFormatado = personalizarTexto(bancoTxt[999] || 'Momento de colheita material.');
             h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">✅ Sequência Financeira 99/9</b><br>
                     <small><h3>Janela: de ${vigencia}</h3></small>
                     <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                   </div>`;
-            contadorReal++;
         }
     });
-    return contadorReal > 0 ? h + "</div>" : "";
+    return h + "</div>";
 }
 
 
@@ -544,6 +560,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
