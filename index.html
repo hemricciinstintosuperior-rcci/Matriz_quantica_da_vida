@@ -230,42 +230,33 @@ function gerarCronogramaMestre(arcanosVida, data) {
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     const { posNeg } = detectarSequencias(linhas);
     if (!posNeg || posNeg.length === 0) return "";
-    
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let gruposContados = new Set();
     
     posNeg.forEach(p => {
         let num = linhas[p.linha][p.indice];
-        let idGrupo = `neg-${num}-L${p.linha}-C${p.indice}`;
-        
-        if (!gruposContados.has(idGrupo)) {
-            gruposContados.add(idGrupo);
+        let idUnico = `neg-${num}-${p.indice}`; // Garante que não repita a mesma posição
+        if (!gruposContados.has(idUnico)) {
+            gruposContados.add(idUnico);
             
-            // CÁLCULO LINHA RETA VERTICAL: 
-            // Para cada um dos 3 números da sequência, buscamos o Arcano no TOPO (linhas[0])
-            let vigenciaDados = [];
+            // Lógica Vertical: Soma as durações e pega a idade inicial e final no topo
+            let duracaoTotal = 0;
+            let idadeInicio = crono.find(c => c.indiceArcano === p.indice).idadeIni;
+            let idadeFim = crono.find(c => c.indiceArcano === p.indice + 2).idadeFim;
+            
             for (let i = 0; i < 3; i++) {
-                let col = p.indice + i;
-                let arcTopo = linhas[0][col]; // Isso substitui o 'topo()' que estava dando erro
-                let per = crono.find(cp => cp.indiceArcano === col);
-                
-                if (per && arcTopo) {
-                    let anos = parseInt(arcTopo.toString()[0]) || 1;
-                    vigenciaDados.push(`<b>${anos} anos</b> (Potência ${arcTopo}) na idade ${per.idadeIni}-${per.idadeFim}`);
-                }
+                let arcTopo = linhas[0][p.indice + i];
+                duracaoTotal += parseInt(arcTopo.toString()[0]) || 1;
             }
-            let resumoVigencia = vigenciaDados.join(" + ");
-            
+
             let textoFormatado = personalizarTexto(bancoTxt[num] || "Desafio detectado.");
-            
-            h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
-                    <b style="font-size:20px;">🚫 Sequência ${num}</b><br>
-                    <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
-                    <span style="font-size:16px; color:#000;">${textoFormatado}</span>
+            h += `<div style="margin-bottom:15px; border-left:4px solid #ff6b6b; padding-left:10px;">
+                    <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
+                    <span style="color:#555;">Duração: ${duracaoTotal} anos (dos ${idadeInicio} aos ${idadeFim} anos)</span><br>
+                    <p style="margin-top:5px; font-size:16px;">${textoFormatado}</p>
                   </div>`;
         }
-    }); // FECHAMENTO DO FOREACH - Aqui o vermelhinho vai sumir
-    
+    });
     return h + "</div>";
 }
 // 3. RELATÓRIO DE ESPECIAIS
@@ -279,68 +270,62 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
             if (bancoTxt && bancoTxt[seq]) {
-                let idImpacto = `esp-${seq}-L${i}-C${j}`;
-                if (!gruposContados.has(idImpacto)) {
+                let idUnico = `esp-${seq}-${j}`;
+                if (!gruposContados.has(idUnico)) {
                     encontrou = true;
-                    gruposContados.add(idImpacto);
+                    gruposContados.add(idUnico);
                     
-                    let vigenciaDados = [];
+                    let duracaoTotal = 0;
+                    let idadeInicio = crono.find(c => c.indiceArcano === j).idadeIni;
+                    let idadeFim = crono.find(c => c.indiceArcano === j + 2).idadeFim;
+                    
                     for (let k = 0; k < 3; k++) {
-                        let col = j + k;
-                        let arcTopo = linhas[0][col];
-                        let per = crono.find(cp => cp.indiceArcano === col);
-                        if (per && arcTopo) {
-                            let anos = parseInt(arcTopo.toString()[0]) || 1;
-                            vigenciaDados.push(`<b>${anos} anos</b> (Potência ${arcTopo}) na idade ${per.idadeIni}-${per.idadeFim}`);
-                        }
+                        let arcTopo = linhas[0][j + k];
+                        duracaoTotal += parseInt(arcTopo.toString()[0]) || 1;
                     }
-                    let resumoVigencia = vigenciaDados.join(" + ");
-                    let textoFormatado = personalizarTexto(bancoTxt[seq]);
-                    h += `<div style="margin-bottom:12px; border-left:4px solid #b8860b; padding-left:10px; text-align:left;">
-                            <b style="font-size:20px;"><h3>✨ Impacto ${seq}</b></h3>
-                            <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
-                            <span style="font-size:16px; color:#000;">${textoFormatado}</span>
+
+                    h += `<div style="margin-bottom:15px; border-left:4px solid #b8860b; padding-left:10px;">
+                            <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
+                            <span style="color:#555;">Duração: ${duracaoTotal} anos (dos ${idadeInicio} aos ${idadeFim} anos)</span><br>
+                            <p style="margin-top:5px; font-size:16px;">${personalizarTexto(bancoTxt[seq])}</p>
                           </div>`;
                 }
             }
         }
     });
     return encontrou ? h + "</div>" : "";
-} // ESTA É A LINHA 295 - FIM DA FUNÇÃO ESPECIAIS
+}/ ESTA É A LINHA 295 - FIM DA FUNÇÃO ESPECIAIS
 
 // --- INÍCIO DA LINHA 297 (SEQUÊNCIA FINANCEIRA) ---
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     const posFin = detectarSequenciaFinanceira(linhas);
     if (!posFin || posFin.length === 0) return "";
-    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo financeiro</h2>`;
-    let gruposIdentificados = new Set();
+    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
+    let contados = new Set();
     
     posFin.forEach(p => {
-        let idGrupo = `fin-${p.linha}-${p.indice}`;
-        if (!gruposIdentificados.has(idGrupo)) {
-            gruposIdentificados.add(idGrupo);
+        let idUnico = `fin-${p.indice}`;
+        if (!contados.has(idUnico)) {
+            contados.add(idUnico);
             
-            let vigenciaDados = [];
+            let duracaoTotal = 0;
+            let idadeInicio = crono.find(c => c.indiceArcano === p.indice).idadeIni;
+            let idadeFim = crono.find(c => c.indiceArcano === p.indice + 1).idadeFim;
+            
             for (let i = 0; i < 2; i++) {
-                let col = p.indice + i;
-                let arcTopo = linhas[0][col];
-                let per = crono.find(cp => cp.indiceArcano === col);
-                if (per && arcTopo) {
-                    let anos = parseInt(arcTopo.toString()[0]) || 1;
-                    vigenciaDados.push(`<b>${anos} anos</b> (Potência ${arcTopo}) na idade ${per.idadeIni}-${per.idadeFim}`);
-                }
+                let arcTopo = linhas[0][p.indice + i];
+                duracaoTotal += parseInt(arcTopo.toString()[0]) || 1;
             }
-            let resumoVigencia = vigenciaDados.join(" + ");
-            let textoFormatado = personalizarTexto(bancoTxt[999] || 'Momento de colheita material.');
-            h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
-                    <b style="font-size:20px;">✅ Sequência Financeira 99/9</b><br>
-                    <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
-                    <span style="font-size:16px; color:#000;">${textoFormatado}</span>
+
+            h += `<div style="margin-bottom:15px; border-left:4px solid #34c759; padding-left:10px;">
+                    <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
+                    <span style="color:#555;">Duração: ${duracaoTotal} anos (dos ${idadeInicio} aos ${idadeFim} anos)</span><br>
+                    <p style="margin-top:5px; font-size:16px;">${personalizarTexto(bancoTxt[999])}</p>
                   </div>`;
         }
     });
     return h + "</div>";
-} // ESTA É A LINHA 318 - FIM DA FUNÇÃO FINANCEIRA
+} ESTA É A LINHA 318 - FIM DA FUNÇÃO FINANCEIRA
 
 
 
@@ -597,6 +582,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
