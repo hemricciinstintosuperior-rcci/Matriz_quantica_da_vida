@@ -3660,23 +3660,66 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 
 window.textosSintese = {
-    "pessoal_vida": "Você é o mestre da sua própria realidade. Esta sincronia indica que o seu interior (quem você é) está em total alinhamento com os acontecimentos reais da sua vida. O que você projeta internamente se manifesta no mundo externo, permitindo que você sinta que tem o controle total sobre o seu destino, criando as situações que deseja viver.",
+    "pessoal_vida": `
+        <p><b>Sincronia de Manifestação Direta:</b></p>
+        <p>você possui uma das configurações mais potentes da matriz quântica. Quando sua Potência Pessoal se iguala à Potência da Vida, o véu entre o desejo e a realidade torna-se extremamente fino. Isto significa que você é o arquiteto consciente de tudo o que lhe acontece, agindo de forma integrada à sua realidade material.</p>
+        <p>Na prática, isso exige uma higiene mental rigorosa, pois seus medos podem se manifestar tão rápido quanto seus sonhos. Você não é uma vítima das circunstâncias; você é o motor delas. O mundo real responde ao seu comando interno como um espelho de alta fidelidade, sensível à sua vibração mais profunda.</p>
+        <p>Quando você decide mudar sua postura íntima, sua vida financeira e profissional tende a se ajustar rapidamente, sem a necessidade de esforços externos exaustivos. É o estado de 'Fluxo de Criador', onde a vida acontece através de você. O desafio aqui é assumir a responsabilidade total por sua jornada, pois a chave da sua realidade está guardada no seu próprio interior.</p>
+    `,
     
-    "social_vida": "Sua vida é um reflexo direto do meio em que você vive. Esta conexão revela que o seu círculo social e as pessoas ao seu redor exercem uma influência predominante na sua realidade. O ritmo dos acontecimentos da sua vida é ditado pelo ambiente externo, onde as oportunidades e desafios surgem através das conexões que você mantém.",
+    "social_vida": `
+        <p><b>Sincronia de Espelhamento Coletivo:</b></p>
+        <p>Sua jornada é profundamente influenciada pelo campo vibracional das pessoas e ambientes que você frequenta. Nesta configuração, sua vida funciona como um reflexo direto do seu convívio social. Você é um ser de ressonância externa: o sucesso ou os bloqueios que você experimenta são, em grande parte, transferidos a você devido à sua exposição ao meio.</p>
+        <p>Se você se cercar de mentes prósperas e evoluídas, sua vida subirá de nível como por osmose. Por outro lado, ambientes tóxicos drenarão sua energia vital rapidamente. Você possui uma antena social captando as frequências do meio e materializando-as em sua rotina. Sua evolução depende da sua capacidade estratégica de selecionar onde e com quem você gasta seu tempo.</p>
+        <p>O destino não lhe traz apenas eventos isolados; ele traz pessoas, e essas pessoas trazem os eventos. Para mudar sua vida, mude seu cenário social. Você verá que portas que pareciam trancadas se abrirão sozinhas apenas por você estar no grupo certo. É uma vida de oportunidades compartilhadas, onde o networking é o seu próprio motor de sobrevivência material.</p>
+    `,
     
-    "destino_vida": "O Universo está conduzindo o seu palco. Existe uma influência direta do destino sobre os fatos gerais da sua vida, indicando que grandes eventos acontecem por um propósito maior, independentemente da sua vontade imediata. É o fluxo do propósito moldando a sua jornada diária através de sincronicidades.",
+    "destino_vida": `
+        <p><b>Sincronia de Propósito Inevitável:</b></p>
+        <p>Aqui, o comando da sua existência está nas mãos do seu Plano de Destino. Existe uma força maior que guia os grandes acontecimentos da sua vida, muitas vezes sobrepondo-se às suas escolhas imediatas. Você sentirá que certas situações e mudanças de rumo são inevitáveis e parecem orquestradas por uma inteligência superior, atenta à sua missão de vida.</p>
+        <p>Esta é a marca de uma jornada com missão específica. Quando o Destino e a Vida se fundem, os acasos dão lugar à Providência. Mesmo que você tente fugir de certos caminhos, o Universo criará curvas que o trarão de volta ao seu trilho original. É uma jornada de rendição e confiança nas forças maiores.</p>
+        <p>Quanto menos você resistir ao fluxo natural das coisas, mais próspera sua vida se tornará. Você notará que grandes crises frequentemente precedem saltos quânticos, pois o Destino está limpando o palco para o próximo ato. Sua vida é um livro escrito pelas estrelas, onde o sucesso vem através da observação das sincronicidades e da obediência às leis do tempo.</p>
+    `,
     
-    "pessoal_social": "Sua personalidade é altamente sensível ao meio externo. Você possui uma natureza 'esponja', onde o seu interior é facilmente influenciado pelas opiniões e energias das pessoas com quem convive. Existe uma tendência de moldar quem você é para se ajustar ao grupo social, tornando a troca com o outro um fator decisivo na sua identidade.",
+    "pessoal_social": `
+        <p><b>Sincronia de Influência e Identidade:</b></p>
+        <p>Esta conexão revela um desafio quântico entre o 'Eu' e o 'Nós'. você possui uma personalidade altamente adaptável, o que o torna uma pessoa carismática, mas que corre o risco de perder a própria essência devido à necessidade de pertencer. O seu 'Pessoal' é constantemente moldado pelas pressões do seu meio social.</p>
+        <p>Você sente o que o grupo sente e, muitas vezes, adota metas que não são originalmente suas. Esta facilidade de ser influenciado pode ser sua maior virtude ou seu maior perigo. No lado positivo, você pode aprender comportamentos de sucesso com rapidez. No lado negativo, pode anular seus desejos para satisfazer expectativas alheias.</p>
+        <p>O trabalho aqui é o de individualização: aprender a fechar seu campo energético para ouvir sua própria voz. Você precisa de momentos de isolamento para descomprimir as energias sociais e reencontrar quem você é de fato. Quando você domina essa troca, torna-se um mestre da influência, capaz de se conectar a qualquer pessoa sem perder seu núcleo interno.</p>
+    `,
     
-    "pessoal_destino": "O destino trabalha dentro de você, de dentro para fora. Esta é uma conexão profunda onde você sente o chamado do Universo através da sua intuição e dos seus pensamentos. Suas decisões pessoais parecem ser guiadas por uma força invisível que atua diretamente na sua alma, direcionando seus desejos para o seu propósito real.",
+    "pessoal_destino": `
+        <p><b>Sincronia de Intuição Profunda:</b></p>
+        <p>O Universo fala diretamente com você, de dentro para fora. Nesta rara configuração, sua Potência Pessoal está em ressonância com o seu Destino, criando uma conexão intuitiva fortíssima. Você não precisa buscar respostas no mundo externo; seu interior já sabe o caminho antes mesmo da sua mente racional processar a informação.</p>
+        <p>Seus desejos mais profundos já estão carregados com o seu propósito de vida. Você sente o chamado do destino como um entusiasmo inexplicável por certos assuntos. Quando você segue sua intuição, você está, literalmente, entregue à sua missão real. O maior erro que você pode cometer é tentar ser lógico demais ou seguir conselhos que contradizem seu sentimento interno.</p>
+        <p>Para você, o sucesso vem da obediência à voz do coração. Você sentirá o Universo trabalhando nos seus sonhos durante o sono e em lampejos de criatividade. É uma vida guiada pela alma, onde o autoconhecimento é a ferramenta mais poderosa de todas. Você é o seu próprio guia e seu destino está sendo escrito através da sua coragem de ser quem você realmente nasceu para ser.</p>
+    `,
     
-    "social_destino": "Suas conexões sociais são as chaves do seu destino. O propósito da sua vida se manifesta através da coletividade e do meio em que você convive. As pessoas que cruzam o seu caminho não estão ali por acaso; elas são os canais que o destino utiliza para trazer as oportunidades e as transformações necessárias para o seu crescimento.",
+    "social_destino": `
+        <p><b>Sincronia de Missão Coletiva:</b></p>
+        <p>O palco da sua evolução é a sociedade. Esta conexão indica que o propósito da sua vida não pode ser realizado de forma isolada; ele depende das suas interações e da sua imagem pública. O Destino se manifesta através do seu papel social e das conexões que você cultiva, levando-o à realização através do outro.</p>
+        <p>você nasceu para ser um ponto de convergência, alguém que move peças no tabuleiro social para que algo maior aconteça. Grandes oportunidades virão sempre através de uma indicação ou uma rede de apoio. Você atrai pessoas que são mensageiras do destino para você. O seu comportamento no meio de convivência dita a velocidade com que seu propósito se cumpre.</p>
+        <p>Se você se isolar, seu destino trava. Se você se expande socialmente, as portas do universo se abrem. Esta configuração pede consciência do seu impacto nos outros, pois sua liderança é a ferramenta que o Universo usa para entregar resultados. Sua vida é um grande evento social orquestrado pelo divino, onde cada conexão é um passo fundamental na sua história.</p>
+    `,
 
-    // Sínteses Gerais (A quarta parte)
-    "autonomia_total": "Sua matriz revela uma **Independência Quântica**. Como cada área possui uma potência diferente, você é uma pessoa multifacetada. Você possui a rara habilidade de separar seus sentimentos (Pessoal) das suas obrigações (Social) e do fluxo da vida, permitindo que você atue de forma estratégica e independente em cada setor, sem que um interfira negativamente no outro.",
+    "autonomia_total": `
+        <p><b>Assinatura de Independência e Versatilidade Quântica:</b></p>
+        <p>Sua matriz revela que você opera sob uma lei de autonomia absoluta. O fato de todas as suas potências serem diferentes indica que você não está preso a um único padrão. Você é uma pessoa multifacetada, capaz de atuar em diferentes frequências dependendo da área da vida, adaptando-se às exigências de cada momento.</p>
+        <p>No seu interior, você tem seus próprios valores; na convivência social, você sabe usar as máscaras necessárias; nos fatos da vida, lida com a realidade fria; e no Destino, flui com o propósito. Essa separação evita que um problema em uma área contamine as outras. Se o social vai mal, seu pessoal continua intacto.</p>
+        <p>Essa flexibilidade é uma força incrível. Sua jornada exige que você aprenda a transitar entre esses mundos com inteligência. Você é o mestre da sua própria complexidade, livre de influências cruzadas que poderiam limitar seu crescimento. Sua liberdade é seu maior ativo, permitindo que você experimente a vida em todas as suas cores sem se tornar escravo de um único fluxo energético.</p>
+    `,
     
-    "convergencia_total": "Você está em um estado de **Alinhamento Absoluto**. Todas as suas potências convergem para o mesmo número, indicando que seu interior, seu social, sua vida e seu destino caminham em uma única e poderosa direção. É um momento de clareza total, onde não há conflitos de interesse entre o que você quer e o que o mundo te oferece.",
+    "convergencia_total": `
+        <p><b>Assinatura de Unidade e Alinhamento Absoluto:</b></p>
+        <p>você vive um fenômeno de convergência total. Quando todos os pilares da sua matriz vibram no mesmo número, você se torna uma força de foco absoluto. Não há conflitos internos ou resistência do meio; existe uma entrega total à sua frequência principal.</p>
+        <p>O que você quer é o que o mundo te oferece e é o que acontece de fato. É um estado de força concentrada onde tudo caminha em uma única direção. Quando você decide algo, o movimento é avassalador, pois todas as esferas da sua existência apoiam essa decisão simultaneamente, sem hesitação.</p>
+        <p>O desafio dessa configuração é o foco: como toda a sua energia está concentrada em um único ponto, você deve garantir que esse ponto seja construtivo. Você é uma potência de realização pura, um exemplo de integridade quântica onde o pensamento, o sentimento e a ação são uma única e indissociável força da natureza.</p>
+    `,
     
-    "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
-
-  };
+    "equilibrio_misto": `
+        <p><b>Assinatura de Equilíbrio e Integração Dinâmica:</b></p>
+        <p>Sua matriz revela uma configuração de equilíbrio estratégico. Você possui áreas de sincronia onde a vida flui com facilidade e áreas de autonomia onde você tem total liberdade de escolha. Isso cria uma existência protegida, mas flexível, aberta às novas oportunidades.</p>
+        <p>você tem o benefício de conexões diretas com o destino em certos momentos, o que lhe dá suporte, mas mantém outros canais abertos para sua própria experimentação. Você não é totalmente previsível, nem totalmente caótico. Esta é a assinatura do equilíbrio: saber quando se render ao fluxo e quando assumir o controle.</p>
+        <p>É uma jornada rica em aprendizados, pois permite que você viva tanto o conforto da sincronia quanto a aventura da descoberta individual. Você é o mediador da sua própria história, equilibrando com maestria as forças externas e seus desejos internos para construir uma vida estável e cheia de possibilidades.</p>
+    `
+};
