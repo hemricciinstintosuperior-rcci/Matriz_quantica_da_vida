@@ -287,31 +287,43 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
-// Apliquei a mesma lógica de deslocamento (j + i) nas outras para não dar erro
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
+    const baseTopo = linhas[0];
+
     linhas.forEach((linha, i) => {
+        // Percorre a linha buscando trios
         for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j+1] + linha[j+2];
+            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
+            
+            // Se o código da sequência existe no seu banco de textos
             if (bancoTxt && bancoTxt[seq]) {
                 encontrou = true;
                 let duracaoTotal = 0;
-                let colReal = j + i;
-                let idadeIni = crono[colReal] ? crono[colReal].idadeIni : "?";
-                let idadeFim = crono[colReal + 2] ? crono[colReal + 2].idadeFim : "?";
+                
+                // COMPENSAÇÃO DE PIRÂMIDE (ELEVADOR)
+                let offset = Math.floor(i / 2);
+                let indiceInicioReal = j + offset;
+                let indiceFimReal = (j + 2) + offset;
 
+                // Idades vindas do Cronograma Mestre
+                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
+                let idadeFim = crono[indiceFimReal] ? crono[indiceFimReal].idadeFim : "?";
+
+                // Soma as potências do topo (3 colunas de largura)
                 for (let k = 0; k < 3; k++) {
-                    let c = j + i + k;
-                    if (c < linhas[0].length - 1) {
-                        let arc = "" + linhas[0][c] + linhas[0][c+1];
-                        duracaoTotal += parseInt(arc[0]) || 0;
+                    let colReal = j + offset + k;
+                    if (colReal < baseTopo.length - 1) {
+                        let arcano = "" + baseTopo[colReal] + baseTopo[colReal + 1];
+                        duracaoTotal += parseInt(arcano[0]) || 0;
                     }
                 }
+
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p>${personalizarTexto(bancoTxt[seq])}</p>
+                        <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
         }
@@ -319,41 +331,46 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
-// 3. RELATÓRIO FINANCEIRO (Cada 99/9 é um evento separado)
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
-    const posFin = detectarSequenciaFinanceira(linhas);
-    if (!posFin || posFin.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
-    
-    // Rastreamos apenas para pegar o "topo" de cada triângulo 99/9 encontrado
-    let processados = new Set();
-    posFin.forEach(p => {
-        let chave = `fin-${p.linha}-${p.indice}`;
-        if (!processados.has(chave) && p.linha < linhas.length - 1) {
-            // Verifica se os dois 9s de cima existem
-            if (linhas[p.linha][p.indice] === 9 && linhas[p.linha][p.indice+1] === 9) {
-                processados.add(chave);
-                let duracaoTotal = 0;
-                let idadeIni = crono.find(c => c.indiceArcano === p.indice).idadeIni;
-                let idadeFim = crono.find(c => c.indiceArcano === p.indice + 1).idadeFim;
+    let encontrou = false;
+    const baseTopo = linhas[0];
+
+    linhas.forEach((linha, i) => {
+        // O financeiro foca no par "99" (2 colunas)
+        for (let j = 0; j < linha.length - 1; j++) {
+            if (linha[j] === 9 && linha[j + 1] === 9) {
+                // Opcional: verificar se existe um 9 abaixo (pode ser adicionado se necessário)
                 
-                // ELEVADOR VERTICAL: 2 colunas do 99 para o topo
+                encontrou = true;
+                let duracaoTotal = 0;
+                
+                // COMPENSAÇÃO DE PIRÂMIDE (ELEVADOR)
+                let offset = Math.floor(i / 2);
+                let indiceInicioReal = j + offset;
+                let indiceFimReal = (j + 1) + offset;
+
+                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
+                let idadeFim = crono[indiceFimReal] ? crono[indiceFimReal].idadeFim : "?";
+
+                // Soma as potências do topo (2 colunas de largura para o 99)
                 for (let k = 0; k < 2; k++) {
-                    let pTopo = linhas[0][p.indice + k];
-                    if (pTopo) {
-                        duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
+                    let colReal = j + offset + k;
+                    if (colReal < baseTopo.length - 1) {
+                        let arcano = "" + baseTopo[colReal] + baseTopo[colReal + 1];
+                        duracaoTotal += parseInt(arcano[0]) || 0;
                     }
                 }
 
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px; text-align:left;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
                         <span style="font-weight:bold; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999])}</p>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade e fluxo financeiro.")}</p>
                       </div>`;
             }
         }
     });
-    return h + "</div>";
+    return encontrou ? h + "</div>" : "";
 }
 
 
@@ -610,6 +627,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
