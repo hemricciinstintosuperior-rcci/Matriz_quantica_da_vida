@@ -227,59 +227,57 @@ function gerarCronogramaMestre(arcanosVida, data) {
 }
 
 // 1. RELATÓRIO DE NEGATIVAS (Blocos de 3 ou mais números)
-// 1. RELATÓRIO DE NEGATIVAS (Ajustado para bater com suas idades 38-45, 49-68, etc.)
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let encontrou = false;
-    
-    // A Linha 0 contém os números que formam as potências duplas
-    const baseTopo = linhas[0];
 
+    // 1. Precisamos primeiro de todas as potências duplas (arcanos) do topo
+    let potenciasTopo = [];
+    for (let i = 0; i < linhas[0].length - 1; i++) {
+        potenciasTopo.push("" + linhas[0][i] + linhas[0][i+1]);
+    }
+
+    // 2. Varremos a pirâmide para achar os blocos
     linhas.forEach((linha, i) => {
         let j = 0;
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
-            
-            // Agrupa o bloco de números iguais (3 ou mais)
             while (j + cont < linha.length && linha[j + cont] === num) {
                 cont++;
             }
 
             if (cont >= 3) {
                 encontrou = true;
-                let duracaoAnosTotal = 0;
                 
-                // Pega as idades no cronograma baseadas nas colunas de início e fim do bloco
-                let periodoInicio = crono.find(c => c.indiceArcano === j);
-                let periodoFim = crono.find(c => c.indiceArcano === j + cont - 1);
+                // Pegamos a vigência baseada na posição que a sequência ocupa no CRONOGRAMA
+                // Se a sequência está na linha X, coluna Y, ela corresponde a um índice no cronograma mestre
+                
+                let duracaoAnosTotal = 0;
+                let idadeIni = 0;
+                let idadeFim = 0;
 
-                let idadeIni = periodoInicio ? periodoInicio.idadeIni : 0;
-                let idadeFim = periodoFim ? periodoFim.idadeFim : 0;
-
-                // TRILHO VERTICAL: Cálculo das Potências Duplas
+                // Aqui está o ajuste para bater com sua conta:
+                // Percorremos o cronograma a partir da posição da sequência
                 for (let k = 0; k < cont; k++) {
-                    let colAtual = j + k;
+                    let indiceNoCrono = j + k; 
+                    let periodo = crono[indiceNoCrono];
                     
-                    // Forma a potência dupla pegando o número atual e o próximo do topo
-                    // Exemplo: se baseTopo[col] é 1 e baseTopo[col+1] é 3, forma "13"
-                    if (colAtual < baseTopo.length - 1) {
-                        let n1 = baseTopo[colAtual];
-                        let n2 = baseTopo[colAtual + 1];
-                        let potenciaDupla = "" + n1 + n2; // Ex: "13"
-                        
-                        // Pega o primeiro dígito da potência para a vigência
-                        let valorVigencia = parseInt(potenciaDupla[0]) || 0;
-                        duracaoAnosTotal += valorVigencia;
+                    if (periodo) {
+                        if (k === 0) idadeIni = periodo.idadeIni;
+                        idadeFim = periodo.idadeFim;
+
+                        // A potência vem do topo, mas seguindo a ordem do cronograma
+                        let arc = potenciasTopo[indiceNoCrono % potenciasTopo.length];
+                        duracaoAnosTotal += parseInt(arc[0]) || 0;
                     }
                 }
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
                         <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num] || "Impacto negativo detectado.")}</p>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
-                
                 j += cont;
             } else {
                 j++;
@@ -614,6 +612,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
