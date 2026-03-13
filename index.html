@@ -229,36 +229,45 @@ function gerarCronogramaMestre(arcanosVida, data) {
 // 1. RELATÓRIO DE NEGATIVAS
 // --- FUNÇÕES COM VERTICALIDADE PURA (ELEVADOR DIRETO AO TOPO) ---
 
+// 1. RELATÓRIO DE NEGATIVAS (Vertical Reta - Todas as sequências)
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     const { posNeg } = detectarSequencias(linhas);
     if (!posNeg || posNeg.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     
-    let processados = new Set();
+    // Identificamos o início de cada sequência para não fragmentar o bloco de 3
+    let iniciosProcessados = new Set();
+
     posNeg.forEach(p => {
-        let chavePosicao = `${p.linha}-${p.indice}`;
-        if (!processados.has(chavePosicao)) {
-            processados.add(chavePosicao);
+        let chave = `${p.linha}-${p.indice}`;
+        // Como o detectarSequencias retorna cada número individual, 
+        // pegamos apenas o primeiro de cada trio para calcular o bloco
+        if (!iniciosProcessados.has(chave) && 
+            posNeg.some(px => px.linha === p.linha && px.indice === p.indice + 1) &&
+            posNeg.some(px => px.linha === p.linha && px.indice === p.indice + 2)) {
             
+            iniciosProcessados.add(chave);
+            iniciosProcessados.add(`${p.linha}-${p.indice+1}`);
+            iniciosProcessados.add(`${p.linha}-${p.indice+2}`);
+
             let num = linhas[p.linha][p.indice];
             let duracaoTotal = 0;
             
-            // Pega idades baseadas nas colunas (vertical)
+            // Vigência por colunas (Vertical)
             let idadeIni = crono.find(c => c.indiceArcano === p.indice).idadeIni;
             let idadeFim = crono.find(c => c.indiceArcano === p.indice + 2).idadeFim;
             
-            // ELEVADOR VERTICAL: Sobe direto para a Linha 0 (Topo)
+            // O ELEVADOR: Sobe reto das 3 colunas até a Linha 0
             for (let k = 0; k < 3; k++) {
-                let colAtual = p.indice + k;
-                let potenciaTopo = linhas[0][colAtual]; // Acessa SEMPRE a linha 0
-                if (potenciaTopo) {
-                    duracaoTotal += parseInt(potenciaTopo.toString()[0]) || 0;
+                let pTopo = linhas[0][p.indice + k]; 
+                if (pTopo) {
+                    duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
                 }
             }
 
-            h += `<div class="blocoRelatorio" style="border-left:4px solid #ff0000; padding-left:10px; margin-bottom:20px;">
+            h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                     <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                    <span style="font-size:16px; font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                    <span style="font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                     <p>${personalizarTexto(bancoTxt[num] || "Desafio detectado.")}</p>
                   </div>`;
         }
@@ -266,6 +275,7 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     return h + "</div>";
 }
 
+// 2. RELATÓRIO DE ESPECIAIS (Vertical Reta)
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
@@ -279,18 +289,17 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                 let idadeIni = crono.find(c => c.indiceArcano === j).idadeIni;
                 let idadeFim = crono.find(c => c.indiceArcano === j + 2).idadeFim;
                 
-                // ELEVADOR VERTICAL: Sobe direto para a Linha 0
+                // ELEVADOR VERTICAL: Soma as potências do topo (Linha 0)
                 for (let k = 0; k < 3; k++) {
-                    let colAtual = j + k;
-                    let potenciaTopo = linhas[0][colAtual];
-                    if (potenciaTopo) {
-                        duracaoTotal += parseInt(potenciaTopo.toString()[0]) || 0;
+                    let pTopo = linhas[0][j + k];
+                    if (pTopo) {
+                        duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
                     }
                 }
 
-                h += `<div class="blocoRelatorio" style="border-left:4px solid #b8860b; padding-left:10px; margin-bottom:20px;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="font-size:16px; font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
@@ -299,6 +308,7 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
+// 3. RELATÓRIO FINANCEIRO (99/9 - Vertical Reta)
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     const posFin = detectarSequenciaFinanceira(linhas);
     if (!posFin || posFin.length === 0) return "";
@@ -307,7 +317,7 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     let processados = new Set();
     posFin.forEach(p => {
         let chave = `${p.linha}-${p.indice}`;
-        // Para o financeiro 99/9, subimos as 2 colunas superiores
+        // O 99/9 ocupa 2 colunas no topo
         if (!processados.has(chave) && p.linha < linhas.length - 1) {
             processados.add(chave);
             let duracaoTotal = 0;
@@ -315,16 +325,15 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
             let idadeFim = crono.find(c => c.indiceArcano === p.indice + 1).idadeFim;
             
             for (let k = 0; k < 2; k++) {
-                let colAtual = p.indice + k;
-                let potenciaTopo = linhas[0][colAtual];
-                if (potenciaTopo) {
-                    duracaoTotal += parseInt(potenciaTopo.toString()[0]) || 0;
+                let pTopo = linhas[0][p.indice + k];
+                if (pTopo) {
+                    duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
                 }
             }
 
-            h += `<div class="blocoRelatorio" style="border-left:4px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
+            h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                     <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                    <span style="font-size:16px; font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                    <span style="font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                     <p>${personalizarTexto(bancoTxt[999])}</p>
                   </div>`;
         }
@@ -586,6 +595,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
