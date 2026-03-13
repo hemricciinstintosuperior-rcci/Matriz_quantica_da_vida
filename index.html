@@ -182,15 +182,13 @@ function topo(base){
     return arcanos;
 }
 
+// --- FUNÇÃO DE APOIO: CÁLCULO LINEAR VERTICAL ---
 function calcularVigenciaLinearVertical(coluna, tamanhoSeq, cronograma, arcanosTopo) {
     let detalhes = [];
-    
-    // Percorre cada coluna da sequência (se for 922, percorre 3 colunas)
+    // Cada número da sequência pega a potência da sua própria coluna no topo
     for (let i = 0; i < tamanhoSeq; i++) {
         let indiceColuna = coluna + i;
-        // Encontra o arcano correspondente no topo (Linha 0)
         let arcRef = arcanosTopo[indiceColuna]; 
-        // Encontra o período desse arcano no cronograma mestre
         let periodo = cronograma.find(p => p.indiceArcano === indiceColuna);
         
         if (periodo) {
@@ -228,25 +226,21 @@ function gerarCronogramaMestre(arcanosVida, data) {
     return cronograma;
 }
 
+// 2. RELATÓRIO DE NEGATIVAS
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     const { posNeg } = detectarSequencias(linhas);
     if (!posNeg || posNeg.length === 0) return "";
-    let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
+    let h = <div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>;
     let gruposContados = new Set();
     
     posNeg.forEach(p => {
         let num = linhas[p.linha][p.indice];
-        let idGrupo = `neg-${num}-L${p.linha}-C${p.indice}`;
+        let idGrupo = neg-${num}-L${p.linha}-C${p.indice};
         if (!gruposContados.has(idGrupo)) {
             gruposContados.add(idGrupo);
-            
-            // Lógica Linear Vertical: Pega as 3 potências acima da sequência
             let vigenciaDados = calcularVigenciaLinearVertical(p.indice, 3, crono, topo(linhas[0]));
-            let resumoVigencia = vigenciaDados.map(v => 
-                `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
-            ).join(" + ");
-
-            let textoFormatado = personalizarTexto(bancoTxt[num] || "Desafio vibracional detectado.");
+            let resumoVigencia = vigenciaDados.map(v => <b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}).join(" + ");
+            let textoFormatado = personalizarTexto(bancoTxt[num] || "Desafio detectado.");
             h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">🚫 Sequência ${num}</b><br>
                     <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
@@ -256,26 +250,21 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     });
     return h + "</div>";
 }
+// 3. RELATÓRIO DE ESPECIAIS
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
-    let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
+    let h = <div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>;
     let gruposContados = new Set();
     let encontrou = false;
-    
     linhas.forEach((linha, i) => {
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
             if (bancoTxt && bancoTxt[seq]) {
-                let idImpacto = `esp-${seq}-L${i}-C${j}`;
+                let idImpacto = esp-${seq}-L${i}-C${j};
                 if (!gruposContados.has(idImpacto)) {
                     encontrou = true;
                     gruposContados.add(idImpacto);
-                    
-                    // Lógica Linear Vertical baseada na coluna 'j'
                     let vigenciaDados = calcularVigenciaLinearVertical(j, 3, crono, topo(linhas[0]));
-                    let resumoVigencia = vigenciaDados.map(v => 
-                        `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
-                    ).join(" + ");
-
+                    let resumoVigencia = vigenciaDados.map(v => <b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}).join(" + ");
                     let textoFormatado = personalizarTexto(bancoTxt[seq]);
                     h += `<div style="margin-bottom:12px; border-left:4px solid #b8860b; padding-left:10px; text-align:left;">
                             <b style="font-size:20px;"><h3>✨ Impacto ${seq}</b></h3>
@@ -289,23 +278,18 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
+// 4. RELATÓRIO FINANCEIRO
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     const posFin = detectarSequenciaFinanceira(linhas);
     if (!posFin || posFin.length === 0) return "";
-    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo financeiro</h2>`;
+    let h = <div class="box"><h2 style="color:#2e7d32;">💰 Fluxo financeiro</h2>;
     let gruposIdentificados = new Set();
-    
     posFin.forEach(p => {
-        let idGrupo = `fin-${p.linha}-${p.indice}`;
+        let idGrupo = fin-${p.linha}-${p.indice};
         if (!gruposIdentificados.has(idGrupo)) {
             gruposIdentificados.add(idGrupo);
-            
-            // O Financeiro 99/9 pega as 2 colunas de influência vertical acima
             let vigenciaDados = calcularVigenciaLinearVertical(p.indice, 2, crono, topo(linhas[0]));
-            let resumoVigencia = vigenciaDados.map(v => 
-                `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
-            ).join(" + ");
-
+            let resumoVigencia = vigenciaDados.map(v => <b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}).join(" + ");
             let textoFormatado = personalizarTexto(bancoTxt[999] || 'Momento de colheita material.');
             h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">✅ Sequência Financeira 99/9</b><br>
@@ -572,6 +556,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
