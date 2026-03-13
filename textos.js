@@ -3653,21 +3653,28 @@ vigencias:`<h1>⏳ O que são as Vigências do Destino?</h1>
 
 <p>Conhecer essas vigências ajuda a perceber quando determinados acontecimentos fazem parte de um ciclo maior de transformação. Isso permite encarar essas fases com mais consciência, compreendendo que cada período pode trazer lições e oportunidades importantes para a construção do seu caminho.</p>`
 
-},
+};
 
 window.textosSintese = {
-    "pessoal_vida": "O que você sente e deseja internamente manifesta-se com facilidade na sua realidade material...",
-    "social_vida": "Seu ambiente externo e as pessoas ao seu redor moldam os acontecimentos da sua vida...",
-    "destino_vida": "Eventos que parecem 'coincidência' são, na verdade, o destino agindo diretamente no seu cotidiano...",
-    "pessoal_social": "Sua personalidade é um reflexo do meio. Você se adapta e é influenciado pelas energias sociais...",
-    "pessoal_destino": "O propósito maior do universo ecoa dentro da sua alma. Você sente o destino como uma bússola interna...",
-    "social_destino": "O seu papel na sociedade é o veículo para o seu propósito de vida. Conexões são chaves do destino...",
+    "pessoal_vida": "Você é o mestre da sua própria realidade. Esta sincronia indica que o seu interior (quem você é) está em total alinhamento com os acontecimentos reais da sua vida. O que você projeta internamente se manifesta no mundo externo, permitindo que você sinta que tem o controle total sobre o seu destino, criando as situações que deseja viver.",
+    
+    "social_vida": "Sua vida é um reflexo direto do meio em que você vive. Esta conexão revela que o seu círculo social e as pessoas ao seu redor exercem uma influência predominante na sua realidade. O ritmo dos acontecimentos da sua vida é ditado pelo ambiente externo, onde as oportunidades e desafios surgem através das conexões que você mantém.",
+    
+    "destino_vida": "O Universo está conduzindo o seu palco. Existe uma influência direta do destino sobre os fatos gerais da sua vida, indicando que grandes eventos acontecem por um propósito maior, independentemente da sua vontade imediata. É o fluxo do propósito moldando a sua jornada diária através de sincronicidades.",
+    
+    "pessoal_social": "Sua personalidade é altamente sensível ao meio externo. Você possui uma natureza 'esponja', onde o seu interior é facilmente influenciado pelas opiniões e energias das pessoas com quem convive. Existe uma tendência de moldar quem você é para se ajustar ao grupo social, tornando a troca com o outro um fator decisivo na sua identidade.",
+    
+    "pessoal_destino": "O destino trabalha dentro de você, de dentro para fora. Esta é uma conexão profunda onde você sente o chamado do Universo através da sua intuição e dos seus pensamentos. Suas decisões pessoais parecem ser guiadas por uma força invisível que atua diretamente na sua alma, direcionando seus desejos para o seu propósito real.",
+    
+    "social_destino": "Suas conexões sociais são as chaves do seu destino. O propósito da sua vida se manifesta através da coletividade e do meio em que você convive. As pessoas que cruzam o seu caminho não estão ali por acaso; elas são os canais que o destino utiliza para trazer as oportunidades e as transformações necessárias para o seu crescimento.",
 
     // Sínteses Gerais (A quarta parte)
-    "autonomia_total": "Sua matriz revela uma **Independência Quântica**. Como cada área possui uma potência diferente, você é uma pessoa multifacetada. Você tem a rara habilidade de separar seus sentimentos (Pessoal) das suas obrigações (Social) e do fluxo da vida, permitindo que você atue de forma estratégica em cada pilar sem que um atrapalhe o outro.",
-    "convergencia_total": "Você está em um estado de **Alinhamento Absoluto**. Todas as suas potências convergem para o mesmo número, indicando que seu interior, seu social, sua vida e seu destino caminham em uma única direção. É um momento de força total onde não há conflitos de interesse na sua alma.",
-    "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Algumas áreas da sua vida estão conectadas por sincronia, enquanto outras operam de forma independente, permitindo que você tenha estabilidade e flexibilidade ao mesmo tempo."
-},
+    "autonomia_total": "Sua matriz revela uma **Independência Quântica**. Como cada área possui uma potência diferente, você é uma pessoa multifacetada. Você possui a rara habilidade de separar seus sentimentos (Pessoal) das suas obrigações (Social) e do fluxo da vida, permitindo que você atue de forma estratégica e independente em cada setor, sem que um interfira negativamente no outro.",
+    
+    "convergencia_total": "Você está em um estado de **Alinhamento Absoluto**. Todas as suas potências convergem para o mesmo número, indicando que seu interior, seu social, sua vida e seu destino caminham em uma única e poderosa direção. É um momento de clareza total, onde não há conflitos de interesse entre o que você quer e o que o mundo te oferece.",
+    
+    "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
+};
   
 };
 
