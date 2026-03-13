@@ -227,7 +227,7 @@ function gerarCronogramaMestre(arcanosVida, data) {
 }
 
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
-    let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
+    let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Vulnerabilida, Fragilidade e Insegurança (Sequências Negativas)</h2>`;
     let encontrou = false;
     const baseTopo = linhas[0]; 
 
@@ -274,7 +274,7 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="font-weight:bold; color:#d32f2f;">Periodo mais crítico: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
                 
@@ -332,7 +332,7 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
 }
 
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
-    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
+    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro </h2>`;
     let encontrou = false;
     const baseTopo = linhas[0];
 
@@ -364,7 +364,7 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                        <span style="font-weight:bold; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="font-weight:bold; color:#2e7d32;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade e fluxo financeiro.")}</p>
                       </div>`;
             }
@@ -379,7 +379,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
     let html = "";
 
     /* TÍTULO + PIRÂMIDE */
-    html += `<div class="box">`;
+    html += `<div>`;
     html += `<h2>${nomePiramide}</h2>`;
     html += desenhar(linhas, true, txtEsp);
     html += `</div>`;
@@ -396,7 +396,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
         html += `<div class="box">${personalizarTexto(intro.regente)}</div>`;
     }
     if(txtReg && txtReg[regente]) {
-        html += `<div class="box">${personalizarTexto(txtReg[regente])}</div>`;
+        html += `<div>${personalizarTexto(txtReg[regente])}</div>`;
     }
 
     /* NEGATIVAS (Personalizado dentro da função original) */
