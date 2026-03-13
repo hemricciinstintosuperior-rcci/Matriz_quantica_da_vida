@@ -182,20 +182,27 @@ function topo(base){
     return arcanos;
 }
 
-function calcularVigenciaPorPosicao(linha, coluna, cronograma) {
-    // Lógica Linear Vertical: 
-    // Ignoramos a 'linha' e focamos na 'coluna' que mapeia direto pro topo.
-    let indiceInicio = coluna;
-    let indiceFim = coluna + 2; // Pega a influência dos arcanos acima (abrangência de 3 colunas)
-
-    let periodosAfetados = cronograma.filter(p => p.indiceArcano >= indiceInicio && p.indiceArcano <= indiceFim);
+function calcularVigenciaLinearVertical(coluna, tamanhoSeq, cronograma, arcanosTopo) {
+    let detalhes = [];
     
-    if (periodosAfetados.length === 0) return "Período em transição";
-
-    let idadeIni = periodosAfetados[0].ageIni || periodosAfetados[0].idadeIni;
-    let idadeFim = periodosAfetados[periodosAfetados.length - 1].ageFim || periodosAfetados[periodosAfetados.length - 1].idadeFim;
-    
-    return `${idadeIni} a ${idadeFim} anos`;
+    // Percorre cada coluna da sequência (se for 922, percorre 3 colunas)
+    for (let i = 0; i < tamanhoSeq; i++) {
+        let indiceColuna = coluna + i;
+        // Encontra o arcano correspondente no topo (Linha 0)
+        let arcRef = arcanosTopo[indiceColuna]; 
+        // Encontra o período desse arcano no cronograma mestre
+        let periodo = cronograma.find(p => p.indiceArcano === indiceColuna);
+        
+        if (periodo) {
+            detalhes.push({
+                potencia: arcRef,
+                duracao: parseInt(arcRef.toString()[0]) || 1,
+                idadeIni: periodo.idadeIni,
+                idadeFim: periodo.idadeFim
+            });
+        }
+    }
+    return detalhes;
 }
 
 function gerarCronogramaMestre(arcanosVida, data) {
@@ -226,28 +233,34 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     if (!posNeg || posNeg.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let gruposContados = new Set();
+    
     posNeg.forEach(p => {
         let num = linhas[p.linha][p.indice];
-        let idGrupo = `neg-${num}-L${p.linha}`;
+        let idGrupo = `neg-${num}-L${p.linha}-C${p.indice}`;
         if (!gruposContados.has(idGrupo)) {
             gruposContados.add(idGrupo);
-            let vigencia = calcularVigenciaPorPosicao(p.linha, p.indice, crono);
-            // ADICIONADO personalizarTexto AQUI:
+            
+            // Lógica Linear Vertical: Pega as 3 potências acima da sequência
+            let vigenciaDados = calcularVigenciaLinearVertical(p.indice, 3, crono, topo(linhas[0]));
+            let resumoVigencia = vigenciaDados.map(v => 
+                `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
+            ).join(" + ");
+
             let textoFormatado = personalizarTexto(bancoTxt[num] || "Desafio vibracional detectado.");
             h += `<div style="margin-bottom:12px; border-left:4px solid #ff6b6b; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">🚫 Sequência ${num}</b><br>
-                    <small><h3>Período Crítico: ${vigencia}</h3></small>
+                    <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
                     <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                   </div>`;
         }
     });
     return h + "</div>";
 }
-
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let gruposContados = new Set();
     let encontrou = false;
+    
     linhas.forEach((linha, i) => {
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
@@ -256,12 +269,17 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                 if (!gruposContados.has(idImpacto)) {
                     encontrou = true;
                     gruposContados.add(idImpacto);
-                    let vigencia = calcularVigenciaPorPosicao(i, j, crono);
-                    // ADICIONADO personalizarTexto AQUI:
+                    
+                    // Lógica Linear Vertical baseada na coluna 'j'
+                    let vigenciaDados = calcularVigenciaLinearVertical(j, 3, crono, topo(linhas[0]));
+                    let resumoVigencia = vigenciaDados.map(v => 
+                        `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
+                    ).join(" + ");
+
                     let textoFormatado = personalizarTexto(bancoTxt[seq]);
                     h += `<div style="margin-bottom:12px; border-left:4px solid #b8860b; padding-left:10px; text-align:left;">
                             <b style="font-size:20px;"><h3>✨ Impacto ${seq}</b></h3>
-                            <small><h3>Período Ativo: de ${vigencia}</h3></small>
+                            <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
                             <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                           </div>`;
                 }
@@ -278,21 +296,20 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     let gruposIdentificados = new Set();
     
     posFin.forEach(p => {
-        let idGrupo = `fin-${p.linha}-${p.indice}`; 
+        let idGrupo = `fin-${p.linha}-${p.indice}`;
         if (!gruposIdentificados.has(idGrupo)) {
             gruposIdentificados.add(idGrupo);
             
-            // Pega os arcanos do topo que estão EXATAMENTE acima dos dois "9" da sequência
-            let periodos = crono.filter(cp => cp.indiceArcano >= p.indice && cp.indiceArcano <= p.indice + 1);
-            let vigencia = "Fase de transição";
-            if(periodos.length > 0) {
-                vigencia = `${periodos[0].idadeIni} a ${periodos[periodos.length-1].idadeFim} anos`;
-            }
+            // O Financeiro 99/9 pega as 2 colunas de influência vertical acima
+            let vigenciaDados = calcularVigenciaLinearVertical(p.indice, 2, crono, topo(linhas[0]));
+            let resumoVigencia = vigenciaDados.map(v => 
+                `<b>${v.duracao} anos</b> (Potência ${v.potencia}) na idade ${v.idadeIni}-${v.idadeFim}`
+            ).join(" + ");
 
             let textoFormatado = personalizarTexto(bancoTxt[999] || 'Momento de colheita material.');
             h += `<div style="margin-bottom:12px; border-left:4px solid #34c759; padding-left:10px; text-align:left;">
                     <b style="font-size:20px;">✅ Sequência Financeira 99/9</b><br>
-                    <small><h3>Janela: de ${vigencia}</h3></small>
+                    <small><h3>Vigência Linear: ${resumoVigencia}</h3></small>
                     <span style="font-size:16px; color:#000;">${textoFormatado}</span>
                   </div>`;
         }
@@ -555,6 +572,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
