@@ -226,18 +226,11 @@ function gerarCronogramaMestre(arcanosVida, data) {
     return cronograma;
 }
 
-// 1. RELATÓRIO DE NEGATIVAS (Blocos de 3 ou mais números)
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     let encontrou = false;
+    const baseTopo = linhas[0]; // A base para formar as potências
 
-    // 1. Precisamos primeiro de todas as potências duplas (arcanos) do topo
-    let potenciasTopo = [];
-    for (let i = 0; i < linhas[0].length - 1; i++) {
-        potenciasTopo.push("" + linhas[0][i] + linhas[0][i+1]);
-    }
-
-    // 2. Varremos a pirâmide para achar os blocos
     linhas.forEach((linha, i) => {
         let j = 0;
         while (j < linha.length) {
@@ -249,34 +242,35 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
 
             if (cont >= 3) {
                 encontrou = true;
-                
-                // Pegamos a vigência baseada na posição que a sequência ocupa no CRONOGRAMA
-                // Se a sequência está na linha X, coluna Y, ela corresponde a um índice no cronograma mestre
-                
                 let duracaoAnosTotal = 0;
-                let idadeIni = 0;
-                let idadeFim = 0;
+                
+                // --- O ELEVADOR VERTICAL CORRETO ---
+                // O índice real no topo e no cronograma considera o deslocamento da linha (i)
+                let indiceInicioReal = j + i; 
+                let indiceFimReal = (j + cont - 1) + i;
 
-                // Aqui está o ajuste para bater com sua conta:
-                // Percorremos o cronograma a partir da posição da sequência
+                let periodoInicio = crono[indiceInicioReal];
+                let periodoFim = crono[indiceFimReal];
+
+                let idadeIni = periodoInicio ? periodoInicio.idadeIni : "?";
+                let idadeFim = periodoFim ? periodoFim.idadeFim : "?";
+
+                // Soma as potências do topo seguindo o trilho vertical
                 for (let k = 0; k < cont; k++) {
-                    let indiceNoCrono = j + k; 
-                    let periodo = crono[indiceNoCrono];
+                    let colReal = j + i + k; // Aplica o deslocamento de linha aqui também
                     
-                    if (periodo) {
-                        if (k === 0) idadeIni = periodo.idadeIni;
-                        idadeFim = periodo.idadeFim;
-
-                        // A potência vem do topo, mas seguindo a ordem do cronograma
-                        let arc = potenciasTopo[indiceNoCrono % potenciasTopo.length];
-                        duracaoAnosTotal += parseInt(arc[0]) || 0;
+                    if (colReal < baseTopo.length - 1) {
+                        // Forma o Arcano Duplo (Ex: 1 e 3 vira "13")
+                        let potenciaDupla = "" + baseTopo[colReal] + baseTopo[colReal + 1];
+                        // Pega o primeiro dígito para a vigência (Ex: de "13", pega 1)
+                        duracaoAnosTotal += parseInt(potenciaDupla[0]) || 0;
                     }
                 }
 
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
                         <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num])}</p>
+                        <p>${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
                 j += cont;
             } else {
@@ -287,33 +281,31 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
-// 2. RELATÓRIO DE ESPECIAIS (Vertical Reta e Independente)
+// Apliquei a mesma lógica de deslocamento (j + i) nas outras para não dar erro
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
-    
     linhas.forEach((linha, i) => {
         for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            // Se encontrar o código da sequência no banco (ex: 126, 144)
+            let seq = "" + linha[j] + linha[j+1] + linha[j+2];
             if (bancoTxt && bancoTxt[seq]) {
                 encontrou = true;
                 let duracaoTotal = 0;
-                let idadeIni = crono.find(c => c.indiceArcano === j).idadeIni;
-                let idadeFim = crono.find(c => c.indiceArcano === j + 2).idadeFim;
-                
-                // ELEVADOR VERTICAL: 3 colunas para o topo
+                let colReal = j + i;
+                let idadeIni = crono[colReal] ? crono[colReal].idadeIni : "?";
+                let idadeFim = crono[colReal + 2] ? crono[colReal + 2].idadeFim : "?";
+
                 for (let k = 0; k < 3; k++) {
-                    let pTopo = linhas[0][j + k];
-                    if (pTopo) {
-                        duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
+                    let c = j + i + k;
+                    if (c < linhas[0].length - 1) {
+                        let arc = "" + linhas[0][c] + linhas[0][c+1];
+                        duracaoTotal += parseInt(arc[0]) || 0;
                     }
                 }
-
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px; text-align:left;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[seq])}</p>
+                        <span style="font-weight:bold;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <p>${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
         }
@@ -612,6 +604,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
