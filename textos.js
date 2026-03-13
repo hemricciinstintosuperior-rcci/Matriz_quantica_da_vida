@@ -3680,33 +3680,3 @@ window.textosSintese = {
     "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
 
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
