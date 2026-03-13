@@ -226,83 +226,82 @@ function gerarCronogramaMestre(arcanosVida, data) {
     return cronograma;
 }
 
-// 1. RELATÓRIO DE NEGATIVAS (TRILHO VERTICAL PURO)
+// 1. RELATÓRIO DE NEGATIVAS (Lista TODAS as ocorrências da pirâmide)
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     const { posNeg } = detectarSequencias(linhas);
     if (!posNeg || posNeg.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Sequências Negativas</h2>`;
     
-    let processados = new Set();
+    // Rastreador apenas para não processar o mesmo trio de números várias vezes no mesmo loop
+    let processadosNesteTurno = new Set();
 
     posNeg.forEach(p => {
-        // Criamos uma chave baseada APENAS na coluna (p.indice) para garantir o trilho vertical
-        // Se houver outra igual na mesma coluna em linha diferente, tratamos como o mesmo evento vertical
-        let chaveVertical = `col-${p.indice}`; 
+        let chaveUnica = `neg-${p.linha}-${p.indice}`;
         
-        if (!processados.has(chaveVertical) && 
+        // Verifica se é o início de uma sequência de 3
+        if (!processadosNesteTurno.has(chaveUnica) && 
             posNeg.some(px => px.linha === p.linha && px.indice === p.indice + 1) &&
             posNeg.some(px => px.linha === p.linha && px.indice === p.indice + 2)) {
             
-            processados.add(chaveVertical);
+            // Marca o trio todo como processado para não repetir o 5, o 5 e o 5 individualmente
+            processadosNesteTurno.add(chaveUnica);
+            processadosNesteTurno.add(`neg-${p.linha}-${p.indice+1}`);
+            processadosNesteTurno.add(`neg-${p.linha}-${p.indice+2}`);
 
             let num = linhas[p.linha][p.indice];
             let duracaoTotal = 0;
             
-            // As idades e as potências são fixas pelas COLUNAS
+            // Pega idades baseadas nas colunas (Trilho Vertical)
             let idadeIni = crono.find(c => c.indiceArcano === p.indice).idadeIni;
             let idadeFim = crono.find(c => c.indiceArcano === p.indice + 2).idadeFim;
             
-            // BUSCA NO TOPO (LINHA 0) - O ELEVADOR VERTICAL
+            // CÁLCULO VERTICAL REAL: Sobe das colunas p.indice até p.indice+2 para a LINHA 0
             for (let k = 0; k < 3; k++) {
-                let colunaDoTrilho = p.indice + k;
-                let potenciaNoTopo = linhas[0][colunaDoTrilho]; 
-                if (potenciaNoTopo) {
-                    // Soma o 1º dígito (Ex: 13 vira 1, 54 vira 5)
-                    duracaoTotal += parseInt(potenciaNoTopo.toString()[0]) || 0;
+                let colTrilho = p.indice + k;
+                let arcTopo = linhas[0][colTrilho]; 
+                if (arcTopo) {
+                    duracaoTotal += parseInt(arcTopo.toString()[0]) || 0;
                 }
             }
 
-            h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
+            h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                     <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                    <span style="font-weight:bold;">Vigência Vertical: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                    <p>${personalizarTexto(bancoTxt[num] || "Desafio detectado.")}</p>
+                    <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                    <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num] || "Desafio detectado.")}</p>
                   </div>`;
         }
     });
     return h + "</div>";
 }
 
-// 2. RELATÓRIO DE ESPECIAIS (TRILHO VERTICAL PURO)
+// 2. RELATÓRIO DE ESPECIAIS (Lista TODAS as ocorrências da pirâmide)
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
-    let processados = new Set();
-
+    
     linhas.forEach((linha, i) => {
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            let chaveVertical = `esp-col-${j}`;
-
-            if (bancoTxt && bancoTxt[seq] && !processados.has(chaveVertical)) {
+            if (bancoTxt && bancoTxt[seq]) {
                 encontrou = true;
-                processados.add(chaveVertical);
-
+                
                 let duracaoTotal = 0;
                 let idadeIni = crono.find(c => c.indiceArcano === j).idadeIni;
                 let idadeFim = crono.find(c => c.indiceArcano === j + 2).idadeFim;
                 
+                // CÁLCULO VERTICAL REAL: Sobe para a LINHA 0
                 for (let k = 0; k < 3; k++) {
-                    let col = j + k;
-                    let pTopo = linhas[0][col];
-                    if (pTopo) {
-                        duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
+                    let colTrilho = j + k;
+                    let arcTopo = linhas[0][colTrilho];
+                    if (arcTopo) {
+                        duracaoTotal += parseInt(arcTopo.toString()[0]) || 0;
                     }
                 }
 
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="font-weight:bold;">Vigência Vertical: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p>${personalizarTexto(bancoTxt[seq])}</p>
+                        <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
         }
@@ -310,33 +309,37 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     return encontrou ? h + "</div>" : "";
 }
 
-// 3. RELATÓRIO FINANCEIRO (99/9 - TRILHO VERTICAL PURO)
+// 3. RELATÓRIO FINANCEIRO (Lista TODOS os 99/9 que existirem)
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     const posFin = detectarSequenciaFinanceira(linhas);
     if (!posFin || posFin.length === 0) return "";
     let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
-    let processados = new Set();
     
+    let processadosTurno = new Set();
     posFin.forEach(p => {
-        let chaveVertical = `fin-col-${p.indice}`;
-        if (!processados.has(chaveVertical) && p.linha < linhas.length - 1) {
-            processados.add(chaveVertical);
+        let chaveUnica = `fin-${p.linha}-${p.indice}`;
+        
+        // Verifica se é o topo do triângulo 99/9
+        if (!processadosTurno.has(chaveUnica) && p.linha < linhas.length - 1) {
+            processadosTurno.add(chaveUnica);
+
             let duracaoTotal = 0;
             let idadeIni = crono.find(c => c.indiceArcano === p.indice).idadeIni;
             let idadeFim = crono.find(c => c.indiceArcano === p.indice + 1).idadeFim;
             
+            // CÁLCULO VERTICAL REAL: Sobe das 2 colunas do 99 para a LINHA 0
             for (let k = 0; k < 2; k++) {
-                let col = p.indice + k;
-                let pTopo = linhas[0][col];
-                if (pTopo) {
-                    duracaoTotal += parseInt(pTopo.toString()[0]) || 0;
+                let colTrilho = p.indice + k;
+                let arcTopo = linhas[0][colTrilho];
+                if (arcTopo) {
+                    duracaoTotal += parseInt(arcTopo.toString()[0]) || 0;
                 }
             }
 
-            h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
+            h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px; text-align:left;">
                     <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                    <span style="font-weight:bold;">Vigência Vertical: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                    <p>${personalizarTexto(bancoTxt[999])}</p>
+                    <span style="font-weight:bold; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                    <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999])}</p>
                   </div>`;
         }
     });
@@ -597,6 +600,7 @@ document.onselectstart=()=>false;
  </script> 
 </body>
 </html>
+
 
 
 
