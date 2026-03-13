@@ -3673,8 +3673,7 @@ window.textosSintese = {
     
     "convergencia_total": "Você está em um estado de **Alinhamento Absoluto**. Todas as suas potências convergem para o mesmo número, indicando que seu interior, seu social, sua vida e seu destino caminham em uma única e poderosa direção. É um momento de clareza total, onde não há conflitos de interesse entre o que você quer e o que o mundo te oferece.",
     
-    "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
-},
+    "equilibrio_misto": "Você vive um **Equilíbrio Dinâmico**. Sua matriz mostra que algumas áreas da sua vida estão conectadas por sincronia direta, enquanto outras operam de forma autônoma. Isso lhe confere a estabilidade de ter um propósito definido em certos setores e a flexibilidade de se adaptar livremente em outros."
   
 };
 
