@@ -553,7 +553,7 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     if (p === d) matches.push({id: "pessoal_destino", tit: "Sincronia Pessoal e Destino"});
     if (s === d) matches.push({id: "social_destino", tit: "Sincronia Social e Destino"});
 
-    // 1. PARTE: CONEXÕES ESPECÍFICAS
+    // 1. PARTE: CONEXÕES ESPECÍFICAS (As que geram os emojis grandes)
     if (matches.length > 0) {
         matches.forEach(m => {
             let txt = (bancoSintese && bancoSintese[m.id]) ? bancoSintese[m.id] : "Análise de conexão em processamento...";
@@ -564,27 +564,36 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
         });
     }
 
-    // 2. PARTE: ASSINATURA GERAL (A quarta parte da síntese)
+    // 2. PARTE: ASSINATURA GERAL PERSONALIZADA
     h += `<hr style="border:0; border-top:1px dashed #cbd5e1; margin:25px 0;">`;
     
-    let resumoGeral = "";
     const conjunto = new Set([v, p, s, d]);
+    let resumoGeral = "";
+    let detalhesMistos = "";
 
     if (conjunto.size === 1) {
-        // TODOS IGUAIS (Convergência Total)
         resumoGeral = bancoSintese["convergencia_total"];
     } else if (conjunto.size === 4) {
-        // TODOS DIFERENTES (Autonomia/Versatilidade)
         resumoGeral = bancoSintese["autonomia_total"];
     } else {
-        // MISTO
+        // EQUILÍBRIO MISTO - Aqui entra a sua personalização!
         resumoGeral = bancoSintese["equilibrio_misto"];
+        
+        // Adiciona detalhes específicos baseados no que deu igual
+        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social"] || "";
+        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino"] || "";
+        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida"] || "";
+        if (s === d) detalhesMistos += bancoSintese["misto_social_destino"] || "";
     }
 
     h += `<div style="text-align:left; padding: 10px;">
             <b style="font-size:20px; color:#1e293b; display:block; margin-bottom:10px;">📋 Assinatura Geral das Potências</b>
             <div style="font-size:16px; line-height:1.7; color:#334155;">
-                ${personalizarTexto(resumoGeral || "Sua configuração de potências indica um equilíbrio dinâmico entre as áreas da sua vida.")}
+                ${personalizarTexto(resumoGeral)}
+                <div style="margin-top:20px; padding:10px; border:1px solid #e2e8f0; border-radius:8px; background:#fff;">
+                    <b style="color:#6366f1;">Análise de Fluxos Combinados:</b>
+                    ${personalizarTexto(detalhesMistos || "<p>Suas potências operam de forma independente, garantindo versatilidade em sua jornada.</p>")}
+                </div>
             </div>
           </div>`;
 
