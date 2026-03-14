@@ -227,31 +227,35 @@ function gerarCronogramaMestre(arcanosVida, data) {
 }
 
 // --- NEGATIVAS ---
-// --- SEQUÊNCIAS NEGATIVAS ---
+// --- SEQUÊNCIAS NEGATIVAS (Agora lê o topo) ---
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
     let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Vulnerabilidade e Insegurança</h2>`;
     let encontrou = false;
+    
     linhas.forEach((linha, i) => {
-        if (i === 0) return; 
+        // REMOVIDO: if (i === 0) return; -> Agora ele lê a linha 0 (o topo)
         let j = 0;
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
             while (j + cont < linha.length && linha[j + cont] === num) { cont++; }
+            
             if (cont >= 3) {
                 encontrou = true;
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
-                // Busca a vigência no TOPO DA VIDA (Relógio Mestre)
+                
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + offset + k;
                     if (colReal < topoVida.length) {
                         duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
                     }
                 }
+                
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
+                
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
                         <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
@@ -264,27 +268,31 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
     return encontrou ? h + "</div>" : "";
 }
 
-// --- SEQUÊNCIAS ESPECIAIS ---
+// --- SEQUÊNCIAS ESPECIAIS (Agora lê o topo) ---
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
+    
     linhas.forEach((linha, i) => {
-        if (i === 0) return;
+        // REMOVIDO: if (i === 0) return; -> Agora processa o topo também
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
             if (bancoTxt && bancoTxt[seq]) {
                 encontrou = true;
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
+                
                 for (let k = 0; k < 3; k++) {
                     let colReal = j + offset + k;
                     if (colReal < topoVida.length) {
                         duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
                     }
                 }
+                
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
+                
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
                         <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
@@ -296,26 +304,30 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
     return encontrou ? h + "</div>" : "";
 }
 
-// --- FLUXO FINANCEIRO ---
+// --- FLUXO FINANCEIRO (Agora lê o topo) ---
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) {
     let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
     let encontrou = false;
+    
     linhas.forEach((linha, i) => {
-        if (i === 0) return;
+        // REMOVIDO: if (i === 0) return; -> O topo pode ter sequências 99
         for (let j = 0; j < linha.length - 1; j++) {
             if (linha[j] === 9 && linha[j + 1] === 9) {
                 encontrou = true;
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
+                
                 for (let k = 0; k < 2; k++) {
                     let colReal = j + offset + k;
                     if (colReal < topoVida.length) {
                         duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
                     }
                 }
+                
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
+                
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
                         <span style="font-weight:bold; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
