@@ -3271,7 +3271,7 @@ Existe o risco de enfrentar críticas infundadas ou situações que visam abalar
  
   "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
 Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
-Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração através de seus filhos.`,
+Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração.`,
 
   "168":`  Uma poderosa corrente de prosperidade se manifesta nesta fase, favorecendo diretamente seus ganhos materiais e o sucesso nos negócios. 
   É um período propício para a obtenção de prêmios, bonificações ou resultados financeiros acima da média, fruto de um alinhamento favorável em suas atividades práticas. 
