@@ -242,8 +242,9 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
             if (cont >= 3) {
                 encontrou = true;
                 let duracaoAnosTotal = 0;
-                let offset = Math.floor(i / 2); // Mantém o alinhamento da pirâmide
+                let offset = Math.floor(i / 2); 
 
+                // 1. Duração baseada nos arcanos do topo (vertical)
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + offset + k;
                     if (colReal < baseTopo.length - 1) {
@@ -252,13 +253,12 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                // MAPEAMENTO VERTICAL DIRETO
-                let indiceCrono = j + offset;
-                let periodo = crono[indiceCrono] || crono[crono.length - 1];
-                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
-                let idadeFim = idadeIni + duracaoAnosTotal;
+                // 2. IDADE REAL: Pega o início exato no cronograma e SOMA a duração
+                let periodo = crono[j + offset];
+                let idadeIni = (periodo) ? periodo.idadeIni : 0;
+                let idadeFim = idadeIni + duracaoAnosTotal; // Matemática pura
 
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
+                h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
                         <span style="font-weight:bold; color:#d32f2f;">Periodo mais crítico: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num])}</p>
@@ -292,10 +292,8 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                // MAPEAMENTO VERTICAL DIRETO
-                let indiceCrono = j + offset;
-                let periodo = crono[indiceCrono] || crono[crono.length - 1];
-                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
+                let periodo = crono[j + offset];
+                let idadeIni = (periodo) ? periodo.idadeIni : 0;
                 let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
@@ -329,16 +327,14 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                // MAPEAMENTO VERTICAL DIRETO
-                let indiceCrono = j + offset;
-                let periodo = crono[indiceCrono] || crono[crono.length - 1];
-                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
+                let periodo = crono[j + offset];
+                let idadeIni = (periodo) ? periodo.idadeIni : 0;
                 let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
                         <span style="font-weight:bold; color:#2e7d32;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade e fluxo financeiro.")}</p>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade.")}</p>
                       </div>`;
             }
         }
