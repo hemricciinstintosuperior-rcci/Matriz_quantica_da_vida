@@ -379,7 +379,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
     let html = "";
 
     /* TÍTULO + PIRÂMIDE */
-    html += `<div>`;
+    html += `<div class="box">`;
     html += `<h2>${nomePiramide}</h2>`;
     html += desenhar(linhas, true, txtEsp);
     html += `</div>`;
@@ -393,23 +393,23 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
 
     /* REGENTE (Personalizado) */
     if(intro.regente) {
-        html += `<div class="box">${personalizarTexto(intro.regente)}</div>`;
+        html += `<div>${personalizarTexto(intro.regente)}</div>`;
     }
     if(txtReg && txtReg[regente]) {
-        html += `<div>${personalizarTexto(txtReg[regente])}</div>`;
+        html += `<div class="box">${personalizarTexto(txtReg[regente])}</div>`;
     }
 
     /* NEGATIVAS (Personalizado dentro da função original) */
     const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg);
     if(relNeg) {
-        if(intro.negativas) html += `<div class="box">${personalizarTexto(intro.negativas)}</div>`;
+        if(intro.negativas) html += `<div>${personalizarTexto(intro.negativas)}</div>`;
         html += personalizarTexto(relNeg);
     }
 
     /* ESPECIAIS (Personalizado) */
     const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp);
     if(relEsp) {
-        if(intro.especiais) html += `<div class="box">${personalizarTexto(intro.especiais)}</div>`;
+        if(intro.especiais) html += `<div>${personalizarTexto(intro.especiais)}</div>`;
         html += personalizarTexto(relEsp);
     }
 
@@ -422,7 +422,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
 
     /* VIGÊNCIAS (Personalizado) */
     if(crono) {
-        if(intro.vigencias) html += `<div class="box">${personalizarTexto(intro.vigencias)}</div>`;
+        if(intro.vigencias) html += `<div>${personalizarTexto(intro.vigencias)}</div>`;
         html += montarVigenciasSincronizadas(crono, topo(linhas[0]), txtVig);
     }
 
