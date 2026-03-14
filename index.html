@@ -242,8 +242,7 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
                 encontrou = true;
                 let duracaoAnosTotal = 0;
                 let offset = Math.floor(i / 2);
-                let indiceInicioReal = j + offset;
-
+                
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + offset + k;
                     if (colReal < baseTopo.length - 1) {
@@ -252,9 +251,10 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
-                // CORREÇÃO: A idade fim agora é a soma exata da duração calculada
-                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoAnosTotal) : "?";
+                // BUSCA SEGURA: Usa o resto da divisão (%) para nunca dar "?" 
+                let indiceBusca = (j + offset) % crono.length;
+                let idadeIni = crono[indiceBusca].idadeIni;
+                let idadeFim = idadeIni + duracaoAnosTotal; // SOMA EXATA
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
@@ -280,7 +280,6 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                 encontrou = true;
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
-                let indiceInicioReal = j + offset;
 
                 for (let k = 0; k < 3; k++) {
                     let colReal = j + offset + k;
@@ -290,8 +289,9 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
-                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoTotal) : "?";
+                let indiceBusca = (j + offset) % crono.length;
+                let idadeIni = crono[indiceBusca].idadeIni;
+                let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
@@ -315,7 +315,6 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
                 encontrou = true;
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
-                let indiceInicioReal = j + offset;
 
                 for (let k = 0; k < 2; k++) {
                     let colReal = j + offset + k;
@@ -325,13 +324,14 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
-                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoTotal) : "?";
+                let indiceBusca = (j + offset) % crono.length;
+                let idadeIni = crono[indiceBusca].idadeIni;
+                let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
                         <span style="font-weight:bold; color:#2e7d32;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade e fluxo financeiro.")}</p>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade.")}</p>
                       </div>`;
             }
         }
@@ -573,20 +573,17 @@ function gerar() {
     const base = nomeNumeros(nome);
     const [y, m, d] = data.split("-").map(Number);
     
-    // 1. Geração das 4 Pirâmides Independentes
     const pVida = piramide(base);
     const pPes = piramidePessoal(base, d);
     const pSoc = piramideSocial(base, m);
     const pDes = piramideDestino(base, d, m);
 
-    // 2. Cronogramas baseados no TOPO de cada pirâmide (A linha reta vertical)
-    // Isso garante que a idade acompanhe a largura de cada matriz específica
+    // CRIA UM CRONOGRAMA PARA CADA PIRÂMIDE
     const cronoVida = gerarCronogramaMestre(topo(pVida[0]), data);
     const cronoPes = gerarCronogramaMestre(topo(pPes[0]), data);
     const cronoSoc = gerarCronogramaMestre(topo(pSoc[0]), data);
     const cronoDes = gerarCronogramaMestre(topo(pDes[0]), data);
     
-    // 3. Captura das Potências Finais
     const potVida = pVida.at(-1)[0];
     const potPessoal = pPes.at(-1)[0];
     const potSocial = pSoc.at(-1)[0];
@@ -594,40 +591,20 @@ function gerar() {
 
     const htmlSintese = gerarSinteseFinal(potVida, potPessoal, potSocial, potDestino, window.textosSintese || {});
 
-    // 4. Montagem do Conteúdo enviando o Cronograma CORRETO para cada aba
-    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(
-        pVida, potVida, textosVida, cronoVida, textosVida, "Matriz da Vida",
-        textosSeqNegVida, textosSeqEspVida, textosFinVida
-    );
+    // ENVIA O CRONO CORRETO PARA CADA MONTAGEM
+    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(pVida, potVida, textosVida, cronoVida, textosVida, "Matriz da Vida", textosSeqNegVida, textosSeqEspVida, textosFinVida);
+    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(pPes, potPessoal, textosPessoal, cronoPes, textosPessoal, "Matriz Pessoal", textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal);
+    const htmlSocial = (explicacoes.social || "") + montarConteudoComIntros(pSoc, potSocial, textosSocial, cronoSoc, textosSocial, "Matriz Social", textosSeqNegSocial, textosSeqEspSocial, textosFinSocial);
+    const htmlDestino = (explicacoes.destino || "") + montarConteudoComIntros(pDes, potDestino, textosDestino, cronoDes, textosDestino, "Matriz de Destino", textosSeqNegDestino, textosSeqEspDestino, textosFinDestino);
 
-    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(
-        pPes, potPessoal, textosPessoal, cronoPes, textosPessoal, "Matriz Pessoal",
-        textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal
-    );
-
-    const htmlSocial = (explicacoes.social || "") + montarConteudoComIntros(
-        pSoc, potSocial, textosSocial, cronoSoc, textosSocial, "Matriz Social",
-        textosSeqNegSocial, textosSeqEspSocial, textosFinSocial
-    );
-
-    const htmlDestino = (explicacoes.destino || "") + montarConteudoComIntros(
-        pDes, potDestino, textosDestino, cronoDes, textosDestino, "Matriz de Destino",
-        textosSeqNegDestino, textosSeqEspDestino, textosFinDestino
-    );
-
-    // 5. Injeção nos Elementos HTML
     document.getElementById("aba_principal").innerHTML = htmlSintese + htmlVida;
     document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
     document.getElementById("aba_social").innerHTML = htmlSocial;
     document.getElementById("aba_destino").innerHTML = htmlDestino;
 
-    // Salva no LocalStorage para o PDF Premium
     localStorage.setItem("relatorioPiramide", JSON.stringify({
         nome, data: data.split("-").reverse().join("/"),
-        abaPrincipal: htmlSintese + htmlVida, 
-        abaPessoal: htmlPessoal, 
-        abaSocial: htmlSocial, 
-        abaDestino: htmlDestino
+        abaPrincipal: htmlSintese + htmlVida, abaPessoal: htmlPessoal, abaSocial: htmlSocial, abaDestino: htmlDestino
     }));
     
     mostrarAba('principal');
