@@ -21,7 +21,34 @@ button:active { transform: scale(0.98); }
     display: block;
     margin-bottom: 15px;    /* Cria um espaço extra entre cada parágrafo */
     line-height: 1.4;       /* Deixa a leitura mais confortável, menos "espremida" */
-}   
+}  
+
+/* Títulos centralizados */
+h1, h2, h3 {
+    text-align: center !important;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Textos e parágrafos alinhados à esquerda */
+.texto, .box p, .blocoRelatorio p, .blocoRelatorio div {
+    text-align: left !important; /* Força o alinhamento à esquerda */
+    white-space: pre-wrap;      /* Mantém os parágrafos do textos.js */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Garante que a pirâmide continue centralizada mesmo com textos à esquerda */
+.piramide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+} 
 /* Cor Padrão (Ciano) */
 /* Isso centraliza os quadradinhos e impede que eles estiquem */
 .linha { 
@@ -124,8 +151,15 @@ function personalizarTexto(texto) {
     const nomeCompleto = document.getElementById("nome").value.trim();
     const primeiroNome = nomeCompleto.split(" ")[0] || "você";
     
-    // Procura por "de você" e troca pelo nome real do usuário em negrito
-    return texto.replace(/você/g, `<strong>${primeiroNome}</strong>`);
+    let processado = texto.replace(/você/g, `<strong>${primeiroNome}</strong>`);
+    
+    // Divide o texto por quebras de linha e cria parágrafos reais
+    return processado.split('\n').map(paragrafo => {
+        if(paragrafo.trim().length > 0) {
+            return `<p style="text-align: left;">${paragrafo}</p>`;
+        }
+        return "";
+    }).join("");
 }
  
 const mapa = { A:1,I:1,Q:1,J:1,Y:1, B:2,K:2,R:2, C:3,G:3,L:3,S:3, D:4,M:4,T:4, E:5,H:5,N:5, U:6,V:6,W:6,X:6, O:7,Z:7, F:8,P:8 };
