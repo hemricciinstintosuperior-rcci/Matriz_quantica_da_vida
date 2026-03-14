@@ -416,7 +416,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
     /* FINANCEIRO (Personalizado) */
     const relFin = gerarRelatorioFinanceiroComVigencia(linhas, crono, txtFin);
     if(relFin) {
-        if(intro.financeiro) html += `<div class="box">${personalizarTexto(intro.financeiro)}</div>`;
+        if(intro.financeiro) html += `<div>${personalizarTexto(intro.financeiro)}</div>`;
         html += personalizarTexto(relFin);
     }
 
