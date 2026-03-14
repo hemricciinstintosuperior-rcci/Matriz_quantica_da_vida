@@ -14,7 +14,7 @@ button:active { transform: scale(0.98); }
 .blocoRelatorio{
 margin-bottom:12px;
 padding-left:10px;
-text-align:left;
+text-align:right;
 border-bottom:1px solid #e5e7eb;
 padding-bottom:6px;
 }
@@ -347,7 +347,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
     const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
 
     if(intro.regente) html += `<div>${personalizarTexto(intro.regente)}</div>`;
-    if(txtReg && txtReg[regente]) html += `<div class="box">${personalizarTexto(txtReg[regente])}</div>`;
+    if(txtReg && txtReg[regente]) html += `<div class="blocoRelatorio">${personalizarTexto(txtReg[regente])}</div>`;
 
     const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg, topoVida);
     if(relNeg) {
@@ -376,7 +376,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
 
 // 3. Nova versão da montarVigenciasSincronizadas
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
-    let html = "<div class='box'><h2>⏳ Fluxo das Potências Quânticas</h2>";
+    let html = "<div class="blocoRelatorio"><h2>⏳ Fluxo das Potências Quânticas</h2>";
     
     cronograma.forEach((periodo) => {
         // Pega o arcano correspondente ao índice, ou o último se passar do tamanho
