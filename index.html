@@ -571,21 +571,22 @@ function gerar() {
     if(!nome || !data) return alert("Preencha os dados!");
 
     const base = nomeNumeros(nome);
-    
-    // Geração das 4 Pirâmides
-    const pVida = piramide(base);
     const [y, m, d] = data.split("-").map(Number);
+    
+    // 1. Geração das 4 Pirâmides Independentes
+    const pVida = piramide(base);
     const pPes = piramidePessoal(base, d);
     const pSoc = piramideSocial(base, m);
     const pDes = piramideDestino(base, d, m);
 
-    // CRONOGRAMAS INDEPENDENTES (Para as idades baterem com cada pirâmide)
+    // 2. Cronogramas baseados no TOPO de cada pirâmide (A linha reta vertical)
+    // Isso garante que a idade acompanhe a largura de cada matriz específica
     const cronoVida = gerarCronogramaMestre(topo(pVida[0]), data);
     const cronoPes = gerarCronogramaMestre(topo(pPes[0]), data);
     const cronoSoc = gerarCronogramaMestre(topo(pSoc[0]), data);
     const cronoDes = gerarCronogramaMestre(topo(pDes[0]), data);
     
-    // CAPTURA DAS POTÊNCIAS
+    // 3. Captura das Potências Finais
     const potVida = pVida.at(-1)[0];
     const potPessoal = pPes.at(-1)[0];
     const potSocial = pSoc.at(-1)[0];
@@ -593,7 +594,7 @@ function gerar() {
 
     const htmlSintese = gerarSinteseFinal(potVida, potPessoal, potSocial, potDestino, window.textosSintese || {});
 
-    // Cada chamada agora usa seu próprio CRONO correspondente
+    // 4. Montagem do Conteúdo enviando o Cronograma CORRETO para cada aba
     const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(
         pVida, potVida, textosVida, cronoVida, textosVida, "Matriz da Vida",
         textosSeqNegVida, textosSeqEspVida, textosFinVida
@@ -614,11 +615,13 @@ function gerar() {
         textosSeqNegDestino, textosSeqEspDestino, textosFinDestino
     );
 
+    // 5. Injeção nos Elementos HTML
     document.getElementById("aba_principal").innerHTML = htmlSintese + htmlVida;
     document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
     document.getElementById("aba_social").innerHTML = htmlSocial;
     document.getElementById("aba_destino").innerHTML = htmlDestino;
 
+    // Salva no LocalStorage para o PDF Premium
     localStorage.setItem("relatorioPiramide", JSON.stringify({
         nome, data: data.split("-").reverse().join("/"),
         abaPrincipal: htmlSintese + htmlVida, 
