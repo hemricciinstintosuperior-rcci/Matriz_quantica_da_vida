@@ -236,52 +236,33 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
-            while (j + cont < linha.length && linha[j + cont] === num) {
-                cont++;
-            }
+            while (j + cont < linha.length && linha[j + cont] === num) { cont++; }
 
             if (cont >= 3) {
                 encontrou = true;
                 let duracaoAnosTotal = 0;
-                
-                // --- O ELEVADOR CENTRALIZADO ---
-                // Calculamos o deslocamento real (offset) da pirâmide: i / 2
                 let offset = Math.floor(i / 2);
                 let indiceInicioReal = j + offset;
-                let indiceFimReal = (j + cont - 1) + offset;
 
-                // Busca as idades exatas no cronograma usando o índice real
-                let periodoInicio = crono[indiceInicioReal];
-                let periodoFim = crono[indiceFimReal];
-
-                let idadeIni = periodoInicio ? periodoInicio.idadeIni : "?";
-                let idadeFim = periodoFim ? periodoFim.idadeFim : "?";
-
-                // Soma as vigências baseadas nos Arcanos Duplos do Topo
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + offset + k;
-                    
                     if (colReal < baseTopo.length - 1) {
-                        // Ex: baseTopo[col] = 1, baseTopo[col+1] = 3 -> Arcano "13"
-                        let n1 = baseTopo[colReal];
-                        let n2 = baseTopo[colReal + 1];
-                        let arcano = "" + n1 + n2;
-                        
-                        // Pega o 1º dígito (Ex: de "13", pega 1)
+                        let arcano = "" + baseTopo[colReal] + baseTopo[colReal + 1];
                         duracaoAnosTotal += parseInt(arcano[0]) || 0;
                     }
                 }
+
+                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
+                // CORREÇÃO: A idade fim agora é a soma exata da duração calculada
+                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoAnosTotal) : "?";
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px; text-align:left;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
                         <span style="font-weight:bold; color:#d32f2f;">Periodo mais crítico: ${duracaoAnosTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p style="margin-top:5px;">${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
-                
                 j += cont;
-            } else {
-                j++;
-            }
+            } else { j++; }
         }
     });
     return encontrou ? h + "</div>" : "";
@@ -293,25 +274,14 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     const baseTopo = linhas[0];
 
     linhas.forEach((linha, i) => {
-        // Percorre a linha buscando trios
         for (let j = 0; j < linha.length - 2; j++) {
             let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            
-            // Se o código da sequência existe no seu banco de textos
             if (bancoTxt && bancoTxt[seq]) {
                 encontrou = true;
                 let duracaoTotal = 0;
-                
-                // COMPENSAÇÃO DE PIRÂMIDE (ELEVADOR)
                 let offset = Math.floor(i / 2);
                 let indiceInicioReal = j + offset;
-                let indiceFimReal = (j + 2) + offset;
 
-                // Idades vindas do Cronograma Mestre
-                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
-                let idadeFim = crono[indiceFimReal] ? crono[indiceFimReal].idadeFim : "?";
-
-                // Soma as potências do topo (3 colunas de largura)
                 for (let k = 0; k < 3; k++) {
                     let colReal = j + offset + k;
                     if (colReal < baseTopo.length - 1) {
@@ -319,6 +289,9 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                         duracaoTotal += parseInt(arcano[0]) || 0;
                     }
                 }
+
+                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
+                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoTotal) : "?";
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
@@ -337,23 +310,13 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
     const baseTopo = linhas[0];
 
     linhas.forEach((linha, i) => {
-        // O financeiro foca no par "99" (2 colunas)
         for (let j = 0; j < linha.length - 1; j++) {
             if (linha[j] === 9 && linha[j + 1] === 9) {
-                // Opcional: verificar se existe um 9 abaixo (pode ser adicionado se necessário)
-                
                 encontrou = true;
                 let duracaoTotal = 0;
-                
-                // COMPENSAÇÃO DE PIRÂMIDE (ELEVADOR)
                 let offset = Math.floor(i / 2);
                 let indiceInicioReal = j + offset;
-                let indiceFimReal = (j + 1) + offset;
 
-                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
-                let idadeFim = crono[indiceFimReal] ? crono[indiceFimReal].idadeFim : "?";
-
-                // Soma as potências do topo (2 colunas de largura para o 99)
                 for (let k = 0; k < 2; k++) {
                     let colReal = j + offset + k;
                     if (colReal < baseTopo.length - 1) {
@@ -361,6 +324,9 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
                         duracaoTotal += parseInt(arcano[0]) || 0;
                     }
                 }
+
+                let idadeIni = crono[indiceInicioReal] ? crono[indiceInicioReal].idadeIni : "?";
+                let idadeFim = (typeof idadeIni === 'number') ? (idadeIni + duracaoTotal) : "?";
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
@@ -605,48 +571,49 @@ function gerar() {
     if(!nome || !data) return alert("Preencha os dados!");
 
     const base = nomeNumeros(nome);
-    const [y, m, d] = data.split("-").map(Number);
     
     // Geração das 4 Pirâmides
     const pVida = piramide(base);
+    const [y, m, d] = data.split("-").map(Number);
     const pPes = piramidePessoal(base, d);
     const pSoc = piramideSocial(base, m);
     const pDes = piramideDestino(base, d, m);
 
-    const aVida = topo(base);
-    const crono = gerarCronogramaMestre(aVida, data);
+    // CRONOGRAMAS INDEPENDENTES (Para as idades baterem com cada pirâmide)
+    const cronoVida = gerarCronogramaMestre(topo(pVida[0]), data);
+    const cronoPes = gerarCronogramaMestre(topo(pPes[0]), data);
+    const cronoSoc = gerarCronogramaMestre(topo(pSoc[0]), data);
+    const cronoDes = gerarCronogramaMestre(topo(pDes[0]), data);
     
-    // CAPTURA DAS POTÊNCIAS (Último número de cada pirâmide)
+    // CAPTURA DAS POTÊNCIAS
     const potVida = pVida.at(-1)[0];
     const potPessoal = pPes.at(-1)[0];
     const potSocial = pSoc.at(-1)[0];
     const potDestino = pDes.at(-1)[0];
 
-    // GERAÇÃO DA SÍNTESE FINAL (Injeta no início da aba principal)
-    // Nota: Verifique se 'textosSintese' está definido no seu textos.js
     const htmlSintese = gerarSinteseFinal(potVida, potPessoal, potSocial, potDestino, window.textosSintese || {});
 
-    const htmlVida = explicacoes.principal + montarConteudoComIntros(
-        pVida, potVida, textosVida, crono, textosVida, "Matriz da Vida",
+    // Cada chamada agora usa seu próprio CRONO correspondente
+    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(
+        pVida, potVida, textosVida, cronoVida, textosVida, "Matriz da Vida",
         textosSeqNegVida, textosSeqEspVida, textosFinVida
     );
 
-    const htmlPessoal = explicacoes.pessoal + montarConteudoComIntros(
-        pPes, potPessoal, textosPessoal, crono, textosPessoal, "Matriz Pessoal",
+    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(
+        pPes, potPessoal, textosPessoal, cronoPes, textosPessoal, "Matriz Pessoal",
         textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal
     );
 
-    const htmlSocial = explicacoes.social + montarConteudoComIntros(
-        pSoc, potSocial, textosSocial, crono, textosSocial, "Matriz Social",
+    const htmlSocial = (explicacoes.social || "") + montarConteudoComIntros(
+        pSoc, potSocial, textosSocial, cronoSoc, textosSocial, "Matriz Social",
         textosSeqNegSocial, textosSeqEspSocial, textosFinSocial
     );
 
-    const htmlDestino = explicacoes.destino + montarConteudoComIntros(
-        pDes, potDestino, textosDestino, crono, textosDestino, "Matriz de Destino",
+    const htmlDestino = (explicacoes.destino || "") + montarConteudoComIntros(
+        pDes, potDestino, textosDestino, cronoDes, textosDestino, "Matriz de Destino",
         textosSeqNegDestino, textosSeqEspDestino, textosFinDestino
     );
 
-    // Injeção nos HTMLs das Abas (Síntese vai no topo da Principal)
     document.getElementById("aba_principal").innerHTML = htmlSintese + htmlVida;
     document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
     document.getElementById("aba_social").innerHTML = htmlSocial;
