@@ -242,9 +242,9 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
             if (cont >= 3) {
                 encontrou = true;
                 let duracaoAnosTotal = 0;
-                let offset = Math.floor(i / 2); 
+                let offset = Math.floor(i / 2); // Alinhamento vertical padrão
 
-                // 1. Duração baseada nos arcanos do topo (vertical)
+                // Cálculo da vigência (anos) igual à Matriz da Vida
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + offset + k;
                     if (colReal < baseTopo.length - 1) {
@@ -253,10 +253,10 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
                     }
                 }
 
-                // 2. IDADE REAL: Pega o início exato no cronograma e SOMA a duração
+                // Cálculo da Idade igual à Matriz da Vida
                 let periodo = crono[j + offset];
-                let idadeIni = (periodo) ? periodo.idadeIni : 0;
-                let idadeFim = idadeIni + duracaoAnosTotal; // Matemática pura
+                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
+                let idadeFim = idadeIni + duracaoAnosTotal; // SOMA EXATA
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
@@ -269,7 +269,6 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt) {
     });
     return encontrou ? h + "</div>" : "";
 }
-
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
     let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
@@ -293,7 +292,7 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt) {
                 }
 
                 let periodo = crono[j + offset];
-                let idadeIni = (periodo) ? periodo.idadeIni : 0;
+                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
                 let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
@@ -328,13 +327,13 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt) {
                 }
 
                 let periodo = crono[j + offset];
-                let idadeIni = (periodo) ? periodo.idadeIni : 0;
+                let idadeIni = (periodo && typeof periodo.idadeIni === 'number') ? periodo.idadeIni : 0;
                 let idadeFim = idadeIni + duracaoTotal;
 
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
                         <span style="font-weight:bold; color:#2e7d32;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999] || "Momento de prosperidade.")}</p>
+                        <p style="margin-top:5px;">${personalizarTexto(bancoTxt[999])}</p>
                       </div>`;
             }
         }
