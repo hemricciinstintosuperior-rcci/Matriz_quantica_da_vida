@@ -136,15 +136,11 @@ Este relatório não é uma análise superficial. É a leitura estrutural da arq
 
 A proposta final do método é ampliar consciência. Quando há clareza sobre essas interações, a vida deixa de ser apenas vivida e passa a ser compreendida em sua dinâmica vibracional profunda.</div>
     </div>
-
-    ${rel.abaPrincipal ? `<div class="secao">
-        <h1 style="text-align: center;"⬇️Aqui começa seu estudo das Matrizes Quânticas⬇️</h1>${rel.abaPrincipal}</div>` : ''}
-    ${rel.abaPessoal ? `<div class="secao">
-        <h1 style="text-align: center;"</h1>${rel.abaPessoal}</div>` : ''}
-    ${rel.abaSocial ? `<div class="secao">
-        <h1 style="text-align: center;"</h1>${rel.abaSocial}</div>` : ''}
-    ${rel.abaDestino ? `<div class="secao">
-        <h1 style="text-align: center;"</h1>${rel.abaDestino}</div>` : ''}
+<h1 style="text-align: center;"⬇️Aqui começa seu estudo das Matrizes Quânticas⬇️</h1>
+    ${rel.abaPrincipal ? <div class="secao" style="text-align: center;">${rel.abaPrincipal}</div> : ''}
+    ${rel.abaPessoal ? <div class="secao" style="text-align: center;">${rel.abaPessoal}</div> : ''}
+    ${rel.abaSocial ? <div class="secao" style="text-align: center;">${rel.abaSocial}</div> : ''}
+    ${rel.abaDestino ? <div class="secao" style="text-align: center;">${rel.abaDestino}</div> : ''}
 
     <div class="secao" style="text-align: center;">
         <h1>Considerações Finais</h1>
