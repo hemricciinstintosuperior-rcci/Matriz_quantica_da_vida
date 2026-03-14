@@ -229,7 +229,7 @@ function gerarCronogramaMestre(arcanosVida, data) {
 // --- NEGATIVAS ---
 // --- SEQUÊNCIAS NEGATIVAS (Agora lê o topo) ---
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="box"><h2 style="color:#d32f2f;">⚠️ Vulnerabilidade e Insegurança</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#d32f2f;">⚠️ Vulnerabilidade e Insegurança</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
@@ -270,7 +270,7 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
 
 // --- SEQUÊNCIAS ESPECIAIS (Agora lê o topo) ---
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="box"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
@@ -306,7 +306,7 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
 
 // --- FLUXO FINANCEIRO (Agora lê o topo) ---
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="box"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
