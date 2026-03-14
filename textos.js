@@ -3406,7 +3406,7 @@ const explicacoes = {
 
 principal: `
 <div>
-<h1>👑 Pirâmide da Vida Principal 👑</h1>
+<h1>👑 Pirâmide da Vida Principal</h1>
 <p>
 <p>​A Pirâmide da Vida Principal é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência. Diferente das outras pirâmides que focam em áreas específicas, esta matriz revela o caminho mestre, as fases evolutivas e as potências que regem a sua história do início ao fim.</p>
 
@@ -3418,7 +3418,7 @@ principal: `
 
 pessoal: `
 <div>
-<h1>👤 Pirâmide do intelecto Pessoal 👤</h1>
+<h1>👤 Pirâmide do intelecto Pessoal</h1>
 <p>Enquanto a pirâmide anterior trata do "quem sou eu no universo", a Pirâmide do Intelecto Pessoal mergulha no "como eu me sinto e como eu processo a vida". Ela é formada pela combinação da equivalência numérica do seu nome somada ao seu dia de nascimento reduzido. Essa pequena adição do dia de nascimento muda o foco do destino geral para a sua atitude íntima e psicológica diante do mundo.</p>
 
 <p>​Esta aba revela o seu mundo subjetivo: o campo emocional, o intelecto e os processos psicológicos que ocorrem longe dos olhos dos outros. Ela é essencial para entender os seus conflitos internos e como você vive cada fase da vida "do lado de dentro". Muitas vezes, a Pirâmide da Vida pode indicar um período de sucesso externo, mas a Pirâmide Pessoal pode revelar que, internamente, você está enfrentando uma crise de identidade ou um crescimento interior silencioso.</p>
@@ -3430,7 +3430,7 @@ pessoal: `
 
 social: `
 <div>
-<h1>🌎 Pirâmide da percepcão do seu meio de convivencia 🌎</h1>
+<h1>🌎 Pirâmide da percepcão do seu meio de convivencia</h1>
 <p>​A Pirâmide da Percepção do seu Meio de Convivência (ou Pirâmide Social) assume aqui um papel único de "testemunha ocular" da realidade coletiva. Ela é formada pela frequência numérica do seu nome de nascimento em sintonia com o seu mês de nascimento, o que gera o seu radar de percepção sobre o que ocorre ao seu redor. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve especificamente a sua capacidade de ver as engrenagens da vida girando para as pessoas do seu meio social.</p>
 
 <p>​É nesta seção que entendemos que nem tudo o que acontece no nosso campo de visão nos pertence. Esta pirâmide revela os acontecimentos, as crises, as vitórias e as transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Pirâmide do Destino é a que realmente molda a sua jornada pessoal e traz os eventos que o influenciam diretamente, a Pirâmide Social é um mapa do "teatro da vida" alheia que se desenrola diante dos seus olhos.</p>
@@ -3444,7 +3444,7 @@ social: `
 
 destino: `
 <div>
-<h1>☄️ Pirâmide do Propósito e Influencia do Universo ☄️</h1>
+<h1>☄️ Pirâmide do Propósito e Influencia do Universo</h1>
 
 <p>​A Pirâmide do Propósito e Influência do Universo (ou Pirâmide Destino) é a síntese final de toda a sua análise. Ela utiliza a combinação mais completa: seu nome, dia e mês de nascimento. Por unir todos os elementos, ela reflete os aspectos do seu destino de forma multidimensional, combinando o que está previsto na Matriz Principal com as suas necessidades Pessoais e as demandas do seu Meio Social.</p>
 
