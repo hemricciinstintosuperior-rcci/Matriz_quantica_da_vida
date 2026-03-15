@@ -548,12 +548,12 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     
     let matches = [];
     // Verificação das 6 combinações de sincronia
-    if (p === v) matches.push({id: "pessoal_vida", tit: "Sincronia Pessoal e Vida"});
-    if (s === v) matches.push({id: "social_vida", tit: "Sincronia Social e Vida"});
-    if (d === v) matches.push({id: "destino_vida", tit: "Sincronia Destino e Vida"});
-    if (p === s) matches.push({id: "pessoal_social", tit: "Sincronia Pessoal e Social"});
-    if (p === d) matches.push({id: "pessoal_destino", tit: "Sincronia Pessoal e Destino"});
-    if (s === d) matches.push({id: "social_destino", tit: "Sincronia Social e Destino"});
+    if (p === v) matches.push({id: "pessoal_vida", tit: "Sincronia Pessoal e Vida  👤➛👑"});
+    if (s === v) matches.push({id: "social_vida", tit: "Sincronia Social e Vida  🌎➛👑"});
+    if (d === v) matches.push({id: "destino_vida", tit: "Sincronia Destino e Vida  ☄️➛👑"});
+    if (p === s) matches.push({id: "pessoal_social", tit: "Sincronia Pessoal e Social  👤➛🌎"});
+    if (p === d) matches.push({id: "pessoal_destino", tit: "Sincronia Pessoal e Destino  👤➛☄️"});
+    if (s === d) matches.push({id: "social_destino", tit: "Sincronia Social e Destino  🌎➛☄️"});
 
     // 1. PARTE: CONEXÕES ESPECÍFICAS (As que geram os emojis grandes)
     if (matches.length > 0) {
