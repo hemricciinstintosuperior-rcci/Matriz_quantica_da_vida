@@ -274,7 +274,7 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 // --- NEGATIVAS ---
 // --- SEQUÊNCIAS NEGATIVAS (Agora lê o topo) ---
 function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#d32f2f;">⚠️ Vulnerabilidade e Insegurança</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#d32f2f;"> Vulnerabilidade e Insegurança  ⚠️</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
@@ -319,7 +319,7 @@ let dataFim = datas.fim;
 
 // --- SEQUÊNCIAS ESPECIAIS (Agora lê o topo) ---
 function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#b8860b;">⚡️ Sequências Especiais</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#b8860b;"> Sequências Especiais  ⚡️</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
@@ -359,7 +359,7 @@ let dataFim = datas.fim;
 
 // --- FLUXO FINANCEIRO (Agora lê o topo) ---
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#2e7d32;">💰 Fluxo Financeiro</h2>`;
+    let h = `<div class="blocoRelatorio"><h2 style="color:#2e7d32;"> Fluxo Financeiro  💰</h2>`;
     let encontrou = false;
     
     linhas.forEach((linha, i) => {
@@ -433,7 +433,7 @@ function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePir
 
 // 3. Nova versão da montarVigenciasSincronizadas
 function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
-    let html = "<div class='blocoRelatorio'><h2>⏳ Fluxo das Potências Quânticas</h2>";
+    let html = "<div class='blocoRelatorio'><h2>⏳ Fluxo das Potências ⏳</h2>";
     
     cronograma.forEach((periodo) => {
         // Pega o arcano correspondente ao índice, ou o último se passar do tamanho
@@ -609,7 +609,7 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
               <div class="secao">
         <h1 style="text-align: center;">Aqui começa seu estudo das Matrizes Quânticas </h1>
         
-                  <h1 style="text-align: center;">   ⬇️ </h1>
+                  <h1 style="text-align: center;">   ▼ </h1>
                    </div>
           </div>`;
 
