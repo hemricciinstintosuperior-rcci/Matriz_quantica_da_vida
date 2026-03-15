@@ -3660,7 +3660,7 @@ vigencias:`<h1>✡︎ O que são as Potências do Destino?</h1>
 
 
 window.textosSintese = {
-    "pessoal_vida": `👤➛👑
+    "pessoal_vida": `<h1>👤➛👑</h1>
         <p><b>Sincronia de Manifestação Direta e Alinhamento Real:</b></p>
         <p>Existe em sua matriz uma das configurações mais raras e potentes da dinâmica quântica. Quando sua Potência Pessoal se iguala à Potência da Vida, o véu entre o desejo e a realidade material torna-se extremamente fino. Isto indica que existe um canal direto de comunicação entre sua mente subconsciente e o campo de possibilidades externas. Você não atua apenas como alguém que observa sua jornada; você é a mente consciente por trás de cada evento, agindo de forma integrada e poderosa à sua realidade tangível.</p>
         <p>Na prática, esse nível de sincronia exige uma higiene mental rigorosa e uma vigilância constante sobre seus estados internos. Como sua vibração pessoal e a vibração da sua vida estão na mesma nota, seus medos e inseguranças possuem o mesmo poder de manifestação que seus sonhos e metas. Você não é alguém refém das circunstâncias; você é a força que as impulsiona. O mundo ao seu redor responde ao seu comando interno como um espelho de alta fidelidade, refletindo com precisão absoluta sua postura íntima e suas crenças mais profundas.</p>
