@@ -582,10 +582,10 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
         resumoGeral = bancoSintese["equilibrio_misto"];
         
         // Adiciona detalhes específicos baseados no que deu igual
-        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social  "] || "👤⬌🌎";
-        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino"] || "👤⬌☄️";
-        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida"] || "👤⬌👑";
-        if (s === d) detalhesMistos += bancoSintese["misto_social_destino"] || "🌎⬌☄️";
+        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social  👤⬌🌎"] || "";
+        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino  👤⬌☄️"] || "";
+        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida  👤⬌👑"] || "";
+        if (s === d) detalhesMistos += bancoSintese["misto_social_destino  🌎⬌☄️"] || "";
     }
 
     h += `<div style="margin-top:20px; padding:10px; border:1px solid #e2e8f0; border-radius:8px; background:#f1f5f9;">
