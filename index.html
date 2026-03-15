@@ -544,7 +544,7 @@ function mostrarAba(nome){
 }
 function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     let h = `<div class="blocoRelatorio" style="border: 2px solid #fff; background: #fdfeff;">
-                <h2 style="color:#6366f1; text-align:center; margin-bottom: 20px;">▼ Síntese de Dinâmica Quântica ▼</h2>`;
+                <h1 style="color:#6366f1; text-align:center; margin-bottom: 20px;">▼ Síntese de Dinâmica Quântica ▼</h1>`;
     
     let matches = [];
     // Verificação das 6 combinações de sincronia
@@ -559,8 +559,8 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     if (matches.length > 0) {
         matches.forEach(m => {
             let txt = (bancoSintese && bancoSintese[m.id]) ? bancoSintese[m.id] : "Análise de conexão em processamento...";
-            h += `<div class="blocoRelatorio" style="border-left:5px solid #fff; background:#f1f5f9; padding:15px; margin-bottom:15px; border-radius: 0 8px 8px 0;">
-                    <b style="font-size:18px; color: #6366F1;">🔗 ${m.tit}</b><br>
+            h += `<div class="blocoRelatorio" style="border-center:5px solid #fff; background:#f1f5f9; padding:15px; margin-bottom:15px; border-radius: 0 8px 8px 0;">
+                    <b style="font-size:20px; color: #6366F1;">🔗 ${m.tit}</b><br>
                     <p style="margin:8px 0 0 0; line-height:1.5;">${personalizarTexto(txt)}</p>
                   </div>`;
         });
@@ -590,11 +590,19 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
 
     h += `<div style="margin-top:20px; padding:10px; border:1px solid #e2e8f0; border-radius:8px; background:#f1f5f9;">
            <b style="color:#6366f1;">Análise de Fluxos Combinados:</b>
-           ${personalizarTexto(detalhesMistos || "<p>Suas potências operam de forma independente, garantindo versatilidade em sua jornada.</p>")}
+           ${personalizarTexto(detalhesMistos || "<p>Quando as pirâmides apresentam números totalmente distintos entre si, forma-se um conjunto de potências que operam de maneira independente. Isso indica uma estrutura energética marcada pela autonomia entre os campos pessoal, social e de destino.</p>
+
+<p>Nesse tipo de configuração, cada força atua por si, sem exercer influência direta sobre as demais. Como resultado, a jornada do indivíduo tende a apresentar grande versatilidade e múltiplas direções possíveis.</p>
+
+<p>No entanto, essa independência também torna a experiência de vida mais complexa e cheia de nuances. A pessoa pode perceber que suas decisões, sentimentos e percepções nem sempre seguem um padrão previsível.</p>
+
+<p>Em muitos momentos, ela pode sentir uma coisa, enxergar outra realidade e ser conduzida por estímulos internos ou externos difíceis de explicar. Isso cria uma dinâmica existencial rica, porém profundamente multifacetada.</p>
+
+<p>A ausência de influência direta entre os campos não significa falta de movimento, mas sim um fluxo mais sutil e não linear. Assim, a vida se desenvolve de forma natural, guiada por interações complexas entre percepção, experiência e influências mais amplas do universo.</p>")}
             </div>
     <div style="text-align:center; padding: 10px;">
-            <b style="font-size:20px; color:#1e293b; display:block; margin-bottom:10px;">📋 Assinatura Geral das Potências</b>
-            <div style="font-size:16px; line-height:1.7; color:#334155;">
+            <b style="font-size:20px; color:#002663; display:block; margin-bottom:10px;">📋 Assinatura Geral do Relatório</b>
+            <div style="font-size:20px; line-height:1.7; color:#334155;">
                 ${personalizarTexto(resumoGeral)}
 
             </div>
