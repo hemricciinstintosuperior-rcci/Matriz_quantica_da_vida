@@ -3660,7 +3660,7 @@ vigencias:`<h1>✡︎ O que são as Potências do Destino?</h1>
 
 
 window.textosSintese = {
-    "pessoal_vida": `<h1>👤➛👑</h1>
+    "pessoal_vida": `
         <p><b>Sincronia de Manifestação Direta e Alinhamento Real:</b></p>
         <p>Existe em sua matriz uma das configurações mais raras e potentes da dinâmica quântica. Quando sua Potência Pessoal se iguala à Potência da Vida, o véu entre o desejo e a realidade material torna-se extremamente fino. Isto indica que existe um canal direto de comunicação entre sua mente subconsciente e o campo de possibilidades externas. Você não atua apenas como alguém que observa sua jornada; você é a mente consciente por trás de cada evento, agindo de forma integrada e poderosa à sua realidade tangível.</p>
         <p>Na prática, esse nível de sincronia exige uma higiene mental rigorosa e uma vigilância constante sobre seus estados internos. Como sua vibração pessoal e a vibração da sua vida estão na mesma nota, seus medos e inseguranças possuem o mesmo poder de manifestação que seus sonhos e metas. Você não é alguém refém das circunstâncias; você é a força que as impulsiona. O mundo ao seu redor responde ao seu comando interno como um espelho de alta fidelidade, refletindo com precisão absoluta sua postura íntima e suas crenças mais profundas.</p>
@@ -3668,7 +3668,7 @@ window.textosSintese = {
         <p>Para potencializar essa força, cultive momentos de visualização e afirmação, pois para sua matriz, 'sentir é realizar'. Você veio ao mundo para provar que a vontade humana, quando alinhada às leis universais, pode moldar a matéria. Não subestime seu poder de influência sobre os fatos; cada decisão tomada em silêncio dentro da sua alma ecoa como uma ordem para o universo, que prontamente se organiza para entregar o cenário correspondente à sua nova vibração.</p>
     `,
     
-    "social_vida": `🌎➛👑
+    "social_vida": `
         <p><b>Sincronia de Espelhamento Coletivo e Ressonância Externa:</b></p>
         <p>Sua jornada nesta existência é profundamente influenciada pelo campo vibracional das pessoas, grupos e ambientes que você escolhe frequentar. Nesta configuração específica, sua vida funciona como um reflexo direto do seu convívio social e das egrégoras às quais você se conecta. Você possui uma natureza de ressonância externa: o sucesso, a abundância, a saúde ou os bloqueios que você experimenta são, em grande parte, transferidos ao seu campo pessoal devido à sua exposição constante ao meio.</p>
         <p>Isso significa que sua evolução e prosperidade dependem da sua capacidade estratégica de selecionar onde e com quem você gasta sua energia vital. Se você se cercar de mentes prósperas, corajosas e evoluídas, sua vida subirá de nível como que por osmose, captando a frequência do progresso sem esforço aparente. Por outro lado, ambientes tóxicos ou limitantes drenarão sua vitalidade e estagnarão seus projetos mais promissores em tempo recorde, pois sua 'antena' está programada para materializar o que capta do coletivo.</p>
@@ -3676,7 +3676,7 @@ window.textosSintese = {
         <p>Sua missão envolve aprender a manter a seletividade sem perder a empatia. Entenda que sua energia é um patrimônio valioso e que você tem o direito — e o dever — de proteger seu campo de influências externas que não condizem com seu propósito. Ao dominar a arte de se conectar às frequências certas, você se torna um foco de oportunidades, onde o networking deixa de ser apenas uma ferramenta profissional e passa a ser o motor sagrado da sua própria sobrevivência e expansão material.</p>
     `,
     
-    "destino_vida": `☄️➛👑
+    "destino_vida": `
         <p><b>Sincronia de Propósito Inevitável e Condução Superior:</b></p>
         <p>Nesta configuração, o comando da sua existência está firmemente posicionado nas mãos do seu Plano de Destino. Existe uma força maior, um roteiro predefinido e inteligente que guia os grandes acontecimentos da sua jornada, muitas vezes sobrepondo-se às suas vontades imediatas ou aos seus planos racionais. Você sentirá, ao longo da vida, que certas situações, encontros e mudanças bruscas de rumo são absolutamente 'inevitáveis', como se tivessem sido orquestradas por uma sabedoria superior.</p>
         <p>Esta é a marca de uma vida com uma missão específica e inegociável. Quando o Destino e a Vida se fundem na mesma potência, os acasos deixam de existir para dar lugar à Providência. Mesmo que você tente fugir de certos caminhos por medo ou dúvida, o Universo criará 'curvas' e sincronicidades que o trarão de volta ao seu trilho original. É uma jornada que exige rendição e uma confiança profunda nas forças que regem o tempo e o espaço, entendendo que há um tempo certo para cada colheita.</p>
@@ -3684,7 +3684,7 @@ window.textosSintese = {
         <p>O sucesso para você vem através da paciência e da observação atenta. Você atua como quem protagoniza um livro escrito pelas estrelas, e seu papel é aprender a ser intérprete das vontades do alto. Não se desespere quando os planos humanos falharem, pois o plano do destino é infalível e sempre visa o seu crescimento máximo. Sua vida é um testemunho de que existe uma ordem no caos, e que você está sob condução para um lugar de realização que sua mente lógica sequer consegue imaginar ainda.</p>
     `,
     
-    "pessoal_social": `👤➛🌎
+    "pessoal_social": `
         <p><b>Sincronia de Influência, Identidade e Adaptação:</b></p>
         <p>Esta conexão revela um desafio quântico constante entre o 'Eu' e o 'Nós'. Você possui uma personalidade dotada de uma plasticidade incrível, com grande capacidade de adaptação e permeabilidade às energias ao seu redor. Isso faz de você uma presença extremamente carismática, magnética e de fácil convívio, mas traz o risco intrínseco de perder a clareza sobre sua própria essência devido à necessidade inconsciente de pertencer e ser uma pessoa aceita pelos grupos.</p>
         <p>O seu 'Pessoal' (quem você sente que é) é constantemente moldado pelas pressões e expectativas do seu meio social. Você tem a capacidade de sentir o que o grupo sente e, muitas vezes, acaba adotando metas, desejos, gostos e opiniões que não são originalmente seus, mas que foram absorvidos para manter a harmonia do ambiente. Essa facilidade de sofrer influência pode ser sua maior virtude, se houver convívio com mentes brilhantes, ou seu maior perigo, se o convívio for com pessoas medíocres.</p>
@@ -3692,7 +3692,7 @@ window.textosSintese = {
         <p>Quando você domina essa troca e aprende a filtrar o que entra no seu campo, você se transforma em uma autoridade de influência social. Você passará a usar sua adaptabilidade de forma consciente, conseguindo entrar em qualquer ambiente e se conectar com qualquer nível hierárquico, mantendo-se fiel ao seu núcleo interno. Você se torna alguém que lidera e entende a alma das pessoas, pois sabe como é sentir a energia delas, usando essa sensibilidade para guiar, e não mais para sofrer apenas a condução pelo desejo alheio.</p>
     `,
     
-    "pessoal_destino": `👤➛☄️
+    "pessoal_destino": `
         <p><b>Sincronia de Intuição Profunda e Chamado da Alma:</b></p>
         <p>O Universo possui um canal de comunicação direta com você, que funciona de dentro para fora. Nesta rara e profunda configuração, sua Potência Pessoal está em ressonância direta com o seu Plano de Destino, o que gera uma conexão intuitiva avassaladora. Você não precisa buscar bússolas ou conselhos no mundo externo com tanta frequência; seu interior já possui o 'mapa' do tesouro antes mesmo da sua mente racional começar a analisar as opções.</p>
         <p>Seus desejos mais genuínos e seus impulsos criativos já estão 'carregados' com o seu propósito de vida. Você sente o chamado do destino não como um evento externo, mas como um entusiasmo inexplicável, uma certeza absoluta ou até um incômodo no peito que empurra você para certas direções. Quando você segue sua intuição, você está, literalmente, cumprindo sua missão de vida. O maior erro que você pode cometer é tentar agir com lógica excessiva ou seguir conselhos 'pragmáticos' que silenciam o que seu coração está gritando.</p>
@@ -3700,7 +3700,7 @@ window.textosSintese = {
         <p>Você é sua própria guia ou seu próprio guia espiritual. Sua jornada é sobre aprender a confiar no invisível e ter a audácia de agir com base em certezas que mais ninguém consegue ver. Você veio para provar que a alma tem um GPS infalível e que, ao estarmos em alinhamento com nosso propósito, o impossível torna-se apenas uma questão de tempo. Escute o silêncio, pois é nele que as instruções para o seu próximo grande salto quântico estão sendo transmitidas agora mesmo.</p>
     `,
     
-    "social_destino": `🌎➛☄️
+    "social_destino": `
         <p><b>Sincronia de Missão Coletiva e Atuação Pública:</b></p>
         <p>O palco principal da sua evolução espiritual e material é a sociedade. Esta conexão poderosa indica que o propósito da sua vida não é algo para ser realizado de forma isolada ou escondida; ele depende fundamentalmente das suas interações, das suas parcerias e da sua imagem perante o coletivo. O Destino, para você, manifesta-se através do seu papel social, dos cargos que ocupa e das conexões que você cultiva ao longo do caminho.</p>
         <p>Você nasceu para ser um ponto de convergência, alguém que move peças importantes no tabuleiro das relações humanas para que algo maior se materialize. Grandes oportunidades de destino, mudanças de status, encontros de alma e negócios transformadores virão sempre através de uma ponte humana: uma indicação, um convite inesperado ou uma rede de apoio que reconhece seu valor. Você atrai pessoas que funcionam como 'mensageiras do destino', trazendo as chaves que abrem as portas que você tanto busca.</p>
@@ -3733,17 +3733,17 @@ window.textosSintese = {
         <p>Sua jornada é rica e equilibrada, permitindo que você experimente tanto o conforto acolhedor da sincronia divina quanto a aventura estimulante da descoberta individual. Você atua como mediação da sua própria história, equilibrando com perfeição as forças externas que cercam você e os desejos profundos que impulsionam sua vida. Continue honrando esses dois lados: confie no plano maior quando ele se manifestar, mas nunca deixe de lutar e criar sua própria sorte nas áreas onde o universo deu a você as chaves da independência.</p>
     `,
   
-    "misto_pessoal_social": `👤⬌🌎
+    "misto_pessoal_social": `
         <p><b>Atenção à Influência Social:</b></p>
         <p>Sua assinatura revela que sua identidade pessoal está fortemente ligada ao seu meio social. Isso indica que <strong>você</strong> possui um magnetismo capaz de influenciar grupos, mas também possui uma "antena" muito sensível às opiniões alheias. Muitas vezes, <strong>você</strong> pode acabar agindo para atender às expectativas dos outros ou absorvendo as metas do grupo como se fossem suas. O desafio aqui é manter sua essência intacta: aprenda a filtrar o que é seu e o que é apenas reflexo das pessoas ao seu redor.</p>
     `,
 
-    "misto_pessoal_destino": `👤⬌☄️
+    "misto_pessoal_destino": `
         <p><b>Condução Pelo Destino:</b></p>
         <p>Nesta configuração, sua vontade própria está em diálogo direto com o seu propósito maior. Isso significa que nem sempre <strong>você</strong> está no controle total das suas decisões racionais; existe uma força de destino que "empurra" sua alma para certas direções. É uma conexão de proteção, onde o universo não permite que <strong>você</strong> se desvie do seu contrato espiritual. Se sentir um impulso inexplicável para mudar algo, confie: é o seu destino agindo através da sua personalidade.</p>
     `,
 
-    "misto_pessoal_vida": `👤⬌👑
+    "misto_pessoal_vida": `
         <p><b>Autonomia de Manifestação:</b></p>
         <p>Você possui uma conexão direta entre sua força interna e os fatos da vida cotidiana. Isso garante que <strong>você</strong> tenha um poder de realização muito acima da média. As coisas tendem a acontecer na sua vida conforme sua postura interna. Se <strong>você</strong> estiver com a mente clara e focada, a vida responde rápido. É a assinatura de quem "faz a própria sorte" através da atitude e da energia pessoal, sem depender tanto de fatores externos ou sorte.</p>
     `,
