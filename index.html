@@ -582,21 +582,21 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
         resumoGeral = bancoSintese["equilibrio_misto"];
         
         // Adiciona detalhes específicos baseados no que deu igual
-        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social"] || "";
-        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino"] || "";
-        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida"] || "";
-        if (s === d) detalhesMistos += bancoSintese["misto_social_destino"] || "";
+        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social  "] || "👤⬌🌎";
+        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino"] || "👤⬌☄️";
+        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida"] || "👤⬌👑";
+        if (s === d) detalhesMistos += bancoSintese["misto_social_destino"] || "🌎⬌☄️";
     }
 
     h += `<div style="margin-top:20px; padding:10px; border:1px solid #e2e8f0; border-radius:8px; background:#f1f5f9;">
            <b style="color:#6366f1;">Análise de Fluxos Combinados:</b>
            ${personalizarTexto(detalhesMistos || `<p>Quando as pirâmides apresentam números totalmente distintos entre si, forma-se um conjunto de potências que operam de maneira independente. Isso indica uma estrutura energética marcada pela autonomia entre os campos pessoal, social e de destino.</p>
 
-<p>Nesse tipo de configuração, cada força atua por si, sem exercer influência direta sobre as demais. Como resultado, a jornada do indivíduo tende a apresentar grande versatilidade e múltiplas direções possíveis.</p>
+<p>Nesse tipo de configuração, cada força atua por si, sem exercer influência direta sobre as demais. Como resultado, a jornada de você tende a apresentar grande versatilidade e múltiplas direções possíveis.</p>
 
-<p>No entanto, essa independência também torna a experiência de vida mais complexa e cheia de nuances. A pessoa pode perceber que suas decisões, sentimentos e percepções nem sempre seguem um padrão previsível.</p>
+<p>No entanto, essa independência também torna a experiência de vida mais complexa e cheia de nuances. você pode perceber que suas decisões, sentimentos e percepções nem sempre seguem um padrão previsível.</p>
 
-<p>Em muitos momentos, ela pode sentir uma coisa, enxergar outra realidade e ser conduzida por estímulos internos ou externos difíceis de explicar. Isso cria uma dinâmica existencial rica, porém profundamente multifacetada.</p>
+<p>Em muitos momentos, você pode sentir uma coisa, enxergar outra realidade e ser conduzida por estímulos internos ou externos difíceis de explicar. Isso cria uma dinâmica existencial rica, porém profundamente multifacetada.</p>
 
 <p>A ausência de influência direta entre os campos não significa falta de movimento, mas sim um fluxo mais sutil e não linear. Assim, a vida se desenvolve de forma natural, guiada por interações complexas entre percepção, experiência e influências mais amplas do universo.</p>`)}
             </div>
