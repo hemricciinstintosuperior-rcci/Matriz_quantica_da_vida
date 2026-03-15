@@ -3733,22 +3733,22 @@ window.textosSintese = {
         <p>Sua jornada é rica e equilibrada, permitindo que você experimente tanto o conforto acolhedor da sincronia divina quanto a aventura estimulante da descoberta individual. Você atua como mediação da sua própria história, equilibrando com perfeição as forças externas que cercam você e os desejos profundos que impulsionam sua vida. Continue honrando esses dois lados: confie no plano maior quando ele se manifestar, mas nunca deixe de lutar e criar sua própria sorte nas áreas onde o universo deu a você as chaves da independência.</p>
     `,
   
-    "misto_pessoal_social": `
+    "misto_pessoal_social": `<h1>👤⬌🌎</h1>
         <p><b>Atenção à Influência Social:</b></p>
         <p>Sua assinatura revela que sua identidade pessoal está fortemente ligada ao seu meio social. Isso indica que <strong>você</strong> possui um magnetismo capaz de influenciar grupos, mas também possui uma "antena" muito sensível às opiniões alheias. Muitas vezes, <strong>você</strong> pode acabar agindo para atender às expectativas dos outros ou absorvendo as metas do grupo como se fossem suas. O desafio aqui é manter sua essência intacta: aprenda a filtrar o que é seu e o que é apenas reflexo das pessoas ao seu redor.</p>
     `,
 
-    "misto_pessoal_destino": `
+    "misto_pessoal_destino": `<h1>👤⬌☄️</h1>
         <p><b>Condução Pelo Destino:</b></p>
         <p>Nesta configuração, sua vontade própria está em diálogo direto com o seu propósito maior. Isso significa que nem sempre <strong>você</strong> está no controle total das suas decisões racionais; existe uma força de destino que "empurra" sua alma para certas direções. É uma conexão de proteção, onde o universo não permite que <strong>você</strong> se desvie do seu contrato espiritual. Se sentir um impulso inexplicável para mudar algo, confie: é o seu destino agindo através da sua personalidade.</p>
     `,
 
-    "misto_pessoal_vida": `
+    "misto_pessoal_vida": `<h1>👤⬌👑</h1>
         <p><b>Autonomia de Manifestação:</b></p>
         <p>Você possui uma conexão direta entre sua força interna e os fatos da vida cotidiana. Isso garante que <strong>você</strong> tenha um poder de realização muito acima da média. As coisas tendem a acontecer na sua vida conforme sua postura interna. Se <strong>você</strong> estiver com a mente clara e focada, a vida responde rápido. É a assinatura de quem "faz a própria sorte" através da atitude e da energia pessoal, sem depender tanto de fatores externos ou sorte.</p>
     `,
 
-    "misto_social_destino": `🌎⬌☄️
+    "misto_social_destino": `<h1>🌎⬌☄️</h1>
         <p><b>Missão no Coletivo:</b></p>
         <p>Sua presença no mundo não é por acaso. Esta combinação mostra que seu destino se cumpre através das pessoas. <strong>Você</strong> é alguém que atrai encontros de destino: pessoas que aparecem do nada com propostas ou chaves que mudam sua vida. Sua vida social é o laboratório onde sua missão espiritual acontece. Mantenha seus contatos ativos, pois a resposta que <strong>você</strong> busca sempre virá através de outra pessoa.</p>
     `
