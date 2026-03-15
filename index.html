@@ -306,8 +306,8 @@ let dataFim = datas.fim;
              
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                         <span style="color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                         <span style="color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
+                        <span style="font-weight:bold; color:#d32f2f;">Periodo mais crítico: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
                 j += cont;
@@ -347,8 +347,8 @@ let dataFim = datas.fim;
              
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
+                        <span style="font-weight:bold; color:#b8860b;">Periodo mais crítico: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
@@ -386,7 +386,7 @@ let dataFim = datas.fim;
              
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-center:10px; margin-bottom:20px;">
                         <b style="text-align:center;font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                       <span style="text-align:center;color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
+                       <span style="text-align:center;color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
                         <span style="font-weight:bold;text-align:center; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[999])}</p>
                       </div>`;
