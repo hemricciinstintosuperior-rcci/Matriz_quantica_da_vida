@@ -285,9 +285,11 @@ function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
-                
+                let dataIni = periodo.ini;
+                let dataFim = periodo.fim;
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
+                         <span style="color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
                         <span style="font-weight:bold; color:#d32f2f;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[num])}</p>
                       </div>`;
@@ -322,9 +324,12 @@ function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
-                
+                  let dataIni = periodo.ini;
+                let dataFim = periodo.fim;
+             
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
+                        <span style="color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
                         <span style="font-weight:bold; color:#b8860b;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
@@ -357,10 +362,12 @@ function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) 
                 let periodo = crono[j + offset] || crono[0];
                 let idadeIni = periodo.idadeIni;
                 let idadeFim = idadeIni + duracaoTotal;
-                
+                 let dataIni = periodo.ini;
+                let dataFim = periodo.fim;
+             
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                        <span style="margin:0; color:#111827;"> 📅 Período: de ${periodo.ini} até ${periodo.fim} </span><br>
+                       <span style="color:#111827;">📅 Período: de ${dataIni} até ${dataFim}</span><br>
                         <span style="font-weight:bold; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[999])}</p>
                       </div>`;
