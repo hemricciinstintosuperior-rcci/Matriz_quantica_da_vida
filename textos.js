@@ -3469,7 +3469,7 @@ regente:`<h1>🔱  Regente da Vida </h1>
 
 <p>Compreender o seu Regente é compreender o fundamento da sua identidade energética. Ele revela talentos naturais, tendências comportamentais e a forma como a sua presença influencia o ambiente ao redor, sendo a base sobre a qual todo o restante da análise da Pirâmide da Vida se apoia.</p>`,
 
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade, fragilidade e insegurança na Vida?</h1>
+negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança na Vida?</h1>
 <p>As Sequências Negativas indicam pontos de tensão dentro da estrutura energética da sua vida. Elas não representam punições nem destinos inevitáveis, mas sim padrões que revelam áreas onde a energia tende a se repetir de maneira desafiadora. Funcionam como sinais que mostram onde determinados comportamentos ou situações podem gerar desgaste ou bloqueios.</p>
 
 <p>Muitas dessas sequências estão associadas a experiências que exigem aprendizado e amadurecimento. Elas surgem quando certos aspectos da sua natureza ainda não foram plenamente compreendidos ou integrados. Por isso, podem se manifestar como situações recorrentes que parecem reaparecer em diferentes fases da vida.</p>
@@ -3568,7 +3568,7 @@ regente:`<h1>🔱  O que é o Regente Social  ?</h1>
 
 <p>Compreender essa vibração ajuda a interpretar melhor o ambiente social que o cerca. Ao reconhecer esse padrão coletivo, você passa a perceber com mais clareza o tipo de influência que o meio exerce sobre suas experiências e relações.</p>`,
 
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidad e insegurança no seu meio de convivencia?</h1>
+negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança no seu meio de convivencia?</h1>
 <p>As Sequências Negativas da Pirâmide Social indicam padrões de tensão ou desafios que podem surgir no ambiente de convivência ao seu redor. Elas não representam necessariamente problemas pessoais diretos, mas sim comportamentos, atitudes ou situações que você pode perceber com frequência nas pessoas que fazem parte do seu meio social.</p>
 
 <p>Essas vibrações podem refletir conflitos coletivos, disputas de interesses, dificuldades de comunicação ou padrões de comportamento que geram desgaste dentro de determinados grupos. Em muitos casos, elas mostram ambientes onde certas tensões emocionais ou psicológicas tendem a aparecer com maior intensidade.</p>
