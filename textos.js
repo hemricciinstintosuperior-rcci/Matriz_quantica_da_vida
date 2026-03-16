@@ -3460,7 +3460,7 @@ destino: `
 window.introsPiramides = {
 
 vida:{
-regente:`<h1>Regente da Vida 🔱</h1>
+regente:`<h1>🔱  Regente da Vida </h1>
 <p>O Regente da Vida representa o núcleo vibracional da sua existência. Ele é a força central que sustenta toda a estrutura da sua Pirâmide da Vida, funcionando como o eixo principal em torno do qual todas as demais energias se organizam. Assim como o Sol mantém o equilíbrio do sistema solar, o Regente mantém o alinhamento das experiências que compõem a sua trajetória.</p>
 
 <p>Essa vibração revela a essência mais autêntica da sua natureza, indicando como você reage aos acontecimentos, quais padrões emocionais predominam e de que maneira sua energia se projeta no mundo. Diferente de eventos momentâneos, o Regente atua como uma base constante que acompanha você durante toda a vida.</p>
@@ -3510,7 +3510,7 @@ vigencias:`<h1>✡︎ O que são as Potências na Vida(Principal) ?</h1>
 
 pessoal:{
 
-regente:`<h1>Regente Pessoal  🔱</h1>
+regente:`<h1>🔱  Regente Pessoal  </h1>
 <p>O Regente Pessoal representa o estado interno predominante da sua mente e da sua percepção sobre si mesmo. Diferente do Regente da Vida, que expressa uma força real que atua no mundo externo, o Regente Pessoal mostra como você se percebe internamente e como interpreta as situações que vive.</p>
 
 <p>Essa vibração revela o clima psicológico que acompanha seus pensamentos, sentimentos e reflexões mais profundas. Muitas vezes ela funciona como um filtro interno, determinando a forma como você entende os acontecimentos da sua própria vida, mesmo que a realidade externa esteja seguindo outro caminho.</p>
@@ -3559,7 +3559,7 @@ vigencias:`<h1>✡︎ O que são as Potências do sentimento Pessoal(interior)?<
 
 social:{
 
-regente:`<h1>O que é o Regente Social  🔱?</h1>
+regente:`<h1>🔱  O que é o Regente Social  ?</h1>
 <p>O Regente Social representa a vibração predominante do ambiente humano ao seu redor. Diferente do Regente da Vida, que expressa a sua própria essência energética, o Regente Social revela o tipo de energia que você tende a perceber nas pessoas com quem convive ou interage com maior frequência.</p>
 
 <p>Essa vibração mostra o clima vibracional do seu meio social, indicando o padrão de comportamento, mentalidade ou postura que aparece com mais força entre as pessoas que fazem parte do seu cotidiano. Em outras palavras, ele descreve o tipo de energia que você observa no mundo ao seu redor.</p>
