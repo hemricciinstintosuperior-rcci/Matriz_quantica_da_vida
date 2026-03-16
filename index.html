@@ -348,7 +348,7 @@ let dataFim = datas.fim;
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
                         <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
                         <span style="color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; color:#b8860b;">Periodo mais crítico: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <span style="font-weight:bold; color:#b8860b;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[seq])}</p>
                       </div>`;
             }
@@ -385,9 +385,9 @@ let dataIni = datas.ini;
 let dataFim = datas.fim;
              
                 h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-center:10px; margin-bottom:20px;">
-                        <b style="text-align:center;font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                       <span style="text-align:center;color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold;text-align:center; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
+                        <b style="text-align:center; font-size:18px;">✅ Sequência Financeira 99/9</b><br>
+                       <span style="text-align:center; color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
+                        <span style="font-weight:bold; text-align:center; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
                         <p>${personalizarTexto(bancoTxt[999])}</p>
                       </div>`;
             }
@@ -602,8 +602,8 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
 <p>A ausência de influência direta entre os campos não significa falta de movimento, mas sim um fluxo mais sutil e não linear. Assim, a vida se desenvolve de forma natural, guiada por interações complexas entre percepção, experiência e influências mais amplas do universo.</p>`)}
             </div>
     <div style="text-align:center; padding: 10px;">
-            <b style="font-size:20px; color:#002663; display:block; margin-bottom:10px;">📋 Assinatura Geral do Relatório</b>
-            <div style="font-size:20px; line-height:1.7; color:#334155;">
+            <b style="text-align:center; font-size:20px; color:#002663; display:block; margin-bottom:10px;">📋 Assinatura Geral do Relatório</b>
+            <div style="text-align:center; font-size:20px; line-height:1.7; color:#334155;">
                 ${personalizarTexto(resumoGeral)}
 
             </div>
