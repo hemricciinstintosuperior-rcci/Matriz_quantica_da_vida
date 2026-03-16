@@ -3497,7 +3497,7 @@ financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras n
 <p>A análise dessas sequências mostra como a vibração material está operando dentro da sua Pirâmide da Vida neste momento, oferecendo uma visão mais clara para que suas escolhas financeiras sejam feitas com maior consciência e equilíbrio.</p>`,
 
 vigencias:`<h1>✡︎ O que são as Potências na Vida(Principal) ?</h1>
-<p>As Vigências representam os ciclos temporais em que determinadas potências numerológicas se tornam predominantes na sua vida. Assim como as estações do ano alteram o ritmo da natureza, as vigências indicam períodos em que diferentes energias passam a influenciar as experiências que você vive.</p>
+<p>As Potências representam os ciclos temporais em que determinadas potências numerológicas se tornam predominantes na sua vida. Assim como as estações do ano alteram o ritmo da natureza, as vigências indicam períodos em que diferentes energias passam a influenciar as experiências que você vive.</p>
 
 <p>Cada fase carrega um tipo específico de movimento. Existem momentos voltados para crescimento, expansão e realização, assim como períodos que pedem reflexão, reorganização ou preparação para mudanças futuras. Esses ciclos não surgem por acaso, mas fazem parte de um fluxo natural que organiza o desenvolvimento da sua trajetória.</p>
 
@@ -3547,7 +3547,7 @@ financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras n
 <p>Compreender essa vibração pessoal ajuda a perceber se sua mente está favorecendo ou limitando sua relação com a prosperidade. Ao reconhecer esse padrão interno, torna-se possível ajustar pensamentos e atitudes para criar uma relação mais equilibrada com a energia material.</p>`,
 
 vigencias:`<h1>✡︎ O que são as Potências do sentimento Pessoal(interior)?</h1>
-<p>As Vigências da Pirâmide Pessoal representam ciclos internos de percepção, reflexão e amadurecimento mental. Diferente das vigências da Pirâmide da Vida, que indicam acontecimentos externos mais concretos, essas fases revelam mudanças no seu estado psicológico e emocional ao longo do tempo.</p>
+<p>As Potências da Pirâmide Pessoal representam ciclos internos de percepção, reflexão e amadurecimento mental. Diferente das vigências da Pirâmide da Vida, que indicam acontecimentos externos mais concretos, essas fases revelam mudanças no seu estado psicológico e emocional ao longo do tempo.</p>
 
 <p>Cada período pode trazer uma atmosfera mental diferente. Existem fases em que a mente se volta mais para introspecção e autoconhecimento, enquanto outras estimulam maior clareza de pensamento, criatividade ou desejo de transformação pessoal.</p>
 
@@ -3596,7 +3596,7 @@ financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras S
 <p>Ao reconhecer esse padrão vibracional no campo social, você passa a perceber com maior clareza como o fluxo material circula entre as pessoas ao seu redor, entendendo melhor o contexto econômico das relações e das oportunidades que aparecem nesse ambiente.</p>`,
 
 vigencias:`<h1>✡︎ O que são as Potências no seu meio social?</h1>
-<p>As Vigências da Pirâmide Social representam os ciclos que influenciam o ambiente coletivo ao seu redor ao longo do tempo. Esses períodos mostram como determinadas energias passam a atuar nas relações sociais, nos grupos e nas interações que fazem parte do seu cotidiano.</p>
+<p>As Potências da Pirâmide Social representam os ciclos que influenciam o ambiente coletivo ao seu redor ao longo do tempo. Esses períodos mostram como determinadas energias passam a atuar nas relações sociais, nos grupos e nas interações que fazem parte do seu cotidiano.</p>
 
 <p>Cada fase pode trazer mudanças na forma como as pessoas se relacionam, colaboram ou enfrentam desafios em conjunto. Existem momentos em que o ambiente social favorece conexões, cooperação e crescimento coletivo, enquanto outros períodos podem trazer maior tensão ou necessidade de ajustes nas relações.</p>
 
@@ -3608,7 +3608,7 @@ vigencias:`<h1>✡︎ O que são as Potências no seu meio social?</h1>
 
 destino:{
 
-regente:`<h1>Regente do Destino  🔱</h1>
+regente:`<h1>🔱  Regente do Destino  </h1>
 <p>O Regente do Destino representa uma força de influência que atua sobre a sua jornada de vida a partir de fatores externos ao seu núcleo essencial. Diferente do Regente da Vida, que expressa quem você é em sua essência, o Regente do Destino revela uma vibração que pode direcionar acontecimentos, encontros e experiências importantes ao longo do seu caminho.</p>
 
 <p>Essa energia funciona como um campo de propósito ou influência que se manifesta através das circunstâncias da vida. Muitas vezes ela aparece por meio de oportunidades inesperadas, mudanças de direção ou situações que parecem conduzir você para determinados caminhos que possuem um significado maior dentro da sua trajetória.</p>
@@ -3645,7 +3645,7 @@ financeiro:`<h1 style="color:#2e7d32;">💰 O que é uma Sequência Financeira d
 <p>Compreender essa dinâmica ajuda a perceber quando certos movimentos financeiros fazem parte de um contexto maior de transformação no caminho da vida, permitindo que você reconheça melhor as oportunidades que surgem através das circunstâncias externas.</p>`,
 
 vigencias:`<h1>✡︎ O que são as Potências do Destino?</h1>
-<p>As Vigências da Pirâmide do Destino representam períodos em que determinadas influências externas ganham maior força dentro da sua trajetória de vida. Esses ciclos indicam momentos em que acontecimentos, encontros ou mudanças podem exercer um papel importante no direcionamento do seu caminho.</p>
+<p>As Potências da Pirâmide do Destino representam períodos em que determinadas influências externas ganham maior força dentro da sua trajetória de vida. Esses ciclos indicam momentos em que acontecimentos, encontros ou mudanças podem exercer um papel importante no direcionamento do seu caminho.</p>
 
 <p>Diferente das vigências da Pirâmide da Vida, que refletem ciclos pessoais, aqui observamos fases em que forças externas parecem organizar circunstâncias que contribuem para a evolução do seu percurso.</p>
 
