@@ -270,12 +270,14 @@ div.texto, .blocoRelatorio div, .box p {
         <button onclick="mostrarAba('pessoal')">Pessoal</button>
         <button onclick="mostrarAba('social')">Social</button>
         <button onclick="mostrarAba('destino')">Influência e Propósito</button>
+        <button onclick="mostrarAba('resultado')">Resultado da Dinâmica</button>
     </div>
-
+    <div id="aba_resultado" class="aba" style="display:none"></div>
     <div id="aba_principal" class="aba" style="display:block"></div>
     <div id="aba_pessoal" class="aba"></div>
     <div id="aba_social" class="aba"></div>
     <div id="aba_destino" class="aba"></div>
+       
 </div>
 
 
@@ -790,7 +792,9 @@ function gerar() {
     document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
     document.getElementById("aba_social").innerHTML = htmlSocial;
     document.getElementById("aba_destino").innerHTML = htmlDestino;
-
+document.getElementById("aba_resultado").innerHTML = gerarSinteseFinal(
+    potVida, potPessoal, potSocial, potDestino, window.textosSintese || {}
+);
     localStorage.setItem("relatorioPiramide", JSON.stringify({
         nome, data: data.split("-").reverse().join("/"),
         abaPrincipal: htmlSintese + htmlVida, abaPessoal: htmlPessoal, abaSocial: htmlSocial, abaDestino: htmlDestino
