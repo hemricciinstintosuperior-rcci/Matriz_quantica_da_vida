@@ -6,11 +6,73 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#111827">
 <style>
-body { font-family: Arial, sans-serif; background:#ffffff; color:#000; text-align:center; margin: 0; padding: 10px; }
-input, button { padding:12px; margin:8px auto; border-radius:8px; border:none; display: block; box-sizing: border-box; width: 100%; max-width: 600px; }
-input { font-size: 18px; background-color: #f3f4f6; border: 1px solid #d1d5db; }
-button { background:#facc15; font-weight:bold; cursor:pointer; transition: transform 0.1s; }
-button:active { transform: scale(0.98); }
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f9fafb, #e5e7eb);
+    color: #111827;
+    margin: 0;
+    padding: 20px;
+}
+
+/* CONTAINER CENTRAL */
+.folhaRelatorio {
+    background: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+/* INPUTS */
+input {
+    padding: 14px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+    background: #f9fafb;
+}
+
+/* BOTÕES */
+button {
+    padding: 14px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* BOTÃO PRINCIPAL */
+button:first-of-type {
+    background: linear-gradient(90deg, #6366f1, #4338ca);
+    color: white;
+}
+
+/* BOTÃO PREMIUM */
+button:last-of-type {
+    background: linear-gradient(90deg, #facc15, #eab308);
+    color: #111827;
+}
+
+/* HOVER */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* TÍTULO */
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
 
 /* --- ESTILO DA PIRÂMIDE --- */
 .piramide.compacta { font-size: 10px; line-height: 0.80; padding: 5px 0; display: inline-block; }
@@ -102,7 +164,22 @@ h1, h2, h3 {
 /* --- LAYOUT E RELATÓRIO --- */
 .box { background:#ffffff; border:2px solid #fff; padding:15px; margin:15px auto; border-radius:10px; max-width:800px; }
 .box p { white-space: pre-wrap; display: block; margin-bottom: 15px; line-height: 1.6; }   
-.abas { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; max-width: 800px; margin-left: auto; margin-right: auto; }
+.abas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.abas button {
+    width: auto;
+    padding: 10px 16px;
+    background: #e5e7eb;
+}
+
+.abas button:hover {
+    background: #c7d2fe;
+}
 .aba { margin-top:20px; display:none; }
 .folhaRelatorio { background:white; width: 100%; max-width:800px; margin:20px auto; padding: 20px 10px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.05); }
 
