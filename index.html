@@ -211,11 +211,22 @@ div.texto, .blocoRelatorio div, .box p {
 
 
 <h2>Matriz Quântica da Vida</h2>
-Nome completo igual certidão
-<input id="nome" placeholder="">
-    
-Data de nascimento
-<input type="date" id="data">
+
+<div class="topo-dados">
+
+    <div class="campo">
+        <label>Nome completo (igual à certidão)</label>
+        <input id="nome">
+    </div>
+
+    <div class="campo">
+        <label>Data de nascimento</label>
+        <input id="data" type="date">
+    </div>
+
+</div>
+
+<div class="abas">
 
 <button onclick="gerar()">GERAR AS MATRIZES</button>
 <button onclick="abrirPremium()">LIBERAR O RELATÓRIO E BAIXAR O PDF</button>
