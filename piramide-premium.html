@@ -42,25 +42,54 @@
     .rodape{text-align:center;margin-top:50px;font-size:20px;color:#999; border-top: 1px solid #fff; padding-top: 20px;}
     .btn-container { text-align:center; margin: 10px 0; }
     button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold; font-size: 30px; border-radius: 8px; cursor: pointer;  }
-#relatorio-premium {
-    display: none; /* Esconde na tela */
-}
-
-@media print {
-    #relatorio-premium {
-        display: block; /* Mostra somente na hora de gerar o PDF */
-    }
-}
-
-.btn-container {
+/* Centralização geral */
+.btn-container, .logo-container, .nomeCliente {
     text-align: center;
-    margin: 30px 0; /* Distância do botão para o nome */
+    width: 100%;
+}
+
+.logo-container img.logo {
+    max-width: 300px;
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
 }
 
 .nomeCliente {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 50px;
+    font-size: 22px;
+    margin: 20px auto 50px auto;
+}
+
+/* Esconde o relatório na tela */
+#relatorio-premium {
+    display: none;
+}
+
+/* Mostra apenas no PDF */
+@media print {
+    #relatorio-premium {
+        display: block;
+    }
+
+    .btn-container, .logo-container, .nomeCliente {
+        display: none; /* não imprimir botão e tela de nome */
+    }
+}
+
+/* Responsividade para celular */
+@media (max-width: 480px) {
+    .logo-container img.logo {
+        width: 70%;
+        max-width: 200px;
+    }
+    .nomeCliente {
+        font-size: 18px;
+    }
+    .btn-container button {
+        font-size: 20px;
+        padding: 12px 20px;
+    }
 }
    
    /* Títulos centralizados */
@@ -84,13 +113,7 @@ h1, h2, h3 {
     opacity: 1.9; /* Um pouco de transparência para ficar elegante */
 }
 
-/* Garante que o conteúdo não cubra a logo na impressão */
-@media print {
-    .mini-logo-fixa {
-        display: block !important;
-        -webkit-print-color-adjust: exact;
-    }
-}
+
 /* Textos e parágrafos alinhados à esquerda */
 .texto, .box p, .blocoRelatorio p, .blocoRelatorio div {
     text-align: left !important; /* Força o alinhamento à esquerda */
