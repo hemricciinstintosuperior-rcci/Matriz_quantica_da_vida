@@ -116,37 +116,61 @@
     }
 
     .num {
-        width: 18px;
-        height: 18px;
-        border-radius: 4px;
+        width: 22px;
+        height: 22px;
+        border-radius: 6px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-weight: bold;
         font-size: 16px;
-        color: #000;
+        color: #fff;
         background: #02B0F2;
+        box-shadow: 0 0 6px rgba(0,0,0,0.1);
+        transition: 0.2s;
     }
 
-    .num.negativo { background:#FF0000 !important; color:#fff !important; box-shadow: 0 0 8px rgba(255,0,0,0.5);}
-    .num.especial { background:#b8860b !important; color:#fff !important; box-shadow: 0 0 6px rgba(184,134,11,0.6);}
-    .num.financeiro { background:#34c759 !important; color:#fff !important; box-shadow: 0 0 6px rgba(52,199,89,0.6);}
+    /* Cores diferenciadas */
+    .num.negativo { background:#FF0000 !important; box-shadow: 0 0 8px rgba(255,0,0,0.5);}
+    .num.especial { background:#b8860b !important; box-shadow: 0 0 6px rgba(184,134,11,0.6);}
+    .num.financeiro { background:#34c759 !important; box-shadow: 0 0 6px rgba(52,199,89,0.6);}
 
     /* --- BLOCO DE RELATÓRIO --- */
     .box {
         border: 1px solid #e2e8f0;
         padding: 20px;
         margin: 15px 0;
-        border-radius: 8px;
-        background: #f9f9f9;
+        border-radius: 10px;
+        background: #fdfdfd;
         text-align: left;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        transition: 0.2s;
     }
+
+    .box:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
 
     .box p {
         margin-bottom: 12px;
         line-height: 1.5;
         color: #333;
     }
+
+    /* --- BOTÕES --- */
+    .btn-container { text-align:center; margin: 30px 0; }
+    button {
+        background: #facc15;
+        border: none;
+        padding: 12px 28px;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    button:hover { transform: scale(1.05); }
+
+    /* --- TITULOS CENTRALIZADOS --- */
+    h1, h2, h3 { text-align:center; color:#111827; margin-bottom: 15px; }
 
     /* --- RODAPÉ --- */
     .rodape {
@@ -158,26 +182,9 @@
         padding-top: 20px;
     }
 
-    /* --- BOTÕES --- */
-    .btn-container { text-align:center; margin: 30px 0; }
-    button {
-        background: #facc15;
-        border: none;
-        padding: 12px 25px;
-        font-weight: bold;
-        font-size: 16px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.2s;
-    }
-    button:hover { transform: scale(1.02); }
-
-    /* --- TITULOS CENTRALIZADOS --- */
-    h1, h2, h3 { text-align:center; color:#111827; margin-bottom: 15px; }
-
     /* --- RESPONSIVO --- */
     @media(max-width: 768px) {
-        .num { width:14px; height:14px; font-size:14px; }
+        .num { width:18px; height:18px; font-size:14px; }
         .secao { padding: 15px 20px; }
         .texto { font-size:14px; }
     }
@@ -226,20 +233,25 @@
     <div class="piramide">
         <div class="linha">
             <div class="num">1</div>
-            <div class="num">2</div>
+            <div class="num especial">2</div>
             <div class="num">3</div>
         </div>
         <div class="linha">
-            <div class="num">4</div>
-            <div class="num">5</div>
+            <div class="num negativo">4</div>
+            <div class="num financeiro">5</div>
         </div>
         <div class="linha">
             <div class="num">6</div>
         </div>
     </div>
 
-    <div class="texto">
-        Aqui vai o texto do relatório premium, mantendo todas as funcionalidades existentes sem remover nenhum bloco.
+    <div class="box">
+        <p>Aqui vai o texto detalhado do relatório premium, mantendo todas as funcionalidades existentes. As cores indicam o tipo de sequência: vermelho = negativo, dourado = especial, verde = financeiro.</p>
+        <p>Mantenha todos os blocos, pirâmides e conteúdos funcionais, apenas com design mais elegante e legível para o cliente.</p>
+    </div>
+
+    <div class="btn-container">
+        <button>Exportar PDF</button>
     </div>
 </div>
 
