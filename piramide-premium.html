@@ -42,7 +42,30 @@
     .rodape{text-align:center;margin-top:50px;font-size:20px;color:#999; border-top: 1px solid #fff; padding-top: 20px;}
     .btn-container { text-align:center; margin: 10px 0; }
     button{ background: #facc15; border: none; padding: 15px 30px; font-weight: bold; font-size: 30px; border-radius: 8px; cursor: pointer;  }
-/* Títulos centralizados */
+#relatorio-premium {
+    display: none; /* Esconde na tela */
+}
+
+@media print {
+    #relatorio-premium {
+        display: block; /* Mostra somente na hora de gerar o PDF */
+    }
+}
+
+.btn-container {
+    text-align: center;
+    margin: 30px 0; /* Distância do botão para o nome */
+}
+
+.nomeCliente {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+   
+   /* Títulos centralizados */
+
+   
 h1, h2, h3 {
     text-align: center !important;
     width: 100%;
@@ -118,18 +141,20 @@ if(!dados){
 } else {
     const rel = JSON.parse(dados);
     document.getElementById("conteudo").innerHTML = `
-    <div class="capa">
-        <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png"></div>
-    <div class="btn-container">
+        <div class="btn-container">   
         <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
     </div>
         
+    <div class="capa">
+        <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png"></div>
+        <div class="nomeCliente">Relatório Personalizado para:<br><strong>${rel.nome}</strong><br>Nascimento: ${rel.data}</div>
+    </div>
+
        
 <div id="relatorio-premium">
     <!-- Todo o conteúdo do relatório vai aqui -->
 
-   <div class="nomeCliente">Relatório Personalizado para:<br><strong>${rel.nome}</strong><br>Nascimento: ${rel.data}</div>
-    </div>
+
                  
   
 
