@@ -227,32 +227,41 @@ div.texto, .blocoRelatorio div, .box p {
 <body>
 <div class="container">
 
-<!-- TUDO que já existe -->
+    <h2>Matriz Quântica da Vida</h2>
 
+    <!-- DADOS -->
+    <div class="card">
 
-<h2>Matriz Quântica da Vida</h2>
+        <h3>Dados Pessoais</h3>
 
-<div class="topo-dados">
+        <div class="topo-dados">
 
-    <div class="campo">
-        <label>Nome completo (igual à certidão)</label>
-        <input id="nome">
+            <div class="campo">
+                <label>Nome completo (igual à certidão)</label>
+                <input id="nome">
+            </div>
+
+            <div class="campo">
+                <label>Data de nascimento</label>
+                <input id="data" type="date">
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="campo">
-        <label>Data de nascimento</label>
-        <input id="data" type="date">
+    <!-- AÇÕES -->
+    <div class="card">
+
+        <h3>Gerar Análise</h3>
+
+        <button onclick="gerarRelatorio()">Gerar Relatório</button>
+        <button onclick="gerarPremium()">Relatório Premium</button>
+
     </div>
+   <div class="card">
 
-</div>
-
-<div class="abas">
-
-<button onclick="gerar()">GERAR AS MATRIZES</button>
-<button onclick="abrirPremium()">LIBERAR O RELATÓRIO E BAIXAR O PDF</button>
-
-<div class="folhaRelatorio">
-    <div id="resultado"></div>
+        <h3>Resultados</h3>
     <div class="abas">
         <button onclick="mostrarAba('principal')">Principal / Vida</button>
         <button onclick="mostrarAba('pessoal')">Pessoal</button>
@@ -264,6 +273,7 @@ div.texto, .blocoRelatorio div, .box p {
     <div id="aba_pessoal" class="aba"></div>
     <div id="aba_social" class="aba"></div>
     <div id="aba_destino" class="aba"></div>
+</div>
 </div>
 
 <script src="textos.js"></script>
