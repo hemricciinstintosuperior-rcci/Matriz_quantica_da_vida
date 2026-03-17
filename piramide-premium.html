@@ -152,6 +152,22 @@ div.texto, .blocoRelatorio div, .box p {
         display: block; /* Mostra somente na hora de gerar o PDF */
     }
 }    
+
+@media print {
+    #relatorio-premium {
+        display: block; /* mantém relatório completo no PDF */
+    }
+
+    /* Mostrar também a pirâmide e o nome no PDF */
+    .logo-container, .nomeCliente {
+        display: block !important;
+    }
+
+    /* Esconder só o botão no PDF */
+    .btn-container {
+        display: none !important;
+    }
+}   
 </style>
 </head>
 <body>
@@ -185,11 +201,7 @@ if(!dados){
 <div id="relatorio-premium">
     <!-- Todo o conteúdo do relatório vai aqui -->
 
-    <div class="capa">
-        <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png">
-                   
-        <div class="nomeCliente">Relatório Personalizado para:<br><strong>${rel.nome}</strong><br>Nascimento: ${rel.data}</div>
-    </div>
+
   
 
     <div class="sumario-detalhado">
