@@ -5,257 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Relatório Premium • Pirâmide Quântica</title>
 <style>
-    /* --- RESET E BASE --- */
-    html, body {
-        margin: 0;
-        padding: 0;
-        font-family: "Times New Roman", serif;
-        background: #fefefe;
-        color: #111;
-        line-height: 1.5;
-        -webkit-print-color-adjust: exact !important;
-        print-color-adjust: exact !important;
-    }
-
-    /* --- CAPA --- */
-    .capa {
-        background: #ffffff;
-        text-align: center;
-        padding: 120px 40px;
-        page-break-after: always;
-        border-radius: 12px;
-        box-shadow: 0 0 20px rgba(0,0,0,0.05);
-    }
-
-    .logo {
-        max-width: 400px;
-        margin-bottom: 40px;
-    }
-
-    .nomeCliente {
-        margin-top: 50px;
-        font-size: 28px;
-        border-top: 1px solid #ccc;
-        padding-top: 20px;
-        display: inline-block;
-    }
-
-    /* --- SUMÁRIO DETALHADO --- */
-    .sumario-detalhado {
-        max-width: 800px;
-        margin: 20px auto;
-        background: #ffffff;
-        padding: 30px 40px;
-        border-radius: 12px;
-        border: 1px solid #e2e8f0;
-        page-break-after: always;
-    }
-
-    .sumario-detalhado h2 {
-        text-align: center;
-        text-transform: uppercase;
-        border-bottom: 3px solid #facc15;
-        padding-bottom: 10px;
-        margin-bottom: 30px;
-    }
-
-    .secao-indice { margin-bottom: 20px; }
-    .titulo-secao-indice {
-        font-weight: bold;
-        font-size: 18px;
-        text-transform: uppercase;
-        color: #4338ca;
-        border-bottom: 1px solid #eee;
-        display: block;
-        margin-bottom: 8px;
-    }
-
-    .item-sub-indice {
-        font-size: 16px;
-        color: #333;
-        line-height: 1.6;
-        border-bottom: 1px dotted #eee;
-        padding: 4px 0;
-        margin-left: 20px;
-    }
-
-    /* --- SEÇÕES DO RELATÓRIO --- */
-    .secao {
-        max-width: 800px;
-        margin: 20px auto;
-        background: #ffffff;
-        padding: 20px 25px;
-        border-radius: 12px;
-        box-shadow: 0 0 15px rgba(0,0,0,0.05);
-        page-break-inside: avoid;
-    }
-
-    .texto {
-        white-space: pre-line;
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: justify;
-        color: #333;
-        margin-bottom: 15px;
-    }
-
-    /* --- PIRÂMIDE --- */
-    .piramide {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px 0;
-        font-family: monospace;
-    }
-
-    .linha {
-        display: flex;
-        justify-content: center;
-        margin: 2px 0;
-        gap: 4px;
-    }
-
-    .num {
-        width: 22px;
-        height: 22px;
-        border-radius: 6px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        font-size: 16px;
-        color: #fff;
-        background: #02B0F2;
-        box-shadow: 0 0 6px rgba(0,0,0,0.1);
-        transition: 0.2s;
-    }
-
-    /* Cores diferenciadas */
-    .num.negativo { background:#FF0000 !important; box-shadow: 0 0 8px rgba(255,0,0,0.5);}
-    .num.especial { background:#b8860b !important; box-shadow: 0 0 6px rgba(184,134,11,0.6);}
-    .num.financeiro { background:#34c759 !important; box-shadow: 0 0 6px rgba(52,199,89,0.6);}
-
-    /* --- BLOCO DE RELATÓRIO --- */
-    .box {
-        border: 1px solid #e2e8f0;
-        padding: 20px;
-        margin: 15px 0;
-        border-radius: 10px;
-        background: #fdfdfd;
-        text-align: left;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-        transition: 0.2s;
-    }
-
-    .box:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-
-    .box p {
-        margin-bottom: 12px;
-        line-height: 1.5;
-        color: #333;
-    }
-
-    /* --- BOTÕES --- */
-    .btn-container { text-align:center; margin: 30px 0; }
-    button {
-        background: #facc15;
-        border: none;
-        padding: 12px 28px;
-        font-weight: bold;
-        font-size: 16px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: 0.2s;
-    }
-    button:hover { transform: scale(1.05); }
-
-    /* --- TITULOS CENTRALIZADOS --- */
-    h1, h2, h3 { text-align:center; color:#111827; margin-bottom: 15px; }
-
-    /* --- RODAPÉ --- */
-    .rodape {
-        text-align: center;
-        margin-top: 50px;
-        font-size: 16px;
-        color: #666;
-        border-top: 1px solid #e2e8f0;
-        padding-top: 20px;
-    }
-
-    /* --- RESPONSIVO --- */
-    @media(max-width: 768px) {
-        .num { width:18px; height:18px; font-size:14px; }
-        .secao { padding: 15px 20px; }
-        .texto { font-size:14px; }
-    }
+  body { font-family: "Times New Roman", serif; background: #f9f9f9; margin:0; color:#111; }
+  h1,h2,h3 { text-align:center; margin-bottom:15px; }
+  .container { max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.05); }
+  .abas { text-align:center; margin-bottom:20px; }
+  .abas button { background:#facc15; color:#000; border:none; padding:10px 20px; margin:0 5px; cursor:pointer; border-radius:5px; font-weight:bold; transition:0.2s; }
+  .abas button.active { background:#111827; color:#fff; }
+  .aba { display:none; }
+  .aba.active { display:block; }
+  .piramide { display:flex; flex-direction:column; align-items:center; margin:20px 0; font-family: monospace; }
+  .linha { display:flex; justify-content:center; gap:4px; margin:2px 0; }
+  .num { width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-weight:bold; border-radius:4px; background:#02B0F2; color:#000; }
+  .num.negativo { background:#FF0000; color:#fff; }
+  .num.especial { background:#b8860b; color:#fff; }
+  .num.financeiro { background:#34c759; color:#fff; }
+  .blocoRelatorio { margin-bottom:20px; padding:15px; border-left:5px solid #facc15; background:#f4f4f4; }
+  .blocoRelatorio h2 { margin-top:0; }
+  p { line-height:1.5; text-align:justify; }
 </style>
 </head>
 <body>
 
-<!-- Capa -->
-<div class="capa">
-    <img src="logo.png" class="logo" alt="Logo">
-    <div class="nomeCliente">Nome do Cliente</div>
+<div class="container">
+  <h1>Relatório Premium • Pirâmide Quântica</h1>
+  <div class="abas">
+    <button onclick="mostrarAbaPremium('principal')" class="active">Principal / Vida</button>
+    <button onclick="mostrarAbaPremium('pessoal')">Pessoal</button>
+    <button onclick="mostrarAbaPremium('social')">Social</button>
+    <button onclick="mostrarAbaPremium('destino')">Destino</button>
+  </div>
+
+  <div id="aba_principal" class="aba active"></div>
+  <div id="aba_pessoal" class="aba"></div>
+  <div id="aba_social" class="aba"></div>
+  <div id="aba_destino" class="aba"></div>
 </div>
 
-<!-- Sumário Detalhado -->
-<div class="sumario-detalhado">
-    <h2>Sumário Detalhado</h2>
-    <div class="secao-indice">
-        <span class="titulo-secao-indice">Matriz da Vida</span>
-        <div class="item-sub-indice">Introdução</div>
-        <div class="item-sub-indice">Análise de Sequências</div>
-        <div class="item-sub-indice">Fluxo de Potências</div>
-    </div>
-    <div class="secao-indice">
-        <span class="titulo-secao-indice">Matriz Pessoal</span>
-        <div class="item-sub-indice">Introdução</div>
-        <div class="item-sub-indice">Análise de Sequências</div>
-        <div class="item-sub-indice">Fluxo de Potências</div>
-    </div>
-    <div class="secao-indice">
-        <span class="titulo-secao-indice">Matriz Social</span>
-        <div class="item-sub-indice">Introdução</div>
-        <div class="item-sub-indice">Análise de Sequências</div>
-        <div class="item-sub-indice">Fluxo de Potências</div>
-    </div>
-    <div class="secao-indice">
-        <span class="titulo-secao-indice">Matriz de Destino</span>
-        <div class="item-sub-indice">Introdução</div>
-        <div class="item-sub-indice">Análise de Sequências</div>
-        <div class="item-sub-indice">Fluxo de Potências</div>
-    </div>
-</div>
+<script>
+  // Função para alternar abas
+  function mostrarAbaPremium(nome){
+      document.querySelectorAll('.aba').forEach(a=>a.classList.remove('active'));
+      document.getElementById('aba_'+nome).classList.add('active');
 
-<!-- Conteúdo Principal -->
-<div class="secao">
-    <h1>Matriz Quântica da Vida</h1>
-    <div class="piramide">
-        <div class="linha">
-            <div class="num">1</div>
-            <div class="num especial">2</div>
-            <div class="num">3</div>
-        </div>
-        <div class="linha">
-            <div class="num negativo">4</div>
-            <div class="num financeiro">5</div>
-        </div>
-        <div class="linha">
-            <div class="num">6</div>
-        </div>
-    </div>
+      document.querySelectorAll('.abas button').forEach(b=>b.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+  }
 
-    <div class="box">
-        <p>Aqui vai o texto detalhado do relatório premium, mantendo todas as funcionalidades existentes. As cores indicam o tipo de sequência: vermelho = negativo, dourado = especial, verde = financeiro.</p>
-        <p>Mantenha todos os blocos, pirâmides e conteúdos funcionais, apenas com design mais elegante e legível para o cliente.</p>
-    </div>
-
-    <div class="btn-container">
-        <button>Exportar PDF</button>
-    </div>
-</div>
-
-<div class="rodape">© 2026 - Pirâmide Quântica • Todos os direitos reservados</div>
+  // Pega dados do localStorage gerados pelo index
+  const relatorio = JSON.parse(localStorage.getItem('relatorioPiramide'));
+  if(relatorio){
+      document.getElementById('aba_principal').innerHTML = relatorio.abaPrincipal;
+      document.getElementById('aba_pessoal').innerHTML = relatorio.abaPessoal;
+      document.getElementById('aba_social').innerHTML = relatorio.abaSocial;
+      document.getElementById('aba_destino').innerHTML = relatorio.abaDestino;
+  }
+</script>
 
 </body>
 </html>
