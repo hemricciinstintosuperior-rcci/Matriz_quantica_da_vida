@@ -5,64 +5,282 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Relatório Premium • Pirâmide Quântica</title>
 <style>
-  body { font-family: "Times New Roman", serif; background: #f9f9f9; margin:0; color:#111; }
-  h1,h2,h3 { text-align:center; margin-bottom:15px; }
-  .container { max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.05); }
-  .abas { text-align:center; margin-bottom:20px; }
-  .abas button { background:#facc15; color:#000; border:none; padding:10px 20px; margin:0 5px; cursor:pointer; border-radius:5px; font-weight:bold; transition:0.2s; }
-  .abas button.active { background:#111827; color:#fff; }
-  .aba { display:none; }
-  .aba.active { display:block; }
-  .piramide { display:flex; flex-direction:column; align-items:center; margin:20px 0; font-family: monospace; }
-  .linha { display:flex; justify-content:center; gap:4px; margin:2px 0; }
-  .num { width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-weight:bold; border-radius:4px; background:#02B0F2; color:#000; }
-  .num.negativo { background:#FF0000; color:#fff; }
-  .num.especial { background:#b8860b; color:#fff; }
-  .num.financeiro { background:#34c759; color:#fff; }
-  .blocoRelatorio { margin-bottom:20px; padding:15px; border-left:5px solid #facc15; background:#f4f4f4; }
-  .blocoRelatorio h2 { margin-top:0; }
-  p { line-height:1.5; text-align:justify; }
+    html, body {
+        background: transparent;
+        font-family:"Times New Roman",serif;
+        margin:0;
+        color:#1a1a1a;
+    }
+    *{-webkit-print-color-adjust:exact!important; print-color-adjust:exact!important;}
+
+    /* Capa */
+    .capa {
+        background:white;
+        text-align:center;
+        padding:100px 40px;
+        page-break-after: always;
+    }
+    .logo { max-width:900px; margin-bottom:40px; }
+    .mini-logo-fixa {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 60px;
+        height: auto;
+        z-index: 9999;
+        pointer-events: none;
+        opacity: 1.9;
+    }
+    .nomeCliente {
+        margin-top:50px;
+        font-size:28px;
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+        display: inline-block;
+    }
+
+    /* Sumário */
+    .sumario-detalhado {
+        max-width: 800px;
+        margin: 20px auto;
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        page-break-after: always;
+    }
+    .sumario-detalhado h2 { text-align:center; text-transform:uppercase; border-bottom:3px solid #facc15; margin-bottom:30px; }
+    .secao-indice { margin-bottom: 20px; }
+    .titulo-secao-indice {
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #4338ca;
+        border-bottom:1px solid #eee;
+        display:block;
+        margin-bottom:5px;
+    }
+    .item-sub-indice {
+        font-size:16px;
+        margin-left:20px;
+        color:#333;
+        line-height:1.8;
+        border-bottom:1px dotted #eee;
+    }
+
+    /* Seções do relatório */
+    .secao {
+        max-width:800px;
+        margin:20px auto;
+        background:transparent;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 0 20px rgba(0,0,0,.05);
+        page-break-inside: avoid;
+    }
+    .texto {
+        white-space: pre-line;
+        font-size:16px;
+        line-height:1.6;
+        text-align: justify;
+    }
+    .piramide {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:20px 0;
+        font-family: monospace;
+    }
+    .linha {
+        display:flex;
+        justify-content:center;
+        margin:1px 0;
+        gap:4px;
+    }
+    .num {
+        width:15px;
+        height:15px;
+        border-radius:4px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-weight:bold;
+        font-size:16px;
+        color:#000;
+        background:#02B0F2;
+    }
+    .num.negativo { background:#FF0000 !important; color:#fff !important; }
+    .num.especial { background:#b8860b !important; color:#fff !important; }
+    .num.financeiro { background:#34c759 !important; color:#fff !important; }
+
+    .box {
+        border:1px solid #fff;
+        padding:20px;
+        margin:10px 0;
+        border-radius:8px;
+        background:transparent;
+        text-align:center;
+    }
+    .box p { white-space: pre-wrap; display:block; margin-bottom:15px; line-height:1.4; text-align: justify; }
+
+    /* Rodapé */
+    .rodape { text-align:center; margin-top:50px; font-size:20px; color:#999; border-top:1px solid #fff; padding-top:20px; }
+
+    /* Botão PDF */
+    .btn-container { text-align:center; margin:30px 0; }
+    button { background:#facc15; border:none; padding:15px 30px; font-weight:bold; font-size:18px; border-radius:8px; cursor:pointer; }
+
+    /* Títulos centralizados */
+    h1,h2,h3 { text-align:center !important; width:100%; margin-top:25px; margin-bottom:15px; }
+
+    /* Abas do relatório */
+    .abas {
+        display:flex;
+        justify-content:center;
+        gap:10px;
+        margin-bottom:30px;
+    }
+    .aba {
+        padding:10px 20px;
+        border-radius:8px;
+        cursor:pointer;
+        font-weight:bold;
+        border:1px solid #ccc;
+        background:#f3f3f3;
+        color:#000;
+        transition: 0.3s;
+    }
+    .aba.ativa {
+        background:#4338ca;
+        color:#fff;
+        border-color:#4338ca;
+    }
+    .conteudo-aba {
+        display:none;
+    }
+    .conteudo-aba.mostrar { display:block; }
+
+    /* Ajustes impressao */
+    @media print {
+        body { background:transparent !important; }
+        .btn-container { display:none !important; }
+        .mini-logo-fixa { display:block !important; -webkit-print-color-adjust: exact; }
+    }
 </style>
 </head>
 <body>
-   <div class="btn-container">
-        <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
-    </div>
-<div class="container">
-  
-  <h1>Relatório Premium • Pirâmide Quântica</h1>
-  <div class="abas">
-    <button onclick="mostrarAbaPremium('principal')" class="active">Principal / Vida</button>
-    <button onclick="mostrarAbaPremium('pessoal')">Pessoal</button>
-    <button onclick="mostrarAbaPremium('social')">Social</button>
-    <button onclick="mostrarAbaPremium('destino')">Destino</button>
-  </div>
-
-  <div id="aba_principal" class="aba active"></div>
-  <div id="aba_pessoal" class="aba"></div>
-  <div id="aba_social" class="aba"></div>
-  <div id="aba_destino" class="aba"></div>
-</div>
+<div id="conteudo">Gerando seu relatório quântico premium...</div>
 
 <script>
-  // Função para alternar abas
-  function mostrarAbaPremium(nome){
-      document.querySelectorAll('.aba').forEach(a=>a.classList.remove('active'));
-      document.getElementById('aba_'+nome).classList.add('active');
+const dados = localStorage.getItem("relatorioPiramide");
+if(!dados){ 
+    document.body.innerHTML="<div class='secao'>ERRO: Dados não encontrados. Gere as matrizes primeiro.</div>"; 
+} else {
+    const rel = JSON.parse(dados);
+    document.getElementById("conteudo").innerHTML = `
+    <div class="btn-container">
+        <button onclick="window.print()">📄 Baixar Relatório em PDF</button>
+    </div>
 
-      document.querySelectorAll('.abas button').forEach(b=>b.classList.remove('active'));
-      event.currentTarget.classList.add('active');
-  }
+    <div class="capa">
+        <img class="logo" src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/matriz.png">
+        <img src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/ícone-512.jpg" class="mini-logo-fixa">
+        <div class="nomeCliente">Relatório Personalizado para:<br><strong>${rel.nome}</strong><br>Nascimento: ${rel.data}</div>
+    </div>
 
-  // Pega dados do localStorage gerados pelo index
-  const relatorio = JSON.parse(localStorage.getItem('relatorioPiramide'));
-  if(relatorio){
-      document.getElementById('aba_principal').innerHTML = relatorio.abaPrincipal;
-      document.getElementById('aba_pessoal').innerHTML = relatorio.abaPessoal;
-      document.getElementById('aba_social').innerHTML = relatorio.abaSocial;
-      document.getElementById('aba_destino').innerHTML = relatorio.abaDestino;
-  }
+    <div class="sumario-detalhado">
+        <h2>Sumário Completo</h2>
+        <!-- sumário existente -->
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">01. Fundamentos</span>
+            <div class="item-sub-indice">Introdução ao Método Quântico</div>
+            <div class="item-sub-indice">Síntese de Dinâmica do Relatório</div>
+        </div>
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">02. Matriz da Vida (Plano Concreto)</span>
+            <div class="item-sub-indice">Regente da Vida o Principal</div>
+            <div class="item-sub-indice">Vulnerabilidades e Sequências Negativas da Vida</div>
+            <div class="item-sub-indice">Sequências Especiais e Impactos da Vida</div>
+            <div class="item-sub-indice">Fluxo Financeiro e Prosperidade da Vida</div>
+            <div class="item-sub-indice">Cronograma de Vigências (Relógio Mestre) da Vida</div>
+        </div>
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">03. Matriz Pessoal (Plano Interno)</span>
+            <div class="item-sub-indice">Regente Sentimentos e Filtros Emocionais</div>
+            <div class="item-sub-indice">Vulnerabilidades e Sequências Negativas Internas</div>
+            <div class="item-sub-indice">Sequências Especiais e Impactos Internos</div>
+            <div class="item-sub-indice">Fluxo Financeiro e Prosperidade no Nível do Pensamento</div>
+            <div class="item-sub-indice">Cronograma de Vigências (Relógio Mestre) do Intelecto</div>
+        </div>
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">04. Matriz Social (Plano Coletivo)</span>
+            <div class="item-sub-indice">Regente Interação com o Meio e Sociedade</div>
+            <div class="item-sub-indice">Vulnerabilidades e Sequências Negativas do seu Meio</div>
+            <div class="item-sub-indice">Sequências Especiais e Impactos do seu Meio</div>
+            <div class="item-sub-indice">Fluxo Financeiro e Prosperidade do seu Meio</div>
+            <div class="item-sub-indice">Cronograma de Vigências (Relógio Mestre) do seu Meio</div>
+        </div>
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">05. Matriz de Destino (Influência e Propósito)</span>
+            <div class="item-sub-indice">Regente Direcionamento e Intervenção do Universo</div>
+            <div class="item-sub-indice">Vulnerabilidades (Sequências Negativas) do Destino</div>
+            <div class="item-sub-indice">Sequências Especiais e Impactos do Destino</div>
+            <div class="item-sub-indice">Fluxo Financeiro e Prosperidade do Destino</div>
+            <div class="item-sub-indice">Cronograma de Vigências (Relógio Mestre) do Destino</div>
+        </div>
+        <div class="secao-indice">
+            <span class="titulo-secao-indice">06. Finalização</span>
+            <div class="item-sub-indice">Considerações Finais</div>
+            <div class="item-sub-indice">Conclusão: O Equilíbrio dos Elementos</div>
+        </div>
+    </div>
+
+    <!-- Abas interativas -->
+    <div class="abas">
+        <div class="aba ativa" data-alvo="abaPrincipal">Principal</div>
+        <div class="aba" data-alvo="abaPessoal">Pessoal</div>
+        <div class="aba" data-alvo="abaSocial">Social</div>
+        <div class="aba" data-alvo="abaDestino">Destino</div>
+    </div>
+
+    <div id="abaPrincipal" class="conteudo-aba mostrar">${rel.abaPrincipal || ''}</div>
+    <div id="abaPessoal" class="conteudo-aba">${rel.abaPessoal || ''}</div>
+    <div id="abaSocial" class="conteudo-aba">${rel.abaSocial || ''}</div>
+    <div id="abaDestino" class="conteudo-aba">${rel.abaDestino || ''}</div>
+
+    <div class="secao" style="text-align: center;">
+        <h1>Considerações Finais</h1>
+        <div class="texto">
+            <p>Este relatório foi desenvolvido exclusivamente para apoiar o seu processo de autoconhecimento...</p>
+            <p>Você é o arquiteto da sua própria realidade...</p>
+            <p>Gratidão por confiar no trabalho do Instinto Superior...</p>
+            <img src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/ícone-512.jpg" style="max-width:20%; border-radius:10px; margin-bottom:20px;">
+        </div>
+    </div>
+
+    <div class="secao" style="text-align: center; page-break-before: always;">
+        <h2>Conclusão: O Equilíbrio dos elementos</h2>
+        <img src="https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/ícone-512.jpg" style="max-width:60%; border-radius:10px; margin-bottom:20px;">
+        <p style="font-style: italic; font-size: 20px; line-height:1.6;">
+          🏆 Parabéns <strong>${rel.nome}</strong><br><br>
+          "Que sua jornada seja guiada pelo equilíbrio perfeito entre o céu e a terra..."
+        </p>
+    </div>
+
+    <div class="rodape">Relatório Confidencial • Instinto Superior</div>
+    `;
+
+    // Script abas
+    const abas = document.querySelectorAll('.aba');
+    abas.forEach(a => {
+        a.addEventListener('click', () => {
+            document.querySelector('.aba.ativa').classList.remove('ativa');
+            a.classList.add('ativa');
+            document.querySelector('.conteudo-aba.mostrar').classList.remove('mostrar');
+            document.getElementById(a.dataset.alvo).classList.add('mostrar');
+        });
+    });
+}
 </script>
-
 </body>
 </html>
