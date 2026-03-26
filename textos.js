@@ -3460,7 +3460,7 @@ destino: `
 window.introsPiramides = {
 
 vida:{
-regente:`<h1>🔱  Regente da Vida </h1>
+regente:`<h1>🔱  Regente da Piramide</h1>
 <p>O Regente da Vida representa o núcleo vibracional da sua existência. Ele é a força central que sustenta toda a estrutura da sua Pirâmide da Vida, funcionando como o eixo principal em torno do qual todas as demais energias se organizam. Assim como o Sol mantém o equilíbrio do sistema solar, o Regente mantém o alinhamento das experiências que compõem a sua trajetória.</p>
 
 <p>Essa vibração revela a essência mais autêntica da sua natureza, indicando como você reage aos acontecimentos, quais padrões emocionais predominam e de que maneira sua energia se projeta no mundo. Diferente de eventos momentâneos, o Regente atua como uma base constante que acompanha você durante toda a vida.</p>
