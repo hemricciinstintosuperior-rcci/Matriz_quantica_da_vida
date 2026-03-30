@@ -65,7 +65,30 @@
 #relatorio-premium {
     display: none;
 }
-
+.capa-transicao {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border: 5px solid var(--gold);
+    margin: 40px 0;
+    text-align: center;
+    page-break-before: always;
+}
+.capa-transicao h2 {
+    font-size: 35px;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.capa-transicao p {
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+    max-width: 80%;
+}
 /* Mostra apenas no PDF */
 @media print {
     #relatorio-premium {
@@ -281,9 +304,34 @@ Este relatório não é uma análise superficial. É a leitura estrutural da arq
 A proposta final do método é ampliar consciência. Quando há clareza sobre essas interações, a vida deixa de ser apenas vivida e passa a ser compreendida em sua dinâmica vibracional profunda.</div>
     </div>
 
+    
+    <div class="capa-transicao">
+        <p>PARTE 02</p>
+        <h2>Sua Essência e <br> Identidade Numerológica</h2>
+        <p>A definição da sua personalidade e propósito original..</p>
+    </div>
     ${rel.abaPrincipal ? `<div class="secao"style="text-align: center;">${rel.abaPrincipal}</div>` : ''}
+
+    <div class="capa-transicao">
+        <p>PARTE 02</p>
+        <h2>Sua Essência e <br> Identidade Numerológica</h2>
+        <p>A definição da sua personalidade e propósito original..</p>
+    </div>
+    
     ${rel.abaPessoal ? `<div class="secao"style="text-align: center;">${rel.abaPessoal}</div>` : ''}
+
+        <div class="capa-transicao">
+        <p>PARTE 02</p>
+        <h2>Sua Essência e <br> Identidade Numerológica</h2>
+        <p>A definição da sua personalidade e propósito original..</p>
+    </div>
     ${rel.abaSocial ? `<div class="secao"style="text-align: center;">${rel.abaSocial}</div>` : ''}
+
+        <div class="capa-transicao">
+        <p>PARTE 02</p>
+        <h2>Sua Essência e <br> Identidade Numerológica</h2>
+        <p>A definição da sua personalidade e propósito original..</p>
+    </div>
     ${rel.abaDestino ? `<div class="secao"style="text-align: center;">${rel.abaDestino}</div>` : ''}
 
     <div class="secao" style="text-align: center;">
