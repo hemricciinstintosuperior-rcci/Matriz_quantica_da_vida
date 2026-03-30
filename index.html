@@ -211,6 +211,32 @@ h1, h2, h3 {
     color: white;
 }
 
+.capa-transicao {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 5px solid var(--gold);
+    margin: 40px 0;
+    text-align: center;
+    page-break-before: always;
+}
+.capa-transicao h2 {
+    font-size: 35px;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.capa-transicao p {
+    font-size: 18px;
+    color: #000;
+    opacity: 0.7;
+    max-width: 80%;
+}
+    
+
 .folhaRelatorio { background:white; width: 100%; max-width:800px; margin:20px auto; padding: 20px 10px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.05); }
 
 @media(min-width: 768px) { .abas { display: block; } .abas button { width: auto; display: inline-block; } }
@@ -746,11 +772,12 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
                 ${personalizarTexto(resumoGeral)}
 
             </div>
-              <div class="secao">
-        <h1 style="text-align: center;">Aqui começa seu estudo das Matrizes Quânticas </h1>
-        
-                  <h1 style="text-align: center;">   ▼ </h1>
-                   </div>
+    <div class="capa-transicao">
+        <h3>PIRAMIDE DA VIDA</h3>
+        <h2>👑</h2>
+        <h2>Matriz Pincipal<br> Regente e seus Ciclos de potências</h2>
+        <p>A definição de impácto Pincipal da sua Matriz </p>
+    </div>
           </div>`;
 
     return h + "</div>";
