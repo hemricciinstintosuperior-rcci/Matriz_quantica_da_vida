@@ -810,8 +810,8 @@ function gerar() {
     const htmlSintese = gerarSinteseFinal(potVida, potPessoal, potSocial, potDestino, window.textosSintese || {});
 
     // 4. MONTAGEM: TODAS AS MATRIZES USAM 'cronoMestre' E 'topoVidaMestre'
-    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(pVida, potVida, textosVida, cronoMestre, textosVida, "Matriz da Vida",👑, textosSeqNegVida, textosSeqEspVida, textosFinVida, topoVidaMestre);
-    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(pPes, potPessoal, textosPessoal, cronoMestre, textosPessoal, "Matriz Pessoal",👤, textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal, topoVidaMestre);
+    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(pVida, potVida, textosVida, cronoMestre, textosVida, "Matriz da Vida", textosSeqNegVida, textosSeqEspVida, textosFinVida, topoVidaMestre);
+    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(pPes, potPessoal, textosPessoal, cronoMestre, textosPessoal, "Matriz Pessoal", textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal, topoVidaMestre);
     const htmlSocial = (explicacoes.social || "") + montarConteudoComIntros(pSoc, potSocial, textosSocial, cronoMestre, textosSocial, "Matriz Social", textosSeqNegSocial, textosSeqEspSocial, textosFinSocial, topoVidaMestre);
     const htmlDestino = (explicacoes.destino || "") + montarConteudoComIntros(pDes, potDestino, textosDestino, cronoMestre, textosDestino, "Matriz de Destino", textosSeqNegDestino, textosSeqEspDestino, textosFinDestino, topoVidaMestre);
     document.getElementById("aba_resultado").innerHTML = htmlSintese; // só resultado da dinâmica
