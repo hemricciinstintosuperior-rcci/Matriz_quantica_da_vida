@@ -109,61 +109,72 @@
     <div id="render-relatorio" class="container-master">
         </div>
 
-    <script>
-        // 1. Pega os dados que o seu "Gerador" enviou pelo LocalStorage
+ <script>
+    // Usamos o window.onload para garantir que o HTML (a div render-relatorio) já existe
+    window.onload = function() {
+        // 1. Pegamos os dados com a chave exata que está no seu Gerador (foto)
         const dados = JSON.parse(localStorage.getItem('relatorioPiramide'));
 
-        if (!dados) {
-            document.getElementById('relatorioPiramide').innerHTML = "<h1>Nenhum dado encontrado. Gere o relatório novamente.</h1>";
-        } else {
-            // 2. Monta o HTML com as capas de transição fixas
-            let htmlFinal = `
-                <div class="capa-transicao">
-                    <img src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png" style="width: 300px; margin-bottom: 20px;">
-                    <h2>Matriz Quântica da Vida</h2>
-                    <div style="width: 100px; height: 2px; background: #d97a1e; margin: 10px auto;"></div>
-                    <h1 style="font-size: 40px; margin: 15px 0;">${dados.nome}</h1>
-                    <p>Relatório Personalizado baseado em Numerologia Cabalística e Moderna</p>
-                </div>
+        // Selecionamos o local onde o texto vai aparecer
+        const elementoAlvo = document.getElementById('render-relatorio');
 
-                <div class="pagina-conteudo">
-                    ${dados.conteudoPrincipal || ''}
-                </div>
-
-                <div class="capa-transicao">
-                    <span style="letter-spacing: 5px;">PARTE 02</span>
-                    <h2>Gráficos de Expressão Natural</h2>
-                    <img src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/INSTINTOFOTOO.png" style="width: 250px; opacity: 0.3; margin: 30px 0;">
-                    <p>A análise profunda dos seus planos mentais, físicos e emocionais.</p>
-                </div>
-
-                <div class="pagina-conteudo">
-                    ${dados.conteudoPessoal || ''}
-                </div>
-
-                <div class="capa-transicao">
-                    <span style="letter-spacing: 5px;">PARTE 03</span>
-                    <h2>A Percepção Social</h2>
-                    <p>Como sua energia interage com o coletivo e o ambiente ao seu redor.</p>
-                </div>
-
-                <div class="pagina-conteudo">
-                    ${dados.conteudoSocial || ''}
-                </div>
-
-                <div class="capa-transicao">
-                    <span style="letter-spacing: 5px;">PARTE 04</span>
-                    <h2>Destino e Evolução</h2>
-                    <p>As potências nativas que direcionam sua missão de vida.</p>
-                </div>
-
-                <div class="pagina-conteudo">
-                    ${dados.conteudoDestino || ''}
-                </div>
-            `;
-
-            document.getElementById('relatorioPiramide').innerHTML = htmlFinal;
+        if (!dados || !elementoAlvo) {
+            if (elementoAlvo) {
+                elementoAlvo.innerHTML = "<h1 style='text-align:center; padding-top:50px;'>Nenhum dado encontrado. <br> Por favor, gere o relatório no sistema primeiro!</h1>";
+            }
+            return;
         }
-    </script>
+
+        // 2. Montamos o HTML com as capas de transição
+        let htmlFinal = `
+            <div class="capa-transicao">
+                <img src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matriz.png" style="width: 300px; margin-bottom: 20px;">
+                <h2>Matriz Quântica da Vida</h2>
+                <div style="width: 100px; height: 2px; background: #d97a1e; margin: 10px auto;"></div>
+                <h1 style="font-size: 40px; margin: 15px 0; color: #fff;">${dados.nome}</h1>
+                <p>Relatório Personalizado baseado em Numerologia Cabalística e Moderna</p>
+                <p style="margin-top: 10px; font-size: 14px; opacity: 0.7;">Data: ${dados.data}</p>
+            </div>
+
+            <div class="pagina-conteudo">
+                ${dados.conteudoPrincipal || ''}
+            </div>
+
+            <div class="capa-transicao">
+                <span style="letter-spacing: 5px; color: #d97a1e;">PARTE 02</span>
+                <h2>Gráficos de Expressão Natural</h2>
+                <img src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/INSTINTOFOTOO.png" style="width: 250px; opacity: 0.3; margin: 30px 0;">
+                <p>A análise profunda dos seus planos mentais, físicos e emocionais.</p>
+            </div>
+
+            <div class="pagina-conteudo">
+                ${dados.conteudoPessoal || ''}
+            </div>
+
+            <div class="capa-transicao">
+                <span style="letter-spacing: 5px; color: #d97a1e;">PARTE 03</span>
+                <h2>A Percepção Social</h2>
+                <p>Como sua energia interage com o coletivo e o ambiente ao seu redor.</p>
+            </div>
+
+            <div class="pagina-conteudo">
+                ${dados.conteudoSocial || ''}
+            </div>
+
+            <div class="capa-transicao">
+                <span style="letter-spacing: 5px; color: #d97a1e;">PARTE 04</span>
+                <h2>Destino e Evolução</h2>
+                <p>As potências nativas que direcionam sua missão de vida.</p>
+            </div>
+
+            <div class="pagina-conteudo">
+                ${dados.conteudoDestino || ''}
+            </div>
+        `;
+
+        // Aqui é onde o erro morre: o innerHTML só é setado se o elemento existir
+        elementoAlvo.innerHTML = htmlFinal;
+    };
+</script>
 </body>
 </html>
