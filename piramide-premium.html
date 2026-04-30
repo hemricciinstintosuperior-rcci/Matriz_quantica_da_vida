@@ -114,7 +114,7 @@
         const dados = JSON.parse(localStorage.getItem('relatorioPremium'));
 
         if (!dados) {
-            document.getElementById('render-relatorio').innerHTML = "<h1>Nenhum dado encontrado. Gere o relatório novamente.</h1>";
+            document.getElementById('relatorioPiramide').innerHTML = "<h1>Nenhum dado encontrado. Gere o relatório novamente.</h1>";
         } else {
             // 2. Monta o HTML com as capas de transição fixas
             let htmlFinal = `
@@ -162,7 +162,7 @@
                 </div>
             `;
 
-            document.getElementById('render-relatorio').innerHTML = htmlFinal;
+            document.getElementById('relatorioPiramide').innerHTML = htmlFinal;
         }
     </script>
 </body>
