@@ -82,6 +82,52 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
+/* ESTILO PARA MONTAR A PIRÂMIDE CORRETAMENTE */
+.piramide { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px auto; 
+    width: 100%;
+}
+
+.linha { 
+    display: flex; 
+    justify-content: center; 
+    gap: 2px; 
+    margin: 1px 0; 
+}
+
+.num { 
+    width: 22px; 
+    height: 22px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: #fff; 
+    color: #000; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+/* Cores especiais que você já usa */
+.num.negativo { color: #FF0000 !important; }
+.num.especial { color: #d97a1e !important; font-weight: 900; }
+.num.financeiro { color: #28a745 !important; font-weight: 900; }
+
+/* Garante que o container da pirâmide não quebre no PDF */
+.container-piramide {
+    page-break-inside: avoid !important;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+        
+
         /* CSS ESPECÍFICO PARA O PDF */
         @media print {
             @page { size: A4; margin: 0; }
