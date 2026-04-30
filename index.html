@@ -849,14 +849,20 @@ function gerar() {
     document.getElementById("aba_social").innerHTML = htmlSocial;
     document.getElementById("aba_destino").innerHTML = htmlDestino;
 
+// SALVANDO OS DADOS ORGANIZADOS PARA O PREMIUM
     localStorage.setItem("relatorioPiramide", JSON.stringify({
-        nome, data: data.split("-").reverse().join("/"),
-        abaPrincipal: htmlSintese + htmlVida, abaPessoal: htmlPessoal, abaSocial: htmlSocial, abaDestino: htmlDestino
+        nome: nome.toUpperCase(),
+        data: data.split("-").reverse().join("/"),
+        conteudoPrincipal: htmlSintese + htmlVida, // Página 1: Matriz da Vida
+        conteudoPessoal: htmlPessoal,               // Página 2: Matriz Pessoal
+        conteudoSocial: htmlSocial,                // Página 3: Matriz Social
+        conteudoDestino: htmlDestino                // Página 4: Matriz de Destino
     }));
     
     mostrarAba('principal');
 }
 
+// FUNÇÃO PARA ABRIR O NOVO RELATÓRIO PREMIUM
 function abrirPremium(){
     window.open("https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/piramide-premium.html","_blank");
 }
