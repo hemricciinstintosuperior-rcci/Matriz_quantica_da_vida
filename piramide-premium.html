@@ -168,6 +168,64 @@ div.texto, .blocoRelatorio div, .box p {
         display: none !important;
     }
 }   
+
+
+/* RESET PARA PDF A4 */
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    body { background: white !important; }
+    
+    .capa, .capa-transicao {
+        height: 297mm !important;
+        width: 210mm !important;
+        page-break-after: always !important;
+        page-break-before: always !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0f2a36 !important; /* Cor luxo de fundo */
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        margin: 0 !important;
+    }
+
+    .secao-conteudo {
+        width: 210mm !important;
+        padding: 20mm !important; /* Margem interna para o texto não colar na borda */
+        page-break-inside: auto;
+    }
+
+    .evitar-corte {
+        page-break-inside: avoid !important;
+    }
+}
+
+/* Estilo das Capas de Transição */
+.capa-transicao {
+    background-color: #0f2a36;
+    color: white;
+    text-align: center;
+}
+
+.capa-transicao h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    color: #d97a1e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.capa-transicao p {
+    font-size: 16px;
+    opacity: 0.8;
+    max-width: 80%;
+}
+
+   
 </style>
 </head>
 <body>
