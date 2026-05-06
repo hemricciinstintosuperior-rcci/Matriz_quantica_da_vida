@@ -446,16 +446,20 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, introPiramide) {
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
-    const resultadoTexto = bancoDeTextos[regente] || "Resultado não encontrado.";
+    const resultadoTexto = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
+    
+    // Se a introdução for indefinida, ele apenas ignora em vez de dar erro
+    let introExibicao = textoIntro ? personalizarTexto(textoIntro) : "";
 
-    // O segredo está aqui: passamos 'titulo' para o desenhar saber a cor
     let h = `
     <div class="page evitar-corte" style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 40px;">
         <h2 style="text-align:center; color:#827108; text-transform: uppercase;">Matriz de ${titulo}</h2>
         
+        ${introExibicao}
+
         <div style="margin: 20px 0;">
             ${desenhar(matriz, titulo)} 
         </div>
@@ -781,25 +785,22 @@ function detectarSequenciaFinanceira(linhas){
 
 
 function obterMapaCores(linhas, tipoPira) {
-    // Cria o mapa vazio
     let mapa = linhas.map(linha => linha.map(() => ""));
 
-    // 1. REGENTE (Base)
+    // 1. REGENTE (Fica na ponta de baixo)
     mapa[mapa.length - 1][0] = "regente";
 
-    // Seleção do Banco de Dados
+    // Seleção do Banco de Dados correta
     let bancoEspecial = {};
-    if(tipoPira === "VIDA") bancoEspecial = window.textosSeqEspVida || {};
-    else if(tipoPira === "PESSOAL") bancoEspecial = window.textosSeqEspPessoal || {};
-    else if(tipoPira === "SOCIAL") bancoEspecial = window.textosSeqEspSocial || {};
-    else if(tipoPira === "DESTINO") bancoEspecial = window.textosSeqEspDestino || {};
+    const t = tipoPira.toUpperCase();
+    if(t.includes("VIDA")) bancoEspecial = window.textosSeqEspVida || {};
+    else if(t.includes("PESSOAL")) bancoEspecial = window.textosSeqEspPessoal || {};
+    else if(t.includes("SOCIAL")) bancoEspecial = window.textosSeqEspSocial || {};
+    else if(t.includes("DESTINO")) bancoEspecial = window.textosSeqEspDestino || {};
 
     linhas.forEach((linha, i) => {
-        
-        // --- 2. SEQUÊNCIAS ESPECIAIS (Igual ao seu antigo) ---
+        // --- 2. SEQUÊNCIAS ESPECIAIS ---
         for (let j = 0; j < linha.length - 2; j++) {
-            // A lógica exata do seu antigo: concatenar como string pura
-            // Usamos String().slice(-1) para que funcione tanto no TOPO (arcanos) quanto no MEIO
             let n1 = String(linha[j]).slice(-1);
             let n2 = String(linha[j+1]).slice(-1);
             let n3 = String(linha[j+2]).slice(-1);
@@ -812,7 +813,7 @@ function obterMapaCores(linhas, tipoPira) {
             }
         }
 
-        // --- 3. FINANCEIRO (Sobrepõe o especial se for 99/9) ---
+        // --- 3. FINANCEIRO (99/9) ---
         if (i < linhas.length - 1) {
             for (let j = 0; j < linha.length - 1; j++) {
                 let v1 = String(linha[j]).slice(-1);
@@ -827,28 +828,23 @@ function obterMapaCores(linhas, tipoPira) {
             }
         }
 
-        // --- 4. NEGATIVOS (Prioridade Total - Vermelho) ---
+        // --- 4. NEGATIVOS (Apenas se não for especial/financeiro ou se for repetição pura) ---
         let jNeg = 0;
         while (jNeg < linha.length) {
-            let num = linha[jNeg];
+            let num = String(linha[jNeg]).slice(-1);
             let cont = 1;
-            // Para negativos, comparamos o valor final reduzido (dígito único)
-            while (jNeg + cont < linha.length && String(linha[jNeg + cont]).slice(-1) === String(num).slice(-1)) { 
+            while (jNeg + cont < linha.length && String(linha[jNeg + cont]).slice(-1) === num) { 
                 cont++; 
             }
             if (cont >= 3) {
                 for (let k = 0; k < cont; k++) {
-                    mapa[i][jNeg + k] = "negativo";
+                    // Só pinta de vermelho se já não estiver pintado de dourado ou verde
+                    if (mapa[i][jNeg + k] === "") {
+                        mapa[i][jNeg + k] = "negativo";
+                    }
                 }
                 jNeg += cont;
             } else { jNeg++; }
-        }
-    });
-
-    // 5. TOPO (Borda de Potência onde não houver sequência)
-    linhas[0].forEach((_, j) => {
-        if (mapa[0][j] === "") {
-            mapa[0][j] = "potencia";
         }
     });
 
