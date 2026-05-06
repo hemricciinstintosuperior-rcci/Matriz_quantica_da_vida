@@ -625,63 +625,65 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let encontrou = false;
     let sequenciasProcessadas = new Set();
     
-    // CAPTURA BLINDADA: Tenta pegar do window ou do escopo global diretamente
-    const bV = window.textosSeqEspVida || (typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {});
-    const bP = window.textosSeqEspPessoal || (typeof textosSeqEspPessoal !== 'undefined' ? textosSeqEspPessoal : {});
-    const bS = window.textosSeqEspSocial || (typeof textosSeqEspSocial !== 'undefined' ? textosSeqEspSocial : {});
-    const bD = window.textosSeqEspDestino || (typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {});
+    // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
+    const piramides = [
+        { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "VIDA", prefixo: "🔱", classe: "vida" },
+        { matriz: mP, banco: typeof textosSeqEspPessoal !== 'undefined' ? textosSeqEspPessoal : {}, nome: "PESSOAL", prefixo: "👤", classe: "pessoal" },
+        { matriz: mS, banco: typeof textosSeqEspSocial !== 'undefined' ? textosSeqEspSocial : {}, nome: "SOCIAL", prefixo: "🌎", classe: "social" },
+        { matriz: mD, banco: typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {}, nome: "DESTINO", prefixo: "☄️", classe: "destino" }
+    ];
 
-    mV.forEach((linha, i) => {
-        for (let j = 0; j < linha.length - 2; j++) {
-            // Criamos as strings de 3 dígitos garantindo que números como 0 virem "0"
-            let seqV = String(linha[j]) + String(linha[j+1]) + String(linha[j+2]);
-            
-            if (bV[seqV]) {
-                encontrou = true;
-                let chaveUnica = `esp-${i}-${j}-${seqV}`;
-                if (sequenciasProcessadas.has(chaveUnica)) continue;
-                sequenciasProcessadas.add(chaveUnica);
+    piramides.forEach((pira) => {
+        pira.matriz.forEach((linha, i) => {
+            for (let j = 0; j < linha.length - 2; j++) {
+                let seq = String(linha[j]) + String(linha[j+1]) + String(linha[j+2]);
+                
+                // Se a sequência existir no banco específico desta pirâmide
+                if (pira.banco[seq]) {
+                    encontrou = true;
+                    
+                    // Chave única para não repetir se a sequência "vazar" para linhas próximas
+                    let chaveUnica = `${pira.nome}-${i}-${j}-${seq}`;
+                    if (sequenciasProcessadas.has(chaveUnica)) continue;
+                    sequenciasProcessadas.add(chaveUnica);
 
-                // CÁLCULO DE VIGÊNCIA
-                let duracaoTotal = 0;
-                let offset = Math.floor(i / 2);
-                for (let k = 0; k < 3; k++) {
-                    let colReal = j + offset + k;
-                    if (colReal < topoV.length) {
-                        duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                    // --- CÁLCULO DE VIGÊNCIA SEMPRE PELA PIRÂMIDE DA VIDA ---
+                    let duracaoTotal = 0;
+                    let offset = Math.floor(i / 2); // Compensação da linha na pirâmide
+                    
+                    for (let k = 0; k < 3; k++) {
+                        let colReal = j + offset + k;
+                        // BUSCA SEMPRE NO TOPO DA VIDA (topoV)
+                        if (colReal < topoV.length) {
+                            duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                        }
                     }
+
+                    // SINCRONIA COM O CALENDÁRIO
+                    let periodoBase = crono[j + offset] || crono[0];
+                    let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+                    let idadeFim = periodoBase.idadeIni + duracaoTotal;
+
+                    html += `
+                    <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5; padding: 15px; border-radius: 8px;">
+                        <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108; padding: 8px; font-weight: bold; border-radius: 4px;">
+                            ✨ IMPACTO ${pira.nome}: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                        </div>
+                        <div class="conteudo-vibracoes" style="margin-top:10px;">
+                            <p style="font-size: 14px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #b8860b; padding-bottom: 5px;">
+                                📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                            </p>
+                            <div class="vibracao-row">
+                                <b>${pira.prefixo} ${pira.nome} (${seq}):</b> ${personalizarTexto(pira.banco[seq])}
+                            </div>
+                            <p style="font-size: 11px; color: #827108; margin-top: 5px; font-style: italic;">
+                                *Vigência calculada pela matriz temporal da Pirâmide da Vida.
+                            </p>
+                        </div>
+                    </div>`;
                 }
-
-                let periodoBase = crono[j + offset] || crono[0];
-                let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
-                let idadeFim = periodoBase.idadeIni + duracaoTotal;
-
-                // Captura as sequências exatas das outras pirâmides
-                let seqP = String(mP[i][j]) + String(mP[i][j+1]) + String(mP[i][j+2]);
-                let seqS = String(mS[i][j]) + String(mS[i][j+1]) + String(mS[i][j+2]);
-                let seqD = String(mD[i][j]) + String(mD[i][j+1]) + String(mD[i][j+2]);
-
-                html += `
-                <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5; padding: 15px;">
-                    <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108; padding: 8px; font-weight: bold; border-radius: 4px;">
-                        ✨ SEQUÊNCIA ESPECIAL: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
-                    </div>
-                    <div class="conteudo-vibracoes" style="margin-top:10px;">
-                        <p style="font-size: 14px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #b8860b; padding-bottom: 5px;">
-                            📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
-                        </p>
-                        
-                        <div class="vibracao-row"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(bV[seqV])}</div>
-                        
-                        ${bP[seqP] ? `<div class="vibracao-row"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(bP[seqP])}</div>` : ""}
-                        
-                        ${bS[seqS] ? `<div class="vibracao-row"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(bS[seqS])}</div>` : ""}
-                        
-                        ${bD[seqD] ? `<div class="vibracao-row"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(bD[seqD])}</div>` : ""}
-                    </div>
-                </div>`;
             }
-        }
+        });
     });
 
     return encontrou ? html : "";
