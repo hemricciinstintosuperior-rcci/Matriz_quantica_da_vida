@@ -434,44 +434,6 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
  
 
 
-// --- FLUXO FINANCEIRO (Agora lê o topo) ---
-function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#2e7d32;"> Fluxo Financeiro  💰</h2>`;
-    let encontrou = false;
-    
-    linhas.forEach((linha, i) => {
-        // REMOVIDO: if (i === 0) return; -> O topo pode ter sequências 99
-        for (let j = 0; j < linha.length - 1; j++) {
-            if (linha[j] === 9 && linha[j + 1] === 9) {
-                encontrou = true;
-                let duracaoTotal = 0;
-                let offset = Math.floor(i / 2);
-                
-                for (let k = 0; k < 2; k++) {
-                    let colReal = j + offset + k;
-                    if (colReal < topoVida.length) {
-                        duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
-                    }
-                }
-                
-                let periodo = crono[j + offset] || crono[0];
-                let idadeIni = periodo.idadeIni;
-                let idadeFim = idadeIni + duracaoTotal;
-                 let datas = calcularPeriodoSequencia(periodo, duracaoTotal);
-let dataIni = datas.ini;
-let dataFim = datas.fim;
-             
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #2e7d32; padding-center:10px; margin-bottom:20px;">
-                        <b style="text-align:center; font-size:18px;">✅ Sequência Financeira 99/9</b><br>
-                       <span style="text-align:center; color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; text-align:center; color:#2e7d32;">Vigência: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p>${personalizarTexto(bancoTxt[999])}</p>
-                      </div>`;
-            }
-        }
-    });
-    return encontrou ? h + "</div>" : "";
-}
 
 
 function montarSecaoMatriz(titulo, matriz, bancoDeTextos, introPiramide) {
@@ -618,6 +580,83 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
 }
 
 
+function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
+    let html = "";
+    let encontrou = false;
+    let sequenciasProcessadas = new Set();
+    
+    // Nomes das variáveis de texto conforme seu padrão
+    const bV = typeof textosSeqFinancVida !== 'undefined' ? textosSeqFinancVida : {};
+    const bP = typeof textosSeqFinancPessoal !== 'undefined' ? textosSeqFinancPessoal : {};
+    const bS = typeof textosSeqFinancSocial !== 'undefined' ? textosSeqFinancSocial : {};
+    const bD = typeof textosSeqFinancDestino !== 'undefined' ? textosSeqFinancDestino : {};
+
+    const piramides = [
+        { matriz: mV, banco: bV, nome: "VIDA", prefixo: "🔱" },
+        { matriz: mP, banco: bP, nome: "PESSOAL", prefixo: "👤" },
+        { matriz: mS, banco: bS, nome: "SOCIAL", prefixo: "🌎" },
+        { matriz: mD, banco: bD, nome: "DESTINO", prefixo: "☄️" }
+    ];
+
+    piramides.forEach((pira) => {
+        // Varremos até a penúltima linha, pois precisamos checar a linha de baixo
+        for (let i = 0; i < pira.matriz.length - 1; i++) {
+            let linhaAtual = pira.matriz[i];
+            let linhaBaixo = pira.matriz[i + 1];
+
+            for (let j = 0; j < linhaAtual.length - 1; j++) {
+                // LÓGICA DO TRIÂNGULO: 9 e 9 em cima, e o 9 abaixo deles
+                if (linhaAtual[j] === 9 && linhaAtual[j + 1] === 9 && linhaBaixo[j] === 9) {
+                    encontrou = true;
+
+                    let chaveUnica = `fin-triangulo-${pira.nome}-${i}-${j}`;
+                    if (sequenciasProcessadas.has(chaveUnica)) continue;
+                    sequenciasProcessadas.add(chaveUnica);
+
+                    // --- CÁLCULO DE VIGÊNCIA (Soma das potências do Topo da Vida) ---
+                    let duracaoTotal = 0;
+                    let offset = Math.floor(i / 2);
+                    
+                    // Como o triângulo ocupa a largura de 2 números no topo
+                    for (let k = 0; k < 2; k++) {
+                        let colReal = j + offset + k;
+                        if (colReal < topoV.length) {
+                            duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                        }
+                    }
+
+                    // SINCRONIA DE DATAS
+                    let periodoBase = crono[j + offset] || crono[0];
+                    let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+                    let idadeFim = periodoBase.idadeIni + duracaoTotal;
+
+                    // Busca o texto pela chave exata "99/9"
+                    let textoResultado = pira.banco["99/9"] || bV["99/9"] || "Vibração de fluxo financeiro detectada.";
+
+                    html += `
+                    <div class="card-integrado evitar-corte" style="border-left: 6px solid #2e7d32; margin-bottom: 25px; background: #f1f8e9; padding: 15px; border-radius: 8px;">
+                        <div class="titulo-ciclo" style="background: #c8e6c9; color: #1b5e20; padding: 8px; font-weight: bold; border-radius: 4px;">
+                            💰 FLUXO FINANCEIRO (${pira.nome}): DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                        </div>
+                        <div class="conteudo-vibracoes" style="margin-top:10px;">
+                            <p style="font-size: 14px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #2e7d32; padding-bottom: 5px;">
+                                📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                            </p>
+                            <div class="vibracao-row">
+                                <b>${pira.prefixo} ${pira.nome} (99/9):</b> ${personalizarTexto(textoResultado)}
+                            </div>
+                        </div>
+                    </div>`;
+                }
+            }
+        }
+    });
+
+    return encontrou ? html : "";
+}
+
+
+    
     
 
 function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
@@ -985,6 +1024,23 @@ meuHtml += `
         <p style="text-align:center; font-style:italic; margin-bottom: 30px;">Identificação de sequências negativas sincronizadas pelo tempo da Matriz da Vida.</p>
         ${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
     </section>`;
+
+    // --- SEÇÃO DE FLUXO FINANCEIRO ---
+const htmlFinanceiro = extrairFinanceiroSincronizado(mVida, mPes, mSoc, mDes, crono, topoV);
+
+if (htmlFinanceiro) {
+    meuHtml += `
+    <section class="page" style="margin-top: 40px;">
+        <div style="height: 4px; background: #2e7d32; margin-bottom: 20px; border-radius: 2px;"></div>
+        <h2 style="text-align:center; color:#2e7d32; text-transform: uppercase; letter-spacing: 2px;">
+            💰 Fluxo Financeiro e Prosperidade
+        </h2>
+        <p style="text-align:center; color:#666; font-size:13px; margin-bottom:25px;">
+            Identificação de janelas de oportunidade e expansão material baseada na geometria 99/9.
+        </p>
+        ${htmlFinanceiro}
+    </section>`;
+}
 
     // 3. Loop de 100 Anos (Potências)
     meuHtml += `
