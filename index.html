@@ -513,6 +513,55 @@ function gerarLoopNegativo(mV, mP, mS, mD, crono) {
 }
 
 
+function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
+    let html = "";
+    // Usamos a função detectarSequencias que você já tem no script
+    const detec = detectarSequencias(mV); 
+
+    detec.sequencias.forEach((seq, index) => {
+        // Encontra a coluna inicial da sequência através da primeira ocorrência em posNeg
+        let posInicial = detec.posNeg.find(p => p.linha === 0) || {indice: 0};
+        let col = posInicial.indice;
+        
+        // CÁLCULO DO TEMPO (Regra da Vida)
+        let duracaoTotal = 0;
+        for (let i = 0; i < seq.repeticoes; i++) {
+            let idx = col + i;
+            if (topoV[idx]) {
+                duracaoTotal += parseInt(topoV[idx].toString()[0]) || 1;
+            }
+        }
+
+        let periodoBase = crono[col] || crono[0];
+        let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+
+        // BUSCA DOS RESULTADOS (O número que deu em cada pirâmide naquela posição)
+        const numV = mV[0][col];
+        const numP = mP[0][col];
+        const numS = mS[0][col];
+        const numD = mD[0][col];
+
+        html += `
+        <div class="card-integrado evitar-corte" style="border-left: 6px solid #d32f2f; margin-bottom: 25px; background: #fffcfc;">
+            <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c; font-size: 14px;">
+                ⚠️ BLOQUEIO VIBRACIONAL SINCRO: Dos ${periodoBase.idadeIni} aos ${periodoBase.idadeIni + duracaoTotal} anos
+            </div>
+            <div class="conteudo-vibracoes" style="padding: 15px;">
+                <p style="font-size: 12px; color: #777; margin-bottom: 10px;">📅 Período estimado: de ${datas.ini} até ${datas.fim}</p>
+                
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 NA VIDA (Sequência ${numV}):</b> ${personalizarTexto(textosSeqNegVida[numV])}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 NO PESSOAL (Sequência ${numP}):</b> ${personalizarTexto(textosSeqNegPessoal[numP])}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 NO SOCIAL (Sequência ${numS}):</b> ${personalizarTexto(textosSeqNegSocial[numS])}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 NO DESTINO (Sequência ${numD}):</b> ${personalizarTexto(textosSeqNegDestino[numD])}</div>
+            </div>
+        </div>`;
+    });
+
+    return html || "<p style='text-align:center; color:#999;'>Nenhum bloqueio severo detectado para este perfil.</p>";
+}
+
+
+    
     
 
 function detectarSequencias(linhas){
@@ -724,54 +773,42 @@ function gerar() {
     const mes = data.split("-")[1];
     const baseN = nomeNumeros(nome);
 
-    // 1. Cálculos das 4 Matrizes
     const mVida = piramide(baseN);
     const mPes  = piramidePessoal(baseN, dia);
     const mSoc  = piramideSocial(baseN, mes);
     const mDes  = piramideDestino(baseN, dia, mes);
+    
+    const topoV = topo(mVida[0]);
+    const crono = gerarCronogramaMestre(topoV, data);
 
-    // 2. Cronograma (Sempre baseado na Vida como controle)
-    const crono = gerarCronogramaMestre(topo(mVida[0]), data);
-
-    // 3. Montagem do HTML Total
     let meuHtml = `<div class="container-master">`;
 
-
-
-    // --- SEÇÃO 2: AS 4 MATRIZES DETALHADAS (Aqui é onde entra o seu RESULTADO DO REGENTE) ---
-    // Chamamos a função montarSecaoMatriz para cada uma delas
+    // 1. Matrizes Detalhadas com Regente
     meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
     meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
     meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
     meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
 
-
-
-    // --- SEÇÃO 3: BLOQUEIOS E DESAFIOS (NEGATIVAS) ---
+    // 2. NOVO LOOP DE NEGATIVAS (Sincronizado pela Vida)
     meuHtml += `
     <section class="page" style="margin-top: 50px;">
-        <div class="separador-luxo" style="background: linear-gradient(90deg, transparent, #d32f2f, transparent);"></div>
-        <h2 style="text-align:center; color:#d32f2f; text-transform: uppercase;">Mapeamento de Desafios (Negativas)</h2>
-        <p style="text-align:center; font-style:italic;">Identificação de possíveis bloqueios vibracionais ao longo da jornada.</p>
-        ${gerarLoopNegativo(mVida, mPes, mSoc, mDes, crono)}
+        <div style="height: 4px; background: #d32f2f; margin-bottom: 20px; border-radius: 2px;"></div>
+        <h2 style="text-align:center; color:#d32f2f; text-transform: uppercase;">Mapeamento de Desafios e Bloqueios</h2>
+        <p style="text-align:center; font-style:italic; margin-bottom: 30px;">Identificação de sequências negativas sincronizadas pelo tempo da Matriz da Vida.</p>
+        ${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
     </section>`;
 
-
-    
-    // --- SEÇÃO 3: O LOOP DE 100 ANOS (Vibrações Temporais) ---
+    // 3. Loop de 100 Anos (Potências)
     meuHtml += `
-    <section id="ciclos-cem-anos" class="page" style="margin-top: 40px;">
-        <div style="height: 2px; background: #827108; margin-bottom: 30px; opacity: 0.3;"></div>
+    <section id="ciclos-cem-anos" class="page" style="margin-top: 50px;">
+        <div style="height: 4px; background: #827108; margin-bottom: 20px; border-radius: 2px;"></div>
         <h2 style="text-align:center; color:#827108;">VIBRAÇÕES TEMPORAIS INTEGRADAS (100 ANOS)</h2>
         ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
     </section>`;
 
-    meuHtml += `</div>`; // Fecha a container-master
-
-    // 4. Injeta o HTML final na div de resultado
+    meuHtml += `</div>`;
     document.getElementById('resultado-final').innerHTML = meuHtml;
 }
-
 
 document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;
