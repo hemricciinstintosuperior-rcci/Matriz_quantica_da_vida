@@ -781,28 +781,28 @@ function detectarSequenciaFinanceira(linhas){
 
 
 function obterMapaCores(linhas, tipoPira) {
+    // Cria o mapa vazio
     let mapa = linhas.map(linha => linha.map(() => ""));
 
-    // 1. REGENTE (Sempre a ponta final)
+    // 1. REGENTE (Base)
     mapa[mapa.length - 1][0] = "regente";
 
-    // Escolha do Banco de Dados para Especiais
+    // Seleção do Banco de Dados
     let bancoEspecial = {};
     if(tipoPira === "VIDA") bancoEspecial = window.textosSeqEspVida || {};
     else if(tipoPira === "PESSOAL") bancoEspecial = window.textosSeqEspPessoal || {};
     else if(tipoPira === "SOCIAL") bancoEspecial = window.textosSeqEspSocial || {};
     else if(tipoPira === "DESTINO") bancoEspecial = window.textosSeqEspDestino || {};
 
-    // VARREDURA TOTAL (Começando da Linha 0 - Topo)
     linhas.forEach((linha, i) => {
         
-        // --- 2. CAÇA ÀS ESPECIAIS (3 dígitos) ---
+        // --- 2. SEQUÊNCIAS ESPECIAIS (Igual ao seu antigo) ---
         for (let j = 0; j < linha.length - 2; j++) {
-            // Transformamos em String para garantir que compare com a chave do banco (ex: "116")
-            let n1 = String(linha[j]).slice(-1); // Pega o último dígito se for arcano
+            // A lógica exata do seu antigo: concatenar como string pura
+            // Usamos String().slice(-1) para que funcione tanto no TOPO (arcanos) quanto no MEIO
+            let n1 = String(linha[j]).slice(-1);
             let n2 = String(linha[j+1]).slice(-1);
             let n3 = String(linha[j+2]).slice(-1);
-            
             let seq = n1 + n2 + n3;
             
             if (bancoEspecial[seq]) {
@@ -812,38 +812,48 @@ function obterMapaCores(linhas, tipoPira) {
             }
         }
 
-        // --- 3. NEGATIVOS (3 ou mais iguais) ---
+        // --- 3. FINANCEIRO (Sobrepõe o especial se for 99/9) ---
+        if (i < linhas.length - 1) {
+            for (let j = 0; j < linha.length - 1; j++) {
+                let v1 = String(linha[j]).slice(-1);
+                let v2 = String(linha[j+1]).slice(-1);
+                let v3 = String(linhas[i+1][j]).slice(-1);
+
+                if (v1 === "9" && v2 === "9" && v3 === "9") {
+                    mapa[i][j] = "financeiro";
+                    mapa[i][j+1] = "financeiro";
+                    mapa[i+1][j] = "financeiro";
+                }
+            }
+        }
+
+        // --- 4. NEGATIVOS (Prioridade Total - Vermelho) ---
         let jNeg = 0;
         while (jNeg < linha.length) {
             let num = linha[jNeg];
             let cont = 1;
-            while (jNeg + cont < linha.length && linha[jNeg + cont] === num) { cont++; }
+            // Para negativos, comparamos o valor final reduzido (dígito único)
+            while (jNeg + cont < linha.length && String(linha[jNeg + cont]).slice(-1) === String(num).slice(-1)) { 
+                cont++; 
+            }
             if (cont >= 3) {
-                for (let k = 0; k < cont; k++) { mapa[i][jNeg + k] = "negativo"; }
+                for (let k = 0; k < cont; k++) {
+                    mapa[i][jNeg + k] = "negativo";
+                }
                 jNeg += cont;
             } else { jNeg++; }
         }
     });
 
-    // --- 4. FINANCEIRO (99/9) - Varredura Geométrica ---
-    for (let i = 0; i < linhas.length - 1; i++) {
-        for (let j = 0; j < linhas[i].length - 1; j++) {
-            // No financeiro, verificamos se o valor termina em 9 (ex: arcano 19 ou 9)
-            let v1 = String(linhas[i][j]).slice(-1);
-            let v2 = String(linhas[i][j+1]).slice(-1);
-            let v3 = String(linhas[i+1][j]).slice(-1);
-
-            if (v1 === "9" && v2 === "9" && v3 === "9") {
-                mapa[i][j] = "financeiro";
-                mapa[i][j+1] = "financeiro";
-                mapa[i+1][j] = "financeiro";
-            }
+    // 5. TOPO (Borda de Potência onde não houver sequência)
+    linhas[0].forEach((_, j) => {
+        if (mapa[0][j] === "") {
+            mapa[0][j] = "potencia";
         }
-    }
+    });
 
     return mapa;
 }
-
 // Função desenhar atualizada para aplicar as cores
 function desenhar(linhas, tipoPira = "VIDA", compacta = false) {
     const mapaCores = obterMapaCores(linhas, tipoPira);
