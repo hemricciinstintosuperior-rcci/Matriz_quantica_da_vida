@@ -617,32 +617,36 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     return encontrou ? html : "<p style='text-align:center;'>Nenhuma sequência negativa crítica detectada.</p>";
 }
 
+
+    
+
 function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let html = "";
     let encontrou = false;
     let sequenciasProcessadas = new Set();
     
-    // O banco de textos especiais geralmente vem de textos.js como sequenciasEspeciais
-    const bancoEspecial = window.sequenciasEspeciais || {};
+    // Usa os nomes exatos que você enviou do seu textos.js
+    const bancoVida = window.textosSeqEspVida || {};
+    const bancoPessoal = window.textosSeqEspPessoal || {};
+    const bancoSocial = window.textosSeqEspSocial || {};
+    const bancoDestino = window.textosSeqEspDestino || {};
 
     mV.forEach((linha, i) => {
-        // Varre a linha em trios para identificar as sequências de 3 dígitos
         for (let j = 0; j < linha.length - 2; j++) {
+            // Monta a sequência de 3 dígitos da Pirâmide da Vida
             let seqV = "" + linha[j] + linha[j + 1] + linha[j + 2];
             
-            // Se a sequência existe no banco de dados da Vida
-            if (bancoEspecial[seqV]) {
+            // Verifica se essa sequência existe no seu banco de dados da VIDA
+            if (bancoVida[seqV]) {
                 encontrou = true;
 
-                // Evita duplicatas na mesma posição
-                let chaveUnica = `especial-lin-${i}-col-${j}-seq-${seqV}`;
+                let chaveUnica = `esp-${i}-${j}-${seqV}`;
                 if (sequenciasProcessadas.has(chaveUnica)) continue;
                 sequenciasProcessadas.add(chaveUnica);
 
-                // --- CÁLCULO DE VIGÊNCIA (Soma das 3 Potências do Topo acima da sequência) ---
+                // CÁLCULO DE VIGÊNCIA (Soma das Potências do Topo - igual às negativas)
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
-                
                 for (let k = 0; k < 3; k++) {
                     let colReal = j + offset + k;
                     if (colReal < topoV.length) {
@@ -650,12 +654,12 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                     }
                 }
 
-                // SINCRONIA DE DATAS
+                // Sincronia de Datas
                 let periodoBase = crono[j + offset] || crono[0];
                 let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
                 let idadeFim = periodoBase.idadeIni + duracaoTotal;
 
-                // Captura a sequência equivalente nas outras pirâmides na mesma posição
+                // Captura as sequências nas mesmas posições das outras pirâmides
                 let seqP = "" + mP[i][j] + mP[i][j+1] + mP[i][j+2];
                 let seqS = "" + mS[i][j] + mS[i][j+1] + mS[i][j+2];
                 let seqD = "" + mD[i][j] + mD[i][j+1] + mD[i][j+2];
@@ -663,17 +667,18 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                 html += `
                 <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5;">
                     <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108;">
-                        ✨ SEQUÊNCIA ESPECIAL ATIVA: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                        ✨ SEQUÊNCIA ESPECIAL: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
                     <div class="conteudo-vibracoes">
                         <p style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #b8860b; padding-bottom: 5px;">
                             📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
                         </p>
                         
-                        <div class="vibracao-row"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(textosEspeciaisVida[seqV] || "Frequência especial detectada.")}</div>
-                        <div class="vibracao-row"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(textosEspeciaisPessoal[seqP] || "Impacto no campo pessoal.")}</div>
-                        <div class="vibracao-row"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(textosEspeciaisSocial[seqS] || "Influência no campo social.")}</div>
-                        <div class="vibracao-row"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(textosEspeciaisDestino[seqD] || "Manifestação no destino.")}</div>
+                        <div class="vibracao-row"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(bancoVida[seqV])}</div>
+                        
+                        ${bancoPessoal[seqP] ? `<div class="vibracao-row"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(bancoPessoal[seqP])}</div>` : ""}
+                        ${bancoSocial[seqS] ? `<div class="vibracao-row"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(bancoSocial[seqS])}</div>` : ""}
+                        ${bancoDestino[seqD] ? `<div class="vibracao-row"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(bancoDestino[seqD])}</div>` : ""}
                     </div>
                 </div>`;
             }
@@ -681,7 +686,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     });
 
     return encontrou ? html : "";
-}    
+}
     
 
 function detectarSequencias(linhas){
