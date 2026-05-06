@@ -208,6 +208,45 @@
     .piramide .num { width: 22px; height: 22px; font-size: 11px; } /* Diminui a bola no celular */
     .piramide .linha { gap: 4px; } 
 }
+
+
+@media print {
+    /* Força o conteúdo a caber na largura da folha A4 */
+    body { background: none; }
+    .container-master { 
+        width: 100% !important; 
+        margin: 0 !important; 
+        padding: 0 !important;
+    }
+    
+    /* Diminui o tamanho das pirâmides no PDF para caberem 2 por linha ou as 4 */
+    .piramide {
+        transform: scale(0.7); /* Diminui em 30% no papel */
+        transform-origin: top center;
+        margin-bottom: -50px; /* Compensa o espaço vazio do scale */
+    }
+
+    .grid-quatro-piramides {
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .bloco-piramide {
+        border: none !important; /* Remove bordas para ficar mais limpo no PDF */
+        padding: 5px !important;
+    }
+
+    .evitar-corte { 
+        page-break-inside: avoid; /* Não deixa um texto quebrar no meio de duas páginas */
+    }
+
+    /* Esconde os botões e inputs no PDF */
+    .card-input-premium, .botoes-acao, button {
+        display: none !important;
+    }
+}
+
+    
     
 </style>
 </head>
@@ -587,6 +626,23 @@ function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
     return h;
 }
 
+
+function abrirPremium() {
+    // 1. Verifica se o relatório já foi gerado
+    const conteudo = document.getElementById('resultado-final').innerHTML;
+    if (!conteudo || conteudo.trim() === "") {
+        alert("Primeiro, clique em GERAR AS MATRIZES!");
+        return;
+    }
+
+    // 2. Título do arquivo (Nome do cliente se possível)
+    const nome = document.getElementById("nome").value.trim() || "Relatorio";
+    document.title = "Matriz Quântica - " + nome;
+
+    // 3. Comando de impressão
+    window.print();
+}
+    
     
 
 function gerar() {
