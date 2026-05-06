@@ -146,6 +146,50 @@
     opacity: 0.9;
 }
 
+
+/* Estilo da Pirâmide - Igual ao Estudo Numerológico */
+.piramide {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza as linhas para formar o triângulo */
+    gap: 5px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.piramide .linha {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre os números na mesma linha */
+}
+
+.piramide .num {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50%;
+    background: #f8f9fa; /* Fundo suave para os números */
+    border: 1px solid #eee;
+}
+
+/* Cores de destaque para as sequências (se quiser usar) */
+.num.negativo { background-color: #ffcccc; color: #d32f2f; border-color: #d32f2f; }
+.num.especial { background-color: #fff3cd; color: #856404; border-color: #856404; }
+.num.financeiro { background-color: #d4edda; color: #155724; border-color: #155724; }
+
+/* Para as pirâmides menores no topo */
+.compacta {
+    transform: scale(0.8);
+    margin: -10px 0;
+}
+
+
+    
+
 @media (max-width: 600px) {
     .botoes-acao { grid-template-columns: 1fr; }
 }
