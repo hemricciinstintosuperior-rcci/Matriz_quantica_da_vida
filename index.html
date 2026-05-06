@@ -625,9 +625,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let encontrou = false;
     let sequenciasProcessadas = new Set();
     
-    // Tenta capturar as variáveis globais. 
-    // Em JS, se foi declarado com 'const' no textos.js, 
-    // ele deve estar acessível pelo nome direto se o script foi carregado antes.
+    // Captura os bancos de dados declarados no seu textos.js
     let bV, bP, bS, bD;
     try { bV = textosSeqEspVida; } catch(e) { bV = {}; }
     try { bP = textosSeqEspPessoal; } catch(e) { bP = {}; }
@@ -636,6 +634,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
 
     mV.forEach((linha, i) => {
         for (let j = 0; j < linha.length - 2; j++) {
+            // Sequência detectada na PIRÂMIDE DA VIDA (A Mãe)
             let seqV = "" + linha[j] + linha[j + 1] + linha[j + 2];
             
             if (bV[seqV]) {
@@ -645,7 +644,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                 if (sequenciasProcessadas.has(chaveUnica)) continue;
                 sequenciasProcessadas.add(chaveUnica);
 
-                // Cálculo de Vigência (Soma das potências no Topo da Vida)
+                // --- CÁLCULO DE VIGÊNCIA (Soma das potências no Topo da Vida) ---
                 let duracaoTotal = 0;
                 let offset = Math.floor(i / 2);
                 for (let k = 0; k < 3; k++) {
@@ -659,14 +658,14 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                 let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
                 let idadeFim = periodoBase.idadeIni + duracaoTotal;
 
-                // Sequências nas outras pirâmides
+                // Captura as sequências nas mesmas posições das outras 3 pirâmides
                 let seqP = "" + mP[i][j] + mP[i][j+1] + mP[i][j+2];
                 let seqS = "" + mS[i][j] + mS[i][j+1] + mS[i][j+2];
                 let seqD = "" + mD[i][j] + mD[i][j+1] + mD[i][j+2];
 
                 html += `
-                <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5;">
-                    <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108;">
+                <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5; padding: 15px; border-radius: 8px;">
+                    <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108; padding: 8px; font-weight: bold; border-radius: 4px; margin-bottom: 10px;">
                         ✨ SEQUÊNCIA ESPECIAL: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
                     <div class="conteudo-vibracoes">
@@ -674,11 +673,13 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                             📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
                         </p>
                         
-                        <div class="vibracao-row"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(bV[seqV])}</div>
+                        <div class="vibracao-row" style="margin-bottom: 8px;"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(bV[seqV])}</div>
                         
-                        ${bP[seqP] ? `<div class="vibracao-row"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(bP[seqP])}</div>` : ""}
-                        ${bS[seqS] ? `<div class="vibracao-row"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(bS[seqS])}</div>` : ""}
-                        ${bD[seqD] ? `<div class="vibracao-row"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(bD[seqD])}</div>` : ""}
+                        ${bP[seqP] ? `<div class="vibracao-row" style="margin-bottom: 8px;"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(bP[seqP])}</div>` : ""}
+                        
+                        ${bS[seqS] ? `<div class="vibracao-row" style="margin-bottom: 8px;"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(bS[seqS])}</div>` : ""}
+                        
+                        ${bD[seqD] ? `<div class="vibracao-row" style="margin-bottom: 8px;"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(bD[seqD])}</div>` : ""}
                     </div>
                 </div>`;
             }
