@@ -280,7 +280,7 @@
 .num.especial { background-color: #fff3cd !important; color: #856404 !important; border: 1px solid #856404 !important; }
 .num.financeiro { background: #d4edda !important; color: #155724 !important; border: 1px solid #155724 !important; font-weight: bold; }
 .num.regente { background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728) !important; color: #4a3b00 !important; border: 1px solid #827108 !important; transform: scale(1.2); z-index: 10; box-shadow: 0 0 10px rgba(130,113,8,0.5); }
-.num.potencia { border: 2px solid #827108 !important; background: #fff !important; color: #827108 !important; }
+
 
     
     
@@ -783,50 +783,37 @@ function detectarSequenciaFinanceira(linhas){
 function obterMapaCores(linhas, tipoPira) {
     let mapa = linhas.map(linha => linha.map(() => ""));
 
-    // 1. REGENTE (Ponta de baixo) - OK
+    // 1. REGENTE (Sempre a ponta final)
     mapa[mapa.length - 1][0] = "regente";
 
-    // 2. POTÊNCIAS (Topo) - OK
-    linhas[0].forEach((_, j) => { mapa[0][j] = "potencia"; });
-
-    // 3. CAÇA ÀS ESPECIAIS (O AJUSTE ESTÁ AQUI)
+    // Escolha do Banco de Dados para Especiais
     let bancoEspecial = {};
     if(tipoPira === "VIDA") bancoEspecial = window.textosSeqEspVida || {};
     else if(tipoPira === "PESSOAL") bancoEspecial = window.textosSeqEspPessoal || {};
     else if(tipoPira === "SOCIAL") bancoEspecial = window.textosSeqEspSocial || {};
     else if(tipoPira === "DESTINO") bancoEspecial = window.textosSeqEspDestino || {};
 
-    // Começamos da linha 1 para nunca sujar o topo
-    for (let i = 1; i < linhas.length; i++) {
-        let linha = linhas[i];
-        // Varre procurando o trio (j, j+1, j+2)
+    // VARREDURA TOTAL (Começando da Linha 0 - Topo)
+    linhas.forEach((linha, i) => {
+        
+        // --- 2. CAÇA ÀS ESPECIAIS (3 dígitos) ---
         for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j+1] + linha[j+2];
+            // Transformamos em String para garantir que compare com a chave do banco (ex: "116")
+            let n1 = String(linha[j]).slice(-1); // Pega o último dígito se for arcano
+            let n2 = String(linha[j+1]).slice(-1);
+            let n3 = String(linha[j+2]).slice(-1);
             
-            // Só pinta se a sequência exata existir no banco
+            let seq = n1 + n2 + n3;
+            
             if (bancoEspecial[seq]) {
                 mapa[i][j] = "especial";
                 mapa[i][j+1] = "especial";
                 mapa[i][j+2] = "especial";
             }
         }
-    }
 
-    // 4. FINANCEIRO (99/9) - Mantendo sua lógica que já funciona
-    for (let i = 1; i < linhas.length - 1; i++) {
-        for (let j = 0; j < linhas[i].length - 1; j++) {
-            if (linhas[i][j] === 9 && linhas[i][j+1] === 9 && linhas[i+1][j] === 9) {
-                mapa[i][j] = "financeiro";
-                mapa[i][j+1] = "financeiro";
-                mapa[i+1][j] = "financeiro";
-            }
-        }
-    }
-
-    // 5. NEGATIVOS (3 ou mais iguais) - Mantendo sua lógica que já funciona
-    for (let i = 1; i < linhas.length; i++) {
+        // --- 3. NEGATIVOS (3 ou mais iguais) ---
         let jNeg = 0;
-        let linha = linhas[i];
         while (jNeg < linha.length) {
             let num = linha[jNeg];
             let cont = 1;
@@ -835,6 +822,22 @@ function obterMapaCores(linhas, tipoPira) {
                 for (let k = 0; k < cont; k++) { mapa[i][jNeg + k] = "negativo"; }
                 jNeg += cont;
             } else { jNeg++; }
+        }
+    });
+
+    // --- 4. FINANCEIRO (99/9) - Varredura Geométrica ---
+    for (let i = 0; i < linhas.length - 1; i++) {
+        for (let j = 0; j < linhas[i].length - 1; j++) {
+            // No financeiro, verificamos se o valor termina em 9 (ex: arcano 19 ou 9)
+            let v1 = String(linhas[i][j]).slice(-1);
+            let v2 = String(linhas[i][j+1]).slice(-1);
+            let v3 = String(linhas[i+1][j]).slice(-1);
+
+            if (v1 === "9" && v2 === "9" && v3 === "9") {
+                mapa[i][j] = "financeiro";
+                mapa[i][j+1] = "financeiro";
+                mapa[i+1][j] = "financeiro";
+            }
         }
     }
 
