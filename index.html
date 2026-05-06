@@ -480,6 +480,41 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, introPiramide) {
     return h;
 }
 
+
+
+function gerarLoopNegativo(mV, mP, mS, mD, crono) {
+    let h = "";
+    // Detectamos as sequências negativas de cada pirâmide
+    // (Assumindo que sua função detectarSequencias retorna as repetições)
+    
+    crono.forEach((periodo) => {
+        // Buscamos os números das linhas das pirâmides para este período
+        // Aqui usamos a lógica de pegar o arco correspondente ao índice
+        const nV = mV[0][periodo.indiceArcano]; 
+        const nP = mP[0][periodo.indiceArcano];
+        const nS = mS[0][periodo.indiceArcano];
+        const nD = mD[0][periodo.indiceArcano];
+
+        // Só montamos o card se houver algo relevante (opcional) ou fazemos o loop fixo
+        h += `
+        <div class="card-integrado evitar-corte" style="border-left-color: #d32f2f; background: #fff5f5;">
+            <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
+                ⚠️ DESAFIOS E BLOQUEIOS: ${periodo.idadeIni} a ${periodo.idadeFim} anos
+            </div>
+            <div class="conteudo-vibracoes">
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 VIDA:</b> ${personalizarTexto(textosSeqNegVida[nV] || "Sem bloqueios severos mapeados para esta vibração.")}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 PESSOAL:</b> ${personalizarTexto(textosSeqNegPessoal[nP] || "Fluxo pessoal em harmonia.")}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 SOCIAL:</b> ${personalizarTexto(textosSeqNegSocial[nS] || "Interações sociais protegidas.")}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 DESTINO:</b> ${personalizarTexto(textosSeqNegDestino[nD] || "Caminho de destino livre de obstruções.")}</div>
+            </div>
+        </div>`;
+    });
+    return h;
+}
+
+
+    
+
 function detectarSequencias(linhas){
     let posNeg=[]; let sequencias=[];
     linhas.forEach((linha, i)=>{
@@ -710,6 +745,19 @@ function gerar() {
     meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
     meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
 
+
+
+    // --- SEÇÃO 3: BLOQUEIOS E DESAFIOS (NEGATIVAS) ---
+    meuHtml += `
+    <section class="page" style="margin-top: 50px;">
+        <div class="separador-luxo" style="background: linear-gradient(90deg, transparent, #d32f2f, transparent);"></div>
+        <h2 style="text-align:center; color:#d32f2f; text-transform: uppercase;">Mapeamento de Desafios (Negativas)</h2>
+        <p style="text-align:center; font-style:italic;">Identificação de possíveis bloqueios vibracionais ao longo da jornada.</p>
+        ${gerarLoopNegativo(mVida, mPes, mSoc, mDes, crono)}
+    </section>`;
+
+
+    
     // --- SEÇÃO 3: O LOOP DE 100 ANOS (Vibrações Temporais) ---
     meuHtml += `
     <section id="ciclos-cem-anos" class="page" style="margin-top: 40px;">
