@@ -789,29 +789,34 @@ function detectarSequenciaFinanceira(linhas){
 
 
 
-
 function obterMapaCores(linhas, tipoPira) {
     let mapa = linhas.map(linha => linha.map(() => ""));
 
-    // 1. REGENTE (Fica na ponta de baixo)
+    // 1. REGENTE
     mapa[mapa.length - 1][0] = "regente";
 
-    // Seleção do Banco de Dados correta
+    // 2. SELEÇÃO DO BANCO (Garantindo que pegue os objetos do textos.js)
     let bancoEspecial = {};
-    const t = tipoPira.toUpperCase();
+    const t = String(tipoPira).toUpperCase();
+    
     if(t.includes("VIDA")) bancoEspecial = window.textosSeqEspVida || {};
     else if(t.includes("PESSOAL")) bancoEspecial = window.textosSeqEspPessoal || {};
     else if(t.includes("SOCIAL")) bancoEspecial = window.textosSeqEspSocial || {};
     else if(t.includes("DESTINO")) bancoEspecial = window.textosSeqEspDestino || {};
 
     linhas.forEach((linha, i) => {
-        // --- 2. SEQUÊNCIAS ESPECIAIS ---
+        
+        // --- 3. SEQUÊNCIAS ESPECIAIS (Onde estava o erro) ---
+        // Varremos a linha procurando trios
         for (let j = 0; j < linha.length - 2; j++) {
-            let n1 = String(linha[j]).slice(-1);
-            let n2 = String(linha[j+1]).slice(-1);
-            let n3 = String(linha[j+2]).slice(-1);
-            let seq = n1 + n2 + n3;
+            // Pegamos o último dígito de cada número, removemos espaços e garantimos que seja String
+            let n1 = String(linha[j]).slice(-1).trim();
+            let n2 = String(linha[j+1]).slice(-1).trim();
+            let n3 = String(linha[j+2]).slice(-1).trim();
             
+            let seq = n1 + n2 + n3; // Ex: "123"
+            
+            // Verificamos se essa sequência existe no banco
             if (bancoEspecial[seq]) {
                 mapa[i][j] = "especial";
                 mapa[i][j+1] = "especial";
@@ -819,12 +824,12 @@ function obterMapaCores(linhas, tipoPira) {
             }
         }
 
-        // --- 3. FINANCEIRO (99/9) ---
+        // --- 4. FINANCEIRO (99/9) ---
         if (i < linhas.length - 1) {
             for (let j = 0; j < linha.length - 1; j++) {
-                let v1 = String(linha[j]).slice(-1);
-                let v2 = String(linha[j+1]).slice(-1);
-                let v3 = String(linhas[i+1][j]).slice(-1);
+                let v1 = String(linha[j]).slice(-1).trim();
+                let v2 = String(linha[j+1]).slice(-1).trim();
+                let v3 = String(linhas[i+1][j]).slice(-1).trim();
 
                 if (v1 === "9" && v2 === "9" && v3 === "9") {
                     mapa[i][j] = "financeiro";
@@ -834,17 +839,16 @@ function obterMapaCores(linhas, tipoPira) {
             }
         }
 
-        // --- 4. NEGATIVOS (Apenas se não for especial/financeiro ou se for repetição pura) ---
+        // --- 5. NEGATIVOS (Apenas se estiver vazio) ---
         let jNeg = 0;
         while (jNeg < linha.length) {
-            let num = String(linha[jNeg]).slice(-1);
+            let num = String(linha[jNeg]).slice(-1).trim();
             let cont = 1;
-            while (jNeg + cont < linha.length && String(linha[jNeg + cont]).slice(-1) === num) { 
+            while (jNeg + cont < linha.length && String(linha[jNeg + cont]).slice(-1).trim() === num) { 
                 cont++; 
             }
             if (cont >= 3) {
                 for (let k = 0; k < cont; k++) {
-                    // Só pinta de vermelho se já não estiver pintado de dourado ou verde
                     if (mapa[i][jNeg + k] === "") {
                         mapa[i][jNeg + k] = "negativo";
                     }
