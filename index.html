@@ -72,11 +72,95 @@
 
 .vibracao-row b { display: block; color: #827108; font-size: 15px; }
 
+.card-input-premium {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #eee;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #827108; /* Seu Dourado */
+    margin-bottom: 8px;
+    letter-spacing: 1.5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #827108;
+    box-shadow: 0 0 8px rgba(130, 113, 8, 0.2);
+}
+
+.botoes-acao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.btn-gerar, .btn-pdf {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-gerar {
+    background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728);
+    color: #4a3b00;
+}
+
+.btn-pdf {
+    background: #111827;
+    color: #fff;
+}
+
+.btn-gerar:hover, .btn-pdf:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .botoes-acao { grid-template-columns: 1fr; }
+}
+
+
+    
 /* Celular */
 @media (max-width: 768px) {
     .container-master { width: 100% !important; }
     .grid-quatro-piramides { grid-template-columns: 1fr; }
 }
+
+
+
+    
 </style>
 </head>
 <body>
