@@ -697,40 +697,42 @@ function gerar() {
 
     // 2. Cronograma (Sempre baseado na Vida como controle)
     const crono = gerarCronogramaMestre(topo(mVida[0]), data);
-// Dentro da função gerar(), onde você monta o HTML:
 
+    // 3. Montagem do HTML Total
+    let meuHtml = `<div class="container-master">`;
 
-    // 3. Montagem do HTML Total (Substituindo a antiga)
-    let meuHtml = `
-    <div class="container-master">
-        <section class="page">
-            <div class="grid-quatro-piramides">
-                <div class="bloco-piramide"><h3>VIDA</h3>${desenhar(mVida, true)}</div>
-                <div class="bloco-piramide"><h3>PESSOAL</h3>${desenhar(mPes, true)}</div>
-                <div class="bloco-piramide"><h3>SOCIAL</h3>${desenhar(mSoc, true)}</div>
-                <div class="bloco-piramide"><h3>DESTINO</h3>${desenhar(mDes, true)}</div>
-            </div>
-        </section>
+    // --- SEÇÃO 1: VISÃO GERAL (Aquelas 4 pirâmides pequenas juntas) ---
+    meuHtml += `
+    <section class="page">
+        <h2 style="text-align:center; color:#827108; text-transform: uppercase;">Visão Geral das Matrizes</h2>
+        <div class="grid-quatro-piramides">
+            <div class="bloco-piramide"><h3>VIDA</h3>${desenhar(mVida, true)}</div>
+            <div class="bloco-piramide"><h3>PESSOAL</h3>${desenhar(mPes, true)}</div>
+            <div class="bloco-piramide"><h3>SOCIAL</h3>${desenhar(mSoc, true)}</div>
+            <div class="bloco-piramide"><h3>DESTINO</h3>${desenhar(mDes, true)}</div>
+        </div>
+    </section>`;
 
-        <section class="page">
-            ${personalizarTexto(explicacoes.principal)}
-            ${personalizarTexto(explicacoes.pessoal)}
-            ${personalizarTexto(explicacoes.social)}
-            ${personalizarTexto(explicacoes.destino)}
-        </section>
+    // --- SEÇÃO 2: AS 4 MATRIZES DETALHADAS (Aqui é onde entra o seu RESULTADO DO REGENTE) ---
+    // Chamamos a função montarSecaoMatriz para cada uma delas
+    meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
+    meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
+    meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
+    meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
 
-        <section id="ciclos-cem-anos">
-            <h2 style="text-align:center; color:var(--gold);">VIBRAÇÕES TEMPORAIS INTEGRADAS</h2>
-            ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
-        </section>
-    </div>`;
+    // --- SEÇÃO 3: O LOOP DE 100 ANOS (Vibrações Temporais) ---
+    meuHtml += `
+    <section id="ciclos-cem-anos" class="page" style="margin-top: 40px;">
+        <div style="height: 2px; background: #827108; margin-bottom: 30px; opacity: 0.3;"></div>
+        <h2 style="text-align:center; color:#827108;">VIBRAÇÕES TEMPORAIS INTEGRADAS (100 ANOS)</h2>
+        ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
+    </section>`;
 
+    meuHtml += `</div>`; // Fecha a container-master
 
-
-    
+    // 4. Injeta o HTML final na div de resultado
     document.getElementById('resultado-final').innerHTML = meuHtml;
 }
-  
 
 
 document.oncontextmenu=()=>false;
