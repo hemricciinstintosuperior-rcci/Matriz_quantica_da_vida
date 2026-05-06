@@ -203,7 +203,11 @@
 }
 
 
-
+@media (max-width: 768px) {
+    .container-master { width: 100% !important; overflow-x: hidden; }
+    .piramide .num { width: 22px; height: 22px; font-size: 11px; } /* Diminui a bola no celular */
+    .piramide .linha { gap: 4px; } 
+}
     
 </style>
 </head>
@@ -229,39 +233,6 @@
         </button>
     </div>
 </div>  
-<div id="relatorio-matriz-quântica" class="container-master">
-    
-    <header class="header-premium">
-        <h1>MATRIZ VIBRACIONAL QUÂNTICA</h1>
-        <p class="subtitulo">Análise Integrada: Vida, Pessoal, Social e Destino</p>
-    </header>
-
-    <section class="secao-matrizes">
-        <div class="grid-quatro-piramides">
-            <div class="bloco-piramide p-vida">
-                <h3>Matriz da Vida</h3>
-                <div id="canvas-vida">${gerarPiramide(matrizVida)}</div>
-            </div>
-            <div class="bloco-piramide p-pessoal">
-                <h3>Matriz Pessoal</h3>
-                <div id="canvas-pessoal">${gerarPiramide(matrizPessoal)}</div>
-            </div>
-            <div class="bloco-piramide p-social">
-                <h3>Matriz Social</h3>
-                <div id="canvas-social">${gerarPiramide(matrizSocial)}</div>
-            </div>
-            <div class="bloco-piramide p-destino">
-                <h3>Matriz de Destino</h3>
-                <div id="canvas-destino">${gerarPiramide(matrizDestino)}</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="resultados-ciclos" class="secao-resultados">
-        </section>
-
-</div>
-
 
 
 <div id="resultado-final"></div>
@@ -489,33 +460,21 @@ function detectarSequenciaFinanceira(linhas){
     return pos;
 }
 
-function desenhar(linhas, compacta = false, bancoEsp = null) {
+function desenhar(linhas, compacta = false) {
     let classe = compacta ? "piramide compacta" : "piramide";
-    
-    // Busca as posições de cada tipo de destaque
-    const neg = (typeof detectarSequencias === 'function') ? detectarSequencias(linhas).posNeg : [];
-    const esp = (typeof detectarPosicoesEspeciais === 'function') ? detectarPosicoesEspeciais(linhas, bancoEsp) : [];
-    const fin = (typeof detectarSequenciaFinanceira === 'function') ? detectarSequenciaFinanceira(linhas) : [];
+    let html = `<div class="${classe}">`;
 
-    let html = `<div class="${classe}">`; // Variável criada como 'html'
-
-    linhas.forEach((linha, i) => {
-        html += `<div class="linha">`;
-        linha.forEach((n, j) => {
-            let classes = ["num"];
-
-            // Verifica se a posição deve ser colorida
-            if (neg.some(p => p.linha === i && p.indice === j)) classes.push("negativo");
-            if (fin.some(p => p.linha === i && p.indice === j)) classes.push("financeiro");
-            if (esp.some(p => p.linha === i && p.indice === j)) classes.push("especial");
-
-            html += `<div class="${classes.join(' ')}">${n}</div>`;
+    linhas.forEach((linha) => {
+        // ESSA DIV 'LINHA' É O QUE FAZ FICAR UM DO LADO DO OUTRO
+        html += `<div class="linha">`; 
+        linha.forEach((n) => {
+            html += `<div class="num">${n}</div>`;
         });
         html += `</div>`;
     });
 
     html += `</div>`;
-    return html; // Retorno corrigido para 'html' (sem o número 1)
+    return html;
 }
 
 function piramidePessoal(baseNome, dia) { return piramide(baseNome.map(n => reduzir(n + reduzir(dia)))); }
