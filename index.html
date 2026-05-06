@@ -699,10 +699,7 @@ function gerar() {
     const crono = gerarCronogramaMestre(topo(mVida[0]), data);
 // Dentro da função gerar(), onde você monta o HTML:
 
-html += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
-html += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
-html += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
-html += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
+
     // 3. Montagem do HTML Total (Substituindo a antiga)
     let meuHtml = `
     <div class="container-master">
@@ -728,6 +725,12 @@ html += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
         </section>
     </div>`;
 
+
+html += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
+html += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
+html += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
+html += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
+    
     document.getElementById('resultado-final').innerHTML = meuHtml;
 }
   
