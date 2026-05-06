@@ -884,7 +884,7 @@ function desenhar(linhas, tipoPira = "VIDA", compacta = false) {
     linhas.forEach((linha, i) => {
         html += `<div class="linha">`;
         linha.forEach((num, j) => {
-            let corClasse = mapaCores[i][j];
+          let corClasse = "especial";
             html += `<div class="num ${corClasse}">${num}</div>`;
         });
         html += `</div>`;
