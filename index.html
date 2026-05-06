@@ -794,12 +794,15 @@ function obterMapaCores(linhas, tipoPira) {
     mapa[mapa.length - 1][0] = "regente";
 
     // 2. PEGAR O BANCO DE DADOS
+// 2. SELEÇÃO DO BANCO (Ajustado para buscar a const direto)
     let bancoEspecial = {};
     const t = String(tipoPira).toUpperCase();
-    if(t.includes("VIDA")) bancoEspecial = window.textosSeqEspVida || {};
-    else if(t.includes("PESSOAL")) bancoEspecial = window.textosSeqEspPessoal || {};
-    else if(t.includes("SOCIAL")) bancoEspecial = window.textosSeqEspSocial || {};
-    else if(t.includes("DESTINO")) bancoEspecial = window.textosSeqEspDestino || {};
+    
+    // Tentamos pegar a variável global (window) ou a const direta
+    if(t.includes("VIDA")) bancoEspecial = (typeof textosSeqEspVida !== 'undefined') ? textosSeqEspVida : {};
+    else if(t.includes("PESSOAL")) bancoEspecial = (typeof textosSeqEspPessoal !== 'undefined') ? textosSeqEspPessoal : {};
+    else if(t.includes("SOCIAL")) bancoEspecial = (typeof textosSeqEspSocial !== 'undefined') ? textosSeqEspSocial : {};
+    else if(t.includes("DESTINO")) bancoEspecial = (typeof textosSeqEspDestino !== 'undefined') ? textosSeqEspDestino : {};
 
     linhas.forEach((linha, i) => {
         
