@@ -447,7 +447,38 @@ let dataFim = datas.fim;
 }
 
 
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, introPiramide) {
+    // 1. Identifica o Regente (o último número da ponta da pirâmide)
+    const ultimaLinha = matriz[matriz.length - 1];
+    const regente = ultimaLinha[0];
+    
+    // 2. Busca o resultado específico (1 ao 9) no banco de textos que passamos
+    const resultadoTexto = bancoDeTextos[regente] || "Resultado não encontrado para este número.";
 
+    let h = `
+    <div class="page evitar-corte" style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 40px;">
+        <h2 style="text-align:center; color:#827108; text-transform: uppercase; letter-spacing: 2px;">Matriz de ${titulo}</h2>
+        
+        <div class="texto-introducao" style="font-style: italic; color: #555; margin-bottom: 20px;">
+            ${personalizarTexto(introPiramide)}
+        </div>
+
+        <div style="margin: 20px 0;">
+            ${desenhar(matriz)}
+        </div>
+
+        <div class="resultado-regente-container" style="background: #fdfaf0; border: 1px solid #e6d5a8; border-radius: 12px; padding: 25px; margin-top: 20px;">
+            <h3 style="color: #827108; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 24px;">🔱</span> 
+                RESULTADO DO REGENTE ${regente} - ${titulo}
+            </h3>
+            <div class="texto-resultado-pratico" style="font-size: 16px; line-height: 1.7; color: #333;">
+                ${personalizarTexto(resultadoTexto)}
+            </div>
+        </div>
+    </div>`;
+    return h;
+}
 
 function detectarSequencias(linhas){
     let posNeg=[]; let sequencias=[];
@@ -666,7 +697,12 @@ function gerar() {
 
     // 2. Cronograma (Sempre baseado na Vida como controle)
     const crono = gerarCronogramaMestre(topo(mVida[0]), data);
+// Dentro da função gerar(), onde você monta o HTML:
 
+html += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
+html += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
+html += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
+html += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
     // 3. Montagem do HTML Total (Substituindo a antiga)
     let meuHtml = `
     <div class="container-master">
