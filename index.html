@@ -5,7 +5,7 @@
 <title>Pirâmide da Vida Quântica</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#111827">
-
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     
 <style>
 /* Reset de Impressão para o PDF não sair "zoado" */
@@ -21,7 +21,7 @@
 }
 
 .container-master {
-    width: 135%; /* Seu padrão para PDF A4 no PC */
+    width: 100%; /* Seu padrão para PDF A4 no PC */
     margin: auto;
     font-family: 'Montserrat', sans-serif;
     color: #333;
@@ -164,8 +164,8 @@
 }
 
 .piramide .num {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +205,7 @@
 
 @media (max-width: 768px) {
     .container-master { width: 100% !important; overflow-x: hidden; }
-    .piramide .num { width: 22px; height: 22px; font-size: 11px; } /* Diminui a bola no celular */
+    .piramide .num { width: 15px; height: 15px; font-size: 11px; } /* Diminui a bola no celular */
     .piramide .linha { gap: 4px; } 
 }
 
