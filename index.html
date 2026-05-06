@@ -802,7 +802,7 @@ function detectarSequenciaFinanceira(linhas){
 function obterMapaCores(linhas, tipoPira) {
     let mapa = linhas.map(linha => linha.map(() => ""));
 
-    // 1. REGENTE (O último lá de baixo)
+    // 1. REGENTE
     mapa[mapa.length - 1][0] = "regente";
 
     // 2. PEGAR O BANCO DE DADOS
@@ -814,30 +814,51 @@ function obterMapaCores(linhas, tipoPira) {
     else if(t.includes("DESTINO")) bancoEspecial = window.textosSeqEspDestino || {};
 
     linhas.forEach((linha, i) => {
+        
+        // --- 3. SEQUÊNCIAS FINANCEIRAS (VERDE - 99/9) ---
+        // Adicionada de volta com prioridade
+        if (i < linhas.length - 1) {
+            for (let j = 0; j < linha.length - 1; j++) {
+                let v1 = String(linha[j]).split('').pop();
+                let v2 = String(linha[j+1]).split('').pop();
+                let v3 = String(linhas[i+1][j]).split('').pop();
+
+                if (v1 === "9" && v2 === "9" && v3 === "9") {
+                    mapa[i][j] = "financeiro";
+                    mapa[i][j+1] = "financeiro";
+                    mapa[i+1][j] = "financeiro";
+                }
+            }
+        }
+
+        // --- 4. SEQUÊNCIAS ESPECIAIS (DOURADO) ---
         for (let j = 0; j < linha.length - 2; j++) {
-            // Pegamos o último dígito e limpamos qualquer espaço
             let n1 = String(linha[j]).split('').pop();
             let n2 = String(linha[j+1]).split('').pop();
             let n3 = String(linha[j+2]).split('').pop();
             let seq = n1 + n2 + n3;
             
-            // Se a sequência existe no seu textos.js, pinta de dourado
+            // Pinta de dourado se existir no banco e não for financeiro
             if (bancoEspecial[seq]) {
-                mapa[i][j] = "especial";
-                mapa[i][j+1] = "especial";
-                mapa[i][j+2] = "especial";
+                if (mapa[i][j] === "") mapa[i][j] = "especial";
+                if (mapa[i][j+1] === "") mapa[i][j+1] = "especial";
+                if (mapa[i][j+2] === "") mapa[i][j+2] = "especial";
             }
         }
         
-        // Mantemos a lógica dos negativos (vermelho) apenas onde não for especial
+        // --- 5. SEQUÊNCIAS NEGATIVAS (VERMELHO) ---
         let jNeg = 0;
         while (jNeg < linha.length) {
             let num = String(linha[jNeg]).split('').pop();
             let cont = 1;
             while (jNeg + cont < linha.length && String(linha[jNeg+cont]).split('').pop() === num) { cont++; }
+            
             if (cont >= 3) {
                 for (let k = 0; k < cont; k++) {
-                    if (mapa[i][jNeg + k] === "") mapa[i][jNeg + k] = "negativo";
+                    // Só pinta de vermelho se o espaço ainda estiver vazio (branco)
+                    if (mapa[i][jNeg + k] === "") {
+                        mapa[i][jNeg + k] = "negativo";
+                    }
                 }
                 jNeg += cont;
             } else { jNeg++; }
@@ -846,7 +867,6 @@ function obterMapaCores(linhas, tipoPira) {
 
     return mapa;
 }
-
 
 
 
