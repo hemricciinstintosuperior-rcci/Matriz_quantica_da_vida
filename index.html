@@ -122,24 +122,8 @@
 <button onclick="abrirPremium()">BAIXAR O RELATÓRIO EM PDF</button>
 
     </div>
-   <div class="card">
 
-        <h3>Resultados</h3>
-    <div class="abas">
-        <button onclick="mostrarAba('principal')">Principal / Vida</button>
-        <button onclick="mostrarAba('pessoal')">Pessoal</button>
-        <button onclick="mostrarAba('social')">Social</button>
-        <button onclick="mostrarAba('destino')">Influência e Propósito</button>
-        <button onclick="mostrarAba('resultado')">Resultado da Dinâmica</button>
-    </div>
-    <div id="aba_resultado" class="aba" style="display:none"></div>
-    <div id="aba_principal" class="aba" style="display:block"></div>
-    <div id="aba_pessoal" class="aba"></div>
-    <div id="aba_social" class="aba"></div>
-    <div id="aba_destino" class="aba"></div>
-       
-</div>
-
+<div id="resultado-final"></div>
 
 <script src="textos.js"></script>
 
@@ -270,91 +254,7 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
     };
 }
  
-// --- NEGATIVAS ---
-// --- SEQUÊNCIAS NEGATIVAS (Agora lê o topo) ---
-function gerarRelatorioNegativasComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#d32f2f;"> Vulnerabilidade e Insegurança  ⚠️</h2>`;
-    let encontrou = false;
-    
-    linhas.forEach((linha, i) => {
-        // REMOVIDO: if (i === 0) return; -> Agora ele lê a linha 0 (o topo)
-        let j = 0;
-        while (j < linha.length) {
-            let num = linha[j];
-            let cont = 1;
-            while (j + cont < linha.length && linha[j + cont] === num) { cont++; }
-            
-            if (cont >= 3) {
-                encontrou = true;
-                let duracaoTotal = 0;
-                let offset = Math.floor(i / 2);
-                
-                for (let k = 0; k < cont; k++) {
-                    let colReal = j + offset + k;
-                    if (colReal < topoVida.length) {
-                        duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
-                    }
-                }
-                
-                let periodo = crono[j + offset] || crono[0];
-                let idadeIni = periodo.idadeIni;
-                let idadeFim = idadeIni + duracaoTotal;
-               let datas = calcularPeriodoSequencia(periodo, duracaoTotal);
-let dataIni = datas.ini;
-let dataFim = datas.fim;
-             
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #ff0000; padding-left:10px; margin-bottom:20px;">
-                        <b style="font-size:18px;">🚫 Sequência ${num}</b><br>
-                         <span style="color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; color:#d32f2f;">Periodo mais crítico: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p>${personalizarTexto(bancoTxt[num])}</p>
-                      </div>`;
-                j += cont;
-            } else { j++; }
-        }
-    });
-    return encontrou ? h + "</div>" : "";
-}
 
-// --- SEQUÊNCIAS ESPECIAIS (Agora lê o topo) ---
-function gerarRelatorioEspeciaisComVigencia(linhas, crono, bancoTxt, topoVida) {
-    let h = `<div class="blocoRelatorio"><h2 style="color:#b8860b;"> Sequências Especiais  ⚡️</h2>`;
-    let encontrou = false;
-    
-    linhas.forEach((linha, i) => {
-        // REMOVIDO: if (i === 0) return; -> Agora processa o topo também
-        for (let j = 0; j < linha.length - 2; j++) {
-            let seq = "" + linha[j] + linha[j + 1] + linha[j + 2];
-            if (bancoTxt && bancoTxt[seq]) {
-                encontrou = true;
-                let duracaoTotal = 0;
-                let offset = Math.floor(i / 2);
-                
-                for (let k = 0; k < 3; k++) {
-                    let colReal = j + offset + k;
-                    if (colReal < topoVida.length) {
-                        duracaoTotal += parseInt(topoVida[colReal].toString()[0]) || 0;
-                    }
-                }
-                
-                let periodo = crono[j + offset] || crono[0];
-                let idadeIni = periodo.idadeIni;
-                let idadeFim = idadeIni + duracaoTotal;
-                  let datas = calcularPeriodoSequencia(periodo, duracaoTotal);
-let dataIni = datas.ini;
-let dataFim = datas.fim;
-             
-                h += `<div class="blocoRelatorio" style="border-left:5px solid #b8860b; padding-left:10px; margin-bottom:20px;">
-                        <b style="font-size:18px;">✨ Impacto ${seq}</b><br>
-                        <span style="color:#111827;">📅 Data: de ${dataIni} até ${dataFim}</span><br>
-                        <span style="font-weight:bold; color:#b8860b;">Periodo ativo: ${duracaoTotal} anos (dos ${idadeIni} aos ${idadeFim} anos)</span>
-                        <p>${personalizarTexto(bancoTxt[seq])}</p>
-                      </div>`;
-            }
-        }
-    });
-    return encontrou ? h + "</div>" : "";
-}
 
 // --- FLUXO FINANCEIRO (Agora lê o topo) ---
 function gerarRelatorioFinanceiroComVigencia(linhas, crono, bancoTxt, topoVida) {
@@ -396,63 +296,7 @@ let dataFim = datas.fim;
 }
 
 
-// 2. Nova versão da montarConteudoComIntros (Ajustada para processar os textos)
-function montarConteudoComIntros(linhas, regente, txtReg, crono, txtVig, nomePiramide, txtNeg, txtEsp, txtFin, topoVida) {
-    let html = `<div class="box"><h2>${nomePiramide}</h2>` + desenhar(linhas, true, txtEsp) + `</div>`;
-    let tipo = nomePiramide.toLowerCase().includes("vida") ? "vida" : (nomePiramide.toLowerCase().includes("pessoal") ? "pessoal" : (nomePiramide.toLowerCase().includes("social") ? "social" : "destino"));
-    const intro = window.introsPiramides ? window.introsPiramides[tipo] : {};
 
-    if(intro.regente) html += `<div>${personalizarTexto(intro.regente)}</div>`;
-    if(txtReg && txtReg[regente]) html += `<div class="blocoRelatorio">${personalizarTexto(txtReg[regente])}</div>`;
-
-    const relNeg = gerarRelatorioNegativasComVigencia(linhas, crono, txtNeg, topoVida);
-    if(relNeg) {
-        if(intro.negativas) html += `<div>${personalizarTexto(intro.negativas)}</div>`;
-        html += relNeg;
-    }
-
-    const relEsp = gerarRelatorioEspeciaisComVigencia(linhas, crono, txtEsp, topoVida);
-    if(relEsp) {
-        if(intro.especiais) html += `<div>${personalizarTexto(intro.especiais)}</div>`;
-        html += relEsp;
-    }
-
-    const relFin = gerarRelatorioFinanceiroComVigencia(linhas, crono, txtFin, topoVida);
-    if(relFin) {
-        if(intro.financeiro) html += `<div>${personalizarTexto(intro.financeiro)}</div>`;
-        html += relFin;
-    }
-
-    if(crono) {
-        if(intro.vigencias) html += `<div>${personalizarTexto(intro.vigencias)}</div>`;
-        html += montarVigenciasSincronizadas(crono, topo(linhas[0]), txtVig);
-    }
-    return html;
-}
-
-// 3. Nova versão da montarVigenciasSincronizadas
-function montarVigenciasSincronizadas(cronograma, arcanosDaPiramide, textosMapa) {
-    let html = "<div class='blocoRelatorio'><h2>⏳ Fluxo das Potências ⏳</h2>";
-    
-    cronograma.forEach((periodo) => {
-        // Pega o arcano correspondente ao índice, ou o último se passar do tamanho
-        let idx = periodo.indiceArcano;
-        let numArcano = arcanosDaPiramide[idx] || arcanosDaPiramide[arcanosDaPiramide.length - 1];
-        
-        let textoFinal = personalizarTexto(textosMapa[numArcano] || `Interpretação da Potência ${numArcano} em análise.`);
-
-         html += `<div class="blocoRelatorio" style="text-align:left; border-center: 5px solid #0C003B;">
-                 <h2 style="margin:0; color:#111827;">✡︎ Potência ${numArcano}</h2>
-                 <span style="margin:0; color:#111827;"> 📅 Período: de ${periodo.ini} até ${periodo.fim} </span><br>
-                 <span style="color: #111827; font-weight: normal;">🔍 de ${periodo.idadeIni} a ${periodo.idadeFim} anos de idade</span>
-                 <div style=" border-left: 5px solid #0C003B; font-size:18px; margin-top:15px; text-align:left; color:#333;">
-                    ${textoFinal}
-                 </div>
-                 </div>`;
-    });
-    
-    return html + "</div>";
-}
 
 function detectarSequencias(linhas){
     let posNeg=[]; let sequencias=[];
@@ -537,10 +381,7 @@ function piramidePessoal(baseNome, dia) { return piramide(baseNome.map(n => redu
 function piramideSocial(baseNome, mes) { return piramide(baseNome.map(n => reduzir(n + reduzir(mes)))); }
 function piramideDestino(baseNome, dia, mes) { return piramide(baseNome.map(n => reduzir(n + reduzir(reduzir(dia) + reduzir(mes))))); }
 
-function mostrarAba(nome){
-    document.querySelectorAll('.aba').forEach(a=>a.style.display='none');
-    document.getElementById("aba_"+nome).style.display="block";
-}
+
 function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     let h = `<div class="blocoRelatorio" style="border: 2px solid #fff; background: #fdfeff;">
        <h1 style="color:#6366f1; text-align:center; margin-bottom: 20px;">▼ Resultado da Dinâmica entre as Matrizes ▼</h1>`;
@@ -618,45 +459,86 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     return h + "</div>";
 }
 
-function gerarRelatorioMatrizTotal() {
-    // 1. Cálculos (Garantir que as 4 matrizes existem)
-    const mVida = calcularMatriz(nomeCompleto); // sua função de cálculo
-    const mPes  = calcularMatriz(nomePessoal); 
-    const mSoc  = calcularMatriz(nomeSocial);
-    const mDes  = calcularMatriz(nomeDestino);
 
-    // 2. Montagem do HTML
+function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
+    let h = "";
+    const topoV = topo(mV[0]);
+    const topoP = topo(mP[0]);
+    const topoS = topo(mS[0]);
+    const topoD = topo(mD[0]);
+
+    crono.forEach((periodo, i) => {
+        const pV = topoV[periodo.indiceArcano] || topoV[topoV.length-1];
+        const pP = topoP[periodo.indiceArcano] || topoP[topoP.length-1];
+        const pS = topoS[periodo.indiceArcano] || topoS[topoS.length-1];
+        const pD = topoD[periodo.indiceArcano] || topoD[topoD.length-1];
+
+        h += `
+        <div class="card-integrado evitar-corte">
+            <div class="titulo-ciclo">Ciclo: ${periodo.idadeIni} a ${periodo.idadeFim} anos (${periodo.ini} a ${periodo.fim})</div>
+            <div class="conteudo-vibracoes">
+                <div class="vibracao-row"><b>👑 VIDA (Potência ${pV})</b>${personalizarTexto(textosVida[pV])}</div>
+                <div class="vibracao-row"><b>👤 PESSOAL (Potência ${pP})</b>${personalizarTexto(textosPessoal[pP])}</div>
+                <div class="vibracao-row"><b>🌎 SOCIAL (Potência ${pS})</b>${personalizarTexto(textosSocial[pS])}</div>
+                <div class="vibracao-row"><b>☄️ DESTINO (Potência ${pD})</b>${personalizarTexto(textosDestino[pD])}</div>
+            </div>
+        </div>`;
+    });
+    return h;
+}
+
+    
+
+function gerar() {
+    const nome = document.getElementById("nome").value.trim();
+    const data = document.getElementById("data").value;
+
+    if (!nome || !data) {
+        alert("Preencha nome e data!");
+        return;
+    }
+
+    const dia = data.split("-")[2];
+    const mes = data.split("-")[1];
+    const baseN = nomeNumeros(nome);
+
+    // 1. Cálculos das 4 Matrizes
+    const mVida = piramide(baseN);
+    const mPes  = piramidePessoal(baseN, dia);
+    const mSoc  = piramideSocial(baseN, mes);
+    const mDes  = piramideDestino(baseN, dia, mes);
+
+    // 2. Cronograma (Sempre baseado na Vida como controle)
+    const crono = gerarCronogramaMestre(topo(mVida[0]), data);
+
+    // 3. Montagem do HTML Total (Substituindo a antiga)
     let meuHtml = `
     <div class="container-master">
         <section class="page">
-            <div class="separador-luxo"><div class="caixa-interna"><h2>AS 4 MATRIZES QUÂNTICAS</h2></div></div>
             <div class="grid-quatro-piramides">
-                <div class="bloco-piramide"><h3>VIDA</h3>${renderizarPiramide(mVida)}</div>
-                <div class="bloco-piramide"><h3>PESSOAL</h3>${renderizarPiramide(mPes)}</div>
-                <div class="bloco-piramide"><h3>SOCIAL</h3>${renderizarPiramide(mSoc)}</div>
-                <div class="bloco-piramide"><h3>DESTINO</h3>${renderizarPiramide(mDes)}</div>
+                <div class="bloco-piramide"><h3>VIDA</h3>${desenhar(mVida, true)}</div>
+                <div class="bloco-piramide"><h3>PESSOAL</h3>${desenhar(mPes, true)}</div>
+                <div class="bloco-piramide"><h3>SOCIAL</h3>${desenhar(mSoc, true)}</div>
+                <div class="bloco-piramide"><h3>DESTINO</h3>${desenhar(mDes, true)}</div>
             </div>
         </section>
 
         <section class="page">
-            <div class="texto-introducao">${explicacoes.principal}</div>
-            <div class="texto-introducao">${explicacoes.pessoal}</div>
-            </section>
-
-        <section id="ciclos-cem-anos">
-            <div class="separador-luxo"><div class="caixa-interna"><h2>VIBRAÇÕES TEMPORAIS INTEGRADAS</h2></div></div>
-            ${gerarConteudoIntegrado(mVida, mPes, mSoc, mDes)}
+            ${personalizarTexto(explicacoes.principal)}
+            ${personalizarTexto(explicacoes.pessoal)}
+            ${personalizarTexto(explicacoes.social)}
+            ${personalizarTexto(explicacoes.destino)}
         </section>
 
-        <section id="sequencias-perigosas">
-            ${gerarBlocoSequenciasIntegrado(mVida, mPes, mSoc, mDes)}
+        <section id="ciclos-cem-anos">
+            <h2 style="text-align:center; color:var(--gold);">VIBRAÇÕES TEMPORAIS INTEGRADAS</h2>
+            ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
         </section>
     </div>`;
 
-    // 3. Enviar para a Tela
     document.getElementById('resultado-final').innerHTML = meuHtml;
 }
-    
+  
 
 
 document.oncontextmenu=()=>false;
