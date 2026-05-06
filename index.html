@@ -617,7 +617,71 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     return encontrou ? html : "<p style='text-align:center;'>Nenhuma sequência negativa crítica detectada.</p>";
 }
 
+function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
+    let html = "";
+    let encontrou = false;
+    let sequenciasProcessadas = new Set();
     
+    // O banco de textos especiais geralmente vem de textos.js como sequenciasEspeciais
+    const bancoEspecial = window.sequenciasEspeciais || {};
+
+    mV.forEach((linha, i) => {
+        // Varre a linha em trios para identificar as sequências de 3 dígitos
+        for (let j = 0; j < linha.length - 2; j++) {
+            let seqV = "" + linha[j] + linha[j + 1] + linha[j + 2];
+            
+            // Se a sequência existe no banco de dados da Vida
+            if (bancoEspecial[seqV]) {
+                encontrou = true;
+
+                // Evita duplicatas na mesma posição
+                let chaveUnica = `especial-lin-${i}-col-${j}-seq-${seqV}`;
+                if (sequenciasProcessadas.has(chaveUnica)) continue;
+                sequenciasProcessadas.add(chaveUnica);
+
+                // --- CÁLCULO DE VIGÊNCIA (Soma das 3 Potências do Topo acima da sequência) ---
+                let duracaoTotal = 0;
+                let offset = Math.floor(i / 2);
+                
+                for (let k = 0; k < 3; k++) {
+                    let colReal = j + offset + k;
+                    if (colReal < topoV.length) {
+                        duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                    }
+                }
+
+                // SINCRONIA DE DATAS
+                let periodoBase = crono[j + offset] || crono[0];
+                let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+                let idadeFim = periodoBase.idadeIni + duracaoTotal;
+
+                // Captura a sequência equivalente nas outras pirâmides na mesma posição
+                let seqP = "" + mP[i][j] + mP[i][j+1] + mP[i][j+2];
+                let seqS = "" + mS[i][j] + mS[i][j+1] + mS[i][j+2];
+                let seqD = "" + mD[i][j] + mD[i][j+1] + mD[i][j+2];
+
+                html += `
+                <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5;">
+                    <div class="titulo-ciclo" style="background: #fcf6ba; color: #827108;">
+                        ✨ SEQUÊNCIA ESPECIAL ATIVA: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                    </div>
+                    <div class="conteudo-vibracoes">
+                        <p style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #b8860b; padding-bottom: 5px;">
+                            📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                        </p>
+                        
+                        <div class="vibracao-row"><b>🔱 VIDA (${seqV}):</b> ${personalizarTexto(textosEspeciaisVida[seqV] || "Frequência especial detectada.")}</div>
+                        <div class="vibracao-row"><b>👤 PESSOAL (${seqP}):</b> ${personalizarTexto(textosEspeciaisPessoal[seqP] || "Impacto no campo pessoal.")}</div>
+                        <div class="vibracao-row"><b>🌎 SOCIAL (${seqS}):</b> ${personalizarTexto(textosEspeciaisSocial[seqS] || "Influência no campo social.")}</div>
+                        <div class="vibracao-row"><b>☄️ DESTINO (${seqD}):</b> ${personalizarTexto(textosEspeciaisDestino[seqD] || "Manifestação no destino.")}</div>
+                    </div>
+                </div>`;
+            }
+        }
+    });
+
+    return encontrou ? html : "";
+}    
     
 
 function detectarSequencias(linhas){
@@ -898,6 +962,15 @@ meuHtml += `
     meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
     meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
     meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
+
+
+    // Exemplo de como colocar no seu gerar()
+meuHtml += `
+<section class="page" style="margin-top: 50px;">
+    <div style="height: 4px; background: #b8860b; margin-bottom: 20px; border-radius: 2px;"></div>
+    <h2 style="text-align:center; color:#b8860b; text-transform: uppercase;">Sequências Especiais e Portais</h2>
+    ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+</section>`;
 
     // 2. NOVO LOOP DE NEGATIVAS (Sincronizado pela Vida)
     meuHtml += `
