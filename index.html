@@ -542,45 +542,47 @@ function gerarLoopNegativo(mV, mP, mS, mD, crono) {
 
 function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let html = "";
-    // Detectamos as sequências na Matriz da Vida (que serve de guia posicional)
+    // Detectamos as sequências na Matriz da Vida (Guia Mestre)
     const detec = detectarSequencias(mV); 
-
-    // Criamos um mapa para evitar repetir a mesma sequência no relatório
     let sequenciasProcessadas = new Set();
 
     detec.sequencias.forEach((seq) => {
-        // Encontra a primeira ocorrência desta sequência específica para pegar o índice
-        // IMPORTANTE: O 'j' no loop da detecção é o índice da coluna
+        // Encontra onde a sequência começa na linha para bater com o Topo
         let ocorrencia = detec.posNeg.find(p => mV[p.linha][p.indice] === seq.numero);
-        let col = ocorrencia ? ocorrencia.indice : 0;
-        
-        // Chave única para não repetir o mesmo alerta se ele aparecer em várias linhas
-        let chaveUnica = `${seq.numero}-${col}`;
+        if (!ocorrencia) return;
+
+        let colInicial = ocorrencia.indice;
+        let numSeq = seq.numero;
+        let repeticoes = seq.repeticoes;
+
+        // Chave única para evitar duplicatas na mesma posição
+        let chaveUnica = `pos-${colInicial}-num-${numSeq}`;
         if (sequenciasProcessadas.has(chaveUnica)) return;
         sequenciasProcessadas.add(chaveUnica);
 
-        // CÁLCULO DE VIGÊNCIA (Soma os anos no Topo da Vida para cada casa da sequência)
+        // --- CÁLCULO DE TEMPO CONFORME SUA EXPLICAÇÃO ---
+        // Pegamos a soma dos primeiros dígitos das potências do Topo (topoV) 
+        // que estão exatamente acima da sequência
         let duracaoTotal = 0;
-        for (let i = 0; i < seq.repeticoes; i++) {
-            let idxRelativo = col + i;
-            // Se a sequência for muito longa e sair do limite do topo, paramos
-            if (idxRelativo < topoV.length) {
-                duracaoTotal += parseInt(topoV[idxRelativo].toString()[0]) || 1;
+        for (let i = 0; i < repeticoes; i++) {
+            let idxAtual = colInicial + i;
+            if (idxAtual < topoV.length) {
+                // Pega o primeiro dígito (ex: de 13 pega 1, de 36 pega 3)
+                let potenciaParaTempo = parseInt(topoV[idxAtual].toString()[0]) || 1;
+                duracaoTotal += potenciaParaTempo;
             }
         }
 
-        // Sincroniza com o cronograma mestre da Vida
-        // O indiceArcano do crono deve bater com o 'col' da pirâmide
-        let periodoBase = crono.find(c => c.indiceArcano === (col % topoV.length)) || crono[0];
-        
+        // Sincroniza com a data de início real baseada no cronograma
+        let periodoBase = crono.find(c => c.indiceArcano === colInicial) || crono[0];
         let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
         let idadeFim = periodoBase.idadeIni + duracaoTotal;
 
-        // Pega os números correspondentes nas outras pirâmides na mesma posição
-        const numV = mV[0][col];
-        const numP = mP[0][col];
-        const numS = mS[0][col];
-        const numD = mD[0][col];
+        // Pega os números das outras pirâmides na MESMA posição de coluna
+        const numV = mV[0][colInicial];
+        const numP = mP[0][colInicial];
+        const numS = mS[0][colInicial];
+        const numD = mD[0][colInicial];
 
         html += `
         <div class="card-integrado evitar-corte" style="border-left: 6px solid #d32f2f; margin-bottom: 25px;">
@@ -588,21 +590,20 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                 ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
             </div>
             <div class="conteudo-vibracoes">
-                <p style="font-size: 13px; color: #666; margin-bottom: 15px;">
-                    📅 <strong>Período:</strong> de ${periodoBase.ini} até ${datas.fim}
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 5px;">
+                    📅 <b>Vigência:</b> ${duracaoTotal} anos | <b>Período:</b> ${periodoBase.ini} a ${datas.fim}
                 </p>
                 
-                <div class="vibracao-row"><b>🚫 VIDA (${numV}${numV}${numV}):</b> ${personalizarTexto(textosSeqNegVida[numV])}</div>
-                <div class="vibracao-row"><b>🚫 PESSOAL (${numP}${numP}${numP}):</b> ${personalizarTexto(textosSeqNegPessoal[numP])}</div>
-                <div class="vibracao-row"><b>🚫 SOCIAL (${numS}${numS}${numS}):</b> ${personalizarTexto(textosSeqNegSocial[numS])}</div>
-                <div class="vibracao-row"><b>🚫 DESTINO (${numD}${numD}${numD}):</b> ${personalizarTexto(textosSeqNegDestino[numD])}</div>
+                <div class="vibracao-row"><b>🚫 VIDA (${numV}${numV}${numV}):</b> ${personalizarTexto(textosSeqNegVida[numV] || "Bloqueio no fluxo vital.")}</div>
+                <div class="vibracao-row"><b>🚫 PESSOAL (${numP}${numP}${numP}):</b> ${personalizarTexto(textosSeqNegPessoal[numP] || "Desafio na expressão pessoal.")}</div>
+                <div class="vibracao-row"><b>🚫 SOCIAL (${numS}${numS}${numS}):</b> ${personalizarTexto(textosSeqNegSocial[numS] || "Instabilidade nas relações.")}</div>
+                <div class="vibracao-row"><b>🚫 DESTINO (${numD}${numD}${numD}):</b> ${personalizarTexto(textosSeqNegDestino[numD] || "Obstrução no caminho de destino.")}</div>
             </div>
         </div>`;
     });
 
-    return html;
+    return html || "<p style='text-align:center;'>Nenhuma sequência negativa crítica detectada para este período.</p>";
 }
-
 
     
     
