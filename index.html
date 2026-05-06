@@ -701,17 +701,7 @@ function gerar() {
     // 3. Montagem do HTML Total
     let meuHtml = `<div class="container-master">`;
 
-    // --- SEÇÃO 1: VISÃO GERAL (Aquelas 4 pirâmides pequenas juntas) ---
-    meuHtml += `
-    <section class="page">
-        <h2 style="text-align:center; color:#827108; text-transform: uppercase;">Visão Geral das Matrizes</h2>
-        <div class="grid-quatro-piramides">
-            <div class="bloco-piramide"><h3>VIDA</h3>${desenhar(mVida, true)}</div>
-            <div class="bloco-piramide"><h3>PESSOAL</h3>${desenhar(mPes, true)}</div>
-            <div class="bloco-piramide"><h3>SOCIAL</h3>${desenhar(mSoc, true)}</div>
-            <div class="bloco-piramide"><h3>DESTINO</h3>${desenhar(mDes, true)}</div>
-        </div>
-    </section>`;
+
 
     // --- SEÇÃO 2: AS 4 MATRIZES DETALHADAS (Aqui é onde entra o seu RESULTADO DO REGENTE) ---
     // Chamamos a função montarSecaoMatriz para cada uma delas
