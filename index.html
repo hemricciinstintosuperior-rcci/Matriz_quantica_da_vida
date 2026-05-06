@@ -80,6 +80,27 @@
 </style>
 </head>
 <body>
+
+  <div class="card-input-premium">
+    <div class="input-group">
+        <label for="nome">NOME COMPLETO DO ANALISADO</label>
+        <input type="text" id="nome" placeholder="Ex: NOME COMPLETO DO CLIENTE" autocomplete="off">
+    </div>
+
+    <div class="input-group">
+        <label for="data">DATA DE NASCIMENTO (PARA CÁLCULO QUÂNTICO)</label>
+        <input type="date" id="data">
+    </div>
+
+    <div class="botoes-acao">
+        <button onclick="gerar()" class="btn-gerar">
+            <span class="icon">🔱</span> GERAR MATRIZES INTEGRADAS
+        </button>
+        <button onclick="abrirPremium()" class="btn-pdf">
+            <span class="icon">📄</span> BAIXAR RELATÓRIO PDF
+        </button>
+    </div>
+</div>  
 <div id="relatorio-matriz-quântica" class="container-master">
     
     <header class="header-premium">
@@ -113,15 +134,7 @@
 
 </div>
 
-    <!-- AÇÕES -->
-    <div class="card">
 
-        <h3>Gerar Análise</h3>
-
-       <button onclick="gerar()">GERAR AS MATRIZES</button>
-<button onclick="abrirPremium()">BAIXAR O RELATÓRIO EM PDF</button>
-
-    </div>
 
 <div id="resultado-final"></div>
 
