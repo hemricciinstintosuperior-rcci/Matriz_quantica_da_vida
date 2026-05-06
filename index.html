@@ -174,7 +174,7 @@ function valorLetra(letra){
         if(a === "\u0301") somaAcentos += 2;
         else if(a === "\u0302") somaAcentos += 7;
         else if(a === "\u0303") somaAcentos += 3;
-        else if(a === "\u0327") somaAcentos += 6;
+        else if(a === "\u0327") somaAcentos += 3;
         else if(a === "\u0300") multAcentos *= 2;
         else if(a === "\u0308") multAcentos *= 2;
     }
@@ -617,61 +617,47 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
 
     return h + "</div>";
 }
-function gerar() {
-    const nome = document.getElementById("nome").value;
-    const data = document.getElementById("data").value;
-    if(!nome || !data) return alert("Preencha os dados!");
 
-    const base = nomeNumeros(nome);
-    const [y, m, d] = data.split("-").map(Number);
-    
-    // 1. GERA A PIRÂMIDE DA VIDA PRIMEIRO PARA PEGAR O TOPO MESTRE
-    const pVida = piramide(base);
-    const topoVidaMestre = topo(pVida[0]); 
+function gerarRelatorioMatrizTotal() {
+    // 1. Cálculos (Garantir que as 4 matrizes existem)
+    const mVida = calcularMatriz(nomeCompleto); // sua função de cálculo
+    const mPes  = calcularMatriz(nomePessoal); 
+    const mSoc  = calcularMatriz(nomeSocial);
+    const mDes  = calcularMatriz(nomeDestino);
 
-    // 2. GERA AS OUTRAS PIRÂMIDES (ELAS MANTÊM SEUS NÚMEROS PRÓPRIOS)
-    const pPes = piramidePessoal(base, d);
-    const pSoc = piramideSocial(base, m);
-    const pDes = piramideDestino(base, d, m);
+    // 2. Montagem do HTML
+    let meuHtml = `
+    <div class="container-master">
+        <section class="page">
+            <div class="separador-luxo"><div class="caixa-interna"><h2>AS 4 MATRIZES QUÂNTICAS</h2></div></div>
+            <div class="grid-quatro-piramides">
+                <div class="bloco-piramide"><h3>VIDA</h3>${renderizarPiramide(mVida)}</div>
+                <div class="bloco-piramide"><h3>PESSOAL</h3>${renderizarPiramide(mPes)}</div>
+                <div class="bloco-piramide"><h3>SOCIAL</h3>${renderizarPiramide(mSoc)}</div>
+                <div class="bloco-piramide"><h3>DESTINO</h3>${renderizarPiramide(mDes)}</div>
+            </div>
+        </section>
 
-    // 3. CRONOGRAMA ÚNICO BASEADO NO TOPO DA VIDA
-    const cronoMestre = gerarCronogramaMestre(topoVidaMestre, data);
-    
-    const potVida = pVida.at(-1)[0];
-    const potPessoal = pPes.at(-1)[0];
-    const potSocial = pSoc.at(-1)[0];
-    const potDestino = pDes.at(-1)[0];
+        <section class="page">
+            <div class="texto-introducao">${explicacoes.principal}</div>
+            <div class="texto-introducao">${explicacoes.pessoal}</div>
+            </section>
 
-    const htmlSintese = gerarSinteseFinal(potVida, potPessoal, potSocial, potDestino, window.textosSintese || {});
+        <section id="ciclos-cem-anos">
+            <div class="separador-luxo"><div class="caixa-interna"><h2>VIBRAÇÕES TEMPORAIS INTEGRADAS</h2></div></div>
+            ${gerarConteudoIntegrado(mVida, mPes, mSoc, mDes)}
+        </section>
 
-    // 4. MONTAGEM: TODAS AS MATRIZES USAM 'cronoMestre' E 'topoVidaMestre'
-    const htmlVida = (explicacoes.principal || "") + montarConteudoComIntros(pVida, potVida, textosVida, cronoMestre, textosVida, "Matriz da Vida", textosSeqNegVida, textosSeqEspVida, textosFinVida, topoVidaMestre);
-    const htmlPessoal = (explicacoes.pessoal || "") + montarConteudoComIntros(pPes, potPessoal, textosPessoal, cronoMestre, textosPessoal, "Matriz Pessoal", textosSeqNegPessoal, textosSeqEspPessoal, textosFinPessoal, topoVidaMestre);
-    const htmlSocial = (explicacoes.social || "") + montarConteudoComIntros(pSoc, potSocial, textosSocial, cronoMestre, textosSocial, "Matriz Social", textosSeqNegSocial, textosSeqEspSocial, textosFinSocial, topoVidaMestre);
-    const htmlDestino = (explicacoes.destino || "") + montarConteudoComIntros(pDes, potDestino, textosDestino, cronoMestre, textosDestino, "Matriz de Destino", textosSeqNegDestino, textosSeqEspDestino, textosFinDestino, topoVidaMestre);
-    document.getElementById("aba_resultado").innerHTML = htmlSintese; // só resultado da dinâmica
-    document.getElementById("aba_principal").innerHTML = htmlVida;
-    document.getElementById("aba_pessoal").innerHTML = htmlPessoal;
-    document.getElementById("aba_social").innerHTML = htmlSocial;
-    document.getElementById("aba_destino").innerHTML = htmlDestino;
+        <section id="sequencias-perigosas">
+            ${gerarBlocoSequenciasIntegrado(mVida, mPes, mSoc, mDes)}
+        </section>
+    </div>`;
 
-// SALVANDO OS DADOS ORGANIZADOS PARA O PREMIUM
-    localStorage.setItem("relatorioPiramide", JSON.stringify({
-        nome: nome.toUpperCase(),
-        data: data.split("-").reverse().join("/"),
-        conteudoPrincipal: htmlSintese + htmlVida, // Página 1: Matriz da Vida
-        conteudoPessoal: htmlPessoal,               // Página 2: Matriz Pessoal
-        conteudoSocial: htmlSocial,                // Página 3: Matriz Social
-        conteudoDestino: htmlDestino                // Página 4: Matriz de Destino
-    }));
-    
-    mostrarAba('principal');
+    // 3. Enviar para a Tela
+    document.getElementById('resultado-final').innerHTML = meuHtml;
 }
+    
 
-// FUNÇÃO PARA ABRIR O NOVO RELATÓRIO PREMIUM
-function abrirPremium(){
-    window.open("https://hemricciinstintosuperior-rcci.github.io/Matriz_quantica_da_vida/piramide-premium.html","_blank");
-}
 
 document.oncontextmenu=()=>false;
 document.onselectstart=()=>false;
