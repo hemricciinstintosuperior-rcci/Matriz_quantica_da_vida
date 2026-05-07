@@ -4,7 +4,7 @@
 const textosVida={
 
 
-1:` <h2>🔱  Regente da Vida(Principal) N°1</h2> 
+1:` 
 <h3>Iniciativa, Autonomia e Caminho Individual.</h3> 
 
 <p>Para você, o Regente 1 da Vida representa a força que impulsiona a construção da própria identidade e o desenvolvimento da independência. Essa vibração indica uma trajetória marcada pela iniciativa, pela coragem de tomar decisões e pela capacidade de abrir caminhos novos ao longo da existência.</p> 
@@ -38,7 +38,7 @@ const textosVida={
 <p>O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.</p> `,
 
 
-2:`<h2>🔱  Regente da Vida(Principal) N°2</h2> 
+2:`
 <h3>Sensibilidade, Dualidade e Consciência das Relações</h3> 
 <p>Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.</p>
 
@@ -66,7 +66,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 2 da Vida consiste em desenvolver equilíbrio emocional e confiar na própria intuição.</p>`,
 
-3:`<h2>🔱  Regente da Vida(Principal) N°3</h2> 
+3:`
 <h3> Criatividade, Expressão e Expansão da Consciência </h3> 
 
 <p>Para você, o Regente 3 da Vida representa a vibração da criatividade, da comunicação e da expressão dos talentos naturais. Essa regência indica uma trajetória marcada pela busca de experiências que estimulem o pensamento, a imaginação e o contato com diferentes ambientes.</p>
@@ -99,7 +99,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 3 da Vida consiste em transformar criatividade em realização concreta.</p>`,
 
-4:`<h2>🔱  Regente da Vida(Principal) N°4</h2> 
+4:`
 <h3> Estrutura, Disciplina e Construção da Vida </h3> 
 
 <p>Para você, o Regente 4 da Vida representa a vibração da estabilidade, da organização e do esforço constante para construir bases sólidas. Essa regência indica uma trajetória marcada pelo trabalho persistente e pela necessidade de criar segurança material e emocional.</p>
@@ -132,7 +132,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 4 da Vida consiste em equilibrar disciplina com flexibilidade.</p>`,
 
-5:`<h2>🔱  Regente da Vida(Principal) N°5</h2> 
+5:`
 <h3> Movimento, Experiência e Liberdade </h3> 
 
 <p>Para você, o Regente 5 da Vida representa a vibração da mudança, da curiosidade e da busca por experiências variadas. Essa regência indica uma trajetória marcada pelo aprendizado através do movimento e da adaptação às circunstâncias.</p>
@@ -165,7 +165,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 5 da Vida consiste em transformar experiência em sabedoria.</p>`,
 
-6:`<h2>🔱  Regente da Vida(Principal) N°6</h2> 
+6:`
 <h3>Amor, Harmonia e Responsabilidade Afetiva </h3>
 
 <p>Para você, o Regente 6 da Vida representa a vibração do amor, da família e da responsabilidade emocional. Essa regência indica uma trajetória marcada por experiências relacionadas ao cuidado, à proteção e ao desenvolvimento das relações afetivas.</p>
@@ -198,7 +198,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 6 da Vida consiste em amar com equilíbrio e responsabilidade.</p>`,
 
-7:`<h2>🔱  Regente da Vida(Principal) N°7</h2> 
+7:`
 <h3>Busca de Conhecimento e Evolução Interior </h3>
 
 <p>Para você, o Regente 7 da Vida representa a vibração da introspecção, da investigação e da busca por sabedoria. Essa regência indica uma trajetória marcada pelo desenvolvimento intelectual e espiritual.</p>
@@ -231,7 +231,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 7 da Vida consiste em transformar conhecimento em sabedoria.</p>`,
 
-8:`<h2>🔱  Regente da Vida(Principal) N°8</h2> 
+8:`
 <h3>Poder, Justiça e Responsabilidade Material</h3> 
 
 <p>Para você, o Regente 8 da Vida representa a vibração do poder, da organização e da lei de causa e efeito. Essa regência indica uma trajetória marcada por experiências relacionadas à liderança, à administração e ao equilíbrio entre conquistas materiais e valores morais.</p>
@@ -262,7 +262,7 @@ const textosVida={
 
 <p>O aprendizado do Regente 8 da Vida consiste em utilizar o poder com responsabilidade.</p>`,
 
-9:`<h2>🔱  Regente da Vida (Principal) N°9</h2> 
+9:`
 <h3> Sabedoria, Conclusões e Consciência Universal</h3>  
 
 <p>Para você, o Regente 9 da Vida representa a vibração da experiência acumulada, da maturidade espiritual e da compreensão profunda da existência.</p>
@@ -576,7 +576,7 @@ const textosPessoal={
 
 
 
-1:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°1 </h2> 
+1:`
 <h3>Autonomia Mental e Consciência Individual</h3> 
 
 <p>Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
@@ -609,7 +609,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.</p>`,
 
-2:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°2</h2> 
+2:`
 <h3> Sensibilidade Intelectual e Percepção Psicológica</h3>  
 
 <p>Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
@@ -638,7 +638,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.</p>`,
 
-3:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°3</h2> 
+3:`
 <h3>Criatividade Mental e Expressão Intelectual</h3>  
 
 <p>Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.</p>
@@ -671,7 +671,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.</p>`,
 
-4:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°4</h2> 
+4:`
 <h3>Estrutura Mental e Disciplina Intelectual</h3> 
 
 <p>Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
@@ -704,7 +704,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.</p>`,
 
-5:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°5</h2> 
+5:`
 <h3> Curiosidade Intelectual e Movimento Mental</h3>  
 
 <p>Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.</p>
@@ -737,7 +737,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.</p>`,
 
-6:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°6</h2> 
+6:`
 <h3>Consciência Emocional e Harmonia Interior</h3>
 
 <p>Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.</p>
@@ -770,7 +770,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.</p>`,
 
-7:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°7</h2> 
+7:`
 <h3>Investigação Mental e Busca de Sabedoria</h3> 
 
 <p>Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.</p>
@@ -803,7 +803,7 @@ const textosPessoal={
 
 <p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.</p>`,
 
-8:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°8</h2> 
+8:`
 <h3> Força Mental e Consciência de Poder</h3>  
 
 Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
@@ -834,7 +834,7 @@ No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</
 
 O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
 
-9:`<h2>🔱  Regente Pessoal(Aspecto Mental e Emocional) N°9</h2> 
+9:`
 <h3> Consciência Interior e Sabedoria Mental </h3> 
 
 Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
@@ -1377,7 +1377,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 
 
-1:`<h2>🔱  Regente Social(Aspecto Fisico) N°1</h2> 
+1:`
 <h3> 1️⃣Percepção de Liderança no Meio Social1️⃣</h3>  
 
 
@@ -1411,7 +1411,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.</p>`,
 
-2:`<h2>🔱  Regente Social(Aspecto Fisico) N°V2</h2> 
+2:`
 <h3> 2️⃣vPercepção Sensível das Relações Sociais2️⃣</h3>  
 
 <p>Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.</p>
@@ -1440,7 +1440,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.</p>`,
 
-3:`<h2>🔱  Regente Social(Aspecto Fisico) N°3</h2> 
+3:`
 <h3>3️⃣Percepção Criativa das Relações Sociais3️⃣</h3> 
 
 <p>Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.</p>
@@ -1473,7 +1473,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.</p>`,
 
-4:`<h2>🔱  Regente Social(Aspecto Fisico) N°4</h2> 
+4:`
 <h3>4️⃣Percepção Estruturada do Ambiente Social4️⃣</h3> 
 
 <p>Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.</p>
@@ -1506,7 +1506,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.</p>`,
 
-5:`<h2>🔱  Regente Social(Aspecto Fisico) N°5</h2> 
+5:`
 <h3> 5️⃣Percepção Dinâmica do Meio Social5️⃣</h3>  
 
 <p>Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.</p>
@@ -1539,7 +1539,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.</p></p>`,
 
-6:`<h2>🔱  Regente Social(Aspecto Fisico) N°6</h2> 
+6:`
 <h3> 6️⃣Percepção Afetiva do Meio Social6️⃣ </h3> 
 
 <p>Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p></p>
@@ -1572,7 +1572,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.</p>`,
 
-7:`<h2>🔱  Regente Social(Aspecto Fisico) N°7</h2> 
+7:`
 <h3>7️⃣Percepção Analítica do Meio Social7️⃣ </h3>
 
 <p>Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.</p>
@@ -1605,7 +1605,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.</p>`,
 
-8:`<h2>🔱  Regente Social(Aspecto Fisico) N°8</h2> 
+8:`
 <h3> 8️⃣Percepção de Poder no Meio Social8️⃣ </h3> 
 
 <p>Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.</p>
@@ -1638,7 +1638,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.</p>`,
 
-9:`<h2>🔱  Regente Social(Aspecto Fisico) N°9</h2> 
+9:`
 <h3>9️⃣Percepção Humanitária do Meio Social9️⃣</h3>
 
 <p>Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.</p>
@@ -2193,7 +2193,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
   const textosDestino={ 
 
 
-1:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°1</h2> 
+1:`
 <h3>1️⃣Influência de Iniciativa e Despertar da Autonomia1️⃣ </h3>
 
 
@@ -2227,7 +2227,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 1 da Influência consiste em transformar desafios externos em crescimento pessoal.</p>`,
 
-2:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°2</h2> 
+2:`
 <h3>3️⃣Influência de Sensibilidade e Aprendizado Emocional3️⃣ </h3>
 
 <p>Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem sensibilidade emocional, empatia e compreensão das relações humanas.</p>
@@ -2256,7 +2256,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 2 da Influência consiste em desenvolver equilíbrio emocional diante das experiências da vida.</p>`,
 
-3:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°3</h2> 
+3:`
 <h3>3️⃣Influência de Criatividade e Expansão de Ideias3️⃣ </h3>
 
 <p>Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam criatividade, comunicação e expressão intelectual.</p>
@@ -2289,7 +2289,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 3 da Influência consiste em transformar inspiração em realização.</p>`,
 
-4:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°4</h2> 
+4:`
 <h3>4️⃣Influência de Estrutura e Construção da Vida4️⃣</h3> 
 
 
@@ -2323,7 +2323,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 4 da Influência consiste em construir estabilidade através da perseverança.</p>`,
 
-5:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°5</h2>
+5:`
 <h3> 5️⃣Influência de Mudança e Experiência5️⃣</h3> 
 
 <p>Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.</p>
@@ -2356,7 +2356,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 5 da Influência consiste em transformar mudanças em crescimento.</p>`,
 
-6:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°6</h2>
+6:`
 <h3> 6️⃣Influência de Amor e Responsabilidade Afetiva6️⃣</h3>  
 
 
@@ -2390,7 +2390,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 6 da Influência consiste em desenvolver equilíbrio nas relações.</p>`,
 
-7:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°7</h2>
+7:`
 <h3>7️⃣Influência de Conhecimento e Despertar Espiritual7️⃣ </h3>
 
 <p>Para você, o Regente 7 da Influência representa a ação do universo trazendo experiências que despertam reflexão, busca de conhecimento e compreensão espiritual.</p>
@@ -2437,7 +2437,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 7 da Influência consiste em transformar experiências em sabedoria.</p>`,
 
-8:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°8</h2>
+8:`
 <h3>Influência de Poder e Responsabilidade</h3> 
 
 <p>Para você, o Regente 8 da Influência representa a ação do universo trazendo experiências ligadas ao poder, à autoridade e às responsabilidades materiais.</p>
@@ -2470,7 +2470,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 
 <p>O aprendizado do Regente 8 da Influência consiste em usar o poder com responsabilidade.</p>`,
 
-9:`<h2>🔱  Regente Destino(Aspecto Fisico e Intuitivo) n°9</h2>
+9:`
 <h3>9️⃣Influência de Sabedoria e Experiências Universais9️⃣</h3>
 
 <p>Para você, o Regente 9 da Influência representa a ação do universo trazendo experiências profundas que conduzem ao desenvolvimento da sabedoria e da compreensão da vida.</p>
