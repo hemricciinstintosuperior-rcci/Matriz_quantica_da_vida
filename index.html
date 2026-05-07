@@ -653,11 +653,153 @@ function gerarLoopNegativo(mV, mP, mS, mD, crono) {
 }
 
 
+function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV, tipo = 'vida') {
+    let html = "";
+    let encontrou = false;
+    let sequenciasProcessadas = new Set();
+    
+    // Puxa a intro do window.introsPiramides
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
+
+    if (intros.negativas) {
+        html += `<div class="intro-secao negativas">${intros.negativas}</div>`;
+    }
+
+    mV.forEach((linha, i) => {
+        let j = 0;
+        while (j < linha.length) {
+            let num = String(linha[j]).slice(-1); 
+            let cont = 1;
+            while (j + cont < linha.length && String(linha[j + cont]).slice(-1) === num) {
+                cont++;
+            }
+
+            if (cont >= 3) {
+                encontrou = true;
+                let chaveUnica = `lin-${i}-col-${j}-num-${num}`;
+                if (sequenciasProcessadas.has(chaveUnica)) { j += cont; continue; }
+                sequenciasProcessadas.add(chaveUnica);
+
+                let duracaoTotal = 0;
+                for (let k = 0; k < cont; k++) {
+                    let colReal = j + k + Math.floor(i / 2); 
+                    if (colReal < topoV.length) {
+                        duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                    }
+                }
+
+                let idxCrono = j + Math.floor(i / 2);
+                let periodoBase = crono[idxCrono] || crono[0];
+                let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+                let idadeFim = periodoBase.idadeIni + duracaoTotal;
+
+                // Nomes corrigidos conforme seu banco
+                const txtNegV = window.textosSeqNegVida ? window.textosSeqNegVida[num] : null;
+                const txtNegP = window.textosSeqNegPessoal ? window.textosSeqNegPessoal[num] : null;
+                const txtNegS = window.textosSeqNegSocial ? window.textosSeqNegSocial[num] : null;
+                const txtNegD = window.textosSeqNegDestino ? window.textosSeqNegDestino[num] : null;
+
+                html += `
+                <div class="card-integrado evitar-corte" style="border-left: 6px solid #ff0000; margin-bottom: 25px;">
+                    <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
+                        ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                    </div>
+                    <div class="conteudo-vibracoes">
+                        <p style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
+                            📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                        </p>
+                        <div class="vibracao-row"><b>🚫 VIDA (${num}${num}${num}):</b> ${txtNegV || "Bloqueio no fluxo vital."}</div>
+                        <div class="vibracao-row"><b>🚫 PESSOAL (${num}${num}${num}):</b> ${txtNegP || "Desafio na expressão pessoal."}</div>
+                        <div class="vibracao-row"><b>🚫 SOCIAL (${num}${num}${num}):</b> ${txtNegS || "Instabilidade nas relações."}</div>
+                        <div class="vibracao-row"><b>🚫 DESTINO (${num}${num}${num}):</b> ${txtNegD || "Obstrução no caminho de destino."}</div>
+                    </div>
+                </div>`;
+                j += cont;
+            } else { j++; }
+        }
+    });
+    return encontrou ? html : "";
+}
+
+
+
+
+function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV, tipo = 'vida') {
+    let html = "";
+    let encontrou = false;
+    let sequenciasProcessadas = new Set();
+    
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
+    if (intros.financeiro) {
+        html += `<div class="intro-secao financeiro">${intros.financeiro}</div>`;
+    }
+
+    // Nomes batendo com seu banco: textosFinVida, textosFinPessoal...
+    const piramides = [
+        { matriz: mV, banco: window.textosFinVida || {}, nome: "VIDA", prefixo: "🔱" },
+        { matriz: mP, banco: window.textosFinPessoal || {}, nome: "PESSOAL", prefixo: "👤" },
+        { matriz: mS, banco: window.textosFinSocial || {}, nome: "SOCIAL", prefixo: "🌎" },
+        { matriz: mD, banco: window.textosFinDestino || {}, nome: "DESTINO", prefixo: "☄️" }
+    ];
+
+    piramides.forEach((pira) => {
+        for (let i = 0; i < pira.matriz.length - 1; i++) {
+            for (let j = 0; j < pira.matriz[i].length - 1; j++) {
+                let v1 = String(pira.matriz[i][j]).slice(-1);
+                let v2 = String(pira.matriz[i][j+1]).slice(-1);
+                let v3 = String(pira.matriz[i+1][j]).slice(-1);
+
+                if (v1 === "9" && v2 === "9" && v3 === "9") {
+                    encontrou = true;
+                    let chaveUnica = `fin-${pira.nome}-${i}-${j}`;
+                    if (sequenciasProcessadas.has(chaveUnica)) continue;
+                    sequenciasProcessadas.add(chaveUnica);
+
+                    let duracaoTotal = 0;
+                    let offset = Math.floor(i / 2);
+                    for (let k = 0; k < 2; k++) {
+                        let colReal = j + offset + k;
+                        if (colReal < topoV.length) {
+                            duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
+                        }
+                    }
+
+                    let periodoBase = crono[j + offset] || crono[0];
+                    let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
+                    let idadeFim = periodoBase.idadeIni + duracaoTotal;
+
+                    // Busca o texto no banco financeiro correto
+                    let textoResultado = pira.banco["999"] || pira.banco["99/9"] || "Vibração de fluxo financeiro.";
+
+                    html += `
+                    <div class="card-integrado evitar-corte" style="border-left: 6px solid #2e7d32; margin-bottom: 25px; background: #f1f8e9; padding: 15px; border-radius: 8px;">
+                        <div class="titulo-ciclo" style="background: #c8e6c9; color: #1b5e20; padding: 8px; font-weight: bold; border-radius: 4px;">
+                            💰 FLUXO FINANCEIRO (${pira.nome}): DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                        </div>
+                        <div class="conteudo-vibracoes" style="margin-top:10px;">
+                            <p style="font-size: 14px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #2e7d32; padding-bottom: 5px;">
+                                📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                            </p>
+                            <div class="vibracao-row"><b>${pira.prefixo} ${pira.nome} (999):</b> ${textoResultado}</div>
+                        </div>
+                    </div>`;
+                }
+            }
+        }
+    });
+    return encontrou ? html : "";
+}
+
+
+
+
+
 function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV, tipo = 'vida') {
     let html = "";
     let encontrou = false;
     let sequenciasProcessadas = new Set();
     
+    // Puxa a intro correta
     const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
     if (intros.especiais) {
         html += `<div class="intro-secao especiais">${intros.especiais}</div>`;
@@ -673,8 +815,11 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV, tipo = 'vid
     piramides.forEach((pira) => {
         pira.matriz.forEach((linha, i) => {
             for (let j = 0; j < linha.length - 2; j++) {
-                // Monta a sequência pegando apenas o último dígito de cada número
-                let seq = String(linha[j]).slice(-1) + String(linha[j+1]).slice(-1) + String(linha[j+2]).slice(-1);
+                // Slice(-1) para pegar o dígito final e bater com o banco
+                let n1 = String(linha[j]).slice(-1);
+                let n2 = String(linha[j+1]).slice(-1);
+                let n3 = String(linha[j+2]).slice(-1);
+                let seq = n1 + n2 + n3;
                 
                 if (pira.banco[seq]) {
                     encontrou = true;
@@ -710,152 +855,6 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV, tipo = 'vid
                 }
             }
         });
-    });
-    return encontrou ? html : "";
-}
-
-
-
-function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV, tipo = 'vida') {
-    let html = "";
-    let encontrou = false;
-    let sequenciasProcessadas = new Set();
-    
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
-    if (intros.financeiro) {
-        html += `<div class="intro-secao financeiro">${intros.financeiro}</div>`;
-    }
-
-    // Nomes das variáveis ajustados para o seu textos.js
-    const bV = window.textosFinVida || {};
-    const bP = window.textosFinPessoal || {};
-    const bS = window.textosFinSocial || {};
-    const bD = window.textosFinDestino || {};
-
-    const piramides = [
-        { matriz: mV, banco: bV, nome: "VIDA", prefixo: "🔱" },
-        { matriz: mP, banco: bP, nome: "PESSOAL", prefixo: "👤" },
-        { matriz: mS, banco: bS, nome: "SOCIAL", prefixo: "🌎" },
-        { matriz: mD, banco: bD, nome: "DESTINO", prefixo: "☄️" }
-    ];
-
-    piramides.forEach((pira) => {
-        for (let i = 0; i < pira.matriz.length - 1; i++) {
-            for (let j = 0; j < pira.matriz[i].length - 1; j++) {
-                // Checa triângulo de 9 usando o último dígito
-                let v1 = String(pira.matriz[i][j]).slice(-1);
-                let v2 = String(pira.matriz[i][j+1]).slice(-1);
-                let v3 = String(pira.matriz[i+1][j]).slice(-1);
-
-                if (v1 === "9" && v2 === "9" && v3 === "9") {
-                    encontrou = true;
-                    let chaveUnica = `fin-${pira.nome}-${i}-${j}`;
-                    if (sequenciasProcessadas.has(chaveUnica)) continue;
-                    sequenciasProcessadas.add(chaveUnica);
-
-                    let duracaoTotal = 0;
-                    let offset = Math.floor(i / 2);
-                    for (let k = 0; k < 2; k++) {
-                        let colReal = j + offset + k;
-                        if (colReal < topoV.length) {
-                            duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
-                        }
-                    }
-
-                    let periodoBase = crono[j + offset] || crono[0];
-                    let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
-                    let idadeFim = periodoBase.idadeIni + duracaoTotal;
-
-                    // Busca o texto na chave "999" ou "99/9"
-                    let textoResultado = pira.banco["999"] || pira.banco["99/9"] || "Fluxo de prosperidade.";
-
-                    html += `
-                    <div class="card-integrado evitar-corte" style="border-left: 6px solid #2e7d32; margin-bottom: 25px; background: #f1f8e9; padding: 15px; border-radius: 8px;">
-                        <div class="titulo-ciclo" style="background: #c8e6c9; color: #1b5e20; padding: 8px; font-weight: bold; border-radius: 4px;">
-                            💰 FLUXO FINANCEIRO (${pira.nome}): DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
-                        </div>
-                        <div class="conteudo-vibracoes" style="margin-top:10px;">
-                            <p style="font-size: 14px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #2e7d32; padding-bottom: 5px;">
-                                📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
-                            </p>
-                            <div class="vibracao-row"><b>${pira.prefixo} ${pira.nome} (999):</b> ${textoResultado}</div>
-                        </div>
-                    </div>`;
-                }
-            }
-        }
-    });
-    return encontrou ? html : "";
-}
-
-
-
-
-
-function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV, tipo = 'vida') {
-    let html = "";
-    let encontrou = false;
-    let sequenciasProcessadas = new Set();
-    
-    // Puxa a intro do window.introsPiramides
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
-
-    if (intros.negativas) {
-        html += `<div class="intro-secao negativas">${intros.negativas}</div>`;
-    }
-
-    mV.forEach((linha, i) => {
-        let j = 0;
-        while (j < linha.length) {
-            let num = String(linha[j]).slice(-1); // Pega apenas o dígito final
-            let cont = 1;
-            while (j + cont < linha.length && String(linha[j + cont]).slice(-1) === num) {
-                cont++;
-            }
-
-            if (cont >= 3) {
-                encontrou = true;
-                let chaveUnica = `lin-${i}-col-${j}-num-${num}`;
-                if (sequenciasProcessadas.has(chaveUnica)) { j += cont; continue; }
-                sequenciasProcessadas.add(chaveUnica);
-
-                let duracaoTotal = 0;
-                for (let k = 0; k < cont; k++) {
-                    let colReal = j + k + Math.floor(i / 2); 
-                    if (colReal < topoV.length) {
-                        duracaoTotal += parseInt(topoV[colReal].toString()[0]) || 1;
-                    }
-                }
-
-                let idxCrono = j + Math.floor(i / 2);
-                let periodoBase = crono[idxCrono] || crono[0];
-                let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
-                let idadeFim = periodoBase.idadeIni + duracaoTotal;
-
-                // Captura os resultados das 4 pirâmides
-                const resV = String(mV[i][j]).slice(-1);
-                const resP = String(mP[i][j]).slice(-1);
-                const resS = String(mS[i][j]).slice(-1);
-                const resD = String(mD[i][j]).slice(-1);
-
-                html += `
-                <div class="card-integrado evitar-corte" style="border-left: 6px solid #ff0000; margin-bottom: 25px;">
-                    <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
-                        ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
-                    </div>
-                    <div class="conteudo-vibracoes">
-                        <p style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
-                            📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
-                        </p>
-                        <div class="vibracao-row"><b>🚫 VIDA (${resV}${resV}${resV}):</b> ${window.textosSeqNegVida ? (window.textosSeqNegVida[resV] || "Bloqueio no fluxo vital.") : "Erro ao carregar texto."}</div>
-                        <div class="vibracao-row"><b>🚫 PESSOAL (${resP}${resP}${resP}):</b> ${window.textosSeqNegPessoal ? (window.textosSeqNegPessoal[resP] || "Desafio pessoal.") : "Erro ao carregar texto."}</div>
-                        <div class="vibracao-row"><b>🚫 SOCIAL (${resS}${resS}${resS}):</b> ${window.textosSeqNegSocial ? (window.textosSeqNegSocial[resS] || "Instabilidade social.") : "Erro ao carregar texto."}</div>
-                        <div class="vibracao-row"><b>🚫 DESTINO (${resD}${resD}${resD}):</b> ${window.textosSeqNegDestino ? (window.textosSeqNegDestino[resD] || "Obstrução no destino.") : "Erro ao carregar texto."}</div>
-                    </div>
-                </div>`;
-                j += cont;
-            } else { j++; }
-        }
     });
     return encontrou ? html : "";
 }
