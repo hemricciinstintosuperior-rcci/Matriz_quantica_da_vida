@@ -751,12 +751,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let sequenciasProcessadas = new Set();
 
 
-      // Puxa a intro - Usei o 'tipo' com segurança agora
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
 
-    if (intros.negativas) {
-        html += `<div class="intro-secao negativas">${intros.negativas}</div>`;
-    }
     // Varre cada linha da Matriz da Vida (Guia Mestre)
     mV.forEach((linha, i) => {
         let j = 0;
@@ -835,11 +830,7 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     let encontrou = false;
     let sequenciasProcessadas = new Set();
 
-            // Puxa a intro - Usei o 'tipo' com segurança agora
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
-    if (intros.financeiro) {
-        html += `<div class="intro-secao financeiro">${intros.financeiro}</div>`;
-    }
+
     
     // Nomes das variáveis de texto conforme seu padrão
     const bV = typeof textosSeqFinancVida !== 'undefined' ? textosSeqFinancVida : {};
@@ -930,12 +921,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let sequenciasProcessadas = new Set();
 
 
-        // Puxa a intro correta
-        // Puxa a intro - Usei o 'tipo' com segurança agora
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
-    if (intros.especiais) {
-        html += `<div class="intro-secao especiais">${intros.especiais}</div>`;
-    }
+   
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
     const piramides = [
