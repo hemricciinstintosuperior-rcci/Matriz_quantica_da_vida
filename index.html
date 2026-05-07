@@ -842,19 +842,15 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 
 
 
+/* O título onde vai o Nome da Pessoa */
 .titulo-piramide-nome {
-    width: 100%;
-    max-width: 450px; /* Isso limita o nome para não ficar mais largo que a pirâmide */
-    margin: 0 auto 40px auto; 
-    text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     color: #827108;
+    margin-bottom: 50px; /* Aumentamos aqui para o nome não encostar nos círculos */
     text-transform: uppercase;
     font-weight: bold;
-    display: block;
-    line-height: 1.2;
+    text-align: center;
 }
-
 
 @media print {
     /* 1. Força a pirâmide a nunca ser cortada ao meio */
@@ -1076,7 +1072,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     </div>
 
 <div class="container-piramide-isolada">
-    <div class="titulo-piramide-nome">${titulo} </div>
+    <div class="titulo-piramide-nome">${titulo}<br>${nome.value}  </div>
     ${desenhar(matriz, titulo)} 
 </div>
 
