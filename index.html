@@ -839,38 +839,7 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     transform: rotate(180deg);
 }
 
-/* Garante que o botão também suma na impressão */
-@media print {
-    .btn-video-toggle {
-        display: none !important;
-    }
-}
 
-
- @media print {
-    /* 1. Remove qualquer barra de rolagem visual do PDF */
-    html, body {
-        overflow: visible !important;
-        overflow-x: hidden !important;
-        height: auto !important;
-    }
-
-    /* 2. Esconde barras de rolagem específicas de navegadores Webkit (Chrome/Edge) */
-    ::-webkit-scrollbar {
-        display: none !important;
-        width: 0 !important;
-    }
-
-   
-
-    
-
-/* Remove a barra também na visualização da tela se desejar */
-#resultado-final::-webkit-scrollbar {
-    display: none;
-} 
-
-}
 
 
 .titulo-piramide-nome {
