@@ -574,35 +574,30 @@
     line-height: 1;
 }
 
-        /* PADRÃO PARA TODAS AS INTRODUÇÕES */
-    .intro-texto, .intro-secao {
-        font-size: 18px !important; /* Tamanho fixo para todas */
-        line-height: 1 !important;
-        color: #111 !important;
-        text-align: justify !important;
-        margin-bottom: 10px !important;
-        border-bottom: none !important;
-        font-family: 'Arial', sans-serif; /* Ou a fonte de sua preferência */
-        font-style: arial;
+/* 1. Ajuste Geral para o Relatório (Tela e PDF) */
+.texto-personalizado p, .texto-res p {
+    margin-bottom: 1.2em !important; /* Cria o espaço entre um parágrafo e outro */
+    line-height: 1.6 !important;    /* Dá "ar" entre as linhas do mesmo parágrafo */
+    text-align: justify;             /* Deixa as bordas alinhadas e elegantes */
+    display: block;
+}
+
+@media print {
+    /* 2. Ajuste específico para quando for gerar o PDF */
+    .texto-personalizado, .texto-res {
+        padding: 10px 5px !important; /* Afasta o texto das bordas da folha */
     }
 
-    /* PADRÃO PARA TODOS OS RESULTADOS (CONTEÚDO BRUTO) */
-    .texto-res {
-        font-size: 18px !important; /* Um pouquinho maior que a intro para dar peso */
-        line-height: 1 !important;
-        color: #000 !important;
-        text-align: justify !important;
-        margin-bottom: 0px !important;
-       border-bottom: none !important;
-     border: none !important;
- 
-        }
-
-    /* FORÇAR PARÁGRAFOS DENTRO DOS RESULTADOS */
-    .texto-res p, .intro-texto p {
-        font-size: inherit !important; /* Herda o tamanho da classe pai */
-        margin-bottom: 5px !important;
+    .vibracao-row {
+        margin-bottom: 15px !important; /* Espaça as linhas de Vida, Pessoal, Social, etc */
+        line-height: 1.5;
     }
+
+    /* Evita que um parágrafo seja cortado no meio entre uma folha e outra */
+    p {
+        page-break-inside: avoid;
+    }
+}
 
 .pula-pagina { 
     page-break-before: always !important; 
