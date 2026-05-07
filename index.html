@@ -1116,7 +1116,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     <h3 style="color: #827108; border-bottom: 2px solid #e6d5a8; padding-bottom: 10px;">
         🔱 REGENTE ${regente} - ${titulo}
     </h3>
-    <div class="texto-personalizado" style="margin-top: 15px;">
+    <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
         ${aplicarFiltroTexto(resultadoTexto)}
     </div>
 </div>
@@ -1213,9 +1213,9 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                         ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
                     <div class="conteudo-vibracoes">
-                        <p style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
+                        <h4 style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
                             📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
-                        </p>
+                        </h4>
                         
                         <div class="vibracao-row"><b>🚫 VIDA (${resV}${resV}${resV}):</b> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
                         <div class="vibracao-row"><b>🚫 PESSOAL (${resP}${resP}${resP}):</b> ${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão pessoal.")}</div>
@@ -1710,6 +1710,15 @@ function gerar() {
     
     const topoV = topo(mVida[0]);
     const crono = gerarCronogramaMestre(topoV, dataISO);
+
+    // --- NOVA PARTE: LINHA DO NOME NO TOPO ---
+const letrasNomeTopo = nome.toUpperCase().replace(/\s+/g, '').split('');
+htmlPiramide += `<div class="linha linha-letras" style="margin-bottom: 5px;">`;
+letrasNomeTopo.forEach(letra => {
+    htmlPiramide += `<div class="num-letra" style=" width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; color: #000E52; font-size: 18px; font-weight: 900; border-radius: 2px;">${letra}</div>`;
+});
+htmlPiramide += `</div>`;
+    
 
     let meuHtml =    `   
     <button class="btn-pdf no-print" onclick="window.print()">📥 BAIXAR SEU PDF PREMIUM</button>
