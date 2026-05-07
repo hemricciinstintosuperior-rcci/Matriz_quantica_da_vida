@@ -733,6 +733,43 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     text-align: justify;
 }
 
+.container-piramide-isolada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px; /* Dá um respiro no topo da página */
+}
+
+/* O título onde vai o Nome da Pessoa */
+.titulo-piramide-nome {
+    font-size: 24px;
+    color: #827108;
+    margin-bottom: 50px; /* Aumentamos aqui para o nome não encostar nos círculos */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Garante que a pirâmide em si não suba */
+.piramide {
+    margin-top: 0 !important;
+    display: inline-block;
+}
+
+
+@media print {
+    .container-piramide-isolada {
+        page-break-inside: avoid !important; /* Impede que a pirâmide seja cortada ao meio */
+        page-break-before: auto; /* Deixa o navegador decidir se precisa pular */
+    }
+
+    .resultado-regente-aberto {
+        page-break-inside: auto; /* Permite que o texto longo do regente continue na outra página se precisar */
+    }
+}    
+    
+
 
  /* Estilo para o número da página no PDF */
 .page-footer {
@@ -959,7 +996,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     <div class="page evitar-corte">
         <div class="separador-luxo">
             <div class="caixa-interna">
-                <h2>MATRIZ DE ${titulo}</h2>
+                <h2>MATRIZ  ${titulo}</h2>
             </div>
         </div>
         
@@ -968,19 +1005,20 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
         </div>
     </div>
 
-    <div class="container-piramide-isolada">
-        <h2 style="text-align:center; color:#827108; margin-bottom: 30px;">GEOMETRIA SAGRADA: ${titulo}</h2>
-        ${desenhar(matriz, titulo)} 
-    </div>
+<div class="container-piramide-isolada">
+    <div class="titulo-piramide-nome">${nomeDoUsuario} - ${titulo}</div>
+    ${desenhar(matriz, titulo)} 
+</div>
 
-    <div class="page evitar-corte">
-        <div class="resultado-regente-container" style="background: #fdfaf0; border: 1px solid #e6d5a8; border-radius: 12px; padding: 25px;">
-            <h3 style="color: #827108;">🔱 REGENTE ${regente} - ${titulo}</h3>
-            <div class="texto-personalizado">
-                ${personalizarTexto(resultadoTexto)}
-            </div>
-        </div>
-    </div>`;
+<div class="resultado-regente-aberto" style="margin-top: 40px; padding: 20px;">
+    <h3 style="color: #827108; border-bottom: 2px solid #e6d5a8; padding-bottom: 10px;">
+        🔱 REGENTE ${regente} - ${titulo}
+    </h3>
+    <div class="texto-personalizado" style="margin-top: 15px;">
+        ${personalizarTexto(resultadoTexto)}
+    </div>
+</div>
+`;
 }
 
 
