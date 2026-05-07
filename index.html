@@ -854,6 +854,39 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     display: block;
     line-height: 1.2;
 }
+
+
+@media print {
+    /* 1. Força a pirâmide a nunca ser cortada ao meio */
+    .container-piramide-isolada, .piramide {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        display: block !important;
+        position: relative !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* 2. Garante que o container master não tenha alturas fixas que forcem páginas vazias */
+    .container-master, #conteudo-relatorio {
+        height: auto !important;
+        display: block !important;
+        overflow: visible !important;
+    }
+
+    /* 3. Se você quer que a pirâmide SEMPRE comece em uma nova página para não empurrar nada */
+    .container-piramide-isolada {
+        page-break-before: auto !important; /* Mude para 'always' se quiser que ela sempre pule de página */
+    }
+
+    /* 4. Remove larguras maiores que 100% que causam desalinhamento */
+    #resultado-final {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
     
     
     </style>
