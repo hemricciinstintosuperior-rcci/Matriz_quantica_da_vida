@@ -892,22 +892,32 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 </head>
 <body>
 
-  <div class="card-input-premium">
-    <div class="input-group">
+<div class="container">
+
+    <button type="button" id="btnVideo" class="btn-video-toggle">
+        <span>🎥 Assistir Vídeo Introdutório</span>
+        <i class="seta">▼</i>
+    </button>
+
+    <div id="wrapperVideo" class="video-wrapper" style="display: none; margin-top: 10px;">
+        <video id="videoExplicativo" width="100%" controls poster="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/INSTINTOFOTOO.png">
+            <source src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/introducao.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </div>
+        
        
      <input type="text" id="nome" placeholder="NOME COMPLETO IGUAL CERTIDÃO" >
-       <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
- 
+     <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
+     <input type="text" id="nomeSocial" placeholder="COMO PREFERE SER CHAMADO? (OPCIONAL)"> 
     </div>
 
-    <div class="botoes-acao">
+  
         <button onclick="gerar()" class="btn-gerar">
             <span class="icon">🔱</span> GERAR MATRIZES INTEGRADAS
         </button>
-        <button onclick="abrirPremium()" class="btn-pdf">
-            <span class="icon">📄</span> BAIXAR RELATÓRIO PDF
-        </button>
-    </div>
+     
+   
 </div>  
 
 
@@ -952,6 +962,51 @@ function valorLetra(letra){
     }
     return (valorBase + somaAcentos) * multAcentos;
 }
+
+
+ function aplicarFiltroTexto(texto) {
+    if (!texto || typeof texto !== 'string') {
+        return ""; 
+    }
+
+    // 1. Captura os valores dos inputs
+    const nomeSocial = document.getElementById("nomeSocial").value.trim();
+    const nomeCompleto = document.getElementById("nome").value.trim();
+    
+    let pNome = "";
+
+    // 2. Lógica de Prioridade com extração do primeiro nome:
+    if (nomeSocial !== "") {
+        // Pega apenas o primeiro nome do campo Nome Social
+        pNome = nomeSocial.split(/\s+/)[0];
+    } else if (nomeCompleto !== "") {
+        // Pega apenas o primeiro nome do campo Nome Completo
+        pNome = nomeCompleto.split(/\s+/)[0];
+    } else {
+        // Valor padrão caso ambos estejam vazios
+        pNome = "MASCULINO-FEMININO-NEUTRO";
+    }
+
+    // 3. Aplica a substituição no texto com a tag strong
+    return texto.replace(/MASCULINO-FEMININO-NEUTRO/gi, `<strong>${pNome}</strong>`);
+}
+
+function aplicarFiltroNomeComposto(texto) {
+    // Se o texto não existir, for nulo ou não for uma string, retorna vazio
+    if (!texto || typeof texto !== 'string') {
+        return ""; 
+    }
+
+    // Pega o valor do input, remove espaços inúteis e divide por espaços
+    let partesNome = document.getElementById("nome").value.trim().split(/\s+/);
+    
+    // Pega os dois primeiros elementos e junta com um espaço
+    // Se só houver um nome, o join lidará com isso graciosamente
+    let pNome = partesNome.slice(0, 2).join(' ') || "MASCULINO-FEMININO-NEUTRO";
+
+    // Retorna o texto substituindo a tag pelo nome em negrito
+    return texto.replace(/MASCULINO-FEMININO-NEUTRO/gi, `<strong>${pNome}</strong>`);
+}   
 
 function reduzir(n){
     while(n>9){ n=n.toString().split('').reduce((a,b)=>+a+ +b,0); }
