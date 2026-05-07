@@ -1529,16 +1529,26 @@ function obterMapaCores(linhas, tipoPira) {
 
 
     
-// Função desenhar atualizada para aplicar as cores
-function desenhar(linhas, tipoPira = "VIDA", compacta = false) {
+function desenhar(linhas, tipoPira = "VIDA", compacta = false, nomeRaw = "") {
     const mapaCores = obterMapaCores(linhas, tipoPira);
     let classePira = compacta ? "piramide compacta" : "piramide";
     let html = `<div class="${classePira}">`;
 
+    // --- NOVA PARTE: LINHA DO NOME NO TOPO ---
+    if (nomeRaw) {
+        const letrasNomeTopo = nomeRaw.toUpperCase().replace(/\s+/g, '').split('');
+        html += `<div class="linha linha-letras" style="margin-bottom: 5px; display: flex; justify-content: center; gap: 2px;">`;
+        letrasNomeTopo.forEach(letra => {
+            html += `<div class="num-letra" style="width: 25px; height: 25px; display: flex; align-items: center; justify-content: center; color: #000E52; font-size: 14px; font-weight: 900; background: rgba(0,0,0,0.05); border-radius: 2px;">${letra}</div>`;
+        });
+        html += `</div>`;
+    }
+
+    // DESENHO DAS LINHAS DE NÚMEROS
     linhas.forEach((linha, i) => {
         html += `<div class="linha">`;
         linha.forEach((num, j) => {
-          let corClasse = mapaCores[i][j];
+            let corClasse = mapaCores[i][j];
             html += `<div class="num ${corClasse}">${num}</div>`;
         });
         html += `</div>`;
@@ -1547,7 +1557,6 @@ function desenhar(linhas, tipoPira = "VIDA", compacta = false) {
     html += `</div>`;
     return html;
 }
-
 
 
 
@@ -1877,10 +1886,10 @@ meuHtml += `
 
     
     // 1. Matrizes Detalhadas com Regente
-    meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal);
-    meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal);
-    meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social);
-    meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino);
+    meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal,nome);
+    meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal,nome);
+    meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social,nome);
+    meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino,nome);
 
 
 
