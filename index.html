@@ -2018,7 +2018,7 @@ meuHtml += `
         <div style="height: 4px; background: #d32f2f; margin-bottom: 20px; border-radius: 2px;"></div>
         <h2 style="text-align:center; color:#d32f2f; text-transform: uppercase;">Mapeamento de Desafios e Bloqueios</h2>
         <p style="text-align:center; font-style:italic; margin-bottom: 30px;">Identificação de sequências negativas sincronizadas pelo tempo da Matriz da Vida.</p>
-        ${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+        <div class="texto-res">${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
     </section>`;
 
 
@@ -2212,7 +2212,7 @@ meuHtml += `
     <section id="ciclos-cem-anos" class="page" style="margin-top: 50px;">
         <div style="height: 4px; background: #827108; margin-bottom: 20px; border-radius: 2px;"></div>
         <h2 style="text-align:center; color:#827108;">VIBRAÇÕES TEMPORAIS INTEGRADAS (100 ANOS)</h2>
-        <div class="texto-res" ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
+        <div class="texto-res"> ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}
     </section></div>`;
 
     meuHtml += `</div>`;
