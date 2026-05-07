@@ -869,7 +869,7 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
        
      <input type="text" id="nome" placeholder="NOME COMPLETO IGUAL CERTIDÃO" >
        <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
-     <input type="text" id="nomeSocial" placeholder="COMO PREFERE SER CHAMADO? (OPCIONAL)"> 
+ 
     </div>
 
     <div class="botoes-acao">
@@ -1648,6 +1648,7 @@ function gerar() {
     const crono = gerarCronogramaMestre(topoV, dataISO);
 
     let meuHtml = `<div class="container-master">`;
+    
 meuHtml += `
 <div class="container-master">
     <div id="capa-numerologica" style="
@@ -1690,7 +1691,7 @@ meuHtml += `
             <div style="width: 150px; height: 1px; background: linear-gradient(to right, transparent, #827108, transparent); margin: 15px auto;"></div>
             
             <div style="font-family: 'Cinzel', serif; font-size: 18px; color: #827108; letter-spacing: 4px;">
-                ${data.split('-').reverse().join('/')}
+                ${dataImput}
             </div>
         </div>
 
