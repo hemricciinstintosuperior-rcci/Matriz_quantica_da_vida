@@ -924,19 +924,22 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 }  
 
 
-.vibracao-row {
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo principal */
-    align-items: center;
-    gap: 15px;              /* Espaço entre o nome da matriz e a potência */
-    margin-bottom: 12px;
-    width: 100%;
+/* Nova classe exclusiva para centralizar os títulos dos ciclos */
+.centralizar-titulos {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    justify-content: center !important;
 }
 
-.vibracao-row b {
+/* Garante que o ícone e o texto dentro fiquem na mesma linha se quiser */
+.centralizar-titulos b {
     display: block;
-    width: 100%;
+    margin-bottom: 5px;
 }
+
     
     
     </style>
@@ -1712,10 +1715,10 @@ function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
         <div class="card-integrado evitar-corte">
             <h3 class="titulo-ciclo">Ciclo: ${periodo.idadeIni} a ${periodo.idadeFim} anos <br> (${periodo.ini} a ${periodo.fim})</h3>
             <div class="conteudo-vibracoes">
-                <div class="vibracao-row"><b>👑 MATRIZ DA VIDA <br>POTÊNCIA ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
-                <div class="vibracao-row"><b>👤 MATRIZ PESSOAL<br> POTÊNCIA ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
-                <div class="vibracao-row"><b>🌎 MATRIZ DO MEIO <br>POTÊNCIA ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
-                <div class="vibracao-row"><b>☄️ MATRIZ DA INFLUÊNCIA<br> POTÊNCIA ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
+                 <div class="centralizar-titulos"><b>👑 MATRIZ DA VIDA <br>POTÊNCIA ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
+                 <div class="centralizar-titulos"><b>👤 MATRIZ PESSOAL<br> POTÊNCIA ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
+                 <div class="centralizar-titulos"><b>🌎 MATRIZ DO MEIO <br>POTÊNCIA ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
+                 <div class="centralizar-titulos"><b>☄️ MATRIZ DA INFLUÊNCIA<br> POTÊNCIA ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
             </div>
         </div>`;
     });
