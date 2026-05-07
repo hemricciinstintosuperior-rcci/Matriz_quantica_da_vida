@@ -1558,7 +1558,7 @@ function desenhar(linhas, tipoPira = "VIDA", compacta = false, nomeRaw = "") {
         const letrasNomeTopo = nomeRaw.toUpperCase().replace(/\s+/g, '').split('');
         html += `<div class="linha linha-letras" style="margin-bottom: 5px; display: flex; justify-content: center; gap: 2px;">`;
         letrasNomeTopo.forEach(letra => {
-            html += `<div class="num-letra" style="width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; color: #000E52; font-size: 18px; font-weight: 900; background: rgba(0,0,0,0.05); border-radius: 2px;">${letra}</div>`;
+            html += `<div class="num-letra" style="width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; color: #000E52; font-size: 18px; font-weight: 900; background: transparent; border-radius: 2px;">${letra}</div>`;
         });
         html += `</div>`;
     }
