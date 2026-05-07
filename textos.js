@@ -3405,32 +3405,32 @@ const textosFinDestino = { 999: "" };
 const explicacoes = {
 
 principal: `
-<div>
-<h3> Pirâmide da Vida Principal  👑</h3>
-<p>
+
+<h3> Matriz  Principal  👑</h3>
+
 <p>​A Pirâmide da Vida Principal é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência. Diferente das outras pirâmides que focam em áreas específicas, esta matriz revela o caminho mestre, as fases evolutivas e as potências que regem a sua história do início ao fim.</p>
 
 <p>​Esta pirâmide é construída exclusivamente a partir do seu nome de batismo, o que, na numerologia cabalística, representa a sua essência imutável e a vibração que você trouxe ao mundo. Ela reflete os aspectos gerais da vida e serve como o cenário onde todos os outros eventos acontecem. É por isso que todas as vigências de idade e períodos cronológicos do seu relatório são baseados nesta pirâmide central; ela é o relógio biológico e espiritual que governa todas as outras influências.</p>
 
 <p>​Ao analisar a Pirâmide da Vida, você está olhando para o seu destino em larga escala. Ela mostra as lições que você veio aprender e os ciclos de amadurecimento pelos quais passará. Se a sua vida fosse um filme, esta aba descreveria o enredo principal e o cenário de fundo. Sem a compreensão desta matriz, as outras áreas (pessoal ou social) ficam sem contexto, pois é a Pirâmide da Vida que define se você está em um momento de colheita, de plantio ou de transformação profunda. Ela é a bússola que impede que você se perca nas distrações do cotidiano, mantendo o foco no que realmente importa para a sua evolução de longo prazo.</p>
-</div>
+
 `,
 
 pessoal: `
-<div>
-<h3> Pirâmide do intelecto Pessoal  👤</h3>
+
+<h3> Matriz do sentimento Pessoal  👤</h3>
 <p>Enquanto a pirâmide anterior trata do "quem sou eu no universo", a Pirâmide do Intelecto Pessoal mergulha no "como eu me sinto e como eu processo a vida". Ela é formada pela combinação da equivalência numérica do seu nome somada ao seu dia de nascimento reduzido. Essa pequena adição do dia de nascimento muda o foco do destino geral para a sua atitude íntima e psicológica diante do mundo.</p>
 
 <p>​Esta aba revela o seu mundo subjetivo: o campo emocional, o intelecto e os processos psicológicos que ocorrem longe dos olhos dos outros. Ela é essencial para entender os seus conflitos internos e como você vive cada fase da vida "do lado de dentro". Muitas vezes, a Pirâmide da Vida pode indicar um período de sucesso externo, mas a Pirâmide Pessoal pode revelar que, internamente, você está enfrentando uma crise de identidade ou um crescimento interior silencioso.</p>
 
 <p>​É nesta seção que exploramos os sentimentos mais profundos e as reações instintivas. Se você sente que suas emoções não condizem com o que está acontecendo na sua vida prática, a resposta está aqui. Ela mapeia o seu crescimento interior e como o seu "eu" lida com as pressões da Matriz Principal. Entender a Pirâmide Pessoal permite que você tenha mais autocompaixão, pois ela valida suas lutas internas e mostra que cada conflito é, na verdade, um degrau para o fortalecimento do seu intelecto e da sua estabilidade emocional. É a aba do autoconhecimento psíquico por excelência.</p>
 
-</div>
+
 `,
 
 social: `
-<div>
-<h3> Pirâmide da percepcão do seu meio de convivencia  🌎</h3>
+
+<h3> Matriz da percepcão do seu meio Social  🌎</h3>
 <p>​A Pirâmide da Percepção do seu Meio de Convivência (ou Pirâmide Social) assume aqui um papel único de "testemunha ocular" da realidade coletiva. Ela é formada pela frequência numérica do seu nome de nascimento em sintonia com o seu mês de nascimento, o que gera o seu radar de percepção sobre o que ocorre ao seu redor. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve especificamente a sua capacidade de ver as engrenagens da vida girando para as pessoas do seu meio social.</p>
 
 <p>​É nesta seção que entendemos que nem tudo o que acontece no nosso campo de visão nos pertence. Esta pirâmide revela os acontecimentos, as crises, as vitórias e as transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Pirâmide do Destino é a que realmente molda a sua jornada pessoal e traz os eventos que o influenciam diretamente, a Pirâmide Social é um mapa do "teatro da vida" alheia que se desenrola diante dos seus olhos.</p>
@@ -3439,12 +3439,12 @@ social: `
 
 <p>​Ao ler os arcanos e potências desta aba, você não está lendo o seu futuro, mas sim a "previsão do tempo" para as pessoas com quem você convive. Isso traz uma sabedoria estratégica: ao perceber o que está acontecendo com os outros, você ganha repertório e maturidade, sem precisar passar pela dor ou pelo esforço daquele evento específico. Esta aba é, portanto, o registro da sua sensibilidade social: o quanto você está atento e o que você é capaz de captar da realidade externa, mantendo sempre a distinção clara entre o que é a vida do outro e o que é o seu propósito soberano.
 </p>
-</div>
+
 `,
 
 destino: `
-<div>
-<h3> Pirâmide do Propósito e Influencia do Universo  ☄️</h3>
+
+<h3>Matriz do Propósito e Influencia Natural ☄️</h3>
 
 <p>​A Pirâmide do Propósito e Influência do Universo (ou Pirâmide Destino) é a síntese final de toda a sua análise. Ela utiliza a combinação mais completa: seu nome, dia e mês de nascimento. Por unir todos os elementos, ela reflete os aspectos do seu destino de forma multidimensional, combinando o que está previsto na Matriz Principal com as suas necessidades Pessoais e as demandas do seu Meio Social.</p>
 
@@ -3452,7 +3452,7 @@ destino: `
 
 <p>​Entender esta matriz é descobrir o "porquê" por trás das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como o universo influencia a sua vontade pessoal. Muitas vezes, um evento que pareceu negativo na Matriz Social pode ser revelado aqui como um ponto de virada essencial para o seu propósito maior. Esta é a aba que traz paz de espírito, pois ajuda a compreender que existe uma ordem maior regendo a sua vida. Ela é o guia definitivo para quem deseja viver em fluxo com o universo, aceitando os desafios como ferramentas de moldagem do caráter e celebrando as vitórias como confirmações do seu caminho sagrado.
 </p>
-</div>
+
 `
 
  
