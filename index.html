@@ -846,10 +846,7 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     ];
 
 
-         html += `
-<div class="intro-secao financeiro">
-                    ${intros.financeiro}
-                 </div>`;
+
 
     piramides.forEach((pira) => {
         // Varremos até a penúltima linha, pois precisamos checar a linha de baixo
@@ -921,7 +918,12 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let sequenciasProcessadas = new Set();
 
 
-   
+       // Puxa a intro - Usei o 'tipo' com segurança agora
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
+    
+    if (intros.especiais) {
+        html += <div class="intro-secao especiais">${intros.especiais}</div>;
+    }
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
     const piramides = [
