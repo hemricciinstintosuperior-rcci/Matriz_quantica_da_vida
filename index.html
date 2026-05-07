@@ -922,6 +922,22 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
         height: auto !important;
     }
 }  
+
+
+.vibracao-row {
+    display: flex;
+    flex-direction: column; /* Coloca a Potência embaixo da Matriz */
+    align-items: center;    /* Centraliza os dois itens horizontalmente */
+    text-align: center;
+    margin-bottom: 15px;    /* Espaço entre cada linha de matriz */
+    width: 100%;
+}
+
+.vibracao-row b {
+    display: block;
+    width: 100%;
+}
+    
     
     </style>
 </head>
@@ -1696,10 +1712,10 @@ function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
         <div class="card-integrado evitar-corte">
             <h3 class="titulo-ciclo">Ciclo: ${periodo.idadeIni} a ${periodo.idadeFim} anos <br> (${periodo.ini} a ${periodo.fim})</h3>
             <div class="conteudo-vibracoes">
-                <div class="vibracao-row"><b>👑 MATRIZ DA VIDA <br>Potência ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
-                <div class="vibracao-row"><b>👤 MATRIZ PESSOAL<br> Potência ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
-                <div class="vibracao-row"><b>🌎 MATRIZ DO MEIO <br>Potência ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
-                <div class="vibracao-row"><b>☄️ MATRIZ DA INFLUÊNCIA<br> Potência ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
+                <div class="vibracao-row"><b>👑 MATRIZ DA VIDA <br>POTÊNCIA ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
+                <div class="vibracao-row"><b>👤 MATRIZ PESSOAL<br> POTÊNCIA ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
+                <div class="vibracao-row"><b>🌎 MATRIZ DO MEIO <br>POTÊNCIA ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
+                <div class="vibracao-row"><b>☄️ MATRIZ DA INFLUÊNCIA<br> POTÊNCIA ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
             </div>
         </div>`;
     });
@@ -2285,7 +2301,7 @@ meuHtml += `
     
     <section id="ciclos-cem-anos" class="page" style="margin-top: 50px;">
         <div style="height: 4px; background: #827108; margin-bottom: 20px; border-radius: 2px;"></div>
-        <h2 style="text-align:center; color:#827108;">VIBRAÇÕES TEMPORAIS INTEGRADAS (100 ANOS)</h2>
+      
         <div class="texto-res evitar-corte "> ${gerarLoopIntegrado(mVida, mPes, mSoc, mDes, crono)}</div>
     </section>`;
 
