@@ -846,6 +846,19 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     }
 }
 
+
+@media print {
+    /* Remove a barra lateral dourada/branca/vermelha de todos os cards no PDF */
+    .secao-card, .card-necessidades, .card-integrado, .resultado-bloco {
+        border-left: none !important;
+        border: none !important;
+    }
+
+    /* Se o "pauzinho" for a linha de progresso ou algum detalhe de layout */
+    .barra-vermelha, .item-potencia-tag {
+        box-shadow: none !important;
+    }
+}    
     
     </style>
 </head>
@@ -1610,24 +1623,32 @@ function abrirPremium() {
 
 function gerar() {
     const nome = document.getElementById("nome").value.trim();
-    const data = document.getElementById("data").value;
+    const dataInput = document.getElementById("data").value; // Ex: "15/05/1990"
 
-    if (!nome || !data) {
-        alert("Preencha nome e data!");
+    if (!nome || !dataInput || dataInput.length < 10) {
+        alert("Preencha nome e data corretamente (DD/MM/AAAA)!");
         return;
     }
 
-    const dia = data.split("-")[2];
-    const mes = data.split("-")[1];
+    // Corrigindo a leitura da data para evitar o erro de inversão/NaN
+    const partes = dataInput.split("/");
+    const diaNum = parseInt(partes[0]);
+    const mesNum = parseInt(partes[1]);
+    const anoNum = parseInt(partes[2]);
+
+    // Data no formato ISO para o cronograma
+    const dataISO = `${anoNum}-${partes[1]}-${partes[0]}`;
+
     const baseN = nomeNumeros(nome);
 
+    // Agora os cálculos das outras pirâmides funcionarão corretamente
     const mVida = piramide(baseN);
-    const mPes  = piramidePessoal(baseN, dia);
-    const mSoc  = piramideSocial(baseN, mes);
-    const mDes  = piramideDestino(baseN, dia, mes);
+    const mPes  = piramidePessoal(baseN, diaNum);
+    const mSoc  = piramideSocial(baseN, mesNum);
+    const mDes  = piramideDestino(baseN, diaNum, mesNum);
     
     const topoV = topo(mVida[0]);
-    const crono = gerarCronogramaMestre(topoV, data);
+    const crono = gerarCronogramaMestre(topoV, dataISO);
 
     let meuHtml = `<div class="container-master">`;
 meuHtml += `
