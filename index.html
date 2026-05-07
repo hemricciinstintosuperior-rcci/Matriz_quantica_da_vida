@@ -580,49 +580,55 @@ line-height: 1.1;
     page-break-after: always;
 }
     
+.texto-personalizado p {
+    margin-bottom: 15px !important; /* Espaço entre os parágrafos */
+    line-height: 1.6; /* Melhora a leitura */
+    text-align: justify;
+    display: block;
+}
+
+/* Garante que o nome do cliente em negrito não quebre a linha de forma estranha */
+.texto-personalizado strong {
+    color: #827108;
+    font-weight: bold;
+}
 
 
-
- @media print {
-    /* 1. Criamos um "reset" para as capas de transição */
-    .capa, .capa-transicao {
-        page-break-before: always !important;
-        page-break-after: always !important;
-        /* Força a capa a ignorar as margens padrão do PDF para ocupar a folha toda */
-        margin: 0 !important; 
-        padding: 0 !important;
-        height: 297mm !important;
-    }
-
-    /* 2. Removemos o cabeçalho/rodapé (incluindo numeração) nestas páginas específicas */
-    /* Nota: Como o CSS padrão não permite selecionar @page por classe de elemento, 
-       usamos o truque de esconder qualquer elemento que renderize a numeração 
-       ou forçamos uma margem que "jogue" o número para fora se ele estiver no corpo. */
-
-    .capa-transicao {
-        /* Se você estiver usando um elemento HTML para simular a numeração, 
-           garanta que ele tenha uma classe como '.numero-pagina' e use: */
-        counter-increment: none !important; 
-    }
-
-    /* 3. A regra de ouro para PDFs modernos (Chrome/Edge):
-       Isso remove os cabeçalhos e rodapés automáticos do navegador (Data, Título e URL) */
+@media print {
     @page {
-        margin: 1.5cm; /* Margem padrão para páginas de conteúdo */
+        margin: 0; /* Remove margens padrão que causam o "pulo" de página */
+        size: A4;
     }
 
-    /* Definimos que a PRIMEIRA página e qualquer página com a classe capa/transição 
-       não deve exibir os seletores de margem que contêm o contador */
-    
-    .capa, .capa-transicao {
-        /* Isso garante que o conteúdo da capa cubra qualquer elemento de numeração 
-           que o navegador tente inserir por baixo */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .capa, .capa-transicao, #capa-numerologica {
+        height: 100vh !important; /* Usa a altura da visualização */
+        width: 100vw !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        page-break-after: always !important;
+        page-break-before: avoid !important;
+        display: flex !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Impede que as pirâmides e blocos sejam cortados */
+    .evitar-corte, .secao-card, .resultado-regente-container, .card-integrado {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
         position: relative;
-        z-index: 9999;
-        background-color: #0f2a36 !important;
     }
-}   
-
+    
+    /* Adiciona uma margem interna para o conteúdo que NÃO é capa */
+    .page {
+        padding: 1.5cm !important; 
+        page-break-after: always;
+    }
+}
 
     /* Garante que o relatório possa fluir por várias páginas */
     .relatorio-premium {
@@ -920,12 +926,15 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     const regente = ultimaLinha[0];
     const resultadoTexto = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
     
-    // Se a introdução for indefinida, ele apenas ignora em vez de dar erro
     let introExibicao = textoIntro ? personalizarTexto(textoIntro) : "";
 
-    let h = `
-    <div class="page evitar-corte" style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 40px;">
-        <h2 style="text-align:center; color:#827108; text-transform: uppercase;">Matriz de ${titulo}</h2>
+    return `
+    <div class="page evitar-corte">
+        <div class="separador-luxo">
+            <div class="caixa-interna">
+                <h2>MATRIZ DE ${titulo}</h2>
+            </div>
+        </div>
         
         ${introExibicao}
 
@@ -935,12 +944,12 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
 
         <div class="resultado-regente-container" style="background: #fdfaf0; border: 1px solid #e6d5a8; border-radius: 12px; padding: 25px;">
             <h3 style="color: #827108;">🔱 REGENTE ${regente} - ${titulo}</h3>
-            ${personalizarTexto(resultadoTexto)}
+            <div class="texto-personalizado">
+                ${personalizarTexto(resultadoTexto)}
+            </div>
         </div>
     </div>`;
-    return h;
 }
-
 
 
 function gerarLoopNegativo(mV, mP, mS, mD, crono) {
