@@ -290,33 +290,30 @@
 }
 
 
-/* Estilo da Pirâmide - Igual ao Estudo Numerológico */
+/* Ajuste da largura da pirâmide */
 .piramide {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza as linhas para formar o triângulo */
-    gap: 5px;
-    margin: 20px 0;
-    width: 100%;
+    align-items: center;
+    gap: 2px; /* Reduzi de 5px para 2px para ela ficar mais curta */
+    margin: 0 auto;
+    width: fit-content; /* Ela só ocupa o espaço necessário */
 }
 
 .piramide .linha {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaço entre os números na mesma linha */
+    gap: 4px; /* Reduzi o espaço entre os números na linha */
 }
 
 .piramide .num {
-    width: 15px;
-    height: 15px;
+    width: 16px; /* Ajuste o tamanho da bola aqui */
+    height: 16px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-    font-size: 14px;
     border-radius: 50%;
-    background: #f8f9fa; /* Fundo suave para os números */
-    border: 1px solid #eee;
 }
 
 
@@ -519,16 +516,7 @@ line-height: 1.1;
 }
 
 
-/* Localize este bloco dentro do seu @media print e substitua */
-.capa, .capa-transicao {
-    height: 297mm !important; /* Força a altura total do papel A4 */
-    min-height: 297mm !important; 
-   
-    margin: 0 !important;
-    padding: 0 !important;
-    page-break-before: always;
-    page-break-after: always;
-}
+
     
 .texto-personalizado p {
     margin-bottom: 15px !important; /* Espaço entre os parágrafos */
@@ -544,27 +532,7 @@ line-height: 1.1;
 }
 
 
-@media print {
-    @page {
-        margin: 0; /* Remove margens padrão que causam o "pulo" de página */
-        size: A4;
-    }
 
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .capa, .capa-transicao, #capa-numerologica {
-        height: 100vh !important; /* Usa a altura da visualização */
-        width: 100vw !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        page-break-after: always !important;
-        page-break-before: avoid !important;
-        display: flex !important;
-        box-sizing: border-box !important;
-    }
 
     /* Impede que as pirâmides e blocos sejam cortados */
     .evitar-corte, .secao-card, .resultado-regente-container, .card-integrado {
@@ -743,12 +711,16 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 
 /* O título onde vai o Nome da Pessoa */
 .titulo-piramide-nome {
-    font-size: 24px;
+    width: 100%;
+    max-width: 450px; /* Isso limita o nome para não ficar mais largo que a pirâmide */
+    margin: 0 auto 40px auto; 
+    text-align: center;
+    font-size: 22px;
     color: #827108;
-    margin-bottom: 50px; /* Aumentamos aqui para o nome não encostar nos círculos */
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
+    display: block;
+    line-height: 1.2;
 }
 
 /* Garante que a pirâmide em si não suba */
@@ -757,6 +729,33 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     display: inline-block;
 }
 
+
+/* Limpeza total para o PDF */
+@media print {
+    @page {
+        margin: 0 !important; /* Remove as margens do navegador */
+        size: A4;
+    }
+
+    /* Fixador de Capas (Principal e Transição) */
+    .capa, .capa-transicao, #capa-numerologica {
+        height: 297mm !important;
+        width: 210mm !important;
+        overflow: hidden !important;
+        page-break-after: always !important;
+        page-break-before: always !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        position: relative !important;
+    }
+}
+    
 
 @media print {
     .container-piramide-isolada {
@@ -819,7 +818,19 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     }
 }   
        
-    
+ @media print {
+    /* Impede que o regente e as pirâmides se separem de forma feia */
+    .evitar-corte {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Remove o espaço em branco no final do documento */
+    body {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}   
     
 </style>
 </head>
