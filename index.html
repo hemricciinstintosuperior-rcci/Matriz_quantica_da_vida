@@ -918,12 +918,9 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let sequenciasProcessadas = new Set();
 
 
-       // Puxa a intro - Usei o 'tipo' com segurança agora
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
+
     
-    if (intros.especiais) {
-        html += `<div class="intro-secao especiais">${intros.especiais}</div>`;
-    }
+ 
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
     const piramides = [
@@ -969,7 +966,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
 
 
 
-
+      
                     
                     html += `
                     <div class="card-integrado evitar-corte" style="border-left: 6px solid #b8860b; margin-bottom: 25px; background: #fffcf5; padding: 15px; border-radius: 8px;">
