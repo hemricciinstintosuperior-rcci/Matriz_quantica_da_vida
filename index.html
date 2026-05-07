@@ -7,7 +7,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     
 <style>
-
+   :root { --gold: #d97a1e; --dark: #000000; --card-bg: #ffffff; --text: #1a1a1a; }
 
 * {
     box-sizing: border-box !important;
@@ -51,6 +51,13 @@
     position: relative;
 }
     
+    /* 🔥 CORREÇÃO PRINCIPAL */
+    .page {
+    width: calc(100% - 2mm);
+    margin: 0 auto;
+    /* TOPO (40px) | LATERAIS (2mm) | BASE (40px) */
+    padding: 40px 2mm 20px 2mm; 
+          }
 
 
  @media print {
@@ -127,8 +134,17 @@
         input { width: 100%; padding: 15px; margin: 10px 0; border-radius: 10px; border: #333; background: #fff; color: #000; font-size: 18px; box-sizing: border-box; }
         .btn-gerar { width: 100%; padding: 20px; background: #A65F00; color: #000; border: none; border-radius: 10px; font-weight: bold; font-size: 20px; cursor: pointer; margin-top: 15px; text-transform: uppercase; }    
 
+       /* Esta classe impede que qualquer bloco dentro dela seja cortado ao meio */
+    .evitar-corte {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        display: block;
+        width: 100%;
+    }
 
-
+    .no-print, .container, .btn-pdf, .btn-gerar, input {
+        display: none !important;
+    }
 /* Estilo para o número da página no PDF */
 .page-footer {
     position: fixed;
@@ -710,6 +726,34 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
         filter: none !important; /* Remove o desfoque no PDF */
     }
 }   
+
+
+
+    /* 🔥 EVITA QUEBRAS FEIAS */
+    .secao-card,
+    .resultado-bloco,
+    .container-barra,
+    .bloco-potencia {
+        page-break-inside: avoid;
+        break-inside: avoid;
+         max-width: 100%;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+
+    p {
+        page-break-inside: avoid;
+    }
+
+    /* 🔥 GARANTE CORES */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+ }    
     
     
 </style>
