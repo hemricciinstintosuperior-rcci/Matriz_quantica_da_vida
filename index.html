@@ -27,6 +27,98 @@
     color: #333;
 }
 
+
+.capa {
+    height: 297mm;
+    width: 210mm;
+    background-color: #ffffff !important;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1; /* Garante que a camada base existe */
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+  .capa h1 { font-size: 45px; margin: 10px 0; }
+
+.logo-capa, .capa-cliente {
+    position: relative;
+    z-index: 10; /* Força o logo e o texto para a frente de tudo */
+    visibility: visible !important;
+    display: block !important;
+}
+
+
+.nome-usuario {
+    width: 100%;             /* Garante que ele ocupe a largura total disponível */
+    max-width: 800px;        /* Ou a largura máxima da sua folha PDF */
+    margin: 0 auto;          /* Centraliza o bloco na folha */
+    text-align: center;      /* Centraliza o texto dentro do bloco */
+    word-wrap: break-word;   /* Força a quebra de palavras muito longas */
+    overflow-wrap: break-word; 
+    white-space: normal;     /* Permite que o texto pule para a linha de baixo */
+    display: block;          /* Garante que ele se comporte como um bloco inteiro */
+}
+
+
+
+/* Estilo para o número da página no PDF */
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 10pt;
+    color: #827108;
+    display: none; /* Esconde na tela do sistema */
+}
+
+@media print {
+    .page-footer {
+        display: block; /* Mostra apenas no PDF/Impressão */
+        position: fixed;
+        bottom: 10mm;
+        right: 10mm;
+    }
+
+    /* Truque para o contador de páginas funcionar no corpo */
+    body {
+        counter-reset: page;
+    }
+    
+    .page-number::after {
+        counter-increment: page;
+        content: "Página " counter(page);
+    }
+}
+
+
+ @media print {
+    /* Define as regras para a folha física */
+    @page {
+        margin: 1.5cm; /* Margem de segurança para não cortar o texto */
+        
+        /* Cria o contador de páginas no topo à direita */
+        @top-right {
+            content: "Página " counter(page);
+            font-family: 'Cinzel', serif;
+            font-size: 10pt;
+            color: #827108;
+            font-weight: bold;
+        }
+    }
+
+    /* Garante que o contador seja reiniciado na capa, se necessário */
+    body {
+        counter-reset: page;
+    }
+}   
+    
+    
+
 /* Grade das Pirâmides */
 .grid-quatro-piramides {
     display: grid;
