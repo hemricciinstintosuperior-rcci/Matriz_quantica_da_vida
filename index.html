@@ -1093,7 +1093,7 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, nomeCliente = "") {
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     const resultadoTexto = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
@@ -1104,29 +1104,29 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     <div class="page evitar-corte">
         <div class="separador-luxo">
             <div class="caixa-interna">
-                <h2>MATRIZ  ${titulo}</h2>
+                <h2>MATRIZ ${titulo}</h2>
             </div>
         </div>
         
         <div class="texto-intro-pessoal">
             ${introExibicao}
         </div>
-    </div>
 
-<div class="container-piramide-isolada">
-    <div class="titulo-piramide-nome">${titulo}  </div>
-    ${desenhar(matriz, titulo)} 
-</div>
+        <div class="container-piramide-isolada" style="margin-top: 30px;">
+            <div class="titulo-piramide-nome">Geometria Sagrada: ${titulo}</div>
+            ${desenhar(matriz, titulo, false, nomeCliente)} 
+        </div>
 
-<div class="resultado-regente-aberto" style="margin-top: 40px; padding: 20px;">
-    <h3 style="color: #827108; border-bottom: 2px solid #e6d5a8; padding-bottom: 10px;">
-        🔱 SEU REGENTE ${regente} - ${titulo}
-    </h3>
-    <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
-        ${aplicarFiltroTexto(resultadoTexto)}
+        <div class="resultado-regente-aberto" style="margin-top: 40px; padding: 20px;">
+            <h3 style="color: #827108; border-bottom: 2px solid #e6d5a8; padding-bottom: 10px;">
+                🔱 SEU REGENTE ${regente} - ${titulo}
+            </h3>
+            <div class="texto-personalizado" style="margin-top: 15px;">
+                ${aplicarFiltroTexto(resultadoTexto)}
+            </div>
+        </div>
     </div>
-</div>
-`;
+    `;
 }
 
 
