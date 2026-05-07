@@ -887,6 +887,14 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
         padding: 0 !important;
     }
 }
+
+
+    /* 2. Esconde barras de rolagem específicas de navegadores Webkit (Chrome/Edge) */
+    ::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+    }
+    
     
     
     </style>
@@ -1068,7 +1076,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
     </div>
 
 <div class="container-piramide-isolada">
-    <div class="titulo-piramide-nome">${titulo}<br>${nome.value}  </div>
+    <div class="titulo-piramide-nome">${titulo} </div>
     ${desenhar(matriz, titulo)} 
 </div>
 
