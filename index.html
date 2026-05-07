@@ -1730,9 +1730,10 @@ function gerar() {
     const topoV = topo(mVida[0]);
     const crono = gerarCronogramaMestre(topoV, dataISO);
 
-    let meuHtml = `<div class="container-master">`;
+    let meuHtml =    `   
+    <button class="btn-pdf no-print" onclick="window.print()">📥 BAIXAR SEU PDF PREMIUM</button>
     
-meuHtml += `
+
 <div class="container-master">
     <div id="capa-numerologica" style="
             width: 210mm; 
