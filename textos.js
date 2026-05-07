@@ -3080,7 +3080,7 @@ O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabed
 // 🚨 TEXTOS SEQUÊNCIAS NEGATIVAS
 const textosSeqNegVida = {
 
-  1: `SEQUENCIA 111 Nesta fase, você poderá sentir que sua chama interna de motivação está sendo abafada por obstáculos inesperados.
+  1: ` Nesta fase, você poderá sentir que sua chama interna de motivação está sendo abafada por obstáculos inesperados.
 A influência desta sequência tende a minar sua capacidade de iniciativa, tornando o ato de começar algo novo um verdadeiro desafio.
 É comum surgir um sentimento de impotência, onde a coragem para arriscar parece desaparecer, dando lugar à inatividade.
 
@@ -3093,7 +3093,7 @@ Existe uma tendência vibracional que pode afetar o sistema cardíaco se o estre
 É um momento que exige esforço consciente para não se deixar abater pelo desemprego ou pela falta de propósito.
 A chave aqui é buscar reacender sua determinação interna, mesmo quando o cenário externo parecer desfavorável.`,
 
-  2: `SEQUENCIA 222 Esta configuração vibracional atua diretamente sobre o seu senso de valor próprio e autoconfiança.
+  2: `Esta configuração vibracional atua diretamente sobre o seu senso de valor próprio e autoconfiança.
 Você poderá se perceber mais vulnerável à opinião alheia, permitindo que amigos ou parceiros influencem demais suas decisões.
 A indecisão e a timidez podem se tornar obstáculos frequentes, dificultando a imposição de suas vontades e desejos.
 
@@ -3106,7 +3106,7 @@ No campo da saúde, essa fragilidade emocional pode abrir portas para inclinaç�
 O desafio é fortalecer o seu "eu" interno para que você não se perca nas expectativas da sociedade ou da família.
 Recuperar o comando da sua vida é a grande lição que esta sequência tenta lhe ensinar através desses testes.`,
 
-  3: `SEQUENCIA 333 A comunicação, que deveria ser sua ponte com o mundo, pode se transformar em uma barreira sob esta influência.
+  3: `A comunicação, que deveria ser sua ponte com o mundo, pode se transformar em uma barreira sob esta influência.
 Você poderá sentir uma dificuldade crescente em expressar o que sente, resultando em frequentes mal-entendidos.
 
 Seus pensamentos e ideias, por mais brilhantes que sejam, parecem não ser compreendidos pelas pessoas próximas.
@@ -3119,7 +3119,7 @@ No aspecto biológico, o estresse de não ser ouvido tende a se manifestar em á
 Fique atento a possíveis sensibilidades no sistema respiratório ou desconfortos nas articulações do corpo.
 Trabalhar a clareza e a paciência no diálogo será fundamental para atravessar essa fase sem maiores conflitos.`,
 
-  4: ` SEQUENCIA 444 Esta sequência aponta para um período de provações severas no campo da carreira e da estabilidade profissional.
+  4: `Esta sequência aponta para um período de provações severas no campo da carreira e da estabilidade profissional.
 Você poderá encontrar obstáculos que parecem bloquear qualquer tentativa de ascensão ou reconhecimento no trabalho.
 
 Existe uma tendência a enfrentar remunerações abaixo do esperado ou dificuldades em se manter estável em um emprego.
@@ -3132,7 +3132,7 @@ Na esfera física, essa pressão por estabilidade pode sobrecarregar o sistema c
 Também há um alerta vibracional para o desenvolvimento de condições reumáticas causadas pela tensão acumulada.
 Manter a fé em suas habilidades será o seu maior desafio enquanto você busca suprir suas necessidades básicas.`,
 
-  5: ` SEQUENCIA 555 A marca desta influência é a instabilidade constante, forçando mudanças que você muitas vezes não deseja realizar.
+  5: `  A marca desta influência é a instabilidade constante, forçando mudanças que você muitas vezes não deseja realizar.
 Pode haver uma alternância drástica em seus valores, status social e até mesmo em sua residência ou profissão.
 Viver em constantes altos e baixos gera um desgaste mental profundo, dificultando qualquer plano de longo prazo.
 A sensação é de que nada é sólido ou seguro, pois o que está firme hoje pode mudar completamente amanhã.
@@ -3145,7 +3145,7 @@ O corpo físico pode reagir a essa montanha-russa emocional através de manifest
 Além disso, a falta de foco característica deste período aumenta a predisposição a sofrer pequenos acidentes domésticos.
 A lição aqui é aprender a encontrar o equilíbrio interno mesmo quando o mundo externo parece estar em colapso.`,
 
-  6: ` SEQUENCIA 666 O campo dos afetos e dos sentimentos é o mais atingido por esta sequência, trazendo o peso da decepção.
+  6: `  O campo dos afetos e dos sentimentos é o mais atingido por esta sequência, trazendo o peso da decepção.
 Você poderá passar por situações onde amigos íntimos, sócios ou familiares falham com a sua confiança.
 Existe um risco elevado de sentir-se incompreendido pelo parceiro ou pela pessoa amada em seus planos de vida.
 
@@ -3158,7 +3158,7 @@ Fisicamente, essa carga emocional de tristeza costuma se concentrar na região c
 É essencial aprender a não colocar a sua felicidade exclusivamente nas mãos de terceiros para evitar o sofrimento.
 A cura virá através do amor-próprio e da compreensão de que nem todos possuem o mesmo nível de entrega que você.`,
 
-  7: `SEQUENCIA 777 Sob esta vibração, o medo e a intolerância podem se tornar companheiros constantes, alterando seu comportamento.
+  7: `Sob esta vibração, o medo e a intolerância podem se tornar companheiros constantes, alterando seu comportamento.
 Você poderá se tornar uma pessoa mais arredia, teimosa e com uma tendência perigosa ao isolamento voluntário.
 O afastamento social pode parecer uma proteção, mas acaba gerando frustrações profundas e um sentimento de vazio.
 
@@ -3171,7 +3171,7 @@ No campo da saúde, esse padrão de solidão e estresse nervoso é extremamente 
 Existe um alerta para o sistema nervoso e até para o surgimento de patologias mais graves se a mente não for cuidada.
 Buscar ajuda e manter a mente aberta para o mundo é o caminho para não se perder em sua própria escuridão.`,
 
-  8: ` SEQUENCIA 888 Esta é uma das sequências mais desafiadoras, pois afeta simultaneamente o equilíbrio emocional e o financeiro.
+  8: `  Esta é uma das sequências mais desafiadoras, pois afeta simultaneamente o equilíbrio emocional e o financeiro.
 Você poderá manifestar uma postura agressiva ou inacessível, perdendo o controle diante de pequenas adversidades.
 Isso acaba afastando o convívio social, pois as pessoas sentem dificuldade em lidar com sua instabilidade.
 
@@ -3184,7 +3184,7 @@ Esse estresse crônico é um veneno para o seu sistema nervoso, podendo gerar do
 É um momento que exige um controle férreo sobre as emoções para que elas não destruam o seu patrimônio.
 O desafio é manter a ética e a calma mesmo quando tudo parece estar sendo tirado de suas mãos.`,
 
-  9: ` SEQUENCIA 999 Aqui, a capacidade de discernimento e a compreensão das situações da vida ficam seriamente comprometidas.
+  9: `  Aqui, a capacidade de discernimento e a compreensão das situações da vida ficam seriamente comprometidas.
 Você poderá enfrentar um ciclo de estagnação onde nada parece avançar, independentemente do seu esforço.
 Dificuldades financeiras agudas e até a perda de patrimônio construído ao longo de anos são riscos reais.
 Fracassos em negócios e relacionamentos podem surgir devido a uma visão distorcida da realidade.
@@ -3199,64 +3199,64 @@ A lição fundamental deste período é o desapego e a busca por uma nova forma 
 };
 
 const textosSeqNegPessoal = { 
-  1: `<p> SEQUENCIA 111 No âmbito pessoal, esta vibração indica um conflito latente com sua própria identidade e poder de decisão. Você pode se sentir mentalmente paralisado, como se uma voz interna questionasse cada impulso de ação antes mesmo de ele se manifestar. A insegurança sobre quem você é pode gerar um estado de dúvida constante, sabotando sua autoestima e impedindo que você se sinta o protagonista da sua própria mente.</p>`,
+  1: `<p>  No âmbito pessoal, esta vibração indica um conflito latente com sua própria identidade e poder de decisão. Você pode se sentir mentalmente paralisado, como se uma voz interna questionasse cada impulso de ação antes mesmo de ele se manifestar. A insegurança sobre quem você é pode gerar um estado de dúvida constante, sabotando sua autoestima e impedindo que você se sinta o protagonista da sua própria mente.</p>`,
 
-  2: `<p> SEQUENCIA 222 Esta influência atua na sua percepção de valor interno. Há uma tendência a se sentir emocionalmente frágil e excessivamente dependente da validação interna que você imagina que os outros deveriam dar. O medo da rejeição pode criar um diálogo mental submisso, onde você se critica duramente por não ser "bom o suficiente", gerando uma timidez psicológica que sufoca sua expressão autêntica.</p>`,
+  2: `<p>  Esta influência atua na sua percepção de valor interno. Há uma tendência a se sentir emocionalmente frágil e excessivamente dependente da validação interna que você imagina que os outros deveriam dar. O medo da rejeição pode criar um diálogo mental submisso, onde você se critica duramente por não ser "bom o suficiente", gerando uma timidez psicológica que sufoca sua expressão autêntica.</p>`,
 
-  3: `<p> SEQUENCIA 333 Aqui, o bloqueio é na autoexpressão e no entendimento dos próprios sentimentos. Você pode sentir que seus pensamentos estão emaranhados, dificultando a clareza mental necessária para entender o que você realmente deseja. Existe um risco de se fechar em um casulo mental, sentindo-se incompreendido por si mesmo, o que gera uma frustração interna silenciosa e um cansaço psicológico por não conseguir "se organizar" por dentro.</p>`,
+  3: `<p>  Aqui, o bloqueio é na autoexpressão e no entendimento dos próprios sentimentos. Você pode sentir que seus pensamentos estão emaranhados, dificultando a clareza mental necessária para entender o que você realmente deseja. Existe um risco de se fechar em um casulo mental, sentindo-se incompreendido por si mesmo, o que gera uma frustração interna silenciosa e um cansaço psicológico por não conseguir "se organizar" por dentro.</p>`,
 
-  4: `<p> SEQUENCIA 444 Esta sequência no pessoal traz uma rigidez mental excessiva ou uma sensação de insegurança estrutural profunda. Você pode se cobrar por uma perfeição ou estabilidade interna que parece inalcançável, gerando ansiedade crônica. A mente foca no que falta, na escassez de recursos internos e no medo de não ter base emocional para suportar os desafios, criando um peso psicológico de autocrítica severa.</p>`,
+  4: `<p>  Esta sequência no pessoal traz uma rigidez mental excessiva ou uma sensação de insegurança estrutural profunda. Você pode se cobrar por uma perfeição ou estabilidade interna que parece inalcançável, gerando ansiedade crônica. A mente foca no que falta, na escassez de recursos internos e no medo de não ter base emocional para suportar os desafios, criando um peso psicológico de autocrítica severa.</p>`,
 
-  5: `<p> SEQUENCIA 555 A influência aqui é de uma mente inquieta e caótica. Você pode sofrer com mudanças bruscas de humor ou de opinião sobre si mesmo, nunca encontrando um equilíbrio interno. Essa instabilidade mental gera uma sensação de desorientação, onde você sente que perdeu o controle sobre seus próprios desejos, levando a impulsos de fuga de si mesmo ou a um desapego emocional que beira a apatia.</p>`,
+  5: `<p> A influência aqui é de uma mente inquieta e caótica. Você pode sofrer com mudanças bruscas de humor ou de opinião sobre si mesmo, nunca encontrando um equilíbrio interno. Essa instabilidade mental gera uma sensação de desorientação, onde você sente que perdeu o controle sobre seus próprios desejos, levando a impulsos de fuga de si mesmo ou a um desapego emocional que beira a apatia.</p>`,
 
-  6: `<p> SEQUENCIA 666 Esta vibração afeta sua capacidade de se amar e se aceitar. No nível pessoal, surge um padrão de idealização excessiva que, quando não atingida, se transforma em decepção interna profunda. Você pode se sentir indigno de afeto ou excessivamente culpado por falhas passadas, criando um amargor psicológico que dificulta o cultivo da paz interior e da harmonia com sua própria imagem.</p>`,
+  6: `<p>  Esta vibração afeta sua capacidade de se amar e se aceitar. No nível pessoal, surge um padrão de idealização excessiva que, quando não atingida, se transforma em decepção interna profunda. Você pode se sentir indigno de afeto ou excessivamente culpado por falhas passadas, criando um amargor psicológico que dificulta o cultivo da paz interior e da harmonia com sua própria imagem.</p>`,
 
-  7: `<p> SEQUENCIA 777 O desafio aqui é o isolamento mental e a desconfiança de si próprio. Você pode mergulhar em pensamentos obsessivos, desenvolvendo uma visão cética ou sombria da vida que o afasta da realidade. Existe uma tendência ao perfeccionismo arrogante ou à vaidade intelectual como defesa contra o medo interno, o que acaba gerando um vazio existencial e uma desconexão com sua essência.</p>`,
+  7: `<p>  O desafio aqui é o isolamento mental e a desconfiança de si próprio. Você pode mergulhar em pensamentos obsessivos, desenvolvendo uma visão cética ou sombria da vida que o afasta da realidade. Existe uma tendência ao perfeccionismo arrogante ou à vaidade intelectual como defesa contra o medo interno, o que acaba gerando um vazio existencial e uma desconexão com sua essência.</p>`,
 
-  8: `<p> SEQUENCIA 888 Esta sequência indica um estado de desequilíbrio entre o poder e a ética interna. Você pode se sentir constantemente irritado consigo mesmo, com explosões de raiva contida que nublam seu julgamento. O conflito entre o que você deseja conquistar e a sensação de injustiça interna pode levar a decisões autodestrutivas, onde sua mente se torna seu maior adversário, criando ciclos de estresse e punição emocional.</p>`,
+  8: `<p>  Esta sequência indica um estado de desequilíbrio entre o poder e a ética interna. Você pode se sentir constantemente irritado consigo mesmo, com explosões de raiva contida que nublam seu julgamento. O conflito entre o que você deseja conquistar e a sensação de injustiça interna pode levar a decisões autodestrutivas, onde sua mente se torna seu maior adversário, criando ciclos de estresse e punição emocional.</p>`,
 
-  9: `<p> SEQUENCIA 999 No nível pessoal, esta vibração marca o fim de um ciclo mental que você resiste em encerrar. Isso gera uma estagnação psicológica profunda, onde você se sente preso a velhas formas de pensar que já não servem mais. A sensação de "fim de linha" pode causar desânimo e uma visão turva do futuro, exigindo um desapego radical de antigas crenças para que a mente possa renascer.</p>`
+  9: `<p>  No nível pessoal, esta vibração marca o fim de um ciclo mental que você resiste em encerrar. Isso gera uma estagnação psicológica profunda, onde você se sente preso a velhas formas de pensar que já não servem mais. A sensação de "fim de linha" pode causar desânimo e uma visão turva do futuro, exigindo um desapego radical de antigas crenças para que a mente possa renascer.</p>`
 };
 
 
 const textosSeqNegSocial = {
-  1: `<p> SEQUENCIA 111 No ambiente social, você pode perceber uma atmosfera de falta de iniciativa ou bloqueios nas pessoas ao seu redor. Pode parecer que o meio em que você convive é desestimulante, onde ninguém deseja tomar a frente ou onde as novas ideias são recebidas com passividade. É um campo social marcado pela estagnação criativa dos grupos com os quais você interage.</p>`,
+  1: `<p>  No ambiente social, você pode perceber uma atmosfera de falta de iniciativa ou bloqueios nas pessoas ao seu redor. Pode parecer que o meio em que você convive é desestimulante, onde ninguém deseja tomar a frente ou onde as novas ideias são recebidas com passividade. É um campo social marcado pela estagnação criativa dos grupos com os quais você interage.</p>`,
 
-  2: `<p> SEQUENCIA 222 Esta influência revela um meio social onde impera a fofoca, a dependência emocional excessiva ou a timidez coletiva. Você pode se ver cercado por pessoas inseguras que buscam constantemente sua aprovação ou que tentam influenciá-lo através da vitimização. O ambiente social tende a ser hesitante, dificultando a construção de parcerias sólidas e independentes.</p>`,
+  2: `<p>  Esta influência revela um meio social onde impera a fofoca, a dependência emocional excessiva ou a timidez coletiva. Você pode se ver cercado por pessoas inseguras que buscam constantemente sua aprovação ou que tentam influenciá-lo através da vitimização. O ambiente social tende a ser hesitante, dificultando a construção de parcerias sólidas e independentes.</p>`,
 
-  3: `<p> SEQUENCIA 333 O desafio no campo social aqui são os ruídos de comunicação. Você perceberá que as pessoas ao seu redor têm dificuldade em se expressar ou que os mal-entendidos são a regra no seu círculo de convivência. Discussões vazias, futilidades ou silêncios desconfortáveis em grupos podem gerar uma sensação de isolamento social, mesmo quando você está acompanhado.</p>`,
+  3: `<p>  O desafio no campo social aqui são os ruídos de comunicação. Você perceberá que as pessoas ao seu redor têm dificuldade em se expressar ou que os mal-entendidos são a regra no seu círculo de convivência. Discussões vazias, futilidades ou silêncios desconfortáveis em grupos podem gerar uma sensação de isolamento social, mesmo quando você está acompanhado.</p>`,
 
-  4: `<p> SEQUENCIA 444 Esta sequência aponta para um ambiente social ou profissional rígido, burocrático ou com pessoas excessivamente focadas em dificuldades financeiras. O meio ao seu redor pode parecer limitado, com poucas oportunidades de crescimento ou com uma mentalidade de escassez que contamina o entusiasmo coletivo, gerando um clima de pessimismo sobre o futuro material.</p>`,
+  4: `<p>  Esta sequência aponta para um ambiente social ou profissional rígido, burocrático ou com pessoas excessivamente focadas em dificuldades financeiras. O meio ao seu redor pode parecer limitado, com poucas oportunidades de crescimento ou com uma mentalidade de escassez que contamina o entusiasmo coletivo, gerando um clima de pessimismo sobre o futuro material.</p>`,
 
-  5: `<p> SEQUENCIA 555 No social, esta vibração indica convivência com pessoas instáveis e ambientes em constante mutação negativa. Você pode sentir que seu círculo social é pouco confiável, com mudanças bruscas de lealdade ou comportamentos rebeldes e impulsivos de terceiros que acabam afetando sua paz. É um meio onde falta foco e onde os laços se rompem com facilidade.</p>`,
+  5: `<p>  No social, esta vibração indica convivência com pessoas instáveis e ambientes em constante mutação negativa. Você pode sentir que seu círculo social é pouco confiável, com mudanças bruscas de lealdade ou comportamentos rebeldes e impulsivos de terceiros que acabam afetando sua paz. É um meio onde falta foco e onde os laços se rompem com facilidade.</p>`,
 
-  6: `<p> SEQUENCIA 666 Esta influência revela tensões nos relacionamentos próximos e círculos de amizade. Você pode perceber desarmonia, cobranças excessivas ou falta de reciprocidade nas pessoas do seu convívio. O ambiente social pode parecer carregado de expectativas emocionais pesadas, onde as desilusões com terceiros são frequentes devido à falta de comprometimento ou lealdade dos outros.</p>`,
+  6: `<p>  Esta influência revela tensões nos relacionamentos próximos e círculos de amizade. Você pode perceber desarmonia, cobranças excessivas ou falta de reciprocidade nas pessoas do seu convívio. O ambiente social pode parecer carregado de expectativas emocionais pesadas, onde as desilusões com terceiros são frequentes devido à falta de comprometimento ou lealdade dos outros.</p>`,
 
-  7: `<p> SEQUENCIA 777 No campo social, você pode se deparar com pessoas críticas, arrogantes ou excessivamente fechadas em suas próprias verdades. O meio tende a ser elitista ou intelectualmente intolerante, onde o isolamento voluntário das pessoas dificulta a troca genuína. Existe um risco de conviver com influências que pregam o afastamento social como forma de superioridade.</p>`,
+  7: `<p>  No campo social, você pode se deparar com pessoas críticas, arrogantes ou excessivamente fechadas em suas próprias verdades. O meio tende a ser elitista ou intelectualmente intolerante, onde o isolamento voluntário das pessoas dificulta a troca genuína. Existe um risco de conviver com influências que pregam o afastamento social como forma de superioridade.</p>`,
 
-  8: `<p> SEQUENCIA 888 Esta sequência indica um ambiente social de conflitos de poder, agressividade e perdas financeiras compartilhadas. Você pode ser alvo de injustiças cometidas por grupos ou se ver em meios onde a ambição desmedida de terceiros gera um clima de tensão e desconfiança. É um cenário de disputas e julgamentos precipitados que podem prejudicar sua imagem pública.</p>`,
+  8: `<p>  Esta sequência indica um ambiente social de conflitos de poder, agressividade e perdas financeiras compartilhadas. Você pode ser alvo de injustiças cometidas por grupos ou se ver em meios onde a ambição desmedida de terceiros gera um clima de tensão e desconfiança. É um cenário de disputas e julgamentos precipitados que podem prejudicar sua imagem pública.</p>`,
 
-  9: `<p> SEQUENCIA 999 O desafio social aqui é a convivência com pessoas que estão passando por crises profundas ou que se recusam a evoluir. O meio ao seu redor pode parecer desgastado, como se os grupos de que você participa estivessem chegando ao fim. Há um sentimento coletivo de derrota ou cansaço que pode drenar sua energia se você tentar carregar os problemas dos outros nas costas.</p>`
+  9: `<p>  O desafio social aqui é a convivência com pessoas que estão passando por crises profundas ou que se recusam a evoluir. O meio ao seu redor pode parecer desgastado, como se os grupos de que você participa estivessem chegando ao fim. Há um sentimento coletivo de derrota ou cansaço que pode drenar sua energia se você tentar carregar os problemas dos outros nas costas.</p>`
 };
 
 const textosSeqNegDestino = {
-  1: `<p> SEQUENCIA 111 No caminho do destino, esta vibração se manifesta como obstáculos súbitos que impedem o início de novos ciclos. O destino parece colocar barreiras toda vez que você tenta exercer sua autonomia. São eventos externos que forçam a paciência e exigem que você encontre novas formas de liderar sua vida quando as portas parecem trancadas por forças maiores.</p>`,
+  1: `<p>  No caminho do destino, esta vibração se manifesta como obstáculos súbitos que impedem o início de novos ciclos. O destino parece colocar barreiras toda vez que você tenta exercer sua autonomia. São eventos externos que forçam a paciência e exigem que você encontre novas formas de liderar sua vida quando as portas parecem trancadas por forças maiores.</p>`,
 
-  2: `<p> SEQUENCIA 222 Esta influência traz situações de destino que testam sua capacidade de se manter firme diante de pressões externas. Você pode enfrentar circunstâncias que o colocam em posição de submissão ou que exigem que você aprenda a discernir em quem confiar. O caminho pode apresentar parcerias duvidosas que servem como teste para o seu fortalecimento pessoal.</p>`,
+  2: `<p> Esta influência traz situações de destino que testam sua capacidade de se manter firme diante de pressões externas. Você pode enfrentar circunstâncias que o colocam em posição de submissão ou que exigem que você aprenda a discernir em quem confiar. O caminho pode apresentar parcerias duvidosas que servem como teste para o seu fortalecimento pessoal.</p>`,
 
-  3: `<p> SEQUENCIA 333 O destino aqui apresenta desafios ligados à imagem pública e à circulação de informações. Podem surgir eventos inesperados causados por boatos ou falhas tecnológicas que afetam sua comunicação com o mundo. O teste é aprender a manter a verdade e a clareza mesmo quando as circunstâncias externas conspiram para gerar confusão e mal-entendidos.</p>`,
+  3: `<p>  O destino aqui apresenta desafios ligados à imagem pública e à circulação de informações. Podem surgir eventos inesperados causados por boatos ou falhas tecnológicas que afetam sua comunicação com o mundo. O teste é aprender a manter a verdade e a clareza mesmo quando as circunstâncias externas conspiram para gerar confusão e mal-entendidos.</p>`,
 
-  4: `<p> SEQUENCIA 444 Esta sequência no destino aponta para fases de provação material e desafios com autoridades ou estruturas rígidas. O caminho pode apresentar escassez temporária de recursos ou perdas que fogem ao seu controle direto, como crises econômicas ou mudanças em leis. São eventos que exigem uma resiliência de ferro para reconstruir as bases sobre um solo incerto.</p>`,
+  4: `<p>  Esta sequência no destino aponta para fases de provação material e desafios com autoridades ou estruturas rígidas. O caminho pode apresentar escassez temporária de recursos ou perdas que fogem ao seu controle direto, como crises econômicas ou mudanças em leis. São eventos que exigem uma resiliência de ferro para reconstruir as bases sobre um solo incerto.</p>`,
 
-  5: `<p> SEQUENCIA 555 A marca aqui são as reviravoltas inesperadas do destino. Mudanças forçadas de cidade, de emprego ou de planos de vida que ocorrem sem aviso prévio. O caminho se torna instável e volátil, exigindo que você desenvolva uma adaptabilidade rápida para não ser atropelado pelo movimento constante das circunstâncias externas.</p>`,
+  5: `<p>  A marca aqui são as reviravoltas inesperadas do destino. Mudanças forçadas de cidade, de emprego ou de planos de vida que ocorrem sem aviso prévio. O caminho se torna instável e volátil, exigindo que você desenvolva uma adaptabilidade rápida para não ser atropelado pelo movimento constante das circunstâncias externas.</p>`,
 
-  6: `<p> SEQUENCIA 666 Esta vibração no destino traz testes através de rompimentos afetivos ou decepções com instituições e pessoas em quem você depositava segurança. São eventos que atingem o coração da sua estabilidade emocional, forçando-o a aprender que a segurança real não depende de contratos externos ou de promessas alheias, mas da sua integridade.</p>`,
+  6: `<p>  Esta vibração no destino traz testes através de rompimentos afetivos ou decepções com instituições e pessoas em quem você depositava segurança. São eventos que atingem o coração da sua estabilidade emocional, forçando-o a aprender que a segurança real não depende de contratos externos ou de promessas alheias, mas da sua integridade.</p>`,
 
-  7: `<p> SEQUENCIA 777 O destino apresenta períodos de "deserto", onde você é levado a situações de isolamento ou a enfrentar verdades ocultas. Podem surgir eventos que o forçam a parar e refletir, muitas vezes através de situações de saúde ou crises existenciais disparadas por fatos externos. É um convite do destino para o amadurecimento espiritual através da solidão necessária.</p>`,
+  7: `<p>  O destino apresenta períodos de "deserto", onde você é levado a situações de isolamento ou a enfrentar verdades ocultas. Podem surgir eventos que o forçam a parar e refletir, muitas vezes através de situações de saúde ou crises existenciais disparadas por fatos externos. É um convite do destino para o amadurecimento espiritual através da solidão necessária.</p>`,
 
-  8: `<p> SEQUENCIA 888 Esta sequência indica confrontos diretos com a justiça, o poder ou grandes perdas materiais causadas por terceiros. O destino coloca no seu caminho situações de confronto que exigem equilíbrio absoluto para não cair em agressividade. São testes de honra e ética diante de circunstâncias onde o mundo exterior parece agir de forma injusta ou cruel.</p>`,
+  8: `<p>  Esta sequência indica confrontos diretos com a justiça, o poder ou grandes perdas materiais causadas por terceiros. O destino coloca no seu caminho situações de confronto que exigem equilíbrio absoluto para não cair em agressividade. São testes de honra e ética diante de circunstâncias onde o mundo exterior parece agir de forma injusta ou cruel.</p>`,
 
-  9: `<p> SEQUENCIA 999 No destino, esta vibração marca o encerramento forçado de grandes capítulos. O caminho pode "limpar" da sua vida tudo o que já não serve mais, muitas vezes de forma dolorosa e definitiva. São eventos de perda de patrimônio ou fim de eras que, embora desafiadores, têm o propósito de liberar seu caminho para uma nova existência totalmente diferente.</p>`
+  9: `<p>  No destino, esta vibração marca o encerramento forçado de grandes capítulos. O caminho pode "limpar" da sua vida tudo o que já não serve mais, muitas vezes de forma dolorosa e definitiva. São eventos de perda de patrimônio ou fim de eras que, embora desafiadores, têm o propósito de liberar seu caminho para uma nova existência totalmente diferente.</p>`
 };
 // ⭐ TEXTOS SEQUÊNCIAS ESPECIAIS
 const textosSeqEspVida = {
@@ -3406,7 +3406,7 @@ const explicacoes = {
 
 principal: `
 <div>
-<h1> Pirâmide da Vida Principal  👑</h1>
+<h3> Pirâmide da Vida Principal  👑</h3>
 <p>
 <p>​A Pirâmide da Vida Principal é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência. Diferente das outras pirâmides que focam em áreas específicas, esta matriz revela o caminho mestre, as fases evolutivas e as potências que regem a sua história do início ao fim.</p>
 
@@ -3418,7 +3418,7 @@ principal: `
 
 pessoal: `
 <div>
-<h1> Pirâmide do intelecto Pessoal  👤</h1>
+<h3> Pirâmide do intelecto Pessoal  👤</h3>
 <p>Enquanto a pirâmide anterior trata do "quem sou eu no universo", a Pirâmide do Intelecto Pessoal mergulha no "como eu me sinto e como eu processo a vida". Ela é formada pela combinação da equivalência numérica do seu nome somada ao seu dia de nascimento reduzido. Essa pequena adição do dia de nascimento muda o foco do destino geral para a sua atitude íntima e psicológica diante do mundo.</p>
 
 <p>​Esta aba revela o seu mundo subjetivo: o campo emocional, o intelecto e os processos psicológicos que ocorrem longe dos olhos dos outros. Ela é essencial para entender os seus conflitos internos e como você vive cada fase da vida "do lado de dentro". Muitas vezes, a Pirâmide da Vida pode indicar um período de sucesso externo, mas a Pirâmide Pessoal pode revelar que, internamente, você está enfrentando uma crise de identidade ou um crescimento interior silencioso.</p>
@@ -3430,7 +3430,7 @@ pessoal: `
 
 social: `
 <div>
-<h1> Pirâmide da percepcão do seu meio de convivencia  🌎</h1>
+<h3> Pirâmide da percepcão do seu meio de convivencia  🌎</h3>
 <p>​A Pirâmide da Percepção do seu Meio de Convivência (ou Pirâmide Social) assume aqui um papel único de "testemunha ocular" da realidade coletiva. Ela é formada pela frequência numérica do seu nome de nascimento em sintonia com o seu mês de nascimento, o que gera o seu radar de percepção sobre o que ocorre ao seu redor. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve especificamente a sua capacidade de ver as engrenagens da vida girando para as pessoas do seu meio social.</p>
 
 <p>​É nesta seção que entendemos que nem tudo o que acontece no nosso campo de visão nos pertence. Esta pirâmide revela os acontecimentos, as crises, as vitórias e as transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Pirâmide do Destino é a que realmente molda a sua jornada pessoal e traz os eventos que o influenciam diretamente, a Pirâmide Social é um mapa do "teatro da vida" alheia que se desenrola diante dos seus olhos.</p>
@@ -3444,7 +3444,7 @@ social: `
 
 destino: `
 <div>
-<h1> Pirâmide do Propósito e Influencia do Universo  ☄️</h1>
+<h3> Pirâmide do Propósito e Influencia do Universo  ☄️</h3>
 
 <p>​A Pirâmide do Propósito e Influência do Universo (ou Pirâmide Destino) é a síntese final de toda a sua análise. Ela utiliza a combinação mais completa: seu nome, dia e mês de nascimento. Por unir todos os elementos, ela reflete os aspectos do seu destino de forma multidimensional, combinando o que está previsto na Matriz Principal com as suas necessidades Pessoais e as demandas do seu Meio Social.</p>
 
