@@ -756,7 +756,32 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 }   
 
 
+@media print {
+    /* Força a pirâmide a começar em uma nova página */
+    .container-piramide-isolada {
+        page-break-before: always !important;
+        page-break-after: always !important; /* Opcional: se quiser que o texto de regente também mude de página */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centraliza a pirâmide verticalmente na folha */
+        height: 297mm; /* Ocupa a folha toda */
+        box-sizing: border-box;
+    }
 
+    /* Ajuste para que a pirâmide fique grande e centralizada na folha sozinha */
+    .container-piramide-isolada .piramide {
+        transform: scale(1.2); /* Aumenta um pouco para preencher a folha */
+        transform-origin: center;
+        margin: 0 auto;
+    }
+}
+
+/* Garante o espaçamento dos parágrafos que você pediu */
+.texto-intro-pessoal p {
+    margin-bottom: 20px !important;
+    line-height: 1.6;
+    text-align: justify;
+}
 
     
     
@@ -936,12 +961,17 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro) {
             </div>
         </div>
         
-        ${introExibicao}
-
-        <div style="margin: 20px 0;">
-            ${desenhar(matriz, titulo)} 
+        <div class="texto-intro-pessoal">
+            ${introExibicao}
         </div>
+    </div>
 
+    <div class="container-piramide-isolada">
+        <h2 style="text-align:center; color:#827108; margin-bottom: 30px;">GEOMETRIA SAGRADA: ${titulo}</h2>
+        ${desenhar(matriz, titulo)} 
+    </div>
+
+    <div class="page evitar-corte">
         <div class="resultado-regente-container" style="background: #fdfaf0; border: 1px solid #e6d5a8; border-radius: 12px; padding: 25px;">
             <h3 style="color: #827108;">🔱 REGENTE ${regente} - ${titulo}</h3>
             <div class="texto-personalizado">
