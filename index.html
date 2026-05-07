@@ -397,26 +397,31 @@
         clear: both;
     } 
 
-.linha-letras {
-    display: flex;
-    justify-content: center; /* Centraliza a linha toda */
-    gap: 2px;               /* Mesma distância que você usa nos números */
-    width: 100%;
-    margin-bottom: 5px;
-}
-
 .num-letra {
-    width: 16px;            /* AJUSTE AQUI: Deve ser igual à largura do seu .num */
-    height: 16px;           /* AJUSTE AQUI: Deve ser igual à altura do seu .num */
+    /* IMPORTANTE: Estes valores devem ser IGUAIS aos da classe .num */
+    width: 16px;            
+    height: 16px;           
+    
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    /* Estilo da Letra */
     color: #000E52;
-    font-size: 18px;        /* Tamanho da letra */
-    font-weight: 900;
+    font-size: 11px;       /* Diminuímos aqui para a letra caber no espaço de 16px */
+    font-weight: 700;      /* Um pouco menos que 900 para não borrar no PDF */
     text-transform: uppercase;
-    /* Opcional: borda ou fundo para testar o alinhamento */
-    /* border: 1px solid #ccc; */
+    font-family: sans-serif;
+    
+    /* Alinhamento */
+    flex-shrink: 0;        /* Impede que a letra esprema se o nome for longo */
+}
+
+.linha-letras {
+    display: flex;
+    justify-content: center; 
+    gap: 2px;              /* Deve ser o mesmo gap da classe .linha */
+    margin-bottom: 8px;    /* Espaço entre o nome e o início dos números */
 }
 
 @media print {
