@@ -922,7 +922,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
     
     if (intros.especiais) {
-        html += <div class="intro-secao especiais">${intros.especiais}</div>;
+        html += `<div class="intro-secao especiais">${intros.especiais}</div>`;
     }
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
