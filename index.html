@@ -1711,13 +1711,7 @@ function gerar() {
     const topoV = topo(mVida[0]);
     const crono = gerarCronogramaMestre(topoV, dataISO);
 
-    // --- NOVA PARTE: LINHA DO NOME NO TOPO ---
-const letrasNomeTopo = nome.toUpperCase().replace(/\s+/g, '').split('');
-meuHtml   += `<div class="linha linha-letras" style="margin-bottom: 5px;">`;
-letrasNomeTopo.forEach(letra => {
-    meuHtml   += `<div class="num-letra" style=" width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; color: #000E52; font-size: 18px; font-weight: 900; border-radius: 2px;">${letra}</div>`;
-});
-meuHtml  += `</div>`;
+
     
 
     let meuHtml =    `   
