@@ -709,18 +709,13 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     padding-top: 20px; /* Dá um respiro no topo da página */
 }
 
-/* O título onde vai o Nome da Pessoa */
 .titulo-piramide-nome {
-    width: 100%;
-    max-width: 450px; /* Isso limita o nome para não ficar mais largo que a pirâmide */
-    margin: 0 auto 40px auto; 
-    text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     color: #827108;
+    margin-bottom: 50px; /* Aumentamos aqui para o nome não encostar nos círculos */
     text-transform: uppercase;
     font-weight: bold;
-    display: block;
-    line-height: 1.2;
+    text-align: center;
 }
 
 /* Garante que a pirâmide em si não suba */
@@ -764,7 +759,19 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     }
 
 
-    
+ @media print {
+    /* Impede que o regente e as pirâmides se separem de forma feia */
+    .evitar-corte {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Remove o espaço em branco no final do documento */
+    body {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}       
 
 
  /* Estilo para o número da página no PDF */
@@ -818,19 +825,7 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     }
 }   
        
- @media print {
-    /* Impede que o regente e as pirâmides se separem de forma feia */
-    .evitar-corte {
-        page-break-inside: avoid !important;
-        break-inside: avoid !important;
-    }
 
-    /* Remove o espaço em branco no final do documento */
-    body {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-    }
-}   
     
 </style>
 </head>
