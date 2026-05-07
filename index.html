@@ -1714,9 +1714,7 @@ function gerar() {
     
 
     let meuHtml =    `   
-    <button class="btn-pdf no-print" onclick="window.print()">📥 BAIXAR SEU PDF PREMIUM</button>
-    
-
+        
 <div class="container-master">
     <div id="capa-numerologica" style="
             width: 210mm; 
@@ -1770,7 +1768,9 @@ function gerar() {
     <div id="conteudo-relatorio" style="background: #ffffff; width: 210mm; min-height: 297mm; box-sizing: border-box;">
 `;
 
+meuHtml =    ` <button class="btn-pdf no-print" onclick="window.print()">📥 BAIXAR SEU PDF PREMIUM</button>`
 
+    
 // --- PÁGINA 1: SUMÁRIO (AJUSTADA PARA CABER EM UMA FOLHA) ---
 meuHtml =    ` 
 <div class="page" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; max-height: 1120px; padding: 30px; box-sizing: border-box; overflow: hidden; page-break-after: always; position: relative;">
