@@ -399,16 +399,24 @@
 
 .linha-letras {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centraliza a linha toda */
+    gap: 2px;               /* Mesma distância que você usa nos números */
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .num-letra {
-    /* Garante que a letra acompanhe a largura dos quadradinhos da pirâmide */
-    min-width: 16px; 
-    text-align: center;
-    font-family: 'Cinzel', serif; /* Ou a fonte que você usa no topo */
+    width: 16px;            /* AJUSTE AQUI: Deve ser igual à largura do seu .num */
+    height: 16px;           /* AJUSTE AQUI: Deve ser igual à altura do seu .num */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000E52;
+    font-size: 18px;        /* Tamanho da letra */
+    font-weight: 900;
+    text-transform: uppercase;
+    /* Opcional: borda ou fundo para testar o alinhamento */
+    /* border: 1px solid #ccc; */
 }
 
 @media print {
