@@ -847,18 +847,41 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 }
 
 
-@media print {
-    /* Remove a barra lateral dourada/branca/vermelha de todos os cards no PDF */
-    .secao-card, .card-necessidades, .card-integrado, .resultado-bloco {
-        border-left: none !important;
-        border: none !important;
+ @media print {
+    /* 1. Remove qualquer barra de rolagem visual do PDF */
+    html, body {
+        overflow: visible !important;
+        overflow-x: hidden !important;
+        height: auto !important;
     }
 
-    /* Se o "pauzinho" for a linha de progresso ou algum detalhe de layout */
-    .barra-vermelha, .item-potencia-tag {
-        box-shadow: none !important;
+    /* 2. Esconde barras de rolagem específicas de navegadores Webkit (Chrome/Edge) */
+    ::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
     }
-}    
+
+    /* 3. Garante que o container master não force uma barra lateral */
+    .container-master, .relatorio-premium {
+        overflow: visible !important;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* 4. Remove bordas ou decorações de elementos que podem parecer riscos */
+    * {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+/* Remove a barra também na visualização da tela se desejar */
+#resultado-final::-webkit-scrollbar {
+    display: none;
+} 
     
     </style>
 </head>
