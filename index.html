@@ -940,7 +940,27 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     margin-bottom: 5px;
 }
 
-    
+ .titulo-ciclo-dourado {
+    text-align: center !important; /* Centraliza no meio da página */
+    color: #827108 !important;    /* Seu dourado padrão */
+    font-size: 22px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    font-family: 'Cinzel', serif; /* Se você tiver essa fonte, fica excelente */
+    border-bottom: 1px solid rgba(130, 113, 8, 0.2); /* Linha fina decorativa */
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+
+/* Garante que o container dos ciclos não esprema o conteúdo */
+.conteudo-vibracoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}   
     
     </style>
 </head>
@@ -1711,16 +1731,20 @@ function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
         const pS = topoS[periodo.indiceArcano] || topoS[topoS.length-1];
         const pD = topoD[periodo.indiceArcano] || topoD[topoD.length-1];
 
-        h += `
-        <div class="card-integrado evitar-corte">
-            <h3 class="titulo-ciclo">Ciclo: ${periodo.idadeIni} a ${periodo.idadeFim} anos <br> (${periodo.ini} a ${periodo.fim})</h3>
-            <div class="conteudo-vibracoes">
-                 <div class="centralizar-titulos"><b>👑 MATRIZ DA VIDA <br>POTÊNCIA ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
-                 <div class="centralizar-titulos"><b>👤 MATRIZ PESSOAL<br> POTÊNCIA ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
-                 <div class="centralizar-titulos"><b>🌎 MATRIZ DO MEIO <br>POTÊNCIA ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
-                 <div class="centralizar-titulos"><b>☄️ MATRIZ DA INFLUÊNCIA<br> POTÊNCIA ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
-            </div>
-        </div>`;
+h += `
+<div class="card-integrado evitar-corte" style="margin-bottom: 40px; border: 1px solid #e6d5a8; padding: 20px; border-radius: 12px;">
+    <h3 class="titulo-ciclo-dourado">
+        Ciclo: ${periodo.idadeIni} a ${periodo.idadeFim} anos <br> 
+        <span style="font-size: 0.8em; opacity: 0.8;">(${periodo.ini} a ${periodo.fim})</span>
+    </h3>
+    
+    <div class="conteudo-vibracoes">
+         <div class="centralizar-titulos"><b>👑 MATRIZ DA VIDA <br>POTÊNCIA ${pV}</b>${aplicarFiltroTexto(textosVida[pV])}</div>
+         <div class="centralizar-titulos"><b>👤 MATRIZ PESSOAL<br> POTÊNCIA ${pP}</b>${aplicarFiltroTexto(textosPessoal[pP])}</div>
+         <div class="centralizar-titulos"><b>🌎 MATRIZ DO MEIO <br>POTÊNCIA ${pS}</b>${aplicarFiltroTexto(textosSocial[pS])}</div>
+         <div class="centralizar-titulos"><b>☄️ MATRIZ DA INFLUÊNCIA<br> POTÊNCIA ${pD}</b>${aplicarFiltroTexto(textosDestino[pD])}</div>
+    </div>
+</div>`;
     });
     return h;
 }
