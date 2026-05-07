@@ -541,12 +541,18 @@ line-height: 1.1;
         position: relative;
     }
     
-    /* Adiciona uma margem interna para o conteúdo que NÃO é capa */
-    .page {
-        padding: 1.5cm !important; 
-        page-break-after: always;
-    }
+/* Localize e substitua a classe .page no seu CSS */
+.page {
+    width: 100%;
+    margin: 0 auto;
+    /* Reduzimos o padding do topo e base para dar fôlego ao texto */
+    padding: 20px 2mm; 
+    /* IMPORTANTE: Mude de 'always' para 'auto' para não forçar folha branca no fim */
+    page-break-after: auto !important; 
+    position: relative;
+    display: block;
 }
+
 
     /* Garante que o relatório possa fluir por várias páginas */
     .relatorio-premium {
@@ -554,7 +560,7 @@ line-height: 1.1;
         position: static !important;
         overflow: visible !important;
     }
-}
+
 
     
 
