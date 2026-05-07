@@ -867,12 +867,9 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
   <div class="card-input-premium">
     <div class="input-group">
        
-        <input type="text" id="nome" placeholder="Ex: NOME COMPLETO DO CLIENTE" autocomplete="off">
-    </div>
-
-    <div class="input-group">
-        
-        <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
+     <input type="text" id="nome" placeholder="NOME COMPLETO IGUAL CERTIDÃO" >
+       <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
+     <input type="text" id="nomeSocial" placeholder="COMO PREFERE SER CHAMADO? (OPCIONAL)"> 
     </div>
 
     <div class="botoes-acao">
