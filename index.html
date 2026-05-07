@@ -751,8 +751,8 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let sequenciasProcessadas = new Set();
 
 
-       // Puxa a intro do window.introsPiramides
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
+      // Puxa a intro - Usei o 'tipo' com segurança agora
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
 
     if (intros.negativas) {
         html += `<div class="intro-secao negativas">${intros.negativas}</div>`;
@@ -835,7 +835,8 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     let encontrou = false;
     let sequenciasProcessadas = new Set();
 
-        const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
+            // Puxa a intro - Usei o 'tipo' com segurança agora
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
     if (intros.financeiro) {
         html += `<div class="intro-secao financeiro">${intros.financeiro}</div>`;
     }
@@ -930,7 +931,8 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
 
 
         // Puxa a intro correta
-    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : {};
+        // Puxa a intro - Usei o 'tipo' com segurança agora
+    const intros = (window.introsPiramides && window.introsPiramides[tipo]) ? window.introsPiramides[tipo] : (window.introsPiramides ? window.introsPiramides['vida'] : {});
     if (intros.especiais) {
         html += `<div class="intro-secao especiais">${intros.especiais}</div>`;
     }
