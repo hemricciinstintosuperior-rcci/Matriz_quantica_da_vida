@@ -41,6 +41,27 @@
     outline: none !important;
     box-shadow: none !important;
 }
+
+.secao-card {
+    width: 100% !important; /* Força a ocupar toda a largura da folha */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    /* Use padding para o texto não colar na borda, em vez de margin lateral */
+    padding: 20px 15px !important; 
+    position: relative;
+}
+    
+
+
+ @media print {
+    /* Regra específica só para a PRIMEIRA página */
+    @page :first {
+        @top-right {
+            content: ""; /* Deixa vazio o topo da primeira página */
+        }
+    }
+}  
+    
     
 /* Reset de Impressão para o PDF não sair "zoado" */
 @media print {
@@ -563,6 +584,17 @@ line-height: 1.1;
         background-color: #0f2a36 !important;
     }
 }   
+
+
+    /* Garante que o relatório possa fluir por várias páginas */
+    .relatorio-premium {
+        display: block !important;
+        position: static !important;
+        overflow: visible !important;
+    }
+}
+
+    
 
 
 /* Na tela (Relatório), mostramos o Player e escondemos o Botão de Link */
