@@ -400,15 +400,21 @@
 .linha-letras {
     display: flex;
     justify-content: center;
-    gap: 2px;
+    width: 100%;
+    margin-bottom: 8px;
 }
 
 .num-letra {
-    /* Mesma largura e gap da classe .num para alinhar verticalmente */
-    width: 22px; 
+    /* Garante que a letra acompanhe a largura dos quadradinhos da pirâmide */
+    min-width: 16px; 
     text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    opacity: 0.8;
+    font-family: 'Cinzel', serif; /* Ou a fonte que você usa no topo */
+}
+
+@media print {
+    .num-letra {
+        -webkit-print-color-adjust: exact;
+    }
 }
     
   /* Estilo Premium para a Seção de Potências */
