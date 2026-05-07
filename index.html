@@ -910,7 +910,18 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     padding: 0 5px;                   /* Pequena folga nas laterais */
 }
     
-    
+  @media print {
+    /* Esconde a barra de rolagem visual no PDF */
+    ::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    /* Garante que o conteúdo não tente "rolar" dentro da folha A4 */
+    html, body, .relatorio-premium, .page {
+        overflow: visible !important;
+        height: auto !important;
+    }
+}  
     
     </style>
 </head>
