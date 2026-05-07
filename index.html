@@ -3,11 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>Pirâmide da Vida Quântica</title>
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#111827">
+
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     
 <style>
+
+
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+
+    
 /* Reset de Impressão para o PDF não sair "zoado" */
 @media print {
     .container-master { 
@@ -521,8 +529,121 @@ line-height: 1.1;
         background-color: #0f2a36 !important;
     }
 }   
+
+
+/* Na tela (Relatório), mostramos o Player e escondemos o Botão de Link */
+.botao-pdf-link { display: none !important; }
+.player-relatorio { display: flex !important; }
+
+/* No PDF (Impressão), invertemos tudo */
+@media print {
+    .botao-pdf-link { display: flex !important; }
+    .player-relatorio { display: none !important; }
+    
+    /* Garante que o fundo da capa não suma no PDF */
+    .capa-transicao { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
     
     
+    
+/* Mata qualquer borda azul de links ou elementos focados */
+:focus { outline: none !important; }
+a, img, audio { border: none !important; outline: none !important; text-decoration: none !important; }
+
+.video-introducao {
+    width: 100%;
+    max-width: 800px; /* Mesma largura do seu container para alinhar */
+    margin: 0 auto 20px auto; /* Centraliza e dá espaço para o formulário */
+    border-radius: 20px;
+    overflow: hidden; /* Garante que o vídeo siga o arredondamento */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.video-introducao video {
+    display: block;
+    border: 2px solid #A65F00; /* Um detalhe em dourado/bronze como no seu botão */
+}
+    
+.video-wrapper {
+    width: 100%;
+    margin-bottom: 20px; /* Espaço entre o vídeo e o título/campos */
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--gold); /* Borda fina acompanhando sua cor principal */
+    background-color: #000;
+}
+
+.video-wrapper video {
+    display: block;
+    outline: none;
+}
+
+
+@media print {
+    /* Esconde o vídeo e o container de entrada para não atrapalhar o PDF */
+    .video-wrapper, 
+    .container, 
+    #videoExplicativo {
+        display: none !important;
+    }
+
+    /* Garante que o relatório possa fluir por várias páginas */
+    .relatorio-premium {
+        display: block !important;
+        position: static !important;
+        overflow: visible !important;
+    }
+}
+
+
+.btn-video-toggle {
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #A65F00 0%, #FFD700 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(166, 95, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.btn-video-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(166, 95, 0, 0.4);
+}
+
+.btn-video-toggle .seta {
+    transition: transform 0.3s ease;
+}
+
+.btn-video-toggle.ativo .seta {
+    transform: rotate(180deg);
+}
+
+/* Garante que o botão também suma na impressão */
+@media print {
+    .btn-video-toggle {
+        display: none !important;
+    }
+}    
+
+
+
+ @media print {
+    .apenas-no-pdf {
+        display: block !important;
+    }
+    .conteudo-travado {
+        filter: none !important; /* Remove o desfoque no PDF */
+    }
+}   
     
     
 </style>
