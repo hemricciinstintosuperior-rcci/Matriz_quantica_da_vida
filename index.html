@@ -1213,13 +1213,13 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                         ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
                     <div class="conteudo-vibracoes">
-                        <h4> style="font-size: 18px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
-                            📅  Período de maior influência ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos) </h4>
+                         <div style="font-size: 18px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
+                            📅  Período de maior influência ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)  </div>
                         
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA PRINCIPAL</b> ${resV}${resV}${resV}<br> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA INTERNA</b> ${resP}${resP}${resP}<br> ${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão pessoal.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE PERCEPÇÃO DO MEIO </b> ${resS}${resS}${resS}<br> ${aplicarFiltroTexto(textosSeqNegSocial[resS] || "Instabilidade nas relações.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE INFLUÊNCIA NATURAL </b> ${resD}${resD}${resD}<br> ${aplicarFiltroTexto(textosSeqNegDestino[resD] || "Obstrução no caminho de destino.")}</div>
+                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA PRINCIPAL ${resV}${resV}${resV}</b><br> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
+                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA INTERNA ${resP}${resP}${resP}</b><br> ${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão pessoal.")}</div>
+                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE PERCEPÇÃO DO MEIO  ${resS}${resS}${resS}</b><br> ${aplicarFiltroTexto(textosSeqNegSocial[resS] || "Instabilidade nas relações.")}</div>
+                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE INFLUÊNCIA NATURAL  ${resD}${resD}${resD}</b><br> ${aplicarFiltroTexto(textosSeqNegDestino[resD] || "Obstrução no caminho de destino.")}</div>
                     </div>
                 </div>`;
                 
@@ -1248,7 +1248,7 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     const bD = typeof textosSeqFinancDestino !== 'undefined' ? textosSeqFinancDestino : {};
 
     const piramides = [
-        { matriz: mV, banco: bV, nome: "SEQUÊNCIA PRINCIPAL", prefixo: "🔱" },
+        { matriz: mV, banco: bV, nome: "SEQUÊNCIA PRINCIPAL", prefixo: "👑" },
         { matriz: mP, banco: bP, nome: "SEQUÊNCIA INTERNA", prefixo: "👤" },
         { matriz: mS, banco: bS, nome: "SEQUÊNCIA DE PERCEPÇÃO", prefixo: "🌎" },
         { matriz: mD, banco: bD, nome: "SEQUÊNCIA DE INFLUÊNCIA NATURAL", prefixo: "☄️" }
@@ -1333,7 +1333,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
     const piramides = [
-        { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "SEQUÊNCIA PRINCIPAL", prefixo: "🔱", classe: "vida" },
+        { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "SEQUÊNCIA PRINCIPAL", prefixo: "👑", classe: "vida" },
         { matriz: mP, banco: typeof textosSeqEspPessoal !== 'undefined' ? textosSeqEspPessoal : {}, nome: "SEQUÊNCIA INTERNA", prefixo: "👤", classe: "pessoal" },
         { matriz: mS, banco: typeof textosSeqEspSocial !== 'undefined' ? textosSeqEspSocial : {}, nome: "SEQUÊNCIA DE PERCEPÇÃO", prefixo: "🌎", classe: "social" },
         { matriz: mD, banco: typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {}, nome: "SEQUÊNCIA DE INFLUÊNCIA NATURAL", prefixo: "☄️", classe: "destino" }
@@ -1738,7 +1738,7 @@ function gerar() {
         <div style="position: absolute; bottom: 15px; right: 15px; width: 60px; height: 60px; border-bottom: 3px solid #827108; border-right: 3px solid #827108;"></div>
 
         <div style="text-align: center; margin-top: 20px;">
-            <span style="color: #827108; letter-spacing: 8px; font-size: 12px; text-transform: uppercase;">Portal Numerológico</span>
+            <span style="color: #827108; letter-spacing: 8px; font-size: 12px; text-transform: uppercase;"></span>
             <div style="width: 40px; height: 1px; background: #827108; margin: 10px auto;"></div>
         </div>
 
@@ -1761,7 +1761,7 @@ function gerar() {
         </div>
 
         <p style="font-size: 9px; color: #ffffff; letter-spacing: 3px; text-transform: uppercase; opacity: 0.5; margin-bottom: 20px;">
-            Instinto Superior • Engenharia da Alma
+           • Instinto Superior • 
         </p>
     </div>
 
