@@ -893,7 +893,6 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 <body>
 
 <div class="container">
-
     <button type="button" id="btnVideo" class="btn-video-toggle">
         <span>🎥 Assistir Vídeo Introdutório</span>
         <i class="seta">▼</i>
@@ -905,20 +904,21 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
             Seu navegador não suporta vídeos.
         </video>
     </div>
-        
-       
-     <input type="text" id="nome" placeholder="NOME COMPLETO IGUAL CERTIDÃO" >
-     <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
-     <input type="text" id="nomeSocial" placeholder="COMO PREFERE SER CHAMADO? (OPCIONAL)"> 
-    </div>
 
-  
-        <button class="btn-gerar" onclick="gerar()">GERAR O MAPA</button>
-            
+    
+        <h1>MATRIZ QUÂNTICA</h1>
+     <input type="text" id="nome" placeholder="NOME COMPLETO IGUAL CERTIDÃO" >
+       <input type="text" id="data" placeholder="DD/MM/AAAA" maxlength="10" onInput="this.value = this.value.replace(/\D/g, '').replace(/^(\d{2})(\d)/, '$1/$2').replace(/^(\d{2})\/(\d{2})(\d)/, '$1/$2/$3');">  
+     <input type="text" id="nomeSocial" placeholder="COMO PREFERE SER CHAMADO? (OPCIONAL)"> 
+        
+        <input type="text" id="nomeCasado" placeholder="NOME COMPLETO DE CASADO(A) (SE HOUVER)">       
+    
+        <button class="btn-gerar" onclick="gerarMapaCompleto()">GERAR AS MATRIZES</button>
+    </div>
        
      
    
-</div>  
+
 
 
 <div id="resultado-final" style="width: 110%; max-width: 800px; margin: 0 auto;">
