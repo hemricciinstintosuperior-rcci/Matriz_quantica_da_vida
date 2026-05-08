@@ -1234,23 +1234,17 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
     let encontrou = false;
     let sequenciasProcessadas = new Set();
 
-
-
-    // Varre cada linha da Matriz da Vida (Guia Mestre)
     mV.forEach((linha, i) => {
         let j = 0;
         while (j < linha.length) {
             let num = linha[j];
             let cont = 1;
-            // Conta quantos números iguais aparecem em sequência (3 ou mais)
             while (j + cont < linha.length && linha[j + cont] === num) {
                 cont++;
             }
 
             if (cont >= 3) {
                 encontrou = true;
-                
-                // Evita duplicatas se a mesma sequência aparecer em contextos repetidos
                 let chaveUnica = `lin-${i}-col-${j}-num-${num}`;
                 if (sequenciasProcessadas.has(chaveUnica)) {
                     j += cont;
@@ -1258,10 +1252,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                 }
                 sequenciasProcessadas.add(chaveUnica);
 
-                // --- CÁLCULO DE VIGÊNCIA (Soma das Potências do Topo) ---
                 let duracaoTotal = 0;
-                // Na pirâmide, conforme descemos as linhas (i), a coluna real (offset) muda
-                // Mas para sincronizar com o Topo (Vibração Temporal), usamos o índice J + a compensação da linha
                 for (let k = 0; k < cont; k++) {
                     let colReal = j + k + Math.floor(i / 2); 
                     if (colReal < topoV.length) {
@@ -1269,31 +1260,54 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                     }
                 }
 
-                // Sincroniza com o cronograma de 100 anos
                 let idxCrono = j + Math.floor(i / 2);
                 let periodoBase = crono[idxCrono] || crono[0];
                 let datas = calcularPeriodoSequencia(periodoBase, duracaoTotal);
                 let idadeFim = periodoBase.idadeIni + duracaoTotal;
 
-                // Captura o resultado das 4 pirâmides na mesma posição exata
                 const resV = mV[i][j];
                 const resP = mP[i][j];
                 const resS = mS[i][j];
                 const resD = mD[i][j];
 
+                // NOVO DESIGN: Menos "pesado" para evitar quebras de página bruscas
                 html += `
-                <div class="card-integrado" style="border-left: 4px solid #ff0000; margin-bottom: 25px;">
-                    <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
-                        ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                <div class="card-alerta-vulnerabilidade evitar-corte" style="margin-bottom: 30px; border: 1px solid #fecaca; border-radius: 10px; overflow: hidden; background: #fff;">
+                    
+                    <div style="background: #fef2f2; padding: 15px; border-bottom: 2px solid #fee2e2; display: flex; align-items: center; gap: 10px;">
+                        <span style="font-size: 24px;">⚠️</span>
+                        <div style="flex: 1;">
+                            <h4 style="margin: 0; color: #b91c1c; font-size: 16px; text-transform: uppercase; letter-spacing: 1px;">Alerta de Bloqueio Ativo</h4>
+                            <span style="color: #ef4444; font-weight: bold; font-size: 14px;">Dos ${periodoBase.idadeIni} aos ${idadeFim} anos</span>
+                        </div>
                     </div>
-                    <div class="conteudo-vibracoes">
-                         <div style="font-size: 20px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
-                            📅  Período de maior influência ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)  </div>
+
+                    <div style="padding: 20px;">
+                        <div style="font-size: 16px; color: #374151; margin-bottom: 20px; padding: 10px; background: #fffafb; border-radius: 5px; border-left: 3px solid #d32f2f;">
+                            📅 <b>Vigência:</b> ${periodoBase.ini} até ${datas.fim} <span style="color: #6b7280; font-size: 13px;">(${duracaoTotal} anos de influência)</span>
+                        </div>
                         
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA PRINCIPAL ${resV}${resV}${resV}</b><br> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA INTERNA ${resP}${resP}${resP}</b><br> ${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão pessoal.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE PERCEPÇÃO DO MEIO  ${resS}${resS}${resS}</b><br> ${aplicarFiltroTexto(textosSeqNegSocial[resS] || "Instabilidade nas relações.")}</div>
-                        <div class="vibracao-row"><b>🚫 SEQUÊNCIA DE INFLUÊNCIA NATURAL  ${resD}${resD}${resD}</b><br> ${aplicarFiltroTexto(textosSeqNegDestino[resD] || "Obstrução no caminho de destino.")}</div>
+                        <div class="grid-sequencias" style="display: grid; gap: 15px;">
+                            <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
+                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA DA VIDA ${resV}${resV}${resV}</b>
+                                <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
+                            </div>
+
+                            <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
+                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA PESSOAL ${resP}${resP}${resP}</b>
+                                <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão.")}</div>
+                            </div>
+
+                            <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
+                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA SOCIAL ${resS}${resS}${resS}</b>
+                                <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegSocial[resS] || "Instabilidade nas relações.")}</div>
+                            </div>
+
+                            <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
+                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA DE DESTINO ${resD}${resD}${resD}</b>
+                                <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegDestino[resD] || "Obstrução no caminho.")}</div>
+                            </div>
+                        </div>
                     </div>
                 </div>`;
                 
@@ -1304,7 +1318,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
         }
     });
 
-    return encontrou ? html : "<p style='text-align:center;'>Nenhuma sequência negativa crítica detectada.</p>";
+    return encontrou ? html : "<p style='text-align:center; color: #666;'>Nenhuma sequência negativa crítica detectada nesta análise.</p>";
 }
 
 
