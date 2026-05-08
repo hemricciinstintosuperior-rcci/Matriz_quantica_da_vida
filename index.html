@@ -2133,22 +2133,50 @@ meuHtml += `
 `;
 
 
-      meuHtml += `<div class="separador-luxo"><div class="caixa-interna"><h2>Sequências Especiais ⭐</h2></div></div>`;
-    
-    // Texto de introdução para Especiais
-    meuHtml += `<div class="intro-texto" style="margin-bottom: 20px;"><p>As sequências especiais representam períodos específicos dentro da Pirâmide da Vida em que determinadas energias numéricas se intensificam, influenciando diretamente tendências, comportamentos e possíveis acontecimentos. Esses momentos não indicam fatos fixos ou garantidos, mas apontam para um campo de maior probabilidade onde certas experiências podem se manifestar.</p>
-    <p>Cada número presente nessas sequências carrega uma vibração própria, ativando cenários compatíveis com sua natureza. Isso pode se refletir em oportunidades, desafios, mudanças internas ou situações externas que dialogam com aquela energia predominante no período.</p>
-    <p>É importante compreender que essas influências atuam como direcionamentos, e não como determinações absolutas. Ou seja, elas indicam caminhos mais propensos a ocorrer, mas a forma como cada situação se concretiza depende das escolhas, do contexto e da consciência da pessoa.</p>
-    <p>Assim, as sequências especiais funcionam como marcadores de tempo energético, revelando fases em que certos temas ganham destaque e podem se desenvolver com mais intensidade, abrindo espaço para vivências alinhadas à vibração daquele número.</p></div>`;
-    
-    // Exemplo de como colocar no seu gerar()
-meuHtml += `
-<section class="page" style="margin-top: 50px;">
-    <div style="height: 4px; background: #b8860b; margin-bottom: 20px; border-radius: 2px;"></div>
-    <h2 style="text-align:center; color:#b8860b; text-transform: uppercase;">Sequências Especiais e Portais</h2>
-    ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
-</section>`;
+// 1. TÍTULO E SEPARADOR
+meuHtml += `<div class="separador-luxo"><div class="caixa-interna"><h2>Sequências Especiais ⭐</h2></div></div>`;
 
+// 2. INTRODUÇÃO REFORMULADA (CARD PORTAL)
+meuHtml += `
+<div class="page evitar-corte" style="padding: 20px 0;">
+    <div class="intro-secao-especial" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 15px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 8px 25px rgba(184, 134, 11, 0.05);">
+        
+        <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(184, 134, 11, 0.05); transform: rotate(20deg);">⭐</div>
+
+        <h2 style="color: #b8860b; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+            Portais de Ativação <br>
+            <span style="font-size: 13px; color: #827108; letter-spacing: 3px;">Marcadores de Tempo Energético</span>
+        </h2>
+
+        <div style="color: #444; line-height: 1.7; font-size: 17px; text-align: justify;">
+            <p style="margin-bottom: 15px;">As <b>Sequências Especiais</b> representam momentos raros na Pirâmide da Vida, onde certas energias se intensificam para criar campos de alta probabilidade. Elas atuam como direcionamentos energéticos que favorecem experiências específicas.</p>
+
+            <p style="margin-bottom: 15px;">Cada número nestas sequências ativa cenários compatíveis com sua natureza, revelando fases onde temas específicos ganham destaque. Não são destinos fixos, mas sim <b>portais de oportunidade</b> que se abrem para o seu desenvolvimento.</p>
+
+            <p>Compreender esses marcadores permite que você alinhe suas escolhas às vibrações do momento, aproveitando a máxima intensidade de cada ciclo para uma jornada mais consciente e assertiva.</p>
+        </div>
+
+        <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #b8860b; text-align: center;">
+            <p style="font-style: italic; color: #b8860b; font-size: 15px;">
+                "Os números não determinam o seu caminho, eles iluminam as portas que você pode escolher abrir."
+            </p>
+        </div>
+    </div>
+</div>`;
+
+// 3. SEÇÃO DE RESULTADOS (PORTAIS SINCRONIZADOS)
+meuHtml += `
+<section class="page" style="margin-top: 20px;">
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent);"></div>
+        <span style="padding: 0 15px; color: #b8860b; font-size: 11px; letter-spacing: 2px; font-weight: bold;">ALINHAMENTOS ESPECIAIS DETECTADOS</span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent);"></div>
+    </div>
+
+    <div class="texto-res evitar-corte">
+        ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+    </div>
+</section>`;
 
 
 
@@ -2326,38 +2354,59 @@ meuHtml += `
 
     
 
-    // --- SEÇÃO DE FLUXO FINANCEIRO ---
 const htmlFinanceiro = extrairFinanceiroSincronizado(mVida, mPes, mSoc, mDes, crono, topoV);
 
 if (htmlFinanceiro) {
-
-
-    meuHtml += `<div class="separador-luxo"><div class="caixa-interna"><h2>Fluxos Financeiros 💰</h2></div></div>`;
-    
-    // Texto de introdução para Financeiro
-   meuHtml += `<div class="intro-texto" style="margin-bottom: 20px;">O potencial de fluxo financeiro indica janelas de oportunidade para a expansão material e a consolidação de recursos, baseadas no seu magnetismo de prosperidade do momento. 
-   <p>No contexto financeiro, esse período pode se manifestar como uma fase de recebimentos, retornos ou entradas de recursos que não dependem exclusivamente do esforço direto e imediato da pessoa, mas sim de circunstâncias já construídas ao longo do tempo. É como se houvesse uma “colheita” de situações passadas, que agora se concretizam em forma material.</p>
-   <p>Nesse momento, a pessoa pode, por exemplo, ser desligada de uma empresa e receber corretamente todos os seus direitos trabalhistas — como rescisão, multa do FGTS, férias proporcionais e outros valores acumulados. Também pode ocorrer o recebimento de valores que estavam pendentes, como dívidas antigas sendo quitadas, restituições, reembolsos ou até ajustes financeiros inesperados a seu favor.</p>
-   <p>Há ainda possibilidades relacionadas ao acaso ou à sorte, como ganhos em loterias, apostas esportivas, sorteios ou premiações diversas. Embora não sejam garantias, esse período tende a ampliar a probabilidade de ganhos vindos de fontes não convencionais ou não planejadas diretamente.</p><p>Outro cenário comum envolve heranças, partilhas ou divisão de bens familiares, onde a pessoa passa a ter acesso a valores ou patrimônios que antes não estavam sob sua posse. Isso também pode incluir doações, ajudas financeiras de terceiros ou apoio inesperado em momentos específicos.</p>
-   <p>Além disso, pode haver ganhos relacionados a investimentos antigos que começam a dar retorno, venda de bens (como imóveis, veículos ou objetos de valor), ou até oportunidades de negócio que surgem trazendo lucro de forma mais rápida do que o habitual.</p>
-   <p>Em alguns casos, esse movimento também pode se manifestar como economia indireta — por exemplo, deixar de ter um gasto significativo, resolver uma pendência que geraria prejuízo, ou encontrar soluções que aliviam a pressão financeira, o que, na prática, representa um ganho.</p><p>Portanto, esse tipo de vibração não se limita a um único formato de dinheiro direto, mas abrange qualquer forma de entrada, recuperação ou liberação financeira. O importante é observar que, nesse período, existe uma tendência de “retorno” — seja ele fruto de mérito passado, de circunstâncias externas ou de oportunidades que se apresentam de maneira inesperada.</p></div>`;
-    
-    
-
-    
+    // 1. TÍTULO E SEPARADOR (Mantendo o seu padrão de luxo)
     meuHtml += `
-    <section class="page" style="margin-top: 40px;">
-        <div style="height: 4px; background: #2e7d32; margin-bottom: 20px; border-radius: 2px;"></div>
-        <h2 style="text-align:center; color:#2e7d32; text-transform: uppercase; letter-spacing: 2px;">
-            💰 Fluxo Financeiro e Prosperidade
-        </h2>
-        <p style="text-align:center; color:#666; font-size:13px; margin-bottom:25px;">
-            Identificação de janelas de oportunidade e expansão material baseada na geometria 99/9.
-        </p>
-        ${htmlFinanceiro}
+    <div class="separador-luxo">
+        <div class="caixa-interna">
+            <h2>Fluxos Financeiros 💰</h2>
+        </div>
+    </div>`;
+    
+    // 2. INTRODUÇÃO REFORMULADA (Estilo Card Premium para evitar vácuos)
+    meuHtml += `
+    <div class="page evitar-corte" style="padding: 20px 0;">
+        <div class="intro-secao-financeira" style="background: #fff; border: 1px solid #c8e6c9; border-radius: 15px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 8px 25px rgba(46, 125, 50, 0.05);">
+            
+            <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(46, 125, 50, 0.04); transform: rotate(-10deg);">💰</div>
+
+            <h2 style="color: #2e7d32; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+                Magnetismo de Prosperidade <br>
+                <span style="font-size: 13px; color: #827108; letter-spacing: 3px;">Janelas de Oportunidade Material</span>
+            </h2>
+
+            <div style="color: #444; line-height: 1.7; font-size: 17px; text-align: justify;">
+                <p style="margin-bottom: 15px;">O potencial de fluxo financeiro indica janelas de oportunidade para a expansão material e a consolidação de recursos. Este período se manifesta como uma <b>"colheita"</b> de situações já construídas, onde os recursos fluem de forma mais natural.</p>
+
+                <p style="margin-bottom: 15px;">Diferente do esforço direto, esta vibração favorece recebimentos inesperados, como acertos trabalhistas, quitação de dívidas antigas, retornos de investimentos ou até surpresas através do acaso e da sorte.</p>
+
+                <p>É um movimento de liberação financeira: heranças, vendas de bens ou economias indiretas que aliviam a pressão e permitem que a sua vida flua com maior abundância e segurança material.</p>
+            </div>
+
+            <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #f1f8e9; border-top: 2px solid #2e7d32; text-align: center;">
+                <p style="font-style: italic; color: #2e7d32; font-size: 15px;">
+                    "A prosperidade é o resultado natural de estar em sintonia com o fluxo correto de sua energia."
+                </p>
+            </div>
+        </div>
+    </div>`;
+    
+    // 3. SEÇÃO DE RESULTADOS (Onde entra o conteúdo da função)
+    meuHtml += `
+    <section class="page" style="margin-top: 20px;">
+        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
+            <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent);"></div>
+            <span style="padding: 0 15px; color: #2e7d32; font-size: 11px; letter-spacing: 2px; font-weight: bold;">DETECÇÃO DE FLUXOS ATIVOS</span>
+            <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent);"></div>
+        </div>
+
+        <div class="texto-res evitar-corte">
+            ${htmlFinanceiro}
+        </div>
     </section>`;
 }
-
 
 
 
