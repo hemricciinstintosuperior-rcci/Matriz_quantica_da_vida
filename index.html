@@ -1346,12 +1346,12 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                         
                         <div class="grid-sequencias" style="display: grid; gap: 15px;">
                             <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
-                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA PRINCIPAL ${resV}${resV}${resV}</b>
+                                <b style="color: #b91c1c;">🚫 VIBRAÇÃO MESTRA(VIDA) ${resV}${resV}${resV}</b>
                                 <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
                             </div>
 
                             <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
-                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA DE SENTIMENTO INTERNO ${resP}${resP}${resP}</b>
+                                <b style="color: #b91c1c;">🚫 MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO) ${resP}${resP}${resP}</b>
                                 <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegPessoal[resP] || "Desafio na expressão.")}</div>
                             </div>
 
@@ -1361,7 +1361,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                             </div>
 
                             <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
-                                <b style="color: #b91c1c;">🚫 SEQUÊNCIA DE INFLUÊNCIA NATURAL ${resD}${resD}${resD}</b>
+                                <b style="color: #b91c1c;">🚫 TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA) ${resD}${resD}${resD}</b>
                                 <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegDestino[resD] || "Obstrução no caminho.")}</div>
                             </div>
                         </div>
@@ -1405,10 +1405,10 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     const bD = typeof textosSeqFinancDestino !== 'undefined' ? textosSeqFinancDestino : {};
 
     const piramides = [
-        { matriz: mV, banco: bV, nome: "SEQUÊNCIA PRINCIPAL", prefixo: "👑" },
-        { matriz: mP, banco: bP, nome: "SEQUÊNCIA DE SENTIMENTO INTERNO", prefixo: "👤" },
-        { matriz: mS, banco: bS, nome: "SEQUÊNCIA DE PERCEPÇÃO DO MEIO", prefixo: "🌎" },
-        { matriz: mD, banco: bD, nome: "SEQUÊNCIA DE INFLUÊNCIA NATURAL", prefixo: "☄️" }
+        { matriz: mV, banco: bV, nome: "VIBRAÇÃO MESTRA(VIDA)", prefixo: "👑" },
+        { matriz: mP, banco: bP, nome: "MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)", prefixo: "👤" },
+        { matriz: mS, banco: bS, nome: "PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)", prefixo: "🌎" },
+        { matriz: mD, banco: bD, nome: "TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA)", prefixo: "☄️" }
     ];
 
 
@@ -1824,25 +1824,25 @@ h += `
 
     
     <div class="conteudo-vibracoes-moderno">
-         <div class="titulo-matriz-central"><b>👑 MATRIZ DA VIDA</b></div>
+         <div class="titulo-matriz-central"><b>👑 VIBRAÇÃO MESTRA(VIDA)</b></div>
          <div class="texto-com-potencia">
             <span class="tag-potencia">POTÊNCIA ${pV}</span> 
             ${aplicarFiltroTexto(textosVida[pV])}
          </div>
 
-         <div class="titulo-matriz-central"><b>👤 MATRIZ DE SENTIMENTO INTERNO</b></div>
+         <div class="titulo-matriz-central"><b>👤 MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)</b></div>
          <div class="texto-com-potencia">
             <span class="tag-potencia">POTÊNCIA ${pP}</span> 
             ${aplicarFiltroTexto(textosPessoal[pP])}
          </div>
 
-         <div class="titulo-matriz-central"><b>🌎 MATRIZ DE PERCEPÇÃO DO MEIO</b></div>
+         <div class="titulo-matriz-central"><b>🌎 PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)</b></div>
          <div class="texto-com-potencia">
             <span class="tag-potencia">POTÊNCIA ${pS}</span> 
             ${aplicarFiltroTexto(textosSocial[pS])}
          </div>
 
-         <div class="titulo-matriz-central"><b>☄️ MATRIZ DE INFLUÊNCIA NATURAL</b></div>
+         <div class="titulo-matriz-central"><b>☄️ TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA)</b></div>
          <div class="texto-com-potencia">
             <span class="tag-potencia">POTÊNCIA ${pD}</span> 
             ${aplicarFiltroTexto(textosDestino[pD])}
