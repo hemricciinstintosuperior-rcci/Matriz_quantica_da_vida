@@ -1286,8 +1286,8 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                     <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
                         ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
-                    <div class="conteudo-vibracoes evitar-corte">
-                         <div style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
+                    <div class="conteudo-vibracoes">
+                         <div style="font-size: 20px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
                             📅  Período de maior influência ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)  </div>
                         
                         <div class="vibracao-row"><b>🚫 SEQUÊNCIA PRINCIPAL ${resV}${resV}${resV}</b><br> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
@@ -2153,7 +2153,7 @@ meuHtml += `
         <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #d32f2f, transparent);"></div>
     </div>
 
-    <div class="texto-res evitar-corte" style="background: transparent; padding: 0;">
+    <div class="texto-res" style="background: transparent; padding: 0;">
         ${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
     </div>
 </section>`;
