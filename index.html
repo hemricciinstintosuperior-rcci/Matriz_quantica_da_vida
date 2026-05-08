@@ -1283,11 +1283,11 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
 
                 html += `
                 <div class="card-integrado evitar-corte" style="border-left: 6px solid #ff0000; margin-bottom: 25px;">
-                    <div class="titulo-ciclo" style="background: #fee2e2; color: #b91c1c;">
+                    <div class="titulo-ciclo evitar-corte" style="background: #fee2e2; color: #b91c1c;">
                         ⚠️ ALERTA DE BLOQUEIO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                     </div>
-                    <div class="conteudo-vibracoes">
-                         <div style="font-size: 18px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
+                    <div class="conteudo-vibracoes evitar-corte">
+                         <div style="font-size: 14px; color: #111827; margin-bottom: 15px; border-bottom: 1px dashed #ff0000; padding-bottom: 5px;">
                             📅  Período de maior influência ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)  </div>
                         
                         <div class="vibracao-row"><b>🚫 SEQUÊNCIA PRINCIPAL ${resV}${resV}${resV}</b><br> ${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
@@ -2107,36 +2107,56 @@ meuHtml += `
 `;
 
 
-        // 1. TÍTULO E SEPARADOR
-    tituloBonito = "Vulnerabilidades e Bloqueios  ⚠️ ";
-    meuHtml += `
-    <div class="separador-luxo">
-        <div class="caixa-interna">
-            <h2>${tituloBonito}</h2>
+// 1. TÍTULO E SEPARADOR
+tituloBonito = "Vulnerabilidades e Bloqueios  ⚠️ ";
+meuHtml += `
+<div class="separador-luxo">
+    <div class="caixa-interna">
+        <h2>${tituloBonito}</h2>
+    </div>
+</div>`;
+
+// 2. INTRODUÇÃO REFORMULADA (CARD PREMIUM DE ALERTA)
+meuHtml += `
+<div class="page evitar-corte" style="padding: 20px 0;">
+    <div class="intro-secao-vulnerabilidade" style="background: #fff; border: 1px solid #f5c2c2; border-radius: 15px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 8px 25px rgba(211, 47, 47, 0.05);">
+        
+        <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(211, 47, 47, 0.04); transform: rotate(-10deg);">⚠️</div>
+
+        <h2 style="color: #d32f2f; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+            Mapeamento de Desafios <br>
+            <span style="font-size: 13px; color: #827108; letter-spacing: 3px;">Identificação de Tensões Vibracionais</span>
+        </h2>
+
+        <div style="color: #444; line-height: 1.7; font-size: 17px; text-align: justify; font-family: 'Segoe UI', sans-serif;">
+            <p style="margin-bottom: 15px;">As <b>Sequências de Bloqueios</b> identificam pontos de tensão latentes em sua estrutura. Elas representam números repetitivos (como 111, 222) que sinalizam áreas onde sua energia encontra maior resistência.</p>
+
+            <p style="margin-bottom: 15px;">Estas vibrações não são punições, mas ferramentas inicialmente "travadas". Elas indicam comportamentos automáticos que afetam desde o lado profissional até a saúde emocional, exigindo um esforço de autolapidação.</p>
+
+            <p>Ao reconhecer essas frequências, você desenvolve a lucidez para transcender ciclos de autossabotagem, transformando obstáculos em degraus estratégicos para sua evolução autêntica.</p>
         </div>
-    </div>`;
-    
-  meuHtml += ` 
-    <div class="intro-secao" style="margin: 30px 0; width: 100%; font-size: 21px; line-height: 1.6; color: #333; text-align: justify;">
-         
- <p style="margin-bottom: 20px;">As <b>Sequências de Bloqueios</b> identificam pontos de tensão latentes em sua estrutura vibracional, manifestando-se como tendências e desafios que o acompanham desde o nascimento até a plena maturidade. Elas representam os números iguais que aparecem de forma repetitiva em sua Matriz, como as sequências 111, 222, 333 e assim por diante, sinalizando áreas onde a sua energia pessoal encontra maior resistência ou padrões de repetição exaustivos. Estas sequências não devem ser interpretadas como punições ou destinos imutáveis, mas sim como indicadores precisos de comportamentos automáticos e limitações internas que precisam ser trabalhados e integrados com consciência ao longo da sua jornada evolutiva.</p>
 
-    <p style="margin-bottom: 20px;">Muitas dessas sequências estão profundamente vinculadas a experiências fundamentais que demandam um aprendizado contínuo e um amadurecimento constante por parte do indivíduo. Elas sinalizam aspectos da sua natureza que ainda buscam plena expressão, funcionando como um mapa exato das lições que a vida solicita com maior insistência e rigor. Quando uma pessoa nasce com essas vibrações em sua matriz, ela carrega consigo ferramentas que, embora potentes, estão inicialmente "travadas" ou desequilibradas, gerando bloqueios que podem afetar desde a vida profissional até os relacionamentos mais íntimos e a saúde emocional, exigindo um esforço de autolapidação constante.</p>
+        <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fffafb; border-top: 2px solid #d32f2f; text-align: center;">
+            <p style="font-style: italic; color: #d32f2f; font-size: 15px;">
+                "A transmutação dessas energias é o que diferencia o ser que é refém do acaso daquele que se torna o mestre de sua própria vibração."
+            </p>
+        </div>
+    </div>
+</div>`;
 
-    <p style="margin-bottom: 20px;">Ao reconhecer a existência dessas frequências em seu mapa, você desenvolve a lucidez necessária para transcender as reações instintivas e os ciclos de autossabotagem que esses números iguais tendem a provocar. Esse processo de autodomínio transforma obstáculos aparentemente intransponíveis em degraus estratégicos para uma evolução autêntica e deliberada, permitindo que você tome as rédeas da sua própria energia. Trabalhar essas sequências negativas é, na verdade, um ato de libertação, onde você identifica a raiz do problema e aplica a cura através do autoconhecimento, garantindo que o seu potencial original não seja sufocado por medos ou padrões herdados que não servem mais ao seu crescimento.</p>
+// 3. SEÇÃO DE RESULTADOS (SINCRONIZADAS)
+meuHtml += `
+<section class="page" style="margin-top: 20px;">
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #d32f2f, transparent);"></div>
+        <span style="padding: 0 15px; color: #d32f2f; font-size: 11px; letter-spacing: 2px; font-weight: bold;">DETECÇÃO DE BLOQUEIOS ATIVOS</span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #d32f2f, transparent);"></div>
+    </div>
 
-    <p style="margin-bottom: 20px;">Portanto, encare este estudo das sequências de bloqueios como um manual de instruções para lidar com suas partes mais complexas e desafiadoras. À medida que você domina essas vibrações, a resistência diminui e a sua vida passa a fluir com uma leveza que antes parecia inalcançável. A transmutação dessas energias é o que diferencia o ser que é refém do acaso daquele que se torna o mestre de sua própria vibração. Com paciência e disciplina, cada sequência negativa é gradualmente convertida em uma fonte de sabedoria prática, tornando sua jornada muito mais assertiva, próspera e livre das amarras que impedem a sua máxima performance humana e espiritual.</p>
-
-    </div>`;
-    
-      meuHtml += `
-    <section class="page" style="margin-top: 50px;">
-        <div style="height: 4px; background: #d32f2f; margin-bottom: 20px; border-radius: 2px;"></div>
-        <h2 style="text-align:center; color:#d32f2f; text-transform: uppercase;">Mapeamento de Desafios e Bloqueios</h2>
-        <p style="text-align:center; font-style:italic; margin-bottom: 30px;">Identificação de sequências negativas sincronizadas pelo tempo da Matriz da Vida.</p>
-        <div class="texto-res evitar-corte">${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}</div>
-    </section>`;
-
+    <div class="texto-res evitar-corte" style="background: transparent; padding: 0;">
+        ${extrairNegativasSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+    </div>
+</section>`;
 
 
 
