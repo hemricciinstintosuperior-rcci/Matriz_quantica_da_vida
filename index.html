@@ -1238,7 +1238,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, nomeClient
         </div>
 
         <div class="container-piramide-isolada" style="margin-top: 30px;">
-            <div class="titulo-piramide-nome">Geometria Sagrada: ${titulo}</div>
+            <div class="titulo-piramide-nome">Geometria : ${titulo}</div>
             ${desenhar(matriz, titulo, false, nomeCliente)} 
         </div>
 
@@ -2233,10 +2233,10 @@ meuHtml += `
 
     
     // 1. Matrizes Detalhadas com Regente
-    meuHtml += montarSecaoMatriz("DA VIDA", mVida, textosVida, explicacoes.principal,nome);
+    meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal,nome);
     meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal,nome);
     meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social,nome);
-    meuHtml += montarSecaoMatriz("DE DESTINO", mDes, textosDestino, explicacoes.destino,nome);
+    meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino,nome);
 
 
 
@@ -2329,11 +2329,18 @@ meuHtml += `
     </div>
 </div>`;
 
+// --- SUBSTITUIR APENAS A SEÇÃO DE RESULTADOS DAS ESPECIAIS ---
 meuHtml += `
-<section class="page" style="margin-top: 50px;">
-    <div style="height: 4px; background: #b8860b; margin-bottom: 20px; border-radius: 2px;"></div>
-    <h2 style="text-align:center; color:#b8860b; text-transform: uppercase;">Sequências Especiais e Portais</h2>
-    ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+<section class="page" style="margin-top: 15px;">
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent); opacity: 0.5;"></div>
+        <span style="padding: 0 10px; color: #b8860b; font-size: 10px; letter-spacing: 1px; font-weight: bold; text-transform: uppercase;">Portais Detectados</span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent); opacity: 0.5;"></div>
+    </div>
+
+    <div class="texto-res-compacto evitar-corte" style="font-size: 15px; line-height: 1.5; color: #333;">
+        ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
+    </div>
 </section>`;
 
 
@@ -2552,19 +2559,19 @@ if (htmlFinanceiro) {
     </div>`;
     
     // 3. SEÇÃO DE RESULTADOS (Onde entra o conteúdo da função)
-    meuHtml += `
-    <section class="page" style="margin-top: 40px;">
-        <div style="height: 4px; background: #2e7d32; margin-bottom: 20px; border-radius: 2px;"></div>
-        <h2 style="text-align:center; color:#2e7d32; text-transform: uppercase; letter-spacing: 2px;">
-            💰 Fluxo Financeiro detectado
-        </h2>
-        <p style="text-align:center; color:#666; font-size:13px; margin-bottom:25px;">
-            Identificação de janelas de oportunidade e expansão material baseada na geometria 99/9.
-        </p>
-        ${htmlFinanceiro}
-    </section>`;
-}
+// --- SUBSTITUIR APENAS A SEÇÃO DE RESULTADOS DO FINANCEIRO ---
+meuHtml += `
+<section class="page" style="margin-top: 15px;">
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 15px;">
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent); opacity: 0.5;"></div>
+        <span style="padding: 0 10px; color: #2e7d32; font-size: 10px; letter-spacing: 1px; font-weight: bold; text-transform: uppercase;">Oportunidades Ativas</span>
+        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent); opacity: 0.5;"></div>
+    </div>
 
+    <div class="texto-res-compacto evitar-corte" style="font-size: 15px; line-height: 1.5; color: #333;">
+        ${htmlFinanceiro}
+    </div>
+</section>`;
 
 
 
