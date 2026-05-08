@@ -3354,7 +3354,7 @@ const textosSeqEspPessoal = {
 
 const textosSeqEspSocial = {
   
- "116": `<p No seu ambiente social, você pode notar pessoas sendo alvo de críticas ou discussões sobre reputação. É um momento onde a fofoca ou o julgamento público ganham força nos grupos que você frequenta.</p>`,
+ "116": `<p> No seu ambiente social, você pode notar pessoas sendo alvo de críticas ou discussões sobre reputação. É um momento onde a fofoca ou o julgamento público ganham força nos grupos que você frequenta.</p>`,
   "119": `<p> Você poderá observar comportamentos de fanatismo ou falsas promessas vindo de pessoas próximas ou do meio coletivo. O ambiente social pode estar carregado de influências hipócritas ou causas vazias.</p>`,
   "123": `<p> O círculo social ao seu redor vive um momento de celebração e reconhecimento. Você pode ver amigos ou conhecidos recebendo prêmios, ou o sucesso dos filhos de pessoas próximas sendo o assunto principal.</p>`,
   "168": `<p> O meio social onde você circula demonstra sinais de prosperidade e bons negócios. Você observa pessoas ao seu redor fechando acordos lucrativos e colhendo prêmios e ganhos financeiros.</p>`,
