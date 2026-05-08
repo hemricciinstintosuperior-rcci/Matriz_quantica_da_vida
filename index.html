@@ -1493,7 +1493,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
         { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "VIBRAÇÃO MESTRA(VIDA)", prefixo: "👑", classe: "vida" },
         { matriz: mP, banco: typeof textosSeqEspPessoal !== 'undefined' ? textosSeqEspPessoal : {}, nome: "MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)", prefixo: "👤", classe: "pessoal" },
         { matriz: mS, banco: typeof textosSeqEspSocial !== 'undefined' ? textosSeqEspSocial : {}, nome: "PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)", prefixo: "🌎", classe: "social" },
-        { matriz: mD, banco: typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {}, nome: "TENDENCIAS DO DESTINO(PROPÓSITO OU INFLUÊNCIA", prefixo: "☄️", classe: "destino" }
+        { matriz: mD, banco: typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {}, nome: "TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA)", prefixo: "☄️", classe: "destino" }
     ];
 
 
@@ -1544,7 +1544,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                                 📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
                             </p>
                             <div class="vibracao-row">
-                                <b>${pira.prefixo} ${pira.nome} (${seq}):</b> ${aplicarFiltroTexto(pira.banco[seq])}
+                                <b> SEQUÊNCIA ${pira.prefixo} <strong>${seq}</strong><b>:<br> ${aplicarFiltroTexto(pira.banco[seq])}
                             </div>
                             <p style="font-size: 11px; color: #827108; margin-top: 5px; font-style: italic;">
                                 *Vigência calculada pela matriz temporal da Pirâmide da Vida.
@@ -2164,18 +2164,11 @@ meuHtml += `
     </div>
 </div>`;
 
-// 3. SEÇÃO DE RESULTADOS (PORTAIS SINCRONIZADOS)
 meuHtml += `
-<section class="page" style="margin-top: 20px;">
-    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
-        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent);"></div>
-        <span style="padding: 0 15px; color: #b8860b; font-size: 11px; letter-spacing: 2px; font-weight: bold;">ALINHAMENTOS ESPECIAIS DETECTADOS</span>
-        <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #b8860b, transparent);"></div>
-    </div>
-
-    <div class="texto-res evitar-corte">
-        ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
-    </div>
+<section class="page" style="margin-top: 50px;">
+    <div style="height: 4px; background: #b8860b; margin-bottom: 20px; border-radius: 2px;"></div>
+    <h2 style="text-align:center; color:#b8860b; text-transform: uppercase;">Sequências Especiais e Portais</h2>
+    ${extrairEspeciaisSincronizadas(mVida, mPes, mSoc, mDes, crono, topoV)}
 </section>`;
 
 
@@ -2395,19 +2388,17 @@ if (htmlFinanceiro) {
     
     // 3. SEÇÃO DE RESULTADOS (Onde entra o conteúdo da função)
     meuHtml += `
-    <section class="page" style="margin-top: 20px;">
-        <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px;">
-            <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent);"></div>
-            <span style="padding: 0 15px; color: #2e7d32; font-size: 11px; letter-spacing: 2px; font-weight: bold;">DETECÇÃO DE FLUXOS ATIVOS</span>
-            <div style="flex: 1; height: 1px; background: linear-gradient(to right, transparent, #2e7d32, transparent);"></div>
-        </div>
-
-        <div class="texto-res evitar-corte">
-            ${htmlFinanceiro}
-        </div>
+    <section class="page" style="margin-top: 40px;">
+        <div style="height: 4px; background: #2e7d32; margin-bottom: 20px; border-radius: 2px;"></div>
+        <h2 style="text-align:center; color:#2e7d32; text-transform: uppercase; letter-spacing: 2px;">
+            💰 Fluxo Financeiro detectado
+        </h2>
+        <p style="text-align:center; color:#666; font-size:13px; margin-bottom:25px;">
+            Identificação de janelas de oportunidade e expansão material baseada na geometria 99/9.
+        </p>
+        ${htmlFinanceiro}
     </section>`;
 }
-
 
 
 
