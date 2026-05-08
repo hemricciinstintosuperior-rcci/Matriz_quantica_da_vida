@@ -994,6 +994,29 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     vertical-align: middle;
 }
 
+
+
+.triangulo-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 0.8;
+    margin: 0 4px;
+    font-weight: bold;
+    color: #2d5a27; /* Verde da pirâmide */
+    font-size: 13px;
+}
+
+.topo-tri {
+    letter-spacing: 1px;
+}
+
+.base-tri {
+    margin-top: -1px;
+}
+    
+
     
     
     </style>
@@ -1356,6 +1379,18 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
 }
 
 
+
+function formatarTrianguloNove(texto) {
+    // Procura por 99/9 no texto e substitui pelo HTML do triângulo
+    return texto.replace(/99\/9/g, `
+        <span class="triangulo-container">
+            <span class="topo-tri">9 9</span>
+            <span class="base-tri">9</span>
+        </span>
+    `);
+}
+    
+
 function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     let html = "";
     let encontrou = false;
@@ -1412,7 +1447,7 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
                     let idadeFim = periodoBase.idadeIni + duracaoTotal;
 
                     // Busca o texto pela chave exata "99/9"
-                    let textoResultado = pira.banco["99/9"] || bV["99/9"] || "Vibração de fluxo financeiro detectada.";
+                    let textoResultado = pira.banco["99/9"] || bV["99/9"] || "99/9";
 
               
                     
@@ -1420,14 +1455,14 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
                     html += `
                     <div class="card-integrado evitar-corte" style="border-left: 6px solid #2e7d32; margin-bottom: 25px; background: #f1f8e9; padding: 15px; border-radius: 8px;">
                         <div class="titulo-ciclo" style="background: #c8e6c9; color: #1b5e20; padding: 8px; font-weight: bold; border-radius: 4px;">
-                            💰 FLUXO FINANCEIRO : DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
+                            💰 VIBRAÇÃO DE FLUXO FINANCEIRO DETECTADO: DOS ${periodoBase.idadeIni} AOS ${idadeFim} ANOS
                         </div>
                         <div class="conteudo-vibracoes" style="margin-top:10px;">
                             <p style="font-size: 18px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #2e7d32; padding-bottom: 5px;">
                                 📅 <b>Período de influência</b> ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
                             </p>
                             <div class="vibracao-row">
-                                <b>${pira.prefixo} ${pira.nome} (99/9):</b> ${aplicarFiltroTexto(textoResultado)}
+                                <b>${pira.prefixo} ${pira.nome} </b> ${formatarTrianguloNove(textoResultado)}
                             </div>
                         </div>
                     </div>`;
