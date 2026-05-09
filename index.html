@@ -2257,11 +2257,11 @@ meuHtml += `
 
 
     
-    // 1. Matrizes Detalhadas com Regente
-    meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal,nome);
-    meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal,nome);
-    meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social,nome);
-    meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino,nome);
+// Localize esse bloco no seu código e altere para passar os 6 parâmetros:
+meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, window.introsPiramides.vida.regente, nome);
+meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, window.introsPiramides.pessoal.regente, nome);
+meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social, window.introsPiramides.social.regente, nome);
+meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino, window.introsPiramides.destino.regente, nome);
 
 
           
