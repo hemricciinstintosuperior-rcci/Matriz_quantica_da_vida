@@ -1223,44 +1223,40 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntro
     const regente = ultimaLinha[0];
     const resultadoTexto = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
     
-    let introExibicao = textoIntro ? aplicarFiltroTexto(textoIntro) : "";
-    let introRegenteExibicao = textoIntroRegente ? aplicarFiltroTexto(textoIntroRegente) : "";
-
     return `
     <div class="page evitar-corte">
+        <!-- 1. TÍTULO PRINCIPAL DA SEÇÃO -->
         <div class="separador-luxo">
             <div class="caixa-interna">
                 <h2>MATRIZ ${titulo}</h2>
             </div>
         </div>
         
-        <div class="texto-intro-pessoal">
-            ${introExibicao}
+      
+        <div class="texto-intro-pessoal" style="margin-bottom: 20px;">
+            ${aplicarFiltroTexto(textoIntro)}
         </div>
 
+        
         <div class="container-piramide-isolada" style="margin-top: 30px;">
             <div class="titulo-piramide-nome">Geometria : ${titulo}</div>
             ${desenhar(matriz, titulo, false, nomeCliente)} 
         </div>
 
-        <!-- --- NOVA SEÇÃO: INTRODUÇÃO DO REGENTE --- -->
-        <div class="intro-regente-premium" style="margin-top: 50px; padding: 30px; background: #fff; border: 1px solid #e6d5a8; border-radius: 15px; position: relative; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.03);">
-            <div style="position: absolute; top: -10px; right: -10px; font-size: 60px; color: rgba(130, 113, 8, 0.05);">🔱</div>
-            
-            <h2 style="color: #827108; text-align: center; margin-bottom: 20px; font-family: 'Cinzel', serif; font-size: 20px; letter-spacing: 1px; text-transform: uppercase;">
+        <!-- 4. NOVO TÍTULO E INTRODUÇÃO DO REGENTE (Sem misturar com o nome) -->
+        <div class="resultado-regente-aberto evitar-corte" style="margin-top: 50px; padding: 20px; border-top: 2px solid #e6d5a8;">
+            <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
                 A Essência do Regente <br>
-                <span style="font-size: 12px; color: #b59b4d; letter-spacing: 3px;">A Frequência Dominante da Matriz</span>
+                <span style="font-size: 13px; color: #b59b4d; letter-spacing: 3px;">Frequência Dominante da Matriz</span>
             </h2>
-
-            <div style="color: #444; line-height: 1.7; font-size: 16px; text-align: justify;">
-                ${introRegenteExibicao}
+            
+            <div class="texto-intro-regente-especifico" style="color: #444; line-height: 1.7; font-size: 17px; text-align: justify; margin-bottom: 30px;">
+                ${aplicarFiltroTexto(textoIntroRegente)}
             </div>
-        </div>
 
-        <!-- RESULTADO FINAL DO REGENTE -->
-        <div class="resultado-regente-aberto evitar-corte" style="margin-top: 20px; padding: 20px; border-top: 2px solid #e6d5a8;">
-            <h3 style="color: #827108; padding-bottom: 10px; text-transform: uppercase; font-size: 18px;">
-                🔱 SEU REGENTE ${regente} - ${titulo}
+           
+            <h3 style="color: #827108; border-bottom: 1px solid #e6d5a8; padding-bottom: 10px; text-transform: uppercase;">
+                🔱 Significado do Regente ${regente}
             </h3>
             <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
                 ${aplicarFiltroTexto(resultadoTexto)}
