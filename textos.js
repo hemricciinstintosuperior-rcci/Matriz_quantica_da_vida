@@ -3563,18 +3563,34 @@ pessoal: {
         </div>`
     },
 
-social:{
+social: {
+        regente: `
+        <div class="intro-regente-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden;">
+            
+            <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(10deg);">🔱</div>
 
-regente:`<h1>🔱  O que é o Regente Social  ?</h1>
-<p>O Regente Social representa a vibração predominante do ambiente humano ao seu redor. Diferente do Regente da Vida, que expressa a sua própria essência energética, o Regente Social revela o tipo de energia que você tende a perceber nas pessoas com quem convive ou interage com maior frequência.</p>
+            <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+                🔱 O Regente da Percepção do Meio <br>
+                <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Matriz de Convivência e Influência Coletiva</span>
+            </h2>
 
-<p>Essa vibração mostra o clima vibracional do seu meio social, indicando o padrão de comportamento, mentalidade ou postura que aparece com mais força entre as pessoas que fazem parte do seu cotidiano. Em outras palavras, ele descreve o tipo de energia que você observa no mundo ao seu redor.</p>
+            <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+                <p style="margin-bottom: 15px;">O <b>Regente Social</b> representa a vibração predominante do ambiente humano ao seu redor. Diferente da Matriz da Vida, que expressa a sua própria essência, o Regente Social revela o tipo de energia que você percebe e atrai nas pessoas com quem convive. Ele descreve o "clima vibracional" do seu meio, indicando o padrão de mentalidade e comportamento que se manifesta com maior força entre amigos, colegas e parceiros que cruzam o seu caminho.</p>
 
-<p>Muitas vezes, o Regente Social revela o perfil das pessoas que você atrai, encontra ou percebe com mais facilidade no seu campo de convivência. Isso pode incluir amigos, colegas, parceiros profissionais ou qualquer grupo com o qual você compartilha experiências ao longo da vida.</p>
+                <p style="margin-bottom: 15px;">A verdadeira dinâmica desta matriz ocorre em suas conexões. Se o seu Regente Social coincide com a <b>Matriz da Vida</b>, a sociedade exerce uma influência direta e factual em sua jornada: o meio molda sua realidade prática e as oportunidades surgem intrinsecamente ligadas aos seus contatos. Se a ressonância for com a <b>Matriz Pessoal</b>, a influência é emocional e mental; o ambiente externo não altera os fatos da sua vida, mas afeta profundamente o seu humor, seus sentimentos e a forma como você se sente psicologicamente inserida no mundo.</p>
 
-<p>Compreender essa vibração ajuda a interpretar melhor o ambiente social que o cerca. Ao reconhecer esse padrão coletivo, você passa a perceber com mais clareza o tipo de influência que o meio exerce sobre suas experiências e relações.</p>`
- 
-},
+                <p style="margin-bottom: 15px;">Já o alinhamento entre o Social e as <b>Tendências do Destino</b> revela um movimento poderoso: o universo está utilizando o seu meio social para cumprir um propósito maior. Nesse caso, eventos que ocorrem na sociedade ou com pessoas próximas refletem diretamente o seu destino, como se o coletivo e a sua missão individual estivessem sintonizados na mesma frequência. Sem essas ligações, a matriz atua apenas como sua percepção periférica, mostrando o perfil das energias que orbitam seu cotidiano sem necessariamente determinar o seu passo individual.</p>
+
+                <p>Compreender o seu Regente Social permite identificar se você está apenas observando o mundo ao redor ou se está sendo moldada por ele. É a ferramenta essencial para discernir o que pertence ao outro e o que está sendo integrado à sua própria história através das interações humanas e das correntes coletivas do destino.</p>
+            </div>
+
+            <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+                <p style="font-style: italic; color: #827108; font-size: 15px;">
+                    "O meio social é o espelho onde vemos o reflexo das energias que o destino coloca em nosso caminho para nos ensinar a conviver."
+                </p>
+            </div>
+        </div>`
+    },
 
 destino:{
 
