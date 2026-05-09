@@ -3592,18 +3592,34 @@ social: {
         </div>`
     },
 
-destino:{
+destino: {
+        regente: `
+        <div class="intro-regente-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden;">
+            
+            <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(10deg);">🔱</div>
 
-regente:`<h1>🔱  Regente do Destino  </h1>
-<p>O Regente do Destino representa uma força de influência que atua sobre a sua jornada de vida a partir de fatores externos ao seu núcleo essencial. Diferente do Regente da Vida, que expressa quem você é em sua essência, o Regente do Destino revela uma vibração que pode direcionar acontecimentos, encontros e experiências importantes ao longo do seu caminho.</p>
+            <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+                🔱 O Regente do Propósito e Destino <br>
+                <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Força das Influências Externas e Universais</span>
+            </h2>
 
-<p>Essa energia funciona como um campo de propósito ou influência que se manifesta através das circunstâncias da vida. Muitas vezes ela aparece por meio de oportunidades inesperadas, mudanças de direção ou situações que parecem conduzir você para determinados caminhos que possuem um significado maior dentro da sua trajetória.</p>
+            <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+                <p style="margin-bottom: 15px;">O <b>Regente do Destino</b> representa uma força de influência que atua sobre a sua jornada a partir de fatores externos ao seu núcleo essencial. Ele é o campo do propósito, manifestando-se através de circunstâncias que parecem conduzir você para caminhos de significado maior. Diferente das outras matrizes, o Destino possui um poder de influência superior: ele atua como um chamado invisível que molda direções, mesmo quando você não tem consciência plena desse movimento.</p>
 
-<p>Em alguns momentos, o Regente do Destino pode atuar como um chamado silencioso que estimula transformações profundas. Ele não substitui a sua essência pessoal, mas pode influenciar decisões, ambientes e experiências que ajudam a construir o sentido mais amplo da sua existência.</p>
+                <p style="margin-bottom: 15px;">A soberania desta matriz se revela na sua capacidade de impactar os outros pilares. Se o Regente do Destino possui a mesma numeração da <b>Matriz da Vida</b>, a influência é direta e absoluta; seu propósito e sua realidade prática tornam-se uma coisa só, forçando acontecimentos que cumprem sua missão. Contudo, mesmo sem essa conexão direta, o Destino ainda exerce uma influência indireta poderosa sobre a vida, agindo como um vento que sopra as velas da sua trajetória, sugerindo oportunidades e encontros que alteram o seu curso factual.</p>
 
-<p>Compreender essa vibração permite observar com mais clareza quais forças externas podem estar direcionando certas experiências da sua vida. Isso ajuda a perceber quando determinadas situações fazem parte de um movimento maior de propósito ou evolução dentro da sua jornada.</p>`
- 
-},
+                <p style="margin-bottom: 15px;">Essa força também se estende aos campos sutis. Ao ressoar com a <b>Matriz Pessoal</b>, o Destino influencia seus sentimentos e intuições, plantando desejos que preparam sua mente para o que está por vir. Quando toca a <b>Matriz Social</b>, ele manipula o seu meio de convivência, trazendo pessoas e situações coletivas que servem como ferramentas para o seu crescimento. Enquanto o Social é percepção e o Pessoal é sentimento, o Destino é a influência real que vem do universo para testar, guiar e consolidar a sua evolução.</p>
+
+                <p>Compreender o Regente do Destino é aceitar que existe uma regência maior orquestrando os eventos ao seu redor. Ele não substitui o impacto real da sua Matriz da Vida, mas oferece o "porquê" por trás dos encontros inesperados e das mudanças de rota, garantindo que, independentemente da sua vontade imediata, o seu propósito maior seja eventualmente alcançado.</p>
+            </div>
+
+            <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+                <p style="font-style: italic; color: #827108; font-size: 15px;">
+                    "O Destino é a mão invisível que ajusta o cenário da vida para que a alma possa representar o seu papel mais autêntico."
+                </p>
+            </div>
+        </div>`
+    },
 
 
 };
