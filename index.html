@@ -1218,42 +1218,48 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, nomeCliente = "") {
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntroRegente, nomeCliente = "") {
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     const resultadoTexto = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
     
-    let introExibicao = textoIntro ? aplicarFiltroTexto(textoIntro) : "";
-
     return `
     <div class="page evitar-corte">
+        <!-- Título da Matriz -->
         <div class="separador-luxo">
-            <div class="caixa-interna">
-                <h2>MATRIZ ${titulo}</h2>
-            </div>
+            <div class="caixa-interna"><h2>MATRIZ ${titulo}</h2></div>
         </div>
         
-        <div class="texto-intro-pessoal">
-            ${introExibicao}
+        <!-- Intro da Matriz -->
+        <div class="texto-intro-pessoal" style="margin-bottom: 20px;">
+            ${aplicarFiltroTexto(textoIntro)}
         </div>
 
-        <div class="container-piramide-isolada" style="margin-top: 30px;">
+        <!-- Pirâmide -->
+        <div class="container-piramide-isolada">
             <div class="titulo-piramide-nome">Geometria : ${titulo}</div>
             ${desenhar(matriz, titulo, false, nomeCliente)} 
         </div>
 
-        <div class="resultado-regente-aberto evitar-corte" style="margin-top: 40px; padding: 20px;">
-            <h3 style="color: #827108; border-bottom: 2px solid #e6d5a8; padding-bottom: 10px;">
-                🔱 SEU REGENTE ${regente} - ${titulo}
+        <!-- SEÇÃO DO REGENTE (Baseada na sua imagem) -->
+        <div class="intro-regente-container" style="margin-top: 40px; padding: 25px; border-left: 4px solid #827108; background: #fdfaf2;">
+            <div class="texto-regente-js">
+                ${aplicarFiltroTexto(textoIntroRegente)}
+            </div>
+        </div>
+
+        <!-- RESULTADO DO NÚMERO -->
+        <div class="resultado-regente-aberto evitar-corte" style="margin-top: 20px;">
+            <h3 style="color: #827108; text-transform: uppercase;">
+                🔱 Significado do Regente ${regente}
             </h3>
-            <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
+            <div class="texto-personalizado" style="margin-top: 10px;">
                 ${aplicarFiltroTexto(resultadoTexto)}
             </div>
         </div>
     </div>
     `;
 }
-
 
 function gerarLoopNegativo(mV, mP, mS, mD, crono) {
     let h = "";
