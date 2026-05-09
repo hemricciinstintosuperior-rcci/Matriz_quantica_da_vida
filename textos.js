@@ -6,6 +6,12 @@ const textos = {
   
 introducoes: {
 
+
+         Conclusao: `    <p style="font-size: 16px; color: var(--dark); line-height: 1.6;"> <strong>MASCULINO-FEMININO-NEUTRO</strong>, agradeço profundamente pela confiança depositada em meu trabalho ao permitir que a Numerologia guie seus próximos passos. 
+       É uma honra fazer parte da sua jornada de autodescoberta. 
+       Que o Universo ilumine seus caminhos, abençoe suas escolhas e que cada vibração numérica aqui revelada se transforme em força, prosperidade e luz em sua vida. Siga com coragem e sabedoria!
+    </p>`,
+
    historiaModerna: `   
 
 <p>Embora a conexão entre números e o universo remonte a civilizações antigas, como a Caldeia e o Egito, a numerologia que praticamos no século XXI é fruto de uma sistematização técnica ocorrida nos últimos 150 anos. O fundamento factual dessa estrutura reside na transição do misticismo abstrato para um método de análise de dados de personalidade, onde nomes e datas são convertidos em frequências matemáticas precisas.</p>
