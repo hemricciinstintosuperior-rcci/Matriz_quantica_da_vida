@@ -3494,59 +3494,42 @@ destino: `
 <p>​Esta aba é fascinante porque ela tenta prever e explicar os acontecimentos marcantes e os eventos que "moldam o destino ao longo do tempo". Se as outras pirâmides mostram os atores e o palco, a Pirâmide do Propósito mostra as intervenções do destino — as situações inesperadas ou os encontros providenciais que mudam o curso da sua vida. Ela revela a finalidade maior das suas experiências, conectando os pontos entre o que aconteceu no passado e o que o universo está preparando para o seu futuro.</p>
 
 <p>​Entender esta matriz é descobrir o "porquê" por trás das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como o universo influencia a sua vontade pessoal. Muitas vezes, um evento que pareceu negativo na Matriz Social pode ser revelado aqui como um ponto de virada essencial para o seu propósito maior. Esta é a aba que traz paz de espírito, pois ajuda a compreender que existe uma ordem maior regendo a sua vida. Ela é o guia definitivo para quem deseja viver em fluxo com o universo, aceitando os desafios como ferramentas de moldagem do caráter e celebrando as vitórias como confirmações do seu caminho sagrado.
-</p>
-
-`
-
- 
+</p>`
+  
 };
+
+
+
+
+
 window.introsPiramides = {
+    vida: {
+        regente: `
+        <div class="intro-regente-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden;">
+            
+            <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(10deg);">🔱</div>
 
-vida:{
-regente:`<h1>🔱  Regente da Piramide</h1>
-<p>O Regente da Vida representa o núcleo vibracional da sua existência. Ele é a força central que sustenta toda a estrutura da sua Pirâmide da Vida, funcionando como o eixo principal em torno do qual todas as demais energias se organizam. Assim como o Sol mantém o equilíbrio do sistema solar, o Regente mantém o alinhamento das experiências que compõem a sua trajetória.</p>
+            <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+                🔱 O Regente da Matriz Principal <br>
+                <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">O Núcleo Vibracional da Existência</span>
+            </h2>
 
-<p>Essa vibração revela a essência mais autêntica da sua natureza, indicando como você reage aos acontecimentos, quais padrões emocionais predominam e de que maneira sua energia se projeta no mundo. Diferente de eventos momentâneos, o Regente atua como uma base constante que acompanha você durante toda a vida.</p>
+            <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+                <p style="margin-bottom: 15px;">O <b>Regente da Vida</b> representa o núcleo vibracional da sua existência, funcionando como o eixo central em torno do qual todas as demais energias se organizam. Ele é a força que sustenta a estrutura da sua Pirâmide, agindo como o palco principal onde a realidade efetivamente se manifesta. No entanto, sua expressão nunca é isolada; ele é o receptor das frequências que emanam das suas outras três matrizes fundamentais.</p>
 
-<p>Quando suas escolhas estão alinhadas com essa frequência central, as situações tendem a fluir com mais naturalidade. Os desafios continuam existindo, mas passam a ser enfrentados com maior clareza e equilíbrio. No entanto, quando você se distancia dessa vibração essencial, pode surgir uma sensação de desgaste, como se estivesse nadando contra a própria corrente da sua natureza.</p>
+                <p style="margin-bottom: 15px;">Quando a vibração do seu <b>Mundo Interior (Pessoal)</b> coincide com o Regente da Vida, ocorre um alinhamento raro: o que você sente internamente é exatamente o que a vida lhe apresenta, indicando que suas vontades moldam sua realidade de forma direta. Se o impacto vem da <b>Percepção do Meio (Social)</b>, a vida reflete uma influência externa predominante; o ambiente e as pessoas ao seu redor ditam o ritmo dos acontecimentos, criando uma jornada onde o coletivo e o individual se fundem.</p>
 
-<p>Compreender o seu Regente é compreender o fundamento da sua identidade energética. Ele revela talentos naturais, tendências comportamentais e a forma como a sua presença influencia o ambiente ao redor, sendo a base sobre a qual todo o restante da análise da Pirâmide da Vida se apoia.</p>`,
+                <p style="margin-bottom: 15px;">Já a ressonância com as <b>Tendências do Destino</b> traz uma carga de propósito ou influência universal: eventos que surgem "do nada" são, na verdade, o destino movendo o seu eixo central para cumprir uma missão maior. Sem essas conexões, o Regente atua como sua base de identidade autêntica, mas sob influência, ele se torna o termômetro de como você reage às pressões internas, sociais ou espirituais.</p>
 
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança na Vida?</h1>
-<p>As Sequências Negativas indicam pontos de tensão dentro da estrutura energética da sua vida. Elas não representam punições nem destinos inevitáveis, mas sim padrões que revelam áreas onde a energia tende a se repetir de maneira desafiadora. Funcionam como sinais que mostram onde determinados comportamentos ou situações podem gerar desgaste ou bloqueios.</p>
+                <p>Compreender este Regente é decifrar a nota mestra da sua sinfonia. Ele revela se você está navegando por mérito próprio, por fluxo social ou por determinação do destino, sendo a base absoluta sobre a qual toda a sua história energética é construída e lapidada.</p>
+            </div>
 
-<p>Muitas dessas sequências estão associadas a experiências que exigem aprendizado e amadurecimento. Elas surgem quando certos aspectos da sua natureza ainda não foram plenamente compreendidos ou integrados. Por isso, podem se manifestar como situações recorrentes que parecem reaparecer em diferentes fases da vida.</p>
-
-<p>Reconhecer essas vibrações permite que você desenvolva consciência sobre os próprios padrões. Em vez de reagir automaticamente aos desafios, torna-se possível observar o que está acontecendo e escolher respostas mais equilibradas. Esse processo transforma aquilo que antes parecia um obstáculo inevitável em uma oportunidade real de evolução.</p>
-
-<p>Ao identificar essas sequências dentro da sua Pirâmide da Vida, você passa a compreender com maior clareza quais aspectos da sua jornada pedem atenção e fortalecimento, abrindo espaço para que a energia vital circule de forma mais harmoniosa.</p>`,
-
-especiais:`<h1 style="color:#b8860b;">⚡️ O que são Sequências Especiais na Vida?</h1>
-<p>As Sequências Especiais representam configurações energéticas que surgem em momentos específicos da sua trajetória. Diferente do Regente, que expressa uma característica permanente da sua natureza, essas sequências aparecem como eventos vibracionais que marcam determinadas fases da vida.</p>
-
-<p>Essas formações indicam períodos em que certas forças se tornam mais intensas ou mais acessíveis, abrindo portas para experiências incomuns, oportunidades inesperadas ou situações que exigem decisões importantes. Elas funcionam como pontos de ativação dentro do seu mapa numerológico.</p>
-
-<p>Por serem temporárias, essas energias pedem atenção e consciência. Quando reconhecidas no momento certo, podem favorecer mudanças positivas, acelerar processos ou revelar caminhos que antes não estavam visíveis. Porém, quando ignoradas, tendem a se dissipar naturalmente, encerrando o ciclo daquela influência específica.</p>
-
-<p>Esta parte da análise revela quais dessas sequências estão presentes na sua Pirâmide da Vida e explica a natureza da energia envolvida, permitindo que você compreenda melhor o significado desse momento dentro da sua jornada.</p>`,
-
-financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras na Vida?</h1>
-<p>As Sequências Financeiras apontam como a energia material se manifesta em determinados momentos da sua vida. Elas não definem permanentemente riqueza ou escassez, mas indicam padrões vibracionais que influenciam a forma como recursos, oportunidades e resultados financeiros tendem a se apresentar em um período específico.</p>
-
-<p>Em alguns momentos, essas sequências podem revelar fases de expansão, onde oportunidades surgem com maior facilidade e os esforços realizados anteriormente começam a gerar retorno. Em outros períodos, podem indicar fases que pedem planejamento, organização e uso mais consciente dos recursos disponíveis.</p>
-
-<p>Compreender essa dinâmica permite que você ajuste suas atitudes conforme o momento energético que está vivendo. Quando o fluxo favorece o crescimento, agir com iniciativa pode ampliar resultados. Quando a energia pede prudência, decisões estratégicas ajudam a preservar e fortalecer aquilo que já foi conquistado.</p>
-
-<p>A análise dessas sequências mostra como a vibração material está operando dentro da sua Pirâmide da Vida neste momento, oferecendo uma visão mais clara para que suas escolhas financeiras sejam feitas com maior consciência e equilíbrio.</p>`,
-
-vigencias:`<h1>✡︎ O que são as Potências na Vida(Principal) ?</h1>
-<p>As Potências representam os ciclos temporais em que determinadas potências numerológicas se tornam predominantes na sua vida. Assim como as estações do ano alteram o ritmo da natureza, as vigências indicam períodos em que diferentes energias passam a influenciar as experiências que você vive.</p>
-
-<p>Cada fase carrega um tipo específico de movimento. Existem momentos voltados para crescimento, expansão e realização, assim como períodos que pedem reflexão, reorganização ou preparação para mudanças futuras. Esses ciclos não surgem por acaso, mas fazem parte de um fluxo natural que organiza o desenvolvimento da sua trajetória.</p>
-
-<p>Quando você compreende a vigência que está atuando em determinado período da vida, torna-se mais fácil interpretar os acontecimentos ao seu redor. Situações que antes pareciam aleatórias passam a revelar um padrão mais amplo de evolução.</p>
-
-<p>Conhecer esses ciclos permite alinhar suas decisões ao ritmo das energias que estão em atuação, ajudando você a aproveitar melhor as fases favoráveis e a atravessar os períodos de transformação com maior consciência e equilíbrio.</p>`
+            <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+                <p style="font-style: italic; color: #827108; font-size: 15px;">
+                    "O Regente da Vida não é apenas um número; é o encontro sagrado entre o que você é e o que o universo espera de você."
+                </p>
+            </div>
+        </div>`
 },
 
 
@@ -3560,43 +3543,7 @@ regente:`<h1>🔱  Regente Pessoal  </h1>
 
 <p>Quando essa energia está em equilíbrio, você tende a se sentir alinhado consigo mesmo, compreendendo melhor suas emoções, suas reações e suas motivações. Porém, quando existe conflito interno com essa vibração, podem surgir dúvidas, inseguranças ou interpretações distorcidas sobre aquilo que você realmente é ou deseja.</p>
 
-<p>Conhecer o seu Regente Pessoal permite observar com mais clareza como sua mente processa experiências e emoções. Ele revela a forma como você se enxerga por dentro, mostrando o padrão mental e emocional que influencia diretamente suas decisões, sua autoconfiança e sua visão da própria identidade.</p>`,
-
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança do sentimento interno (Pessoal)?</h1>
-<p>As Sequências Negativas da Pirâmide Pessoal indicam padrões de pensamento ou percepções internas que podem gerar tensão psicológica ou conflito emocional. Elas não representam acontecimentos externos obrigatórios, mas sim tendências internas que podem influenciar a forma como você interpreta determinadas situações.</p>
-
-<p>Muitas vezes essas sequências revelam momentos em que a mente tende a focar em inseguranças, medos ou interpretações excessivamente críticas sobre si mesmo. Isso pode fazer com que você sinta dificuldades internas mesmo quando as circunstâncias externas não são necessariamente negativas.</p>
-
-<p>Ao identificar essas vibrações na Pirâmide Pessoal, você passa a perceber que certos sentimentos ou pensamentos recorrentes fazem parte de um padrão energético interno. Essa consciência permite interromper ciclos mentais automáticos e desenvolver uma visão mais equilibrada sobre suas próprias experiências.</p>
-
-<p>Compreender essas sequências ajuda a transformar conflitos internos em oportunidades de autoconhecimento. Em vez de se deixar dominar por essas percepções, você pode utilizá-las como sinais que indicam onde sua mente precisa de maior clareza, fortalecimento emocional e consciência.</p>`,
-
-especiais:`<h1 style="color:#b8860b;">⚡️ O que são Sequências Especiais no Pessoal?</h1>
-<p>As Sequências Especiais na Pirâmide Pessoal representam momentos em que determinadas ideias, inspirações ou percepções internas se tornam mais intensas dentro do seu campo mental. Elas indicam períodos em que sua mente pode estar particularmente sensível a novas compreensões ou insights sobre si mesmo.</p>
-
-<p>Diferente de acontecimentos externos concretos, essas sequências funcionam como movimentos internos que despertam novas formas de pensar, refletir ou enxergar situações da sua própria vida. Elas podem trazer clareza repentina, questionamentos profundos ou até uma sensação de despertar para novas possibilidades pessoais.</p>
-
-<p>Essas configurações costumam surgir em momentos em que a mente está preparada para compreender algo que antes passava despercebido. Por isso, podem ser vistas como pontos de ativação intelectual e emocional dentro da sua jornada interior.</p>
-
-<p>Ao reconhecer essas sequências, você pode aproveitar melhor essas fases de percepção ampliada, utilizando esse momento para refletir sobre suas escolhas, compreender padrões pessoais e fortalecer a conexão com sua própria consciência.</p>`,
-
-financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras no Pessoal?</h1>
-<p>As Sequências Financeiras dentro da Pirâmide Pessoal não indicam necessariamente acontecimentos materiais concretos, mas sim a forma como você percebe e sente a energia do dinheiro em sua vida. Elas revelam o estado mental e emocional que influencia sua relação interna com prosperidade, segurança e estabilidade.</p>
-
-<p>Em alguns períodos, essa vibração pode gerar uma sensação de confiança e abertura para oportunidades, mesmo antes de resultados materiais aparecerem. Em outros momentos, pode trazer preocupações ou dúvidas relacionadas à forma como você enxerga sua capacidade de gerar recursos.</p>
-
-<p>Essas percepções internas têm grande impacto sobre as decisões que você toma, pois a maneira como você se sente em relação ao dinheiro influencia diretamente suas atitudes, sua disposição para assumir riscos e sua forma de administrar oportunidades.</p>
-
-<p>Compreender essa vibração pessoal ajuda a perceber se sua mente está favorecendo ou limitando sua relação com a prosperidade. Ao reconhecer esse padrão interno, torna-se possível ajustar pensamentos e atitudes para criar uma relação mais equilibrada com a energia material.</p>`,
-
-vigencias:`<h1>✡︎ O que são as Potências do sentimento Pessoal(interior)?</h1>
-<p>As Potências da Pirâmide Pessoal representam ciclos internos de percepção, reflexão e amadurecimento mental. Diferente das vigências da Pirâmide da Vida, que indicam acontecimentos externos mais concretos, essas fases revelam mudanças no seu estado psicológico e emocional ao longo do tempo.</p>
-
-<p>Cada período pode trazer uma atmosfera mental diferente. Existem fases em que a mente se volta mais para introspecção e autoconhecimento, enquanto outras estimulam maior clareza de pensamento, criatividade ou desejo de transformação pessoal.</p>
-
-<p>Esses ciclos influenciam a maneira como você interpreta as experiências da vida. Um mesmo acontecimento pode ser percebido de formas muito diferentes dependendo da vigência interna que está ativa naquele momento.</p>
-
-<p>Conhecer essas fases permite compreender melhor seus próprios processos internos, respeitando momentos de reflexão e aproveitando períodos de maior clareza mental para tomar decisões importantes com mais consciência.</p>`
+<p>Conhecer o seu Regente Pessoal permite observar com mais clareza como sua mente processa experiências e emoções. Ele revela a forma como você se enxerga por dentro, mostrando o padrão mental e emocional que influencia diretamente suas decisões, sua autoconfiança e sua visão da própria identidade.</p>`
 
 },
 
@@ -3609,44 +3556,8 @@ regente:`<h1>🔱  O que é o Regente Social  ?</h1>
 
 <p>Muitas vezes, o Regente Social revela o perfil das pessoas que você atrai, encontra ou percebe com mais facilidade no seu campo de convivência. Isso pode incluir amigos, colegas, parceiros profissionais ou qualquer grupo com o qual você compartilha experiências ao longo da vida.</p>
 
-<p>Compreender essa vibração ajuda a interpretar melhor o ambiente social que o cerca. Ao reconhecer esse padrão coletivo, você passa a perceber com mais clareza o tipo de influência que o meio exerce sobre suas experiências e relações.</p>`,
-
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança no seu meio de convivencia?</h1>
-<p>As Sequências Negativas da Pirâmide Social indicam padrões de tensão ou desafios que podem surgir no ambiente de convivência ao seu redor. Elas não representam necessariamente problemas pessoais diretos, mas sim comportamentos, atitudes ou situações que você pode perceber com frequência nas pessoas que fazem parte do seu meio social.</p>
-
-<p>Essas vibrações podem refletir conflitos coletivos, disputas de interesses, dificuldades de comunicação ou padrões de comportamento que geram desgaste dentro de determinados grupos. Em muitos casos, elas mostram ambientes onde certas tensões emocionais ou psicológicas tendem a aparecer com maior intensidade.</p>
-
-<p>Identificar essas sequências permite observar o ambiente social com mais consciência, percebendo quando determinadas situações fazem parte de um padrão coletivo e não apenas de um evento isolado. Essa percepção ajuda a desenvolver maior discernimento nas relações e nas escolhas de convivência.</p>
-
-<p>Ao compreender essas vibrações no campo social, você ganha maior clareza para lidar com o comportamento das pessoas ao seu redor, evitando absorver conflitos desnecessários e preservando seu próprio equilíbrio emocional diante dessas influências.</p>`,
-
-especiais:`<h1 style="color:#b8860b;">⚡️ O que são  Sequências Especiais Sociais?</h1>
-<p>As Sequências Especiais da Pirâmide Social indicam momentos em que determinadas energias se manifestam de forma marcante dentro do ambiente coletivo ao seu redor. Elas revelam situações específicas que podem surgir nas relações, nos grupos ou nas interações sociais que fazem parte do seu cotidiano.</p>
-
-<p>Essas sequências representam acontecimentos ou dinâmicas que chamam atenção dentro do meio social, podendo indicar oportunidades, mudanças nas relações ou experiências que provocam reflexões importantes sobre as pessoas com quem você convive.</p>
-
-<p>Por serem eventos pontuais dentro do campo social, essas vibrações costumam surgir em momentos específicos, trazendo situações que exigem observação e sensibilidade para compreender o que está acontecendo no ambiente ao redor.</p>
-
-<p>Reconhecer essas sequências ajuda a interpretar melhor as dinâmicas sociais que surgem ao longo da vida. Elas mostram quando certas situações coletivas ganham força, permitindo que você compreenda o contexto das relações e reaja com maior consciência diante dessas experiências.</p>`,
-
-financeiro:`<h1 style="color:#2e7d32;">💰 O que são Sequências Financeiras Sociais?</h1>
-<p>As Sequências Financeiras na Pirâmide Social refletem a forma como a energia material se manifesta dentro do ambiente coletivo ao seu redor. Em vez de indicar diretamente sua condição financeira pessoal, elas mostram como a dinâmica de prosperidade ou escassez aparece nas pessoas, grupos ou contextos sociais que fazem parte do seu círculo de convivência.</p>
-
-<p>Essas vibrações podem revelar ambientes onde existem oportunidades econômicas, movimentações financeiras importantes ou momentos em que questões materiais ganham destaque dentro do meio social. Em outros casos, podem indicar fases em que o contexto coletivo exige maior cautela ou organização financeira.</p>
-
-<p>Observar essas sequências permite compreender melhor o cenário material que envolve suas relações e atividades sociais. Muitas vezes, o ambiente ao redor influencia diretamente as oportunidades que surgem ou as decisões que são tomadas dentro de grupos e parcerias.</p>
-
-<p>Ao reconhecer esse padrão vibracional no campo social, você passa a perceber com maior clareza como o fluxo material circula entre as pessoas ao seu redor, entendendo melhor o contexto econômico das relações e das oportunidades que aparecem nesse ambiente.</p>`,
-
-vigencias:`<h1>✡︎ O que são as Potências no seu meio social?</h1>
-<p>As Potências da Pirâmide Social representam os ciclos que influenciam o ambiente coletivo ao seu redor ao longo do tempo. Esses períodos mostram como determinadas energias passam a atuar nas relações sociais, nos grupos e nas interações que fazem parte do seu cotidiano.</p>
-
-<p>Cada fase pode trazer mudanças na forma como as pessoas se relacionam, colaboram ou enfrentam desafios em conjunto. Existem momentos em que o ambiente social favorece conexões, cooperação e crescimento coletivo, enquanto outros períodos podem trazer maior tensão ou necessidade de ajustes nas relações.</p>
-
-<p>Essas vigências ajudam a compreender por que certos contextos sociais parecem mudar ao longo da vida, mesmo quando a sua própria energia pessoal permanece estável. Elas revelam o ritmo natural das transformações dentro do ambiente humano que o cerca.</p>
-
-<p>Conhecer esses ciclos permite interpretar com mais clareza as mudanças nas relações e nos ambientes que você frequenta, ajudando a navegar pelas dinâmicas sociais com maior percepção e equilíbrio.</p>`
-
+<p>Compreender essa vibração ajuda a interpretar melhor o ambiente social que o cerca. Ao reconhecer esse padrão coletivo, você passa a perceber com mais clareza o tipo de influência que o meio exerce sobre suas experiências e relações.</p>`
+ 
 },
 
 destino:{
@@ -3658,44 +3569,8 @@ regente:`<h1>🔱  Regente do Destino  </h1>
 
 <p>Em alguns momentos, o Regente do Destino pode atuar como um chamado silencioso que estimula transformações profundas. Ele não substitui a sua essência pessoal, mas pode influenciar decisões, ambientes e experiências que ajudam a construir o sentido mais amplo da sua existência.</p>
 
-<p>Compreender essa vibração permite observar com mais clareza quais forças externas podem estar direcionando certas experiências da sua vida. Isso ajuda a perceber quando determinadas situações fazem parte de um movimento maior de propósito ou evolução dentro da sua jornada.</p>`,
-
-negativas:`<h1 style="color:#d32f2f;">⚠️ O que são Sequências de Vulnerabilidade e insegurança que vem da influência do Destino?</h1>
-<p>As Sequências Negativas da Pirâmide do Destino indicam desafios ou tensões que podem surgir a partir de influências externas ao seu campo pessoal. Elas representam situações que aparecem ao longo da vida como testes, obstáculos ou experiências que exigem amadurecimento diante de circunstâncias que muitas vezes estão além do controle imediato.</p>
-
-<p>Diferente das sequências negativas da Pirâmide da Vida, que refletem padrões pessoais, aqui estamos observando forças que podem surgir no caminho como eventos ou contextos que pressionam a pessoa a desenvolver novas capacidades ou superar determinadas limitações.</p>
-
-<p>Essas vibrações podem se manifestar através de encontros marcantes, mudanças inesperadas ou períodos em que o ambiente externo parece desafiar suas escolhas e sua estabilidade. Embora possam parecer difíceis, muitas dessas situações fazem parte de processos que impulsionam crescimento e evolução.</p>
-
-<p>Ao compreender essas sequências dentro da Pirâmide do Destino, torna-se possível interpretar esses momentos com mais consciência, percebendo que certos desafios podem representar oportunidades de transformação e fortalecimento ao longo da jornada.</p>`,
-
-especiais:`<h1 style="color:#b8860b;">⚡️ O que são Sequências Especiais do Destino?</h1>
-<p>As Sequências Especiais da Pirâmide do Destino representam momentos em que forças externas parecem abrir caminhos ou apresentar oportunidades que possuem um significado especial dentro da sua trajetória. Elas indicam situações que surgem como portais de transformação ou eventos que podem alterar o rumo natural da sua jornada.</p>
-
-<p>Diferente das sequências especiais pessoais ou sociais, aqui estamos observando acontecimentos que podem trazer experiências marcantes, encontros importantes ou oportunidades que parecem surgir em momentos decisivos da vida.</p>
-
-<p>Essas vibrações costumam aparecer quando existe um alinhamento entre circunstâncias externas e processos internos de evolução. Muitas vezes elas revelam momentos em que a vida oferece possibilidades de crescimento que podem ampliar horizontes ou revelar novos caminhos.</p>
-
-<p>Reconhecer essas sequências permite perceber quando determinados acontecimentos possuem um significado maior dentro do seu percurso. Ao compreender essas influências, torna-se possível aproveitar melhor essas oportunidades e compreender o papel que elas desempenham na construção do seu destino.</p>`,
-
-financeiro:`<h1 style="color:#2e7d32;">💰 O que é uma Sequência Financeira do Destino?</h1>
-<p>As Sequências Financeiras da Pirâmide do Destino refletem influências externas que podem impactar sua relação com oportunidades materiais ao longo da vida. Diferente da análise financeira pessoal, aqui observamos circunstâncias que podem surgir através de fatores externos, como ambientes, encontros ou mudanças inesperadas no cenário material.</p>
-
-<p>Essas vibrações podem indicar momentos em que oportunidades financeiras aparecem de forma inesperada ou situações em que o contexto externo exige adaptação e estratégia para lidar com mudanças no fluxo material.</p>
-
-<p>Muitas vezes, essas influências surgem através de conexões, projetos coletivos ou circunstâncias que ampliam o acesso a novas possibilidades de crescimento econômico. Em outros momentos, podem indicar fases que pedem atenção e aprendizado sobre como lidar com recursos e oportunidades.</p>
-
-<p>Compreender essa dinâmica ajuda a perceber quando certos movimentos financeiros fazem parte de um contexto maior de transformação no caminho da vida, permitindo que você reconheça melhor as oportunidades que surgem através das circunstâncias externas.</p>`,
-
-vigencias:`<h1>✡︎ O que são as Potências do Destino?</h1>
-<p>As Potências da Pirâmide do Destino representam períodos em que determinadas influências externas ganham maior força dentro da sua trajetória de vida. Esses ciclos indicam momentos em que acontecimentos, encontros ou mudanças podem exercer um papel importante no direcionamento do seu caminho.</p>
-
-<p>Diferente das vigências da Pirâmide da Vida, que refletem ciclos pessoais, aqui observamos fases em que forças externas parecem organizar circunstâncias que contribuem para a evolução do seu percurso.</p>
-
-<p>Esses períodos podem trazer oportunidades inesperadas, desafios que impulsionam crescimento ou situações que levam a mudanças importantes de direção. Muitas vezes, são fases em que o destino parece atuar de forma mais evidente, conduzindo experiências que ampliam a compreensão da própria jornada.</p>
-
-<p>Conhecer essas vigências ajuda a perceber quando determinados acontecimentos fazem parte de um ciclo maior de transformação. Isso permite encarar essas fases com mais consciência, compreendendo que cada período pode trazer lições e oportunidades importantes para a construção do seu caminho.</p>`
-
+<p>Compreender essa vibração permite observar com mais clareza quais forças externas podem estar direcionando certas experiências da sua vida. Isso ajuda a perceber quando determinadas situações fazem parte de um movimento maior de propósito ou evolução dentro da sua jornada.</p>`
+ 
 },
 
 
