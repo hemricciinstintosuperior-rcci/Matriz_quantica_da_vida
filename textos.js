@@ -3534,18 +3534,34 @@ window.introsPiramides = {
 
 
 
-pessoal:{
+pessoal: {
+        regente: `
+        <div class="intro-regente-premium" style="background: #fff; border: 1px  solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden;">
+            
+            <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(10deg);">🔱</div>
 
-regente:`<h1>🔱  Regente Pessoal  </h1>
-<p>O Regente Pessoal representa o estado interno predominante da sua mente e da sua percepção sobre si mesmo. Diferente do Regente da Vida, que expressa uma força real que atua no mundo externo, o Regente Pessoal mostra como você se percebe internamente e como interpreta as situações que vive.</p>
+            <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+                🔱 O Regente do Mundo Interior <br>
+                <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Matriz da Percepção Pessoal</span>
+            </h2>
 
-<p>Essa vibração revela o clima psicológico que acompanha seus pensamentos, sentimentos e reflexões mais profundas. Muitas vezes ela funciona como um filtro interno, determinando a forma como você entende os acontecimentos da sua própria vida, mesmo que a realidade externa esteja seguindo outro caminho.</p>
+            <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+                <p style="margin-bottom: 15px;">O <b>Regente Pessoal</b> representa o estado interno predominante da sua mente e a forma como você processa sua própria identidade. Enquanto o Regente da Vida lida com fatos concretos, o Pessoal governa o seu "clima psicológico". Ele é o filtro emocional através do qual você interpreta a realidade, determinando como você se enxerga por dentro e como reage subjetivamente aos desafios do mundo.</p>
 
-<p>Quando essa energia está em equilíbrio, você tende a se sentir alinhado consigo mesmo, compreendendo melhor suas emoções, suas reações e suas motivações. Porém, quando existe conflito interno com essa vibração, podem surgir dúvidas, inseguranças ou interpretações distorcidas sobre aquilo que você realmente é ou deseja.</p>
+                <p style="margin-bottom: 15px;">A profundidade desta matriz se revela quando ela entra em ressonância com os outros pilares. Se o seu Regente Pessoal compartilha o mesmo número da <b>Matriz da Vida</b>, você possui uma influência direta e poderosa sobre sua própria história: seus sentimentos e ações estão em total sincronia, fazendo com que sua vontade interna se materialize em fatos reais. No entanto, se a coincidência ocorre com a <b>Matriz Social</b>, sua estabilidade emocional torna-se sensível ao ambiente externo; você é influenciado psicologicamente pelo meio, sentindo dentro de si o reflexo das expectativas e energias das pessoas ao seu redor.</p>
 
-<p>Conhecer o seu Regente Pessoal permite observar com mais clareza como sua mente processa experiências e emoções. Ele revela a forma como você se enxerga por dentro, mostrando o padrão mental e emocional que influencia diretamente suas decisões, sua autoconfiança e sua visão da própria identidade.</p>`
+                <p style="margin-bottom: 15px;">Já o alinhamento com as <b>Tendências do Destino</b> indica uma influência espiritual ou de propósito no campo emocional. São sentimentos e intuições que surgem como "chamados", movendo suas águas internas para prepará-la para missões que o destino reservou. Quando não há coincidências, esta matriz atua como seu refúgio particular, revelando como sua mente processa experiências de forma independente, moldando sua autoconfiança e a visão que você mantém sobre seus próprios desejos.</p>
 
-},
+                <p>Compreender este Regente é ganhar as chaves do seu mundo interno. Ele permite distinguir o que é um sentimento genuinamente seu do que é uma influência captada do social ou uma preparação do destino, garantindo que você mantenha o equilíbrio emocional necessário para governar sua própria vida com lucidez.</p>
+            </div>
+
+            <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+                <p style="font-style: italic; color: #827108; font-size: 15px;">
+                    "O mundo exterior é o que acontece com você; o mundo pessoal é o que você escolhe sentir sobre o que acontece."
+                </p>
+            </div>
+        </div>`
+    },
 
 social:{
 
