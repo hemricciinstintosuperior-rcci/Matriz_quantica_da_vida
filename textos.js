@@ -1,5 +1,6 @@
 
 const textosPotenciaisVida = {
+ principal:{
 "10": "Esta vibração se origina da potência 10, que indica momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida. Representa o início de um novo ciclo onde o universo conspira para que sua liderança natural floresça sem grandes obstruções externas.",
 "11": "Esta vibração se origina da potência 11, trazendo um canal de intuição e inspiração que ilumina suas decisões. Indica que sua força de vontade é guiada por uma percepção superior, permitindo que você tome a frente de projetos com uma sensibilidade que outros não possuem.",
 "12": "Esta vibração se origina da potência 12, indicando aprendizado através de sacrifícios ou experiências que exigem mudança de perspectiva. É um convite para você olhar a vida sob um novo ângulo, percebendo que as pausas e as concessões são, na verdade, ferramentas de amadurecimento espiritual.",
@@ -90,9 +91,11 @@ const textosPotenciaisVida = {
 "97": "Esta vibração se origina da potência 97, revelando maturidade espiritual profunda e sabedoria analítica. Sugere que você compreende as leis ocultas que regem a realidade, permitindo que viva com uma serenidade que nasce do conhecimento da verdade.",
 "98": "Esta vibração se origina da potência 98, revelando maturidade e compreensão profunda da justiça universal. Indica que você vive em sintonia com a lei de causa e efeito, colhendo os frutos de uma vida pautada na integridade e no equilíbrio entre o espírito e a matéria.",
 "99": "Esta vibração se origina da potência 99, revelando uma vibração espiritual elevada e profunda compreensão da vida. É o ápice da jornada humana, indicando que você possui a sabedoria necessária para compreender o sofrimento e a alegria como partes de um todo sagrado e evolutivo."
-};
+}
+ };
 
 const textosPotenciaisPessoal = {
+ pessoal:{
 "10": "Esta vibração se origina da potência 10, indicando uma mente altamente criativa e facilidade para iniciar projetos originais. Sugere que sua consciência individual desperta de forma pioneira, permitindo que você enxergue soluções onde outros veem apenas problemas.",
 "11": "Esta vibração se origina da potência 11, trazendo uma percepção intuitiva que atua como um radar mental. Indica que seu intelecto está conectado a uma sensibilidade superior, capaz de captar ideias inovadoras antes que elas se tornem óbvias para o mundo.",
 "12": "Esta vibração se origina da potência 12, indicando momentos de aprendizado profundo que exigem uma nova perspectiva intelectual. Revela que, ao silenciar sua vontade e observar os fatos por outro ângulo, você desbloqueia uma sabedoria interna transformadora.",
@@ -183,11 +186,13 @@ const textosPotenciaisPessoal = {
 "97": "Esta vibração se origina da potência 97, revelando maturidade intelectual profunda e uma sabedoria que vem da observação silenciosa. Sugere que você desvendou os códigos da própria mente, vivendo com uma lucidez que poucos conseguem atingir.",
 "98": "Esta vibração se origina da potência 98, revelando maturidade e compreensão profunda das leis da vida. Indica que sua mente está em paz com o passado e focada em usar seu poder intelectual para construir um presente justo e equilibrado.",
 "99": "Esta vibração se origina da potência 99, revelando uma elevada compreensão espiritual e mental. Indica o estado de consciência onde o conhecimento se torna compaixão universal, permitindo que você enxergue a perfeição divina em todos os processos da vida humana."
-};
+}
+ };
 
 
 
 const textosPotenciaisSocial = {
+ social:{
 "10": "Esta vibração se origina da potência 10, indicando uma percepção de ambientes sociais dinâmicos e cheios de oportunidades. Revela que você enxerga o mundo como um palco de novos começos, onde a liderança e a coragem são os motores que abrem portas em qualquer grupo social.",
 "11": "Esta vibração se origina da potência 11, trazendo uma visão intuitiva sobre as intenções alheias. Sugere que você percebe o meio social como um campo de trocas vibracionais, onde a inspiração e o exemplo pessoal têm mais poder de influência do que palavras ou cargos.",
 "12": "Esta vibração se origina da potência 12, indicando percepção de pessoas que passam por processos de sacrifício ou mudança de rumo. Revela que você enxerga a necessidade de adaptação social e entende que, às vezes, o recuo estratégico é fundamental para o sucesso coletivo.",
@@ -278,11 +283,12 @@ const textosPotenciaisSocial = {
 "97": "Esta vibração se origina da potência 97, revelando percepção de uma maturidade social profunda e sabedoria analítica. Sugere que você enxerga os fios invisíveis que regem o comportamento das massas, mantendo uma visão lúcida e equilibrada sobre o destino da humanidade.",
 "98": "Esta vibração se origina da potência 98, revelando maturidade social e uma compreensão profunda das leis de causa e efeito. Indica que você observa como cada ação coletiva gera um retorno, valorizando grupos que buscam a justiça e a integridade nas relações.",
 "99": "Esta vibração se origina da potência 99, revelando percepção de uma elevada compreensão espiritual e humanitária. Indica que você enxerga o meio social como uma grande escola de almas, onde o amor universal é a única solução definitiva para os conflitos humanos."
-};
+}
+ };
 
 
 const textosPotenciaisDestino = { 
-
+destino:{
 "10": "Esta influência se origina da potência 10, indicando eventos que trazem novos começos e oportunidades de brilho pessoal. O universo empurra você para a frente, abrindo portas que exigem coragem imediata e iniciativa própria.",
 "11": "Esta influência se origina da potência 11, trazendo situações de forte inspiração e sincronicidades espirituais. Você atrai eventos que parecem 'mensagens' do destino, desafiando você a seguir sua intuição acima da lógica comum.",
 "12": "Esta influência se origina da potência 12, indicando situações que exigem uma pausa forçada ou um novo ângulo de visão. O universo coloca você em posição de observar mais e agir menos, ensinando que o sacrifício temporário gera sabedoria.",
@@ -373,6 +379,7 @@ const textosPotenciaisDestino = {
 "97": "Esta influência se origina da potência 97, revelando eventos que trazem uma clareza quase mística sobre o funcionamento da vida. O destino permite que você enxergue o futuro ou as consequências das ações humanas com precisão cirúrgica.",
 "98": "Esta influência se origina da potência 98, trazendo situações que exigem o cumprimento rigoroso das leis — civis ou universais. O universo ensina que a ordem é a base do progresso, trazendo eventos que premiam a sua integridade.",
 "99": "Esta influência se origina da potência 99, revelando eventos de alcance mundial ou experiências de êxtase espiritual. O destino traz a conclusão máxima da sua busca, onde você compreende que o universo e você são um só."
+}
 };
 
 const textosVida={
