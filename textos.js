@@ -3449,52 +3449,119 @@ const explicacoes = {
 
 principal: `
 
-<h3> VIBRAÇÃO MESTRA(VIDA) 👑</h3>
+<div class="intro-secao-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+    
+    <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(15deg);">👑</div>
 
-<p>​A Pirâmide da Vida Principal é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência. Diferente das outras pirâmides que focam em áreas específicas, esta matriz revela o caminho mestre, as fases evolutivas e as potências que regem a sua história do início ao fim.</p>
+    <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+        👑 Vibração Mestra da Vida <br>
+        <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">O Alicerce Absoluto do Destino</span>
+    </h2>
 
-<p>​Esta pirâmide é construída exclusivamente a partir do seu nome de batismo, o que, na numerologia cabalística, representa a sua essência imutável e a vibração que você trouxe ao mundo. Ela reflete os aspectos gerais da vida e serve como o cenário onde todos os outros eventos acontecem. É por isso que todas as vigências de idade e períodos cronológicos do seu relatório são baseados nesta pirâmide central; ela é o relógio biológico e espiritual que governa todas as outras influências.</p>
+    <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+        <p style="margin-bottom: 15px;">A <b>Pirâmide da Vida Principal</b> é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência e revelando o caminho mestre que rege sua história do início ao fim. Enquanto as outras matrizes focam em nuances emocionais ou sociais, esta vibração mestra define o enredo principal e o cenário onde sua evolução ocorre.</p>
 
-<p>​Ao analisar a Pirâmide da Vida, você está olhando para o seu destino em larga escala. Ela mostra as lições que você veio aprender e os ciclos de amadurecimento pelos quais passará. Se a sua vida fosse um filme, esta aba descreveria o enredo principal e o cenário de fundo. Sem a compreensão desta matriz, as outras áreas (pessoal ou social) ficam sem contexto, pois é a Pirâmide da Vida que define se você está em um momento de colheita, de plantio ou de transformação profunda. Ela é a bússola que impede que você se perca nas distrações do cotidiano, mantendo o foco no que realmente importa para a sua evolução de longo prazo.</p>
+        <p style="margin-bottom: 15px;">Construída exclusivamente a partir do seu <b>nome de batismo</b>, esta matriz reflete sua essência imutável e a frequência original que você trouxe ao mundo. Na numerologia cabalística, ela é considerada o <b>Relógio Biológico e Espiritual</b>; é através desta pirâmide central que todas as vigências de idade e períodos cronológicos do seu relatório são calculados. Ela é a bússola que mantém o alinhamento das suas experiências, impedindo que você se perca nas distrações do cotidiano.</p>
+
+        <p style="margin-bottom: 15px;">Compreender a Vibração Mestra é entender as lições fundamentais e os ciclos de amadurecimento que moldam seu destino em larga escala. Ela contextualiza todas as outras áreas — seja o campo pessoal, social ou de destino — determinando se o seu momento atual é de plantio, colheita ou de uma necessária transformação profunda.</p>
+
+        <p>Esta aba descreve a sua trajetória soberana. Sem o domínio desta matriz, as outras influências perdem o seu norte, pois é a Pirâmide da Vida que sustenta o sentido mais amplo da sua existência e garante que cada passo esteja em sintonia com o seu propósito maior.</p>
+    </div>
+
+    <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+        <p style="font-style: italic; color: #827108; font-size: 15px;">
+            "A Matriz da Vida é a partitura original; as outras matrizes são os instrumentos que dão tom à sua sinfonia pessoal."
+        </p>
+    </div>
+</div>
 
 `,
 
 pessoal: `
 
-<h3> MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)   👤</h3>
-<p>Enquanto a pirâmide anterior trata do "quem sou eu no universo", a Pirâmide do Intelecto Pessoal mergulha no "como eu me sinto e como eu processo a vida". Ela é formada pela combinação da equivalência numérica do seu nome somada ao seu dia de nascimento reduzido. Essa pequena adição do dia de nascimento muda o foco do destino geral para a sua atitude íntima e psicológica diante do mundo.</p>
+<div class="intro-secao-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+    
+    <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(15deg);">👤</div>
 
-<p>​Esta aba revela o seu mundo subjetivo: o campo emocional, o intelecto e os processos psicológicos que ocorrem longe dos olhos dos outros. Ela é essencial para entender os seus conflitos internos e como você vive cada fase da vida "do lado de dentro". Muitas vezes, a Pirâmide da Vida pode indicar um período de sucesso externo, mas a Pirâmide Pessoal pode revelar que, internamente, você está enfrentando uma crise de identidade ou um crescimento interior silencioso.</p>
+    <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+        👤 Mundo Interior e Intelecto <br>
+        <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Matriz do Sentimento e Autoconhecimento</span>
+    </h2>
 
-<p>​É nesta seção que exploramos os sentimentos mais profundos e as reações instintivas. Se você sente que suas emoções não condizem com o que está acontecendo na sua vida prática, a resposta está aqui. Ela mapeia o seu crescimento interior e como o seu "eu" lida com as pressões da Matriz Principal. Entender a Pirâmide Pessoal permite que você tenha mais autocompaixão, pois ela valida suas lutas internas e mostra que cada conflito é, na verdade, um degrau para o fortalecimento do seu intelecto e da sua estabilidade emocional. É a aba do autoconhecimento psíquico por excelência.</p>
+    <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+        <p style="margin-bottom: 15px;">Enquanto a pirâmide anterior responde à pergunta "quem sou eu no universo", a <b>Pirâmide do Mundo Interior</b> mergulha nas profundezas do "como eu me sinto e como processo a vida". Ela é gerada pela combinação da frequência do seu nome com a energia do seu dia de nascimento. Essa união desloca o foco do destino externo para a sua atitude íntima, revelando a mecânica psicológica que governa sua visão de mundo.</p>
 
+        <p style="margin-bottom: 15px;">Esta aba desvenda o seu universo subjetivo: o campo das emoções, do intelecto e dos processos psíquicos que ocorrem longe dos olhos alheios. Ela é a chave para compreender seus conflitos internos e como você vivencia cada fase "do lado de dentro". É comum que a Matriz Principal indique sucesso externo, enquanto esta Matriz Pessoal revela um crescimento interior silencioso ou uma busca por identidade que ninguém mais percebe.</p>
 
+        <p style="margin-bottom: 15px;">Aqui, validamos suas reações instintivas e sentimentos mais profundos. Se você percebe que suas emoções nem sempre condizem com a realidade prática, a explicação reside nesta análise. Ela mapeia como o seu "eu" lida com as pressões da Matriz Principal, transformando cada desafio emocional em um degrau para o fortalecimento da sua estabilidade e maturidade mental.</p>
+
+        <p>Entender esta pirâmide é o ato supremo de autocompaixão. Ao reconhecer seus padrões internos, você deixa de ser refém das próprias emoções para se tornar o mestre da sua estabilidade psíquica, encontrando o equilíbrio necessário entre o que o mundo exige e o que a sua alma realmente sente.</p>
+    </div>
+
+    <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+        <p style="font-style: italic; color: #827108; font-size: 15px;">
+            "A verdadeira jornada de descoberta não consiste em procurar novas paisagens, mas em olhar para dentro com novos olhos."
+        </p>
+    </div>
+</div>
 `,
 
 social: `
 
-<h3> PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)  🌎</h3>
-<p>​A Pirâmide da Percepção do seu Meio de Convivência (ou Pirâmide Social) assume aqui um papel único de "testemunha ocular" da realidade coletiva. Ela é formada pela frequência numérica do seu nome de nascimento em sintonia com o seu mês de nascimento, o que gera o seu radar de percepção sobre o que ocorre ao seu redor. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve especificamente a sua capacidade de ver as engrenagens da vida girando para as pessoas do seu meio social.</p>
+<div class="intro-secao-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+    
+    <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(15deg);">🌎</div>
 
-<p>​É nesta seção que entendemos que nem tudo o que acontece no nosso campo de visão nos pertence. Esta pirâmide revela os acontecimentos, as crises, as vitórias e as transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Pirâmide do Destino é a que realmente molda a sua jornada pessoal e traz os eventos que o influenciam diretamente, a Pirâmide Social é um mapa do "teatro da vida" alheia que se desenrola diante dos seus olhos.</p>
+    <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+        🌎 Percepção do Meio Social <br>
+        <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Matriz da Observação e Convivência</span>
+    </h2>
 
-<p>​Ter essa clareza é libertador, pois permite que você observe os movimentos do seu meio sem ser sugado por eles ou acreditar que aquelas influências externas estão interferindo na sua rota individual. Ela mostra a sua atuação no mundo externo como um observador privilegiado, capaz de identificar padrões e comportamentos no entorno sem que isso altere a sua própria matriz quântica. É a lente que permite enxergar a vida social como um conjunto de experiências que você apenas presencia.</p>
+    <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+        <p style="margin-bottom: 15px;">A <b>Pirâmide da Percepção Social</b> assume o papel de "testemunha ocular" da realidade coletiva. Formada pela sintonia entre o seu nome e o seu mês de nascimento, ela gera o seu radar de percepção sobre o mundo externo. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve sua capacidade de enxergar as engrenagens da vida girando para as pessoas ao seu redor.</p>
 
-<p>​Ao ler os arcanos e potências desta aba, você não está lendo o seu futuro, mas sim a "previsão do tempo" para as pessoas com quem você convive. Isso traz uma sabedoria estratégica: ao perceber o que está acontecendo com os outros, você ganha repertório e maturidade, sem precisar passar pela dor ou pelo esforço daquele evento específico. Esta aba é, portanto, o registro da sua sensibilidade social: o quanto você está atento e o que você é capaz de captar da realidade externa, mantendo sempre a distinção clara entre o que é a vida do outro e o que é o seu propósito soberano.
-</p>
+        <p style="margin-bottom: 15px;">É nesta seção que compreendemos que nem tudo o que entra em nosso campo de visão nos pertence. Esta pirâmide revela as vitórias, crises e transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Matriz Principal molda sua jornada direta, a Matriz Social funciona como um mapa do "teatro da vida" alheia, permitindo que você observe os movimentos do seu meio sem ser absorvida por eles.</p>
 
+        <p style="margin-bottom: 15px;">Ter essa clareza é libertador: permite identificar padrões no entorno sem que isso altere sua própria matriz quântica. Ao ler as potências desta aba, você acessa uma espécie de "previsão do tempo" para o seu círculo de convivência. Isso confere uma sabedoria estratégica, permitindo ganhar repertório e maturidade através da observação, sem a necessidade de passar pessoalmente pela dor ou pelo esforço de cada evento testemunhado.</p>
+
+        <p>Esta é a aba da sensibilidade social por excelência. Ela registra o quanto você é capaz de captar da realidade externa, mantendo sempre a distinção cristalina entre o que é a experiência do outro e o que é o seu propósito soberano. É a lente que transforma a convivência em um aprendizado contínuo e protegido.</p>
+    </div>
+
+    <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+        <p style="font-style: italic; color: #827108; font-size: 15px;">
+            "Saber observar o caminho do outro é a forma mais sábia de iluminar os próprios passos, sem perder o foco na sua própria direção."
+        </p>
+    </div>
+</div>
 `,
 
 destino: `
+<div class="intro-secao-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+    
+    <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(15deg);">☄️</div>
 
-<h3>TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA) ☄️</h3>
+    <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
+        ☄️ Tendências do Destino e Propósito <br>
+        <span style="font-size: 14px; color: #b59b4d; letter-spacing: 4px;">A Matriz da Síntese e Influência Universal</span>
+    </h2>
 
-<p>A Pirâmide do Propósito e Influência do Universo (ou Pirâmide Destino) é a síntese final de toda a sua análise. Ela utiliza a combinação mais completa: seu nome, dia e mês de nascimento. Por unir todos os elementos, ela reflete os aspectos do seu destino de forma multidimensional, combinando o que está previsto na Matriz Principal com as suas necessidades Pessoais e as demandas do seu Meio Social.</p>
+    <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
+        <p style="margin-bottom: 15px;">A <b>Pirâmide do Destino</b> representa a síntese final de toda a sua análise numerológica. Por utilizar a combinação mais completa de dados — seu nome, dia e mês de nascimento — ela reflete sua jornada de forma multidimensional. Esta matriz funde o que está previsto na Matriz Principal com suas necessidades Pessoais e as demandas do seu Meio Social, revelando o ponto de equilíbrio onde sua vontade encontra o plano do universo.</p>
 
-<p>​Esta aba é fascinante porque ela tenta prever e explicar os acontecimentos marcantes e os eventos que "moldam o destino ao longo do tempo". Se as outras pirâmides mostram os atores e o palco, a Pirâmide do Propósito mostra as intervenções do destino — as situações inesperadas ou os encontros providenciais que mudam o curso da sua vida. Ela revela a finalidade maior das suas experiências, conectando os pontos entre o que aconteceu no passado e o que o universo está preparando para o seu futuro.</p>
+        <p style="margin-bottom: 15px;">Esta aba é fascinante pois decodifica as intervenções do destino: situações inesperadas ou encontros providenciais que mudam o curso da sua trajetória. Se as outras pirâmides descrevem os atores e o palco, a Matriz do Destino revela o "diretor" por trás das cenas. Ela conecta os pontos entre o seu passado e o que o universo está preparando para o seu futuro, mostrando a finalidade maior de cada experiência vivida.</p>
 
-<p>​Entender esta matriz é descobrir o "porquê" por trás das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como o universo influencia a sua vontade pessoal. Muitas vezes, um evento que pareceu negativo na Matriz Social pode ser revelado aqui como um ponto de virada essencial para o seu propósito maior. Esta é a aba que traz paz de espírito, pois ajuda a compreender que existe uma ordem maior regendo a sua vida. Ela é o guia definitivo para quem deseja viver em fluxo com o universo, aceitando os desafios como ferramentas de moldagem do caráter e celebrando as vitórias como confirmações do seu caminho sagrado.
-</p>`
+        <p style="margin-bottom: 15px;">Entender esta matriz é descobrir o "porquê" por trás das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como as forças universais influenciam sua vontade pessoal. Muitas vezes, um evento que pareceu desafiador em outras áreas é revelado aqui como um ponto de virada essencial, um ajuste de rota necessário para que você alcance seu potencial máximo.</p>
+
+        <p>Esta é a aba que traz paz de espírito e senso de direção. Ela é o guia definitivo para quem deseja viver em fluxo com o universo, aceitando os desafios como ferramentas de moldagem do caráter e celebrando cada vitória como uma confirmação de que você está percorrendo o seu caminho sagrado com consciência e maestria.</p>
+    </div>
+
+    <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
+        <p style="font-style: italic; color: #827108; font-size: 15px;">
+            "O destino não é uma questão de sorte, é uma questão de escolha; não é algo para se esperar, é algo para se alcançar em sintonia com o Criador."
+        </p>
+    </div>
+</div>
+`
   
 };
 
