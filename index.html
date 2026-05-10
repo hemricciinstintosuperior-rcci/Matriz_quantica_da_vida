@@ -1239,7 +1239,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais, texto
             textoDosPotenciais = `
                 <div class="potenciais-integrados" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
                     <strong style="color: #827108; display: block; margin-bottom: 5px; text-transform: uppercase;">
-                        ⚡ POTÊNCIA: ${combinacao}
+                         POTÊNCIA: ${combinacao}
                     </strong>
                     <div style="color: #555; font-style: italic; line-height: 1.5;">
                         ${aplicarFiltroTexto(bancoPotenciais[combinacao])}
@@ -2404,7 +2404,7 @@ meuHtml += `
 
     
 // Usamos o operador { ... } para enviar os dois bancos de textos juntos
-meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, ...resultadoPotencia.principal, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
+meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, resultadoPotencia.principal, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
 
 meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, resultadoPotencia.pessoal, window.introsPiramides.pessoal.intro, window.introsPiramides.pessoal.regente, nome);
 
