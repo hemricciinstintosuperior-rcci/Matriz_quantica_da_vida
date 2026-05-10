@@ -92,7 +92,98 @@ const textosPotenciaisVida = {
 "99": "Esta vibração se origina da potência 99, revelando uma vibração espiritual elevada e profunda compreensão da vida. É o ápice da jornada humana, indicando que você possui a sabedoria necessária para compreender o sofrimento e a alegria como partes de um todo sagrado e evolutivo."
 };
 
-const textosPotenciaisPessoal = { "11": "...", "12": "..." };
+const textosPotenciaisPessoal = {
+"10": "Esta vibração se origina da potência 10, indicando uma mente altamente criativa e facilidade para iniciar projetos originais. Sugere que sua consciência individual desperta de forma pioneira, permitindo que você enxergue soluções onde outros veem apenas problemas.",
+"11": "Esta vibração se origina da potência 11, trazendo uma percepção intuitiva que atua como um radar mental. Indica que seu intelecto está conectado a uma sensibilidade superior, capaz de captar ideias inovadoras antes que elas se tornem óbvias para o mundo.",
+"12": "Esta vibração se origina da potência 12, indicando momentos de aprendizado profundo que exigem uma nova perspectiva intelectual. Revela que, ao silenciar sua vontade e observar os fatos por outro ângulo, você desbloqueia uma sabedoria interna transformadora.",
+"13": "Esta vibração se origina da potência 13, indicando renovações profundas na sua forma de pensar. Sugere que sua mente possui a capacidade de se desapegar de crenças antigas com coragem, permitindo um renascimento intelectual constante e vigoroso.",
+"14": "Esta vibração se origina da potência 14, revelando talento para a comunicação e moderação de ideias. Indica que sua mente busca o equilíbrio entre o racional e o emocional, permitindo que você transmita seus pensamentos de forma clara e diplomática.",
+"15": "Esta vibração se origina da potência 15, sugerindo magnetismo emocional e uma forte influência intelectual sobre os outros. Indica que suas ideias possuem uma carga vital poderosa, sendo necessário direcionar esse magnetismo para propósitos que tragam harmonia.",
+"16": "Esta vibração se origina da potência 16, indicando experiências que provocam quebras de paradigmas na sua forma de pensar. Revela que crises intelectuais são, na verdade, oportunidades para reconstruir sua visão de mundo sobre bases muito mais reais e sólidas.",
+"17": "Esta vibração se origina da potência 17, indicando uma proteção mental que mantém seu otimismo e fé nas próprias ideias. Sugere que sua consciência está alinhada com uma estrela guia, permitindo que você planeje o futuro com esperança e clareza de propósito.",
+"18": "Esta vibração se origina da potência 18, revelando conflitos internos que servem como gatilhos para o amadurecimento mental. Indica a necessidade de enfrentar seus medos subconscientes para que sua percepção da realidade não seja distorcida por ilusões passageiras.",
+"19": "Esta vibração se origina da potência 19, revelando desafios relacionados ao orgulho intelectual. Sugere que o desenvolvimento da humildade mental é o que permitirá que sua luz interior brilhe com autenticidade, atraindo o respeito e a admiração sincera dos outros.",
+"20": "Esta vibração se origina da potência 20, sugerindo uma consciência que se renova através do autojulgamento honesto. Indica que sua mente está sempre pronta para um novo chamado, avaliando o passado com sabedoria para decidir os próximos passos intelectuais.",
+"21": "Esta vibração se origina da potência 21, revelando facilidade para o crescimento intelectual através das trocas sociais. Indica uma mente que se sente completa ao compartilhar conhecimentos, alcançando um estado de realização e sucesso mental pleno.",
+"22": "Esta vibração se origina da potência 22, revelando um potencial intelectual voltado para grandes projetos e liderança visionária. Sugere que sua mente trabalha em larga escala, sendo capaz de organizar ideias complexas para construir algo de valor duradouro.",
+"23": "Esta vibração se origina da potência 23, revelando auxílio intelectual de pessoas influentes ou mentores em sua vida. Indica que sua facilidade de expressão atrai mentes brilhantes que ajudam a polir suas ideias e a expandir seu alcance mental.",
+"24": "Esta vibração se origina da potência 24, revelando facilidade para construir uma estrutura mental estável e segura. Sugere que sua harmonia interior é a base para o desenvolvimento de raciocínios lógicos que protegem seus interesses e de sua família.",
+"25": "Esta vibração se origina da potência 25, indicando sensibilidade intelectual e uma mente voltada para a análise técnica. Sugere que você possui o dom de aprofundar-se em estudos complexos, transformando dados brutos em conhecimento refinado e útil.",
+"26": "Esta vibração se origina da potência 26, revelando aprendizado relacionado a responsabilidades práticas e gestão mental. Indica que sua mente amadurece ao lidar com a justiça e com o equilíbrio entre o esforço intelectual e os resultados materiais.",
+"27": "Esta vibração se origina da potência 27, revelando sensibilidade espiritual que influencia suas conclusões lógicas. Sugere que sua mente é movida por um idealismo humanitário, buscando sempre respostas que tragam algum benefício para o bem comum.",
+"28": "Esta vibração se origina da potência 28, indicando tendência a enfrentar desafios intelectuais que exigem firmeza. Revela que sua mente é forjada no debate de ideias, aprendendo a defender seus pontos de vista com autoridade e estratégia.",
+"29": "Esta vibração se origina da potência 29, revelando uma inteligência sensível acompanhada de oscilações emocionais. Indica que seu desafio é estabilizar a mente para que sua brilhante percepção intuitiva não seja ofuscada por dúvidas momentâneas.",
+"30": "Esta vibração se origina da potência 30, indicando forte imaginação e uma criatividade mental inesgotável. Sugere que sua mente é um laboratório de ideias, onde a inovação nasce da sua capacidade de visualizar possibilidades que outros ignoram.",
+"31": "Esta vibração se origina da potência 31, indicando talento para comunicação estruturada e lógica. Revela uma mente que busca dar forma ao que pensa, transformando o fluxo criativo em métodos e planos que podem ser executados com precisão.",
+"32": "Esta vibração se origina da potência 32, indicando facilidade de expressão e uma mente que se adapta rapidamente a novos ambientes. Sugere que sua inteligência é social, fluindo melhor quando você pode interagir e trocar informações com diferentes mentes.",
+"33": "Esta vibração se origina da potência 33, indicando generosidade mental e uma forte vocação para o ensino ou aconselhamento. Revela que sua consciência se expande quando você utiliza seu conhecimento para iluminar o caminho de outras pessoas.",
+"34": "Esta vibração se origina da potência 34, indicando criatividade mental aliada a uma forte capacidade de investigação. Sugere que você não aceita explicações superficiais, usando sua imaginação para desvendar os mecanismos ocultos das coisas.",
+"35": "Esta vibração se origina da potência 35, revelando inteligência estratégica e uma visão mental perspicaz. Indica que você possui a habilidade de antecipar movimentos e adaptar seu pensamento conforme as mudanças de cenário, mantendo-se sempre à frente.",
+"36": "Esta vibração se origina da potência 36, indicando criatividade aliada à sensibilidade estética e emocional. Sugere que seus pensamentos são coloridos por um senso de harmonia, fazendo de você uma pessoa que pensa com o coração e com a mente em sintonia.",
+"37": "Esta vibração se origina da potência 37, revelando inteligência estratégica e facilidade para encontrar soluções rápidas e eficientes. Sugere que sua mente funciona como uma bússola, sempre apontando o caminho mais inteligente para a superação de obstáculos.",
+"38": "Esta vibração se origina da potência 38, revelando talento criativo e uma sensibilidade artística que permeia sua forma de pensar. Indica que sua mente interpreta a realidade através de símbolos e emoções, gerando percepções únicas e originais.",
+"39": "Esta vibração se origina da potência 39, revelando entusiasmo intelectual e uma grande sociabilidade mental. Sugere que você aprende melhor em grupo e que sua mente é alimentada pela alegria de descobrir novos horizontes ao lado de outras pessoas.",
+"40": "Esta vibração se origina da potência 40, revelando a necessidade de períodos de silêncio e reflexão mental profunda. Indica que sua força intelectual nasce da estabilidade e do tempo que você dedica para organizar suas convicções mais íntimas.",
+"41": "Esta vibração se origina da potência 41, revelando liderança intelectual voltada para a realização prática. Sugere uma mente executora que não se perde em abstrações, focando sempre na viabilidade e na aplicação direta das suas ideias.",
+"42": "Esta vibração se origina da potência 42, indicando que suas responsabilidades e vínculos afetivos moldam sua forma de pensar. Revela uma consciência madura que considera o impacto de suas decisões na vida daqueles que você ama e protege.",
+"43": "Esta vibração se origina da potência 43, revelando liderança intelectual e uma autoridade natural no campo do conhecimento. Indica que você é uma pessoa que pensa com profundidade técnica, sendo respeitada pela seriedade de suas análises.",
+"44": "Esta vibração se origina da potência 44, revelando um enorme poder de liderança mental e capacidade de gestão. Sugere que sua mente é capaz de processar grandes volumes de responsabilidade sem perder a lógica e o senso de justiça.",
+"45": "Esta vibração se origina da potência 45, revelando aprendizado através de deveres e responsabilidades intelectuais. Indica que sua consciência cresce à medida que você se compromete com metas reais, transformando sua visão de mundo em algo concreto.",
+"46": "Esta vibração se origina da potência 46, indicando uma mente prática voltada para conquistas materiais e segurança. Revela que seu pensamento é disciplinado e focado na construção de bases sólidas para sua vida e para seus projetos pessoais.",
+"47": "Esta vibração se origina da potência 47, indicando mente organizada e habilidade para lidar com assuntos técnicos ou científicos. Sugere uma consciência que valoriza a precisão e a eficiência, buscando sempre a melhor forma de estruturar a realidade.",
+"48": "Esta vibração se origina da potência 48, indicando desafios relacionados à disciplina mental e ao foco. Sugere a necessidade de evitar o excesso de preocupações materiais para que sua inteligência possa florescer de forma mais livre e produtiva.",
+"49": "Esta vibração se origina da potência 49, indicando mudanças importantes na sua visão de mundo e na sua consciência. Revela que sua mente passa por ciclos de renovação intensa, onde velhas ideias são substituídas por percepções muito mais elevadas.",
+"50": "Esta vibração se origina da potência 50, indicando períodos de reflexão mental necessários para manter o equilíbrio. Sugere que sua curiosidade precisa de pausas estratégicas para que o excesso de informações não gere estresse ou confusão mental.",
+"51": "Esta vibração se origina da potência 51, revelando mudanças emocionais e mentais marcantes que impulsionam seu crescimento. Indica uma consciência que se adapta rapidamente ao novo, encontrando motivação na própria capacidade de se reinventar.",
+"52": "Esta vibração se origina da potência 52, indicando aprendizado intelectual através das experiências do dia a dia. Revela que sua mente é pragmática, absorvendo conhecimento muito melhor quando ele pode ser testado e comprovado na prática.",
+"53": "Esta vibração se origina da potência 53, indicando mudanças inesperadas na sua forma de pensar ou interpretar a realidade. Sugere que sua adaptabilidade mental é o que permite que você se recupere rapidamente de imprevistos intelectuais.",
+"54": "Esta vibração se origina da potência 54, indicando transformações importantes na forma de pensar, focadas na melhoria do ambiente. Revela uma mente que busca reformar e aperfeiçoar tudo ao seu redor, usando a lógica para promover o progresso.",
+"55": "Esta vibração se origina da potência 55, revelando pensamento inquieto e um forte desejo de liberdade intelectual. Indica uma mente que se recusa a ser aprisionada por dogmas, buscando sempre a expansão através de novas e ousadas ideias.",
+"56": "Esta vibração se origina da potência 56, revelando pensamento ativo e um espírito competitivo saudável. Sugere que sua consciência é estimulada por desafios, impulsionando você a buscar sempre o melhor desempenho em suas atividades mentais.",
+"57": "Esta vibração se origina da potência 57, revelando inteligência estratégica e uma visão analítica aguçada. Indica que você possui o dom de observar os detalhes que passam despercebidos, usando essa percepção para agir com total segurança.",
+"58": "Esta vibração se origina da potência 58, revelando desafios ligados ao uso do poder intelectual e da influência. Sugere a necessidade de usar sua autoridade mental para construir e integrar, evitando que o desejo de controle gere resistências inúteis.",
+"59": "Esta vibração se origina da potência 59, revelando sensibilidade espiritual e uma intuição que guia seu raciocínio. Indica que sua mente está sintonizada com percepções sutis, permitindo que você compreenda a vida para além da lógica puramente material.",
+"60": "Esta vibração se origina da potência 60, indicando momentos de reflexão interior focados na harmonia da alma. Sugere que seu equilíbrio mental depende do cultivo de pensamentos de paz e da resolução de conflitos afetivos que possam perturbar sua clareza.",
+"61": "Esta vibração se origina da potência 61, revelando sensibilidade espiritual e um intelecto voltado para valores nobres. Indica que sua consciência busca a beleza e a verdade em tudo, fazendo de você uma pessoa de pensamento elevado e inspirador.",
+"62": "Esta vibração se origina da potência 62, revelando aprendizado mental através das relações e parcerias. Sugere que sua forma de pensar amadurece ao entrar em contato com diferentes pontos de vista, aprendendo o valor da cooperação intelectual.",
+"63": "Esta vibração se origina da potência 63, revelando maturidade emocional influenciando positivamente seu pensamento. Indica que você possui a sabedoria de não deixar que impulsos momentâneos dominem sua lógica, mantendo a lucidez em situações críticas.",
+"64": "Esta vibração se origina da potência 64, indicando mudanças repentinas na forma de pensar ou momentos de revisão profunda de ideias. Revela que sua mente é capaz de dar guinadas corajosas quando percebe que um ciclo intelectual chegou ao fim.",
+"65": "Esta vibração se origina da potência 65, indicando uma forte ligação entre o pensamento racional e as emoções profundas. Sugere que sua consciência busca integrar o que você sente com o que você sabe, gerando uma visão de vida muito mais completa.",
+"66": "Esta vibração se origina da potência 66, indicando forte sensibilidade emocional influenciando cada pensamento seu. Revela uma mente voltada para o cuidado e para a proteção, onde o intelecto está sempre a serviço do bem-estar coletivo e familiar.",
+"67": "Esta vibração se origina da potência 67, indicando um profundo interesse por conhecimento espiritual e filosófico. Sugere que sua mente busca as respostas nas leis universais, encontrando conforto intelectual na compreensão dos grandes mistérios.",
+"68": "Esta vibração se origina da potência 68, indicando aprendizado relacionado ao poder material e à ética intelectual. Revela que sua consciência se fortalece quando você utiliza sua inteligência para organizar recursos de forma justa e produtiva.",
+"69": "Esta vibração se origina da potência 69, revelando forte sensibilidade afetiva e uma busca constante por equilíbrio interior. Indica uma mente que precisa de harmonia emocional para conseguir produzir e pensar com total clareza e eficiência.",
+"70": "Esta vibração se origina da potência 70, indicando períodos de recolhimento mental que são essenciais para sua evolução. Revela que o silêncio é o seu maior professor, permitindo que sua consciência processe a vida com uma profundidade rara.",
+"71": "Esta vibração se origina da potência 71, indicando uma mente analítica, investigativa e voltada para a descoberta da verdade. Sugere que você possui um filtro mental rigoroso, que não aceita nada sem antes passar por uma profunda análise lógica.",
+"72": "Esta vibração se origina da potência 72, revelando forte percepção intuitiva e sensibilidade social. Indica que sua mente capta as necessidades dos outros de forma quase telepática, permitindo que você atue como um conselheiro nato e respeitado.",
+"73": "Esta vibração se origina da potência 73, revelando tendência a reflexões profundas e busca constante de conhecimento interior. Sugere que sua consciência amadurece através do autoexame, transformando cada pensamento em uma ferramenta de evolução pessoal.",
+"74": "Esta vibração se origina da potência 74, revelando a necessidade de disciplina mental para evitar a dispersão. Indica que sua mente funciona melhor sob uma estrutura organizada, onde cada ideia possui um tempo e um lugar certo para ser desenvolvida.",
+"75": "Esta vibração se origina da potência 75, revelando uma mente investigativa, reflexiva e voltada para o estudo profundo. Sugere que você se sente atraído por temas complexos que exigem paciência e dedicação intelectual para serem plenamente compreendidos.",
+"76": "Esta vibração se origina da potência 76, revelando uma mente introspectiva que busca a perfeição técnica. Indica que você valoriza a precisão do pensamento e prefere trabalhar sozinho para garantir que suas conclusões sejam as mais exatas possíveis.",
+"77": "Esta vibração se origina da potência 77, revelando forte inclinação para estudos profundos e sabedoria oculta. Sugere uma consciência que habita níveis superiores de pensamento, buscando sempre a conexão entre a lógica humana e a inteligência universal.",
+"78": "Esta vibração se origina da potência 78, indicando desafios ligados ao autocontrole emocional e mental. Revela a importância de manter a mente focada no presente, evitando que arrependimentos ou ansiedades perturbem sua capacidade de raciocínio claro.",
+"79": "Esta vibração se origina da potência 79, revelando uma intensa busca por conhecimento e verdade intelectual. Indica que sua consciência não se satisfaz com o óbvio, mergulhando fundo em cada tema para extrair a essência que realmente importa.",
+"80": "Esta vibração se origina da potência 80, revelando a necessidade de uma disciplina intelectual férrea e voltada para resultados. Indica que sua mente possui um grande poder de comando, que deve ser usado para organizar e estruturar o caos ao seu redor.",
+"81": "Esta vibração se origina da potência 81, revelando liderança espiritual e uma autoridade mental baseada na experiência. Sugere que sua consciência atingiu um nível de autonomia onde suas convicções internas servem de guia para muitas outras pessoas.",
+"82": "Esta vibração se origina da potência 82, indicando forte senso de autoridade intelectual e responsabilidade. Revela que você possui consciência do peso de suas palavras e pensamentos, agindo com a cautela e a firmeza de quem conhece as leis da vida.",
+"83": "Esta vibração se origina da potência 83, indicando facilidade de comunicação e um raciocínio estratégico rápido. Sugere que sua mente processa informações em alta velocidade, permitindo que você se expresse com uma clareza que convence e lidera.",
+"84": "Esta vibração se origina da potência 84, indicando responsabilidade intelectual em assuntos práticos e sociais. Revela uma consciência que se preocupa em transformar ideias em benefícios coletivos, unindo a lógica financeira ao bem-estar humano.",
+"85": "Esta vibração se origina da potência 85, indicando aprendizado sobre a responsabilidade do poder mental. Sugere a necessidade de usar sua inteligência para mediar conflitos e promover a justiça, evitando que o intelecto se torne uma ferramenta de dominação.",
+"86": "Esta vibração se origina da potência 86, indicando desafios intelectuais ligados a grandes responsabilidades e deveres. Revela que sua mente é testada em situações de pressão, onde a calma e a organização são suas únicas aliadas para o sucesso.",
+"87": "Esta vibração se origina da potência 87, revelando aprendizado espiritual através das relações e das vivências mentais. Indica que cada troca de ideias é uma oportunidade para expandir sua alma, encontrando o sagrado no ato de compreender o outro.",
+"88": "Esta vibração se origina da potência 88, indicando grande poder mental e uma consciência executiva excepcional. Sugere que sua mente é capaz de arquitetar grandes conquistas, desde que você mantenha o equilíbrio entre a ambição e a paz interior.",
+"89": "Esta vibração se origina da potência 89, indicando experiências intensas ligadas ao poder intelectual e ao desapego. Revela que sua mente passa por processos de purificação, onde apenas o que é essencial e verdadeiro permanece em sua consciência.",
+"90": "Esta vibração se origina da potência 90, indicando o encerramento de ciclos intelectuais e a síntese de todo o conhecimento adquirido. Sugere um momento de vida onde sua mente se torna uma biblioteca de sabedoria, pronta para ser compartilhada com o mundo.",
+"91": "Esta vibração se origina da potência 91, revelando amadurecimento mental através de experiências marcantes e autonomia. Indica que sua consciência se libertou de influências externas, permitindo que você pense e aja com total fidelidade à sua essência.",
+"92": "Esta vibração se origina da potência 92, revelando intuição profunda e uma percepção espiritual que guia seu intelecto. Sugere que sua mente funciona como um canal, recebendo orientações que transcendem a lógica comum e trazem soluções iluminadas.",
+"93": "Esta vibração se origina da potência 93, revelando maturidade mental e uma visão ampla da vida. Indica que você compreende a interconexão de todas as coisas, usando sua criatividade para expressar verdades que tocam o coração e a mente da humanidade.",
+"94": "Esta vibração se origina da potência 94, revelando processos de transformação que consolidam sua estrutura mental. Sugere que sua consciência encontrou o equilíbrio perfeito entre a disciplina prática e a sabedoria espiritual, vivendo com total coerência.",
+"95": "Esta vibração se origina da potência 95, revelando transformações importantes na sua forma de pensar, movidas pela busca de liberdade. Indica uma mente que se renova constantemente, mantendo-se jovem, curiosa e sempre aberta ao fluxo da vida.",
+"96": "Esta vibração se origina da potência 96, indicando maturidade emocional e mental conquistada através da responsabilidade. Revela que seu pensamento é agora um porto seguro para os outros, oferecendo clareza e acolhimento em momentos de incerteza.",
+"97": "Esta vibração se origina da potência 97, revelando maturidade intelectual profunda e uma sabedoria que vem da observação silenciosa. Sugere que você desvendou os códigos da própria mente, vivendo com uma lucidez que poucos conseguem atingir.",
+"98": "Esta vibração se origina da potência 98, revelando maturidade e compreensão profunda das leis da vida. Indica que sua mente está em paz com o passado e focada em usar seu poder intelectual para construir um presente justo e equilibrado.",
+"99": "Esta vibração se origina da potência 99, revelando uma elevada compreensão espiritual e mental. Indica o estado de consciência onde o conhecimento se torna compaixão universal, permitindo que você enxergue a perfeição divina em todos os processos da vida humana."
+};
 const textosPotenciaisSocial = { "11": "...", "12": "..." };
 const textosPotenciaisDestino = { "11": "...", "12": "..." };
 
@@ -450,296 +541,60 @@ const textosPessoal={
 
 
 
-1:`
-<h3>Autonomia Mental e Consciência Individual</h3> 
 
+1: `<h3>Autonomia Mental e Consciência Individual</h3> 
 <p>Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
-
 <p>Essa regência revela uma mente ativa, direta e orientada para a ação. No campo interior você tende a confiar na própria opinião e prefere construir suas conclusões através da experiência pessoal. Existe forte necessidade de autonomia no pensamento e resistência natural a imposições externas.</p>
-
-<p>Quando essa vibração se origina da potência 10 pode indicar mente criativa e facilidade para iniciar projetos ou ideias originais.</p>
-
-<p>Quando se origina da potência 19 pode revelar conflitos internos relacionados ao orgulho ou à necessidade de aprender lições de humildade.</p>
-
-<p>Quando se origina da potência 28 pode indicar tendência a enfrentar disputas de ideias ou desafios intelectuais.</p>
-
-<p>Quando se origina da potência 37 revela inteligência estratégica e facilidade para encontrar soluções rápidas.</p>
-
-<p>Quando se origina da potência 46 pode indicar mente prática voltada para conquistas materiais.</p>
-
-<p>Quando se origina da potência 55 revela pensamento inquieto e forte desejo de liberdade intelectual.</p>
-
-<p>Quando se origina da potência 64 pode indicar mudanças repentinas na forma de pensar ou momentos de revisão profunda de ideias.</p>
-
-<p>Quando se origina da potência 73 revela tendência a reflexões profundas e busca de conhecimento interior.</p>
-
-<p>Quando se origina da potência 82 pode indicar forte senso de autoridade intelectual.</p>
-
-<p>Quando se origina da potência 91 revela amadurecimento mental através de experiências marcantes.</p>
-
-<p>No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias.</p>
-
-<p>No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade de ouvir opiniões diferentes.</p>
-
+<p>No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias. No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade de ouvir opiniões diferentes.</p>
 <p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.</p>`,
 
-2:`
-<h3> Sensibilidade Intelectual e Percepção Psicológica</h3>  
-
+2: `<h3>Sensibilidade Intelectual e Percepção Psicológica</h3>  
 <p>Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
-
 <p>Essa regência revela mente observadora e sensível aos detalhes das relações humanas. Você tende a perceber facilmente o ambiente emocional das situações e das pessoas, desenvolvendo forte capacidade de empatia e compreensão psicológica.</p>
-
-<p>Quando essa vibração se origina da potência 29 pode indicar inteligência sensível acompanhada de conflitos emocionais que exigem equilíbrio interior.</p>
-
-<p>Quando se origina da potência 38 revela talento criativo e sensibilidade artística.</p>
-
-<p>Quando se origina da potência 47 pode indicar mente organizada e habilidade para lidar com assuntos práticos.</p>
-
-<p>Quando se origina da potência 56 revela pensamento ativo e espírito competitivo.</p>
-
-<p>Quando se origina da potência 65 pode indicar forte ligação entre pensamento e emoções.</p>
-
-<p>Quando se origina da potência 74 revela necessidade de disciplina mental.</p>
-
-<p>Quando se origina da potência 83 pode indicar facilidade de comunicação e raciocínio rápido.</p>
-
-<p>Quando se origina da potência 92 revela intuição profunda e percepção espiritual.</p>
-
-<p>No aspecto positivo manifesta empatia, diplomacia, percepção emocional e inteligência intuitiva.</p>
-
-<p>No aspecto negativo pode gerar insegurança mental, indecisão ou tendência a absorver excessivamente os problemas dos outros.</p>
-
+<p>No aspecto positivo manifesta empatia, diplomacia, percepção emocional e inteligência intuitiva. No aspecto negativo pode gerar insegurança mental, indecisão ou tendência a absorver excessivamente os problemas dos outros.</p>
 <p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.</p>`,
 
-3:`
-<h3>Criatividade Mental e Expressão Intelectual</h3>  
-
+3: `<h3>Criatividade Mental e Expressão Intelectual</h3>  
 <p>Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.</p>
-
 <p>Essa regência revela mente dinâmica, comunicativa e inclinada à expressão verbal ou artística. Existe facilidade para aprender através da observação, da conversa e do intercâmbio de ideias.</p>
-
-<p>Quando essa vibração se origina da potência 12 pode indicar momentos de sacrifício ou aprendizado profundo que transformam sua forma de pensar.</p>
-
-<p>Quando se origina da potência 21 revela facilidade para crescimento intelectual através das relações sociais.</p>
-
-<p>Quando se origina da potência 30 pode indicar forte imaginação e criatividade mental.</p>
-
-<p>Quando se origina da potência 39 revela entusiasmo intelectual e sociabilidade.</p>
-
-<p>Quando se origina da potência 48 pode indicar desafios relacionados à disciplina mental.</p>
-
-<p>Quando se origina da potência 57 revela inteligência estratégica e visão analítica.</p>
-
-<p>Quando se origina da potência 66 pode indicar forte sensibilidade emocional influenciando o pensamento.</p>
-
-<p><p>Quando se origina da potência 75 revela mente investigativa e reflexiva.</p>
-
-<p><p>Quando se origina da potência 84 pode indicar responsabilidade intelectual em assuntos materiais.</p>
-
-<p>Quando se origina da potência 93 revela maturidade mental e visão ampla da vida.</p>
-
-<p>No aspecto positivo manifesta criatividade, comunicação clara, imaginação e entusiasmo intelectual.</p>
-
-<p>No aspecto negativo pode gerar dispersão, superficialidade ou dificuldade de manter foco em objetivos.</p>
-
+<p>No aspecto positivo manifesta criatividade, comunicação clara, imaginação e entusiasmo intelectual. No aspecto negativo pode gerar dispersão, superficialidade ou dificuldade de manter foco em objetivos.</p>
 <p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.</p>`,
 
-4:`
-<h3>Estrutura Mental e Disciplina Intelectual</h3> 
-
+4: `<h3>Estrutura Mental e Disciplina Intelectual</h3> 
 <p>Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
-
 <p>Essa regência revela mente prática e analítica, inclinada a organizar pensamentos de forma objetiva. Existe forte necessidade de segurança intelectual e coerência nas decisões.</p>
-
-<p>Quando essa vibração se origina da potência 13 pode indicar transformações profundas na forma de pensar.</p>
-
-<p>Quando se origina da potência 22 revela potencial intelectual voltado para grandes projetos ou liderança.</p>
-
-<p>Quando se origina da potência 31 pode indicar talento para comunicação estruturada.</p>
-
-<p>Quando se origina da potência 40 revela períodos de reflexão profunda.</p>
-
-<p>Quando se origina da potência 49 pode indicar mudanças importantes na visão de mundo.</p>
-
-<p>Quando se origina da potência 58 revela desafios ligados ao poder intelectual.</p>
-
-<p>Quando se origina da potência 67 pode indicar interesse por conhecimento espiritual.</p>
-
-<p>Quando se origina da potência 76 revela mente introspectiva e investigativa.</p>
-
-<p>Quando se origina da potência 85 pode indicar aprendizado sobre responsabilidade intelectual.</p>
-
-<p>Quando se origina da potência 94 revela maturidade mental através das experiências.</p>
-
-<p>No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico.</p>
-
-<p>No aspecto negativo pode gerar rigidez de pensamento ou resistência a novas ideias.</p>
-
+<p>No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico. No aspecto negativo pode gerar rigidez de pensamento ou resistência a novas ideias.</p>
 <p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.</p>`,
 
-5:`
-<h3> Curiosidade Intelectual e Movimento Mental</h3>  
-
+5: `<h3>Curiosidade Intelectual e Movimento Mental</h3>  
 <p>Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.</p>
-
-<p>Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista.</p>
-
-<p>Quando essa vibração se origina da potência 14 pode indicar talento para comunicação pública.</p>
-
-<p>Quando se origina da potência 23 revela auxílio intelectual de pessoas influentes.</p>
-
-<p>Quando se origina da potência 32 pode indicar criatividade e facilidade de expressão.</p>
-
-<p>Quando se origina da potência 41 revela liderança intelectual.</p>
-
-<p>Quando se origina da potência 50 pode indicar períodos de reflexão mental.</p>
-
-<p>Quando se origina da potência 59 revela sensibilidade espiritual.</p>
-
-<p>Quando se origina da potência 68 pode indicar aprendizado relacionado ao poder material.</p>
-
-<p>Quando se origina da potência 77 revela forte inclinação para estudos profundos.</p>
-
-<p>Quando se origina da potência 86 pode indicar desafios intelectuais ligados a responsabilidades.</p>
-
-<p>Quando se origina da potência 95 revela transformações importantes na forma de pensar.</p>
-
-<p>No aspecto positivo manifesta inteligência versátil, curiosidade e capacidade de adaptação.</p>
-
-<p>No aspecto negativo pode gerar inquietação mental ou dificuldade de concentração.</p>
-
+<p>Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista. No campo interior, o movimento constante é o que mantém sua motivação elevada.</p>
+<p>No aspecto positivo manifesta inteligência versátil, curiosidade e capacidade de adaptação. No aspecto negativo pode gerar inquietação mental ou dificuldade de concentração.</p>
 <p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.</p>`,
 
-6:`
-<h3>Consciência Emocional e Harmonia Interior</h3>
-
+6: `<h3>Consciência Emocional e Harmonia Interior</h3>
 <p>Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.</p>
-
-<p>Essa regência revela mente sensível às relações afetivas e forte preocupação com o bem-estar das pessoas próximas.</p>
-
-<p>Quando essa vibração se origina da potência 15 pode indicar magnetismo emocional e forte influência afetiva.</p>
-
-<p>Quando se origina da potência 24 revela facilidade para construir relações estáveis.</p>
-
-<p>Quando se origina da potência 33 indica generosidade e vocação para ajudar os outros.</p>
-
-<p>Quando se origina da potência 42 pode indicar responsabilidades emocionais importantes.</p>
-
-<p>Quando se origina da potência 51 revela mudanças emocionais marcantes.</p>
-
-<p>Quando se origina da potência 60 pode indicar momentos de reflexão interior.</p>
-
-<p>Quando se origina da potência 69 revela forte sensibilidade afetiva.</p>
-
-<p>Quando se origina da potência 78 pode indicar desafios ligados ao autocontrole emocional.</p>
-
-<p>Quando se origina da potência 87 revela aprendizado espiritual através das relações.</p>
-
-<p>Quando se origina da potência 96 indica maturidade emocional conquistada ao longo do tempo.</p>
-
-<p>No aspecto positivo manifesta amor, compaixão e capacidade de harmonizar ambientes.</p>
-
-<p>No aspecto negativo pode gerar dependência emocional ou excesso de preocupação com os outros.</p>
-
+<p>Essa regência revela mente sensível às relações afetivas e forte preocupação com o bem-estar das pessoas próximas. Seu equilíbrio mental depende diretamente da paz nos seus relacionamentos.</p>
+<p>No aspecto positivo manifesta amor, compaixão e capacidade de harmonizar ambientes. No aspecto negativo pode gerar dependência emocional ou excesso de preocupação com os outros.</p>
 <p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.</p>`,
 
-7:`
-<h3>Investigação Mental e Busca de Sabedoria</h3> 
-
+7: `<h3>Investigação Mental e Busca de Sabedoria</h3> 
 <p>Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.</p>
-
-<p>Essa regência revela mente analítica e tendência natural a refletir sobre os mistérios da vida.</p>
-
-<p>Quando essa vibração se origina da potência 16 pode indicar experiências que provocam mudanças profundas na forma de pensar.</p>
-
-<p>Quando se origina da potência 25 revela sensibilidade intelectual.</p>
-
-<p>Quando se origina da potência 34 pode indicar criatividade mental.</p>
-
-<p>Quando se origina da potência 43 revela liderança intelectual.</p>
-
-<p>Quando se origina da potência 52 indica aprendizado através das experiências práticas.</p>
-
-<p>Quando se origina da potência 61 revela sensibilidade espiritual.</p>
-
-<p>Quando se origina da potência 70 pode indicar períodos de recolhimento mental.</p>
-
-<p>Quando se origina da potência 79 revela intensa busca por conhecimento.</p>
-
-<p>Quando se origina da potência 88 pode indicar grande poder mental.</p>
-
-<p>Quando se origina da potência 97 revela maturidade intelectual profunda.</p>
-
-<p>No aspecto positivo manifesta sabedoria, intuição e capacidade de análise profunda.</p>
-
-<p>No aspecto negativo pode gerar isolamento mental ou excesso de introspecção.</p>
-
+<p>Essa regência revela mente analítica e tendência natural a refletir sobre os mistérios da vida. Você busca a verdade por trás das aparências e valoriza o silêncio para processar informações.</p>
+<p>No aspecto positivo manifesta sabedoria, intuição e capacidade de análise profunda. No aspecto negativo pode gerar isolamento mental ou excesso de introspecção.</p>
 <p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.</p>`,
 
-8:`
-<h3> Força Mental e Consciência de Poder</h3>  
+8: `<h3>Força Mental e Consciência de Poder</h3>  
+<p>Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
+<p>Essa regência revela mente estratégica e capacidade de liderança intelectual. Você possui uma visão de longo prazo e entende as implicações práticas de cada pensamento e decisão.</p>
+<p>No aspecto positivo manifesta liderança intelectual, disciplina e senso de justiça. No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</p>
+<p>O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
 
-Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
-
-Essa regência revela mente estratégica e capacidade de liderança intelectual.</p>
-
-Quando essa vibração se origina da potência 17 pode indicar proteção espiritual.</p>
-
-Quando se origina da potência 26 revela aprendizado relacionado a responsabilidades materiais.</p>
-
-Quando se origina da potência 35 pode indicar inteligência estratégica.</p>
-
-Quando se origina da potência 44 revela grande poder de liderança.</p>
-
-Quando se origina da potência 53 pode indicar mudanças inesperadas na visão de mundo.</p>
-
-Quando se origina da potência 62 revela aprendizado através das relações.</p>
-
-Quando se origina da potência 71 indica mente analítica e investigativa.</p>
-
-Quando se origina da potência 89 pode indicar experiências intensas ligadas ao poder.</p>
-
-Quando se origina da potência 98 revela maturidade e compreensão profunda da vida.</p>
-
-No aspecto positivo manifesta liderança intelectual, disciplina e senso de justiça.</p>
-
-No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</p>
-
-O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
-
-9:`
-<h3> Consciência Interior e Sabedoria Mental </h3> 
-
-Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
-
-Essa regência revela mente filosófica, sensível e inclinada a compreender o significado das experiências da vida.</p>
-
-Quando essa vibração se origina da potência 18 pode indicar conflitos emocionais que conduzem ao amadurecimento mental.</p>
-
-Quando se origina da potência 27 revela sensibilidade espiritual.</p>
-
-Quando se origina da potência 36 pode indicar criatividade aliada à sensibilidade.</p>
-
-Quando se origina da potência 45 revela aprendizado através de responsabilidades.</p>
-
-Quando se origina da potência 54 pode indicar mudanças importantes na forma de pensar.</p>
-
-Quando se origina da potência 63 revela maturidade emocional.</p>
-
-Quando se origina da potência 72 indica forte percepção intuitiva.</p>
-
-Quando se origina da potência 81 revela liderança espiritual.</p>
-
-Quando se origina da potência 90 pode indicar encerramento de ciclos intelectuais.</p>
-
-Quando se origina da potência 99 revela elevada compreensão espiritual.</p>
-
-No aspecto positivo manifesta sabedoria, compaixão e visão ampla da vida.</p>
-
-No aspecto negativo pode gerar isolamento mental ou excesso de idealismo.</p>
-
-O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria.</p>`,
+9: `<h3>Consciência Interior e Sabedoria Mental</h3> 
+<p>Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
+<p>Essa regência revela mente filosófica, sensível e inclinada a compreender o significado das experiências da vida. Sua percepção ultrapassa o óbvio, buscando uma conexão com o coletivo e o humanitário.</p>
+<p>No aspecto positivo manifesta sabedoria, compaixão e visão ampla da vida. No aspecto negativo pode gerar isolamento mental ou excesso de idealismo.</p>
+<p>O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria.</p>`,
 
 
   
