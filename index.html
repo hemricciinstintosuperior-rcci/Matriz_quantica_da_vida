@@ -2404,13 +2404,13 @@ meuHtml += `
 
     
 // Usamos o operador { ... } para enviar os dois bancos de textos juntos
-meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, { ...explicacoes.principal, ...resultadoPotencia.principal }, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
+meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, ...resultadoPotencia.principal, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
 
-meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, { ...explicacoes.pessoal, ...resultadoPotencia.pessoal }, window.introsPiramides.pessoal.intro, window.introsPiramides.pessoal.regente, nome);
+meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, resultadoPotencia.pessoal, window.introsPiramides.pessoal.intro, window.introsPiramides.pessoal.regente, nome);
 
-meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, { ...explicacoes.social, ...resultadoPotencia.social }, window.introsPiramides.social.intro, window.introsPiramides.social.regente, nome);
+meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social, resultadoPotencia.social, window.introsPiramides.social.intro, window.introsPiramides.social.regente, nome);
 
-meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, { ...explicacoes.destino, ...resultadoPotencia.destino }, window.introsPiramides.destino.intro, window.introsPiramides.destino.regente, nome);
+meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino, resultadoPotencia.destino, window.introsPiramides.destino.intro, window.introsPiramides.destino.regente, nome);
 
           
        
