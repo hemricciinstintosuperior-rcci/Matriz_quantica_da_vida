@@ -974,17 +974,38 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
 
 
 
+/* O Segredo do Triângulo Invertido no Regente */
 .destaque-regente {
-    background-color: #000 !important; /* Dourado/Amarelo */
-    color: #615B3A !important;
+    background-color: #FFD700 !important; /* Cor Dourada */
+    color: #000E52 !important;           /* Azul escuro para o número */
     font-weight: 900 !important;
-    border: 2px solid #615B3A !important; /* Borda para destacar no fundo */
-    transform: scale(1.1); /* Dá um leve destaque de tamanho */
-    border-left: 22px solid transparent;  /* Lado esquerdo */
-    border-right: 22px solid transparent; /* Lado direito */
-    border-top: 38px solid #615B3A;       /* Fundo Branco do triângulo */ 
+    
+    /* Cria o formato de triângulo invertido */
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    
+    /* Ajustes de tamanho para o triângulo aparecer bem */
+    width: 32px !important; 
+    height: 32px !important;
+    display: flex !important;
+    align-items: flex-start !important; /* Alinha o número mais para o topo do triângulo */
+    justify-content: center !important;
+    padding-top: 2px;                   /* Ajuste fino para o número não sumir na ponta */
+    
+    transform: scale(1.3);              /* Deixa ele um pouco maior que os outros */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
 }
 
+/* Efeito opcional: Brilho pulsante no Regente */
+@keyframes pulsarRegente {
+    0% { filter: drop-shadow(0 0 2px #FFD700); }
+    50% { filter: drop-shadow(0 0 8px #FFD700); }
+    100% { filter: drop-shadow(0 0 2px #FFD700); }
+}
+
+.destaque-regente {
+    animation: pulsarRegente 2s infinite;
+}
 
 
     
