@@ -184,7 +184,103 @@ const textosPotenciaisPessoal = {
 "98": "Esta vibração se origina da potência 98, revelando maturidade e compreensão profunda das leis da vida. Indica que sua mente está em paz com o passado e focada em usar seu poder intelectual para construir um presente justo e equilibrado.",
 "99": "Esta vibração se origina da potência 99, revelando uma elevada compreensão espiritual e mental. Indica o estado de consciência onde o conhecimento se torna compaixão universal, permitindo que você enxergue a perfeição divina em todos os processos da vida humana."
 };
-const textosPotenciaisSocial = { "11": "...", "12": "..." };
+
+
+
+const textosPotenciaisSocial = {
+"10": "Esta vibração se origina da potência 10, indicando uma percepção de ambientes sociais dinâmicos e cheios de oportunidades. Revela que você enxerga o mundo como um palco de novos começos, onde a liderança e a coragem são os motores que abrem portas em qualquer grupo social.",
+"11": "Esta vibração se origina da potência 11, trazendo uma visão intuitiva sobre as intenções alheias. Sugere que você percebe o meio social como um campo de trocas vibracionais, onde a inspiração e o exemplo pessoal têm mais poder de influência do que palavras ou cargos.",
+"12": "Esta vibração se origina da potência 12, indicando percepção de pessoas que passam por processos de sacrifício ou mudança de rumo. Revela que você enxerga a necessidade de adaptação social e entende que, às vezes, o recuo estratégico é fundamental para o sucesso coletivo.",
+"13": "Esta vibração se origina da potência 13, indicando percepção de mudanças intensas e necessárias nas relações sociais. Sugere que você enxerga quando um ciclo social precisa terminar, percebendo a renovação das amizades e grupos como algo natural e evolutivo.",
+"14": "Esta vibração se origina da potência 14, revelando uma percepção de ambientes onde a comunicação e o equilíbrio são valorizados. Indica que você observa como as pessoas se expressam publicamente, reconhecendo a importância da temperança para o convívio social harmonioso.",
+"15": "Esta vibração se origina da potência 15, indicando percepção de um forte magnetismo social ao seu redor. Sugere que você identifica facilmente as paixões e os desejos que movem os grupos, percebendo a força de atração e influência que certas pessoas exercem no meio.",
+"16": "Esta vibração se origina da potência 16, indicando percepção de mudanças bruscas no comportamento coletivo ou em estruturas sociais. Revela que você está atento a como as crises podem derrubar aparências e expor a verdadeira essência das relações humanas.",
+"17": "Esta vibração se origina da potência 17, indicando percepção de proteção ou reconhecimento social gradativo. Sugere que você enxerga o meio como um lugar de esperança, onde o sucesso é fruto de uma conduta ética e de uma rede de apoio espiritualmente alinhada.",
+"18": "Esta vibração se origina da potência 18, revelando visão sobre conflitos emocionais ocultos no meio social. Indica que você percebe as inseguranças e as sombras das pessoas ao seu redor, sendo necessário discernimento para não se deixar levar por intrigas ou aparências enganosas.",
+"19": "Esta vibração se origina da potência 19, revelando uma visão crítica sobre atitudes de orgulho ou autoritarismo no ambiente social. Indica que você identifica rapidamente quando alguém tenta se impor pela força, valorizando mais a luz de quem lidera com generosidade.",
+"20": "Esta vibração se origina da potência 20, sugerindo uma percepção social baseada no julgamento de caráter e nas escolhas do passado. Revela que você observa como as pessoas lidam com suas colheitas, percebendo o meio social como um tribunal de constantes aprendizados.",
+"21": "Esta vibração se origina da potência 21, revelando ambientes sociais dinâmicos, expansivos e comunicativos. Sugere que você enxerga o mundo como um lugar globalizado e interconectado, onde o sucesso social vem da capacidade de se sentir parte de um todo maior.",
+"22": "Esta vibração se origina da potência 22, revelando ambientes sociais ligados a grandes responsabilidades e projetos coletivos. Indica que você percebe quem são as pessoas capazes de construir legados e como a organização social pode transformar a realidade material.",
+"23": "Esta vibração se origina da potência 23, revelando percepção de proteção social e a influência de mentores ou pessoas experientes. Sugere que você enxerga os benefícios de boas alianças, percebendo como o apoio mútuo facilita o caminho para o reconhecimento público.",
+"24": "Esta vibração se origina da potência 24, revelando ambientes harmoniosos onde a cooperação familiar ou grupal é o foco. Indica que você observa o meio social como uma extensão do lar, valorizando círculos onde a segurança e a lealdade são prioridades.",
+"25": "Esta vibração se origina da potência 25, indicando percepção de ambientes intelectuais e reflexivos. Sugere que você identifica rapidamente o nível de conhecimento das pessoas ao redor, sentindo-se atraído por meios onde o estudo e a análise são os critérios de valor.",
+"26": "Esta vibração se origina da potência 26, revelando aprendizado através de responsabilidades práticas e hierarquias sociais. Indica que você observa como o poder e o dinheiro circulam nos grupos, percebendo a importância da justiça nas trocas interpessoais.",
+"27": "Esta vibração se origina da potência 27, revelando sensibilidade espiritual nas relações humanas. Sugere que você enxerga o meio social com compaixão, identificando as necessidades anímicas das pessoas e o potencial transformador de atos de bondade coletiva.",
+"28": "Esta vibração se origina da potência 28, indicando percepção de disputas, rivalidades ou momentos de competição no meio social. Revela que você está atento às lutas de interesse, aprendendo a identificar quem joga limpo e quem usa a estratégia para se sobrepor.",
+"29": "Esta vibração se origina da potência 29, indicando percepção de ambientes sociais emocionalmente complexos e instáveis. Revela que você enxerga as fragilidades psicológicas das pessoas, o que exige tato social para navegar em meios onde a sensibilidade está à flor da pele.",
+"30": "Esta vibração se origina da potência 30, indicando percepção de criatividade coletiva e entusiasmo nas interações. Sugere que você enxerga o mundo como um lugar vibrante, sentindo-se motivado por ambientes que estimulam a arte, a festa e a livre expressão.",
+"31": "Esta vibração se origina da potência 31, indicando percepção de comunicação estruturada e de pessoas disciplinadas no meio social. Revela que você valoriza a clareza e a ordem nas relações, sentindo-se confortável em grupos onde as metas são bem definidas.",
+"32": "Esta vibração se origina da potência 32, indicando percepção de ambientes sociais versáteis e cheios de movimento. Sugere que você enxerga como a adaptabilidade das pessoas garante a sobrevivência e o sucesso nos grupos, valorizando a inteligência social fluida.",
+"33": "Esta vibração se origina da potência 33, revelando percepção de generosidade coletiva e ideais humanitários. Indica que você identifica pessoas com vocação para o serviço e o cuidado, percebendo o meio social como um campo fértil para a prática do amor fraternal.",
+"34": "Esta vibração se origina da potência 34, indicando criatividade social aliada à inteligência investigativa. Sugere que você observa como as ideias originais são implantadas na sociedade, percebendo a técnica por trás das inovações que movem os grupos.",
+"35": "Esta vibração se origina da potência 35, revelando percepção de inteligência estratégica e agilidade nas relações sociais. Indica que você enxerga o 'jogo' social com clareza, identificando rapidamente quem sabe negociar e quem possui visão de futuro.",
+"36": "Esta vibração se origina da potência 36, indicando percepção de ambientes onde a criatividade e a harmonia afetiva se misturam. Revela que você observa como os laços de amizade profunda podem gerar frutos produtivos e um clima social acolhedor.",
+"37": "Esta vibração se origina da potência 37, revelando visão estratégica e analítica das relações sociais. Sugere que você percebe o meio como uma rede de inteligências, valorizando o contato com pessoas que oferecem conhecimento e soluções práticas.",
+"38": "Esta vibração se origina da potência 38, revelando visão sensível das relações humanas e dos talentos artísticos alheios. Indica que você percebe a beleza e a vulnerabilidade das pessoas, atraindo círculos onde a expressão emocional é respeitada.",
+"39": "Esta vibração se origina da potência 39, revelando ambientes sociais animados, sociáveis e cheios de entusiasmo. Sugere que você enxerga o lado positivo das interações, percebendo como o otimismo coletivo pode impulsionar grandes conquistas e parcerias.",
+"40": "Esta vibração se origina da potência 40, revelando percepção de ambientes marcados por reflexão, pausa ou conservadorismo. Indica que você observa como o tempo e a paciência consolidam as relações sociais, valorizando a tradição e a estabilidade dos grupos.",
+"41": "Esta vibração se origina da potência 41, revelando percepção de liderança social voltada à realização prática e executiva. Sugere que você identifica quem são os realizadores em um grupo, focando sua atenção em pessoas que entregam resultados concretos.",
+"42": "Esta vibração se origina da potência 42, revelando percepção de fortes responsabilidades familiares e deveres sociais nas pessoas. Indica que você observa o peso que os compromissos afetivos exercem sobre o comportamento coletivo e as dinâmicas de grupo.",
+"43": "Esta vibração se origina da potência 43, revelando percepção de liderança intelectual e autoridade no conhecimento no meio social. Sugere que você identifica as mentes brilhantes de um círculo, valorizando quem possui profundidade técnica e sabedoria teórica.",
+"44": "Esta vibração se origina da potência 44, revelando percepção de ambientes sociais ligados a grandes estruturas de poder e gestão. Indica que você observa como o comando organizado pode sustentar comunidades inteiras, valorizando a disciplina social.",
+"45": "Esta vibração se origina da potência 45, revelando percepção de responsabilidade social e compromisso ético. Sugere que você enxerga o dever das pessoas para com o mundo material, valorizando aqueles que trabalham com honestidade e senso de utilidade pública.",
+"46": "Esta vibração se origina da potência 46, indicando percepção de ambientes voltados ao trabalho, ao esforço e às conquistas materiais. Revela que você observa como a persistência individual gera respeito e estabilidade dentro de um contexto social competitivo.",
+"47": "Esta vibração se origina da potência 47, indicando percepção de ambientes sociais organizados, técnicos ou estruturados. Sugere que você enxerga a eficiência como um valor social, sentindo-se atraído por grupos onde a competência é o principal critério de inclusão.",
+"48": "Esta vibração se origina da potência 48, indicando percepção de conflitos relacionados à desorganização ou falta de disciplina social. Revela que você percebe quando um grupo está sem rumo, sentindo a necessidade de ordem para que o meio social seja produtivo.",
+"49": "Esta vibração se origina da potência 49, indicando percepção de conflitos ou transformações sociais profundas. Sugere que você observa as tensões que precedem as grandes mudanças no mundo, compreendendo que o caos social muitas vezes esconde um novo despertar.",
+"50": "Esta vibração se origina da potência 50, indicando períodos de pausa ou reflexão coletiva no ambiente social. Revela que você percebe quando um grupo precisa parar para reavaliar seus valores, valorizando o tempo de maturação das relações interpessoais.",
+"51": "Esta vibração se origina da potência 51, revelando percepção de mudanças sociais importantes e súbitas na forma como as pessoas se relacionam. Indica que você observa a instabilidade emocional do meio, adaptando sua visão social conforme o fluxo dos acontecimentos.",
+"52": "Esta vibração se origina da potência 52, indicando aprendizado através das experiências sociais práticas e diretas. Revela que você observa como o comportamento humano se manifesta no dia a dia, extraindo lições realistas da convivência com diferentes perfis.",
+"53": "Esta vibração se origina da potência 53, indicando mudanças inesperadas no meio social que exigem flexibilidade. Sugere que você enxerga a volatilidade das amizades e parcerias, aprendendo a não se prender a estruturas sociais que não fazem mais sentido.",
+"54": "Esta vibração se origina da potência 54, indicando percepção de mudanças sociais voltadas à melhoria e reforma do ambiente. Revela que você identifica pessoas engajadas em transformar a realidade ao seu redor, sentindo-se parte de movimentos de progresso.",
+"55": "Esta vibração se origina da potência 55, revelando ambientes sociais inquietos ou marcados pela busca incessante de liberdade e novidade. Sugere que você percebe a rebeldia e a ousadia das pessoas, valorizando meios onde a regra é não ter regras fixas.",
+"56": "Esta vibração se origina da potência 56, revelando percepção de ambientes sociais ativos, vibrantes e competitivos. Indica que você observa a energia de conquista que move as pessoas, reconhecendo a importância da iniciativa para o sucesso coletivo.",
+"57": "Esta vibração se origina da potência 57, revelando percepção de ambientes onde a estratégia, a inteligência e o silêncio são valorizados. Sugere que você enxerga as intenções por trás dos gestos, preferindo círculos sociais discretos e de alto nível intelectual.",
+"58": "Esta vibração se origina da potência 58, revelando percepção de disputas por poder ou recursos no meio social. Indica que você observa como as ambições individuais podem gerar tensões nos grupos, exigindo equilíbrio para não se envolver em lutas de ego inúteis.",
+"59": "Esta vibração se origina da potência 59, revelando percepção de ambientes sociais espiritualizados, sensíveis ou intuitivos. Sugere que você identifica pessoas conectadas com o transcendente, valorizando grupos onde a alma é mais importante que as aparências.",
+"60": "Esta vibração se origina da potência 60, revelando percepção de momentos de reflexão emocional coletiva e busca de harmonia. Indica que você observa o clima afetivo de um grupo, percebendo quando a paz no lar ou na comunidade é a prioridade das pessoas.",
+"61": "Esta vibração se origina da potência 61, revelando sensibilidade espiritual nas relações sociais e um olhar para o que é nobre. Sugere que você identifica a beleza e a ética nas atitudes alheias, sentindo-se atraído por meios onde o caráter é o valor supremo.",
+"62": "Esta vibração se origina da potência 62, revelando aprendizado social através das relações humanas e trocas afetivas. Indica que você observa como a vida em parceria molda a personalidade das pessoas, valorizando a união como fator de crescimento social.",
+"63": "Esta vibração se origina da potência 63, revelando percepção de maturidade emocional coletiva e empatia. Sugere que você enxerga a capacidade das pessoas de lidar com as próprias dores, valorizando ambientes onde o apoio mútuo é real e sincero.",
+"64": "Esta vibração se origina da potência 64, indicando percepção de mudanças repentinas nas relações sociais ou rupturas de parcerias. Revela que você observa a impermanência dos laços sociais, compreendendo que certas separações são necessárias para a evolução do grupo.",
+"65": "Esta vibração se origina da potência 65, indicando forte percepção das relações afetivas e das responsabilidades familiares no meio social. Sugere que você enxerga os compromissos de amor das pessoas, valorizando quem honra seus vínculos e sua história social.",
+"66": "Esta vibração se origina da potência 66, revelando percepção de grande sensibilidade social e desejo coletivo de harmonia. Indica que você observa o papel dos 'protetores' em um grupo, valorizando aqueles que se dedicam ao bem-estar e ao equilíbrio do ambiente.",
+"67": "Esta vibração se origina da potência 67, indicando percepção de ambientes ligados ao conhecimento profundo e estudo. Sugere que você identifica círculos sociais de especialistas e pesquisadores, onde a verdade intelectual é o elo que une as pessoas.",
+"68": "Esta vibração se origina da potência 68, indicando percepção de aprendizado sobre o poder material e gestão de recursos na sociedade. Revela que você observa como a integridade financeira das pessoas impacta o respeito e a influência que elas detêm no meio.",
+"69": "Esta vibração se origina da potência 69, revelando forte sensibilidade social e uma percepção aguçada das necessidades alheias. Sugere que você enxerga o mundo com olhos de cuidado, percebendo onde falta equilíbrio e onde o afeto pode restaurar a paz social.",
+"70": "Esta vibração se origina da potência 70, indicando percepção de períodos de reflexão coletiva ou recolhimento de um grupo. Revela que você observa quando um círculo social está 'para dentro', buscando respostas internas antes de se manifestar novamente no mundo.",
+"71": "Esta vibração se origina da potência 71, indicando uma análise profunda e investigativa das estruturas sociais. Sugere que você enxerga as engrenagens ocultas da sociedade, percebendo os motivos reais por trás dos comportamentos e tendências coletivas.",
+"72": "Esta vibração se origina da potência 72, indicando percepção intuitiva das pessoas e de seus estados anímicos. Revela que você possui um radar para as emoções sociais, sabendo exatamente quem é confiável e quem está escondendo sentimentos ou intenções reais.",
+"73": "Esta vibração se origina da potência 73, revelando tendência a observar as pessoas com uma análise psicológica profunda. Sugere que você enxerga a jornada de evolução de cada indivíduo dentro do grupo social, valorizando a sabedoria que nasce da experiência.",
+"74": "Esta vibração se origina da potência 74, revelando percepção de ambientes que exigem disciplina e ordem nas relações. Indica que você observa como a falta de estrutura pode prejudicar a harmonia social, valorizando grupos onde as regras de convivência são claras.",
+"75": "Esta vibração se origina da potência 75, revelando percepção de ambientes reflexivos, intelectuais e voltados ao estudo. Sugere que você enxerga o valor do conhecimento nas interações sociais, preferindo meios onde o diálogo é rico e pautado na busca pela verdade.",
+"76": "Esta vibração se origina da potência 76, revelando percepção de ambientes introspectivos ou reservados. Indica que você observa o valor da privacidade e da discrição nas relações sociais, valorizando pessoas que agem com sobriedade e seriedade técnica.",
+"77": "Esta vibração se origina da potência 77, revelando percepção de ambientes intelectuais de alto nível ou ligados ao oculto. Sugere que você enxerga o mistério e a profundidade nas relações sociais, buscando conexões com pessoas que possuem uma visão espiritual da vida.",
+"78": "Esta vibração se origina da potência 78, revelando percepção de desafios nas relações sociais e lutas internas das pessoas. Indica que você observa como o desequilíbrio emocional alheio impacta o ambiente, exigindo de você paciência e neutralidade social.",
+"79": "Esta vibração se origina da potência 79, revelando uma busca intensa por conhecimento social e verdade nas relações. Sugere que você observa as pessoas em sua essência mais nua, recusando máscaras sociais e valorizando a autenticidade acima de tudo.",
+"80": "Esta vibração se origina da potência 80, revelando percepção da necessidade de disciplina coletiva e gestão de poder. Indica que você observa as consequências da falta de comando no meio social, valorizando lideranças que mantêm a ordem com justiça e firmeza.",
+"81": "Esta vibração se origina da potência 81, revelando percepção de liderança social espiritualizada e autoridade moral. Sugere que você identifica quem são os guias naturais de um grupo, percebendo que o verdadeiro respeito social vem da coerência entre o que se fala e o que se vive.",
+"82": "Esta vibração se origina da potência 82, indicando percepção de disputas por poder pessoal ou responsabilidades coletivas. Revela que você observa como o ego pode corromper a liderança social, valorizando aqueles que exercem o comando com consciência das consequências.",
+"83": "Esta vibração se origina da potência 83, indicando percepção de pessoas comunicativas, intelectuais e estratégicas. Sugere que você enxerga o valor das palavras certas no momento certo, percebendo como o discurso pode mobilizar ou pacificar um ambiente social.",
+"84": "Esta vibração se origina da potência 84, indicando percepção de grandes responsabilidades sociais e deveres materiais coletivos. Revela que você observa o papel das instituições e dos grupos de trabalho na construção de uma sociedade mais justa e organizada.",
+"85": "Esta vibração se origina da potência 85, indicando percepção de lições relacionadas ao uso do poder e disputas de autoridade. Sugere que você observa os bastidores das hierarquias sociais, percebendo as tensões que surgem quando o controle se sobrepõe ao bem comum.",
+"86": "Esta vibração se origina da potência 86, indicando percepção de responsabilidades sociais intensas e deveres familiares pesados. Revela que você observa o esforço das pessoas para manter o equilíbrio entre o mundo público e o privado, valorizando a resiliência social.",
+"87": "Esta vibração se origina da potência 87, revelando aprendizado social através das relações e trocas espirituais. Sugere que você enxerga cada encontro social como um degrau evolutivo, percebendo as lições que a alma colhe ao interagir com a diversidade humana.",
+"88": "Esta vibração se origina da potência 88, indicando percepção de grande poder coletivo e força executiva em um grupo. Revela que você observa o potencial de realização de um meio social organizado, valorizando a ambição saudável e a capacidade de materializar metas.",
+"89": "Esta vibração se origina da potência 89, indicando percepção de conflitos de poder intensos e processos de desapego social. Sugere que você observa as quedas e ascensões das pessoas influentes, compreendendo as leis de mudança que regem o prestígio público.",
+"90": "Esta vibração se origina da potência 90, indicando percepção de encerramento de ciclos sociais e mudanças de paradigma coletivo. Revela que você observa como o tempo apaga velhas estruturas, preparando o meio social para uma nova consciência humanitária.",
+"91": "Esta vibração se origina da potência 91, revelando compreensão madura e autônoma das atitudes humanas no meio social. Sugere que você enxerga as motivações profundas das pessoas com total clareza, mantendo sua independência mental frente aos movimentos do grupo.",
+"92": "Esta vibração se origina da potência 92, revelando percepção de forte sensibilidade espiritual na observação das pessoas ao redor. Indica que você capta a aura social de um ambiente, sentindo as energias sutis que unem ou afastam os indivíduos em uma comunidade.",
+"93": "Esta vibração se origina da potência 93, revelando visão madura das relações humanas e sabedoria na comunicação social. Sugere que você enxerga o poder das histórias pessoais na construção do coletivo, valorizando a criatividade como forma de união humanitária.",
+"94": "Esta vibração se origina da potência 94, revelando percepção de transformações profundas e duradouras nas estruturas sociais. Indica que você observa como a sociedade se reconstrói sobre bases mais sábias após períodos de crise, valorizando a estabilidade final.",
+"95": "Esta vibração se origina da potência 95, revelando percepção de transformações sociais importantes movidas pela busca de liberdade. Sugere que você observa as revoluções internas e externas das pessoas, sentindo-se parte de um mundo em constante renovação.",
+"96": "Esta vibração se origina da potência 96, revelando maturidade nas relações humanas e percepção do amor como dever social. Indica que você observa como o cuidado mútuo é o que realmente sustenta um grupo, valorizando a harmonia afetiva acima do sucesso material.",
+"97": "Esta vibração se origina da potência 97, revelando percepção de uma maturidade social profunda e sabedoria analítica. Sugere que você enxerga os fios invisíveis que regem o comportamento das massas, mantendo uma visão lúcida e equilibrada sobre o destino da humanidade.",
+"98": "Esta vibração se origina da potência 98, revelando maturidade social e uma compreensão profunda das leis de causa e efeito. Indica que você observa como cada ação coletiva gera um retorno, valorizando grupos que buscam a justiça e a integridade nas relações.",
+"99": "Esta vibração se origina da potência 99, revelando percepção de uma elevada compreensão espiritual e humanitária. Indica que você enxerga o meio social como uma grande escola de almas, onde o amor universal é a única solução definitiva para os conflitos humanos."
+};
+
+
 const textosPotenciaisDestino = { "11": "...", "12": "..." };
 
 
@@ -1106,298 +1202,59 @@ const textosPessoal={
 
 
 
-1:`
-<h3> 1️⃣Percepção de Liderança no Meio Social1️⃣</h3>  
 
-
+1: `<h3>Percepção de Liderança no Meio Social</h3>  
 <p>Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.</p>
-
 <p>Essa regência indica que você tende a observar o meio social como um espaço onde indivíduos buscam afirmar suas ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe nas outras pessoas atitudes de competição, iniciativa ou desejo de se destacar.</p>
-
-<p>Quando essa vibração se origina da potência 10 pode indicar percepção de ambientes sociais dinâmicos e cheios de oportunidades.</p>
-
-<p>Quando se origina da potência 19 pode revelar visão crítica sobre atitudes de orgulho ou autoritarismo nas pessoas.</p>
-
-<p>Quando se origina da potência 28 pode indicar percepção de disputas ou rivalidades no meio social.</p>
-
-<p>Quando se origina da potência 37 revela visão estratégica das relações sociais.</p>
-
-<p>Quando se origina da potência 46 pode indicar percepção de ambientes voltados ao trabalho e às conquistas materiais.</p>
-
-<p>Quando se origina da potência 55 revela ambientes sociais inquietos ou marcados pela busca de liberdade.</p>
-
-<p>Quando se origina da potência 64 pode indicar percepção de mudanças repentinas nas relações sociais.</p>
-
-<p>Quando se origina da potência 73 revela tendência a observar as pessoas com análise profunda.</p>
-
-<p>Quando se origina da potência 82 pode indicar percepção de disputas por poder no meio social.</p>
-
-<p>Quando se origina da potência 91 revela compreensão madura das atitudes humanas.</p>
-
-<p>No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes.</p>
-
-<p>No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou dominado por conflitos de ego.</p>
-
+<p>No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes. No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou dominado por conflitos de ego.</p>
 <p>O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.</p>`,
 
-2:`
-<h3> 2️⃣vPercepção Sensível das Relações Sociais2️⃣</h3>  
-
+2: `<h3>Percepção Sensível das Relações Sociais</h3>  
 <p>Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.</p>
-
-<p>Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos que outras pessoas não percebem com facilidade.</p>
-
-<p>Quando essa vibração se origina da potência 29 pode indicar percepção de ambientes sociais emocionalmente complexos.</p>
-
-<p>Quando se origina da potência 38 revela visão sensível das relações humanas.</p>
-
-<p>Quando se origina da potência 47 pode indicar percepção de ambientes organizados ou estruturados.</p>
-
-<p>Quando se origina da potência 56 revela ambientes sociais ativos e competitivos.</p>
-
-<p>Quando se origina da potência 65 pode indicar forte percepção das relações afetivas no meio social.</p>
-
-<p>Quando se origina da potência 74 revela ambientes que exigem disciplina nas relações.</p>
-
-<p>Quando se origina da potência 83 pode indicar percepção de pessoas comunicativas e intelectuais.</p>
-
-<p>Quando se origina da potência 92 revela forte sensibilidade espiritual na observação das pessoas.</p>
-
-<p>No aspecto positivo manifesta empatia social e grande percepção emocional.</p>
-
-<p>No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos das pessoas ao redor.</p>
-
+<p>Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos ocultos que outras pessoas não percebem com facilidade. Sua visão do mundo é filtrada pela empatia.</p>
+<p>No aspecto positivo manifesta empatia social e grande percepção emocional. No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos das pessoas ao redor.</p>
 <p>O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.</p>`,
 
-3:`
-<h3>3️⃣Percepção Criativa das Relações Sociais3️⃣</h3> 
-
+3: `<h3>Percepção Criativa das Relações Sociais</h3> 
 <p>Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.</p>
-
-<p>Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade.</p>
-
-<p>Quando essa vibração se origina da potência 12 pode indicar percepção de pessoas que passam por processos de aprendizado ou transformação.</p>
-
-<p>Quando se origina da potência 21 revela ambientes sociais dinâmicos e comunicativos.</p>
-
-<p>Quando se origina da potência 30 pode indicar percepção de criatividade coletiva.</p>
-
-<p>Quando se origina da potência 39 revela ambientes animados e sociáveis.</p>
-
-<p>Quando se origina da potência 48 pode indicar percepção de conflitos relacionados à organização social.</p>
-
-<p>Quando se origina da potência 57 revela ambientes onde a estratégia e a inteligência são valorizadas.</p>
-
-<p>Quando se origina da potência 66 pode indicar forte presença de emoções nas relações sociais.</p>
-
-<p>Quando se origina da potência 75 revela ambientes reflexivos ou intelectuais.</p>
-
-<p>Quando se origina da potência 84 pode indicar percepção de responsabilidade social.</p>
-
-<p>Quando se origina da potência 93 revela visão madura das relações humanas.</p>
-
-<p>No aspecto positivo manifesta visão otimista e comunicativa das relações sociais.</p>
-
-<p>No aspecto negativo pode gerar tendência a perceber superficialidade nas interações sociais.</p>
-
+<p>Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade. Você valoriza o brilho individual e a capacidade das pessoas de se expressarem no mundo.</p>
+<p>No aspecto positivo manifesta visão otimista e comunicativa das relações sociais. No aspecto negativo pode gerar tendência a perceber superficialidade nas interações sociais.</p>
 <p>O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.</p>`,
 
-4:`
-<h3>4️⃣Percepção Estruturada do Ambiente Social4️⃣</h3> 
-
+4: `<h3>Percepção Estruturada do Ambiente Social</h3> 
 <p>Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.</p>
-
-<p>Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas.</p>
-
-<p>Quando essa vibração se origina da potência 13 pode indicar percepção de mudanças intensas nas relações sociais.</p>
-
-<p>Quando se origina da potência 22 revela ambientes sociais ligados a grandes responsabilidades.</p>
-
-<p>Quando se origina da potência 31 pode indicar percepção de comunicação estruturada.</p>
-
-<p>Quando se origina da potência 40 revela ambientes marcados por reflexão ou pausa.</p>
-
-<p>Quando se origina da potência 49 pode indicar percepção de conflitos ou transformações sociais.</p>
-
-<p>Quando se origina da potência 58 revela ambientes voltados ao poder ou às conquistas materiais.</p>
-
-<p>Quando se origina da potência 67 pode indicar percepção de ambientes ligados ao conhecimento.</p>
-
-<p>Quando se origina da potência 76 revela ambientes introspectivos ou reservados.</p>
-
-<p>Quando se origina da potência 85 pode indicar disputas de autoridade.</p>
-
-<p>Quando se origina da potência 94 revela percepção de transformações profundas na sociedade.</p>
-
-<p>No aspecto positivo manifesta visão organizada e realista das relações sociais.</p>
-
-<p>No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das pessoas.</p>
-
+<p>Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas. Você percebe quem são as pessoas confiáveis e quem são as que fogem das normas ou da ordem estabelecida.</p>
+<p>No aspecto positivo manifesta visão organizada e realista das relações sociais. No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das pessoas.</p>
 <p>O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.</p>`,
 
-5:`
-<h3> 5️⃣Percepção Dinâmica do Meio Social5️⃣</h3>  
-
+5: `<h3>Percepção Dinâmica do Meio Social</h3>  
 <p>Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.</p>
+<p>Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências. Você se sente atraído por meios plurais e detesta a monotonia social.</p>
+<p>No aspecto positivo manifesta curiosidade social e capacidade de compreender diferentes tipos de pessoas. No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.</p>
+<p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.</p>`,
 
-<p>Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências.</p>
-
-<p>Quando essa vibração se origina da potência 14 pode indicar percepção de pessoas comunicativas.</p>
-
-<p>Quando se origina da potência 23 revela ambientes sociais protegidos por influências positivas.</p>
-
-<p>Quando se origina da potência 32 pode indicar criatividade coletiva.</p>
-
-<p>Quando se origina da potência 41 revela percepção de liderança social.</p>
-
-<p>Quando se origina da potência 50 pode indicar períodos de pausa ou reflexão coletiva.</p>
-
-<p>Quando se origina da potência 59 revela ambientes espirituais ou sensíveis.</p>
-
-<p>Quando se origina da potência 68 pode indicar disputas por poder ou recursos.</p>
-
-<p>Quando se origina da potência 77 revela ambientes intelectuais.</p>
-
-<p>Quando se origina da potência 86 pode indicar responsabilidades sociais intensas.</p>
-
-<p>Quando se origina da potência 95 revela transformações sociais importantes.</p>
-
-<p>No aspecto positivo manifesta curiosidade social e capacidade de compreender diferentes tipos de pessoas.</p>
-
-<p>No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.</p>
-
-<p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.</p></p>`,
-
-6:`
-<h3> 6️⃣Percepção Afetiva do Meio Social6️⃣ </h3> 
-
-<p>Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p></p>
-
-<p>Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas.</p>
-
-<p>Quando essa vibração se origina da potência 15 pode indicar percepção de forte magnetismo social.</p>
-
-<p>Quando se origina da potência 24 revela ambientes harmoniosos.</p>
-
-<p>Quando se origina da potência 33 pode indicar percepção de generosidade coletiva.</p>
-
-<p>Quando se origina da potência 42 revela responsabilidades familiares ou sociais.</p>
-
-<p>Quando se origina da potência 51 pode indicar mudanças importantes nas relações sociais.</p>
-
-<p>Quando se origina da potência 60 revela períodos de reflexão emocional coletiva.</p>
-
-<p>Quando se origina da potência 69 pode indicar forte sensibilidade social.</p>
-
-<p>Quando se origina da potência 78 revela desafios nas relações.</p>
-
-<p>Quando se origina da potência 87 indica aprendizado social através das relações.</p>
-
-<p>Quando se origina da potência 96 revela maturidade nas relações humanas.</p>
-
-<p>No aspecto positivo manifesta percepção de amor, cooperação e harmonia social.</p>
-
-<p>No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre as pessoas.</p>
-
+6: `<h3>Percepção Afetiva do Meio Social</h3> 
+<p>Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p>
+<p>Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas e familiares. Você percebe quem cuida de quem e valoriza ambientes onde a cooperação e o amor são as bases principais.</p>
+<p>No aspecto positivo manifesta percepção de amor, cooperação e harmonia social. No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre as pessoas.</p>
 <p>O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.</p>`,
 
-7:`
-<h3>7️⃣Percepção Analítica do Meio Social7️⃣ </h3>
-
+7: `<h3>Percepção Analítica do Meio Social</h3> 
 <p>Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.</p>
-
-<p>Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações.</p>
-
-<p>Quando essa vibração se origina da potência 16 pode indicar percepção de mudanças bruscas no comportamento das pessoas.</p>
-
-<p>Quando se origina da potência 25 revela sensibilidade intelectual.</p>
-
-<p>Quando se origina da potência 34 pode indicar criatividade social.</p>
-
-<p>Quando se origina da potência 43 revela liderança intelectual.</p>
-
-<p>Quando se origina da potência 52 indica aprendizado através das experiências sociais.</p>
-
-<p>Quando se origina da potência 61 revela sensibilidade espiritual nas relações.</p>
-
-<p>Quando se origina da potência 70 pode indicar períodos de reflexão coletiva.</p>
-
-<p>Quando se origina da potência 79 revela busca intensa por conhecimento social.</p>
-
-<p>Quando se origina da potência 88 pode indicar percepção de grande poder coletivo.</p>
-
-<p>Quando se origina da potência 97 revela maturidade social profunda.</p>
-
-<p>No aspecto positivo manifesta compreensão profunda do comportamento humano.</p>
-
-<p>No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de análise.</p>
-
+<p>Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações ocultas. Você prefere observar a distância antes de se integrar totalmente a um grupo.</p>
+<p>No aspecto positivo manifesta compreensão profunda do comportamento humano. No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de análise.</p>
 <p>O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.</p>`,
 
-8:`
-<h3> 8️⃣Percepção de Poder no Meio Social8️⃣ </h3> 
-
+8: `<h3>Percepção de Poder no Meio Social</h3> 
 <p>Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.</p>
-
-<p>Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência.</p>
-
-<p>Quando essa vibração se origina da potência 17 pode indicar percepção de proteção ou reconhecimento social.</p>
-
-<p>Quando se origina da potência 26 revela aprendizado através de responsabilidades materiais.</p>
-
-<p>Quando se origina da potência 35 pode indicar inteligência estratégica nas relações.</p>
-
-<p>Quando se origina da potência 44 revela ambientes sociais ligados à liderança.</p>
-
-<p>Quando se origina da potência 53 pode indicar mudanças inesperadas no meio social.</p>
-
-<p>Quando se origina da potência 62 revela aprendizado através das relações humanas.</p>
-
-<p>Quando se origina da potência 71 indica análise profunda das estruturas sociais.</p>
-
-<p>Quando se origina da potência 80 revela necessidade de disciplina coletiva.</p>
-
-<p>Quando se origina da potência 89 pode indicar percepção de conflitos de poder.</p>
-
-<p>Quando se origina da potência 98 revela maturidade social e compreensão das leis da vida.</p>
-
-<p>No aspecto positivo manifesta visão estratégica e compreensão das estruturas sociais.</p>
-
-<p>No aspecto negativo pode gerar percepção excessiva de competição ou disputa por poder.</p>
-
+<p>Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência. Você reconhece rapidamente quem detém a autoridade em qualquer grupo.</p>
+<p>No aspecto positivo manifesta visão estratégica e compreensão das estruturas sociais. No aspecto negativo pode gerar percepção excessiva de competição ou disputa por poder.</p>
 <p>O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.</p>`,
 
-9:`
-<h3>9️⃣Percepção Humanitária do Meio Social9️⃣</h3>
-
+9: `<h3>Percepção Humanitária do Meio Social</h3>
 <p>Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.</p>
-
-<p>Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário.</p>
-
-<p>Quando essa vibração se origina da potência 18 pode indicar percepção de conflitos emocionais no meio social.</p>
-
-<p>Quando se origina da potência 27 revela sensibilidade espiritual nas relações humanas.</p>
-
-<p>Quando se origina da potência 36 pode indicar criatividade coletiva.</p>
-
-<p>Quando se origina da potência 45 revela responsabilidade social.</p>
-
-<p>Quando se origina da potência 54 pode indicar mudanças sociais importantes.</p>
-
-<p>Quando se origina da potência 63 revela maturidade emocional coletiva.</p>
-
-<p>Quando se origina da potência 72 indica percepção intuitiva das pessoas.</p>
-
-<p><p>Quando se origina da potência 81 revela liderança social espiritualizada.</p>
-
-<p><p>Quando se origina da potência 90 pode indicar encerramento de ciclos sociais.</p>
-
-<p>Quando se origina da potência 99 revela compreensão profunda da humanidade.</p>
-
-<p>No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária.</p>
-
-<p>No aspecto negativo pode gerar sensação de distância emocional ou desilusão com o comportamento humano.</p>
-
+<p>Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário. Você percebe as dores e as necessidades do mundo, sentindo-se atraído por causas que visam o bem comum e a evolução da humanidade.</p>
+<p>No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária. No aspecto negativo pode gerar sensação de distância emocional ou desilusão com o comportamento humano.</p>
 <p>O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria e equilíbrio.</p>`,
 
    
