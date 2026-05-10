@@ -1,300 +1,158 @@
 
+const textosPotenciaisVida = {
+"10": "Esta vibração se origina da potência 10, que indica momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida. Representa o início de um novo ciclo onde o universo conspira para que sua liderança natural floresça sem grandes obstruções externas.",
+"11": "Esta vibração se origina da potência 11, trazendo um canal de intuição e inspiração que ilumina suas decisões. Indica que sua força de vontade é guiada por uma percepção superior, permitindo que você tome a frente de projetos com uma sensibilidade que outros não possuem.",
+"12": "Esta vibração se origina da potência 12, indicando aprendizado através de sacrifícios ou experiências que exigem mudança de perspectiva. É um convite para você olhar a vida sob um novo ângulo, percebendo que as pausas e as concessões são, na verdade, ferramentas de amadurecimento espiritual.",
+"13": "Esta vibração se origina da potência 13, indicando experiências desafiadoras que exigem transformação e coragem. Representa a necessidade de romper com o que está estagnado para que o novo possa nascer, exigindo que você seja o arquiteto de sua própria regeneração constante.",
+"14": "Esta vibração se origina da potência 14, indicando habilidade para comunicação e expressão pública. Sugere um fluxo de vida onde a temperança e o equilíbrio entre o falar e o ouvir se tornam essenciais para que sua liberdade de movimento não se perca no caos.",
+"15": "Esta vibração se origina da potência 15, indicando um forte magnetismo pessoal e uma energia vital intensa. Revela que sua presença tem o poder de influenciar ambientes, exigindo atenção para que seus desejos e paixões sejam direcionados de forma construtiva e ética.",
+"16": "Esta vibração se origina da potência 16, indicando experiências que levam a profundas transformações pessoais. Muitas vezes, estruturas antigas podem ruir para que você descubra uma força interior inabalável, fundamentada em valores muito mais sólidos e verdadeiros.",
+"17": "Esta vibração se origina da potência 17, indicando proteção espiritual e sucesso gradual. É a estrela que guia seu caminho material, sugerindo que, mesmo em tempos difíceis, existe uma esperança renovadora que mantém seus planos alinhados com a prosperidade.",
+"18": "Esta vibração se origina da potência 18, indicando desafios emocionais ou situações que exigem grande discernimento. Convida você a mergulhar nas profundezas da própria mente para distinguir o que é ilusão do que é intuição real, fortalecendo sua fé durante os processos obscuros.",
+"19": "Esta vibração se origina da potência 19, revelando desafios relacionados ao orgulho ou à necessidade de aprender lições sobre responsabilidade e humildade. É uma luz intensa que expõe suas ações, pedindo que você brilhe sem ofuscar os outros, cultivando a generosidade como base do sucesso.",
+"20": "Esta vibração se origina da potência 20, sugerindo um renascimento através de chamados internos ou julgamentos de consciência. Indica que sua trajetória será marcada por decisões que exigem uma avaliação honesta do passado para que o futuro seja trilhado com total clareza.",
+"21": "Esta vibração se origina da potência 21, revelando potencial para crescimento social e reconhecimento através da comunicação. Indica a conclusão bem-sucedida de etapas e a capacidade de se sentir em harmonia com o mundo, expandindo seus horizontes de forma plena.",
+"22": "Esta vibração se origina da potência 22, revelando potencial para liderança e construção de projetos importantes. É a marca do mestre construtor, indicando que você possui a capacidade de transformar sonhos abstratos em realidades concretas que beneficiam a coletividade.",
+"23": "Esta vibração se origina da potência 23, revelando proteção ou auxílio de pessoas influentes em sua caminhada. Sugere que sua diplomacia e carisma natural atraem aliados poderosos, facilitando o sucesso em empreendimentos que exigem negociação e tato social.",
+"24": "Esta vibração se origina da potência 24, revelando facilidade para construir relações estáveis e harmoniosas. Indica que seu caminho de vida é fortalecido pelo apoio familiar e afetivo, criando uma base de segurança que permite seu crescimento profissional equilibrado.",
+"25": "Esta vibração se origina da potência 25, revelando sensibilidade intelectual e grande capacidade de reflexão. Sugere um caminho onde o estudo e a análise detalhada das situações precedem a vitória, garantindo que suas escolhas sejam sempre pautadas na lógica e na sabedoria.",
+"26": "Esta vibração se origina da potência 26, revelando aprendizado através de responsabilidades financeiras e gestão de recursos. Indica que o equilíbrio entre o dar e o receber será crucial para que o poder material não se torne um fardo, mas uma ferramenta de realização.",
+"27": "Esta vibração se origina da potência 27, revelando sensibilidade espiritual e capacidade de ajudar outras pessoas. Sugere que sua inteligência é movida por um senso humanitário, permitindo que você encontre soluções que trazem bem-estar tanto para si quanto para o próximo.",
+"28": "Esta vibração se origina da potência 28, indicando experiências ligadas a disputas, rivalidades ou situações que exigem firmeza. É um chamado para o desenvolvimento da resiliência, onde você aprende a defender seus interesses com diplomacia, mas sem abrir mão de sua autoridade.",
+"29": "Esta vibração se origina da potência 29, indicando inteligência brilhante, porém acompanhada de desafios emocionais que exigem maturidade. Sugere que seu potencial mental é vasto, mas precisa estar ancorado em um propósito estável para evitar flutuações e inseguranças.",
+"30": "Esta vibração se origina da potência 30, indicando forte criatividade e imaginação fértil. Revela um caminho onde a autoexpressão é a chave para o sucesso, sugerindo que sua capacidade de idealizar novos mundos e ideias é o que mantém sua energia vital em alta.",
+"31": "Esta vibração se origina da potência 31, indicando talento intelectual e capacidade de expressão. Sugere uma força de trabalho focada na organização do pensamento, onde a clareza mental ajuda a superar obstáculos e a estabelecer metas práticas e alcançáveis.",
+"32": "Esta vibração se origina da potência 32, indicando talento criativo e facilidade de comunicação. Sugere que sua rede de contatos e sua capacidade de persuasão são motores fundamentais para o progresso, permitindo que você navegue por diferentes grupos sociais com facilidade.",
+"33": "Esta vibração se origina da potência 33, indicando grande potencial de prosperidade e o desejo de servir ao próximo. É uma vibração de amor universal, sugerindo que seu sucesso na vida está diretamente ligado à generosidade e ao cuidado com as necessidades alheias.",
+"34": "Esta vibração se origina da potência 34, indicando criatividade aliada à inteligência prática. Sugere que você possui o dom de estruturar ideias artísticas ou inovadoras de forma que elas se tornem úteis e produtivas no dia a dia, gerando resultados sólidos.",
+"35": "Esta vibração se origina da potência 35, indicando inteligência estratégica e visão de longo alcance. Revela que sua trajetória será marcada por escolhas calculadas que permitem contornar imprevistos com rapidez e eficiência, garantindo sua estabilidade futura.",
+"36": "Esta vibração se origina da potência 36, indicando forte criatividade aliada à sensibilidade emocional. Sugere que sua jornada é enriquecida por laços afetivos que inspiram suas criações, mostrando que o equilíbrio do coração é o que sustenta suas ambições.",
+"37": "Esta vibração se origina da potência 37, revelando potencial para crescimento através da inteligência e da estratégia. Sugere que suas decisões são pautadas em uma lógica refinada, permitindo que você se destaque em posições que exigem comando e visão analítica.",
+"38": "Esta vibração se origina da potência 38, revelando capacidade de adaptação, sensibilidade artística e facilidade para lidar com pessoas. Indica um caminho fluido onde a diplomacia abre portas que a força bruta não conseguiria, trazendo sucesso através da colaboração.",
+"39": "Esta vibração se origina da potência 39, revelando natureza entusiasta e facilidade de interação social. Sugere um otimismo contagiante que atrai oportunidades diversas, mostrando que sua alegria e disposição são suas maiores ferramentas de progresso.",
+"40": "Esta vibração se origina da potência 40, revelando a necessidade de superar períodos de estagnação através da reflexão profunda. Indica que sua força é construída no silêncio e na paciência, preparando você para fundações extremamente duradouras.",
+"41": "Esta vibração se origina da potência 41, revelando capacidade de liderança prática e executora. Sugere que você prefere o caminho da ação direta, onde cada passo é planejado para gerar um impacto imediato na organização de sua realidade material.",
+"42": "Esta vibração se origina da potência 42, indicando aprendizado através das responsabilidades familiares e deveres domésticos. Sugere que a dedicação aos entes queridos e o serviço ao lar são pilares que trazem a maturidade necessária para suas conquistas externas.",
+"43": "Esta vibração se origina da potência 43, revelando capacidade de liderança intelectual e autoridade no conhecimento. Indica que você é visto como uma referência em seu campo de atuação, onde sua palavra tem o peso da experiência e da pesquisa profunda.",
+"44": "Esta vibração se origina da potência 44, revelando grande potencial de liderança e administração de grandes projetos. É uma potência de alto impacto material, sugerindo que sua disciplina e visão sistêmica podem construir impérios ou legados de longa duração.",
+"45": "Esta vibração se origina da potência 45, revelando aprendizado através de responsabilidades materiais e metas concretas. Sugere que o sucesso financeiro vem como consequência de uma conduta ética e de uma organização impecável de seus esforços diários.",
+"46": "Esta vibração se origina da potência 46, indicando conquistas materiais alcançadas através de esforço constante e disciplina. Revela que sua segurança financeira não vem do acaso, mas de uma construção lenta e persistente que valoriza cada etapa do processo.",
+"47": "Esta vibração se origina da potência 47, indicando habilidade para lidar com questões materiais e capacidade de organização. Sugere um talento especial para enxergar a viabilidade de negócios e projetos, garantindo que os recursos sejam utilizados com máxima eficiência.",
+"48": "Esta vibração se origina da potência 48, indicando desafios ligados à disciplina ou à organização da vida prática. É um chamado para que você desenvolva métodos mais claros de ação, evitando a dispersão de energia para que seus grandes talentos não se percam na desorganização.",
+"49": "Esta vibração se origina da potência 49, indicando experiências intensas que transformam profundamente sua visão de mundo. Sugere um caminho de vida onde crises se tornam catalisadores de uma nova consciência, forjando uma personalidade resiliente e sábia.",
+"50": "Esta vibração se origina da potência 50, indicando momentos de pausa ou reflexão que são fundamentais para o próximo passo. Revela que o equilíbrio entre a ação externa e o repouso mental é o que garante que sua liberdade não se torne uma fuga da realidade.",
+"51": "Esta vibração se origina da potência 51, revelando experiências de mudança importantes e súbitas. Sugere que sua trajetória não é linear e que você possui a coragem necessária para se reinventar sempre que o destino exigir uma nova direção.",
+"52": "Esta vibração se origina da potência 52, indicando aprendizado através de experiências práticas e do contato direto com a matéria. Sugere que a teoria só faz sentido para você quando aplicada, transformando cada erro em um degrau concreto para o sucesso.",
+"53": "Esta vibração se origina da potência 53, indicando mudanças inesperadas que exigem rapidez mental. Revela que sua adaptabilidade é sua maior defesa, permitindo que você encontre novas saídas em situações onde outros se sentiriam bloqueados ou perdidos.",
+"54": "Esta vibração se origina da potência 54, indicando experiências ligadas a mudanças e transformações estruturais. Sugere que você tem o dom de reformar ambientes e situações, trazendo uma nova ordem para onde antes existia o caos ou a obsolescência.",
+"55": "Esta vibração se origina da potência 55, revelando um forte impulso de liberdade e necessidade de viver experiências intensas. Sugere uma alma aventureira que se recusa a ficar presa a rotinas sufocantes, buscando sempre o novo como combustível para a alma.",
+"56": "Esta vibração se origina da potência 56, revelando natureza ativa e potencial para conquistar posições de destaque. Indica que sua iniciativa pessoal, quando aliada ao senso de cooperação, abre portas para uma liderança respeitada e equilibrada.",
+"57": "Esta vibração se origina da potência 57, revelando inteligência estratégica e capacidade de adaptação. Sugere que você é um observador silencioso que sabe exatamente o momento certo de agir para obter os melhores resultados com o menor esforço possível.",
+"58": "Esta vibração se origina da potência 58, revelando desafios ligados ao poder material ou às ambições pessoais. Indica a necessidade de equilibrar seus desejos de conquista com a consciência social, garantindo que sua ascensão não ignore as leis do equilíbrio e da justiça.",
+"59": "Esta vibração se origina da potência 59, revelando sensibilidade espiritual e intuição aguçada. Sugere que suas mudanças de rota são frequentemente guiadas por sentimentos internos profundos, indicando uma vida protegida por uma conexão espiritual constante.",
+"60": "Esta vibração se origina da potência 60, indicando períodos de reflexão emocional e busca por paz interior. Sugere que a harmonia no lar e a tranquilidade da mente são pré-requisitos essenciais para que você consiga performar bem em suas obrigações mundanas.",
+"61": "Esta vibração se origina da potência 61, revelando sensibilidade espiritual e um olhar voltado para o transcendente. Indica que sua inteligência é enriquecida por valores éticos e morais elevados, fazendo com que sua conduta seja sempre inspiradora para os outros.",
+"62": "Esta vibração se origina da potência 62, revelando aprendizado através das relações interpessoais e parcerias. Sugere que as pessoas que passam por sua vida funcionam como espelhos que ajudam você a enxergar suas próprias qualidades e pontos de melhoria.",
+"63": "Esta vibração se origina da potência 63, revelando maturidade emocional e compreensão dos sentimentos alheios. Indica um caminho de vida onde o acolhimento e a escuta ativa se tornam diferenciais importantes em sua atuação profissional e pessoal.",
+"64": "Esta vibração se origina da potência 64, indicando mudanças repentinas ou situações inesperadas que servem como aprendizado. Revela que a vida frequentemente testa sua flexibilidade, ensinando que o desapego é a chave para transitar por transformações com elegância.",
+"65": "Esta vibração se origina da potência 65, indicando aprendizado através das relações afetivas e responsabilidades emocionais. Sugere que o crescimento pessoal está ligado à sua capacidade de nutrir vínculos duradouros sem perder sua própria essência e autonomia.",
+"66": "Esta vibração se origina da potência 66, indicando grande sensibilidade emocional e inclinação para ajudar o próximo. Revela um caminho de serviço abnegado, onde a proteção à família e à comunidade traz uma profunda satisfação e propósito à sua existência.",
+"67": "Esta vibração se origina da potência 67, indicando desenvolvimento espiritual através do conhecimento teórico e prático. Sugere que o estudo das leis universais ou de temas profundos é o que dá sentido à sua trajetória e orienta suas escolhas.",
+"68": "Esta vibração se origina da potência 68, indicando aprendizado sobre poder material e gestão de recursos. Sugere que o sucesso financeiro duradouro virá através da integridade e da capacidade de liderar com o exemplo, evitando atalhos que comprometam sua ética.",
+"69": "Esta vibração se origina da potência 69, revelando sensibilidade profunda e busca de equilíbrio afetivo. Indica uma jornada onde o dar e o receber precisam estar em sintonia, mostrando que a paz emocional é o terreno onde todos os seus outros sucessos florescem.",
+"70": "Esta vibração se origina da potência 70, indicando períodos de recolhimento e reflexão necessários para a evolução. Sugere que momentos de solitude não são isolamento, mas sim um tempo sagrado para que sua sabedoria interna se manifeste com clareza.",
+"71": "Esta vibração se origina da potência 71, indicando forte capacidade de análise e visão crítica da realidade. Revela que você possui o dom de ver além das aparências, permitindo que identifique problemas e soluções antes que eles se tornem evidentes para os outros.",
+"72": "Esta vibração se origina da potência 72, indicando grande percepção intuitiva e sensibilidade social. Sugere que sua jornada é marcada por uma compreensão natural dos movimentos da coletividade, permitindo que você se posicione de forma estratégica e influente.",
+"73": "Esta vibração se origina da potência 73, revelando natureza reflexiva e tendência a desenvolver sabedoria através das experiências. Sugere que sua mente analítica processa a vida de forma profunda, transformando cada vivência em um capítulo de autoconhecimento.",
+"74": "Esta vibração se origina da potência 74, revelando necessidade de disciplina e estrutura para alcançar estabilidade. Sugere que o sucesso não aceita improvisos sob esta vibração, exigindo que você construa sua rotina sobre bases muito bem planejadas e sólidas.",
+"75": "Esta vibração se origina da potência 75, revelando natureza reflexiva e capacidade de aprendizado profundo. Indica que você é um eterno estudante da vida, cuja curiosidade intelectual abre portas para níveis superiores de consciência e realização profissional.",
+"76": "Esta vibração se origina da potência 76, revelando natureza introspectiva e tendência ao estudo aprofundado. Sugere que seu poder pessoal é silencioso e fundamentado na perícia técnica, fazendo de você um especialista respeitado naquilo que decide fazer.",
+"77": "Esta vibração se origina da potência 77, revelando forte inclinação para o conhecimento profundo e esotérico. Indica uma mente privilegiada que busca as causas das coisas, sugerindo uma vida marcada por descobertas intelectuais e espirituais significativas.",
+"78": "Esta vibração se origina da potência 78, indicando desafios relacionados à disciplina emocional e foco. Sugere que o domínio sobre os próprios sentimentos é a chave para que sua vasta inteligência não se disperse em dúvidas ou hesitações desnecessárias.",
+"79": "Esta vibração se origina da potência 79, revelando uma busca intensa por conhecimento e verdade. Indica que sua trajetória será sempre pautada pela integridade intelectual, recusando respostas superficiais em busca daquilo que é essencial e duradouro.",
+"80": "Esta vibração se origina da potência 80, revelando a necessidade de disciplina material e controle rigoroso. Indica que o poder acumulado precisa ser gerido com mão firme e visão de longo prazo para evitar que a abundância se transforme em desperdício ou caos.",
+"81": "Esta vibração se origina da potência 81, revelando forte capacidade de liderança espiritual e autoridade moral. Sugere que sua influência sobre os outros nasce de sua coerência interna, fazendo com que você seja seguido por sua sabedoria e não apenas por seu cargo.",
+"82": "Esta vibração se origina da potência 82, indicando aprendizado sobre poder pessoal e responsabilidade pelas ações. Revela que cada decisão sua tem um eco profundo, exigindo que você lidere com consciência das consequências e respeito pelo livre-arbítrio alheio.",
+"83": "Esta vibração se origina da potência 83, indicando talento intelectual e facilidade de comunicação estratégica. Sugere que você possui o dom de verbalizar conceitos complexos de forma simples e poderosa, o que facilita sua ascensão em áreas de comando e ensino.",
+"84": "Esta vibração se origina da potência 84, indicando experiências ligadas à responsabilidade material e dever social. Sugere que suas conquistas financeiras estão atreladas a um compromisso com o bem-estar da comunidade, gerando prosperidade que se distribui e retorna.",
+"85": "Esta vibração se origina da potência 85, indicando lições relacionadas ao uso equilibrado do poder e da ambição. Revela a importância de manter a humildade mesmo no topo, garantindo que sua autoridade seja um fator de união e não de separação entre as pessoas.",
+"86": "Esta vibração se origina da potência 86, indicando experiências intensas ligadas a responsabilidades materiais e familiares. Sugere que o sucesso no mundo dos negócios e a harmonia doméstica são fios que se entrelaçam, exigindo atenção dobrada para ambos os pilares.",
+"87": "Esta vibração se origina da potência 87, revelando desenvolvimento espiritual através das relações e do trabalho. Indica que sua rotina diária é o campo de provas onde você exercita sua fé e sua ética, transformando o dever em uma forma de evolução interior.",
+"88": "Esta vibração se origina da potência 88, indicando grande poder mental e capacidade executiva fora do comum. Sugere um potencial ilimitado para a realização material, desde que o foco seja mantido na justiça e no equilíbrio para evitar o desgaste por excesso de controle.",
+"89": "Esta vibração se origina da potência 89, indicando experiências intensas relacionadas ao poder e ao desapego. Revela que grandes ciclos de ganho e transformação fazem parte de sua jornada, ensinando que o verdadeiro poder reside na sabedoria de saber quando agir e quando soltar.",
+"90": "Esta vibração se origina da potência 90, indicando o encerramento de ciclos importantes e a colheita de esforços passados. Sugere um período de vida onde a maturidade permite uma visão panorâmica de seus acertos, preparando o terreno para uma nova e elevada fase.",
+"91": "Esta vibração se origina da potência 91, revelando um forte processo de maturidade espiritual e autonomia. Indica que você alcançou um nível de compreensão onde sua independência não é mais rebeldia, mas sim uma expressão consciente de sua verdade interior.",
+"92": "Esta vibração se origina da potência 92, revelando sensibilidade espiritual e forte intuição guiando suas escolhas. Sugere que você aprendeu a ouvir a voz do coração antes da voz do mundo, o que garante que seu caminho seja sempre autêntico e cheio de paz.",
+"93": "Esta vibração se origina da potência 93, revelando maturidade espiritual e uma compreensão mais ampla da vida. Indica que você possui o dom de aconselhar e inspirar através de sua própria história, servindo como um farol de criatividade e esperança para os outros.",
+"94": "Esta vibração se origina da potência 94, revelando processos de transformação que levam à estabilidade final. Sugere que após muitas mudanças, você encontrou a estrutura ideal para viver com propósito, unindo sua disciplina à sua visão espiritual do mundo.",
+"95": "Esta vibração se origina da potência 95, revelando processos de renovação constante e adaptabilidade espiritual. Indica que sua alma busca sempre novas formas de se expressar, mantendo sua energia vital jovem e conectada com as tendências do futuro.",
+"96": "Esta vibração se origina da potência 96, indicando maturidade emocional conquistada através de ricas experiências de vida. Revela que o amor e a responsabilidade agora fluem sem esforço, tornando você uma figura de apoio e equilíbrio para todos ao seu redor.",
+"97": "Esta vibração se origina da potência 97, revelando maturidade espiritual profunda e sabedoria analítica. Sugere que você compreende as leis ocultas que regem a realidade, permitindo que viva com uma serenidade que nasce do conhecimento da verdade.",
+"98": "Esta vibração se origina da potência 98, revelando maturidade e compreensão profunda da justiça universal. Indica que você vive em sintonia com a lei de causa e efeito, colhendo os frutos de uma vida pautada na integridade e no equilíbrio entre o espírito e a matéria.",
+"99": "Esta vibração se origina da potência 99, revelando uma vibração espiritual elevada e profunda compreensão da vida. É o ápice da jornada humana, indicando que você possui a sabedoria necessária para compreender o sofrimento e a alegria como partes de um todo sagrado e evolutivo."
+};
 
+const textosPotenciaisPessoal = { "11": "...", "12": "..." };
+const textosPotenciaisSocial = { "11": "...", "12": "..." };
+const textosPotenciaisDestino = { "11": "...", "12": "..." };
 
 
 const textosVida={
 
 
-1:` 
-<h3>Iniciativa, Autonomia e Caminho Individual.</h3> 
 
+1: `<h3>Iniciativa, Autonomia e Caminho Individual</h3> 
 <p>Para você, o Regente 1 da Vida representa a força que impulsiona a construção da própria identidade e o desenvolvimento da independência. Essa vibração indica uma trajetória marcada pela iniciativa, pela coragem de tomar decisões e pela capacidade de abrir caminhos novos ao longo da existência.</p> 
-
 <p>A presença do Regente 1 revela natureza ativa, espírito de liderança e desejo profundo de conquistar espaço próprio no mundo. Ao longo da vida você tende a desenvolver autonomia, aprendendo através das experiências a confiar na própria capacidade de agir, decidir e conduzir o próprio destino.</p> 
+<p>No aspecto positivo manifesta liderança, coragem, criatividade, iniciativa e capacidade de abrir novos caminhos. No aspecto negativo pode gerar arrogância, impulsividade, individualismo excessivo ou conflitos provocados pelo desejo de dominar situações.</p> 
+<p>O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.</p>`,
 
-<p>Quando essa vibração se origina da potência 10 pode indicar momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida.</p> 
-
-<p>Quando se origina da potência 19 pode revelar desafios relacionados ao orgulho ou à necessidade de aprender lições importantes sobre responsabilidade e humildade.</p> 
-
-<p>Quando se origina da potência 28 pode indicar experiências ligadas a disputas, rivalidades ou situações que exigem firmeza para defender seus interesses.</p> 
-
-<p>Quando se origina da potência 37 revela potencial para crescimento através da inteligência, da estratégia e da capacidade de tomar decisões firmes.</p> 
-
-<p>Quando se origina da potência 46 pode indicar conquistas materiais alcançadas através de esforço constante e disciplina.</p> 
-
-<p>Quando se origina da potência 55 revela forte impulso de liberdade e necessidade de viver experiências intensas ao longo da vida.</p> 
-
-<p>Quando se origina da potência 64 pode indicar mudanças repentinas ou situações inesperadas que servem como aprendizado e transformação.</p> 
-
-<p>Quando se origina da potência 73 pode revelar natureza reflexiva e tendência a desenvolver sabedoria através das experiências pessoais.</p> 
-
-<p>Quando se origina da potência 82 pode indicar aprendizado sobre poder pessoal, liderança e responsabilidade diante das consequências das próprias ações.</p> 
-
-<p>Quando se origina da potência 91 pode revelar forte processo de maturidade espiritual, conduzindo a pessoa a compreender a vida através de experiências profundas.</p> 
-
-<p>No aspecto positivo manifesta liderança, coragem, criatividade, iniciativa e capacidade de abrir novos caminhos.</p> 
-
-<p>No aspecto negativo pode gerar arrogância, impulsividade, individualismo excessivo ou conflitos provocados pelo desejo de dominar situações.</p> 
-
-<p>O aprendizado do Regente 1 da Vida consiste em desenvolver liderança com consciência, utilizando a força interior para construir caminhos positivos para si e para os outros.</p> `,
-
-
-2:`
-<h3>Sensibilidade, Dualidade e Consciência das Relações</h3> 
+2: `<h3>Sensibilidade, Dualidade e Consciência das Relações</h3> 
 <p>Para você, o Regente 2 da Vida representa a vibração da sensibilidade, da percepção intuitiva e da busca constante por equilíbrio nas relações humanas. Essa regência indica uma trajetória marcada pelo desenvolvimento da empatia, da cooperação e da compreensão emocional.</p>
-
 <p>A presença do Regente 2 revela natureza sensível e observadora. Ao longo da vida você tende a perceber com facilidade os sentimentos das pessoas e os movimentos sutis das situações. Muitas experiências surgem para ensinar equilíbrio entre razão e emoção.</p>
-
-<p>Quando essa vibração se origina da potência 29 pode indicar inteligência brilhante, porém acompanhada de desafios emocionais que exigem maturidade e discernimento.</p>
-
-<p>Quando se origina da potência 38 revela capacidade de adaptação, sensibilidade artística e facilidade para lidar com pessoas.</p>
-
-<p>Quando se origina da potência 47 pode indicar habilidade para lidar com questões materiais e capacidade de organização.</p>
-
-<p>Quando se origina da potência 56 revela natureza ativa e potencial para conquistar posições de destaque através da iniciativa.</p>
-
-<p>Quando se origina da potência 65 pode indicar aprendizado através das relações afetivas e das responsabilidades emocionais.</p>
-
-<p>Quando se origina da potência 74 revela necessidade de disciplina e estrutura para alcançar estabilidade na vida.</p>
-
-<p>Quando se origina da potência 83 pode indicar talento intelectual e facilidade de comunicação.</p>
-
-<p>Quando se origina da potência 92 revela sensibilidade espiritual e forte intuição.</p>
-
-<p>No aspecto positivo manifesta empatia, diplomacia, cooperação e grande percepção emocional.</p>
-
-<p>No aspecto negativo pode gerar insegurança, dependência emocional ou tendência a viver preso às expectativas dos outros.</p>
-
+<p>No aspecto positivo manifesta empatia, diplomacia, cooperação e grande percepção emocional. No aspecto negativo pode gerar insegurança, dependência emocional ou tendência a viver preso às expectativas dos outros.</p>
 <p>O aprendizado do Regente 2 da Vida consiste em desenvolver equilíbrio emocional e confiar na própria intuição.</p>`,
 
-3:`
-<h3> Criatividade, Expressão e Expansão da Consciência </h3> 
-
+3: `<h3>Criatividade, Expressão e Expansão da Consciência</h3> 
 <p>Para você, o Regente 3 da Vida representa a vibração da criatividade, da comunicação e da expressão dos talentos naturais. Essa regência indica uma trajetória marcada pela busca de experiências que estimulem o pensamento, a imaginação e o contato com diferentes ambientes.</p>
-
 <p>A presença do Regente 3 revela mente ativa, espírito curioso e grande capacidade de expressão. Ao longo da vida você tende a desenvolver habilidades relacionadas à comunicação, às artes ou à transmissão de ideias.</p>
-
-<p>Quando essa vibração se origina da potência 12 pode indicar aprendizado através de sacrifícios ou experiências que exigem mudança de perspectiva.</p>
-
-<p>Quando se origina da potência 21 revela potencial para crescimento social e reconhecimento através da comunicação.</p>
-
-<p>Quando se origina da potência 30 pode indicar forte criatividade e imaginação.</p>
-
-<p>Quando se origina da potência 39 revela natureza entusiasta e facilidade de interação social.</p>
-
-<p>Quando se origina da potência 48 pode indicar desafios ligados à disciplina ou à organização da vida prática.</p>
-
-<p>Quando se origina da potência 57 revela inteligência estratégica e capacidade de adaptação.</p>
-
-<p>Quando se origina da potência 66 pode indicar grande sensibilidade emocional e inclinação para ajudar outras pessoas.</p>
-
-<p>Quando se origina da potência 75 revela natureza reflexiva e capacidade de aprendizado profundo.</p>
-
-<p>Quando se origina da potência 84 pode indicar experiências ligadas à responsabilidade material.</p>
-
-<p>Quando se origina da potência 93 revela maturidade espiritual e compreensão mais ampla da vida.</p>
-
-<p>No aspecto positivo manifesta criatividade, entusiasmo, sociabilidade e talento para comunicação.</p>
-
-<p>No aspecto negativo pode gerar dispersão, instabilidade emocional ou tendência a prometer mais do que consegue realizar.</p>
-
+<p>No aspecto positivo manifesta criatividade, entusiasmo, sociabilidade e talento para comunicação. No aspecto negativo pode gerar dispersão, instabilidade emocional ou tendência a prometer mais do que consegue realizar.</p>
 <p>O aprendizado do Regente 3 da Vida consiste em transformar criatividade em realização concreta.</p>`,
 
-4:`
-<h3> Estrutura, Disciplina e Construção da Vida </h3> 
-
+4: `<h3>Estrutura, Disciplina e Construção da Vida</h3> 
 <p>Para você, o Regente 4 da Vida representa a vibração da estabilidade, da organização e do esforço constante para construir bases sólidas. Essa regência indica uma trajetória marcada pelo trabalho persistente e pela necessidade de criar segurança material e emocional.</p>
-
 <p>A presença do Regente 4 revela natureza responsável, disciplinada e prática. Ao longo da vida você tende a desenvolver habilidades relacionadas à organização, à estrutura e ao planejamento.</p>
-
-<p>Quando essa vibração se origina da potência 13 pode indicar experiências desafiadoras que exigem transformação e coragem.</p>
-
-<p>Quando se origina da potência 22 revela potencial para liderança e construção de projetos importantes.</p>
-
-<p>Quando se origina da potência 31 pode indicar talento intelectual e capacidade de expressão.</p>
-
-<p>Quando se origina da potência 40 revela necessidade de superar períodos de estagnação ou reflexão profunda.</p>
-
-<p>Quando se origina da potência 49 pode indicar experiências intensas que transformam sua visão de mundo.</p>
-
-<p>Quando se origina da potência 58 revela desafios ligados ao poder material ou às ambições pessoais.</p>
-
-<p>Quando se origina da potência 67 pode indicar desenvolvimento espiritual através do conhecimento.</p>
-
-<p>Quando se origina da potência 76 revela natureza introspectiva e tendência ao estudo profundo.</p>
-
-<p>Quando se origina da potência 85 pode indicar lições relacionadas ao uso equilibrado do poder.</p>
-
-<p>Quando se origina da potência 94 revela processos de transformação que levam à maturidade.</p>
-
-<p>No aspecto positivo manifesta disciplina, responsabilidade e capacidade de construir estabilidade duradoura.</p>
-
-<p>No aspecto negativo pode gerar rigidez, teimosia ou excesso de preocupação material.</p>
-
+<p>No aspecto positivo manifesta disciplina, responsabilidade e capacidade de construir estabilidade duradoura. No aspecto negativo pode gerar rigidez, teimosia ou excesso de preocupação material.</p>
 <p>O aprendizado do Regente 4 da Vida consiste em equilibrar disciplina com flexibilidade.</p>`,
 
-5:`
-<h3> Movimento, Experiência e Liberdade </h3> 
-
+5: `<h3>Movimento, Experiência e Liberdade</h3> 
 <p>Para você, o Regente 5 da Vida representa a vibração da mudança, da curiosidade e da busca por experiências variadas. Essa regência indica uma trajetória marcada pelo aprendizado através do movimento e da adaptação às circunstâncias.</p>
-
 <p>A presença do Regente 5 revela natureza inquieta e mente aberta para novas possibilidades. Ao longo da vida você tende a buscar conhecimento através da experiência direta.</p>
-
-<p>Quando essa vibração se origina da potência 14 pode indicar habilidade para comunicação e expressão pública.</p>
-
-<p>Quando se origina da potência 23 revela proteção ou auxílio de pessoas influentes.</p>
-
-<p>Quando se origina da potência 32 pode indicar talento criativo e facilidade de comunicação.</p>
-
-<p>Quando se origina da potência 41 revela capacidade de liderança prática.</p>
-
-<p>Quando se origina da potência 50 pode indicar momentos de pausa ou reflexão importantes.</p>
-
-<p>Quando se origina da potência 59 revela sensibilidade espiritual e intuição.</p>
-
-<p>Quando se origina da potência 68 pode indicar aprendizado sobre poder material.</p>
-
-<p>Quando se origina da potência 77 revela forte inclinação para conhecimento profundo.</p>
-
-<p>Quando se origina da potência 86 pode indicar experiências intensas ligadas a responsabilidades materiais.</p>
-
-<p>Quando se origina da potência 95 revela processos de transformação e renovação.</p>
-
-<p>No aspecto positivo manifesta versatilidade, inteligência e grande capacidade de adaptação.</p>
-
-<p>No aspecto negativo pode gerar instabilidade, impulsividade ou dificuldade em manter constância.</p>
-
+<p>No aspecto positivo manifesta versatilidade, inteligência e grande capacidade de adaptação. No aspecto negativo pode gerar instabilidade, impulsividade ou dificuldade em manter constância.</p>
 <p>O aprendizado do Regente 5 da Vida consiste em transformar experiência em sabedoria.</p>`,
 
-6:`
-<h3>Amor, Harmonia e Responsabilidade Afetiva </h3>
-
+6: `<h3>Amor, Harmonia e Responsabilidade Afetiva</h3>
 <p>Para você, o Regente 6 da Vida representa a vibração do amor, da família e da responsabilidade emocional. Essa regência indica uma trajetória marcada por experiências relacionadas ao cuidado, à proteção e ao desenvolvimento das relações afetivas.</p>
-
 <p>A presença do Regente 6 revela natureza sensível e desejo de construir harmonia nas relações.</p>
-
-<p>Quando essa vibração se origina da potência 15 pode indicar forte magnetismo pessoal.</p>
-
-<p>Quando se origina da potência 24 revela facilidade para construir relações estáveis.</p>
-
-<p>Quando se origina da potência 33 indica grande potencial de prosperidade e ajuda aos outros.</p>
-
-<p>Quando se origina da potência 42 pode indicar aprendizado através das responsabilidades familiares.</p>
-
-<p>Quando se origina da potência 51 revela experiências de mudança importantes.</p>
-
-<p>Quando se origina da potência 60 pode indicar períodos de reflexão emocional.</p>
-
-<p>Quando se origina da potência 69 revela sensibilidade profunda e busca de equilíbrio afetivo.</p>
-
-<p>Quando se origina da potência 78 pode indicar desafios relacionados à disciplina emocional.</p>
-
-<p>Quando se origina da potência 87 revela desenvolvimento espiritual através das relações.</p>
-
-<p>Quando se origina da potência 96 pode indicar maturidade emocional conquistada através das experiências.</p>
-
-<p>No aspecto positivo manifesta amor, generosidade e capacidade de harmonizar ambientes.</p>
-
-<p>No aspecto negativo pode gerar ciúme, dependência emocional ou excesso de preocupação com os outros.</p>
-
+<p>No aspecto positivo manifesta amor, generosidade e capacidade de harmonizar ambientes. No aspecto negativo pode gerar ciúme, dependência emocional ou excesso de preocupação com os outros.</p>
 <p>O aprendizado do Regente 6 da Vida consiste em amar com equilíbrio e responsabilidade.</p>`,
 
-7:`
-<h3>Busca de Conhecimento e Evolução Interior </h3>
-
+7: `<h3>Busca de Conhecimento e Evolução Interior</h3>
 <p>Para você, o Regente 7 da Vida representa a vibração da introspecção, da investigação e da busca por sabedoria. Essa regência indica uma trajetória marcada pelo desenvolvimento intelectual e espiritual.</p>
-
 <p>A presença do Regente 7 revela mente analítica e necessidade de compreender profundamente os mistérios da vida.</p>
-
-<p>Quando essa vibração se origina da potência 16 pode indicar experiências que levam a profundas transformações pessoais.</p>
-
-<p>Quando se origina da potência 25 revela sensibilidade intelectual e capacidade de reflexão.</p>
-
-<p>Quando se origina da potência 34 pode indicar criatividade aliada à inteligência.</p>
-
-<p>Quando se origina da potência 43 revela capacidade de liderança intelectual.</p>
-
-<p>Quando se origina da potência 52 pode indicar aprendizado através das experiências práticas.</p>
-
-<p>Quando se origina da potência 61 revela sensibilidade espiritual.</p>
-
-<p>Quando se origina da potência 70 pode indicar períodos de recolhimento e reflexão.</p>
-
-<p>Quando se origina da potência 79 revela busca intensa por conhecimento.</p>
-
-<p>Quando se origina da potência 88 pode indicar grande poder mental.</p>
-
-<p>Quando se origina da potência 97 revela maturidade espiritual profunda.</p>
-
-<p>No aspecto positivo manifesta sabedoria, intuição e grande capacidade de análise.</p>
-
-<p>No aspecto negativo pode gerar isolamento, excesso de introspecção ou dificuldade de convivência social.</p>
-
+<p>No aspecto positivo manifesta sabedoria, intuição e grande capacidade de análise. No aspecto negativo pode gerar isolamento, excesso de introspecção ou dificuldade de convivência social.</p>
 <p>O aprendizado do Regente 7 da Vida consiste em transformar conhecimento em sabedoria.</p>`,
 
-8:`
-<h3>Poder, Justiça e Responsabilidade Material</h3> 
-
+8: `<h3>Poder, Justiça e Responsabilidade Material</h3> 
 <p>Para você, o Regente 8 da Vida representa a vibração do poder, da organização e da lei de causa e efeito. Essa regência indica uma trajetória marcada por experiências relacionadas à liderança, à administração e ao equilíbrio entre conquistas materiais e valores morais.</p>
-
-<p>Quando essa vibração se origina da potência 17 pode indicar proteção espiritual e sucesso gradual.</p>
-
-<p>Quando se origina da potência 26 revela aprendizado através de responsabilidades financeiras.</p>
-
-<p>Quando se origina da potência 35 pode indicar inteligência estratégica.</p>
-
-<p>Quando se origina da potência 44 revela grande potencial de liderança.</p>
-
-<p>Quando se origina da potência 53 pode indicar mudanças inesperadas.</p>
-
-<p>Quando se origina da potência 62 revela aprendizado através das relações.</p>
-
-<p>Quando se origina da potência 71 pode indicar forte capacidade de análise.</p>
-
-<p>Quando se origina da potência 80 revela necessidade de disciplina material.</p>
-
-<p>Quando se origina da potência 89 pode indicar experiências intensas relacionadas ao poder.</p>
-
-<p>Quando se origina da potência 98 revela maturidade e compreensão profunda da justiça da vida.</p>
-
-<p>No aspecto positivo manifesta liderança equilibrada, disciplina e senso de justiça.</p>
-
-<p>No aspecto negativo pode gerar autoritarismo, materialismo excessivo ou abuso de poder.</p>
-
+<p>No aspecto positivo manifesta liderança equilibrada, disciplina e senso de justiça. No aspecto negativo pode gerar autoritarismo, materialismo excessivo ou abuso de poder.</p>
 <p>O aprendizado do Regente 8 da Vida consiste em utilizar o poder com responsabilidade.</p>`,
 
-9:`
-<h3> Sabedoria, Conclusões e Consciência Universal</h3>  
-
-<p>Para você, o Regente 9 da Vida representa a vibração da experiência acumulada, da maturidade espiritual e da compreensão profunda da existência.</p>
-
-<p>Essa regência indica uma trajetória marcada por aprendizados intensos e momentos de reflexão que conduzem ao desenvolvimento da sabedoria.</p>
-
-<p>Quando essa vibração se origina da potência 18 pode indicar desafios emocionais ou situações que exigem grande discernimento.</p>
-
-<p>Quando se origina da potência 27 revela sensibilidade espiritual e capacidade de ajudar outras pessoas.</p>
-
-<p>Quando se origina da potência 36 pode indicar forte criatividade aliada à sensibilidade.</p>
-
-<p>Quando se origina da potência 45 revela aprendizado através de responsabilidades materiais.</p>
-
-<p>Quando se origina da potência 54 pode indicar experiências ligadas a mudanças e transformações.</p>
-
-<p>Quando se origina da potência 63 revela maturidade emocional.</p>
-
-<p>Quando se origina da potência 72 pode indicar grande percepção intuitiva.</p>
-
-<p>Quando se origina da potência 81 revela forte capacidade de liderança espiritual.</p>
-
-<p>Quando se origina da potência 90 pode indicar encerramento de ciclos importantes.</p>
-
-<p>Quando se origina da potência 99 revela vibração espiritual elevada e profunda compreensão da vida.</p>
-
-<p>No aspecto positivo manifesta sabedoria, generosidade e compaixão.</p>
-
-<p>No aspecto negativo pode gerar isolamento, pessimismo ou dificuldade em desapegar do passado.</p>
-
+9: `<h3>Sabedoria, Conclusões e Consciência Universal</h3>  
+<p>Para você, o Regente 9 da Vida representa a vibração da experiência acumulada, da maturidade espiritual e da compreensão profunda da existência. Essa regência indica uma trajetória marcada por aprendizados intensos e momentos de reflexão que conduzem ao desenvolvimento da sabedoria.</p>
+<p>No aspecto positivo manifesta sabedoria, generosidade e compaixão. No aspecto negativo pode gerar isolamento, pessimismo ou dificuldade em desapegar do passado.</p>
 <p>O aprendizado do Regente 9 da Vida consiste em transformar experiência em sabedoria e utilizar esse conhecimento para ajudar outras pessoas.</p>`,
+
 
 
 11:`<p><strong>MASCULINO-FEMININO-NEUTRO</strong>, a Potência 11 se manifesta como um pilar de força e autodomínio. Ela indica que sua jornada é movida por uma energia vital intensa, que exige direção consciente e inteligência estratégica para não se dispersar no caos cotidiano. É o símbolo do controle absoluto sobre os instintos em favor de objetivos elevados, mostrando que sua realização no mundo depende da sua capacidade de canalizar esse vigor interno para construções sólidas.</p>
