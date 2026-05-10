@@ -1218,8 +1218,8 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-// Adicionamos 'bancoPotenciais' no final dos parâmetros
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntroRegente, nomeCliente = "", bancoPotenciais = {}) {
+// Alterei a ordem: agora bancoPotenciais é o 6º e nomeCliente o 7º
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais = {}, textoIntro, textoIntroRegente, nomeCliente = "") {
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     
@@ -1230,7 +1230,6 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntro
         const p2 = penultimaLinha[1];
         const combinacao = `${p1}${p2}`;
 
-        // Agora ele busca no banco específico que passamos por argumento
         if (bancoPotenciais && bancoPotenciais[combinacao]) {
             textoDosPotenciais = `
                 <div class="potenciais-integrados" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
@@ -1242,31 +1241,25 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntro
         }
     }
 
-    // ... (o resto da função continua exatamente igual)
-
     const resultadoTextoRegente = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
     
     return `
     <div class="page evitar-corte">
-     
         <div class="separador-luxo">
             <div class="caixa-interna">
                 <h2>MATRIZ ${titulo}</h2>
             </div>
         </div>
         
-      
         <div class="texto-intro-pessoal" style="margin-bottom: 20px;">
             ${aplicarFiltroTexto(textoIntro)}
         </div>
 
-     
         <div class="container-piramide-isolada" style="margin-top: 30px;">
             <div class="titulo-piramide-nome">Geometria : ${titulo}</div>
             ${desenhar(matriz, titulo, false, nomeCliente)} 
         </div>
 
-      
         <div class="resultado-regente-aberto evitar-corte" style="margin-top: 50px; padding: 20px; border-top: 2px solid #e6d5a8;">
             <h2 style="color: #827108; text-align: center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px; letter-spacing: 1px; text-transform: uppercase;">
                 <br>
@@ -1282,10 +1275,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntro
             </h3>
             
             <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
-                <!-- Texto do Regente -->
                 ${aplicarFiltroTexto(resultadoTextoRegente)}
-                
-              
                 ${textoDosPotenciais}
             </div>
         </div>
@@ -2406,11 +2396,14 @@ meuHtml += `
 
 
     
-// No bloco de montagem do HTML:
-meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, window.introsPiramides.vida.regente, nome);
-meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, window.introsPiramides.pessoal.regente, nome);
-meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social, window.introsPiramides.social.regente, nome);
-meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino, window.introsPiramides.destino.regente, nome);
+// CHAMADAS ATUALIZADAS
+meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
+
+meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, window.introsPiramides.pessoal.intro, window.introsPiramides.pessoal.regente, nome);
+
+meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social, window.introsPiramides.social.intro, window.introsPiramides.social.regente, nome);
+
+meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino, window.introsPiramides.destino.intro, window.introsPiramides.destino.regente, nome);
 
 
           
