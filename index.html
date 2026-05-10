@@ -1016,7 +1016,27 @@ a, img, audio { border: none !important; outline: none !important; text-decorati
     margin-top: -1px;
 }
     
+/* Estilo padrão dos números */
+.numero {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 2px;
+    border-radius: 50%;
+}
 
+/* Cor específica para o Regente */
+.regente-destaque {
+    background-color: #ffca28; /* Um dourado/amarelo vibrante */
+    color: #000;
+    font-weight: bold;
+    border: 2px solid #ffa000;
+    box-shadow: 0 0 10px rgba(255, 202, 40, 0.6);
+    transform: scale(1.2); /* Deixa o regente levemente maior */
+}
     
     
     </style>
@@ -1738,6 +1758,14 @@ function desenhar(linhas, tipoPira = "VIDA", compacta = false, nomeRaw = "") {
         html += `<div class="linha">`;
         linha.forEach((num, j) => {
             let corClasse = mapaCores[i][j];
+
+            // --- ADIÇÃO DO REGENTE AQUI ---
+            // Se for a última linha (o topo da pirâmide), adicionamos a classe 'destaque-regente'
+            if (i === linhas.length - 1) {
+                corClasse += " destaque-regente";
+            }
+            // ------------------------------
+
             html += `<div class="num ${corClasse}">${num}</div>`;
         });
         html += `</div>`;
@@ -1746,7 +1774,6 @@ function desenhar(linhas, tipoPira = "VIDA", compacta = false, nomeRaw = "") {
     html += `</div>`;
     return html;
 }
-
 
 
 
