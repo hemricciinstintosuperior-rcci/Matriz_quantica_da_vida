@@ -1218,31 +1218,31 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntroRegente, nomeCliente = "") {
-    // 1. Identifica o Regente (última linha)
+// Adicionamos 'bancoPotenciais' no final dos parâmetros
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntro, textoIntroRegente, nomeCliente = "", bancoPotenciais = {}) {
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     
-    // 2. Identifica os Potenciais (penúltima linha, os dois números acima)
     let textoDosPotenciais = "";
     if (matriz.length >= 2) {
         const penultimaLinha = matriz[matriz.length - 2];
         const p1 = penultimaLinha[0];
         const p2 = penultimaLinha[1];
-        const combinacao = `${p1}${p2}`; // Ex: "11", "34", etc.
+        const combinacao = `${p1}${p2}`;
 
-        // Busca no banco de potenciais (assumindo que você terá a const textosPotenciais)
-        // Se não encontrar o texto específico, ele apenas não exibe a nota extra
-        if (typeof textosPotenciais !== 'undefined' && textosPotenciais[combinacao]) {
+        // Agora ele busca no banco específico que passamos por argumento
+        if (bancoPotenciais && bancoPotenciais[combinacao]) {
             textoDosPotenciais = `
                 <div class="potenciais-integrados" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
                     <strong style="color: #827108; display: block; margin-bottom: 5px;">⚡ POTENCIAIS DE FORMAÇÃO: ${p1} & ${p2}</strong>
                     <div style="color: #555; font-style: italic;">
-                        ${aplicarFiltroTexto(textosPotenciais[combinacao])}
+                        ${aplicarFiltroTexto(bancoPotenciais[combinacao])}
                     </div>
                 </div>`;
         }
     }
+
+    // ... (o resto da função continua exatamente igual)
 
     const resultadoTextoRegente = bancoDeTextos ? bancoDeTextos[regente] : "Resultado não encontrado.";
     
