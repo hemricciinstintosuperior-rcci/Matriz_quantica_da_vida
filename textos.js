@@ -12,18 +12,47 @@ introducoes: {
        Que o Universo ilumine seus caminhos, abençoe suas escolhas e que cada vibração numérica aqui revelada se transforme em força, prosperidade e luz em sua vida. Siga com coragem e sabedoria!
     </p>`,
 
-   historiaModerna: `   
+historiaModerna: `
+<div class="page evitar-corte" style="padding: 30px 40px; font-family: 'Segoe UI', sans-serif; background: #fff; border: 1px solid #e6d5a8; border-radius: 15px;">
+    
+    <div style="text-align: center; margin-bottom: 25px;">
+        <h2 style="font-family: 'Cinzel', serif; color: #827108; font-size: 20px; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 10px;">
+            📜 O Fundamento da Modernidade
+        </h2>
+        <div style="width: 100px; height: 1px; background: #b59b4d; margin: 0 auto;"></div>
+    </div>
 
-<p>Embora a conexão entre números e o universo remonte a civilizações antigas, como a Caldeia e o Egito, a numerologia que praticamos no século XXI é fruto de uma sistematização técnica ocorrida nos últimos 150 anos. O fundamento factual dessa estrutura reside na transição do misticismo abstrato para um método de análise de dados de personalidade, onde nomes e datas são convertidos em frequências matemáticas precisas.</p>
+    <div style="line-height: 1.6; text-align: justify; color: #333; font-size: 16px;">
+        
+        <p style="margin-bottom: 12px;">
+            Embora a conexão entre números e o universo remonte a civilizações antigas, como a Caldeia e o Egito, a numerologia que praticamos no século XXI é fruto de uma <b>sistematização técnica</b> ocorrida nos últimos 150 anos. O fundamento factual dessa estrutura reside na transição do misticismo abstrato para um método de análise de dados de personalidade, onde nomes e datas são convertidos em frequências matemáticas precisas.
+        </p>
 
-<p>A grande virada para a modernidade aconteceu no início do século XX com a americana L. Dow Balliett. Ela é considerada a fundadora da numerologia moderna por ter sido a primeira a organizar o conceito de que cada número possui uma vibração específica que influencia o comportamento humano. Balliett publicou obras fundamentais que estabeleceram a base para o que hoje chamamos de sistema pitagórico ocidental, transformando a filosofia de Pitágoras em um sistema aplicável ao cotidiano.</p>
+        <p style="margin-bottom: 12px;">
+            A grande virada aconteceu no início do século XX com a americana <b>L. Dow Balliett</b>. Ela é considerada a fundadora da numerologia moderna por ter sido a primeira a organizar o conceito de que cada número possui uma vibração específica. Balliett publicou obras fundamentais que estabeleceram a base para o sistema pitagórico ocidental, transformando a filosofia antiga em uma ferramenta aplicável ao cotidiano.
+        </p>
 
-<p>Posteriormente, a Dra. Juno Jordan, discípula de Balliett, deu o rigor metodológico que a área exigia. Ao fundar o California Institute of Numerical Research, Jordan dedicou décadas ao estudo estatístico e à validação dos perfis numerológicos. Seu trabalho foi essencial para que a numerologia deixasse de ser vista apenas como uma superstição e passasse a ser compreendida como uma ciência de padrões, permitindo a criação de diagnósticos precisos sobre o destino e a personalidade.</p>
+        <p style="margin-bottom: 12px;">
+            Posteriormente, a <b>Dra. Juno Jordan</b>, discípula de Balliett, trouxe o rigor metodológico necessário. Ao fundar o <i>California Institute of Numerical Research</i>, Jordan dedicou décadas ao estudo estatístico e à validação dos perfis numerológicos. Seu trabalho foi essencial para que a numerologia passasse a ser compreendida como uma <b>ciência de padrões</b>, permitindo diagnósticos precisos sobre o destino e a personalidade.
+        </p>
 
-<p>No âmbito da Numerologia Cabalística, o resgate técnico para o alfabeto latino deve-se muito ao trabalho de Walter Gorn Old, conhecido como Sepharial. No final do século XIX, ele foi o responsável por adaptar a Gematria (o sistema numérico hebraico) para as necessidades do homem ocidental. Esse esforço foi ampliado por ordens herméticas como a Golden Dawn, que integraram a Árvore da Vida e os 22 Arcanos ao sistema de letras, criando a base estrutural que utilizamos hoje nos relatórios cabalísticos.</p>
+        <p style="margin-bottom: 12px;">
+            No âmbito da <b>Numerologia Cabalística</b>, o resgate técnico para o alfabeto latino deve-se ao trabalho de <b>Walter Gorn Old (Sepharial)</b>. No final do século XIX, ele adaptou a Gematria (sistema hebraico) para o homem ocidental. Esse esforço foi ampliado por ordens como a <i>Golden Dawn</i>, que integraram a Árvore da Vida aos sistemas de letras, criando a base estrutural que utilizamos hoje nos relatórios cabalísticos.
+        </p>
 
-<p>Atualmente, o fundamento da numerologia reside na compreensão de que o universo é regido por leis matemáticas. Ao contrário de uma abordagem puramente esotérica, a numerologia técnica do século XXI funciona como uma neuroanálise dos ciclos de vida. Ela oferece a você uma base factual sobre suas tendências comportamentais e períodos de realização, servindo como uma ferramenta estratégica para o autoconhecimento e a tomada de decisões no mundo moderno.</p>`
-}
+        <p style="margin-bottom: 0;">
+            Atualmente, a numerologia técnica do século XXI funciona como uma <b>neuroanálise dos ciclos de vida</b>. Ao contrário de uma abordagem puramente esotérica, ela oferece uma base factual sobre suas tendências comportamentais e períodos de realização, servindo como uma ferramenta estratégica para o autoconhecimento e a tomada de decisões no mundo moderno, regido por leis matemáticas universais.
+        </p>
+
+    </div>
+
+    <div style="margin-top: 30px; text-align: center; border-top: 1px solid #f0e6c8; padding-top: 15px;">
+        <p style="font-family: 'Cinzel', serif; font-size: 12px; color: #b59b4d; letter-spacing: 2px;">
+            INSTINTO SUPERIOR • CIÊNCIA VIBRACIONAL
+        </p>
+    </div>
+</div>
+`}
 };
 
 
