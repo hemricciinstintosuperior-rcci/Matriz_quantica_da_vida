@@ -1218,28 +1218,27 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 
-// Alterei a ordem: agora bancoPotenciais é o 6º e nomeCliente o 7º
-// Ajustei a ordem dos parâmetros (o 4º agora é o bancoPotenciais) para bater com sua chamada
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais, textoIntro, textoIntroRegente, nomeCliente = "") {
-    // Pegamos o Regente (topo)
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntroPiramide, bancoPotencias, textoIntroGeral, textoIntroRegente, nomeCliente = "") {
+    
+    // 1. Pegamos o Regente (topo da pirâmide)
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     
     let textoDosPotenciais = "";
     
-    // Pegamos a Potência (os dois números que formam o topo)
+    // 2. Lógica da Potência (penúltima linha, ex: "10")
     if (matriz.length >= 2) {
         const penultimaLinha = matriz[matriz.length - 2];
         const p1 = penultimaLinha[0];
         const p2 = penultimaLinha[1];
-        const combinacao = `${p1}${p2}`; // Ex: "56"
+        const combinacao = `${p1}${p2}`; 
 
-        // Busca o texto no banco que você passou na 4ª posição (explicacoes.pessoal, etc)
-        if (bancoPotenciais && bancoPotenciais[combinacao]) {
+        // Busca o texto no banco de potências (resultadoPotencia)
+        if (bancoPotencias && bancoPotencias[combinacao]) {
             textoDosPotenciais = `
                 <div class="potenciais-integrados" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
                     <strong style="color: #827108; display: block; margin-bottom: 5px; text-transform: uppercase;">
-                         POTÊNCIA: ${combinacao}
+                        ⚡ POTÊNCIA: ${combinacao}
                     </strong>
                     <div style="color: #555; font-style: italic; line-height: 1.5;">
                         ${aplicarFiltroTexto(bancoPotenciais[combinacao])}
@@ -1258,8 +1257,9 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais, texto
             </div>
         </div>
         
-        <div class="texto-intro-pessoal" style="margin-bottom: 20px;">
-            ${aplicarFiltroTexto(textoIntro)}
+        <!-- TEXTO DE INTRODUÇÃO DA PIRÂMIDE (Explicações) -->
+        <div class="texto-intro-pessoal" style="margin-bottom: 20px; color: #444; font-size: 16px; text-align: justify;">
+            ${aplicarFiltroTexto(textoIntroPiramide)}
         </div>
 
         <div class="container-piramide-isolada" style="margin-top: 30px;">
@@ -1283,6 +1283,8 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais, texto
             
             <div class="texto-personalizado evitar-corte" style="margin-top: 15px;">
                 ${aplicarFiltroTexto(resultadoTextoRegente)}
+                
+                <!-- O RESULTADO DA POTÊNCIA APARECE AQUI, JUNTO AO REGENTE -->
                 ${textoDosPotenciais}
             </div>
         </div>
@@ -2403,14 +2405,49 @@ meuHtml += `
 
 
     
-// Usamos o operador { ... } para enviar os dois bancos de textos juntos
-meuHtml += montarSecaoMatriz("VIDA", mVida, textosVida, explicacoes.principal, resultadoPotencia.principal, window.introsPiramides.vida.intro, window.introsPiramides.vida.regente, nome);
+meuHtml += montarSecaoMatriz(
+    "VIDA", 
+    mVida, 
+    textosVida, 
+    explicacoes.principal,       // 4º: Texto de introdução (embaixo do título)
+    resultadoPotencia.principal,  // 5º: Banco de Potências (10 a 99)
+    window.introsPiramides.vida.intro, 
+    window.introsPiramides.vida.regente, 
+    nome
+);
 
-meuHtml += montarSecaoMatriz("PESSOAL", mPes, textosPessoal, explicacoes.pessoal, resultadoPotencia.pessoal, window.introsPiramides.pessoal.intro, window.introsPiramides.pessoal.regente, nome);
+meuHtml += montarSecaoMatriz(
+    "PESSOAL", 
+    mPes, 
+    textosPessoal, 
+    explicacoes.pessoal, 
+    resultadoPotencia.pessoal, 
+    window.introsPiramides.pessoal.intro, 
+    window.introsPiramides.pessoal.regente, 
+    nome
+);
 
-meuHtml += montarSecaoMatriz("SOCIAL", mSoc, textosSocial, explicacoes.social, resultadoPotencia.social, window.introsPiramides.social.intro, window.introsPiramides.social.regente, nome);
+meuHtml += montarSecaoMatriz(
+    "SOCIAL", 
+    mSoc, 
+    textosSocial, 
+    explicacoes.social, 
+    resultadoPotencia.social, 
+    window.introsPiramides.social.intro, 
+    window.introsPiramides.social.regente, 
+    nome
+);
 
-meuHtml += montarSecaoMatriz("DESTINO", mDes, textosDestino, explicacoes.destino, resultadoPotencia.destino, window.introsPiramides.destino.intro, window.introsPiramides.destino.regente, nome);
+meuHtml += montarSecaoMatriz(
+    "DESTINO", 
+    mDes, 
+    textosDestino, 
+    explicacoes.destino, 
+    resultadoPotencia.destino, 
+    window.introsPiramides.destino.intro, 
+    window.introsPiramides.destino.regente, 
+    nome
+);
 
           
        
