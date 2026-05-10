@@ -281,8 +281,99 @@ const textosPotenciaisSocial = {
 };
 
 
-const textosPotenciaisDestino = { "11": "...", "12": "..." };
+const textosPotenciaisDestino = { 
 
+"10": "Esta influência se origina da potência 10, indicando eventos que trazem novos começos e oportunidades de brilho pessoal. O universo empurra você para a frente, abrindo portas que exigem coragem imediata e iniciativa própria.",
+"11": "Esta influência se origina da potência 11, trazendo situações de forte inspiração e sincronicidades espirituais. Você atrai eventos que parecem 'mensagens' do destino, desafiando você a seguir sua intuição acima da lógica comum.",
+"12": "Esta influência se origina da potência 12, indicando situações que exigem uma pausa forçada ou um novo ângulo de visão. O universo coloca você em posição de observar mais e agir menos, ensinando que o sacrifício temporário gera sabedoria.",
+"13": "Esta influência se origina da potência 13, trazendo eventos que provocam rupturas necessárias e transformações profundas. O destino limpa o seu caminho, removendo o que não serve mais para que o novo possa florescer com força total.",
+"14": "Esta influência se origina da potência 14, revelando situações externas que exigem temperança e comunicação moderada. Você atrai circunstâncias que testam seu equilíbrio, ensinando que a paciência é a chave para o progresso constante.",
+"15": "Esta influência se origina da potência 15, indicando eventos marcados por forte magnetismo, desejos intensos ou desafios de poder. O universo coloca à prova sua força de vontade diante de tentações ou situações de grande pressão emocional.",
+"16": "Esta influência se origina da potência 16, trazendo acontecimentos inesperados que podem abalar estruturas antigas em sua vida. São eventos 'despertadores' que visam derrubar o que é falso para que você reconstrua sua jornada sobre a verdade.",
+"17": "Esta influência se origina da potência 17, indicando a chegada de oportunidades de reconhecimento e esperança renovada. O destino traz ventos favoráveis que recompensam seus esforços passados com brilho, sorte e proteção espiritual.",
+"18": "Esta influência se origina da potência 18, revelando eventos que trazem à tona questões ocultas ou flutuações emocionais. Você atrai situações que exigem discernimento para distinguir o que é real do que é ilusão ou medo infundado.",
+"19": "Esta influência se origina da potência 19, trazendo situações que favorecem o sucesso público e a clareza de objetivos. O universo coloca você sob os holofotes, mas exige que você lide com o brilho mantendo a generosidade e a humildade.",
+"20": "Esta influência se origina da potência 20, sugerindo eventos que funcionam como um 'chamado' ou um acerto de contas com o passado. O destino traz situações de renovação e julgamento, onde suas escolhas anteriores definem o novo rumo.",
+"21": "Esta influência se origina da potência 21, indicando eventos de expansão internacional, viagens ou contatos com o mundo. O universo amplia suas fronteiras, trazendo situações que fazem você se sentir parte de algo muito maior e global.",
+"22": "Esta influência se origina da potência 22, revelando a chegada de grandes responsabilidades e projetos de longo alcance. O destino coloca em suas mãos ferramentas para construir algo duradouro que beneficie a coletividade.",
+"23": "Esta influência se origina da potência 23, trazendo situações de proteção inesperada e auxílio de pessoas em posição de autoridade. Você atrai sincronicidades que facilitam o seu caminho social e profissional através de bons contatos.",
+"24": "Esta influência se origina da potência 24, indicando eventos voltados à harmonia familiar e à estabilidade afetiva. O universo conduz você a situações onde a segurança do lar e a lealdade dos amigos são os temas centrais.",
+"25": "Esta influência se origina da potência 25, trazendo estímulos ao aprendizado técnico e a descobertas intelectuais. O destino apresenta mistérios ou problemas complexos que só podem ser resolvidos com estudo, análise e introspecção.",
+"26": "Esta influência se origina da potência 26, revelando situações ligadas à gestão financeira e ao equilíbrio entre o dar e o receber. Você atrai eventos que testam sua capacidade de lidar com a matéria de forma justa e organizada.",
+"27": "Esta influência se origina da potência 27, indicando o surgimento de missões humanitárias ou experiências de forte cunho espiritual. O universo traz pessoas e causas que despertam sua compaixão e sua vontade de ensinar ou curar.",
+"28": "Esta influência se origina da potência 28, trazendo situações de concorrência ou desafios que exigem diplomacia e força. O destino coloca você em arenas de disputa para que você aprenda a vencer sem perder a ética ou a elegância.",
+"29": "Esta influência se origina da potência 29, revelando eventos de alta carga emocional que forçam o amadurecimento psíquico. Você atrai situações onde a sensibilidade é testada, exigindo que você encontre paz no meio da tempestade.",
+"30": "Esta influência se origina da potência 30, indicando uma fase de forte inspiração criativa e eventos sociais alegres. O universo traz oportunidades de lazer, festa e expressão artística que renovam seu entusiasmo pela vida.",
+"31": "Esta influência se origina da potência 31, trazendo situações que exigem foco, praticidade e ordem mental. O destino apresenta tarefas que dependem exclusivamente da sua capacidade de planejar e executar com perfeição técnica.",
+"32": "Esta influência se origina da potência 32, revelando eventos marcados pela velocidade e pela necessidade de comunicação rápida. O universo traz mudanças de cenário que exigem que você use sua lábia e seu jogo de cintura para prosperar.",
+"33": "Esta influência se origina da potência 33, indicando a chegada de oportunidades para exercer a caridade e o aconselhamento. O destino coloca pessoas sob sua proteção, permitindo que você manifeste o amor incondicional na prática.",
+"34": "Esta influência se origina da potência 34, trazendo eventos que misturam inovação criativa com segurança material. Você atrai situações onde suas ideias originais podem ser aplicadas para gerar lucro ou estabilidade concreta.",
+"35": "Esta influência se origina da potência 35, revelando situações externas que exigem inteligência estratégica e rapidez de raciocínio. O destino traz desafios que funcionam como um jogo de xadrez, onde a mente ágil é a vencedora.",
+"36": "Esta influência se origina da potência 36, indicando eventos que favorecem a união familiar e a criatividade no ambiente doméstico. O universo traz harmonia para as suas relações mais íntimas, permitindo que o afeto flua sem barreiras.",
+"37": "Esta influência se origina da potência 37, trazendo oportunidades ligadas à pesquisa, ao ensino ou à consultoria. O destino coloca você em contato com fontes de conhecimento profundo, exigindo que você use sua mente analítica.",
+"38": "Esta influência se origina da potência 38, revelando eventos que estimulam a sensibilidade estética e o sucesso através da diplomacia. Você atrai parcerias que dependem da sua capacidade de ser gentil e persuasivo ao mesmo tempo.",
+"39": "Esta influência se origina da potência 39, indicando situações de grande visibilidade social e expansão de contatos. O universo traz um movimento intenso de pessoas e convites, favorecendo aqueles que sabem se comunicar com otimismo.",
+"40": "Esta influência se origina da potência 40, trazendo eventos que impõem limites, prazos e a necessidade de paciência. O destino coloca você em processos de maturação longa, onde o resultado final depende da sua capacidade de esperar.",
+"41": "Esta influência se origina da potência 41, revelando situações externas que exigem uma postura de comando e liderança executiva. O universo apresenta projetos que só andarão se você assumir as rédeas e organizar o fluxo de trabalho.",
+"42": "Esta influência se origina da potência 42, indicando eventos que trazem responsabilidades domésticas ou comunitárias inadiáveis. O destino exige que você seja o pilar de sustentação para aqueles que dependem da sua força e cuidado.",
+"43": "Esta influência se origina da potência 43, trazendo situações que testam sua resistência intelectual e autoridade técnica. Você atrai eventos que exigem provas de competência e dedicação total ao aprimoramento de suas habilidades.",
+"44": "Esta influência se origina da potência 44, revelando a chegada de grandes desafios de gestão e poder material. O universo coloca você em situações de alta complexidade que exigem uma mente visionária e mãos firmes para realizar.",
+"45": "Esta influência se origina da potência 45, indicando eventos que misturam conquistas materiais com o serviço ao próximo. O destino traz oportunidades de trabalho que possuem um propósito maior, gerando satisfação tanto financeira quanto espiritual.",
+"46": "Esta influência se origina da potência 46, trazendo situações que exigem esforço físico ou dedicação exaustiva a um objetivo prático. O universo recompensa a sua suor, mostrando que a construção sólida exige tempo e persistência.",
+"47": "Esta influência se origina da potência 47, revelando eventos que favorecem a organização de sistemas, métodos e processos. Você atrai situações onde a sua clareza técnica será requisitada para colocar ordem no que está confuso.",
+"48": "Esta influência se origina da potência 48, indicando desafios externos ligados a burocracias ou obstáculos materiais que exigem disciplina. O destino ensina que a superação dessas barreiras é o que consolida o seu verdadeiro poder.",
+"49": "Esta influência se origina da potência 49, trazendo eventos de forte transformação social ou mudanças de planos em larga escala. O universo retira você de rotinas previsíveis para que você aprenda a lidar com o inesperado e o novo.",
+"50": "Esta influência se origina da potência 50, revelando momentos de calmaria forçada ou períodos de observação. O destino traz um 'vazio' produtivo, onde o silêncio externo serve para que você reavalie para onde quer canalizar sua energia.",
+"51": "Esta influência se origina da potência 51, indicando eventos súbitos que mudam a sua direção emocional. O universo traz surpresas no campo dos afetos ou parcerias, exigindo que você se adapte rapidamente a novas realidades sociais.",
+"52": "Esta influência se origina da potência 52, trazendo situações de aprendizado empírico e experiências 'mão na massa'. O destino ensina através da prática, colocando você em situações onde a teoria não basta e a vivência é o único mestre.",
+"53": "Esta influência se origina da potência 53, revelando eventos que trazem instabilidade financeira ou mudanças de emprego. O universo desafia seu desapego, mostrando que a segurança real vem da sua capacidade de se reinventar constantemente.",
+"54": "Esta influência se origina da potência 54, indicando situações que favorecem reformas, melhorias de ambiente ou mudanças de casa. O destino traz um impulso de renovação física que reflete o seu desejo interno de progresso.",
+"55": "Esta influência se origina da potência 55, trazendo acontecimentos eletrizantes e uma busca por liberdade radical. Você atrai situações que rompem com a mesmice, favorecendo viagens, aventuras e a quebra de tabus pessoais.",
+"56": "Esta influência se origina da potência 56, revelando eventos que misturam ação social com responsabilidades afetivas. O destino coloca você em movimento, mas exige que cada passo seja dado pensando no bem-estar daqueles que você ama.",
+"57": "Esta influência se origina da potência 57, indicando a chegada de mentores, livros ou conhecimentos que mudam seu modo de agir. O universo traz 'pistas' intelectuais que ajudam você a traçar planos mais inteligentes para o futuro.",
+"58": "Esta influência se origina da potência 58, trazendo situações de embate por recursos ou disputas de território. O destino exige que você seja firme na defesa dos seus direitos, ensinando o valor da autovalorização no mundo material.",
+"59": "Esta influência se origina da potência 59, revelando eventos de forte conexão intuitiva e auxílio espiritual invisível. Você atrai sincronicidades que parecem mágicas, guiando seus passos em momentos de incerteza ou perigo.",
+"60": "Esta influência se origina da potência 60, indicando eventos que pedem reconciliação familiar ou ajustes no ambiente doméstico. O universo traz situações que exigem que você seja o diplomata e o pacificador entre as pessoas próximas.",
+"61": "Esta influência se origina da potência 61, trazendo oportunidades de estudo ou vivências que elevam seu padrão moral e intelectual. O destino afasta você de ambientes vulgares e o aproxima de pessoas e situações de alta linhagem ética.",
+"62": "Esta influência se origina da potência 62, revelando eventos que trazem aprendizado através do espelho das parcerias. O universo coloca em sua vida pessoas que refletem exatamente o que você precisa ajustar em si mesmo para crescer.",
+"63": "Esta influência se origina da potência 63, indicando situações de colheita emocional e maturidade nas relações. O destino traz momentos de paz e compreensão mútua, onde os conflitos do passado são finalmente superados com sabedoria.",
+"64": "Esta influência se origina da potência 64, trazendo eventos que encerram sociedades ou parcerias de forma inesperada. O universo corta os laços que impediam sua autonomia, forçando você a caminhar com as próprias pernas.",
+"65": "Esta influência se origina da potência 65, revelando situações que aumentam seu carisma e sua influência sobre as massas ou grandes grupos. O destino traz uma aura de proteção para sua imagem pública e para seus assuntos familiares.",
+"66": "Esta influência se origina da potência 66, indicando a chegada de grandes deveres de cuidado e proteção. O universo confia a você a guarda de algo precioso — seja um projeto, um ideal ou uma pessoa — exigindo amor total.",
+"67": "Esta influência se origina da potência 67, trazendo eventos que favorecem o isolamento produtivo e a descoberta de verdades ocultas. O destino afasta o barulho externo para que você possa se dedicar a um trabalho de fôlego ou pesquisa.",
+"68": "Esta influência se origina da potência 68, revelando situações ligadas à herança, gestão de bens de terceiros ou grandes negócios. O universo exige de você uma ética impecável ao lidar com o que não é seu, gerando colheitas positivas.",
+"69": "Esta influência se origina da potência 69, indicando eventos que despertam uma profunda sensibilidade para com o sofrimento alheio. O destino traz causas sociais ou pedidos de ajuda que forçam você a manifestar sua compaixão ativa.",
+"70": "Esta influência se origina da potência 70, trazendo situações de recolhimento espiritual e silêncio necessário. O universo 'pausa' suas atividades externas para que você possa realizar uma grande faxina interna em suas crenças.",
+"71": "Esta influência se origina da potência 71, revelando eventos que exigem uma análise fria e cirúrgica da realidade. O destino tira as ilusões do caminho, apresentando fatos que obrigam você a usar a razão pura e a investigação profunda.",
+"72": "Esta influência se origina da potência 72, indicando situações de forte percepção extra-sensorial e intuição profética. Você atrai eventos que confirmam seus pressentimentos, ensinando você a confiar cegamente na sua voz interior.",
+"73": "Esta influência se origina da potência 73, trazendo oportunidades de ensino e transmissão de sabedoria. O destino coloca você em posição de mestre ou conselheiro, onde suas experiências de vida servem de luz para o caminho de outros.",
+"74": "Esta influência se origina da potência 74, revelando eventos que exigem uma disciplina quase monástica em relação a um projeto. O universo retira as distrações e pede que você foque toda a sua energia na perfeição de uma obra.",
+"75": "Esta influência se origina da potência 75, indicando situações de aprendizado intelectual em ambientes de elite ou alta especialização. O destino favorece congressos, cursos e contatos que refinam sua visão técnica do mundo.",
+"76": "Esta influência se origina da potência 76, trazendo eventos que testam sua integridade diante da solidão ou do julgamento alheio. O universo exige que você se mantenha fiel aos seus princípios, mesmo que ninguém esteja vendo.",
+"77": "Esta influência se origina da potência 77, revelando sincronicidades místicas e encontros com 'almas afins'. O destino traz uma atmosfera de mistério e revelação, onde o véu entre o material e o espiritual se torna muito fino.",
+"78": "Esta influência se origina da potência 78, indicando eventos desafiadores que exigem um ajuste entre a sua mente e as suas emoções. O universo traz situações de 'choque de realidade' para que você aprenda a não ser tão crítico.",
+"79": "Esta influência se origina da potência 79, trazendo situações de busca solitária pela verdade e desmascaramento de mentiras. O destino faz com que a verdade apareça em sua vida de forma crua, exigindo que você a aceite sem medos.",
+"80": "Esta influência se origina da potência 80, revelando eventos que exigem um controle rigoroso sobre as finanças e o poder. O universo coloca você em situações onde a negligência não é permitida, forçando você a ser um gestor implacável.",
+"81": "Esta influência se origina da potência 81, trazendo situações de liderança espiritual e autoridade reconhecida. O destino coroa seus esforços, trazendo eventos onde você é chamado a liderar com base no seu exemplo moral.",
+"82": "Esta influência se origina da potência 82, indicando eventos que trazem conflitos de hierarquia ou disputas de ego no ambiente profissional. O universo testa sua capacidade de manter a calma e a justiça enquanto outros lutam por poder.",
+"83": "Esta influência se origina da potência 83, revelando situações que favorecem a escrita, o jornalismo ou qualquer forma de comunicação influente. O destino traz meios para que sua mensagem alcance muitas pessoas e gere resultados materiais.",
+"84": "Esta influência se origina da potência 84, trazendo grandes responsabilidades administrativas que podem gerar cansaço, mas trazem lucro. O universo exige que você organize o trabalho de outros, agindo como o arquiteto do sucesso coletivo.",
+"85": "Esta influência se origina da potência 85, indicando eventos que ensinam lições sobre o uso correto da força e da autoridade. O destino apresenta situações onde o autoritarismo falha, forçando você a encontrar o caminho da liderança inspiradora.",
+"86": "Esta influência se origina da potência 86, revelando situações de sobrecarga por deveres familiares que exigem uma gestão financeira eficiente. O universo ensina você a equilibrar o sustento material com a presença afetiva.",
+"87": "Esta influência se origina da potência 87, trazendo eventos que mostram a conexão entre o sucesso financeiro e a conduta espiritual. O destino traz 'sortes' inesperadas que são, na verdade, retornos de atos de bondade praticados no passado.",
+"88": "Esta influência se origina da potência 88, indicando a chegada de uma fase de grande prosperidade e expansão de negócios. O universo traz situações de alta voltagem material, onde tudo o que você toca tende a crescer e se estruturar.",
+"89": "Esta influência se origina da potência 89, revelando eventos que exigem o desapego de cargos ou bens materiais em prol de uma paz maior. O destino ensina que o verdadeiro poder não pode ser perdido, pois está dentro da sua consciência.",
+"90": "Esta influência se origina da potência 90, trazendo eventos que marcam o fim definitivo de uma era em sua vida. O universo fecha as cortinas de um longo capítulo, preparando você para um renascimento em bases muito mais elevadas.",
+"91": "Esta influência se origina da potência 91, revelando situações que favorecem a independência total e o sucesso alcançado pelo próprio mérito. O destino traz eventos que confirmam que você não precisa de muletas sociais para vencer.",
+"92": "Esta influência se origina da potência 92, indicando situações de profunda sensibilidade psíquica e auxílio a pessoas em crises graves. O universo coloca você em contato com a dor do mundo para que você manifeste sua luz curadora.",
+"93": "Esta influência se origina da potência 93, trazendo eventos que favorecem a comunicação de massas com um propósito educativo ou espiritual. O destino traz meios de expressão (mídia, livros, palestras) que espalham sabedoria.",
+"94": "Esta influência se origina da potência 94, revelando eventos que consolidam sua reputação após anos de esforço invisível. O universo traz a 'pedra angular' que faltava para completar o seu edifício de vida, gerando respeito eterno.",
+"95": "Esta influência se origina da potência 95, trazendo situações de mudança que libertam você de dogmas ou amarras do passado. O destino sopra ventos de renovação que fazem você questionar tudo e encontrar sua própria verdade.",
+"96": "Esta influência se origina da potência 96, indicando eventos de grande harmonia familiar e colheita de amor. O universo traz situações onde você é celebrado pelo bem que fez, rodeado de afeto e segurança emocional.",
+"97": "Esta influência se origina da potência 97, revelando eventos que trazem uma clareza quase mística sobre o funcionamento da vida. O destino permite que você enxergue o futuro ou as consequências das ações humanas com precisão cirúrgica.",
+"98": "Esta influência se origina da potência 98, trazendo situações que exigem o cumprimento rigoroso das leis — civis ou universais. O universo ensina que a ordem é a base do progresso, trazendo eventos que premiam a sua integridade.",
+"99": "Esta influência se origina da potência 99, revelando eventos de alcance mundial ou experiências de êxtase espiritual. O destino traz a conclusão máxima da sua busca, onde você compreende que o universo e você são um só."
+};
 
 const textosVida={
 
@@ -1779,317 +1870,60 @@ const textosPessoal={
   const textosDestino={ 
 
 
-1:`
-<h3>1️⃣Influência de Iniciativa e Despertar da Autonomia1️⃣ </h3>
 
-
-<p>Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e desenvolvimento da autonomia pessoal.</p>
-
-<p>Essa regência indica que acontecimentos externos frequentemente impulsionam você a assumir liderança, tomar decisões importantes ou iniciar novos caminhos. Muitas vezes a vida coloca diante de você circunstâncias que exigem atitude, independência e confiança na própria capacidade.</p>
-
-<p><p>Quando essa vibração se origina da potência 10 pode indicar influências favoráveis que despertam oportunidades de crescimento pessoal.</p>
-
-<p>Quando se origina da potência 19 pode revelar situações que desafiam o orgulho ou a necessidade de aprender lições de humildade.</p>
-
-<p>Quando se origina da potência 28 pode indicar influências externas ligadas a disputas ou desafios que exigem firmeza de caráter.</p>
-
-<p>Quando se origina da potência 37 revela acontecimentos que estimulam inteligência estratégica e tomada de decisões importantes.</p>
-
-<p>Quando se origina da potência 46 pode indicar influências ligadas ao trabalho e às conquistas materiais.</p>
-
-<p>Quando se origina da potência 55 revela situações que despertam desejo de liberdade e mudança.</p>
-
-<p>Quando se origina da potência 64 pode indicar acontecimentos inesperados que transformam sua direção de vida.</p>
-
-<p>Quando se origina da potência 73 revela influências que conduzem ao desenvolvimento da sabedoria interior.</p>
-
-<p>Quando se origina da potência 82 pode indicar situações relacionadas a poder ou responsabilidade.</p>
-
-<p>Quando se origina da potência 91 revela influências que conduzem à maturidade espiritual.</p>
-
-<p>No aspecto positivo manifesta coragem, liderança e capacidade de iniciar novos caminhos.</p>
-
-<p>No aspecto negativo pode gerar impulsividade ou tendência a enfrentar conflitos desnecessários.</p>
-
-<p>O aprendizado do Regente 1 da Influência consiste em transformar desafios externos em crescimento pessoal.</p>`,
-
-2:`
-<h3>3️⃣Influência de Sensibilidade e Aprendizado Emocional3️⃣ </h3>
-
-<p>Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem sensibilidade emocional, empatia e compreensão das relações humanas.</p>
-
-<p>Essa regência indica que muitas influências externas chegam até você através das relações com outras pessoas. Situações emocionais, encontros e vínculos afetivos tendem a desempenhar papel importante em seu crescimento.</p>
-
-<p>Quando essa vibração se origina da potência 29 pode indicar experiências emocionais intensas que despertam maturidade.</p>
-
-<p>Quando se origina da potência 38 revela influências que estimulam criatividade e sensibilidade artística.</p>
-
-<p>Quando se origina da potência 47 pode indicar situações externas ligadas à organização ou responsabilidade.</p>
-
-<p>Quando se origina da potência 56 revela acontecimentos que despertam iniciativa e atividade.</p>
-
-<p><p>Quando se origina da potência 65 pode indicar influências relacionadas às relações afetivas.</p>
-
-<p>Quando se origina da potência 74 revela experiências que exigem disciplina emocional.</p>
-
-<p>Quando se origina da potência 83 pode indicar influências ligadas à comunicação e ao conhecimento.</p>
-
-<p>Quando se origina da potência 92 revela experiências espirituais ou intuitivas.</p>
-
-<p>No aspecto positivo manifesta empatia, sensibilidade e compreensão das pessoas.</p>
-
-<p>No aspecto negativo pode gerar excesso de preocupação emocional ou tendência a absorver problemas alheios.</p>
-
-<p>O aprendizado do Regente 2 da Influência consiste em desenvolver equilíbrio emocional diante das experiências da vida.</p>`,
-
-3:`
-<h3>3️⃣Influência de Criatividade e Expansão de Ideias3️⃣ </h3>
-
-<p>Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam criatividade, comunicação e expressão intelectual.</p>
-
-<p>Essa regência indica que acontecimentos externos frequentemente despertam em você novas ideias, formas de expressão ou oportunidades de compartilhar pensamentos.</p>
-
-<p>Quando essa vibração se origina da potência 12 pode indicar experiências que transformam sua forma de pensar.</p>
-
-<p>Quando se origina da potência 21 revela influências sociais que estimulam crescimento intelectual.</p>
-
-<p>Quando se origina da potência 30 pode indicar forte inspiração criativa.</p>
-
-<p>Quando se origina da potência 39 revela ambientes sociais dinâmicos e comunicativos.</p>
-
-<p>Quando se origina da potência 48 pode indicar desafios relacionados à organização das ideias.</p>
-
-<p>Quando se origina da potência 57 revela acontecimentos que estimulam inteligência estratégica.</p>
-
-<p>Quando se origina da potência 66 pode indicar influências emocionais profundas.</p>
-
-<p>Quando se origina da potência 75 revela aprendizado intelectual intenso.</p>
-
-<p>Quando se origina da potência 84 pode indicar experiências relacionadas à responsabilidade.</p>
-
-<p>Quando se origina da potência 93 revela influências que conduzem à maturidade mental.</p>
-
-<p>No aspecto positivo manifesta criatividade, entusiasmo e inspiração intelectual.</p>
-
-<p>No aspecto negativo pode gerar dispersão ou excesso de estímulos mentais.</p>
-
-<p>O aprendizado do Regente 3 da Influência consiste em transformar inspiração em realização.</p>`,
-
-4:`
-<h3>4️⃣Influência de Estrutura e Construção da Vida4️⃣</h3> 
-
-
-<p>Para você, o Regente 4 da Influência representa a ação do universo trazendo experiências que desenvolvem disciplina, organização e construção de estabilidade.</p>
-
-<p>Essa regência indica que acontecimentos externos frequentemente exigem responsabilidade e esforço constante para alcançar segurança.</p>
-
-<p>Quando essa vibração se origina da potência 13 pode indicar transformações profundas provocadas por eventos marcantes.</p>
-
-<p>Quando se origina da potência 22 revela influências relacionadas a grandes responsabilidades.</p>
-
-<p>Quando se origina da potência 31 pode indicar estímulos ao desenvolvimento intelectual.</p>
-
-<p>Quando se origina da potência 40 revela períodos de reflexão ou pausa na vida.</p>
-
-<p>Quando se origina da potência 49 pode indicar acontecimentos intensos que provocam mudanças de visão.</p>
-
-<p>Quando se origina da potência 58 revela experiências ligadas ao poder material.</p>
-
-<p>Quando se origina da potência 67 pode indicar influências espirituais ou filosóficas.</p>
-
-<p>Quando se origina da potência 76 revela tendência a introspecção e estudo.</p>
-
-<p>Quando se origina da potência 85 pode indicar desafios relacionados à autoridade.</p>
-
-<p>Quando se origina da potência 94 revela transformações importantes ao longo da vida.</p>
-
-<p>No aspecto positivo manifesta disciplina e construção sólida.</p>
-
-<p>No aspecto negativo pode gerar rigidez ou excesso de responsabilidade.</p>
-
-<p>O aprendizado do Regente 4 da Influência consiste em construir estabilidade através da perseverança.</p>`,
-
-5:`
-<h3> 5️⃣Influência de Mudança e Experiência5️⃣</h3> 
-
-<p>Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam mudança, liberdade e diversidade de experiências.</p>
-
-<p>Essa regência indica que sua vida tende a ser influenciada por situações inesperadas, viagens, novos contatos ou mudanças de ambiente.</p>
-
-<p>Quando essa vibração se origina da potência 14 pode indicar influência de comunicação pública.</p>
-
-<p>Quando se origina da potência 23 revela proteção ou auxílio de pessoas influentes.</p>
-
-<p>Quando se origina da potência 32 pode indicar criatividade e expressão.</p>
-
-<p>Quando se origina da potência 41 revela estímulo à liderança.</p>
-
-<p>Quando se origina da potência 50 pode indicar momentos de pausa ou reflexão.</p>
-
-<p>Quando se origina da potência 59 revela influências espirituais.</p>
-
-<p>Quando se origina da potência 68 pode indicar experiências relacionadas ao poder material.</p>
-
-<p>Quando se origina da potência 77 revela forte busca por conhecimento.</p>
-
-<p>Quando se origina da potência 86 pode indicar responsabilidades intensas.</p>
-
-<p>Quando se origina da potência 95 revela transformações profundas.</p>
-
-<p>No aspecto positivo manifesta adaptação, versatilidade e espírito aventureiro.</p>
-
-<p>No aspecto negativo pode gerar instabilidade ou impulsividade.</p>
-
-<p>O aprendizado do Regente 5 da Influência consiste em transformar mudanças em crescimento.</p>`,
-
-6:`
-<h3> 6️⃣Influência de Amor e Responsabilidade Afetiva6️⃣</h3>  
-
-
-<p>Para você, o Regente 6 da Influência representa a ação do universo trazendo experiências relacionadas ao amor, à família e às responsabilidades emocionais.</p>
-
-<p>Essa regência indica que muitas influências externas chegam através das relações afetivas.</p>
-
-<p>Quando essa vibração se origina da potência 15 pode indicar magnetismo emocional.</p>
-
-<p>Quando se origina da potência 24 revela ambientes harmoniosos.</p>
-
-<p>Quando se origina da potência 33 indica forte influência de generosidade e ajuda aos outros.</p>
-
-<p>Quando se origina da potência 42 pode indicar responsabilidades familiares.</p>
-
-<p>Quando se origina da potência 51 revela mudanças emocionais importantes.</p>
-
-<p>Quando se origina da potência 60 indica momentos de reflexão afetiva.</p>
-
-<p>Quando se origina da potência 69 revela profunda sensibilidade emocional.</p>
-
-<p>Quando se origina da potência 78 pode indicar desafios nos relacionamentos.</p>
-
-<p>Quando se origina da potência 87 revela aprendizado espiritual através das relações.</p>
-
-<p>Quando se origina da potência 96 indica maturidade emocional ao longo da vida.</p>
-
-<p>No aspecto positivo manifesta amor, harmonia e responsabilidade afetiva.</p>
-
-<p>No aspecto negativo pode gerar dependência emocional.</p>
-
-<p>O aprendizado do Regente 6 da Influência consiste em desenvolver equilíbrio nas relações.</p>`,
-
-7:`
-<h3>7️⃣Influência de Conhecimento e Despertar Espiritual7️⃣ </h3>
-
-<p>Para você, o Regente 7 da Influência representa a ação do universo trazendo experiências que despertam reflexão, busca de conhecimento e compreensão espiritual.</p>
-
-
-<p>Essa regência indica que acontecimentos externos muitas vezes conduzem você ao estudo, à introspecção ou à busca de significado mais profundo para a vida.</p>
-
-
-<p>Quando essa vibração se origina da potência 16 pode indicar eventos que provocam grandes mudanças na visão de mundo.</p>
-
-
-<p>Quando se origina da potência 25 revela sensibilidade intelectual.</p>
-
-
-<p>Quando se origina da potência 34 pode indicar criatividade mental.</p>
-
-
-<p>Quando se origina da potência 43 revela liderança intelectual.</p>
-
-
-<p>Quando se origina da potência 52 indica aprendizado através da experiência.</p>
-
-
-<p>Quando se origina da potência 61 revela sensibilidade espiritual.</p>
-
-
-<p>Quando se origina da potência 70 pode indicar períodos de recolhimento.</p>
-
-
-<p>Quando se origina da potência 79 revela intensa busca por conhecimento.</p>
-
-
-<p>Quando se origina da potência 88 pode indicar grande poder mental.</p>
-
-
-<p>Quando se origina da potência 97 revela maturidade espiritual profunda.</p>
-
-
-<p>No aspecto positivo manifesta sabedoria e compreensão profunda da vida.</p>
-
-
-<p>No aspecto negativo pode gerar isolamento ou excesso de introspecção.</p>
-
-
-<p>O aprendizado do Regente 7 da Influência consiste em transformar experiências em sabedoria.</p>`,
-
-8:`
-<h3>Influência de Poder e Responsabilidade</h3> 
-
-<p>Para você, o Regente 8 da Influência representa a ação do universo trazendo experiências ligadas ao poder, à autoridade e às responsabilidades materiais.</p>
-
-<p>Essa regência indica que acontecimentos externos frequentemente envolvem questões de liderança, organização ou administração de recursos.</p>
-
-<p>Quando essa vibração se origina da potência 17 pode indicar proteção espiritual.</p>
-
-<p>Quando se origina da potência 26 revela aprendizado financeiro.</p>
-
-<p>Quando se origina da potência 35 pode indicar inteligência estratégica.</p>
-
-<p>Quando se origina da potência 44 revela grande potencial de liderança.</p>
-
-<p>Quando se origina da potência 53 pode indicar mudanças inesperadas.</p>
-
-<p>Quando se origina da potência 62 revela aprendizado através das relações.</p>
-
-<p>Quando se origina da potência 71 indica análise profunda.</p>
-
-<p>Quando se origina da potência 80 revela necessidade de disciplina.</p>
-
-<p>Quando se origina da potência 89 pode indicar conflitos de poder.</p>
-
-<p>Quando se origina da potência 98 revela maturidade e compreensão das leis da vida.</p>
-
-<p>No aspecto positivo manifesta liderança equilibrada e capacidade administrativa.</p>
-
-<p>No aspecto negativo pode gerar excesso de controle ou apego ao poder.</p>
-
-<p>O aprendizado do Regente 8 da Influência consiste em usar o poder com responsabilidade.</p>`,
-
-9:`
-<h3>9️⃣Influência de Sabedoria e Experiências Universais9️⃣</h3>
-
-<p>Para você, o Regente 9 da Influência representa a ação do universo trazendo experiências profundas que conduzem ao desenvolvimento da sabedoria e da compreensão da vida.</p>
-
-<p>Essa regência indica que acontecimentos externos frequentemente estimulam reflexão, maturidade e percepção espiritual.</p>
-
-<p>Quando essa vibração se origina da potência 18 pode indicar desafios emocionais importantes.</p>
-
-<p>Quando se origina da potência 27 revela sensibilidade espiritual.</p>
-
-<p>Quando se origina da potência 36 pode indicar criatividade emocional.</p>
-
-<p>Quando se origina da potência 45 revela responsabilidades importantes.</p>
-
-<p>Quando se origina da potência 54 pode indicar mudanças profundas.</p>
-
-<p>Quando se origina da potência 63 revela maturidade emocional.</p>
-
-<p>Quando se origina da potência 72 indica percepção intuitiva.</p>
-
-<p>Quando se origina da potência 81 revela liderança espiritual.</p>
-
-<p>Quando se origina da potência 90 pode indicar encerramento de ciclos.</p>
-
-<p>Quando se origina da potência 99 revela elevada consciência espiritual.</p>
-
-<p>No aspecto positivo manifesta sabedoria, compaixão e visão universal da vida.</p>
-
-<p>No aspecto negativo pode gerar desilusão ou distanciamento emocional.</p>
-
-<p>O aprendizado do Regente 9 da Influência consiste em transformar experiências em compreensão profunda da vida.</p>`,
-
-
+1: `<h3>Influência de Iniciativa e Despertar da Autonomia</h3>
+<p>Para você, o Regente 1 da Influência representa a ação do universo conduzindo situações que estimulam iniciativa, coragem e o desenvolvimento da autonomia pessoal.</p>
+<p>Essa regência indica que acontecimentos externos frequentemente impulsionam você a assumir liderança, tomar decisões importantes ou iniciar novos caminhos. Muitas vezes a vida coloca diante de você circunstâncias que exigem atitude, independência e confiança na própria capacidade, forçando você a sair da zona de conforto.</p>
+<p>No aspecto positivo manifesta coragem, liderança e capacidade de abrir portas. No aspecto negativo pode gerar impulsividade ou a sensação de estar sempre enfrentando batalhas sozinho.</p>
+<p>O aprendizado do Regente 1 da Influência consiste em transformar desafios externos em combustível para sua evolução pessoal.</p>`,
+
+2: `<h3>Influência de Sensibilidade e Aprendizado Emocional</h3>
+<p>Para você, o Regente 2 da Influência representa a ação do universo trazendo experiências que desenvolvem a sensibilidade emocional, a empatia e a compreensão profunda das relações humanas.</p>
+<p>Essa regência indica que muitas influências externas chegam até você através das relações com outras pessoas. Situações emocionais, encontros significativos e vínculos afetivos tendem a ser os principais gatilhos para as grandes mudanças em sua vida. O universo ensina você através do espelho do outro.</p>
+<p>No aspecto positivo manifesta empatia, sensibilidade e acolhimento. No aspecto negativo pode gerar excesso de preocupação emocional ou tendência a absorver as crises alheias como se fossem suas.</p>
+<p>O aprendizado do Regente 2 da Influência consiste em desenvolver equilíbrio emocional diante das marés da vida.</p>`,
+
+3: `<h3>Influência de Criatividade e Expansão de Ideias</h3>
+<p>Para você, o Regente 3 da Influência representa a ação do universo trazendo experiências que estimulam a criatividade, a comunicação e a expressão intelectual.</p>
+<p>Essa regência indica que acontecimentos externos frequentemente despertam em você novas ideias, formas de expressão ou oportunidades de compartilhar seus pensamentos com o mundo. Você atrai situações onde a sua voz precisa ser ouvida e onde o seu brilho pessoal é o diferencial.</p>
+<p>No aspecto positivo manifesta entusiasmo e inspiração intelectual constante. No aspecto negativo pode gerar dispersão ou uma sobrecarga de estímulos que dificulta a finalização de projetos.</p>
+<p>O aprendizado do Regente 3 da Influência consiste em transformar a inspiração externa em realização concreta.</p>`,
+
+4: `<h3>Influência de Estrutura e Construção da Vida</h3>
+<p>Para você, o Regente 4 da Influência representa a ação do universo trazendo experiências que desenvolvem disciplina, organização e a construção de uma base sólida para o futuro.</p>
+<p>Essa regência indica que acontecimentos externos frequentemente exigem de você seriedade, pés no chão e esforço constante. A vida apresenta circunstâncias que testam sua persistência, forçando você a organizar o caos e a construir segurança através do trabalho e da ordem.</p>
+<p>No aspecto positivo manifesta disciplina e a capacidade de materializar sonhos. No aspecto negativo pode gerar rigidez ou a sensação de que a vida é feita apenas de deveres e obrigações.</p>
+<p>O aprendizado do Regente 4 da Influência consiste em construir estabilidade sem perder a flexibilidade.</p>`,
+
+5: `<h3>Influência de Mudança e Experiência</h3>
+<p>Para você, o Regente 5 da Influência representa a ação do universo trazendo acontecimentos que estimulam a mudança, a liberdade e a diversidade de experiências.</p>
+<p>Essa regência indica que sua vida tende a ser influenciada por situações inesperadas: viagens repentinas, novos contatos sociais ou mudanças bruscas de ambiente. O universo impede que você fique estagnado, trazendo o novo de forma acelerada para expandir seus horizontes.</p>
+<p>No aspecto positivo manifesta versatilidade e um espírito aventureiro que se adapta a tudo. No aspecto negativo pode gerar instabilidade excessiva ou dificuldade em criar raízes.</p>
+<p>O aprendizado do Regente 5 da Influência consiste em transformar as mudanças externas em autoconhecimento e sabedoria prática.</p>`,
+
+6: `<h3>Influência de Amor e Responsabilidade Afetiva</h3>
+<p>Para você, o Regente 6 da Influência representa a ação do universo trazendo experiências diretamente ligadas ao amor, à família e às responsabilidades comunitárias.</p>
+<p>Essa regência indica que muitas influências externas chegam através de deveres afetivos ou da necessidade de mediar conflitos ao seu redor. A vida coloca você em situações onde o seu papel é trazer harmonia, cuidar e assumir responsabilidades pelos laços que criou.</p>
+<p>No aspecto positivo manifesta amor, harmonia e um forte senso de justiça afetiva. No aspecto negativo pode gerar dependência emocional ou a sobrecarga de carregar os problemas familiares nas costas.</p>
+<p>O aprendizado do Regente 6 da Influência consiste em cuidar do mundo sem esquecer de cuidar de si mesmo.</p>`,
+
+7: `<h3>Influência de Conhecimento e Despertar Espiritual</h3>
+<p>Para você, o Regente 7 da Influência representa a ação do universo trazendo experiências que despertam a reflexão profunda, a busca pelo conhecimento e a compreensão espiritual.</p>
+<p>Essa regência indica que acontecimentos externos — muitas vezes desafiadores ou isoladores — conduzem você ao estudo, à introspecção e à busca de um significado superior. O universo "retira" você do barulho do mundo para que você possa ouvir sua própria voz interior.</p>
+<p>No aspecto positivo manifesta sabedoria e uma conexão espiritual autêntica. No aspecto negativo pode gerar isolamento excessivo ou uma visão crítica e cética demais sobre a realidade.</p>
+<p>O aprendizado do Regente 7 da Influência consiste em transformar cada experiência de vida em um degrau de sabedoria.</p>`,
+
+8: `<h3>Influência de Poder e Responsabilidade Material</h3>
+<p>Para você, o Regente 8 da Influência representa a ação do universo trazendo experiências ligadas ao poder, à autoridade, às finanças e às responsabilidades materiais.</p>
+<p>Essa regência indica que acontecimentos externos frequentemente envolvem questões de liderança, gestão de recursos ou administração de grandes projetos. Você atrai situações que testam sua integridade e sua capacidade de lidar com o sucesso e a autoridade.</p>
+<p>No aspecto positivo manifesta liderança equilibrada e grande capacidade de realização material. No aspecto negativo pode gerar lutas de poder ou perdas financeiras por excesso de ambição.</p>
+<p>O aprendizado do Regente 8 da Influência consiste em usar o poder e os recursos como ferramentas para o bem maior.</p>`,
+
+9: `<h3>Influência de Sabedoria e Experiências Universais</h3>
+<p>Para você, o Regente 9 da Influência representa a ação do universo trazendo experiências profundas que conduzem à finalização de ciclos e ao desenvolvimento de uma consciência humanitária.</p>
+<p>Essa regência indica que acontecimentos externos frequentemente estimulam o desapego, a generosidade e a visão filosófica. Você atrai situações que exigem uma compreensão mais ampla da vida, muitas vezes lidando com o público ou com causas que transcendem o interesse pessoal.</p>
+<p>No aspecto positivo manifesta compaixão e uma sabedoria que serve de guia para outros. No aspecto negativo pode gerar desilusão com o mundo ou a sensação de cansaço emocional por lidar com as dores coletivas.</p>
+<p>O aprendizado do Regente 9 da Influência consiste em encerrar ciclos com gratidão e compreender o propósito maior da jornada humana.</p>`,
     
 
 11: `<p>Força e Autodomínio</p>
