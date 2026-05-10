@@ -1219,22 +1219,29 @@ function calcularPeriodoSequencia(periodoBase, duracaoTotal) {
 
 
 // Alterei a ordem: agora bancoPotenciais é o 6º e nomeCliente o 7º
-function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais = {}, textoIntro, textoIntroRegente, nomeCliente = "") {
+// Ajustei a ordem dos parâmetros (o 4º agora é o bancoPotenciais) para bater com sua chamada
+function montarSecaoMatriz(titulo, matriz, bancoDeTextos, bancoPotenciais, textoIntro, textoIntroRegente, nomeCliente = "") {
+    // Pegamos o Regente (topo)
     const ultimaLinha = matriz[matriz.length - 1];
     const regente = ultimaLinha[0];
     
     let textoDosPotenciais = "";
+    
+    // Pegamos a Potência (os dois números que formam o topo)
     if (matriz.length >= 2) {
         const penultimaLinha = matriz[matriz.length - 2];
         const p1 = penultimaLinha[0];
         const p2 = penultimaLinha[1];
-        const combinacao = `${p1}${p2}`;
+        const combinacao = `${p1}${p2}`; // Ex: "56"
 
+        // Busca o texto no banco que você passou na 4ª posição (explicacoes.pessoal, etc)
         if (bancoPotenciais && bancoPotenciais[combinacao]) {
             textoDosPotenciais = `
                 <div class="potenciais-integrados" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
-                    <strong style="color: #827108; display: block; margin-bottom: 5px;">⚡ POTENCIAIS DE FORMAÇÃO: ${p1} & ${p2}</strong>
-                    <div style="color: #555; font-style: italic;">
+                    <strong style="color: #827108; display: block; margin-bottom: 5px; text-transform: uppercase;">
+                        ⚡ POTÊNCIA: ${combinacao}
+                    </strong>
+                    <div style="color: #555; font-style: italic; line-height: 1.5;">
                         ${aplicarFiltroTexto(bancoPotenciais[combinacao])}
                     </div>
                 </div>`;
