@@ -1311,9 +1311,9 @@ function gerarLoopNegativo(mV, mP, mS, mD, crono) {
                 ⚠️ DESAFIOS E BLOQUEIOS: ${periodo.idadeIni} a ${periodo.idadeFim} anos
             </div>
             <div class="conteudo-vibracoes">
-                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 VIDA:</b> ${aplicarFiltroTexto(textosSeqNegVida[nV] || "Sem bloqueios severos mapeados para esta vibração.")}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 VIDA:</b> ${aplicarFiltroTexto(textosSeqNegVida[nV] || "Sem bloqueios mapeados para esta vibração.")}</div>
                 <div class="vibracao-row"><b style="color:#d32f2f;">🚫 PESSOAL:</b> ${aplicarFiltroTexto(textosSeqNegPessoal[nP] || "Fluxo pessoal em harmonia.")}</div>
-                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 SOCIAL:</b> ${aplicarFiltroTexto(textosSeqNegSocial[nS] || "Sem percepção Social  .")}</div>
+                <div class="vibracao-row"><b style="color:#d32f2f;">🚫 SOCIAL:</b> ${aplicarFiltroTexto(textosSeqNegSocial[nS] || "Sem percepção Social evidente.")}</div>
                 <div class="vibracao-row"><b style="color:#d32f2f;">🚫 DESTINO:</b> ${aplicarFiltroTexto(textosSeqNegDestino[nD] || "Caminho de destino livre de obstruções.")}</div>
             </div>
         </div>`;
@@ -1377,7 +1377,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
 
                     <div style="padding: 20px;">
                         <div style="font-size: 16px; color: #374151; margin-bottom: 20px; padding: 10px; background: #fffafb; border-radius: 5px; border-left: 3px solid #d32f2f;">
-                            📅 <b>Vigência:</b> ${periodoBase.ini} até ${datas.fim} <span style="color: #6b7280; font-size: 13px;">(${duracaoTotal} anos de influência)</span>
+                            📅 <b>Período mais intenso:</b> ${periodoBase.ini} até ${datas.fim} <span style="color: #6b7280; font-size: 13px;">(${duracaoTotal} anos de influência)</span>
                         </div>
                         
                         <div class="grid-sequencias" style="display: grid; gap: 15px;">
@@ -1577,13 +1577,13 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
                         </div>
                         <div class="conteudo-vibracoes" style="margin-top:10px;">
                             <p style="font-size: 18px; color: #111827; margin-bottom: 10px; border-bottom: 1px dashed #b8860b; padding-bottom: 5px;">
-                                📅 <b>Período:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
+                                📅 <b>Período de vigência:</b> de ${periodoBase.ini} até ${datas.fim} (${duracaoTotal} anos)
                             </p>
                             <div class="vibracao-row">
-                                <b> SEQUÊNCIA ${pira.prefixo} ${seq}</b>: ${aplicarFiltroTexto(pira.banco[seq])}
+                                <b> Número Especial ${pira.prefixo} ${seq}</b>: ${aplicarFiltroTexto(pira.banco[seq])}
                             </div>
                             <p style="font-size: 11px; color: #827108; margin-top: 5px; font-style: italic;">
-                                *Vigência calculada pela matriz temporal da Pirâmide da Vida.
+                                *Essas sêquencias ainda estão em processo de estudo e mais números poderão ser análisados.
                             </p>
                         </div>
                     </div>`;
@@ -2026,7 +2026,7 @@ meuHtml += `
             { t: "Parte 3: Sequências de Bloqueio",   c: "Vida ✶ Pessoal ✶ Social ✶ Destino"},
             { t: "Parte 4: Sequências Financeiras", c: "Vida ✶ Pessoal ✶ Social ✶ Destino"},
             { t: "Parte 5: Potências", c: "Vida ✶ Pessoal ✶ Social ✶ Destino"},         
-            { t: "Complemento: Filosofia e Ciência", c: "Leis Universais ✶ Agradecimento"}
+            { t: "Complementos: Filosofia e Numerologia", c: "Leis Universais ✶ Agradecimento"}
         ].map(item => `
             <div style="text-align: center;">
                 <h3 style="color: var(--gold); font-size: 2.4rem; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 5px; font-weight: 900;">${item.t}</h3>
@@ -2096,7 +2096,7 @@ meuHtml += `
         </a>
 
         <p style="position: absolute; bottom: 50px; width: 100%; color: #fff; font-size: 14px; letter-spacing: 1px; opacity: 0.8; padding: 0 20px; box-sizing: border-box; margin: 0;">
-           A ciência da observação ✶ Origem & Numerologia Moderna ✶ Matriz da Vida
+         Fundamentação ✶  A ciência da observação ✶ Origem & Numerologia Moderna ✶ Matriz da Vida
         </p>
     </div>
 `;
@@ -2412,7 +2412,7 @@ meuHtml += `
         
         <div style="margin-top: 60px; z-index: 10; width: 100%;">
             <h2 style="font-family: 'Cinzel', serif; font-size: 28px; color: #fff; text-transform: uppercase; margin: 15px 20px;">
-               Parte 1<br><br> Sequências Especiais
+               Parte 2<br><br> Sequências Especiais
             </h2>
         </div>
 
@@ -2891,7 +2891,7 @@ meuHtml += `
         
         <div style="margin-top: 60px; z-index: 10; width: 100%;">
             <h2 style="font-family: 'Cinzel', serif; font-size: 28px; color: #fff; text-transform: uppercase; margin: 15px 20px;">
-              Parte 6 <br><br> Filosofia e Ciência
+              Complemento<br><br> Filosofia e Numerologia
             </h2>
         </div>
 
