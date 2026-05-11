@@ -1073,6 +1073,25 @@ function valorLetra(letra){
 }
 
 
+    function reduzir(n) {
+    if (!n || n === 0) return 0;
+    
+    // Converte para string e remove sinais ou pontos
+    let num = n.toString().replace(/\D/g, "");
+    
+    // Enquanto o número for maior que 9 e NÃO for um Número Mestre (11, 22)
+    // Se você NÃO quiser usar números mestres, remova: && num != "11" && num != "22"
+    while (num.length > 1 && num !== "11" && num !== "22") {
+        num = num.split("")
+                 .reduce((acc, curr) => acc + parseInt(curr), 0)
+                 .toString();
+    }
+    
+    return parseInt(num);
+}
+
+    
+
  function aplicarFiltroTexto(texto) {
     if (!texto || typeof texto !== 'string') {
         return ""; 
