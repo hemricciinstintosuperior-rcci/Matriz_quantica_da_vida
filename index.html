@@ -1382,7 +1382,7 @@ function extrairNegativasSincronizadas(mV, mP, mS, mD, crono, topoV) {
                         
                         <div class="grid-sequencias" style="display: grid; gap: 15px;">
                             <div class="centralizar-titulos" style="text-align: left !important; align-items: flex-start !important;">
-                                <b style="color: #b91c1c;">🚫 VIBRAÇÃO MESTRA(VIDA) ${resV}${resV}${resV}</b>
+                                <b style="color: #b91c1c;">🚫 VIBRAÇÃO MESTRA (VIDA) ${resV}${resV}${resV}</b>
                                 <div style="font-size: 15px; color: #4b5563; margin-top: 5px;">${aplicarFiltroTexto(textosSeqNegVida[resV] || "Bloqueio no fluxo vital.")}</div>
                             </div>
 
@@ -1441,7 +1441,7 @@ function extrairFinanceiroSincronizado(mV, mP, mS, mD, crono, topoV) {
     const bD = typeof textosSeqFinancDestino !== 'undefined' ? textosSeqFinancDestino : {};
 
     const piramides = [
-        { matriz: mV, banco: bV, nome: "VIBRAÇÃO MESTRA(VIDA)", prefixo: "👑" },
+        { matriz: mV, banco: bV, nome: "VIBRAÇÃO MESTRA (VIDA)", prefixo: "👑" },
         { matriz: mP, banco: bP, nome: "MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)", prefixo: "👤" },
         { matriz: mS, banco: bS, nome: "PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)", prefixo: "🌎" },
         { matriz: mD, banco: bD, nome: "TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA)", prefixo: "☄️" }
@@ -1526,7 +1526,7 @@ function extrairEspeciaisSincronizadas(mV, mP, mS, mD, crono, topoV) {
     
     // Mapeamento de quais pirâmides buscar e quais bancos de texto usar
     const piramides = [
-        { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "VIBRAÇÃO MESTRA(VIDA)", prefixo: "👑", classe: "vida" },
+        { matriz: mV, banco: typeof textosSeqEspVida !== 'undefined' ? textosSeqEspVida : {}, nome: "VIBRAÇÃO MESTRA (VIDA)", prefixo: "👑", classe: "vida" },
         { matriz: mP, banco: typeof textosSeqEspPessoal !== 'undefined' ? textosSeqEspPessoal : {}, nome: "MUNDO INTERIOR (O QUE VOCÊ SENTE POR DENTRO)", prefixo: "👤", classe: "pessoal" },
         { matriz: mS, banco: typeof textosSeqEspSocial !== 'undefined' ? textosSeqEspSocial : {}, nome: "PERCEPÇÃO DO MEIO (COMO VOCÊ VÊ O MUNDO)", prefixo: "🌎", classe: "social" },
         { matriz: mD, banco: typeof textosSeqEspDestino !== 'undefined' ? textosSeqEspDestino : {}, nome: "TENDENCIAS DO DESTINO (PROPÓSITO OU INFLUÊNCIA)", prefixo: "☄️", classe: "destino" }
