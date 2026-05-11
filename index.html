@@ -1069,27 +1069,22 @@ function valorLetra(letra){
         else if(a === "\u0300") multAcentos *= 2;
         else if(a === "\u0308") multAcentos *= 2;
     }
-    return (valorBase + somaAcentos) * multAcentos;
+    
+    let resultado = (valorBase + somaAcentos) * multAcentos;
+    
+    // A CORREÇÃO ESTÁ AQUI: 
+    // Reduzimos o resultado final para um único dígito (1-9)
+    return reduzir(resultado); 
 }
 
-
-    function reduzir(n) {
+function reduzir(n) {
     if (!n || n === 0) return 0;
-    
-    // Converte para string e remove sinais ou pontos
-    let num = n.toString().replace(/\D/g, "");
-    
-    // Enquanto o número for maior que 9 e NÃO for um Número Mestre (11, 22)
-    // Se você NÃO quiser usar números mestres, remova: && num != "11" && num != "22"
-    while (num.length > 1 && num !== "11" && num !== "22") {
-        num = num.split("")
-                 .reduce((acc, curr) => acc + parseInt(curr), 0)
-                 .toString();
+    // Enquanto for maior que 9, soma os dígitos
+    while (n > 9) {
+        n = n.toString().split('').reduce((acc, curr) => parseInt(acc) + parseInt(curr), 0);
     }
-    
-    return parseInt(num);
+    return n;
 }
-
     
 
  function aplicarFiltroTexto(texto) {
@@ -1136,10 +1131,7 @@ function aplicarFiltroNomeComposto(texto) {
     return texto.replace(/MASCULINO-FEMININO-NEUTRO/gi, `<strong>${pNome}</strong>`);
 }   
 
-function reduzir(n){
-    while(n>9){ n=n.toString().split('').reduce((a,b)=>+a+ +b,0); }
-    return n;
-}
+
 
 function nomeNumeros(nome){
     nome=nome.toUpperCase();
