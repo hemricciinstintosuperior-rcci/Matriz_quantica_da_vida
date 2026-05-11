@@ -1772,12 +1772,13 @@ function piramideDestino(baseNome, dia, mes) { return piramide(baseNome.map(n =>
 
 
 function gerarSinteseFinal(v, p, s, d, bancoSintese) {
-    let h = `<div class="blocoRelatorio" style="border: 2px solid #fff; background: #fdfeff;">
-       <h1 style="color:#6366f1; text-align:center; margin-bottom: 20px;">▼ Resultado da Dinâmica entre as Matrizes ▼</h1>`;
+    // Usamos o seu novo banco de textos profundos
+    const bancoNovo = window.textosSintese;
+
+    let h = `<div class="blocoRelatorio evitar-corte" style="border: 2px solid #e6d5a8; background: #fff; padding: 20px; border-radius: 15px;">
+       <h1 style="color:#827108; text-align:center; margin-bottom: 25px; font-family: 'Cinzel', serif; font-size: 22px;">▼ Resultado da Dinâmica entre as Matrizes ▼</h1>`;
              
-    
     let matches = [];
-    // Verificação das 6 combinações de sincronia
     if (p === v) matches.push({id: "pessoal_vida", tit: "Sincronia Pessoal e Vida  👤➛👑"});
     if (s === v) matches.push({id: "social_vida", tit: "Sincronia Social e Vida  🌎➛👑"});
     if (d === v) matches.push({id: "destino_vida", tit: "Sincronia Destino e Vida  ☄️➛👑"});
@@ -1785,41 +1786,43 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
     if (p === d) matches.push({id: "pessoal_destino", tit: "Sincronia Pessoal e Destino  👤➛☄️"});
     if (s === d) matches.push({id: "social_destino", tit: "Sincronia Social e Destino  🌎➛☄️"});
 
-    // 1. PARTE: CONEXÕES ESPECÍFICAS (As que geram os emojis grandes)
+    // 1. PARTE: CONEXÕES ESPECÍFICAS (Mantido, mas agora com seus textos novos)
     if (matches.length > 0) {
         matches.forEach(m => {
-            let txt = (bancoSintese && bancoSintese[m.id]) ? bancoSintese[m.id] : "Análise de conexão em processamento...";
-            h += `<div class="blocoRelatorio" style="border-center:5px solid #fff; background:#f1f5f9; padding:15px; margin-bottom:15px; border-radius: 0 8px 8px 0;">
-                    <b style="font-size:20px; color: #6366F1;">🔗 ${m.tit}</b><br>
-                    <p style="margin:8px 0 0 0; line-height:1.5;">${aplicarFiltroTexto(txt)}</p>
+            // Tenta pegar do banco novo, se não tiver, usa o que vier no bancoSintese
+            let txt = (bancoNovo && bancoNovo[m.id]) ? bancoNovo[m.id] : ((bancoSintese && bancoSintese[m.id]) ? bancoSintese[m.id] : "Análise em processamento...");
+            h += `<div style="border-left:5px solid #b59b4d; background:#fdfaf2; padding:15px; margin-bottom:15px; border-radius: 0 8px 8px 0;">
+                    <b style="font-size:19px; color: #827108;">🔗 ${m.tit}</b>
+                    <div style="margin:8px 0 0 0; line-height:1.6; color: #444;">${aplicarFiltroTexto(txt)}</div>
                   </div>`;
         });
     }
 
-    // 2. PARTE: ASSINATURA GERAL PERSONALIZADA
-    h += `<hr style="border-center:5px; border-top:1px dashed #4338ca; margin:25px 0;">`;
+    h += `<hr style="border:none; border-top:1px dashed #e6d5a8; margin:25px 0;">`;
     
     const conjunto = new Set([v, p, s, d]);
     let resumoGeral = "";
     let detalhesMistos = "";
 
+    // 2. PARTE: LÓGICA DOS MISTOS (Preservando sua análise técnica)
     if (conjunto.size === 1) {
-        resumoGeral = bancoSintese["convergencia_total"];
+        resumoGeral = bancoNovo["convergencia_total"] || bancoSintese["convergencia_total"];
     } else if (conjunto.size === 4) {
-        resumoGeral = bancoSintese["autonomia_total"];
+        resumoGeral = bancoNovo["autonomia_total"] || bancoSintese["autonomia_total"];
     } else {
-        // EQUILÍBRIO MISTO - Aqui entra a sua personalização!
-        resumoGeral = bancoSintese["equilibrio_misto"];
+        resumoGeral = bancoNovo["equilibrio_misto"] || bancoSintese["equilibrio_misto"];
         
-        // Adiciona detalhes específicos baseados no que deu igual
-        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social  👤⬌🌎"] || "";
-        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino  👤⬌☄️"] || "";
-        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida  👤⬌👑"] || "";
-        if (s === d) detalhesMistos += bancoSintese["misto_social_destino  🌎⬌☄️"] || "";
+        // Aqui mantemos sua busca pelos textos de "misto_" que você já tem no banco
+        if (p === s) detalhesMistos += bancoSintese["misto_pessoal_social"] || "";
+        if (p === d) detalhesMistos += bancoSintese["misto_pessoal_destino"] || "";
+        if (p === v) detalhesMistos += bancoSintese["misto_pessoal_vida"] || "";
+        if (s === d) detalhesMistos += bancoSintese["misto_social_destino"] || "";
     }
 
-    h += `<div style="margin-top:20px; padding:10px; border:1px solid #e2e8f0; border-radius:8px; background:#f1f5f9;">
-           <b style="color:#6366f1;">Análise de Fluxos Combinados:</b>
+    // 3. PARTE: RENDERIZAÇÃO FINAL (Somando tudo)
+    h += `<div style="margin-top:20px; padding:20px; border:1px solid #e6d5a8; border-radius:12px; background:#fafafa;">
+           <b style="color:#827108; font-size:18px;">Análise de Fluxos Combinados:</b>
+           <div style="margin-top:10px;">
            ${aplicarFiltroTexto(detalhesMistos || `<p>Quando as pirâmides apresentam números totalmente distintos entre si, forma-se um conjunto de potências que operam de maneira independente. Isso indica uma estrutura energética marcada pela autonomia entre os campos pessoal, social e de destino.</p>
 
 <p>Nesse tipo de configuração, cada força atua por si, sem exercer influência direta sobre as demais. Como resultado, a jornada de você tende a apresentar grande versatilidade e múltiplas direções possíveis.</p>
@@ -1828,21 +1831,19 @@ function gerarSinteseFinal(v, p, s, d, bancoSintese) {
 
 <p>Em muitos momentos, você pode sentir uma coisa, enxergar outra realidade e ser conduzida por estímulos internos ou externos difíceis de explicar. Isso cria uma dinâmica existencial rica, porém profundamente multifacetada.</p>
 
-<p>A ausência de influência direta entre os campos não significa falta de movimento, mas sim um fluxo mais sutil e não linear. Assim, a vida se desenvolve de forma natural, guiada por interações complexas entre percepção, experiência e influências mais amplas do universo.</p>`)}
-            </div>
-    <div style="text-align:center; padding: 10px;">
-            <b style="text-align:center; font-size:20px; color:#002663; display:block; margin-bottom:10px;">📋 Assinatura Geral do Relatório</b>
-            <div style="text-align:center; font-size:20px; line-height:1.7; color:#334155;">
+<p>A ausência de influência direta entre os campos não significa falta de movimento, mas sim um fluxo mais sutil e não linear. Assim, a vida se desenvolve de forma natural, guiada por interações complexas entre percepção, experiência e influências mais amplas do universo.</p></p>`)}
+           </div>
+          </div>
+
+          <div style="text-align:center; padding: 25px; margin-top:20px; background:#fdfaf2; border-radius:15px;">
+            <b style="font-size:22px; color:#827108; display:block; margin-bottom:15px; font-family: 'Cinzel', serif;">📋 Assinatura Geral do Relatório</b>
+            <div style="font-size:17px; line-height:1.7; color:#333; text-align:justify;">
                 ${aplicarFiltroTexto(resumoGeral)}
             </div>
-            
-   
-    
           </div>`;
 
     return h + "</div>";
 }
-
 
 function gerarLoopIntegrado(mV, mP, mS, mD, crono) {
     let h = "";
@@ -1944,7 +1945,15 @@ function gerar() {
     const topoV = topo(mVida[0]);
     const crono = gerarCronogramaMestre(topoV, dataISO);
 
+// Localize a linha 1949 e substitua o bloco problemático por este:
+// Aqui pegamos os valores do TOPO (o último nível de cada array)
+let vTopo = mVida[mVida.length - 1][0];
+let pTopo = mPes[mPes.length - 1][0];
+let sTopo = mSoc[mSoc.length - 1][0];
+let dTopo = mDes[mDes.length - 1][0];
 
+// Agora chamamos a função usando esses valores
+let htmlSinteseFinal = gerarSinteseFinal(vTopo, pTopo, sTopo, dTopo, window.textosSintese);
     
 
     let meuHtml = `  
@@ -2164,14 +2173,14 @@ meuHtml += `
         
         <p style="margin-top: 15px;"><b>As Sequências Negativas:</b> Diferente do que muitos pensam, as sequências repetitivas (como 111, 444, 777) não foram inventadas; elas foram identificadas por pesquisadores contemporâneos que notaram que a sobrecarga de uma mesma frequência em pontos críticos da pirâmide gera o que a física chama de "interferência destrutiva". São bloqueios no fluxo natural que, se não identificados, podem causar repetições de padrões de erro (autossabotagem).</p>
         
-        <p style="margin-top: 15px;">Já as <b>Sequências Especiais e Financeiras (como o 999)</b> representam o "ajuste de fase" positivo. O número 999 na base da pirâmide é o símbolo da colheita e da materialização total. Estudiosos da numerologia moderna mapearam que certas combinações numéricas agem como catalisadores de prosperidade, abrindo portais de fluxo onde antes havia estagnação. Este é o conhecimento técnico por trás de cada alerta de bloqueio e cada símbolo de luxo que você encontra em seu relatório.</p>
+        <p style="margin-top: 15px;">Já as <b>Sequências Especiais e Financeiras (como o ${formatarTrianguloNove("99/9")})</b> representam o "ajuste de fase" positivo. O número ${formatarTrianguloNove("99/9")} na Matriz é o símbolo da colheita e da materialização total. Estudiosos da numerologia moderna mapearam que certas combinações numéricas agem como catalisadores de prosperidade, abrindo portais de fluxo onde antes havia estagnação. Este é o conhecimento técnico por trás de cada alerta de bloqueio e cada símbolo de luxo que você encontra em seu relatório.</p>
     </div>
 
     <div style="margin-top: 50px; text-align: center; color: #827108; font-family: 'Cinzel', serif; font-size: 14px;">
         [ 03 / 04 - DINÂMICA DE FLUXO ]
     </div>
 </div>    `;
-
+    
 meuHtml += `
 <div class="page evitar-corte" style="padding: 40px; font-family: 'Segoe UI', sans-serif;">
     <div style="text-align: center; border-bottom: 2px solid #827108; padding-bottom: 20px; margin-bottom: 30px;">
@@ -2349,9 +2358,67 @@ meuHtml += `
 
 </div>
 `;
+
+
+
+meuHtml += `
+    <div class="capa-transicao" style="height: 297mm; width: 100%; max-width: 210mm; display: flex; flex-direction: column; align-items: center; text-align: center; background-color: #0f2a36; position: relative; overflow: hidden; page-break-after: always; box-sizing: border-box; margin: 0 auto;">
+        
+        <div style="margin-top: 60px; z-index: 10; width: 100%;">
+            <h2 style="font-family: 'Cinzel', serif; font-size: 28px; color: #fff; text-transform: uppercase; margin: 15px 20px;">
+               Resultado <br><br> Sincronia entre as matrizes
+            </h2>
+        </div>
+
+        <div style="margin: 100px 0 30px 0; width: 100%; display: flex; justify-content: center;">
+            <img src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/matrizlogopdf.png" 
+                 style="width: 80%; max-width: 380px; height: auto; display: block; border: none; outline: none;">
+        </div>
+
+       <div class="player-relatorio" style="margin-top: 50px; z-index: 30; display: flex; flex-direction: column; align-items: center; gap: 10px; width: 100%;">
+            <span style="font-size: 10px; color: #d97a1e; text-transform: uppercase; letter-spacing: 2px;">Desenho as Piramides</span>
+            <audio controls style="height: 35px; filter: sepia(100%) saturate(200%) brightness(100%) hue-rotate(330deg);">
+                <source src="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/piramideRegente.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+      
+
+        <a href="https://hemricciinstintosuperior-rcci.github.io/Trabalho_venda_Numerologia/piramideRegente.mp3" target="_blank" class="botao-pdf-link" style="text-decoration: none; z-index: 20; margin-top: 20px;">
+            <div style="background: rgba(0, 0, 0, 0.7); border: 1px solid #d97a1e; padding: 12px 25px; border-radius: 50px; display: flex; align-items: center; gap: 12px;">
+                <div style="width: 30px; height: 30px; background: #d97a1e; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #000; font-size: 14px;">▶</div>
+                <div style="text-align: left;">
+                    <span style="display: block; font-size: 8px; color: #d97a1e; text-transform: uppercase; letter-spacing: 2px;">Desenho as Piramides</span>
+                    <span style="display: block; font-size: 13px; color: #fff; font-family: 'Cinzel', serif;">CLIQUE PARA OUVIR NO CELULAR</span>
+                </div>
+            </div>
+        </a>
+
+
+
+        <p style="position: absolute; bottom: 50px; width: 100%; color: #fff; font-size: 14px; letter-spacing: 1px; opacity: 0.8; padding: 0 20px; box-sizing: border-box; margin: 0;">
+          A combinação entre as Matrizes ➛ Vida ✶ Pessoal ✶ Social ✶ Destino
+        </p>
+    </div>
+`;
+    
     
 
+// 1. Primeiro, calculamos o conteúdo chamando a função
+// Use as variáveis mVida, mPes, mSoc e mDes que aparecem no seu loop acima
+const resultadoDaSintese = gerarSinteseFinal(
+    mVida[mVida.length - 1][0], 
+    mPes[mPes.length - 1][0], 
+    mSoc[mSoc.length - 1][0], 
+    mDes[mDes.length - 1][0], 
+    window.textosSintese
+);
 
+// 2. Agora adicionamos ao relatório SEM ASPAS
+meuHtml += resultadoDaSintese;
+
+
+    
 meuHtml += `
     <div class="capa-transicao" style="height: 297mm; width: 100%; max-width: 210mm; display: flex; flex-direction: column; align-items: center; text-align: center; background-color: #0f2a36; position: relative; overflow: hidden; page-break-after: always; box-sizing: border-box; margin: 0 auto;">
         
