@@ -1240,7 +1240,7 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntroPiramide, ba
             textoDaPotencia = `
                 <div class="potencia-integrada" style="margin-top: 20px; padding: 15px; background: #fdfbf7; border-left: 4px solid #b59b4d; font-size: 16px; border-radius: 4px;">
                     <strong style="color: #827108; display: block; margin-bottom: 5px; text-transform: uppercase;">
-                        ⚡ POTÊNCIA: ${combinacao}
+                         POTÊNCIA: ${combinacao}
                     </strong>
                     <div style="color: #555; font-style: italic; line-height: 1.5;">
                         ${aplicarFiltroTexto(bancoPotencia[combinacao])}
@@ -1263,8 +1263,8 @@ function montarSecaoMatriz(titulo, matriz, bancoDeTextos, textoIntroPiramide, ba
             ${aplicarFiltroTexto(textoIntroPiramide)}
         </div>
 
-        <div class="container-piramide-isolada" style="margin-top: 200px; font-size: 24px;">
-            <div class="titulo-piramide-nome">Geometria : ${titulo}</div>
+        <div class="container-piramide-isolada" style="margin-top: 30px;">
+            <div class="titulo-piramide-nome" style="margin-top: 100px; font-size: 24px;">Geometria : ${titulo}</div>
             ${desenhar(matriz, titulo, false, nomeCliente)} 
         </div>
 
