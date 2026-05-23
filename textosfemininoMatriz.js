@@ -2560,29 +2560,29 @@ textosPessoal={
 textosSeqNegVida = {
 
   1: ` Nesta fase, você poderá sentir que sua chama interna de motivação está sendo abafada por obstáculos inesperados.
-A influência desta sequência tende a minar sua capacidade de iniciativa, tornando o ato de começar algo novo um verdadeiro desafio.
+A influência desta sequência tende a enfraquecer sua capacidade de iniciativa, tornando o ato de começar algo novo um verdadeiro desafio.
 É comum surgir um sentimento de impotência, onde a coragem para arriscar parece desaparecer, dando lugar à inatividade.
 
-Você pode enfrentar períodos de estagnação profissional ou desânimo profundo, sentindo-se limitado em suas realizações.
+Você pode enfrentar períodos de estagnação profissional ou desânimo profundo, sentindo-se limitada em suas realizações.
 Esse estado de baixa energia pode perdurar enquanto o Arcano regente estiver dominando o seu ciclo atual.
 Psicologicamente, isso gera uma sensação de paralisia diante das oportunidades da vida.
 
-No aspecto físico, o mapa acende um alerta para o cuidado redobrado com o centro do seu peito.
-Existe uma tendência vibracional que pode afetar o sistema cardíaco se o estresse não for gerenciado.
+No aspecto físico, o mapa acende um alerta para o cuidado redobrado com a região do peito.
+Existe uma tendência vibracional que pode afetar o sistema cardíaco se o estresse não for administrado corretamente.
 É um momento que exige esforço consciente para não se deixar abater pelo desemprego ou pela falta de propósito.
-A chave aqui é buscar reacender sua determinação interna, mesmo quando o cenário externo parecer desfavorável.`,
+A chave aqui é buscar reacender sua determinação interior, mesmo quando o cenário externo parecer desfavorável.`,
 
   2: `Esta configuração vibracional atua diretamente sobre o seu senso de valor próprio e autoconfiança.
-Você poderá se perceber mais vulnerável à opinião alheia, permitindo que amigos ou parceiros influencem demais suas decisões.
+Você poderá se perceber mais vulnerável à opinião alheia, permitindo que amigas, familiares ou parceiros influenciem demais suas decisões.
 A indecisão e a timidez podem se tornar obstáculos frequentes, dificultando a imposição de suas vontades e desejos.
 
 Há um risco real de desenvolver comportamentos submissos, onde você anula sua identidade em prol do convívio com os outros.
 Essa insegurança constante acaba limitando o desenvolvimento de projetos pessoais que exigem autonomia.
 Sentir-se incapaz de caminhar com as próprias pernas é uma marca comum desta influência negativa.
 
-É necessário vigilância para não se tornar dependente emocionalmente de quem está ao seu redor.
+É necessário vigilância para não se tornar emocionalmente dependente de quem está ao seu redor.
 No campo da saúde, essa fragilidade emocional pode abrir portas para inclinações que gerem dependências químicas ou psicológicas.
-O desafio é fortalecer o seu "eu" interno para que você não se perca nas expectativas da sociedade ou da família.
+O desafio é fortalecer o seu "eu" interior para que você não se perca nas expectativas da sociedade ou da família.
 Recuperar o comando da sua vida é a grande lição que esta sequência tenta lhe ensinar através desses testes.`,
 
   3: `A comunicação, que deveria ser sua ponte com o mundo, pode se transformar em uma barreira sob esta influência.
@@ -2590,19 +2590,19 @@ Você poderá sentir uma dificuldade crescente em expressar o que sente, resulta
 
 Seus pensamentos e ideias, por mais brilhantes que sejam, parecem não ser compreendidos pelas pessoas próximas.
 Isso gera uma frustração constante no ambiente de trabalho e, principalmente, dentro dos seus relacionamentos afetivos.
-A sensação de estar isolado em sua própria mente pode levar a um retraimento social indesejado.
+A sensação de estar isolada em sua própria mente pode levar a um retraimento social indesejado.
 
 Convencer os outros sobre suas opiniões exigirá um esforço muito maior do que o habitual durante este período.
 Essa limitação na expressão pessoal pode causar um sentimento de invisibilidade social.
-No aspecto biológico, o estresse de não ser ouvido tende a se manifestar em áreas de troca e movimento.
-Fique atento a possíveis sensibilidades no sistema respiratório ou desconfortos nas articulações do corpo.
+No aspecto biológico, o estresse de não ser ouvida tende a se manifestar em áreas de troca e movimento.
+Fique atenta a possíveis sensibilidades no sistema respiratório ou desconfortos nas articulações do corpo.
 Trabalhar a clareza e a paciência no diálogo será fundamental para atravessar essa fase sem maiores conflitos.`,
 
   4: `Esta sequência aponta para um período de provações severas no campo da carreira e da estabilidade profissional.
 Você poderá encontrar obstáculos que parecem bloquear qualquer tentativa de ascensão ou reconhecimento no trabalho.
 
 Existe uma tendência a enfrentar remunerações abaixo do esperado ou dificuldades em se manter estável em um emprego.
-Muitas vezes, a necessidade de sobrevivência pode obrigá-lo a aceitar funções que não condizem com seu talento.
+Muitas vezes, a necessidade de sobrevivência pode obrigá-la a aceitar funções que não condizem com seu talento.
 A falta de perspectivas claras de futuro pode gerar uma ansiedade constante sobre a sua segurança material.
 
 É um ciclo que exige resiliência, pois o sucesso parece sempre estar um passo à frente do seu alcance atual.
@@ -2611,26 +2611,26 @@ Na esfera física, essa pressão por estabilidade pode sobrecarregar o sistema c
 Também há um alerta vibracional para o desenvolvimento de condições reumáticas causadas pela tensão acumulada.
 Manter a fé em suas habilidades será o seu maior desafio enquanto você busca suprir suas necessidades básicas.`,
 
-  5: `  A marca desta influência é a instabilidade constante, forçando mudanças que você muitas vezes não deseja realizar.
+  5: `A marca desta influência é a instabilidade constante, forçando mudanças que você muitas vezes não deseja realizar.
 Pode haver uma alternância drástica em seus valores, status social e até mesmo em sua residência ou profissão.
 Viver em constantes altos e baixos gera um desgaste mental profundo, dificultando qualquer plano de longo prazo.
 A sensação é de que nada é sólido ou seguro, pois o que está firme hoje pode mudar completamente amanhã.
 
-Você poderá se sentir constantemente em busca de algo que o satisfaça, sem nunca encontrar um porto seguro.
-Essa insatisfação crônica pode levá-lo ao desejo de romper todos os laços e buscar um isolamento radical.
-O desapego excessivo pode acabar afastando pessoas importantes que poderiam ajudá-lo nesse processo.
+Você poderá se sentir constantemente em busca de algo que a satisfaça, sem nunca encontrar um porto seguro.
+Essa insatisfação crônica pode levá-la ao desejo de romper todos os laços e buscar um isolamento radical.
+O desapego excessivo pode acabar afastando pessoas importantes que poderiam ajudá-la nesse processo.
 O corpo físico pode reagir a essa montanha-russa emocional através de manifestações na pele.
 
 Além disso, a falta de foco característica deste período aumenta a predisposição a sofrer pequenos acidentes domésticos.
-A lição aqui é aprender a encontrar o equilíbrio interno mesmo quando o mundo externo parece estar em colapso.`,
+A lição aqui é aprender a encontrar o equilíbrio interior mesmo quando o mundo externo parece estar em colapso.`,
 
-  6: `  O campo dos afetos e dos sentimentos é o mais atingido por esta sequência, trazendo o peso da decepção.
-Você poderá passar por situações onde amigos íntimos, sócios ou familiares falham com a sua confiança.
-Existe um risco elevado de sentir-se incompreendido pelo parceiro ou pela pessoa amada em seus planos de vida.
+  6: `O campo dos afetos e dos sentimentos é o mais atingido por esta sequência, trazendo o peso da decepção.
+Você poderá passar por situações onde amigas íntimas, sócios ou familiares falham com a sua confiança.
+Existe um risco elevado de sentir-se incompreendida pelo parceiro ou pela pessoa amada em seus planos de vida.
 
 A dor de não ver seus sentimentos correspondidos ou respeitados pode gerar um amargor difícil de digerir.
 Expectativas muito altas em relação aos outros tendem a resultar em frustrações dolorosas neste ciclo.
-Muitas vezes, você se sentirá sozinho mesmo estando cercado por pessoas que deveriam apoiá-lo.
+Muitas vezes, você se sentirá sozinha mesmo estando cercada por pessoas que deveriam apoiá-la.
 A desilusão amorosa pode afetar sua visão sobre a lealdade e a bondade das pessoas ao seu redor.
 
 Fisicamente, essa carga emocional de tristeza costuma se concentrar na região cardíaca e no sistema vascular.
@@ -2642,33 +2642,33 @@ Você poderá se tornar uma pessoa mais arredia, teimosa e com uma tendência pe
 O afastamento social pode parecer uma proteção, mas acaba gerando frustrações profundas e um sentimento de vazio.
 
 Há um risco de desenvolver comportamentos arrogantes ou vaidosos como forma de mascarar suas próprias inseguranças.
-A intolerância com as falhas alheias pode afastar aliados valiosos, tornando sua jornada muito mais solitária.
+A intolerância com as falhas alheias pode afastar aliadas valiosas, tornando sua jornada muito mais solitária.
 Os excessos e exageros podem ser usados como válvula de escape para o medo que você sente do futuro.
-Essa busca por refúgio na própria mente pode levá-lo a se tornar refém de pensamentos negativos e obsessivos.
+Essa busca por refúgio na própria mente pode levá-la a se tornar refém de pensamentos negativos e obsessivos.
 
 No campo da saúde, esse padrão de solidão e estresse nervoso é extremamente desgastante para o organismo.
 Existe um alerta para o sistema nervoso e até para o surgimento de patologias mais graves se a mente não for cuidada.
 Buscar ajuda e manter a mente aberta para o mundo é o caminho para não se perder em sua própria escuridão.`,
 
-  8: `  Esta é uma das sequências mais desafiadoras, pois afeta simultaneamente o equilíbrio emocional e o financeiro.
+  8: `Esta é uma das sequências mais desafiadoras, pois afeta simultaneamente o equilíbrio emocional e o financeiro.
 Você poderá manifestar uma postura agressiva ou inacessível, perdendo o controle diante de pequenas adversidades.
 Isso acaba afastando o convívio social, pois as pessoas sentem dificuldade em lidar com sua instabilidade.
 
 O período pode ser marcado por perdas financeiras significativas, injustiças e privações materiais severas.
-Sua capacidade de julgamento estará nublada, tornando-o um alvo fácil para golpes ou decisões precipitadas.
+Sua capacidade de julgamento estará nublada, tornando-a um alvo fácil para golpes ou decisões precipitadas.
 O dinheiro pode entrar e sair com a mesma rapidez, criando uma oscilação angustiante entre a fartura e a escassez.
 A sensação de injustiça pode corroer sua paz, levando a explosões de temperamento que prejudicam sua imagem.
 Esse estresse crônico é um veneno para o seu sistema nervoso, podendo gerar doenças psicossomáticas graves.
 
-É um momento que exige um controle férreo sobre as emoções para que elas não destruam o seu patrimônio.
+É um momento que exige um controle rígido sobre as emoções para que elas não destruam o seu patrimônio.
 O desafio é manter a ética e a calma mesmo quando tudo parece estar sendo tirado de suas mãos.`,
 
-  9: `  Aqui, a capacidade de discernimento e a compreensão das situações da vida ficam seriamente comprometidas.
+  9: `Aqui, a capacidade de discernimento e a compreensão das situações da vida ficam seriamente comprometidas.
 Você poderá enfrentar um ciclo de estagnação onde nada parece avançar, independentemente do seu esforço.
 Dificuldades financeiras agudas e até a perda de patrimônio construído ao longo de anos são riscos reais.
 Fracassos em negócios e relacionamentos podem surgir devido a uma visão distorcida da realidade.
 
-A sensação de estar "travado" no tempo gera uma frustração que pode evoluir para quadros de depressão.
+A sensação de estar "travada" no tempo gera uma frustração que pode evoluir para quadros de depressão.
 É difícil entender o porquê de tantas dificuldades estarem acontecendo ao mesmo tempo, gerando um peso mental.
 O estresse causado pela falta de resultados pode afetar drasticamente o seu ânimo para continuar lutando.
 
@@ -2677,119 +2677,124 @@ Doenças somáticas e hipocondria podem aparecer como reflexo de uma mente que n
 A lição fundamental deste período é o desapego e a busca por uma nova forma de enxergar o valor da vida.`
 };
 
-textosSeqNegPessoal = { 
-  1: `<p>  No âmbito pessoal, esta vibração indica um conflito latente com sua própria identidade e poder de decisão. Você pode se sentir mentalmente paralisado, como se uma voz interna questionasse cada impulso de ação antes mesmo de ele se manifestar. A insegurança sobre quem você é pode gerar um estado de dúvida constante, sabotando sua autoestima e impedindo que você se sinta o protagonista da sua própria mente.</p>`,
+textosSeqNegPessoal = {
 
-  2: `<p>  Esta influência atua na sua percepção de valor interno. Há uma tendência a se sentir emocionalmente frágil e excessivamente dependente da validação interna que você imagina que os outros deveriam dar. O medo da rejeição pode criar um diálogo mental submisso, onde você se critica duramente por não ser "bom o suficiente", gerando uma timidez psicológica que sufoca sua expressão autêntica.</p>`,
+  1: `<p>No âmbito pessoal, esta vibração indica um conflito latente com sua própria identidade e poder de decisão. Você pode se sentir mentalmente paralisada, como se uma voz interior questionasse cada impulso de ação antes mesmo de ele se manifestar. A insegurança sobre quem você é pode gerar um estado de dúvida constante, sabotando sua autoestima e impedindo que você se sinta a protagonista da sua própria mente.</p>`,
 
-  3: `<p>  Aqui, o bloqueio é na autoexpressão e no entendimento dos próprios sentimentos. Você pode sentir que seus pensamentos estão emaranhados, dificultando a clareza mental necessária para entender o que você realmente deseja. Existe um risco de se fechar em um casulo mental, sentindo-se incompreendido por si mesmo, o que gera uma frustração interna silenciosa e um cansaço psicológico por não conseguir "se organizar" por dentro.</p>`,
+  2: `<p>Esta influência atua na sua percepção de valor interior. Há uma tendência a se sentir emocionalmente fragilizada e excessivamente dependente da validação que imagina precisar receber dos outros. O medo da rejeição pode criar um diálogo mental submisso, onde você se critica duramente por não ser “boa o suficiente”, gerando uma timidez psicológica que sufoca sua expressão autêntica.</p>`,
 
-  4: `<p>  Esta sequência no pessoal traz uma rigidez mental excessiva ou uma sensação de insegurança estrutural profunda. Você pode se cobrar por uma perfeição ou estabilidade interna que parece inalcançável, gerando ansiedade crônica. A mente foca no que falta, na escassez de recursos internos e no medo de não ter base emocional para suportar os desafios, criando um peso psicológico de autocrítica severa.</p>`,
+  3: `<p>Aqui, o bloqueio está na autoexpressão e no entendimento dos próprios sentimentos. Você pode sentir que seus pensamentos estão embaralhados, dificultando a clareza mental necessária para compreender o que realmente deseja. Existe um risco de se fechar em um casulo mental, sentindo-se incompreendida por si mesma, o que gera uma frustração interior silenciosa e um cansaço psicológico por não conseguir se organizar emocionalmente.</p>`,
 
-  5: `<p> A influência aqui é de uma mente inquieta e caótica. Você pode sofrer com mudanças bruscas de humor ou de opinião sobre si mesmo, nunca encontrando um equilíbrio interno. Essa instabilidade mental gera uma sensação de desorientação, onde você sente que perdeu o controle sobre seus próprios desejos, levando a impulsos de fuga de si mesmo ou a um desapego emocional que beira a apatia.</p>`,
+  4: `<p>Esta sequência no pessoal traz uma rigidez mental excessiva ou uma sensação de insegurança estrutural profunda. Você pode se cobrar por uma perfeição ou estabilidade interna que parece inalcançável, gerando ansiedade constante. A mente tende a focar no que falta, na escassez de recursos interiores e no medo de não possuir base emocional para suportar os desafios, criando um peso psicológico de autocrítica severa.</p>`,
 
-  6: `<p>  Esta vibração afeta sua capacidade de se amar e se aceitar. No nível pessoal, surge um padrão de idealização excessiva que, quando não atingida, se transforma em decepção interna profunda. Você pode se sentir indigno de afeto ou excessivamente culpado por falhas passadas, criando um amargor psicológico que dificulta o cultivo da paz interior e da harmonia com sua própria imagem.</p>`,
+  5: `<p>A influência aqui é de uma mente inquieta e caótica. Você pode sofrer com mudanças bruscas de humor ou de opinião sobre si mesma, nunca encontrando um verdadeiro equilíbrio interior. Essa instabilidade mental gera uma sensação de desorientação, onde você sente que perdeu o controle sobre seus próprios desejos, levando a impulsos de fuga emocional ou a um desapego afetivo que se aproxima da apatia.</p>`,
 
-  7: `<p>  O desafio aqui é o isolamento mental e a desconfiança de si próprio. Você pode mergulhar em pensamentos obsessivos, desenvolvendo uma visão cética ou sombria da vida que o afasta da realidade. Existe uma tendência ao perfeccionismo arrogante ou à vaidade intelectual como defesa contra o medo interno, o que acaba gerando um vazio existencial e uma desconexão com sua essência.</p>`,
+  6: `<p>Esta vibração afeta sua capacidade de se amar e se aceitar. No nível pessoal, surge um padrão de idealização excessiva que, quando não é alcançado, transforma-se em decepção interior profunda. Você pode se sentir indigna de afeto ou excessivamente culpada por falhas do passado, criando um amargor psicológico que dificulta o cultivo da paz interior e da harmonia com sua própria imagem.</p>`,
 
-  8: `<p>  Esta sequência indica um estado de desequilíbrio entre o poder e a ética interna. Você pode se sentir constantemente irritado consigo mesmo, com explosões de raiva contida que nublam seu julgamento. O conflito entre o que você deseja conquistar e a sensação de injustiça interna pode levar a decisões autodestrutivas, onde sua mente se torna seu maior adversário, criando ciclos de estresse e punição emocional.</p>`,
+  7: `<p>O desafio aqui é o isolamento mental e a desconfiança de si mesma. Você pode mergulhar em pensamentos obsessivos, desenvolvendo uma visão cética ou sombria da vida que a afasta da realidade. Existe uma tendência ao perfeccionismo arrogante ou à vaidade intelectual como defesa contra o medo interior, o que acaba gerando um vazio existencial e uma desconexão com sua própria essência.</p>`,
 
-  9: `<p>  No nível pessoal, esta vibração marca o fim de um ciclo mental que você resiste em encerrar. Isso gera uma estagnação psicológica profunda, onde você se sente preso a velhas formas de pensar que já não servem mais. A sensação de "fim de linha" pode causar desânimo e uma visão turva do futuro, exigindo um desapego radical de antigas crenças para que a mente possa renascer.</p>`
+  8: `<p>Esta sequência indica um estado de desequilíbrio entre o poder e a ética interior. Você pode se sentir constantemente irritada consigo mesma, com explosões de raiva contida que nublam seu julgamento. O conflito entre o que deseja conquistar e a sensação de injustiça interior pode levá-la a decisões autodestrutivas, onde sua mente se torna sua maior adversária, criando ciclos de estresse e punição emocional.</p>`,
+
+  9: `<p>No nível pessoal, esta vibração marca o fim de um ciclo mental que você resiste em encerrar. Isso gera uma estagnação psicológica profunda, onde você se sente presa a velhas formas de pensar que já não servem mais. A sensação de “fim de linha” pode causar desânimo e uma visão turva do futuro, exigindo um desapego radical de antigas crenças para que sua mente possa renascer.</p>`
 };
 
 
 textosSeqNegSocial = {
-  1: `<p>  No ambiente social, você pode perceber uma atmosfera de falta de iniciativa ou bloqueios nas pessoas ao seu redor. Pode parecer que o meio em que você convive é desestimulante, onde ninguém deseja tomar a frente ou onde as novas ideias são recebidas com passividade. É um campo social marcado pela estagnação criativa dos grupos com os quais você interage.</p>`,
 
-  2: `<p>  Esta influência revela um meio social onde impera a fofoca, a dependência emocional excessiva ou a timidez coletiva. Você pode se ver cercado por pessoas inseguras que buscam constantemente sua aprovação ou que tentam influenciá-lo através da vitimização. O ambiente social tende a ser hesitante, dificultando a construção de parcerias sólidas e independentes.</p>`,
+  1: `<p>No ambiente social, você pode perceber uma atmosfera de falta de iniciativa ou bloqueios nas pessoas ao seu redor. Pode parecer que o meio em que você convive é desestimulante, onde ninguém deseja tomar a frente ou onde novas ideias são recebidas com passividade. É um campo social marcado pela estagnação criativa dos grupos com os quais você interage.</p>`,
 
-  3: `<p>  O desafio no campo social aqui são os ruídos de comunicação. Você perceberá que as pessoas ao seu redor têm dificuldade em se expressar ou que os mal-entendidos são a regra no seu círculo de convivência. Discussões vazias, futilidades ou silêncios desconfortáveis em grupos podem gerar uma sensação de isolamento social, mesmo quando você está acompanhado.</p>`,
+  2: `<p>Esta influência revela um meio social onde imperam a fofoca, a dependência emocional excessiva e a insegurança coletiva. Você pode se ver cercada por pessoas emocionalmente frágeis, que buscam constantemente sua aprovação ou que tentam influenciá-la através da vitimização. O ambiente social tende a ser hesitante, dificultando a construção de parcerias sólidas e independentes.</p>`,
 
-  4: `<p>  Esta sequência aponta para um ambiente social ou profissional rígido, burocrático ou com pessoas excessivamente focadas em dificuldades financeiras. O meio ao seu redor pode parecer limitado, com poucas oportunidades de crescimento ou com uma mentalidade de escassez que contamina o entusiasmo coletivo, gerando um clima de pessimismo sobre o futuro material.</p>`,
+  3: `<p>O desafio no campo social aqui são os ruídos de comunicação. Você perceberá que as pessoas ao seu redor possuem dificuldade em se expressar ou que os mal-entendidos se tornam frequentes em seu círculo de convivência. Discussões vazias, superficialidades ou silêncios desconfortáveis podem gerar uma sensação de isolamento social, mesmo quando você está acompanhada.</p>`,
 
-  5: `<p>  No social, esta vibração indica convivência com pessoas instáveis e ambientes em constante mutação negativa. Você pode sentir que seu círculo social é pouco confiável, com mudanças bruscas de lealdade ou comportamentos rebeldes e impulsivos de terceiros que acabam afetando sua paz. É um meio onde falta foco e onde os laços se rompem com facilidade.</p>`,
+  4: `<p>Esta sequência aponta para um ambiente social ou profissional rígido, burocrático ou composto por pessoas excessivamente focadas em dificuldades materiais. O meio ao seu redor pode parecer limitado, com poucas oportunidades de crescimento ou com uma mentalidade de escassez que contamina o entusiasmo coletivo, criando um clima de pessimismo em relação ao futuro.</p>`,
 
-  6: `<p>  Esta influência revela tensões nos relacionamentos próximos e círculos de amizade. Você pode perceber desarmonia, cobranças excessivas ou falta de reciprocidade nas pessoas do seu convívio. O ambiente social pode parecer carregado de expectativas emocionais pesadas, onde as desilusões com terceiros são frequentes devido à falta de comprometimento ou lealdade dos outros.</p>`,
+  5: `<p>No social, esta vibração indica convivência com pessoas instáveis e ambientes em constante mutação negativa. Você pode sentir que seu círculo social é pouco confiável, marcado por mudanças bruscas de comportamento, rompimentos inesperados e atitudes impulsivas de terceiros que acabam afetando sua paz emocional. É um meio onde falta constância e onde os vínculos se desfazem com facilidade.</p>`,
 
-  7: `<p>  No campo social, você pode se deparar com pessoas críticas, arrogantes ou excessivamente fechadas em suas próprias verdades. O meio tende a ser elitista ou intelectualmente intolerante, onde o isolamento voluntário das pessoas dificulta a troca genuína. Existe um risco de conviver com influências que pregam o afastamento social como forma de superioridade.</p>`,
+  6: `<p>Esta influência revela tensões nos relacionamentos próximos e nos círculos de amizade. Você pode perceber desarmonia, cobranças emocionais excessivas ou falta de reciprocidade nas pessoas do seu convívio. O ambiente social tende a parecer carregado de expectativas afetivas pesadas, onde as desilusões com terceiros se tornam frequentes devido à ausência de comprometimento ou lealdade.</p>`,
 
-  8: `<p>  Esta sequência indica um ambiente social de conflitos de poder, agressividade e perdas financeiras compartilhadas. Você pode ser alvo de injustiças cometidas por grupos ou se ver em meios onde a ambição desmedida de terceiros gera um clima de tensão e desconfiança. É um cenário de disputas e julgamentos precipitados que podem prejudicar sua imagem pública.</p>`,
+  7: `<p>No campo social, você pode se deparar com pessoas críticas, arrogantes ou excessivamente fechadas em suas próprias verdades. O meio tende a ser elitista ou intelectualmente intolerante, dificultando trocas genuínas e relações espontâneas. Existe um risco de conviver com influências que incentivam o afastamento social como forma de superioridade emocional ou intelectual.</p>`,
 
-  9: `<p>  O desafio social aqui é a convivência com pessoas que estão passando por crises profundas ou que se recusam a evoluir. O meio ao seu redor pode parecer desgastado, como se os grupos de que você participa estivessem chegando ao fim. Há um sentimento coletivo de derrota ou cansaço que pode drenar sua energia se você tentar carregar os problemas dos outros nas costas.</p>`
+  8: `<p>Esta sequência indica um ambiente social marcado por conflitos de poder, agressividade e perdas financeiras compartilhadas. Você pode ser alvo de injustiças cometidas por grupos ou se ver inserida em meios onde a ambição excessiva de terceiros gera tensão e desconfiança constantes. É um cenário de disputas, manipulações e julgamentos precipitados que podem prejudicar sua imagem pública.</p>`,
+
+  9: `<p>O desafio social aqui é a convivência com pessoas que estão atravessando crises profundas ou que resistem à própria evolução. O meio ao seu redor pode parecer desgastado, como se os grupos dos quais você participa estivessem chegando ao fim de um ciclo. Há um sentimento coletivo de derrota ou esgotamento emocional que pode drenar sua energia se você tentar carregar os problemas dos outros.</p>`
 };
 
 textosSeqNegDestino = {
-  1: `<p>  No caminho do destino, esta vibração se manifesta como obstáculos súbitos que impedem o início de novos ciclos. O destino parece colocar barreiras toda vez que você tenta exercer sua autonomia. São eventos externos que forçam a paciência e exigem que você encontre novas formas de liderar sua vida quando as portas parecem trancadas por forças maiores.</p>`,
 
-  2: `<p> Esta influência traz situações de destino que testam sua capacidade de se manter firme diante de pressões externas. Você pode enfrentar circunstâncias que o colocam em posição de submissão ou que exigem que você aprenda a discernir em quem confiar. O caminho pode apresentar parcerias duvidosas que servem como teste para o seu fortalecimento pessoal.</p>`,
+  1: `<p>No caminho do destino, esta vibração se manifesta através de obstáculos inesperados que impedem o início de novos ciclos. O destino parece colocar barreiras sempre que você tenta exercer sua autonomia ou liderança. São acontecimentos externos que exigem paciência e amadurecimento, levando você a descobrir novas formas de conduzir sua vida quando tudo parece bloqueado.</p>`,
 
-  3: `<p>  O destino aqui apresenta desafios ligados à imagem pública e à circulação de informações. Podem surgir eventos inesperados causados por boatos ou falhas tecnológicas que afetam sua comunicação com o mundo. O teste é aprender a manter a verdade e a clareza mesmo quando as circunstâncias externas conspiram para gerar confusão e mal-entendidos.</p>`,
+  2: `<p>Esta influência traz situações de destino que testam sua capacidade de se manter firme diante das pressões externas. Você poderá enfrentar circunstâncias que a colocam em posição de submissão emocional ou que exigem discernimento para reconhecer em quem realmente pode confiar. O caminho tende a apresentar vínculos e parcerias desafiadoras que servem como aprendizado para o fortalecimento da sua identidade.</p>`,
 
-  4: `<p>  Esta sequência no destino aponta para fases de provação material e desafios com autoridades ou estruturas rígidas. O caminho pode apresentar escassez temporária de recursos ou perdas que fogem ao seu controle direto, como crises econômicas ou mudanças em leis. São eventos que exigem uma resiliência de ferro para reconstruir as bases sobre um solo incerto.</p>`,
+  3: `<p>O destino aqui apresenta desafios ligados à imagem pública e à comunicação. Podem surgir acontecimentos inesperados causados por boatos, distorções de informações ou falhas que afetam sua forma de se expressar diante do mundo. O grande teste será aprender a sustentar sua verdade e clareza interior mesmo quando o ambiente externo gerar confusão e interpretações equivocadas.</p>`,
 
-  5: `<p>  A marca aqui são as reviravoltas inesperadas do destino. Mudanças forçadas de cidade, de emprego ou de planos de vida que ocorrem sem aviso prévio. O caminho se torna instável e volátil, exigindo que você desenvolva uma adaptabilidade rápida para não ser atropelado pelo movimento constante das circunstâncias externas.</p>`,
+  4: `<p>Esta sequência no destino aponta para fases de provação material e desafios envolvendo estruturas rígidas, responsabilidades ou autoridades. O caminho pode apresentar períodos de escassez temporária, perdas financeiras ou mudanças que fogem do seu controle direto. São experiências que exigem resistência emocional e capacidade de reconstrução diante de um cenário aparentemente instável.</p>`,
 
-  6: `<p>  Esta vibração no destino traz testes através de rompimentos afetivos ou decepções com instituições e pessoas em quem você depositava segurança. São eventos que atingem o coração da sua estabilidade emocional, forçando-o a aprender que a segurança real não depende de contratos externos ou de promessas alheias, mas da sua integridade.</p>`,
+  5: `<p>A marca desta vibração são as mudanças repentinas e as reviravoltas inesperadas do destino. Alterações forçadas de planos, de ambiente, de trabalho ou até de cidade podem acontecer sem aviso prévio. O caminho se torna volátil e imprevisível, exigindo de você uma adaptação rápida para não se sentir emocionalmente arrastada pelas circunstâncias externas.</p>`,
 
-  7: `<p>  O destino apresenta períodos de "deserto", onde você é levado a situações de isolamento ou a enfrentar verdades ocultas. Podem surgir eventos que o forçam a parar e refletir, muitas vezes através de situações de saúde ou crises existenciais disparadas por fatos externos. É um convite do destino para o amadurecimento espiritual através da solidão necessária.</p>`,
+  6: `<p>Esta vibração no destino traz testes através de rompimentos afetivos, decepções emocionais ou perdas ligadas a pessoas em quem você confiava profundamente. São situações que atingem diretamente sua estabilidade emocional, forçando-a a compreender que a verdadeira segurança não está em promessas externas, mas na força da sua própria integridade interior.</p>`,
 
-  8: `<p>  Esta sequência indica confrontos diretos com a justiça, o poder ou grandes perdas materiais causadas por terceiros. O destino coloca no seu caminho situações de confronto que exigem equilíbrio absoluto para não cair em agressividade. São testes de honra e ética diante de circunstâncias onde o mundo exterior parece agir de forma injusta ou cruel.</p>`,
+  7: `<p>O destino apresenta períodos de isolamento, introspecção e confrontos com verdades profundas. Você poderá ser levada a situações que exigem silêncio, reflexão e afastamento temporário do mundo externo. Muitas vezes, essas experiências surgem através de crises existenciais ou situações que obrigam você a amadurecer espiritualmente por meio da solidão e da busca interior.</p>`,
 
-  9: `<p>  No destino, esta vibração marca o encerramento forçado de grandes capítulos. O caminho pode "limpar" da sua vida tudo o que já não serve mais, muitas vezes de forma dolorosa e definitiva. São eventos de perda de patrimônio ou fim de eras que, embora desafiadores, têm o propósito de liberar seu caminho para uma nova existência totalmente diferente.</p>`
+  8: `<p>Esta sequência indica confrontos diretos com questões de justiça, poder, dinheiro ou perdas causadas por terceiros. O destino pode colocá-la diante de situações intensas que exigem equilíbrio emocional absoluto para não agir impulsivamente. São testes de honra, ética e autocontrole diante de circunstâncias em que o mundo externo parece agir de forma dura ou injusta.</p>`,
+
+  9: `<p>No destino, esta vibração marca o encerramento definitivo de grandes capítulos da vida. O caminho pode remover pessoas, estruturas, situações ou patrimônios que já não fazem mais parte da sua evolução. Embora dolorosos, esses encerramentos possuem a função de libertá-la de ciclos antigos, abrindo espaço para uma reconstrução profunda e para o nascimento de uma nova versão de si mesma.</p>`
 };
+
+
 // ⭐ TEXTOS SEQUÊNCIAS ESPECIAIS
 textosSeqEspVida = {
 
-  "116": `Este é um estágio onde sua imagem pública e reputação podem ser postas à prova por interferências de terceiros.
+  "116": `Este é um estágio onde sua imagem pública e reputação podem ser colocadas à prova por interferências de terceiros.
 Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
-É essencial agir com máxima integridade e discrição para blindar seu nome contra fofocas ou tentativas de difamação.`,
+É essencial agir com máxima integridade e discrição para proteger seu nome contra fofocas ou tentativas de difamação.`,
 
-    "119": `Este ciclo traz um alerta crítico sobre a distorção de valores e o perigo do autoengano. 
-    Você pode se deparar com situações de hipocrisia ou fanatismo, onde causas falsas são defendidas sob o manto de uma aparente virtude. 
-    Existe o risco do uso indevido de preceitos espirituais ou religiosos para justificar atitudes egoístas, exigindo de você um discernimento aguçado para não se deixar levar por aparências enganosas.`,
- 
+  "119": `Este ciclo traz um alerta crítico sobre a distorção de valores e o perigo do autoengano.
+Você pode se deparar com situações de hipocrisia ou fanatismo, onde causas falsas são defendidas sob o manto de uma aparente virtude.
+Existe o risco do uso indevido de preceitos espirituais ou religiosos para justificar atitudes egoístas, exigindo de você um discernimento aguçado para não se deixar levar por aparências enganosas.`,
+
   "123": `Uma fase brilhante se aproxima, trazendo o justo reconhecimento por todo o seu esforço, talento e dedicação criativa.
 Você poderá receber prêmios, honrarias ou elogios públicos que validam oficialmente sua trajetória e seus projetos de vida.
 Essa energia de êxito também se estende ao campo familiar, trazendo motivos de grande orgulho e celebração.`,
 
-  "168":`  Uma poderosa corrente de prosperidade se manifesta nesta fase, favorecendo diretamente seus ganhos materiais e o sucesso nos negócios. 
-  É um período propício para a obtenção de prêmios, bonificações ou resultados financeiros acima da média, fruto de um alinhamento favorável em suas atividades práticas. 
-  A energia de realização está em alta, facilitando a conclusão bem-sucedida de negociações importantes e a colheita de frutos de investimentos anteriores.`,
-  
-  "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa data.
-Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
-É um momento de transição que pede acolhimento interno e maturidade para lidar com a ausência ou o afastamento definitivo do cônjuge.`,
+  "168": `Uma poderosa corrente de prosperidade se manifesta nesta fase, favorecendo diretamente seus ganhos materiais e o sucesso nos negócios.
+É um período propício para a obtenção de prêmios, bonificações ou resultados financeiros acima da média, fruto de um alinhamento favorável em suas atividades práticas.
+A energia de realização está em alta, facilitando a conclusão bem-sucedida de negociações importantes e a colheita de frutos de investimentos anteriores.`,
 
-  "518": `Você entra em um estágio de prosperidade duradoura, onde as bases da sua segurança financeira tendem a se consolidar de forma mais permanente. 
-  Diferente de ganhos momentâneos, esta influência favorece a construção de um patrimônio sólido e a estabilidade a longo prazo. 
-  É um momento de colheita generosa, onde o fluxo de recursos permite planejar o futuro com maior tranquilidade e confiança na continuidade do seu sucesso material.`,
-  
+  "252": `O cenário vibracional indica uma fase de encerramento ou transformação profunda em vínculos afetivos e parcerias de longa duração.
+Mudanças drásticas na estrutura conjugal, como separações ou processos de divórcio, podem exigir uma enorme resiliência emocional.
+É um momento de transição que pede acolhimento interior e maturidade para lidar com a ausência ou o afastamento definitivo da pessoa parceira.`,
+
+  "518": `Você entra em um estágio de prosperidade duradoura, onde as bases da sua segurança financeira tendem a se consolidar de forma mais permanente.
+Diferente de ganhos momentâneos, esta influência favorece a construção de um patrimônio sólido e a estabilidade a longo prazo.
+É um momento de colheita generosa, onde o fluxo de recursos permite planejar o futuro com maior tranquilidade e confiança na continuidade do seu sucesso material.`,
+
   "575": `Prepare-se para um período de reviravoltas súbitas que podem desestabilizar temporariamente sua segurança material e carreira.
 Modificações imprevistas no ambiente de trabalho podem trazer dificuldades financeiras que exigirão cautela extrema e economia.
-Esteja pronto para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
+Esteja pronta para adaptar-se rapidamente a perdas momentâneas, focando em reconstruir suas bases com paciência e estratégia.`,
 
-"637":` Este período sinaliza um momento de encerramento de um ciclo evolutivo que pode trazer a sensação de retrocesso ao ponto inicial. 
-Projetos ou situações que pareciam estar em plena expansão podem sofrer uma interrupção, exigindo que você retorne à base para reavaliar a estratégia. 
+  "637": `Este período sinaliza um momento de encerramento de um ciclo evolutivo que pode trazer a sensação de retrocesso ao ponto inicial.
+Projetos ou situações que pareciam estar em plena expansão podem sofrer uma interrupção, exigindo que você retorne à base para reavaliar a estratégia.
 Não se trata de uma derrota, mas de uma necessidade vibracional de reconstruir fundamentos que talvez tenham sido ignorados na pressa do crescimento.`,
 
-  "665" : `O cenário é extremamente favorável para a ascensão social e profissional, indicando a possibilidade real de aprovação em concursos ou a obtenção de altos cargos de liderança. 
-  Sua competência e autoridade serão reconhecidas por instâncias superiores, abrindo caminho para postos de grande responsabilidade e prestígio. 
-  É o momento de focar em grandes ambições, pois o destino favorece o seu posicionamento em patamares mais elevados de poder.`, 
- 
-  "667" : `Uma vibração de estabilidade e harmonia profunda abençoa este período, favorecendo a realização de um bom casamento ou a formação de uma sociedade comercial sólida e ética. 
-  Existe um senso de equilíbrio nas parcerias, onde os interesses mútuos convergem para a construção de algo duradouro. 
-  É uma fase de segurança nos acordos, trazendo paz de espírito tanto na vida íntima quanto nas colaborações profissionais.`,
-  
-  "757": `Você está entrando em um ciclo de transformações intensas que atuarão como molas propulsoras para sua evolução individual.
+  "665": `O cenário é extremamente favorável para a ascensão social e profissional, indicando a possibilidade real de aprovação em concursos ou a obtenção de altos cargos de liderança.
+Sua competência e autoridade serão reconhecidas por instâncias superiores, abrindo caminho para posições de grande responsabilidade e prestígio.
+É o momento de focar em grandes ambições, pois o destino favorece o seu posicionamento em patamares mais elevados de poder.`,
+
+  "667": `Uma vibração de estabilidade e harmonia profunda abençoa este período, favorecendo a realização de um bom casamento ou a formação de uma sociedade comercial sólida e ética.
+Existe um senso de equilíbrio nas parcerias, onde os interesses mútuos convergem para a construção de algo duradouro.
+É uma fase de segurança nos acordos, trazendo paz de espírito tanto na vida íntima quanto nas colaborações profissionais.`,
+
+  "757": `Você está entrando em um ciclo de transformações intensas que atuarão como forças propulsoras para sua evolução individual.
 Embora as mudanças impostas pelo destino possam parecer desafiadoras no início, elas são necessárias para expandir sua consciência.
-O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e apareça.`,
+O universo está forçando sua saída da zona de conforto para que o seu verdadeiro potencial pessoal finalmente floresça e se revele.`,
 
   "922": `A sorte e o mérito caminham juntos nesta fase, favorecendo vitórias expressivas em concursos, vestibulares ou cargos de relevância.
 Seus esforços em disputas políticas ou processos seletivos complexos encontrarão um terreno extremamente fértil para o sucesso absoluto.
 Aproveite este magnetismo de conquista para se posicionar com destaque em qualquer teste de capacidade ou avaliação de competência.`,
 
-  "923": `Um período de profunda paz e entendimento reina em seu ambiente doméstico, fortalecendo os laços com aqueles que você mais ama.
-Você se sentirá plenamente amparado por amizades verdadeiras, cujas palavras e gestos servirão de porto seguro para sua jornada atual.
+  "923": `Um período de profunda paz e entendimento reina em seu ambiente doméstico, fortalecendo os laços com aquelas pessoas que você mais ama.
+Você se sentirá plenamente amparada por amizades verdadeiras, cujas palavras e gestos servirão de porto seguro para sua jornada atual.
 É o momento ideal para cultivar a gratidão e desfrutar da serenidade que as relações sinceras e leais proporcionam ao seu coração.`,
 
   "924": `Suas conexões sociais ganham um novo nível de prestígio, abrindo portas valiosas para círculos de grande influência, autoridade e poder.
@@ -2797,79 +2802,128 @@ A ascensão em sua posição social será facilitada pelo contato direto com pes
 Novos horizontes se abrem através de convites e parcerias estratégicas com indivíduos que podem acelerar drasticamente o seu crescimento.`,
 
   "925": `O momento exige olhos atentos e um discernimento redobrado em relação a quem você confia suas ideias, segredos e tarefas diárias.
-Existe uma predisposição para desapontamentos vindos de funcionários ou de amizades que você considerava sólidas e inabaláveis.
-Proteja seus planos mantendo a discrição total e evitando delegar responsabilidades críticas sem a devida e constante supervisão.`,
+Existe uma predisposição para desapontamentos vindos de funcionárias, funcionários ou amizades que você considerava sólidas e inabaláveis.
+Proteja seus planos mantendo total discrição e evitando delegar responsabilidades críticas sem a devida e constante supervisão.`,
 
   "926": `Seus laços familiares serão convocados para uma ação de cuidado, paciência e suporte mútuo diante de adversidades inesperadas na rotina.
 Pode haver a necessidade de dedicar mais tempo e energia pessoal para auxiliar parentes próximos em questões de saúde ou crises graves.
-A união e a presença física da família serão os seus maiores pilares para atravessar instabilidades que exijam sacrifício e dedicação.`,
+A união e a presença física da família serão seus maiores pilares para atravessar instabilidades que exijam sacrifício e dedicação.`,
 
-  "927": `Fique alerta para movimentações de bastidores, pois segredos antigos, informações ocultas ou escândalos do passado podem vir a público agora.
-O risco de envolvimento direto ou indireto em intrigas alheias é elevado, pedindo que você mantenha uma postura neutra e muito ética.
-Evite comentários desnecessários ou julgamentos para não alimentar fofocas que possam expor situações que deveriam permanecer privadas.`
+  "927": `Fique alerta para movimentações de bastidores, pois segredos antigos, informações ocultas ou escândalos do passado podem vir à tona agora.
+O risco de envolvimento direto ou indireto em intrigas alheias é elevado, exigindo que você mantenha uma postura neutra e extremamente ética.
+Evite comentários desnecessários ou julgamentos precipitados para não alimentar fofocas que possam expor situações que deveriam permanecer privadas.`
 
 };
 
 textosSeqEspPessoal = {
-  "116": `<p> No nível pessoal, você pode ou não sentir uma preocupação interna com sua própria imagem. Pode surgir o pensamento ou a insegurança de que outros estão julgando sua conduta. 
-  É um processo puramente mental sobre como você imagina que sua reputação está sendo percebida.</p>`,
-  "119": `<p> Esta vibração pode despertar conflitos internos de fé ou valores. Você pode se pegar questionando suas próprias crenças ou sentindo uma desconfiança mental sobre o que é verdadeiro, podendo gerar um sentimento de desilusão com conceitos que antes considerava sagrados.</p>`,
-  "123": `<p> Você pode sentir um despertar interno de autovalorização. Mentalmente, surge a percepção do próprio mérito, como se você estivesse finalmente celebrando suas capacidades dentro de sua própria mente, independentemente de qualquer prêmio físico.</p>`,
-  "168": `<p> Pode surgir um sentimento de abundância e confiança interna. É uma fase onde a mente foca no sucesso e na capacidade de atrair coisas boas, gerando um otimismo psicológico sobre seus projetos e posses.</p>`,
-  "252": `<p> No campo dos pensamentos, pode haver uma sensação de desapego ou medo da perda afetiva. Você pode se pegar imaginando como seria sua vida sem certas parcerias, processando internamente o conceito de separação ou mudança nos vínculos.</p>`,
-  "518": `<p> Surge uma percepção interna de segurança e paz mental em relação ao futuro. Você pode sentir que, no nível do pensamento, não há mais necessidade de ansiedade sobre a escassez, cultivando uma mente mais estável e próspera.</p>`,
-  "575": `<p> A mente pode se tornar inquieta, antecipando mudanças. Você pode ou não sentir um desejo interno de romper com a rotina ou uma insegurança mental sobre sua estabilidade, como se o pensamento estivesse se preparando para algo novo.</p>`,
-  "637": `<p> Mentalmente, pode surgir a sensação de que você precisa recomeçar algo do zero. É um sentimento de "voltar ao início" em algum aprendizado pessoal, uma percepção interna de que uma fase de sua evolução pessoal se completou.</p>`,
-  "665": `<p> Pode despertar um sentimento de autoridade e confiança interna. Você se sente mentalmente pronto para assumir grandes responsabilidades, enxergando-se em uma posição de destaque e liderança.</p>`,
-  "667": `<p> No nível pessoal, surge um sentimento de paz e concórdia. Você pode sentir uma vontade interna de se unir a alguém ou de pacificar seus próprios conflitos, buscando uma harmonia mental em suas parcerias.</p>`,
-  "757": `<p> Pode surgir um impulso interno para a transformação. É o sentimento de que sua consciência está se expandindo, provocando questionamentos internos que o convidam a sair da sua zona de conforto mental.</p>`,
-  "922": `<p> Mentalmente, você pode sentir um forte magnetismo de vitória. É uma confiança psicológica absoluta na sua inteligência e capacidade de vencer desafios intelectuais ou avaliações.</p>`,
-  "923": `<p> Surge um sentimento profundo de serenidade. Você pode ou não perceber um estado de espírito mais acolhedor, sentindo internamente que está em harmonia com o mundo e com seus sentimentos mais puros.</p>`,
-  "924": `<p> Pode haver uma percepção interna de importância social. Mentalmente, você se sente mais conectado a figuras de poder ou autoridade, projetando em sua imaginação novas possibilidades de ascensão.</p>`,
-  "925": `<p> No nível do pensamento, pode surgir uma desconfiança intuitiva. Você pode se sentir mais vigilante ou desconfiado sobre as intenções das pessoas, mesmo que nada tenha ocorrido no mundo real ainda.</p>`,
-  "926": `<p> Pode despertar um sentimento de dedicação profunda aos seus. Mentalmente, o foco se volta para o cuidado com a família, sentindo internamente a responsabilidade de ser um pilar para os outros.</p>`,
-  "927": `<p> No plano da imaginação, pode haver a preocupação com segredos ou informações ocultas. Você pode se sentir mentalmente curioso ou apreensivo sobre o que não foi dito, voltando seus pensamentos para mistérios do passado.</p>`
+
+  "116": `<p>No nível pessoal, você pode sentir uma preocupação interna com sua própria imagem. Pode surgir a insegurança de que outras pessoas estejam julgando sua conduta. É um processo mental ligado à forma como você acredita estar sendo percebida socialmente.</p>`,
+
+  "119": `<p>Esta vibração pode despertar conflitos internos relacionados à fé e aos valores pessoais. Você pode se pegar questionando suas próprias crenças ou sentindo uma desconfiança emocional sobre aquilo que considera verdadeiro, gerando possíveis desilusões com conceitos antes vistos como sagrados.</p>`,
+
+  "123": `<p>Você pode sentir um despertar interior de autovalorização. Mentalmente, surge a percepção do próprio mérito, como se finalmente estivesse reconhecendo suas capacidades e talentos dentro de si mesma, independentemente de qualquer validação externa.</p>`,
+
+  "168": `<p>Pode surgir um sentimento de abundância e confiança interior. É uma fase em que sua mente se volta para o sucesso e para a capacidade de atrair conquistas positivas, gerando um estado psicológico de otimismo em relação aos seus projetos e objetivos.</p>`,
+
+  "252": `<p>No campo dos pensamentos, pode existir uma sensação de desapego ou medo da perda afetiva. Você pode imaginar como seria sua vida sem determinadas parcerias, processando internamente o conceito de separação ou transformação nos vínculos emocionais.</p>`,
+
+  "518": `<p>Surge uma percepção interior de segurança e tranquilidade em relação ao futuro. Você pode sentir que, mentalmente, não existe mais a mesma ansiedade relacionada à escassez, cultivando uma consciência mais estável, próspera e confiante.</p>`,
+
+  "575": `<p>A mente pode se tornar inquieta, antecipando mudanças importantes. Você pode sentir um desejo interior de romper com a rotina ou uma insegurança emocional sobre sua estabilidade, como se estivesse se preparando psicologicamente para uma nova etapa.</p>`,
+
+  "637": `<p>Mentalmente, pode surgir a sensação de que você precisa recomeçar algo do zero. É um sentimento de retorno ao ponto inicial em algum aprendizado pessoal, trazendo a percepção de que uma fase importante da sua evolução interior chegou ao fim.</p>`,
+
+  "665": `<p>Pode despertar um forte sentimento de autoridade e confiança interior. Você se sente mentalmente preparada para assumir grandes responsabilidades, enxergando a si mesma em posições de liderança, destaque e reconhecimento.</p>`,
+
+  "667": `<p>No nível pessoal, surge uma sensação de paz e concórdia interior. Você pode sentir uma necessidade maior de união emocional ou de pacificar conflitos internos, buscando harmonia em suas relações e em sua própria consciência.</p>`,
+
+  "757": `<p>Pode surgir um impulso interior voltado para a transformação. É o sentimento de que sua consciência está se expandindo, provocando questionamentos profundos que a incentivam a sair da zona de conforto mental e emocional.</p>`,
+
+  "922": `<p>Mentalmente, você pode sentir um forte magnetismo de vitória. Surge uma confiança psicológica intensa em sua inteligência, capacidade e preparo para vencer desafios intelectuais, avaliações e disputas importantes.</p>`,
+
+  "923": `<p>Surge um sentimento profundo de serenidade. Você pode perceber um estado emocional mais acolhedor e harmonioso, sentindo internamente que está em paz com seus sentimentos e com o mundo ao seu redor.</p>`,
+
+  "924": `<p>Pode haver uma percepção interior de importância social. Mentalmente, você se sente mais conectada a figuras de autoridade e influência, projetando em sua imaginação novas possibilidades de crescimento e ascensão.</p>`,
+
+  "925": `<p>No nível mental, pode surgir uma forte desconfiança intuitiva. Você tende a se sentir mais vigilante em relação às intenções das pessoas, mesmo que ainda não exista nenhuma evidência concreta no mundo exterior.</p>`,
+
+  "926": `<p>Pode despertar um sentimento profundo de dedicação aos seus familiares. Mentalmente, sua atenção se volta para o cuidado e a proteção daqueles que ama, trazendo a sensação de responsabilidade emocional sobre os outros.</p>`,
+
+  "927": `<p>No plano da imaginação, pode haver preocupação com segredos ou informações ocultas. Você pode se sentir mentalmente curiosa ou apreensiva em relação ao que não foi revelado, direcionando seus pensamentos para situações misteriosas ou acontecimentos do passado.</p>`
 };
 
 textosSeqEspSocial = {
-  
- "116": `<p> No seu ambiente social, você pode notar pessoas sendo alvo de críticas ou discussões sobre reputação. É um momento onde a fofoca ou o julgamento público ganham força nos grupos que você frequenta.</p>`,
-  "119": `<p> Você poderá observar comportamentos de fanatismo ou falsas promessas vindo de pessoas próximas ou do meio coletivo. O ambiente social pode estar carregado de influências hipócritas ou causas vazias.</p>`,
-  "123": `<p> O círculo social ao seu redor vive um momento de celebração e reconhecimento. Você pode ver amigos ou conhecidos recebendo prêmios, ou o sucesso dos filhos de pessoas próximas sendo o assunto principal.</p>`,
-  "168": `<p> O meio social onde você circula demonstra sinais de prosperidade e bons negócios. Você observa pessoas ao seu redor fechando acordos lucrativos e colhendo prêmios e ganhos financeiros.</p>`,
-  "252": `<p> Você pode notar uma onda de separações ou mudanças drásticas em parcerias e casamentos de pessoas conhecidas. O ambiente social reflete o fim de vínculos e transições afetivas coletivas.</p>`,
-  "518": `<p> O ambiente ao redor transparece estabilidade e segurança. Você observa um fluxo de prosperidade duradoura na vida das pessoas que compõem seu círculo social ou profissional.</p>`,
-  "575": `<p> O meio social pode apresentar sinais de instabilidade. Você percebe pessoas ao seu redor enfrentando mudanças súbitas de emprego ou crises financeiras inesperadas que agitam o coletivo.</p>`,
-  "637": `<p> Você pode observar grupos ou projetos sociais que pareciam evoluídos retornando à estaca zero. É um movimento visível de retrocesso ou reinício coletivo em alguma área comum.</p>`,
-  "665": `<p> O ambiente social favorece a ascensão. Você vê pessoas do seu convívio sendo promovidas, assumindo altos cargos ou vencendo concursos importantes, gerando um clima de prestígio.</p>`,
-  "667": `<p> O clima social é de união e colaboração. Você observa a formação de novas e boas sociedades, ou casamentos harmoniosos acontecendo nas pessoas próximas a você.</p>`,
-  "757": `<p> Você percebe um movimento de transformação nas pessoas ao seu redor. O meio social parece estar sendo forçado a sair da zona de conforto, gerando mudanças visíveis no comportamento coletivo.</p>`,
-  "922": `<p> O ambiente social exala um clima de vitória e mérito. Você vê amigos ou colegas conquistando posições de destaque através de testes e seleções rigorosas.</p>`,
-  "923": `<p> Reina uma atmosfera de paz e apoio mútuo nos seus grupos. Você observa pessoas sendo mais leais e amigáveis umas com as outras, facilitando o convívio social.</p>`,
-  "924": `<p> Você nota uma aproximação de pessoas influentes no seu círculo social. O meio onde você vive ganha um ar de autoridade, com convites e parcerias importantes circulando entre conhecidos.</p>`,
-  "925": `<p> O ambiente social pode apresentar situações de deslealdade ou erros cometidos por colaboradores de terceiros. Você observa quebras de confiança acontecendo nos grupos próximos.</p>`,
-  "926": `<p> O tema familiar ganha força no seu círculo social. Você vê pessoas ao seu redor se dedicando intensamente ao cuidado de parentes ou enfrentando crises familiares coletivas.</p>`,
-  "927": `<p> Você percebe um clima de mistério ou revelação de segredos no seu meio. É uma fase onde intrigas e escândalos de terceiros podem vir à tona nos círculos de convivência.</p>`
+
+  "116": `<p>No seu ambiente social, você pode perceber pessoas sendo alvo de críticas ou discussões envolvendo reputação e imagem pública. É um período em que a fofoca e o julgamento ganham força nos grupos que você frequenta.</p>`,
+
+  "119": `<p>Você poderá observar comportamentos de fanatismo, manipulação ou falsas promessas vindas de pessoas próximas ou do meio coletivo. O ambiente social pode se mostrar carregado de influências hipócritas ou causas vazias.</p>`,
+
+  "123": `<p>O círculo social ao seu redor vive um momento de celebração e reconhecimento. Você pode ver amizades ou pessoas conhecidas recebendo prêmios, elogios ou destaque público por suas conquistas.</p>`,
+
+  "168": `<p>O meio social onde você circula demonstra sinais de prosperidade e crescimento financeiro. Você observa pessoas ao seu redor concluindo bons negócios, conquistando ganhos materiais e colhendo resultados positivos.</p>`,
+
+  "252": `<p>Você pode notar uma onda de separações, afastamentos ou transformações importantes em relacionamentos de pessoas conhecidas. O ambiente social reflete encerramentos afetivos e mudanças coletivas nos vínculos.</p>`,
+
+  "518": `<p>O ambiente ao seu redor transmite estabilidade e segurança. Você percebe um fluxo de prosperidade mais duradouro na vida das pessoas que fazem parte do seu círculo social ou profissional.</p>`,
+
+  "575": `<p>O meio social pode apresentar sinais de instabilidade e mudanças repentinas. Você percebe pessoas ao seu redor enfrentando alterações bruscas de trabalho, dificuldades financeiras ou crises inesperadas.</p>`,
+
+  "637": `<p>Você pode observar grupos, projetos ou relações sociais que pareciam evoluídos retornando à estaca inicial. É um movimento visível de retrocesso ou reinício coletivo em alguma área compartilhada.</p>`,
+
+  "665": `<p>O ambiente social favorece a ascensão e o reconhecimento. Você vê pessoas próximas sendo promovidas, conquistando cargos elevados ou alcançando posições de destaque e prestígio.</p>`,
+
+  "667": `<p>O clima social é de união, equilíbrio e colaboração. Você observa a formação de parcerias sólidas, sociedades bem estruturadas ou relacionamentos harmoniosos acontecendo ao seu redor.</p>`,
+
+  "757": `<p>Você percebe um forte movimento de transformação nas pessoas ao seu redor. O meio social parece estar sendo impulsionado a sair da zona de conforto, gerando mudanças coletivas bastante visíveis.</p>`,
+
+  "922": `<p>O ambiente social transmite um clima de vitória e mérito. Você observa amizades, colegas ou pessoas conhecidas conquistando reconhecimento através de provas, avaliações e processos seletivos importantes.</p>`,
+
+  "923": `<p>Reina uma atmosfera de paz, acolhimento e apoio mútuo em seus grupos de convivência. Você percebe as pessoas mais leais, compreensivas e emocionalmente disponíveis umas para as outras.</p>`,
+
+  "924": `<p>Você nota uma aproximação maior de pessoas influentes em seu círculo social. O ambiente ao seu redor ganha um ar de autoridade, prestígio e oportunidades ligadas a conexões importantes.</p>`,
+
+  "925": `<p>O ambiente social pode apresentar situações de deslealdade, falhas ou desapontamentos envolvendo pessoas próximas. Você observa rupturas de confiança e problemas causados pela irresponsabilidade de terceiros.</p>`,
+
+  "926": `<p>O tema familiar ganha destaque em seu círculo social. Você percebe pessoas ao seu redor dedicando mais tempo ao cuidado de familiares ou enfrentando desafios emocionais ligados à família.</p>`,
+
+  "927": `<p>Você percebe um clima de mistério, revelações ou exposição de segredos em seu meio social. É uma fase em que intrigas, informações ocultas ou escândalos podem vir à tona nos grupos de convivência.</p>`
 };
 
 textosSeqEspDestino = {
-  "116": `<p> O destino pode trazer eventos externos que testam sua resistência à opinião pública. Podem surgir situações inesperadas que exigem que você defenda sua integridade diante do mundo.</p>`,
-  "119": `<p> Situações do destino podem colocá-lo frente a frente com instituições ou causas que se revelam falsas. O caminho pode apresentar obstáculos criados por visões dogmáticas de terceiros.</p>`,
-  "123": `<p> O destino abre portas para o reconhecimento oficial. Podem surgir oportunidades externas, como prêmios ou honrarias, que chegam até você como um reflexo de sua trajetória.</p>`,
-  "168": `<p> Ventos favoráveis do destino trazem oportunidades de ganhos inesperados e bons negócios. Circunstâncias externas se alinham para facilitar a entrada de recursos e o sucesso material.</p>`,
-  "252": `<p> O destino pode influenciar mudanças drásticas em parcerias por meio de eventos fora de seu controle imediato, forçando novos rumos nas relações mais próximas.</p>`,
-  "518": `<p> O caminho do destino se torna mais suave e estável. Situações externas conspiram para que sua prosperidade seja mantida, protegendo suas bases financeiras a longo prazo.</p>`,
-  "575": `<p> O destino pode apresentar reviravoltas súbitas na economia ou no mercado de trabalho que impactam sua segurança. São eventos externos que exigem adaptação e cautela estratégica.</p>`,
-  "637": `<p> Circunstâncias do destino podem forçar a interrupção de um avanço, obrigando-o a lidar com um reinício necessário em algum projeto de vida importante.</p>`,
-  "665": `<p> Portais de ascensão se abrem através do destino. Podem surgir editais, convites para altos cargos ou oportunidades de poder que mudam seu status de forma definitiva.</p>`,
-  "667": `<p> O destino facilita encontros e parcerias sólidas. Eventos externos podem aproximar você de pessoas ideais para construir uniões duradouras e estáveis.</p>`,
-  "757": `<p> O destino atua como um catalisador de mudanças. Eventos inesperados no caminho forçam você a evoluir e a buscar novos potenciais que estavam adormecidos.</p>`,
-  "922": `<p> A sorte e as circunstâncias externas favorecem sua vitória em disputas e seleções. O caminho do destino parece estar pavimentado para que sua competência seja coroada.</p>`,
-  "923": `<p> O destino traz um período de proteção e tranquilidade externa. Situações difíceis são suavizadas por mãos amigas ou intervenções favoráveis que trazem paz ao caminho.</p>`,
-  "924": `<p> Portas para círculos de poder se abrem por meio de eventos fortuitos. O destino coloca você em contato com autoridades ou situações que elevam seu prestígio social.</p>`,
-  "925": `<p> O destino pode apresentar desafios através de falhas de terceiros ou desapontamentos externos, exigindo que você revise sua confiança em estruturas que pareciam sólidas.</p>`,
-  "926": `<p> Situações externas podem exigir sua presença e suporte em questões familiares. O destino traz eventos que pedem sacrifício pessoal em nome da união e do cuidado com os seus.</p>`,
-  "927": `<p> O caminho pode ser atravessado por revelações de fatos ocultos ou situações do passado que retornam através de eventos externos, exigindo ética e neutralidade.</p>`
+
+  "116": `<p>O destino pode trazer acontecimentos externos que testam sua resistência diante da opinião pública. Podem surgir situações inesperadas que exigem que você defenda sua integridade e preserve sua reputação.</p>`,
+
+  "119": `<p>Situações do destino podem colocá-la diante de instituições, crenças ou causas que se revelam ilusórias. O caminho pode apresentar obstáculos criados por visões extremistas, manipulações ou falsas promessas vindas de terceiros.</p>`,
+
+  "123": `<p>O destino abre caminhos para o reconhecimento oficial. Podem surgir oportunidades externas, premiações, honrarias ou convites importantes que chegam até você como reflexo da sua trajetória.</p>`,
+
+  "168": `<p>Ventos favoráveis do destino trazem oportunidades de prosperidade, ganhos inesperados e negócios positivos. Circunstâncias externas tendem a favorecer a entrada de recursos e a expansão material.</p>`,
+
+  "252": `<p>O destino pode influenciar mudanças profundas em parcerias e relacionamentos através de acontecimentos fora do seu controle imediato, conduzindo você a novos rumos afetivos e emocionais.</p>`,
+
+  "518": `<p>O caminho do destino se torna mais estável e protegido. Situações externas conspiram para fortalecer suas bases financeiras e permitir maior segurança material a longo prazo.</p>`,
+
+  "575": `<p>O destino pode apresentar reviravoltas inesperadas relacionadas à economia, trabalho ou estabilidade pessoal. São acontecimentos externos que exigem adaptação rápida, cautela e inteligência estratégica.</p>`,
+
+  "637": `<p>Circunstâncias do destino podem interromper temporariamente um avanço importante, obrigando você a lidar com um recomeço necessário em algum projeto significativo da sua vida.</p>`,
+
+  "665": `<p>Portais de ascensão se abrem através do destino. Podem surgir editais, convites, promoções ou oportunidades de liderança capazes de elevar definitivamente sua posição social e profissional.</p>`,
+
+  "667": `<p>O destino favorece encontros e alianças sólidas. Eventos externos podem aproximá-la de pessoas ideais para construir vínculos estáveis, harmoniosos e duradouros.</p>`,
+
+  "757": `<p>O destino atua como um catalisador de mudanças profundas. Acontecimentos inesperados em seu caminho impulsionam sua evolução, levando você a despertar potenciais antes adormecidos.</p>`,
+
+  "922": `<p>A sorte e as circunstâncias externas favorecem sua vitória em disputas, avaliações e processos seletivos. O destino parece abrir espaço para que sua competência seja reconhecida publicamente.</p>`,
+
+  "923": `<p>O destino traz um período de proteção, tranquilidade e apoio externo. Situações difíceis tendem a ser suavizadas por intervenções favoráveis, amizades sinceras ou acontecimentos providenciais.</p>`,
+
+  "924": `<p>Portas para círculos de influência e autoridade se abrem através de acontecimentos inesperados. O destino coloca você em contato com pessoas e oportunidades capazes de elevar seu prestígio social.</p>`,
+
+  "925": `<p>O destino pode apresentar desafios através de falhas, deslealdades ou desapontamentos provocados por terceiros. Essas experiências exigirão atenção redobrada em relação à confiança depositada nas pessoas.</p>`,
+
+  "926": `<p>Situações externas podem exigir sua presença, cuidado e apoio em assuntos familiares. O destino traz circunstâncias que pedem dedicação emocional e fortalecimento dos vínculos afetivos.</p>`,
+
+  "927": `<p>O caminho pode ser atravessado por revelações de fatos ocultos, segredos ou situações do passado que retornam através de acontecimentos externos, exigindo de você ética, equilíbrio e neutralidade.</p>`
 };
 // --- BANCOS FINANCEIROS SEPARADOS ---
  textosFinVida = { 999: "" };
@@ -2896,13 +2950,13 @@ principal: `
     </h2>
 
     <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-        <p style="margin-bottom: 15px;">A <b>Pirâmide da Vida Principal</b> é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o "DNA" da sua jornada, representando a estrutura macro da sua existência e revelando o caminho mestre que rege sua história do início ao fim. Enquanto as outras matrizes focam em nuances emocionais ou sociais, esta vibração mestra define o enredo principal e o cenário onde sua evolução ocorre.</p>
+        <p style="margin-bottom: 15px;">A <b>Pirâmide da Vida Principal</b> é o alicerce absoluto de todo o seu mapa numerológico quântico. Ela funciona como o “DNA” da sua jornada, representando a estrutura macro da sua existência e revelando o caminho mestre que rege sua história do início ao fim. Enquanto as outras matrizes focam em nuances emocionais ou sociais, esta vibração mestra define o enredo principal e o cenário onde sua evolução acontece.</p>
 
         <p style="margin-bottom: 15px;">Construída exclusivamente a partir do seu <b>nome de batismo</b>, esta matriz reflete sua essência imutável e a frequência original que você trouxe ao mundo. Na numerologia cabalística, ela é considerada o <b>Relógio Biológico e Espiritual</b>; é através desta pirâmide central que todas as vigências de idade e períodos cronológicos do seu relatório são calculados. Ela é a bússola que mantém o alinhamento das suas experiências, impedindo que você se perca nas distrações do cotidiano.</p>
 
-        <p style="margin-bottom: 15px;">Compreender a Vibração Mestra é entender as lições fundamentais e os ciclos de amadurecimento que moldam seu destino em larga escala. Ela contextualiza todas as outras áreas — seja o campo pessoal, social ou de destino — determinando se o seu momento atual é de plantio, colheita ou de uma necessária transformação profunda.</p>
+        <p style="margin-bottom: 15px;">Compreender a Vibração Mestra é entender as lições fundamentais e os ciclos de amadurecimento que moldam seu destino em larga escala. Ela contextualiza todas as outras áreas — sejam os campos pessoal, social ou de destino — determinando se o seu momento atual é de plantio, colheita ou de uma necessária transformação profunda.</p>
 
-        <p>Esta aba descreve a sua trajetória soberana. Sem o domínio desta matriz, as outras influências perdem o seu norte, pois é a Pirâmide da Vida que sustenta o sentido mais amplo da sua existência e garante que cada passo esteja em sintonia com o seu propósito maior.</p>
+        <p>Esta aba descreve sua trajetória soberana. Sem o domínio desta matriz, as outras influências perdem o norte, pois é a Pirâmide da Vida que sustenta o sentido mais amplo da sua existência e garante que cada passo esteja em sintonia com o seu propósito maior.</p>
     </div>
 
     <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
@@ -2926,13 +2980,13 @@ pessoal: `
     </h2>
 
     <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-        <p style="margin-bottom: 15px;">Enquanto a pirâmide anterior responde à pergunta "quem sou eu no universo", a <b>Pirâmide do Mundo Interior</b> mergulha nas profundezas do "como eu me sinto e como processo a vida". Ela é gerada pela combinação da frequência do seu nome com a energia do seu dia de nascimento. Essa união desloca o foco do destino externo para a sua atitude íntima, revelando a mecânica psicológica que governa sua visão de mundo.</p>
+        <p style="margin-bottom: 15px;">Enquanto a pirâmide anterior responde à pergunta “quem sou eu no universo”, a <b>Pirâmide do Mundo Interior</b> mergulha nas profundezas do “como eu me sinto e como processo a vida”. Ela é gerada pela combinação da frequência do seu nome com a energia do seu dia de nascimento. Essa união desloca o foco do destino externo para sua atitude íntima, revelando a mecânica psicológica que governa sua visão de mundo.</p>
 
-        <p style="margin-bottom: 15px;">Esta aba desvenda o seu universo subjetivo: o campo das emoções, do intelecto e dos processos psíquicos que ocorrem longe dos olhos alheios. Ela é a chave para compreender seus conflitos internos e como você vivencia cada fase "do lado de dentro". É comum que a Matriz Principal indique sucesso externo, enquanto esta Matriz Pessoal revela um crescimento interior silencioso ou uma busca por identidade que ninguém mais percebe.</p>
+        <p style="margin-bottom: 15px;">Esta aba desvenda o seu universo subjetivo: o campo das emoções, do intelecto e dos processos psíquicos que acontecem longe dos olhos alheios. Ela é a chave para compreender seus conflitos internos e como você vivencia cada fase “do lado de dentro”. É comum que a Matriz Principal indique sucesso externo, enquanto esta Matriz Pessoal revela um crescimento interior silencioso ou uma busca por identidade que ninguém mais percebe.</p>
 
-        <p style="margin-bottom: 15px;">Aqui, validamos suas reações instintivas e sentimentos mais profundos. Se você percebe que suas emoções nem sempre condizem com a realidade prática, a explicação reside nesta análise. Ela mapeia como o seu "eu" lida com as pressões da Matriz Principal, transformando cada desafio emocional em um degrau para o fortalecimento da sua estabilidade e maturidade mental.</p>
+        <p style="margin-bottom: 15px;">Aqui, suas reações instintivas e sentimentos mais profundos são acolhidos e compreendidos. Se você percebe que suas emoções nem sempre condizem com a realidade prática, a explicação reside nesta análise. Ela mapeia como o seu “eu” lida com as pressões da Matriz Principal, transformando cada desafio emocional em um degrau para o fortalecimento da sua estabilidade e maturidade mental.</p>
 
-        <p>Entender esta pirâmide é o ato supremo de autocompaixão. Ao reconhecer seus padrões internos, você deixa de ser refém das próprias emoções para se tornar o mestre da sua estabilidade psíquica, encontrando o equilíbrio necessário entre o que o mundo exige e o que a sua alma realmente sente.</p>
+        <p>Entender esta pirâmide é um ato profundo de autocompaixão. Ao reconhecer seus padrões interiores, você deixa de ser refém das próprias emoções para se tornar a guardiã da sua estabilidade psíquica, encontrando equilíbrio entre o que o mundo exige e o que sua alma realmente sente.</p>
     </div>
 
     <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
@@ -2955,24 +3009,25 @@ social: `
     </h2>
 
     <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-        <p style="margin-bottom: 15px;">A <b>Pirâmide da Percepção Social</b> assume o papel de "testemunha ocular" da realidade coletiva. Formada pela sintonia entre o seu nome e o seu mês de nascimento, ela gera o seu radar de percepção sobre o mundo externo. Diferente das outras matrizes que trazem influências diretas para o seu ser, esta aba descreve sua capacidade de enxergar as engrenagens da vida girando para as pessoas ao seu redor.</p>
+        <p style="margin-bottom: 15px;">A <b>Pirâmide da Percepção Social</b> assume o papel de “testemunha ocular” da realidade coletiva. Formada pela sintonia entre o seu nome e o seu mês de nascimento, ela gera o seu radar de percepção sobre o mundo externo. Diferente das outras matrizes, que trazem influências diretas para o seu ser, esta aba descreve sua capacidade de enxergar as engrenagens da vida girando ao redor das pessoas com quem convive.</p>
 
-        <p style="margin-bottom: 15px;">É nesta seção que compreendemos que nem tudo o que entra em nosso campo de visão nos pertence. Esta pirâmide revela as vitórias, crises e transformações que você testemunha na vida de amigos, familiares e colegas. Enquanto a Matriz Principal molda sua jornada direta, a Matriz Social funciona como um mapa do "teatro da vida" alheia, permitindo que você observe os movimentos do seu meio sem ser absorvida por eles.</p>
+        <p style="margin-bottom: 15px;">É nesta seção que você compreende que nem tudo o que entra no seu campo de visão lhe pertence. Esta pirâmide revela vitórias, crises e transformações que acontecem na vida de amigas, familiares e colegas. Enquanto a Matriz Principal molda sua trajetória direta, a Matriz Social funciona como um mapa do “teatro da vida” alheia, permitindo que você observe os movimentos do seu meio sem ser absorvida por eles.</p>
 
-        <p style="margin-bottom: 15px;">Ter essa clareza é libertador: permite identificar padrões no entorno sem que isso altere sua própria matriz quântica. Ao ler as potências desta aba, você acessa uma espécie de "previsão do tempo" para o seu círculo de convivência. Isso confere uma sabedoria estratégica, permitindo ganhar repertório e maturidade através da observação, sem a necessidade de passar pessoalmente pela dor ou pelo esforço de cada evento testemunhado.</p>
+        <p style="margin-bottom: 15px;">Ter essa clareza é libertador. Ela permite identificar padrões no entorno sem que isso altere sua própria matriz quântica. Ao ler as potências desta aba, você acessa uma espécie de “previsão do tempo” para o seu círculo de convivência. Isso gera sabedoria estratégica, permitindo amadurecimento e repertório emocional através da observação, sem a necessidade de viver pessoalmente cada dor ou desafio testemunhado.</p>
 
-        <p>Esta é a aba da sensibilidade social por excelência. Ela registra o quanto você é capaz de captar da realidade externa, mantendo sempre a distinção cristalina entre o que é a experiência do outro e o que é o seu propósito soberano. É a lente que transforma a convivência em um aprendizado contínuo e protegido.</p>
+        <p>Esta é a aba da sensibilidade social por excelência. Ela registra o quanto você é capaz de captar da realidade externa, mantendo sempre a distinção entre aquilo que pertence à experiência das outras pessoas e aquilo que faz parte do seu propósito soberano. É a lente que transforma convivência em aprendizado contínuo e protegido.</p>
     </div>
 
     <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
         <p style="font-style: italic; color: #827108; font-size: 15px;">
-            "Saber observar o caminho do outro é a forma mais sábia de iluminar os próprios passos, sem perder o foco na sua própria direção."
+            "Saber observar o caminho de outras pessoas é a forma mais sábia de iluminar os próprios passos, sem perder o foco na sua própria direção."
         </p>
     </div>
 </div>
 `,
 
 destino: `
+
 <div class="intro-secao-premium" style="background: #fff; border: 1px solid #e6d5a8; border-radius: 12px; padding: 35px; position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
     
     <div style="position: absolute; top: -15px; right: -15px; font-size: 70px; color: rgba(130, 113, 8, 0.05); transform: rotate(15deg);">☄️</div>
@@ -2983,26 +3038,24 @@ destino: `
     </h2>
 
     <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-        <p style="margin-bottom: 15px;">A <b>Pirâmide do Destino</b> representa a síntese final de toda a sua análise numerológica. Por utilizar a combinação mais completa de dados — seu nome, dia e mês de nascimento — ela reflete sua jornada de forma multidimensional. Esta matriz funde o que está previsto na Matriz Principal com suas necessidades Pessoais e as demandas do seu Meio Social, revelando o ponto de equilíbrio onde sua vontade encontra o plano do universo.</p>
+        <p style="margin-bottom: 15px;">A <b>Pirâmide do Destino</b> representa a síntese final de toda a sua análise numerológica. Por utilizar a combinação mais completa de dados — seu nome, dia e mês de nascimento — ela reflete sua jornada de forma multidimensional. Esta matriz une o que está previsto na Matriz Principal com suas necessidades pessoais e as demandas do seu meio social, revelando o ponto de equilíbrio onde sua vontade encontra o plano do universo.</p>
 
-        <p style="margin-bottom: 15px;">Esta aba é fascinante pois decodifica as intervenções do destino: situações inesperadas ou encontros providenciais que mudam o curso da sua trajetória. Se as outras pirâmides descrevem os atores e o palco, a Matriz do Destino revela o "diretor" por trás das cenas. Ela conecta os pontos entre o seu passado e o que o universo está preparando para o seu futuro, mostrando a finalidade maior de cada experiência vivida.</p>
+        <p style="margin-bottom: 15px;">Esta aba é fascinante porque decodifica as intervenções do destino: situações inesperadas ou encontros providenciais que mudam o rumo da sua trajetória. Se as outras pirâmides descrevem as personagens e o palco, a Matriz do Destino revela a “direção” por trás das cenas. Ela conecta os pontos entre o seu passado e aquilo que o universo prepara para o seu futuro, mostrando a finalidade maior de cada experiência vivida.</p>
 
-        <p style="margin-bottom: 15px;">Entender esta matriz é descobrir o "porquê" por trás das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como as forças universais influenciam sua vontade pessoal. Muitas vezes, um evento que pareceu desafiador em outras áreas é revelado aqui como um ponto de virada essencial, um ajuste de rota necessário para que você alcance seu potencial máximo.</p>
+        <p style="margin-bottom: 15px;">Entender esta matriz é descobrir o “porquê” das suas vivências. Ela traz clareza sobre o seu propósito de alma e sobre como as forças universais influenciam sua vontade pessoal. Muitas vezes, um evento que pareceu difícil em outras áreas se revela aqui como um ponto de virada essencial, um ajuste necessário para que você alcance seu potencial máximo.</p>
 
-        <p>Esta é a aba que traz paz de espírito e senso de direção. Ela é o guia definitivo para quem deseja viver em fluxo com o universo, aceitando os desafios como ferramentas de moldagem do caráter e celebrando cada vitória como uma confirmação de que você está percorrendo o seu caminho sagrado com consciência e maestria.</p>
+        <p>Esta é a aba que oferece paz interior e senso de direção. Ela funciona como um guia para quem deseja viver em sintonia com o universo, aceitando os desafios como instrumentos de fortalecimento e celebrando cada conquista como uma confirmação de que você está percorrendo seu caminho sagrado com consciência e maestria.</p>
     </div>
 
     <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
         <p style="font-style: italic; color: #827108; font-size: 15px;">
-            "O destino não é uma questão de sorte, é uma questão de escolha; não é algo para se esperar, é algo para se alcançar em sintonia com o Criador."
+            "O destino não é uma questão de sorte, mas de alinhamento; não é algo para esperar, mas algo para alcançar em sintonia com o Criador."
         </p>
     </div>
 </div>
 `
-  
+
 };
-
-
 
 
 
@@ -3019,18 +3072,18 @@ window.introsPiramides = {
             </h2>
 
             <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-                <p style="margin-bottom: 15px;">O <b>Regente da Vida</b> representa o núcleo vibracional da sua existência, funcionando como o eixo central em torno do qual todas as demais energias se organizam. Ele é a força que sustenta a estrutura da sua Pirâmide, agindo como o palco principal onde a realidade efetivamente se manifesta. No entanto, sua expressão nunca é isolada; ele é o receptor das frequências que emanam das suas outras três matrizes fundamentais.</p>
+                <p style="margin-bottom: 15px;">O <b>Regente da Vida</b> representa o núcleo vibracional da sua existência, funcionando como o eixo central em torno do qual todas as demais energias se organizam. Ele é a força que sustenta a estrutura da sua Pirâmide, agindo como o palco principal onde sua realidade se manifesta. No entanto, sua expressão nunca acontece de forma isolada; ele recebe influências constantes das outras três matrizes fundamentais.</p>
 
-                <p style="margin-bottom: 15px;">Quando a vibração do seu <b>Mundo Interior (Pessoal)</b> coincide com o Regente da Vida, ocorre um alinhamento raro: o que você sente internamente é exatamente o que a vida lhe apresenta, indicando que suas vontades moldam sua realidade de forma direta. Se o impacto vem da <b>Percepção do Meio (Social)</b>, a vida reflete uma influência externa predominante; o ambiente e as pessoas ao seu redor ditam o ritmo dos acontecimentos, criando uma jornada onde o coletivo e o individual se fundem.</p>
+                <p style="margin-bottom: 15px;">Quando a vibração do seu <b>Mundo Interior (Pessoal)</b> coincide com o Regente da Vida, ocorre um alinhamento raro: aquilo que você sente internamente passa a refletir diretamente nos acontecimentos da sua trajetória. Seus desejos, emoções e intenções encontram abertura para se materializar. Já quando o impacto vem da <b>Percepção do Meio (Social)</b>, sua vida passa a ser fortemente influenciada pelas pessoas e pelo ambiente ao redor, criando uma jornada em que o coletivo e o individual se entrelaçam profundamente.</p>
 
-                <p style="margin-bottom: 15px;">Já a ressonância com as <b>Tendências do Destino</b> traz uma carga de propósito ou influência universal: eventos que surgem "do nada" são, na verdade, o destino movendo o seu eixo central para cumprir uma missão maior. Sem essas conexões, o Regente atua como sua base de identidade autêntica, mas sob influência, ele se torna o termômetro de como você reage às pressões internas, sociais ou espirituais.</p>
+                <p style="margin-bottom: 15px;">A ressonância com as <b>Tendências do Destino</b> traz uma carga intensa de propósito e influência universal. Eventos inesperados, encontros marcantes ou mudanças repentinas podem ser sinais do destino movendo o eixo da sua vida em direção a algo maior. Sem essas conexões, o Regente atua como a base da sua identidade autêntica; sob influência, ele revela como você reage às pressões emocionais, sociais e espirituais que atravessam sua jornada.</p>
 
-                <p>Compreender este Regente é decifrar a nota mestra da sua sinfonia. Ele revela se você está navegando por mérito próprio, por fluxo social ou por determinação do destino, sendo a base absoluta sobre a qual toda a sua história energética é construída e lapidada.</p>
+                <p>Compreender este Regente é decifrar a nota central da sua própria sinfonia existencial. Ele revela se sua trajetória está sendo conduzida principalmente pela sua vontade interior, pelo meio em que vive ou pelos chamados do destino, tornando-se a base absoluta sobre a qual toda a sua história energética é construída e transformada.</p>
             </div>
 
             <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
                 <p style="font-style: italic; color: #827108; font-size: 15px;">
-                    "O Regente da Vida não é apenas um número; é o encontro sagrado entre o que você é e o que o universo espera de você."
+                    "O Regente da Vida não é apenas um número; é o encontro sagrado entre quem você é e aquilo que o universo espera da sua essência."
                 </p>
             </div>
         </div>`
@@ -3050,18 +3103,18 @@ pessoal: {
             </h2>
 
             <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-                <p style="margin-bottom: 15px;">O <b>Regente Pessoal</b> representa o estado interno predominante da sua mente e a forma como você processa sua própria identidade. Enquanto o Regente da Vida lida com fatos concretos, o Pessoal governa o seu "clima psicológico". Ele é o filtro emocional através do qual você interpreta a realidade, determinando como você se enxerga por dentro e como reage subjetivamente aos desafios do mundo.</p>
+                <p style="margin-bottom: 15px;">O <b>Regente Pessoal</b> representa o estado predominante da sua mente e a forma como você processa sua própria identidade. Enquanto o Regente da Vida lida com acontecimentos concretos, o Regente Pessoal governa o seu clima emocional e psicológico. Ele funciona como o filtro interno através do qual você interpreta a realidade, determinando como se enxerga intimamente e como reage subjetivamente aos desafios do mundo.</p>
 
-                <p style="margin-bottom: 15px;">A profundidade desta matriz se revela quando ela entra em ressonância com os outros pilares. Se o seu Regente Pessoal compartilha o mesmo número da <b>Matriz da Vida</b>, você possui uma influência direta e poderosa sobre sua própria história: seus sentimentos e ações estão em total sincronia, fazendo com que sua vontade interna se materialize em fatos reais. No entanto, se a coincidência ocorre com a <b>Matriz Social</b>, sua estabilidade emocional torna-se sensível ao ambiente externo; você é influenciado psicologicamente pelo meio, sentindo dentro de si o reflexo das expectativas e energias das pessoas ao seu redor.</p>
+                <p style="margin-bottom: 15px;">A profundidade desta matriz se revela quando ela entra em sintonia com os outros pilares. Se o seu Regente Pessoal compartilha o mesmo número da <b>Matriz da Vida</b>, existe uma influência poderosa da sua mente sobre sua própria história: seus sentimentos e ações entram em alinhamento, permitindo que sua vontade interna se reflita diretamente na prática. Porém, se a coincidência acontece com a <b>Matriz Social</b>, sua estabilidade emocional torna-se mais sensível ao ambiente; você absorve psicologicamente as expectativas, emoções e energias das pessoas ao redor.</p>
 
-                <p style="margin-bottom: 15px;">Já o alinhamento com as <b>Tendências do Destino</b> indica uma influência espiritual ou de propósito no campo emocional. São sentimentos e intuições que surgem como "chamados", movendo suas águas internas para prepará-la para missões que o destino reservou. Quando não há coincidências, esta matriz atua como seu refúgio particular, revelando como sua mente processa experiências de forma independente, moldando sua autoconfiança e a visão que você mantém sobre seus próprios desejos.</p>
+                <p style="margin-bottom: 15px;">Quando ocorre alinhamento com as <b>Tendências do Destino</b>, surgem intuições profundas e sentimentos que parecem funcionar como chamados da alma. São percepções internas que preparam emocionalmente sua consciência para missões e transformações futuras. Quando não há coincidências vibracionais, esta matriz atua como um espaço íntimo e independente, revelando como sua mente organiza experiências e constrói sua autoconfiança longe das influências externas.</p>
 
-                <p>Compreender este Regente é ganhar as chaves do seu mundo interno. Ele permite distinguir o que é um sentimento genuinamente seu do que é uma influência captada do social ou uma preparação do destino, garantindo que você mantenha o equilíbrio emocional necessário para governar sua própria vida com lucidez.</p>
+                <p>Compreender este Regente é acessar as chaves do seu próprio universo emocional. Ele ajuda você a distinguir aquilo que realmente nasce da sua essência daquilo que foi absorvido do ambiente ou despertado pelo destino, fortalecendo seu equilíbrio psíquico e sua lucidez emocional.</p>
             </div>
 
             <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
                 <p style="font-style: italic; color: #827108; font-size: 15px;">
-                    "O mundo exterior é o que acontece com você; o mundo pessoal é o que você escolhe sentir sobre o que acontece."
+                    "O mundo exterior revela acontecimentos; o mundo interior revela a forma como sua alma escolhe senti-los."
                 </p>
             </div>
         </div>`
@@ -3079,18 +3132,18 @@ social: {
             </h2>
 
             <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-                <p style="margin-bottom: 15px;">O <b>Regente Social</b> representa a vibração predominante do ambiente humano ao seu redor. Diferente da Matriz da Vida, que expressa a sua própria essência, o Regente Social revela o tipo de energia que você percebe e atrai nas pessoas com quem convive. Ele descreve o "clima vibracional" do seu meio, indicando o padrão de mentalidade e comportamento que se manifesta com maior força entre amigos, colegas e parceiros que cruzam o seu caminho.</p>
+                <p style="margin-bottom: 15px;">O <b>Regente Social</b> representa a vibração predominante do ambiente humano ao seu redor. Diferente da Matriz da Vida, que expressa sua essência individual, o Regente Social revela o tipo de energia que você percebe e atrai nas pessoas com quem convive. Ele descreve o clima vibracional do seu meio, indicando padrões emocionais, mentais e comportamentais que se manifestam com força entre amizades, colegas e vínculos afetivos.</p>
 
-                <p style="margin-bottom: 15px;">A verdadeira dinâmica desta matriz ocorre em suas conexões. Se o seu Regente Social coincide com a <b>Matriz da Vida</b>, a sociedade exerce uma influência direta e factual em sua jornada: o meio molda sua realidade prática e as oportunidades surgem intrinsecamente ligadas aos seus contatos. Se a ressonância for com a <b>Matriz Pessoal</b>, a influência é emocional e mental; o ambiente externo não altera os fatos da sua vida, mas afeta profundamente o seu humor, seus sentimentos e a forma como você se sente psicologicamente inserida no mundo.</p>
+                <p style="margin-bottom: 15px;">A dinâmica desta matriz se intensifica através de suas conexões. Se o seu Regente Social coincide com a <b>Matriz da Vida</b>, o meio exerce influência direta sobre sua realidade prática: oportunidades, desafios e experiências passam a surgir fortemente ligados às pessoas ao seu redor. Já quando a ressonância acontece com a <b>Matriz Pessoal</b>, o impacto se torna emocional; o ambiente não altera necessariamente os fatos da sua vida, mas influencia profundamente seu humor, seus sentimentos e a forma como você se sente acolhida ou pressionada socialmente.</p>
 
-                <p style="margin-bottom: 15px;">Já o alinhamento entre o Social e as <b>Tendências do Destino</b> revela um movimento poderoso: o universo está utilizando o seu meio social para cumprir um propósito maior. Nesse caso, eventos que ocorrem na sociedade ou com pessoas próximas refletem diretamente o seu destino, como se o coletivo e a sua missão individual estivessem sintonizados na mesma frequência. Sem essas ligações, a matriz atua apenas como sua percepção periférica, mostrando o perfil das energias que orbitam seu cotidiano sem necessariamente determinar o seu passo individual.</p>
+                <p style="margin-bottom: 15px;">Quando o Regente Social se alinha às <b>Tendências do Destino</b>, existe uma movimentação coletiva guiada pelo universo. Pessoas, grupos e acontecimentos sociais tornam-se instrumentos para impulsionar seu crescimento e cumprir partes importantes da sua missão. Sem essas conexões, esta matriz atua como um radar periférico, revelando o padrão energético das pessoas ao seu redor sem necessariamente interferir diretamente na sua trajetória individual.</p>
 
-                <p>Compreender o seu Regente Social permite identificar se você está apenas observando o mundo ao redor ou se está sendo moldada por ele. É a ferramenta essencial para discernir o que pertence ao outro e o que está sendo integrado à sua própria história através das interações humanas e das correntes coletivas do destino.</p>
+                <p>Compreender o seu Regente Social permite distinguir quando você está apenas observando o mundo e quando está sendo moldada pelas energias coletivas. É uma ferramenta essencial para separar aquilo que pertence ao outro daquilo que realmente faz parte da sua história e evolução.</p>
             </div>
 
             <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
                 <p style="font-style: italic; color: #827108; font-size: 15px;">
-                    "O meio social é o espelho onde vemos o reflexo das energias que o destino coloca em nosso caminho para nos ensinar a conviver."
+                    "O meio social é o espelho onde percebemos as energias que o destino aproxima da nossa jornada para ensinar convivência, discernimento e crescimento."
                 </p>
             </div>
         </div>`
@@ -3108,23 +3161,22 @@ destino: {
             </h2>
 
             <div style="color: #333; line-height: 1.8; font-size: 17px; text-align: justify;">
-                <p style="margin-bottom: 15px;">O <b>Regente do Destino</b> representa uma força de influência que atua sobre a sua jornada a partir de fatores externos ao seu núcleo essencial. Ele é o campo do propósito, manifestando-se através de circunstâncias que parecem conduzir você para caminhos de significado maior. Diferente das outras matrizes, o Destino possui um poder de influência superior: ele atua como um chamado invisível que molda direções, mesmo quando você não tem consciência plena desse movimento.</p>
+                <p style="margin-bottom: 15px;">O <b>Regente do Destino</b> representa uma força universal que atua sobre sua trajetória através de fatores externos ao seu núcleo essencial. Ele simboliza o campo do propósito, manifestando-se por meio de circunstâncias, encontros e acontecimentos que parecem conduzi-la em direção a algo maior. Diferente das outras matrizes, o Destino possui uma influência superior, funcionando como um chamado invisível que ajusta caminhos e direções mesmo quando você ainda não percebe completamente esse movimento.</p>
 
-                <p style="margin-bottom: 15px;">A soberania desta matriz se revela na sua capacidade de impactar os outros pilares. Se o Regente do Destino possui a mesma numeração da <b>Matriz da Vida</b>, a influência é direta e absoluta; seu propósito e sua realidade prática tornam-se uma coisa só, forçando acontecimentos que cumprem sua missão. Contudo, mesmo sem essa conexão direta, o Destino ainda exerce uma influência indireta poderosa sobre a vida, agindo como um vento que sopra as velas da sua trajetória, sugerindo oportunidades e encontros que alteram o seu curso factual.</p>
+                <p style="margin-bottom: 15px;">A força desta matriz se revela na maneira como ela impacta os outros pilares. Quando o Regente do Destino possui a mesma numeração da <b>Matriz da Vida</b>, sua missão e sua realidade prática passam a caminhar juntas, criando eventos inevitáveis que empurram sua trajetória rumo ao propósito maior. Mesmo sem essa coincidência direta, o Destino continua exercendo influência sobre sua vida, funcionando como um vento invisível que move oportunidades, encontros e mudanças de rota importantes.</p>
 
-                <p style="margin-bottom: 15px;">Essa força também se estende aos campos sutis. Ao ressoar com a <b>Matriz Pessoal</b>, o Destino influencia seus sentimentos e intuições, plantando desejos que preparam sua mente para o que está por vir. Quando toca a <b>Matriz Social</b>, ele manipula o seu meio de convivência, trazendo pessoas e situações coletivas que servem como ferramentas para o seu crescimento. Enquanto o Social é percepção e o Pessoal é sentimento, o Destino é a influência real que vem do universo para testar, guiar e consolidar a sua evolução.</p>
+                <p style="margin-bottom: 15px;">Essa influência também alcança os campos emocionais e sociais. Quando entra em sintonia com a <b>Matriz Pessoal</b>, o Destino desperta intuições, desejos e sentimentos que preparam sua mente para aquilo que ainda está por vir. Ao tocar a <b>Matriz Social</b>, ele utiliza pessoas, ambientes e experiências coletivas como ferramentas de crescimento e transformação. Enquanto o Social revela percepções e o Pessoal traduz sentimentos, o Destino atua como a força concreta do universo moldando experiências e impulsionando sua evolução.</p>
 
-                <p>Compreender o Regente do Destino é aceitar que existe uma regência maior orquestrando os eventos ao seu redor. Ele não substitui o impacto real da sua Matriz da Vida, mas oferece o "porquê" por trás dos encontros inesperados e das mudanças de rota, garantindo que, independentemente da sua vontade imediata, o seu propósito maior seja eventualmente alcançado.</p>
+                <p>Compreender o Regente do Destino é reconhecer que existe uma inteligência maior organizando acontecimentos ao seu redor. Ele não substitui sua vontade individual, mas revela os motivos ocultos por trás das mudanças, encontros e desafios, garantindo que seu propósito mais elevado seja gradualmente alcançado.</p>
             </div>
 
             <div style="margin-top: 30px; padding: 20px; border-radius: 10px; background: #fdfaf2; border-top: 2px solid #827108; text-align: center;">
                 <p style="font-style: italic; color: #827108; font-size: 15px;">
-                    "O Destino é a mão invisível que ajusta o cenário da vida para que a alma possa representar o seu papel mais autêntico."
+                    "O Destino é a força invisível que reorganiza os cenários da vida para que sua alma encontre o caminho da própria realização."
                 </p>
             </div>
         </div>`
     },
-
 
 };
 
@@ -3132,97 +3184,51 @@ destino: {
 window.textosSintese = {
     "pessoal_vida": `
         <p><b>Sincronia de Manifestação Direta e Alinhamento Real:</b></p>
-        <p>Existe em sua matriz uma das configurações mais raras e potentes da dinâmica quântica. Quando sua Potência Pessoal se iguala à Potência da Vida, o véu entre o desejo e a realidade material torna-se extremamente fino. Isto indica que existe um canal direto de comunicação entre sua mente subconsciente e o campo de possibilidades externas. Você não atua apenas como alguém que observa sua jornada; você é a mente consciente por trás de cada evento, agindo de forma integrada e poderosa à sua realidade tangível.</p>
+        <p>Existe em sua matriz uma das configurações mais raras e potentes da dinâmica quântica. Quando sua Potência Pessoal se iguala à Potência da Vida, o véu entre o desejo e a realidade material torna-se extremamente fino. Isto indica que existe um canal direto de comunicação entre sua mente subconsciente e o campo de possibilidades externas. <strong>MASCULINO-FEMININO-NEUTRO</strong>, você não atua apenas como alguém que observa sua jornada; você é a mente consciente por trás de cada evento, agindo de forma integrada e poderosa à sua realidade tangível.</p>
         <p>Na prática, esse nível de sincronia exige uma higiene mental rigorosa e uma vigilância constante sobre seus estados internos. Como sua vibração pessoal e a vibração da sua vida estão na mesma nota, seus medos e inseguranças possuem o mesmo poder de manifestação que seus sonhos e metas. Você não é alguém refém das circunstâncias; você é a força que as impulsiona. O mundo ao seu redor responde ao seu comando interno como um espelho de alta fidelidade, refletindo com precisão absoluta sua postura íntima e suas crenças mais profundas.</p>
-        <p>Quando você decide mudar sua frequência interna, sua vida financeira, amorosa e profissional tende a se ajustar quase que instantaneamente, sem a necessidade de esforços externos exaustivos ou lutas contra o fluxo. É o estado puro de 'Fluxo de Criatividade', onde a vida não acontece contra você, mas sim através de você. O grande desafio dessa configuração é abandonar definitivamente qualquer narrativa de impotência, pois a chave mestra da sua realidade está guardada no seu próprio interior, esperando que você assuma o controle do leme.</p>
-        <p>Para potencializar essa força, cultive momentos de visualização e afirmação, pois para sua matriz, 'sentir é realizar'. Você veio ao mundo para provar que a vontade humana, quando alinhada às leis universais, pode moldar a matéria. Não subestime seu poder de influência sobre os fatos; cada decisão tomada em silêncio dentro da sua alma ecoa como uma ordem para o universo, que prontamente se organiza para entregar o cenário correspondente à sua nova vibração.</p>
+        <p>Quando você decide mudar sua frequência interna, sua vida financeira, amorosa e profissional tende a se ajustar quase que instantaneamente, sem a necessidade de esforços externos exaustivos ou lutas contra o fluxo. É o estado puro de "Fluxo de Criatividade", onde a vida não acontece contra você, mas sim através de você. O grande desafio dessa configuração é abandonar definitivamente qualquer narrativa de impotência, pois a chave mestra da sua realidade está guardada no seu próprio interior, esperando que você, <strong>MASCULINO-FEMININO-NEUTRO</strong>, assuma o controle do leme.</p>
+        <p>Para potencializar essa força, cultive momentos de visualização e afirmação, pois para sua matriz, "sentir é realizar". Você veio ao mundo para provar que a vontade humana, quando alinhada às leis universais, pode moldar a matéria. Não subestime seu poder de influência sobre os fatos; cada decisão tomada em silêncio dentro da sua alma ecoa como uma ordem para o universo, que prontamente se organiza para entregar o cenário correspondente à sua nova vibração.</p>
     `,
     
     "social_vida": `
         <p><b>Sincronia de Espelhamento Coletivo e Ressonância Externa:</b></p>
         <p>Sua jornada nesta existência é profundamente influenciada pelo campo vibracional das pessoas, grupos e ambientes que você escolhe frequentar. Nesta configuração específica, sua vida funciona como um reflexo direto do seu convívio social e das egrégoras às quais você se conecta. Você possui uma natureza de ressonância externa: o sucesso, a abundância, a saúde ou os bloqueios que você experimenta são, em grande parte, transferidos ao seu campo pessoal devido à sua exposição constante ao meio.</p>
-        <p>Isso significa que sua evolução e prosperidade dependem da sua capacidade estratégica de selecionar onde e com quem você gasta sua energia vital. Se você se cercar de mentes prósperas, corajosas e evoluídas, sua vida subirá de nível como que por osmose, captando a frequência do progresso sem esforço aparente. Por outro lado, ambientes tóxicos ou limitantes drenarão sua vitalidade e estagnarão seus projetos mais promissores em tempo recorde, pois sua 'antena' está programada para materializar o que capta do coletivo.</p>
-        <p>O destino, para você, não costuma trazer eventos isolados ou 'sorte' abstrata; ele costuma trazer 'pessoas'. Cada nova conexão em sua vida é, na verdade, uma semente de um novo cenário de vida. Para mudar sua realidade financeira ou emocional, o caminho mais rápido é mudar seu cenário social. Você notará que portas que pareciam trancadas há anos se abrirão sozinhas apenas pelo fato de você estar em um grupo favorável ou frequentando o ambiente que vibra na solução.</p>
+        <p>Isso significa que sua evolução e prosperidade dependem da sua capacidade estratégica de selecionar onde e com quem você gasta sua energia vital. Se você se cercar de mentes prósperas, corajosas e evoluídas, sua vida subirá de nível como que por osmose, captando a frequência do progresso sem esforço aparente. Por outro lado, ambientes tóxicos ou limitantes drenarão sua vitalidade e estagnarão seus projetos mais promissores em tempo recorde, pois sua "antena" está programada para materializar o que capta do coletivo.</p>
+        <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, o destino, para você, não costuma trazer eventos isolados ou "sorte" abstrata; ele costuma trazer pessoas. Cada nova conexão em sua vida é, na verdade, uma semente de um novo cenário de vida. Para mudar sua realidade financeira ou emocional, o caminho mais rápido é mudar seu cenário social. Você notará que portas que pareciam trancadas há anos se abrirão sozinhas apenas pelo fato de você estar em um grupo favorável ou frequentando o ambiente que vibra na solução.</p>
         <p>Sua missão envolve aprender a manter a seletividade sem perder a empatia. Entenda que sua energia é um patrimônio valioso e que você tem o direito — e o dever — de proteger seu campo de influências externas que não condizem com seu propósito. Ao dominar a arte de se conectar às frequências certas, você se torna um foco de oportunidades, onde o networking deixa de ser apenas uma ferramenta profissional e passa a ser o motor sagrado da sua própria sobrevivência e expansão material.</p>
     `,
     
     "destino_vida": `
         <p><b>Sincronia de Propósito Inevitável e Condução Superior:</b></p>
-        <p>Nesta configuração, o comando da sua existência está firmemente posicionado nas mãos do seu Plano de Destino. Existe uma força maior, um roteiro predefinido e inteligente que guia os grandes acontecimentos da sua jornada, muitas vezes sobrepondo-se às suas vontades imediatas ou aos seus planos racionais. Você sentirá, ao longo da vida, que certas situações, encontros e mudanças bruscas de rumo são absolutamente 'inevitáveis', como se tivessem sido orquestradas por uma sabedoria superior.</p>
-        <p>Esta é a marca de uma vida com uma missão específica e inegociável. Quando o Destino e a Vida se fundem na mesma potência, os acasos deixam de existir para dar lugar à Providência. Mesmo que você tente fugir de certos caminhos por medo ou dúvida, o Universo criará 'curvas' e sincronicidades que o trarão de volta ao seu trilho original. É uma jornada que exige rendição e uma confiança profunda nas forças que regem o tempo e o espaço, entendendo que há um tempo certo para cada colheita.</p>
-        <p>Quanto menos você resistir ao fluxo natural das coisas e quanto mais você aprender a ler os sinais, mais próspera e leve sua vida se tornará. Você perceberá que as grandes crises que enfrentou no passado foram, na verdade, momentos em que o Destino estava 'limpando o palco' para que o próximo ato da sua evolução pudesse começar. Nada em sua vida é por acaso; cada perda foi uma liberação de espaço e cada ganho foi um degrau calculado para o cumprimento do seu contrato espiritual nesta terra.</p>
-        <p>O sucesso para você vem através da paciência e da observação atenta. Você atua como quem protagoniza um livro escrito pelas estrelas, e seu papel é aprender a ser intérprete das vontades do alto. Não se desespere quando os planos humanos falharem, pois o plano do destino é infalível e sempre visa o seu crescimento máximo. Sua vida é um testemunho de que existe uma ordem no caos, e que você está sob condução para um lugar de realização que sua mente lógica sequer consegue imaginar ainda.</p>
+        <p>Nesta configuração, o comando da sua existência está firmemente posicionado nas mãos do seu Plano de Destino. Existe uma força maior, um roteiro predefinido e inteligente que guia os grandes acontecimentos da sua jornada, muitas vezes sobrepondo-se às suas vontades imediatas ou aos seus planos racionais. Você sentirá, ao longo da vida, que certas situações, encontros e mudanças bruscas de rumo são absolutamente inevitáveis, como se tivessem sido orquestradas por uma sabedoria superior.</p>
+        <p>Esta é a marca de uma vida com uma missão específica e inegociável. Quando o Destino e a Vida se fundem na mesma potência, os acasos deixam de existir para dar lugar à Providência. Mesmo que você tente fugir de certos caminhos por medo ou dúvida, o Universo criará curvas e sincronicidades que a trarão de volta ao seu trilho original. <strong>MASCULINO-FEMININO-NEUTRO</strong>, sua jornada exige rendição e uma confiança profunda nas forças que regem o tempo e o espaço, entendendo que há um tempo certo para cada colheita.</p>
+        <p>Quanto menos você resistir ao fluxo natural das coisas e quanto mais aprender a ler os sinais, mais próspera e leve sua vida se tornará. Você perceberá que as grandes crises que enfrentou no passado foram, na verdade, momentos em que o Destino estava "limpando o palco" para que o próximo ato da sua evolução pudesse começar. Nada em sua vida é por acaso; cada perda foi uma liberação de espaço e cada ganho foi um degrau calculado para o cumprimento do seu contrato espiritual nesta terra.</p>
+        <p>O sucesso para você vem através da paciência e da observação atenta. Você atua como quem protagoniza um livro escrito pelas estrelas, e seu papel é aprender a ser intérprete das vontades do alto. Não se desespere quando os planos humanos falharem, pois o plano do destino é infalível e sempre visa o seu crescimento máximo. Sua vida é um testemunho de que existe uma ordem no caos e de que você está sob condução para um lugar de realização que sua mente lógica sequer consegue imaginar ainda.</p>
     `,
     
     "pessoal_social": `
         <p><b>Sincronia de Influência, Identidade e Adaptação:</b></p>
-        <p>Esta conexão revela um desafio quântico constante entre o 'Eu' e o 'Nós'. Você possui uma personalidade dotada de uma plasticidade incrível, com grande capacidade de adaptação e permeabilidade às energias ao seu redor. Isso faz de você uma presença extremamente carismática, magnética e de fácil convívio, mas traz o risco intrínseco de perder a clareza sobre sua própria essência devido à necessidade inconsciente de pertencer e ser uma pessoa aceita pelos grupos.</p>
-        <p>O seu 'Pessoal' (quem você sente que é) é constantemente moldado pelas pressões e expectativas do seu meio social. Você tem a capacidade de sentir o que o grupo sente e, muitas vezes, acaba adotando metas, desejos, gostos e opiniões que não são originalmente seus, mas que foram absorvidos para manter a harmonia do ambiente. Essa facilidade de sofrer influência pode ser sua maior virtude, se houver convívio com mentes brilhantes, ou seu maior perigo, se o convívio for com pessoas medíocres.</p>
-        <p>O trabalho fundamental da sua vida é o processo de 'Individualização'. Você precisa aprender a construir uma membrana energética que lhe permita transitar pelos grupos sem se dissolver neles. É vital que você tenha momentos de isolamento e silêncio para 'descomprimir' as energias alheias e conseguir ouvir, com nitidez, a sua própria voz interna. Sem esse retiro periódico, você corre o risco de viver uma vida baseada no roteiro de outras pessoas, esquecendo-se da sua própria vontade autêntica.</p>
-        <p>Quando você domina essa troca e aprende a filtrar o que entra no seu campo, você se transforma em uma autoridade de influência social. Você passará a usar sua adaptabilidade de forma consciente, conseguindo entrar em qualquer ambiente e se conectar com qualquer nível hierárquico, mantendo-se fiel ao seu núcleo interno. Você se torna alguém que lidera e entende a alma das pessoas, pois sabe como é sentir a energia delas, usando essa sensibilidade para guiar, e não mais para sofrer apenas a condução pelo desejo alheio.</p>
+        <p>Esta conexão revela um desafio quântico constante entre o "Eu" e o "Nós". Você possui uma personalidade dotada de uma plasticidade incrível, com grande capacidade de adaptação e permeabilidade às energias ao seu redor. Isso faz de você uma presença extremamente carismática, magnética e de fácil convivência, mas traz o risco intrínseco de perder a clareza sobre sua própria essência devido à necessidade inconsciente de pertencimento e aceitação pelos grupos.</p>
+        <p>O seu "Pessoal" — quem você sente que é — é constantemente moldado pelas pressões e expectativas do seu meio social. Você tem a capacidade de sentir o que o grupo sente e, muitas vezes, acaba adotando metas, desejos, gostos e opiniões que não são originalmente seus, mas que foram absorvidos para manter a harmonia do ambiente. Essa facilidade de sofrer influência pode ser sua maior virtude, se houver convivência com mentes brilhantes, ou seu maior perigo, se o convívio for com pessoas limitantes.</p>
+        <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, o trabalho fundamental da sua vida é o processo de individualização. Você precisa aprender a construir uma membrana energética que lhe permita transitar pelos grupos sem se dissolver neles. É vital que existam momentos de isolamento e silêncio para descomprimir as energias alheias e conseguir ouvir, com nitidez, a sua própria voz interna. Sem esse retiro periódico, você corre o risco de viver uma vida baseada no roteiro de outras pessoas, esquecendo-se da sua vontade autêntica.</p>
+        <p>Quando você domina essa troca e aprende a filtrar o que entra no seu campo, transforma-se em uma autoridade de influência social. Você passará a usar sua adaptabilidade de forma consciente, conseguindo entrar em qualquer ambiente e se conectar com qualquer nível hierárquico, mantendo-se fiel ao seu núcleo interno. Você se torna alguém que lidera e entende a alma das pessoas, usando essa sensibilidade para guiar, e não mais apenas para sofrer a condução pelo desejo alheio.</p>
     `,
     
     "pessoal_destino": `
         <p><b>Sincronia de Intuição Profunda e Chamado da Alma:</b></p>
-        <p>O Universo possui um canal de comunicação direta com você, que funciona de dentro para fora. Nesta rara e profunda configuração, sua Potência Pessoal está em ressonância direta com o seu Plano de Destino, o que gera uma conexão intuitiva avassaladora. Você não precisa buscar bússolas ou conselhos no mundo externo com tanta frequência; seu interior já possui o 'mapa' do tesouro antes mesmo da sua mente racional começar a analisar as opções.</p>
-        <p>Seus desejos mais genuínos e seus impulsos criativos já estão 'carregados' com o seu propósito de vida. Você sente o chamado do destino não como um evento externo, mas como um entusiasmo inexplicável, uma certeza absoluta ou até um incômodo no peito que empurra você para certas direções. Quando você segue sua intuição, você está, literalmente, cumprindo sua missão de vida. O maior erro que você pode cometer é tentar agir com lógica excessiva ou seguir conselhos 'pragmáticos' que silenciam o que seu coração está gritando.</p>
-        <p>Para sua matriz, o sucesso não nasce do planejamento frio de escritório, mas da obediência corajosa à voz da alma. Você notará que o Universo trabalha a seu favor durante o sono, através de sonhos lúcidos, lampejos de criatividade e 'insights' que surgem no meio do silêncio. É uma vida guiada pelo espírito, onde o autoconhecimento não é um luxo, mas a ferramenta de sobrevivência mais poderosa que você possui. Se você estiver em paz consigo, o destino flui; se você se trair para agradar o mundo, o destino trava.</p>
-        <p>Você é sua própria guia ou seu próprio guia espiritual. Sua jornada é sobre aprender a confiar no invisível e ter a audácia de agir com base em certezas que mais ninguém consegue ver. Você veio para provar que a alma tem um GPS infalível e que, ao estarmos em alinhamento com nosso propósito, o impossível torna-se apenas uma questão de tempo. Escute o silêncio, pois é nele que as instruções para o seu próximo grande salto quântico estão sendo transmitidas agora mesmo.</p>
+        <p>O Universo possui um canal de comunicação direta com você, que funciona de dentro para fora. Nesta rara e profunda configuração, sua Potência Pessoal está em ressonância direta com o seu Plano de Destino, o que gera uma conexão intuitiva avassaladora. Você não precisa buscar bússolas ou conselhos no mundo externo com tanta frequência; seu interior já possui o "mapa" antes mesmo da sua mente racional começar a analisar as possibilidades.</p>
+        <p>Seus desejos mais genuínos e seus impulsos criativos já estão carregados com o seu propósito de vida. Você sente o chamado do destino não como um evento externo, mas como um entusiasmo inexplicável, uma certeza absoluta ou até um incômodo no peito que empurra você para certas direções. Quando segue sua intuição, você está, literalmente, cumprindo sua missão de vida. O maior erro que pode cometer é tentar agir com lógica excessiva ou seguir conselhos pragmáticos que silenciam o que sua alma está tentando comunicar.</p>
+        <p>Para sua matriz, o sucesso não nasce do planejamento frio, mas da obediência corajosa à voz da alma. <strong>MASCULINO-FEMININO-NEUTRO</strong>, você notará que o Universo trabalha a seu favor durante o sono, através de sonhos lúcidos, lampejos de criatividade e insights que surgem no meio do silêncio. É uma vida guiada pelo espírito, onde o autoconhecimento não é um luxo, mas a ferramenta de sobrevivência mais poderosa que você possui. Se estiver em paz consigo mesma, o destino flui; se trair sua essência para agradar o mundo, o destino trava.</p>
+        <p>Você é sua própria guia espiritual. Sua jornada é sobre aprender a confiar no invisível e ter a audácia de agir com base em certezas que mais ninguém consegue enxergar. Você veio para provar que a alma possui um GPS infalível e que, ao estar alinhada com o propósito, o impossível torna-se apenas uma questão de tempo. Escute o silêncio, pois é nele que as instruções para o seu próximo grande salto quântico estão sendo transmitidas agora mesmo.</p>
     `,
     
     "social_destino": `
         <p><b>Sincronia de Missão Coletiva e Atuação Pública:</b></p>
-        <p>O palco principal da sua evolução espiritual e material é a sociedade. Esta conexão poderosa indica que o propósito da sua vida não é algo para ser realizado de forma isolada ou escondida; ele depende fundamentalmente das suas interações, das suas parcerias e da sua imagem perante o coletivo. O Destino, para você, manifesta-se através do seu papel social, dos cargos que ocupa e das conexões que você cultiva ao longo do caminho.</p>
-        <p>Você nasceu para ser um ponto de convergência, alguém que move peças importantes no tabuleiro das relações humanas para que algo maior se materialize. Grandes oportunidades de destino, mudanças de status, encontros de alma e negócios transformadores virão sempre através de uma ponte humana: uma indicação, um convite inesperado ou uma rede de apoio que reconhece seu valor. Você atrai pessoas que funcionam como 'mensageiras do destino', trazendo as chaves que abrem as portas que você tanto busca.</p>
-        <p>Nesta configuração, sua ética e seu comportamento no meio social são os combustíveis que ditam a velocidade com que seu propósito se cumpre. Se você se isolar ou tentar trilhar um caminho de isolamento, sentirá que seu destino fica estagnado e as coisas param de acontecer. No entanto, se houver expansão, comunicação e serviço ao coletivo com integridade, as portas do universo se abrem de forma miraculosa. O mundo é o seu jardim, e cada conexão é uma semente de destino que pode florescer a qualquer momento.</p>
-        <p>Tenha plena consciência do impacto que você causa nas pessoas, pois sua liderança e sua capacidade de colaboração são as ferramentas que o Universo utiliza para entregar os resultados que sua alma almeja. Você atua como representante do seu próprio destino no mundo. Lembre-se que sua vida é um grande evento social orquestrado pelo divino, onde cada relação, por mais simples que pareça, pode conter o código secreto para o próximo capítulo fundamental da sua história de sucesso.</p>
-    `,
-
-    "autonomia_total": `🌎❌👤❌☄️❌👑
-        <p><b>Assinatura de Independência, Versatilidade e Liberdade Quântica:</b></p>
-        <p>A matriz revela que você opera sob uma lei de autonomia absoluta, o que é um sinal de grande maturidade energética. O fato de todas as suas potências serem números diferentes indica que você não está sob dependência de um único padrão de influência ou comportamento. Você é uma pessoa multifacetada, dotada de uma versatilidade rara, capaz de atuar em diferentes 'frequências' e 'personagens' dependendo da área da vida, adaptando-se com maestria às exigências de cada situação.</p>
-        <p>Essa configuração garante que você tenha compartimentos bem definidos em sua existência: no seu interior (Pessoal), você mantém seus valores sagrados; na convivência social, você sabe usar a diplomacia necessária; nos fatos cotidianos (Vida), você lida com o pragmatismo da realidade; e no seu propósito maior (Destino), você flui conforme o chamado. Essa separação é uma proteção incrível, pois impede que uma crise em um setor contamine os outros. Se o lado social está turbulento, sua paz pessoal permanece intacta, permitindo que você tome decisões lúcidas.</p>
-        <p>Sua liberdade é seu maior patrimônio quântico. Você não é alguém fácil de rotular e possui a capacidade de transitar entre mundos opostos com naturalidade. Enquanto outros ficam presos a um único fluxo energético, você tem o poder de escolher qual versão de si deseja manifestar em cada momento. Sua jornada exige que você aprenda a orquestrar essa complexidade interna com inteligência, sabendo que cada pilar da sua vida pede uma abordagem única e independente.</p>
-        <p>Você é a mente que governa sua própria diversidade. Livre de influências cruzadas que poderiam limitar seu crescimento, você tem o caminho aberto para experimentar a vida em todas as suas cores, sabores e nuances. Sua força vem da sua capacidade de não ser 'uma coisa só'. Você atua na mediação entre suas várias versões, garantindo que sua jornada seja rica, variada e, acima de tudo, autêntica. Use essa autonomia para explorar novos territórios sem medo, pois você possui a estrutura necessária para se reinventar sempre que o universo pedir uma nova postura.</p>
-    `,
-    
-    "convergencia_total": `🌎➛👤➛☄️➛👑
-        <p><b>Assinatura de Unidade, Laser Quântico e Alinhamento Absoluto:</b></p>
-        <p>Você vive um fenômeno numerológico de convergência absoluta, algo extremamente raro e impactante. Quando todos os pilares da sua matriz (Vida, Pessoal, Social e Destino) vibram no mesmo número, você se torna o que chamamos de 'Laser Quântico'. Não existem conflitos internos entre o que você quer e o que o mundo pede; não há resistência do meio e não há desvios de rota. Existe apenas uma entrega total e avassaladora à sua frequência principal.</p>
-        <p>Nesse estado, a manifestação da sua realidade é direta e sem filtros: o que você pensa e sente (Pessoal), é exatamente o que o mundo oferece (Social), é o que acontece de fato na sua rotina (Vida) e é exatamente o que o plano superior planejou (Destino). É um estado de força concentrada onde todas as engrenagens da sua existência giram sincronizadas em uma única direção. Quando você toma uma decisão, o movimento da sua vida é imparável, pois não há nenhuma parte de você ou do universo remando contra.</p>
-        <p>O grande desafio dessa configuração de 'Unidade' é a responsabilidade sobre o foco. Como toda a sua energia está concentrada em um único ponto, você deve garantir que esse ponto seja elevado e construtivo, pois a velocidade com que suas intenções se tornam realidade é assombrosa. Se houver queda na negatividade, sua vida inteira sofre o impacto com a mesma velocidade que subiria se houvesse positividade. Você é uma potência de realização pura, onde a dualidade deu lugar ao alinhamento total.</p>
-        <p>Você veio ao mundo para ser um exemplo de integridade. Em você, pensamento, sentimento, ação social e destino espiritual são uma única e indissociável força da natureza. Use esse poder para criar um legado sólido e coerente. Sua vida não admite 'meio-termo' ou dubiedade; você é a personificação da verdade da sua potência. Quando você brilha, você ilumina todos os setores da sua jornada simultaneamente, criando uma marca indelével por onde passar.</p>
-       <p> Nesse cenário, o método não aponta erro, mas complexidade vibracional</p>
-    `,
-    
-    "equilibrio_misto": `🌎⬌👤   ☄️⬌👑  👤⬌👑    🌎⬌☄️   👤⬌☄️    🌎⬌👑  
-        <p><b>Assinatura de Integração Dinâmica e Equilíbrio de Forças:</b></p>
-        <p>Sua matriz revela uma configuração de equilíbrio estratégico e inteligência existencial. Você possui áreas de sincronia perfeita, onde a vida flui com uma facilidade quase mágica, intercaladas com áreas de autonomia total, onde você tem o poder do livre-arbítrio absoluto e a liberdade de escolher seus próprios caminhos. Isso cria uma existência protegida por diretrizes superiores, mas flexível o suficiente para que você exerça sua criatividade humana.</p>
-        <p>Você desfruta do benefício de ter conexões diretas com o destino ou com o social em certos momentos cruciais, o que lhe confere um suporte invisível e uma sensação de segurança — você sabe que não está só. Ao mesmo tempo, o universo deixa outros canais abertos para que você aprenda através da experimentação, da tentativa e do erro, garantindo que sua evolução não seja apenas um roteiro pronto, mas uma conquista pessoal baseada na sua coragem e esforço.</p>
-        <p>Esta é a assinatura do equilíbrio quântico: você possui a sabedoria para saber quando deve se render ao fluxo maior das coisas e quando deve assumir o controle total e agir por conta própria. Você não é alguém totalmente previsível para o sistema, o que traz proteção contra influências externas negativas, nem alguém totalmente caótico, o que garante que seus projetos tenham um fundamento sólido. Você transita entre o destino e o livre-arbítrio com uma maestria natural.</p>
-        <p>Sua jornada é rica e equilibrada, permitindo que você experimente tanto o conforto acolhedor da sincronia divina quanto a aventura estimulante da descoberta individual. Você atua como mediação da sua própria história, equilibrando com perfeição as forças externas que cercam você e os desejos profundos que impulsionam sua vida. Continue honrando esses dois lados: confie no plano maior quando ele se manifestar, mas nunca deixe de lutar e criar sua própria sorte nas áreas onde o universo deu a você as chaves da independência.</p>
-    `,
-  
-    "misto_pessoal_social": `<h1>👤⬌🌎</h1>
-        <p><b>Atenção à Influência Social:</b></p>
-        <p>Sua assinatura revela que sua identidade pessoal está fortemente ligada ao seu meio social. Isso indica que <strong>você</strong> possui um magnetismo capaz de influenciar grupos, mas também possui uma "antena" muito sensível às opiniões alheias. Muitas vezes, <strong>você</strong> pode acabar agindo para atender às expectativas dos outros ou absorvendo as metas do grupo como se fossem suas. O desafio aqui é manter sua essência intacta: aprenda a filtrar o que é seu e o que é apenas reflexo das pessoas ao seu redor.</p>
-    `,
-
-    "misto_pessoal_destino": `<h1>👤⬌☄️</h1>
-        <p><b>Condução Pelo Destino:</b></p>
-        <p>Nesta configuração, sua vontade própria está em diálogo direto com o seu propósito maior. Isso significa que nem sempre <strong>você</strong> está no controle total das suas decisões racionais; existe uma força de destino que "empurra" sua alma para certas direções. É uma conexão de proteção, onde o universo não permite que <strong>você</strong> se desvie do seu contrato espiritual. Se sentir um impulso inexplicável para mudar algo, confie: é o seu destino agindo através da sua personalidade.</p>
-    `,
-
-    "misto_pessoal_vida": `<h1>👤⬌👑</h1>
-        <p><b>Autonomia de Manifestação:</b></p>
-        <p>Você possui uma conexão direta entre sua força interna e os fatos da vida cotidiana. Isso garante que <strong>você</strong> tenha um poder de realização muito acima da média. As coisas tendem a acontecer na sua vida conforme sua postura interna. Se <strong>você</strong> estiver com a mente clara e focada, a vida responde rápido. É a assinatura de quem "faz a própria sorte" através da atitude e da energia pessoal, sem depender tanto de fatores externos ou sorte.</p>
-    `,
-
-    "misto_social_destino": `<h1>🌎⬌☄️</h1>
-        <p><b>Missão no Coletivo:</b></p>
-        <p>Sua presença no mundo não é por acaso. Esta combinação mostra que seu destino se cumpre através das pessoas. <strong>Você</strong> é alguém que atrai encontros de destino: pessoas que aparecem do nada com propostas ou chaves que mudam sua vida. Sua vida social é o laboratório onde sua missão espiritual acontece. Mantenha seus contatos ativos, pois a resposta que <strong>você</strong> busca sempre virá através de outra pessoa.</p>
+        <p>O palco principal da sua evolução espiritual e material é a sociedade. Esta conexão poderosa indica que o propósito da sua vida não é algo para ser realizado de forma isolada ou escondida; ele depende fundamentalmente das suas interações, das suas parcerias e da sua imagem perante o coletivo. O Destino, para você, manifesta-se através do seu papel social, dos cargos que ocupa e das conexões que cultiva ao longo do caminho.</p>
+        <p>Você nasceu para ser um ponto de convergência, alguém que move peças importantes no tabuleiro das relações humanas para que algo maior se materialize. Grandes oportunidades de destino, mudanças de status, encontros de alma e negócios transformadores virão sempre através de uma ponte humana: uma indicação, um convite inesperado ou uma rede de apoio que reconhece seu valor. Você atrai pessoas que funcionam como verdadeiras mensageiras do destino.</p>
+        <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, nesta configuração, sua ética e seu comportamento no meio social são os combustíveis que determinam a velocidade com que seu propósito se cumpre. Se você se isolar ou tentar trilhar um caminho solitário, sentirá que seu destino fica estagnado e as coisas param de acontecer. Porém, se houver expansão, comunicação e serviço ao coletivo com integridade, as portas do universo se abrirão de forma surpreendente.</p>
+        <p>Tenha plena consciência do impacto que causa nas pessoas, pois sua liderança e sua capacidade de colaboração são as ferramentas que o Universo utiliza para entregar os resultados que sua alma almeja. Sua vida é um grande evento social orquestrado pelo divino, onde cada relação, por mais simples que pareça, pode conter o código secreto para o próximo capítulo fundamental da sua história.</p>
     `
-  
 };
 
 
