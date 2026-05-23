@@ -42,101 +42,53 @@ principal:{
 "49": "Esta vibração se origina da potência 49, indicando experiências intensas de transformação emocional e espiritual. Sugere uma mulher resiliente, que transforma crises em crescimento e amadurecimento profundo.",
 "50": "Esta vibração se origina da potência 50, indicando momentos de reflexão e necessidade de reencontro consigo mesma. Revela uma mulher que encontra equilíbrio ao harmonizar liberdade, emoções e estabilidade interior.",
 "51": "Esta vibração se origina da potência 51, revelando períodos de mudanças emocionais profundas e reviravoltas inesperadas na maneira como você conduz a própria vida. Indica acontecimentos que despertam novas percepções sobre liberdade, relações e autonomia emocional.",
-
 "52": "Esta vibração se origina da potência 52, indicando aprendizados construídos através da prática, da experiência direta e da observação da realidade. Revela uma fase onde o crescimento acontece através da vivência cotidiana e da adaptação inteligente às circunstâncias.",
-
 "53": "Esta vibração se origina da potência 53, trazendo movimentos inesperados e transformações que exigem flexibilidade emocional e mental. Sugere momentos em que antigas estruturas deixam de fazer sentido, impulsionando você para novas possibilidades de crescimento.",
-
 "54": "Esta vibração se origina da potência 54, revelando necessidade de renovação material, emocional ou estrutural. Indica períodos voltados à reorganização da vida, melhorias pessoais e busca por ambientes mais alinhados ao seu processo evolutivo.",
-
 "55": "Esta vibração se origina da potência 55, trazendo intensidade, desejo de liberdade e necessidade de romper limitações antigas. Revela uma energia inquieta que impulsiona mudanças radicais, experiências marcantes e expansão da consciência através do movimento.",
-
 "56": "Esta vibração se origina da potência 56, indicando experiências ligadas à responsabilidade afetiva e ao equilíbrio entre vida emocional e ação prática. Sugere aprendizados relacionados à proteção, cuidado e maturidade nas relações humanas.",
-
 "57": "Esta vibração se origina da potência 57, revelando busca intensa por conhecimento, estratégia e compreensão profunda da vida. Indica períodos em que a mente se torna mais investigativa, intuitiva e voltada ao aperfeiçoamento intelectual.",
-
 "58": "Esta vibração se origina da potência 58, trazendo experiências relacionadas ao poder material, à autovalorização e aos desafios envolvendo autoridade ou reconhecimento. Revela a necessidade de aprender a lidar com ambição sem perder o equilíbrio emocional.",
-
 "59": "Esta vibração se origina da potência 59, indicando forte sensibilidade espiritual e conexão intuitiva com pessoas e ambientes. Sugere momentos em que a percepção emocional se intensifica, favorecendo processos de cura interior e expansão da consciência.",
-
 "60": "Esta vibração se origina da potência 60, revelando períodos voltados à harmonia emocional, à família e à reconstrução de vínculos afetivos. Indica necessidade de fortalecer relações importantes e criar ambientes mais acolhedores e equilibrados.",
-
 "61": "Esta vibração se origina da potência 61, trazendo experiências relacionadas ao refinamento emocional, intelectual e espiritual. Revela uma busca crescente por ambientes, pessoas e situações que estejam alinhados com valores mais elevados.",
-
 "62": "Esta vibração se origina da potência 62, indicando aprendizados importantes através das relações, parcerias e trocas afetivas. Sugere que o crescimento acontece por meio da convivência, da empatia e da construção de vínculos mais conscientes.",
-
 "63": "Esta vibração se origina da potência 63, revelando maturidade emocional e desenvolvimento de maior compreensão sobre os sentimentos humanos. Indica uma fase de fortalecimento afetivo, reconciliações e construção de relações mais equilibradas.",
-
 "64": "Esta vibração se origina da potência 64, trazendo transformações inesperadas em estruturas emocionais, familiares ou relacionamentos importantes. Revela encerramentos necessários para que novos ciclos possam surgir com mais autenticidade.",
-
 "65": "Esta vibração se origina da potência 65, indicando forte magnetismo pessoal e crescimento da influência emocional sobre o ambiente ao redor. Sugere uma fase marcada pelo fortalecimento dos vínculos afetivos e da própria presença social.",
-
 "66": "Esta vibração se origina da potência 66, revelando grande sensibilidade emocional e profundo desejo de proteger, acolher e harmonizar pessoas próximas. Indica aprendizados ligados ao amor, à responsabilidade afetiva e ao cuidado genuíno.",
-
 "67": "Esta vibração se origina da potência 67, trazendo experiências de introspecção, estudo e aprofundamento espiritual. Sugere períodos de recolhimento produtivo, onde o silêncio favorece descobertas importantes sobre si mesma e sobre a vida.",
-
 "68": "Esta vibração se origina da potência 68, indicando aprendizados relacionados à administração material, equilíbrio financeiro e responsabilidade diante de recursos compartilhados. Revela necessidade de agir com ética e consciência nas decisões práticas.",
-
 "69": "Esta vibração se origina da potência 69, revelando forte empatia, compaixão e percepção das necessidades emocionais das pessoas ao redor. Indica uma fase em que o amor, o acolhimento e a sensibilidade se tornam instrumentos de transformação.",
-
 "70": "Esta vibração se origina da potência 70, trazendo momentos de recolhimento, reflexão e busca por respostas interiores. Revela períodos em que o universo desacelera acontecimentos externos para favorecer crescimento espiritual e clareza mental.",
-
 "71": "Esta vibração se origina da potência 71, indicando desenvolvimento de percepção analítica, racionalidade e capacidade de investigar profundamente situações e comportamentos. Sugere uma fase marcada pela busca da verdade acima das aparências.",
-
 "72": "Esta vibração se origina da potência 72, revelando forte sensibilidade intuitiva e percepção aguçada das emoções humanas. Indica momentos em que os pressentimentos se tornam mais intensos, favorecendo compreensão emocional profunda.",
-
 "73": "Esta vibração se origina da potência 73, trazendo amadurecimento intelectual e capacidade de transmitir conhecimento através da própria experiência. Revela uma energia ligada à sabedoria prática e à orientação consciente de outras pessoas.",
-
 "74": "Esta vibração se origina da potência 74, indicando necessidade de disciplina, foco e construção paciente de objetivos importantes. Sugere períodos em que a persistência e a organização se tornam fundamentais para alcançar estabilidade.",
-
 "75": "Esta vibração se origina da potência 75, revelando busca intensa por aprendizado, conhecimento técnico e aprofundamento intelectual. Indica experiências que favorecem estudo, aperfeiçoamento e desenvolvimento da própria visão de mundo.",
-
 "76": "Esta vibração se origina da potência 76, trazendo experiências ligadas à introspecção, discrição e fortalecimento interior. Sugere períodos em que a solitude se torna necessária para reorganizar pensamentos, emoções e prioridades.",
-
 "77": "Esta vibração se origina da potência 77, revelando forte conexão espiritual, expansão intuitiva e interesse pelos mistérios mais profundos da existência. Indica momentos de grande percepção energética e crescimento da consciência.",
-
 "78": "Esta vibração se origina da potência 78, indicando desafios emocionais que exigem equilíbrio entre razão e sentimento. Revela situações que ajudam no amadurecimento psicológico e no fortalecimento da inteligência emocional.",
-
 "79": "Esta vibração se origina da potência 79, trazendo busca intensa por verdade, autenticidade e compreensão profunda da natureza humana. Sugere uma fase marcada pelo desmascaramento de ilusões e fortalecimento da consciência pessoal.",
-
 "80": "Esta vibração se origina da potência 80, revelando experiências relacionadas à responsabilidade material, liderança e necessidade de administrar recursos com maturidade. Indica uma energia voltada à construção de estabilidade duradoura.",
-
 "81": "Esta vibração se origina da potência 81, indicando fortalecimento da liderança pessoal e desenvolvimento de autoridade baseada em experiência e coerência interior. Revela capacidade crescente de influenciar pessoas através do exemplo.",
-
 "82": "Esta vibração se origina da potência 82, trazendo aprendizados relacionados a disputas de poder, equilíbrio emocional e responsabilidade diante de decisões importantes. Sugere necessidade de agir com consciência e diplomacia.",
-
 "83": "Esta vibração se origina da potência 83, revelando expansão da comunicação, da criatividade intelectual e da capacidade de transmitir ideias com clareza. Indica períodos favoráveis para expressão pessoal e reconhecimento social.",
-
 "84": "Esta vibração se origina da potência 84, indicando responsabilidades elevadas e necessidade de estruturar projetos com disciplina e visão prática. Revela uma energia ligada à construção sólida e à consolidação de objetivos materiais.",
-
 "85": "Esta vibração se origina da potência 85, trazendo experiências relacionadas ao uso consciente da força pessoal, do poder de decisão e da liderança. Sugere aprendizados importantes sobre equilíbrio entre controle e sabedoria emocional.",
-
 "86": "Esta vibração se origina da potência 86, revelando responsabilidades afetivas intensas e necessidade de equilibrar vida emocional com deveres materiais. Indica amadurecimento através do compromisso e da dedicação às pessoas importantes.",
-
 "87": "Esta vibração se origina da potência 87, indicando crescimento espiritual aliado à compreensão das leis materiais da vida. Revela experiências que mostram a conexão entre consciência, merecimento e prosperidade.",
-
 "88": "Esta vibração se origina da potência 88, trazendo forte potencial de realização material, expansão financeira e crescimento estrutural. Sugere uma energia de grande poder executivo, capaz de transformar ideias em conquistas concretas.",
-
 "89": "Esta vibração se origina da potência 89, revelando transformações profundas ligadas ao desapego, ao encerramento de ciclos e à renovação da consciência. Indica aprendizados importantes sobre perdas, libertação e evolução interior.",
-
 "90": "Esta vibração se origina da potência 90, indicando conclusão de grandes ciclos e amadurecimento espiritual profundo. Revela períodos de encerramento, compreensão emocional e preparação para uma nova etapa da vida.",
-
 "91": "Esta vibração se origina da potência 91, trazendo fortalecimento da independência, da autonomia mental e da confiança na própria trajetória. Sugere uma energia voltada à realização através do mérito pessoal e da autenticidade.",
-
 "92": "Esta vibração se origina da potência 92, revelando forte sensibilidade emocional e percepção intuitiva das dores humanas. Indica experiências ligadas ao acolhimento, à empatia e ao desenvolvimento da compaixão.",
-
 "93": "Esta vibração se origina da potência 93, trazendo expansão da criatividade, da comunicação e da capacidade de inspirar pessoas através das palavras e ideias. Revela uma energia ligada à expressão consciente da sabedoria.",
-
 "94": "Esta vibração se origina da potência 94, indicando consolidação de estruturas importantes após longos períodos de esforço e aprendizado. Sugere estabilidade construída através da persistência e da maturidade prática.",
-
 "95": "Esta vibração se origina da potência 95, revelando transformações intensas que libertam padrões antigos e expandem sua visão de mundo. Indica mudanças necessárias para o crescimento da consciência e da autonomia pessoal.",
-
 "96": "Esta vibração se origina da potência 96, trazendo harmonia afetiva, fortalecimento familiar e amadurecimento emocional profundo. Sugere períodos de maior conexão emocional, acolhimento e segurança nos relacionamentos.",
-
 "97": "Esta vibração se origina da potência 97, indicando grande capacidade de análise, percepção espiritual e compreensão profunda das experiências humanas. Revela uma energia voltada à sabedoria e ao desenvolvimento interior.",
-
 "98": "Esta vibração se origina da potência 98, revelando aprendizados relacionados à justiça, responsabilidade e consequências das próprias escolhas. Indica necessidade de agir com integridade e consciência diante da vida.",
-
 "99": "Esta vibração se origina da potência 99, trazendo expansão da consciência espiritual, compaixão universal e compreensão profunda da existência. Revela uma energia ligada ao amor humanitário, à sabedoria elevada e ao encerramento de grandes ciclos."
 
 
@@ -174,8 +126,6 @@ pessoal:{
 "37": "Esta vibração se origina da potência 37, revelando inteligência prática e facilidade para solucionar problemas. Indica uma mulher analítica, estratégica e segura, capaz de encontrar caminhos eficientes mesmo em situações complexas.",
 "38": "Esta vibração se origina da potência 38, revelando forte sensibilidade artística e percepção emocional refinada. Sugere uma mulher criativa, que interpreta a vida através das emoções, da beleza e da expressão intuitiva.",
 "39": "Esta vibração se origina da potência 39, indicando entusiasmo intelectual e sociabilidade natural. Revela uma mulher otimista, comunicativa e inspiradora, cuja mente floresce através da convivência e da troca de experiências.",
-
- pessoal:{
 "40": "Esta vibração se origina da potência 40, revelando a necessidade de períodos de silêncio e reflexão mental profunda. Indica que sua força interior nasce da estabilidade e do tempo que você dedica para organizar suas convicções mais íntimas.",
 "41": "Esta vibração se origina da potência 41, revelando liderança intelectual voltada para a realização prática. Sugere uma mente executora que não se perde em abstrações, focando sempre na viabilidade e na aplicação direta das próprias ideias.",
 "42": "Esta vibração se origina da potência 42, indicando que responsabilidades e vínculos afetivos moldam profundamente sua forma de pensar. Revela uma consciência madura que considera o impacto das decisões na vida das pessoas que você ama e protege.",
