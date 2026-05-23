@@ -285,8 +285,6 @@ social:{
 "48": "Esta vibração se origina da potência 48, indicando percepção de desorganização emocional ou conflitos sociais ligados à falta de disciplina. Revela uma mulher que sente necessidade de ordem e equilíbrio nos ambientes em que convive.",
 "49": "Esta vibração se origina da potência 49, revelando percepção de transformações intensas nas relações humanas e nos grupos sociais. Sugere uma mulher resiliente, capaz de compreender que grandes mudanças nascem de momentos de crise.",
 "50": "Esta vibração se origina da potência 50, indicando percepção de momentos de pausa e reflexão dentro das relações sociais. Revela uma mulher que entende a importância do silêncio e do amadurecimento emocional coletivo.",
-
-
 "51": "Esta vibração se origina da potência 51, revelando percepção de mudanças sociais repentinas e transformações emocionais nos relacionamentos. Indica uma mulher adaptável, que compreende rapidamente os novos movimentos e dinâmicas dos grupos sociais.",
 "52": "Esta vibração se origina da potência 52, indicando aprendizado através das experiências sociais práticas e da convivência cotidiana. Sugere uma mulher observadora, que extrai sabedoria das atitudes simples e reais das pessoas ao seu redor.",
 "53": "Esta vibração se origina da potência 53, revelando percepção de mudanças inesperadas nas amizades e nos círculos sociais. Indica uma mulher flexível, capaz de compreender quando um ambiente já não contribui mais para sua evolução emocional.",
