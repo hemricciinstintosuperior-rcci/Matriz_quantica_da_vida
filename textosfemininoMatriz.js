@@ -174,7 +174,8 @@ pessoal:{
 "37": "Esta vibração se origina da potência 37, revelando inteligência prática e facilidade para solucionar problemas. Indica uma mulher analítica, estratégica e segura, capaz de encontrar caminhos eficientes mesmo em situações complexas.",
 "38": "Esta vibração se origina da potência 38, revelando forte sensibilidade artística e percepção emocional refinada. Sugere uma mulher criativa, que interpreta a vida através das emoções, da beleza e da expressão intuitiva.",
 "39": "Esta vibração se origina da potência 39, indicando entusiasmo intelectual e sociabilidade natural. Revela uma mulher otimista, comunicativa e inspiradora, cuja mente floresce através da convivência e da troca de experiências.",
-pessoal:{
+
+ pessoal:{
 "40": "Esta vibração se origina da potência 40, revelando a necessidade de períodos de silêncio e reflexão mental profunda. Indica que sua força interior nasce da estabilidade e do tempo que você dedica para organizar suas convicções mais íntimas.",
 "41": "Esta vibração se origina da potência 41, revelando liderança intelectual voltada para a realização prática. Sugere uma mente executora que não se perde em abstrações, focando sempre na viabilidade e na aplicação direta das próprias ideias.",
 "42": "Esta vibração se origina da potência 42, indicando que responsabilidades e vínculos afetivos moldam profundamente sua forma de pensar. Revela uma consciência madura que considera o impacto das decisões na vida das pessoas que você ama e protege.",
@@ -430,7 +431,7 @@ destino:{
 "97": "Esta influência se origina da potência 97, revelando experiências de grande lucidez espiritual e compreensão profunda da existência. O universo amplia sua sabedoria feminina e fortalece sua conexão com as verdades invisíveis.",
 "98": "Esta influência se origina da potência 98, indicando eventos ligados à justiça, responsabilidade e equilíbrio cármico. O destino recompensa atitudes íntegras e conduz você a viver de acordo com leis mais elevadas.",
 "99": "Esta influência se origina da potência 99, revelando experiências de profunda expansão espiritual e consciência universal. O universo conduz você a compreender o amor, a compaixão e a conexão entre todas as formas de vida."
-},
+}
 };
 
 textosVida={
