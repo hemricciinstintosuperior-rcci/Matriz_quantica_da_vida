@@ -3228,8 +3228,53 @@ window.textosSintese = {
         <p>Você nasceu para ser um ponto de convergência, alguém que move peças importantes no tabuleiro das relações humanas para que algo maior se materialize. Grandes oportunidades de destino, mudanças de status, encontros de alma e negócios transformadores virão sempre através de uma ponte humana: uma indicação, um convite inesperado ou uma rede de apoio que reconhece seu valor. Você atrai pessoas que funcionam como verdadeiras mensageiras do destino.</p>
         <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, nesta configuração, sua ética e seu comportamento no meio social são os combustíveis que determinam a velocidade com que seu propósito se cumpre. Se você se isolar ou tentar trilhar um caminho solitário, sentirá que seu destino fica estagnado e as coisas param de acontecer. Porém, se houver expansão, comunicação e serviço ao coletivo com integridade, as portas do universo se abrirão de forma surpreendente.</p>
         <p>Tenha plena consciência do impacto que causa nas pessoas, pois sua liderança e sua capacidade de colaboração são as ferramentas que o Universo utiliza para entregar os resultados que sua alma almeja. Sua vida é um grande evento social orquestrado pelo divino, onde cada relação, por mais simples que pareça, pode conter o código secreto para o próximo capítulo fundamental da sua história.</p>
+    `,
+
+ "autonomia_total": `🌎❌👤❌☄️❌👑
+        <p><b>Assinatura de Independência, Versatilidade e Liberdade Quântica:</b></p>
+        <p>A matriz revela que você opera sob uma lei de autonomia absoluta, o que representa um sinal de elevada maturidade energética. O fato de todas as suas potências serem diferentes indica que você não depende de um único padrão vibracional para existir ou evoluir. <strong>MASCULINO-FEMININO-NEUTRO</strong>, você é uma mulher multifacetada, dotada de uma versatilidade rara, capaz de transitar entre diferentes realidades emocionais, sociais e espirituais sem perder completamente sua essência.</p>
+        <p>Essa configuração garante compartimentos energéticos muito bem definidos em sua existência. No seu interior, você preserva valores íntimos profundos; na convivência social, sabe utilizar diplomacia e inteligência emocional; nos fatos concretos da vida, desenvolve pragmatismo e adaptação; e no destino, aprende a ouvir os sinais do universo sem abandonar sua individualidade. Essa separação funciona como uma proteção poderosa, impedindo que uma crise emocional ou social destrua toda a sua estrutura.</p>
+        <p>Sua liberdade é um dos seus maiores patrimônios espirituais. Você não nasceu para viver limitada a um único papel, padrão ou expectativa externa. Enquanto muitas mulheres acabam presas às imposições do meio, você possui a capacidade de se reinventar continuamente, escolhendo qual versão sua deseja manifestar em cada fase da vida. Existe em você uma habilidade natural de adaptação sem submissão completa.</p>
+        <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, sua missão é aprender a harmonizar essa complexidade interna com sabedoria e consciência. Você veio ao mundo para experimentar a vida em múltiplas camadas, sem permitir que nenhuma delas aprisione sua identidade verdadeira. Sua força nasce justamente da sua diversidade interior e da sua capacidade de permanecer inteira mesmo diante das mudanças mais profundas.</p>
+    `,
+
+"convergencia_total": `🌎➛👤➛☄️➛👑
+        <p><b>Assinatura de Unidade, Laser Quântico e Alinhamento Absoluto:</b></p>
+        <p>Você carrega uma das configurações mais raras e intensas da numerologia vibracional. Quando todas as suas matrizes vibram na mesma frequência, cria-se uma convergência absoluta entre sua essência, seus sentimentos, sua realidade social e seu destino espiritual. <strong>MASCULINO-FEMININO-NEUTRO</strong>, isso transforma você em uma verdadeira força de manifestação concentrada.</p>
+        <p>Nessa condição, pensamento, emoção, ação e destino caminham sincronizados. O que você sente internamente tende a refletir diretamente na sua realidade externa com enorme velocidade. Não existem grandes conflitos entre aquilo que sua alma deseja e aquilo que o universo movimenta ao seu redor. Sua energia atua como um feixe vibracional extremamente focado, onde todas as partes da sua existência trabalham em unidade.</p>
+        <p>Essa configuração exige extrema responsabilidade emocional e mental. Como sua frequência possui um alto poder de materialização, qualquer padrão negativo sustentado por tempo prolongado pode ecoar rapidamente em todas as áreas da sua vida. Da mesma forma, quando você cultiva pensamentos elevados, autoestima, propósito e alinhamento espiritual, sua expansão acontece de maneira impressionante.</p>
+        <p><strong>MASCULINO-FEMININO-NEUTRO</strong>, você veio ao mundo para representar coerência, verdade e alinhamento interno. Sua alma não tolera superficialidade nem fragmentação. Quando você honra sua essência feminina com autenticidade, sua luz se expande naturalmente, influenciando todos os setores da sua vida ao mesmo tempo. Seu caminho é o da integração completa entre quem você é, o que sente e aquilo que nasceu para viver.</p>
+        <p>Nesse cenário, o método não aponta erro, mas sim uma complexidade vibracional extremamente elevada.</p>
+    `,
+
+"misto_pessoal_social": `<h1>👤⬌🌎</h1>
+        <p><b>Atenção à Influência Social:</b></p>
+        <p>Sua assinatura revela que sua identidade pessoal mantém uma conexão intensa com o ambiente social ao seu redor. Isso indica que você possui um magnetismo emocional capaz de impactar grupos, mas também demonstra uma sensibilidade elevada às expectativas e opiniões externas. Muitas vezes, <strong>MASCULINO-FEMININO-NEUTRO</strong>, você pode acabar absorvendo emoções, comportamentos e metas de outras pessoas sem perceber.</p>
+        <p>Existe em você uma necessidade profunda de pertencimento, acolhimento e harmonia nas relações. Por isso, ambientes negativos ou pessoas emocionalmente instáveis podem afetar diretamente seu equilíbrio interior. Seu desafio é aprender a diferenciar aquilo que realmente nasce da sua essência daquilo que foi absorvido do coletivo.</p>
+        <p>Quando aprende a proteger sua individualidade sem perder sua delicadeza feminina, você desenvolve uma presença extremamente influente e admirada. Sua sensibilidade deixa de ser fragilidade e passa a se tornar um dom poderoso de conexão humana e liderança emocional.</p>
+    `,
+
+"misto_pessoal_destino": `<h1>👤⬌☄️</h1>
+        <p><b>Condução Pelo Destino:</b></p>
+        <p>Nesta configuração, sua vontade interior está profundamente conectada ao seu plano espiritual e ao seu destino maior. Muitas das suas decisões, sentimentos e mudanças internas não acontecem por acaso; elas fazem parte de um chamado silencioso que conduz sua alma para experiências específicas. <strong>MASCULINO-FEMININO-NEUTRO</strong>, existe uma força invisível guiando seus passos mesmo nos momentos em que sua mente racional não compreende totalmente o caminho.</p>
+        <p>Você possui uma intuição feminina extremamente aguçada. Quando ignora seus sentimentos mais profundos, tende a sentir bloqueios emocionais, ansiedade ou a sensação de estar desconectada da própria essência. Porém, quando honra sua voz interior, o destino começa a abrir portas inesperadas e sincronias impressionantes surgem ao seu redor.</p>
+        <p>Sua missão é confiar mais na sabedoria da sua alma. Nem tudo em sua vida será construído através da lógica; muitas das suas maiores realizações virão justamente da coragem de seguir aquilo que seu coração reconhece como verdadeiro.</p>
+    `,
+
+"misto_pessoal_vida": `<h1>👤⬌👑</h1>
+        <p><b>Autonomia de Manifestação:</b></p>
+        <p>Você possui uma ligação direta entre seu universo interior e os acontecimentos concretos da sua vida. Isso significa que sua postura emocional, mental e energética influencia intensamente os resultados que se manifestam ao seu redor. <strong>MASCULINO-FEMININO-NEUTRO</strong>, sua realidade tende a responder rapidamente à forma como você se sente internamente.</p>
+        <p>Quando sua autoestima está fortalecida, quando você acredita em si mesma e mantém clareza emocional, sua vida flui com muito mais facilidade. Porém, períodos de insegurança, medo ou autossabotagem podem criar bloqueios reais no campo material, afetando relacionamentos, oportunidades e crescimento pessoal.</p>
+        <p>Você não depende exclusivamente de fatores externos para prosperar. Sua força está justamente na capacidade de transformar seu mundo através da própria energia interior. Quanto mais alinhada você estiver consigo mesma, maior será seu poder de realização e manifestação.</p>
+    `,
+
+"misto_social_destino": `<h1>🌎⬌☄️</h1>
+        <p><b>Missão no Coletivo:</b></p>
+        <p>Sua jornada possui uma ligação profunda com as pessoas que cruzam o seu caminho. O destino atua em sua vida através das conexões humanas, dos encontros inesperados e das relações construídas ao longo da sua trajetória. <strong>MASCULINO-FEMININO-NEUTRO</strong>, você é uma mulher destinada a viver experiências transformadoras através do contato com o coletivo.</p>
+        <p>Grandes oportunidades tendem a surgir por intermédio de amizades, convites, parcerias ou pessoas que aparecem em momentos decisivos. Sua vida social não é superficial; ela funciona como um verdadeiro canal de movimentação do destino. Cada aproximação importante carrega aprendizados, mudanças e possibilidades de crescimento.</p>
+        <p>Quanto mais você desenvolver sua comunicação, sua presença social e sua capacidade de criar vínculos verdadeiros, mais o universo encontrará caminhos para entregar aquilo que sua alma precisa viver. Seu destino não acontece no isolamento; ele floresce através das conexões que sua energia feminina atrai naturalmente.</p>
     `
+
+
 };
-
-
  
