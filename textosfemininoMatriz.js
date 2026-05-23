@@ -955,564 +955,592 @@ textosPessoal={
 
 
 
-1: `<h3>Autonomia Mental e Consciência Individual</h3> 
-<p>Para você, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
-<p>Essa regência revela uma mente ativa, direta e orientada para a ação. No campo interior você tende a confiar na própria opinião e prefere construir suas conclusões através da experiência pessoal. Existe forte necessidade de autonomia no pensamento e resistência natural a imposições externas.</p>
-<p>No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias. No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade de ouvir opiniões diferentes.</p>
-<p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade de ouvir e aprender.</p>`,
+1: `<h3>Autonomia Feminina e Consciência Individual</h3> 
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 1 Pessoal representa a vibração da independência mental, da iniciativa intelectual e da força interior que impulsiona suas decisões e percepções da vida.</p>
+<p>Essa regência revela uma mulher de mente ativa, direta e naturalmente orientada para a ação. No campo interior, você tende a confiar na própria opinião e prefere construir suas conclusões através das experiências vividas. Existe forte necessidade de autonomia no pensamento e certa resistência a imposições externas.</p>
+<p>No aspecto positivo manifesta liderança mental, iniciativa intelectual, criatividade e coragem para defender suas ideias. No aspecto negativo pode gerar orgulho intelectual, impaciência, autoritarismo mental ou dificuldade para ouvir opiniões diferentes.</p>
+<p>O aprendizado do Regente 1 Pessoal consiste em desenvolver liderança interior sem perder a capacidade feminina de escutar, compreender e evoluir.</p>`,
 
-2: `<h3>Sensibilidade Intelectual e Percepção Psicológica</h3>  
-<p>Para você, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
-<p>Essa regência revela mente observadora e sensível aos detalhes das relações humanas. Você tende a perceber facilmente o ambiente emocional das situações e das pessoas, desenvolvendo forte capacidade de empatia e compreensão psicológica.</p>
+2: `<h3>Sensibilidade Feminina e Percepção Psicológica</h3>  
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 2 Pessoal representa a vibração da sensibilidade emocional e da percepção intuitiva que influencia sua maneira de pensar e interpretar o mundo.</p>
+<p>Essa regência revela mente observadora, delicada e profundamente sensível aos detalhes das relações humanas. Você tende a perceber facilmente o ambiente emocional das situações e das pessoas, desenvolvendo grande capacidade de empatia e compreensão psicológica.</p>
 <p>No aspecto positivo manifesta empatia, diplomacia, percepção emocional e inteligência intuitiva. No aspecto negativo pode gerar insegurança mental, indecisão ou tendência a absorver excessivamente os problemas dos outros.</p>
-<p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional.</p>`,
+<p>O aprendizado do Regente 2 Pessoal consiste em confiar na própria intuição sem perder o equilíbrio emocional e a estabilidade interior.</p>`,
 
-3: `<h3>Criatividade Mental e Expressão Intelectual</h3>  
-<p>Para você, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos e ideias.</p>
-<p>Essa regência revela mente dinâmica, comunicativa e inclinada à expressão verbal ou artística. Existe facilidade para aprender através da observação, da conversa e do intercâmbio de ideias.</p>
-<p>No aspecto positivo manifesta criatividade, comunicação clara, imaginação e entusiasmo intelectual. No aspecto negativo pode gerar dispersão, superficialidade ou dificuldade de manter foco em objetivos.</p>
-<p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado.</p>`,
+3: `<h3>Criatividade Feminina e Expressão Intelectual</h3>  
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 3 Pessoal representa a vibração da criatividade, da imaginação e da necessidade de expressar pensamentos, emoções e ideias.</p>
+<p>Essa regência revela uma mente dinâmica, comunicativa e naturalmente inclinada à expressão verbal, artística ou emocional. Existe facilidade para aprender através da observação, das conversas e da troca de experiências com outras pessoas.</p>
+<p>No aspecto positivo manifesta criatividade, comunicação clara, imaginação fértil e entusiasmo intelectual. No aspecto negativo pode gerar dispersão, superficialidade emocional ou dificuldade de manter foco em objetivos importantes.</p>
+<p>O aprendizado do Regente 3 Pessoal consiste em transformar criatividade em conhecimento estruturado e expressão consciente.</p>`,
 
-4: `<h3>Estrutura Mental e Disciplina Intelectual</h3> 
-<p>Para você, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
-<p>Essa regência revela mente prática e analítica, inclinada a organizar pensamentos de forma objetiva. Existe forte necessidade de segurança intelectual e coerência nas decisões.</p>
-<p>No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico. No aspecto negativo pode gerar rigidez de pensamento ou resistência a novas ideias.</p>
-<p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica com flexibilidade.</p>`,
+4: `<h3>Estrutura Interior e Disciplina Mental</h3> 
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 4 Pessoal representa a vibração da organização mental, da lógica e da necessidade de estruturar ideias com clareza e disciplina.</p>
+<p>Essa regência revela uma mulher de mente prática, analítica e inclinada a organizar pensamentos de maneira objetiva. Existe forte necessidade de segurança intelectual, estabilidade emocional e coerência nas decisões.</p>
+<p>No aspecto positivo manifesta disciplina mental, organização e raciocínio lógico. No aspecto negativo pode gerar rigidez de pensamento, excesso de controle ou resistência diante de novas ideias.</p>
+<p>O aprendizado do Regente 4 Pessoal consiste em equilibrar lógica, sensibilidade e flexibilidade interior.</p>`,
 
-5: `<h3>Curiosidade Intelectual e Movimento Mental</h3>  
-<p>Para você, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias.</p>
-<p>Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista. No campo interior, o movimento constante é o que mantém sua motivação elevada.</p>
-<p>No aspecto positivo manifesta inteligência versátil, curiosidade e capacidade de adaptação. No aspecto negativo pode gerar inquietação mental ou dificuldade de concentração.</p>
-<p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido.</p>`,
+5: `<h3>Liberdade Mental e Curiosidade Feminina</h3>  
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 5 Pessoal representa a vibração da curiosidade, da busca por conhecimento e da necessidade de experimentar novas ideias e possibilidades.</p>
+<p>Essa regência revela mente inquieta, adaptável e aberta a diferentes pontos de vista. No campo interior, o movimento constante é o que mantém sua motivação elevada e desperta sua sensação de liberdade.</p>
+<p>No aspecto positivo manifesta inteligência versátil, curiosidade, espontaneidade e grande capacidade de adaptação. No aspecto negativo pode gerar inquietação mental, impulsividade ou dificuldade de concentração.</p>
+<p>O aprendizado do Regente 5 Pessoal consiste em transformar curiosidade em conhecimento sólido e experiências em maturidade.</p>`,
 
-6: `<h3>Consciência Emocional e Harmonia Interior</h3>
-<p>Para você, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca de harmonia interior.</p>
-<p>Essa regência revela mente sensível às relações afetivas e forte preocupação com o bem-estar das pessoas próximas. Seu equilíbrio mental depende diretamente da paz nos seus relacionamentos.</p>
-<p>No aspecto positivo manifesta amor, compaixão e capacidade de harmonizar ambientes. No aspecto negativo pode gerar dependência emocional ou excesso de preocupação com os outros.</p>
-<p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio.</p>`,
+6: `<h3>Consciência Afetiva e Harmonia Interior</h3>
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 6 Pessoal representa a vibração do amor, da responsabilidade emocional e da busca constante por harmonia interior.</p>
+<p>Essa regência revela uma mente sensível às relações afetivas e uma forte preocupação com o bem-estar das pessoas próximas. Seu equilíbrio emocional depende diretamente da paz existente nos seus relacionamentos e no ambiente ao seu redor.</p>
+<p>No aspecto positivo manifesta amor, compaixão, acolhimento e capacidade de harmonizar ambientes. No aspecto negativo pode gerar dependência emocional, excesso de preocupação ou dificuldade de priorizar as próprias necessidades.</p>
+<p>O aprendizado do Regente 6 Pessoal consiste em amar com equilíbrio, sem esquecer da própria essência feminina.</p>`,
 
-7: `<h3>Investigação Mental e Busca de Sabedoria</h3> 
-<p>Para você, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca por conhecimento profundo.</p>
-<p>Essa regência revela mente analítica e tendência natural a refletir sobre os mistérios da vida. Você busca a verdade por trás das aparências e valoriza o silêncio para processar informações.</p>
-<p>No aspecto positivo manifesta sabedoria, intuição e capacidade de análise profunda. No aspecto negativo pode gerar isolamento mental ou excesso de introspecção.</p>
-<p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria.</p>`,
+7: `<h3>Sabedoria Feminina e Investigação Interior</h3> 
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 7 Pessoal representa a vibração da introspecção, da investigação intelectual e da busca profunda por conhecimento e sabedoria.</p>
+<p>Essa regência revela uma mente analítica e uma tendência natural a refletir sobre os mistérios da vida. Você busca a verdade por trás das aparências e valoriza momentos de silêncio para organizar pensamentos e emoções.</p>
+<p>No aspecto positivo manifesta sabedoria, intuição elevada e grande capacidade de análise profunda. No aspecto negativo pode gerar isolamento emocional, excesso de introspecção ou dificuldade de se abrir afetivamente.</p>
+<p>O aprendizado do Regente 7 Pessoal consiste em transformar conhecimento em sabedoria e sensibilidade em evolução interior.</p>`,
 
-8: `<h3>Força Mental e Consciência de Poder</h3>  
-<p>Para você, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade.</p>
-<p>Essa regência revela mente estratégica e capacidade de liderança intelectual. Você possui uma visão de longo prazo e entende as implicações práticas de cada pensamento e decisão.</p>
-<p>No aspecto positivo manifesta liderança intelectual, disciplina e senso de justiça. No aspecto negativo pode gerar autoritarismo mental ou obsessão por controle.</p>
-<p>O aprendizado do Regente 8 Pessoal consiste em usar o poder mental com responsabilidade.</p>`,
+8: `<h3>Força Feminina e Consciência de Poder</h3>  
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 8 Pessoal representa a vibração da força mental, da disciplina intelectual e da consciência de responsabilidade diante da vida.</p>
+<p>Essa regência revela uma mulher estratégica, determinada e com forte capacidade de liderança intelectual. Existe visão de longo prazo e percepção clara das consequências práticas de cada decisão tomada.</p>
+<p>No aspecto positivo manifesta liderança intelectual, disciplina, responsabilidade e senso de justiça. No aspecto negativo pode gerar autoritarismo mental, excesso de cobrança ou obsessão por controle.</p>
+<p>O aprendizado do Regente 8 Pessoal consiste em utilizar o próprio poder com consciência, equilíbrio e sabedoria emocional.</p>`,
 
-9: `<h3>Consciência Interior e Sabedoria Mental</h3> 
-<p>Para você, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência.</p>
-<p>Essa regência revela mente filosófica, sensível e inclinada a compreender o significado das experiências da vida. Sua percepção ultrapassa o óbvio, buscando uma conexão com o coletivo e o humanitário.</p>
-<p>No aspecto positivo manifesta sabedoria, compaixão e visão ampla da vida. No aspecto negativo pode gerar isolamento mental ou excesso de idealismo.</p>
-<p>O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria.</p>`,
-
+9: `<h3>Consciência Feminina e Sabedoria Interior</h3> 
+<p>Para você, MASCULINO-FEMININO-NEUTRO, o Regente 9 Pessoal representa a vibração da sabedoria, da reflexão e da compreensão profunda da existência humana.</p>
+<p>Essa regência revela uma mente filosófica, intuitiva e sensível, inclinada a compreender o significado das experiências da vida. Sua percepção ultrapassa o óbvio, buscando conexão com o coletivo, com o emocional e com os valores humanitários.</p>
+<p>No aspecto positivo manifesta sabedoria, compaixão, sensibilidade e visão ampla da vida. No aspecto negativo pode gerar isolamento emocional, excesso de idealismo ou dificuldade de desapegar do passado.</p>
+<p>O aprendizado do Regente 9 Pessoal consiste em transformar experiência em sabedoria e utilizar esse conhecimento para iluminar o caminho de outras pessoas.</p>`,
 
   
-11:`<p>Força Interior e Autodomínio Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 11 indica que você percebe a realidade como um campo de desafios emocionais que exigem coragem, firmeza e domínio interno. Existe a sensação de que a vida testa constantemente a sua força psicológica, como se fosse necessário manter controle sobre impulsos, reações e sentimentos intensos.</p>
-<p>No aspecto positivo manifesta autoconfiança emocional, coragem para enfrentar conflitos internos e capacidade de transformar tensão em crescimento psicológico. A pessoa sente que precisa ser forte por dentro e superar a si mesma repetidamente.</p>
+11:`<h4>Força Interior e Autodomínio Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 11 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um campo de desafios emocionais que exigem coragem, firmeza e domínio interno. Existe a sensação de que a vida testa constantemente a sua força psicológica, como se fosse necessário manter controle sobre impulsos, reações e sentimentos intensos.</p>
+<p>No aspecto positivo manifesta autoconfiança emocional, coragem para enfrentar conflitos internos e capacidade de transformar tensão em crescimento psicológico. Você sente que precisa ser forte por dentro e superar a si mesma repetidamente.</p>
 <p>No aspecto negativo pode gerar irritabilidade, impulsividade emocional e sensação de estar sempre em estado de alerta ou defesa.</p>
 <p>A Potência 11 ensina que a realidade é percebida como um processo de fortalecimento interior contínuo.</p>`,
 
-12:`<p>Renúncia Psicológica e Transformação Interior Profunda.</p>
-<p>Na Pirâmide Pessoal, a Potência 12 faz com que você perceba a realidade como um processo de aprendizado emocional que exige pausas, sacrifícios e mudanças internas. Surge a sensação de que a vida pede paciência, reflexão e abandono de padrões antigos para amadurecer emocionalmente.</p>
+12:`<h4>Renúncia Psicológica e Transformação Interior Profunda.</h4>
+<p>Na Matriz Pessoal, a Potência 12 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo de aprendizado emocional que exige pausas, sacrifícios e mudanças internas. Surge a sensação de que a vida pede paciência, reflexão e abandono de padrões antigos para amadurecer emocionalmente.</p>
 <p>No aspecto positivo favorece humildade emocional, empatia e crescimento interior profundo.</p>
 <p>No aspecto negativo pode gerar sensação de estagnação, vitimização e dúvida sobre o próprio caminho.</p>
 <p>A Potência 12 ensina que a realidade é percebida como um processo de amadurecimento emocional lento e transformador.</p>`,
 
-13:`<p>Renascimento Psicológico e Mudança Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 13 faz com que você perceba a realidade como ciclos constantes de encerramento e recomeço emocional. Existe a sensação de que versões antigas de si mesmo precisam morrer para que novas surjam.</p>
+13:`<h4>Renascimento Psicológico e Mudança Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 13 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como ciclos constantes de encerramento e recomeço emocional. Existe a sensação de que versões antigas de si mesma precisam morrer para que novas surjam.</p>
 <p>No aspecto positivo promove libertação emocional, desapego e reconstrução da identidade interior.</p>
 <p>No aspecto negativo pode gerar medo de mudanças internas e dificuldade de soltar o passado.</p>
 <p>A Potência 13 ensina que a realidade é percebida como um processo contínuo de transformação psicológica.</p>`,
 
-14:`<p>Equilíbrio Emocional e Harmonia Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 14 indica que você percebe a realidade como uma busca constante por equilíbrio emocional. Existe a sensação de que é preciso conciliar sentimentos, pensamentos e reações internas para manter a paz interior.</p>
+14:`<h4>Equilíbrio Emocional e Harmonia Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 14 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca constante por equilíbrio emocional. Existe a sensação de que é preciso conciliar sentimentos, pensamentos e reações internas para manter a paz interior.</p>
 <p>No aspecto positivo manifesta serenidade emocional, autocontrole e capacidade de lidar com conflitos internos com maturidade.</p>
 <p>No aspecto negativo pode gerar indecisão emocional e medo de confrontar sentimentos difíceis.</p>
 <p>A Potência 14 ensina que a realidade é percebida como um processo de harmonização interior.</p>`,
 
-15:`<p>Desejos Internos e Conflitos Emocionais.</p>
-<p>Na Pirâmide Pessoal, a Potência 15 faz com que você perceba a realidade como um campo de desejos intensos e conflitos emocionais. Existe a sensação de que a vida desperta paixões, vontades e impulsos que precisam ser compreendidos e direcionados.</p>
+15:`<h4>Desejos Internos e Conflitos Emocionais.</h4>
+<p>Na Matriz Pessoal, a Potência 15 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um campo de desejos intensos e conflitos emocionais. Existe a sensação de que a vida desperta paixões, vontades e impulsos que precisam ser compreendidos e direcionados.</p>
 <p>No aspecto positivo manifesta magnetismo emocional, criatividade e forte energia afetiva.</p>
 <p>No aspecto negativo pode gerar dependências emocionais, ciúmes e autossabotagem.</p>
 <p>A Potência 15 ensina que a realidade é percebida como uma experiência intensa de desejos e emoções.</p>`,
 
-16:`<p>Ruptura Interior e Despertar Psicológico.</p>
-<p>Na Pirâmide Pessoal, a Potência 16 faz com que você perceba a realidade como momentos de quebra de ilusões emocionais e mudanças internas inesperadas. Existe a sensação de que a vida frequentemente derruba certezas para revelar verdades mais profundas.</p>
+16:`<h4>Ruptura Interior e Despertar Psicológico.</h4>
+<p>Na Matriz Pessoal, a Potência 16 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como momentos de quebra de ilusões emocionais e mudanças internas inesperadas. Existe a sensação de que a vida frequentemente derruba certezas para revelar verdades mais profundas.</p>
 <p>No aspecto positivo promove clareza emocional, libertação de padrões mentais limitantes e amadurecimento psicológico acelerado.</p>
 <p>No aspecto negativo pode gerar crises internas, insegurança e medo de mudanças.</p>
 <p>A Potência 16 ensina que a realidade é percebida como um processo de despertar interior através de rupturas necessárias.</p>`,
 
-17:`<p>Esperança Interior e Inspiração Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 17 indica que você percebe a realidade com um olhar de esperança, fé e inspiração emocional. Existe a sensação de que sempre há um propósito maior guiando os acontecimentos da vida.</p>
+17:`<h4>Esperança Interior e Inspiração Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 17 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade com um olhar de esperança, fé e inspiração emocional. Existe a sensação de que sempre há um propósito maior guiando os acontecimentos da vida.</p>
 <p>No aspecto positivo manifesta sensibilidade, criatividade e confiança no futuro.</p>
 <p>No aspecto negativo pode gerar idealização excessiva e expectativas irreais.</p>
 <p>A Potência 17 ensina que a realidade é percebida como um caminho de esperança e renovação emocional.</p>`,
 
-18:`<p>Sensibilidade Profunda e Percepção Subconsciente.</p>
-<p>Na Pirâmide Pessoal, a Potência 18 faz com que você perceba a realidade de forma extremamente sensível e intuitiva. Existe forte conexão com emoções, medos e percepções inconscientes.</p>
+18:`<h4>Sensibilidade Profunda e Percepção Subconsciente.</h4>
+<p>Na Matriz Pessoal, a Potência 18 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade de forma extremamente sensível e intuitiva. Existe forte conexão com emoções, medos e percepções inconscientes.</p>
 <p>No aspecto positivo desenvolve intuição, imaginação e autoconhecimento emocional.</p>
 <p>No aspecto negativo pode gerar ansiedade, insegurança e confusão emocional.</p>
 <p>A Potência 18 ensina que a realidade é percebida através das emoções e do subconsciente.</p>`,
 
-19:`<p>Clareza Emocional e Realização Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 19 indica que você percebe a realidade com sensação de clareza, vitalidade e crescimento emocional. Existe a percepção de que a vida oferece oportunidades de brilho pessoal e reconhecimento interno.</p>
+19:`<h4>Clareza Emocional e Realização Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 19 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade com sensação de clareza, vitalidade e crescimento emocional. Existe a percepção de que a vida oferece oportunidades de brilho pessoal e reconhecimento interno.</p>
 <p>No aspecto positivo manifesta autoestima, entusiasmo e confiança emocional.</p>
 <p>No aspecto negativo pode gerar orgulho e necessidade de validação constante.</p>
 <p>A Potência 19 ensina que a realidade é percebida como um processo de iluminação interior.</p>`,
 
-21:`<p>Sensação de Conclusão e Plenitude Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 21 faz com que você perceba a realidade como ciclos de realização emocional e sensação de missão cumprida. Existe a percepção de fechamento de etapas importantes da vida interior.</p>
+21:`<h4>Sensação de Conclusão e Plenitude Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 21 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como ciclos de realização emocional e sensação de missão cumprida. Existe a percepção de fechamento de etapas importantes da vida interior.</p>
 <p>No aspecto positivo manifesta satisfação, maturidade emocional e sensação de completude.</p>
 <p>No aspecto negativo pode gerar acomodação emocional.</p>
 <p>A Potência 21 ensina que a realidade é percebida como ciclos de conclusão e integração interior.</p>`,
 
-22:`<p>Impulso de Liberdade Interior e Descoberta.</p>
-<p>Na Pirâmide Pessoal, a Potência 22 faz com que você perceba a realidade como um convite constante à liberdade emocional e novas experiências internas. Existe a sensação de necessidade de explorar sentimentos e possibilidades.</p>
+22:`<h4>Impulso de Liberdade Interior e Descoberta.</h4>
+<p>Na Matriz Pessoal, a Potência 22 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um convite constante à liberdade emocional e novas experiências internas. Existe a sensação de necessidade de explorar sentimentos e possibilidades.</p>
 <p>No aspecto positivo manifesta espontaneidade, criatividade emocional e abertura ao novo.</p>
 <p>No aspecto negativo pode gerar impulsividade e instabilidade emocional.</p>
 <p>A Potência 22 ensina que a realidade é percebida como liberdade interior.</p>`,
 
-23:`<p>Autoconfiança Emocional e Sensação de Proteção.</p>
-<p>Na Pirâmide Pessoal, a Potência 23 faz com que você perceba a realidade como um caminho de crescimento interno guiado por mérito e esforço pessoal. Existe a sensação de que a vida recompensa o amadurecimento emocional.</p>
+23:`<h4>Autoconfiança Emocional e Sensação de Proteção.</h4>
+<p>Na Matriz Pessoal, a Potência 23 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um caminho de crescimento interno guiado por mérito e esforço pessoal. Existe a sensação de que a vida recompensa o amadurecimento emocional.</p>
 <p>No aspecto positivo manifesta segurança interior e autoestima fortalecida.</p>
 <p>No aspecto negativo pode gerar rigidez emocional.</p>
 <p>A Potência 23 ensina que a realidade é percebida como conquista interior.</p>`,
 
-24:`<p>Busca de Estabilidade Emocional e Afetiva.</p>
-<p>Na Pirâmide Pessoal, a Potência 24 faz com que você perceba a realidade como necessidade de segurança emocional e vínculos afetivos estáveis. Existe forte desejo de harmonia e proteção emocional.</p>
+24:`<h4>Busca de Estabilidade Emocional e Afetiva.</h4>
+<p>Na Matriz Pessoal, a Potência 24 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como necessidade de segurança emocional e vínculos afetivos estáveis. Existe forte desejo de harmonia e proteção emocional.</p>
 <p>No aspecto positivo manifesta equilíbrio, carinho e estabilidade emocional.</p>
 <p>No aspecto negativo pode gerar apego excessivo e medo de mudanças.</p>
 <p>A Potência 24 ensina que a realidade é percebida como busca de segurança emocional.</p>`,
 
-25:`<p>Movimento Emocional e Necessidade de Mudança.</p>
-<p>Na Pirâmide Pessoal, a Potência 25 indica que você percebe a realidade como períodos de transformação emocional e necessidade de ação interior. Existe a sensação de inquietação e desejo de mudança psicológica.</p>
+25:`<h4>Movimento Emocional e Necessidade de Mudança.</h4>
+<p>Na Matriz Pessoal, a Potência 25 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como períodos de transformação emocional e necessidade de ação interior. Existe a sensação de inquietação e desejo de mudança psicológica.</p>
 <p>No aspecto positivo manifesta coragem emocional e capacidade de superação.</p>
 <p>No aspecto negativo pode gerar impulsividade emocional.</p>
 <p>A Potência 25 ensina que a realidade é percebida como movimento interior constante.</p>`,
 
-26:`<p>Expectativa Interior e Potencial Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 26 faz com que você perceba a realidade como fase de preparação emocional para conquistas futuras. Existe sensação de potencial em desenvolvimento.</p>
+26:`<h4>Expectativa Interior e Potencial Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 26 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como fase de preparação emocional para conquistas futuras. Existe sensação de potencial em desenvolvimento.</p>
 <p>No aspecto positivo manifesta entusiasmo e crescimento emocional gradual.</p>
 <p>No aspecto negativo pode gerar frustração e ansiedade.</p>
 <p>A Potência 26 ensina que a realidade é percebida como fase de preparação interior.</p>`,
 
-27:`<p>Desafios Emocionais e Reconstrução Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 27 indica que você percebe a realidade como testes emocionais que exigem adaptação e fortalecimento psicológico.</p>
+27:`<h4>Desafios Emocionais e Reconstrução Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 27 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como testes emocionais que exigem adaptação e fortalecimento psicológico.</p>
 <p>No aspecto positivo manifesta resiliência e renovação emocional.</p>
 <p>No aspecto negativo pode gerar sobrecarga emocional.</p>
 <p>A Potência 27 ensina que a realidade é percebida como processo de superação interior.</p>`,
 
-28:`<p>Prudência Emocional e Planejamento Interno. Na Pirâmide Pessoal, a Potência 28 faz com que você perceba a realidade com cautela emocional e necessidade de planejamento interno. Existe desejo de segurança psicológica antes de agir.</p>
+28:`<h4>Prudência Emocional e Planejamento Interno.</h4>
+<p>Na Matriz Pessoal, a Potência 28 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade com cautela emocional e necessidade de planejamento interno. Existe desejo de segurança psicológica antes de agir.</p>
 <p>No aspecto positivo manifesta equilíbrio e maturidade emocional.</p>
 <p>No aspecto negativo pode gerar medo de arriscar emocionalmente.</p>
 <p>A Potência 28 ensina que a realidade é percebida com prudência interior.</p>`,
 
-29:`<p>Expansão Emocional e Reconhecimento Interno.</p>
-<p>Na Pirâmide Pessoal, a Potência 29 indica que você percebe a realidade como crescimento emocional e reconhecimento do próprio valor interior. No aspecto positivo manifesta alegria emocional e autoconfiança.</p>
+29:`<h4>Expansão Emocional e Reconhecimento Interno.</h4>
+<p>Na Matriz Pessoal, a Potência 29 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como crescimento emocional e reconhecimento do próprio valor interior.</p>
+<p>No aspecto positivo manifesta alegria emocional e autoconfiança.</p>
 <p>No aspecto negativo pode gerar ambição emocional excessiva.</p>
 <p>A Potência 29 ensina que a realidade é percebida como expansão interior.</p>`,
 
-30:`<p>Silêncio Interior e Incubação Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 30 faz com que você perceba a realidade como momentos de pausa, reflexão e amadurecimento interno antes de agir.</p>
+30:`<h4>Silêncio Interior e Incubação Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 30 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como momentos de pausa, reflexão e amadurecimento interno antes de agir.</p>
 <p>No aspecto positivo manifesta introspecção e fortalecimento emocional.</p>
 <p>No aspecto negativo pode gerar procrastinação e medo de agir.</p>
 <p>A Potência 30 ensina que a realidade é percebida como tempo de preparação interior.</p>`,
 
-31:`<p>Disciplina Interior e Construção Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 31 faz com que você perceba a realidade como um processo que exige disciplina emocional e constância interior. Existe a sensação de que a vida pede responsabilidade psicológica, organização mental e construção gradual de segurança interna.</p>
+31:`<h4>Disciplina Interior e Construção Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 31 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo que exige disciplina emocional e constância interior. Existe a sensação de que a vida pede responsabilidade psicológica, organização mental e construção gradual de segurança interna.</p>
 <p>No aspecto positivo manifesta perseverança, maturidade emocional e confiança construída com o tempo.</p>
 <p>No aspecto negativo pode gerar rigidez emocional, autocobrança excessiva e medo de mudanças internas.</p>
 <p>A Potência 31 ensina que a realidade é percebida como uma construção emocional contínua baseada em disciplina e estabilidade.</p>`,
 
-32:`<p>Busca de Estabilidade Emocional e Reconhecimento Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 32 faz com que você perceba a realidade como uma busca constante por equilíbrio emocional e validação interna. Surge a sensação de que é importante sentir segurança emocional e estabilidade psicológica nas relações e decisões.</p>
+32:`<h4>Busca de Estabilidade Emocional e Reconhecimento Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 32 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca constante por equilíbrio emocional e validação interna. Surge a sensação de que é importante sentir segurança emocional e estabilidade psicológica nas relações e decisões.</p>
 <p>No aspecto positivo manifesta sensação de apoio emocional, harmonia interna e segurança afetiva.</p>
 <p>No aspecto negativo pode gerar dependência de aprovação, medo de perder estabilidade e dificuldade em lidar com mudanças.</p>
 <p>A Potência 32 ensina que a realidade é percebida como uma busca por segurança emocional e reconhecimento interno.</p>`,
 
-33:`<p>Expansão Interior e Crescimento Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 33 faz com que você perceba a realidade como um caminho de crescimento emocional e amadurecimento interno. Existe a sensação de que a vida estimula expansão da consciência e evolução psicológica constante.</p>
+33:`<h4>Expansão Interior e Crescimento Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 33 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um caminho de crescimento emocional e amadurecimento interno. Existe a sensação de que a vida estimula expansão da consciência e evolução psicológica constante.</p>
 <p>No aspecto positivo manifesta otimismo, confiança emocional e sensação de crescimento interior.</p>
 <p>No aspecto negativo pode gerar excesso de expectativas e frustração quando o progresso parece lento.</p>
 <p>A Potência 33 ensina que a realidade é percebida como um processo contínuo de expansão emocional.</p>`,
 
-34:`<p>Criatividade Psicológica e Expressão Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 34 faz com que você perceba a realidade como um espaço de criação emocional e expressão do mundo interno. Existe a sensação de que sentimentos e pensamentos precisam encontrar formas de expressão.</p>
+34:`<h4>Criatividade Psicológica e Expressão Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 34 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um espaço de criação emocional e expressão do mundo interno. Existe a sensação de que sentimentos e pensamentos precisam encontrar formas de expressão.</p>
 <p>No aspecto positivo manifesta criatividade emocional, inspiração e vontade de criar.</p>
 <p>No aspecto negativo pode gerar ansiedade, inquietação emocional e dispersão mental.</p>
 <p>A Potência 34 ensina que a realidade é percebida como um campo de expressão da identidade interior.</p>`,
 
-35:`<p>Crises Internas e Reflexão Profunda.</p>
-<p>Na Pirâmide Pessoal, a Potência 35 faz com que você perceba a realidade como um processo de questionamento e introspecção constante. Existe a sensação de enfrentar dúvidas, reflexões profundas e crises emocionais que levam ao autoconhecimento.</p>
+35:`<h4>Crises Internas e Reflexão Profunda.</h4>
+<p>Na Matriz Pessoal, a Potência 35 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo de questionamento e introspecção constante. Existe a sensação de enfrentar dúvidas, reflexões profundas e crises emocionais que levam ao autoconhecimento.</p>
 <p>No aspecto positivo manifesta maturidade emocional e capacidade de reflexão profunda.</p>
 <p>No aspecto negativo pode gerar melancolia, isolamento e excesso de preocupação.</p>
 <p>A Potência 35 ensina que a realidade é percebida como um caminho de autoconhecimento através da reflexão.</p>`,
 
-36:`<p>Rupturas Emocionais e Renovação Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 36 faz com que você perceba a realidade como mudanças internas inevitáveis e libertadoras. Existe a sensação de que padrões emocionais antigos precisam ser quebrados para que novas versões de si surjam.</p>
+36:`<h4>Rupturas Emocionais e Renovação Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 36 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como mudanças internas inevitáveis e libertadoras. Existe a sensação de que padrões emocionais antigos precisam ser quebrados para que novas versões de si surjam.</p>
 <p>No aspecto positivo manifesta libertação emocional e renovação interior.</p>
 <p>No aspecto negativo pode gerar instabilidade emocional e medo do desconhecido.</p>
 <p>A Potência 36 ensina que a realidade é percebida como um processo de renovação emocional constante.</p>`,
 
-37:`<p>Equilíbrio Emocional e Mediação Interna.</p>
-<p>Na Pirâmide Pessoal, a Potência 37 faz com que você perceba a realidade como uma busca por equilíbrio entre sentimentos, pensamentos e relações internas. Existe a sensação de precisar harmonizar emoções e evitar conflitos internos.</p>
+37:`<h4>Equilíbrio Emocional e Mediação Interna.</h4>
+<p>Na Matriz Pessoal, a Potência 37 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca por equilíbrio entre sentimentos, pensamentos e relações internas. Existe a sensação de precisar harmonizar emoções e evitar conflitos internos.</p>
 <p>No aspecto positivo manifesta empatia, sensibilidade e harmonia emocional.</p>
 <p>No aspecto negativo pode gerar preocupação excessiva com aprovação e dificuldade em impor limites.</p>
 <p>A Potência 37 ensina que a realidade é percebida como uma busca por equilíbrio emocional.</p>`,
 
-38:`<p>Sensibilidade Emocional e Expressão Afetiva.</p>
-<p>Na Pirâmide Pessoal, a Potência 38 faz com que você perceba a realidade através das emoções e da sensibilidade afetiva. Existe a sensação de viver sentimentos intensamente e buscar formas de expressá-los.</p>
+38:`<h4>Sensibilidade Emocional e Expressão Afetiva.</h4>
+<p>Na Matriz Pessoal, a Potência 38 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade através das emoções e da sensibilidade afetiva. Existe a sensação de viver sentimentos intensamente e buscar formas de expressá-los.</p>
 <p>No aspecto positivo manifesta empatia, comunicação emocional e criatividade afetiva.</p>
 <p>No aspecto negativo pode gerar exageros emocionais e oscilações de humor.</p>
 <p>A Potência 38 ensina que a realidade é percebida como uma experiência emocional intensa.</p>`,
 
-39:`<p>Amor Interior e Conexão Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 39 faz com que você perceba a realidade como um campo de vínculos, afeto e conexões emocionais profundas. Existe a sensação de que o amor e a conexão emocional são fundamentais para a vida.</p>
+39:`<h4>Amor Interior e Conexão Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 39 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um campo de vínculos, afeto e conexões emocionais profundas. Existe a sensação de que o amor e a conexão emocional são fundamentais para a vida.</p>
 <p>No aspecto positivo manifesta empatia, carinho e desejo de conexão.</p>
 <p>No aspecto negativo pode gerar dependência emocional e ilusões afetivas.</p>
 <p>A Potência 39 ensina que a realidade é percebida através do coração.</p>`,
 
-41:`<p>Felicidade Interior e Busca por Harmonia.</p>
-<p>Na Pirâmide Pessoal, a Potência 41 faz com que você perceba a realidade como uma busca por felicidade emocional e bem-estar interior. Existe a sensação de querer viver em paz consigo mesma e manter relações equilibradas.</p>
-<p>No aspecto positivo manifesta alegria, estabilidade emocional e sensação de pertencimento.</p>
-<p>No aspecto negativo pode gerar medo de perder a estabilidade e dependência emocional.</p>
-<p>A Potência 41 ensina que a realidade é percebida como uma busca por felicidade interior.</p>`,
+40:`<h4>Interiorização e Estrutura Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 40 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um chamado à estabilidade emocional e à construção de segurança interior. Existe a sensação de que o silêncio e a reflexão fortalecem sua base psicológica.</p>
+<p>No aspecto positivo manifesta firmeza emocional, prudência e maturidade interna.</p>
+<p>No aspecto negativo pode gerar isolamento emocional, rigidez psicológica e dificuldade para demonstrar sentimentos.</p>
+<p>A Potência 40 ensina que a realidade é percebida como um processo de fortalecimento interior através da estabilidade.</p>`,
+41:`<h4>Felicidade Interior e Busca por Harmonia.</h4>
+<p>Na Matriz Pessoal, a Potência 41 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca constante por felicidade emocional e bem-estar interior. Existe em sua consciência a necessidade de viver em paz consigo mesma e construir relações equilibradas e saudáveis.</p>
+<p>No aspecto positivo manifesta alegria emocional, estabilidade afetiva e sensação de pertencimento interior.</p>
+<p>No aspecto negativo pode gerar medo de perder estabilidade emocional, insegurança afetiva ou dependência emocional.</p>
+<p>A Potência 41 ensina que a realidade é percebida como um caminho de harmonia e felicidade interior.</p>`,
 
-42:`<p>Expansão Emocional e Realização Pessoal.</p>
-<p>Na Pirâmide Pessoal, a Potência 42 faz com que você perceba a realidade como oportunidades de crescimento e realização emocional. Existe a sensação de expansão da vida interior e conquista de objetivos pessoais.</p>
-<p>No aspecto positivo manifesta entusiasmo, esperança e confiança emocional.</p>
-<p>No aspecto negativo pode gerar excessos e expectativas irreais.</p>
-<p>A Potência 42 ensina que a realidade é percebida como expansão emocional.</p>`,
+42:`<h4>Expansão Emocional e Realização Pessoal.</h4>
+<p>Na Matriz Pessoal, a Potência 42 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como oportunidades de crescimento emocional e realização interior. Existe a sensação de expansão da vida afetiva e conquista gradual de objetivos pessoais importantes.</p>
+<p>No aspecto positivo manifesta entusiasmo emocional, esperança e confiança no próprio crescimento.</p>
+<p>No aspecto negativo pode gerar excesso de expectativas, ansiedade emocional ou idealizações irreais.</p>
+<p>A Potência 42 ensina que a realidade é percebida como um processo contínuo de expansão emocional.</p>`,
 
-43:`<p>Conflitos Internos e Despertar Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 43 faz com que você perceba a realidade como desafios emocionais que despertam consciência. Existe a sensação de enfrentar conflitos internos que levam ao amadurecimento psicológico.</p>
-<p>No aspecto positivo manifesta autoconhecimento e libertação emocional.</p>
-<p>No aspecto negativo pode gerar tensão emocional e crises afetivas.</p>
-<p>A Potência 43 ensina que a realidade é percebida como transformação através dos conflitos.</p>`,
+43:`<h4>Conflitos Internos e Despertar Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 43 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade através de desafios emocionais que despertam consciência e amadurecimento psicológico. Existe a sensação de enfrentar conflitos internos que impulsionam profundas transformações emocionais.</p>
+<p>No aspecto positivo manifesta autoconhecimento, libertação emocional e fortalecimento psicológico.</p>
+<p>No aspecto negativo pode gerar tensão emocional, crises afetivas ou sensação de desgaste interno.</p>
+<p>A Potência 43 ensina que a realidade é percebida como transformação através dos conflitos interiores.</p>`,
 
-44:`<p>Clareza Mental e Decisões Internas.</p>
-<p>Na Pirâmide Pessoal, a Potência 44 faz com que você perceba a realidade como necessidade de compreensão e decisões conscientes. Existe a sensação de precisar entender a si mesma antes de agir.</p>
-<p>No aspecto positivo manifesta lucidez emocional e discernimento.</p>
-<p>No aspecto negativo pode gerar indecisão e excesso de análise.</p>
-<p>A Potência 44 ensina que a realidade é percebida através da clareza interior.</p>`,
+44:`<h4>Clareza Mental e Decisões Internas.</h4>
+<p>Na Matriz Pessoal, a Potência 44 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como necessidade de compreensão profunda antes de agir emocionalmente. Existe em sua consciência a sensação de precisar entender a si mesma para tomar decisões equilibradas.</p>
+<p>No aspecto positivo manifesta discernimento emocional, lucidez interior e clareza psicológica.</p>
+<p>No aspecto negativo pode gerar indecisão, excesso de análise ou dificuldade para agir emocionalmente.</p>
+<p>A Potência 44 ensina que a realidade é percebida através da clareza interior e do entendimento emocional.</p>`,
 
-45:`<p>Memórias e Cura Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 45 faz com que você perceba a realidade como um processo de revisitar o passado para curar emoções antigas. Existe a sensação de aprendizado através da memória emocional.</p>
-<p>No aspecto positivo manifesta cura, reconciliação e amadurecimento.</p>
-<p>No aspecto negativo pode gerar apego ao passado e melancolia.</p>
-<p>A Potência 45 ensina que a realidade é percebida como um processo de cura emocional.</p>`,
+45:`<h4>Memórias e Cura Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 45 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo de revisitar emoções antigas para promover cura e amadurecimento interior. Existe forte aprendizado através das memórias emocionais e das experiências do passado.</p>
+<p>No aspecto positivo manifesta reconciliação interior, cura emocional e crescimento psicológico.</p>
+<p>No aspecto negativo pode gerar apego ao passado, melancolia ou dificuldade de seguir adiante.</p>
+<p>A Potência 45 ensina que a realidade é percebida como um caminho de cura emocional e libertação interior.</p>`,
 
-46:`<p>Desilusões e Verdades Emocionais.</p>
-<p>Na Pirâmide Pessoal, a Potência 46 faz com que você perceba a realidade como confrontos com verdades emocionais. Existe a sensação de quebra de expectativas que levam ao amadurecimento psicológico.</p>
-<p>No aspecto positivo manifesta crescimento emocional e libertação de ilusões.</p>
-<p>No aspecto negativo pode gerar frustração e tristeza.</p>
-<p>A Potência 46 ensina que a realidade é percebida como revelação emocional.</p>`,
+46:`<h4>Desilusões e Verdades Emocionais.</h4>
+<p>Na Matriz Pessoal, a Potência 46 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade através de confrontos com verdades emocionais profundas. Existe a sensação de quebra de expectativas que conduz ao amadurecimento psicológico.</p>
+<p>No aspecto positivo manifesta libertação emocional, crescimento interior e maior clareza afetiva.</p>
+<p>No aspecto negativo pode gerar frustração, tristeza emocional ou sensação de decepção interna.</p>
+<p>A Potência 46 ensina que a realidade é percebida como revelação das verdades emocionais.</p>`,
 
-47:`<p>Introspecção e Conflito Interior Profundo.</p>
-<p>Na Pirâmide Pessoal, a Potência 47 faz com que você perceba a realidade como um chamado ao recolhimento e reflexão. Existe a sensação de viver conflitos internos que exigem silêncio e introspecção.</p>
-<p>No aspecto positivo manifesta autoconhecimento profundo.</p>
-<p>No aspecto negativo pode gerar isolamento emocional.</p>
-<p>A Potência 47 ensina que a realidade é percebida através da introspecção.</p>`,
+47:`<h4>Introspecção e Conflito Interior Profundo.</h4>
+<p>Na Matriz Pessoal, a Potência 47 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um chamado constante ao recolhimento e à reflexão interior. Existe a sensação de viver conflitos emocionais que exigem silêncio, análise e introspecção.</p>
+<p>No aspecto positivo manifesta autoconhecimento profundo, sabedoria emocional e reflexão consciente.</p>
+<p>No aspecto negativo pode gerar isolamento emocional, excesso de introspecção ou afastamento afetivo.</p>
+<p>A Potência 47 ensina que a realidade é percebida através do silêncio interior e da reflexão profunda.</p>`,
 
-48:`<p>Abundância Emocional e Expansão Afetiva.</p>
-<p>Na Pirâmide Pessoal, a Potência 48 faz com que você perceba a realidade como momentos de alegria, celebração e expansão emocional. Existe a sensação de viver fases de felicidade e prosperidade interior.</p>
-<p>No aspecto positivo manifesta entusiasmo e alegria emocional.</p>
-<p>No aspecto negativo pode gerar excessos emocionais.</p>
-<p>A Potência 48 ensina que a realidade é percebida como abundância emocional.</p>`,
+48:`<h4>Abundância Emocional e Expansão Afetiva.</h4>
+<p>Na Matriz Pessoal, a Potência 48 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como fases de alegria emocional, prosperidade afetiva e expansão interior. Existe a sensação de viver períodos de felicidade e realização psicológica.</p>
+<p>No aspecto positivo manifesta entusiasmo emocional, alegria interior e capacidade de compartilhar afeto.</p>
+<p>No aspecto negativo pode gerar exageros emocionais, excessos afetivos ou dificuldade de manter equilíbrio.</p>
+<p>A Potência 48 ensina que a realidade é percebida como abundância emocional e expansão interior.</p>`,
 
-49:`<p>Amor Próprio e Independência Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 49 faz com que você perceba a realidade como aprendizado sobre amar sem perder a própria identidade. Existe a sensação de equilibrar autonomia e afeto.</p>
-<p>No aspecto positivo manifesta autoconfiança emocional.</p>
-<p>No aspecto negativo pode gerar conflitos afetivos.</p>
-<p>A Potência 49 ensina que a realidade é percebida como equilíbrio entre amor e autonomia.</p>`,
+49:`<h4>Amor Próprio e Independência Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 49 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como aprendizado constante sobre amar sem perder a própria identidade emocional. Existe a necessidade de equilibrar autonomia afetiva e vínculos emocionais.</p>
+<p>No aspecto positivo manifesta autoconfiança emocional, independência afetiva e fortalecimento interior.</p>
+<p>No aspecto negativo pode gerar conflitos emocionais, dificuldade de equilíbrio nos relacionamentos ou resistência afetiva.</p>
+<p>A Potência 49 ensina que a realidade é percebida como equilíbrio entre amor e autonomia emocional.</p>`,
 
-51:`<p>Sabedoria Interior e Liderança Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 51 faz com que você perceba a realidade como um processo que exige maturidade emocional e decisões conscientes. Existe a sensação de precisar conduzir a própria vida com lucidez e equilíbrio interno.</p>
-<p>No aspecto positivo manifesta clareza mental, autoconfiança emocional e capacidade de orientar a si mesma.</p>
-<p>No aspecto negativo pode gerar excesso de racionalidade, frieza emocional e tendência ao isolamento.</p>
+50:`<h4>Silêncio Interior e Reflexão Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 50 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade através de períodos de pausa, silêncio e profunda reflexão emocional. Existe a necessidade de desacelerar internamente para reorganizar sentimentos e pensamentos.</p>
+<p>No aspecto positivo manifesta introspecção saudável, equilíbrio emocional e fortalecimento psicológico.</p>
+<p>No aspecto negativo pode gerar procrastinação emocional, excesso de recolhimento ou medo de agir.</p>
+<p>A Potência 50 ensina que a realidade é percebida como um processo de preparação e reflexão interior.</p>`,
+
+51:`<h4>Sabedoria Interior e Liderança Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 51 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo que exige maturidade emocional, consciência e liderança interior. Existe a sensação de precisar conduzir a própria vida com equilíbrio psicológico e clareza emocional.</p>
+<p>No aspecto positivo manifesta lucidez emocional, autoconfiança e capacidade de orientar a si mesma.</p>
+<p>No aspecto negativo pode gerar frieza emocional, excesso de racionalidade ou isolamento afetivo.</p>
 <p>A Potência 51 ensina que a realidade é percebida como um exercício constante de liderança interior.</p>`,
 
-52:`<p>Autodomínio e Aperfeiçoamento Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 52 faz com que você perceba a realidade como um caminho de disciplina emocional e evolução pessoal. Existe a sensação de que a vida exige organização interna e autoconhecimento constante.</p>
-<p>No aspecto positivo manifesta foco emocional e fortalecimento da identidade. </p>
-<p>No aspecto negativo pode gerar perfeccionismo e autocrítica intensa.</p>
-<p>A Potência 52 ensina que a realidade é percebida como busca por aprimoramento interior.</p>`,
+52:`<h4>Autodomínio e Aperfeiçoamento Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 52 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um caminho de disciplina emocional e evolução psicológica contínua. Existe a sensação de que a vida exige organização interna e constante aperfeiçoamento.</p>
+<p>No aspecto positivo manifesta foco emocional, fortalecimento interior e amadurecimento psicológico.</p>
+<p>No aspecto negativo pode gerar perfeccionismo, autocrítica excessiva ou rigidez emocional.</p>
+<p>A Potência 52 ensina que a realidade é percebida como uma busca permanente por aprimoramento interior.</p>`,
 
-53:`<p>Transformações Emocionais e Quebra de Padrões.</p>
-<p>Na Pirâmide Pessoal, a Potência 53 faz com que você perceba a realidade como mudanças internas profundas. Existe a sensação de precisar abandonar versões antigas de si mesma para evoluir emocionalmente.</p>
-<p>No aspecto positivo manifesta coragem emocional e crescimento interior.</p>
-<p>No aspecto negativo pode gerar instabilidade e conflitos internos.</p>
-<p>A Potência 53 ensina que a realidade é percebida como transformação constante.</p>`,
+53:`<h4>Transformações Emocionais e Quebra de Padrões.</h4>
+<p>Na Matriz Pessoal, a Potência 53 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como mudanças internas profundas e constantes transformações emocionais. Existe a necessidade de abandonar antigas versões de si mesma para evoluir psicologicamente.</p>
+<p>No aspecto positivo manifesta coragem emocional, renovação interior e crescimento psicológico.</p>
+<p>No aspecto negativo pode gerar instabilidade emocional, conflitos internos ou dificuldade de adaptação.</p>
+<p>A Potência 53 ensina que a realidade é percebida como transformação contínua da consciência interior.</p>`,
 
-54:`<p>Tensão Interior e Vigilância Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 54 faz com que você perceba a realidade como um ambiente que exige cautela emocional. Existe a sensação de precisar estar sempre alerta internamente.</p>
-<p>No aspecto positivo manifesta prudência emocional e percepção aguçada.</p>
-<p>No aspecto negativo pode gerar ansiedade e desconfiança.</p>
-<p>A Potência 54 ensina que a realidade é percebida como necessidade de atenção emocional.</p>`,
+54:`<h4>Tensão Interior e Vigilância Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 54 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um ambiente que exige atenção emocional constante. Existe a sensação de precisar permanecer alerta psicologicamente para evitar desequilíbrios internos.</p>
+<p>No aspecto positivo manifesta prudência emocional, percepção aguçada e cautela psicológica.</p>
+<p>No aspecto negativo pode gerar ansiedade, desconfiança emocional ou tensão interior excessiva.</p>
+<p>A Potência 54 ensina que a realidade é percebida como necessidade de vigilância e atenção emocional.</p>`,
 
-55:`<p>Fim de Ciclos Internos e Renascimento Psicológico.</p>
-<p>Na Pirâmide Pessoal, a Potência 55 faz com que você perceba a realidade como encerramentos emocionais seguidos de renascimentos internos.</p>
-<p>No aspecto positivo manifesta superação e reconstrução emocional.</p>
-<p>No aspecto negativo pode gerar tristeza profunda e sensação de perda.</p>
-<p>A Potência 55 ensina que a realidade é percebida como ciclos de morte e renascimento interior.</p>`,
+55:`<h4>Fim de Ciclos Internos e Renascimento Psicológico.</h4>
+<p>Na Matriz Pessoal, a Potência 55 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como encerramentos emocionais seguidos de renascimentos interiores. Existe a sensação de viver ciclos de morte simbólica e reconstrução psicológica.</p>
+<p>No aspecto positivo manifesta superação emocional, renovação interior e fortalecimento psicológico.</p>
+<p>No aspecto negativo pode gerar tristeza profunda, sensação de perda ou dificuldade de desapego.</p>
+<p>A Potência 55 ensina que a realidade é percebida como ciclos contínuos de transformação emocional.</p>`,
 
-56:`<p>Provações Emocionais e Fortalecimento Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 56 faz com que você perceba a realidade como testes emocionais que exigem resistência psicológica.</p>
-<p>No aspecto positivo manifesta resiliência emocional.</p>
-<p>No aspecto negativo pode gerar sofrimento interno e bloqueios emocionais.</p>
-<p>A Potência 56 ensina que a realidade é percebida como fortalecimento através das dificuldades.</p>`,
+56:`<h4>Provações Emocionais e Fortalecimento Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 56 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como testes emocionais que exigem resistência psicológica e força interior. Existe a sensação de enfrentar desafios afetivos que fortalecem sua consciência.</p>
+<p>No aspecto positivo manifesta resiliência emocional, perseverança e amadurecimento interior.</p>
+<p>No aspecto negativo pode gerar sofrimento psicológico, bloqueios emocionais ou desgaste afetivo.</p>
+<p>A Potência 56 ensina que a realidade é percebida como fortalecimento através das dificuldades emocionais.</p>`,
 
-57:`<p>Dilemas Internos e Escolhas Emocionais.</p>
-<p>Na Pirâmide Pessoal, a Potência 57 faz com que você perceba a realidade como uma sequência de decisões internas importantes.</p>
-<p>No aspecto positivo manifesta discernimento emocional.</p>
-<p>No aspecto negativo pode gerar indecisão e medo de agir.</p>
-<p>A Potência 57 ensina que a realidade é percebida como escolhas que moldam o mundo interior.</p>`,
+57:`<h4>Dilemas Internos e Escolhas Emocionais.</h4>
+<p>Na Matriz Pessoal, a Potência 57 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma sequência de decisões emocionais importantes. Existe a sensação de que suas escolhas internas moldam diretamente sua evolução psicológica.</p>
+<p>No aspecto positivo manifesta discernimento emocional, clareza interior e consciência afetiva.</p>
+<p>No aspecto negativo pode gerar indecisão, medo de agir ou conflitos emocionais recorrentes.</p>
+<p>A Potência 57 ensina que a realidade é percebida como resultado das escolhas interiores.</p>`,
 
-58:`<p>Crises Psicológicas e Despertar Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 58 faz com que você perceba a realidade como crises que despertam consciência.</p>
-<p>No aspecto positivo manifesta autoconhecimento profundo.</p>
-<p>No aspecto negativo pode gerar sensação de caos emocional.</p>
-<p>A Potência 58 ensina que a realidade é percebida como despertar através das crises.</p>`,
+58:`<h4>Crises Psicológicas e Despertar Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 58 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade através de crises emocionais que despertam consciência e transformação interior. Existe a sensação de atravessar processos intensos de renovação psicológica.</p>
+<p>No aspecto positivo manifesta autoconhecimento profundo, libertação emocional e crescimento interior.</p>
+<p>No aspecto negativo pode gerar sensação de caos emocional, instabilidade afetiva ou tensão psicológica.</p>
+<p>A Potência 58 ensina que a realidade é percebida como despertar através das crises interiores.</p>`,
 
-59:`<p>Descobertas Emocionais e Expansão Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 59 faz com que você perceba a realidade como revelações internas e crescimento psicológico.</p>
-<p>No aspecto positivo manifesta entusiasmo emocional.</p>
-<p>No aspecto negativo pode gerar confusão interna.</p>
-<p>A Potência 59 ensina que a realidade é percebida como descoberta contínua.</p>`,
+59:`<h4>Descobertas Emocionais e Expansão Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 59 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo de revelações emocionais e crescimento psicológico contínuo. Existe forte sensação de descoberta interior e expansão da consciência afetiva.</p>
+<p>No aspecto positivo manifesta entusiasmo emocional, curiosidade interior e crescimento psicológico.</p>
+<p>No aspecto negativo pode gerar confusão emocional, dispersão afetiva ou instabilidade interna.</p>
+<p>A Potência 59 ensina que a realidade é percebida como uma descoberta contínua da própria consciência.</p>`,
 
-61:`<p>Recolhimento Interior e Recuperação Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 61 faz com que você perceba a realidade como necessidade de pausas e silêncio emocional.</p>
-<p>No aspecto positivo manifesta introspecção e equilíbrio.</p>
-<p>No aspecto negativo pode gerar isolamento.</p>
-<p>A Potência 61 ensina que a realidade é percebida como períodos de recolhimento.</p>`,
+60:`<h4>Harmonia Interior e Equilíbrio Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 60 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca constante por paz emocional e equilíbrio interior. Existe forte necessidade de viver em harmonia consigo mesma e com os próprios sentimentos.</p>
+<p>No aspecto positivo manifesta serenidade emocional, equilíbrio psicológico e estabilidade afetiva.</p>
+<p>No aspecto negativo pode gerar excesso de sensibilidade, dificuldade em lidar com conflitos ou necessidade exagerada de aprovação emocional.</p>
+<p>A Potência 60 ensina que a realidade é percebida como um processo contínuo de harmonização interior.</p>`,
 
-62:`<p>Dor Emocional e Libertação Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 62 faz com que você perceba a realidade como processo de cura emocional.</p>
-<p>No aspecto positivo manifesta perdão e libertação interna.</p>
-<p>No aspecto negativo pode gerar tristeza e apego ao passado.</p>
-<p>A Potência 62 ensina que a realidade é percebida como libertação emocional.</p>`,
+ 61:`<h4>Recolhimento Interior e Recuperação Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 61 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como necessidade de pausas, silêncio emocional e recuperação psicológica. Existe a sensação de que o recolhimento interior fortalece sua consciência e reorganiza seus sentimentos.</p>
+<p>No aspecto positivo manifesta introspecção saudável, equilíbrio emocional e serenidade interior.</p>
+<p>No aspecto negativo pode gerar isolamento afetivo, excesso de distância emocional ou dificuldade de expressão.</p>
+<p>A Potência 61 ensina que a realidade é percebida como períodos necessários de recolhimento e regeneração interior.</p>`,
 
-63:`<p>Dúvidas Internas e Reflexão Profunda.</p>
-<p>Na Pirâmide Pessoal, a Potência 63 faz com que você perceba a realidade como fase de questionamentos.</p>
-<p>No aspecto positivo manifesta análise e reorganização interna.</p>
-<p>No aspecto negativo pode gerar insegurança e bloqueios.</p>
-<p>A Potência 63 ensina que a realidade é percebida como processo de reflexão.</p>`,
+62:`<h4>Dor Emocional e Libertação Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 62 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como um processo de cura emocional e libertação psicológica. Existe a sensação de enfrentar dores internas que precisam ser compreendidas e superadas.</p>
+<p>No aspecto positivo manifesta perdão, amadurecimento emocional e libertação interior.</p>
+<p>No aspecto negativo pode gerar tristeza profunda, apego ao passado ou dificuldade de desapegar emocionalmente.</p>
+<p>A Potência 62 ensina que a realidade é percebida como um caminho de libertação emocional.</p>`,
 
-64:`<p>Persistência Emocional e Superação Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 64 faz com que você perceba a realidade como luta interna constante.</p>
-<p>No aspecto positivo manifesta força emocional.</p>
-<p>No aspecto negativo pode gerar rigidez emocional.</p>
-<p>A Potência 64 ensina que a realidade é percebida como superação contínua.</p>`,
+63:`<h4>Dúvidas Internas e Reflexão Profunda.</h4>
+<p>Na Matriz Pessoal, a Potência 63 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma fase de questionamentos emocionais e reflexões profundas. Existe a sensação de revisar constantemente sentimentos, decisões e caminhos internos.</p>
+<p>No aspecto positivo manifesta análise emocional, reorganização psicológica e consciência interior.</p>
+<p>No aspecto negativo pode gerar insegurança emocional, bloqueios internos ou excesso de preocupação.</p>
+<p>A Potência 63 ensina que a realidade é percebida como um processo de reflexão e amadurecimento interior.</p>`,
 
-65:`<p>Ascensão Interior e Busca de Propósito.</p>
-<p>Na Pirâmide Pessoal, a Potência 65 faz com que você perceba a realidade como crescimento interior alinhado ao propósito de vida.</p>
-<p>No aspecto positivo manifesta clareza emocional.</p>
-<p>No aspecto negativo pode gerar ambição excessiva.</p>
-<p>A Potência 65 ensina que a realidade é percebida como busca de propósito.</p>`,
+64:`<h4>Persistência Emocional e Superação Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 64 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma luta constante de superação emocional e fortalecimento psicológico. Existe a sensação de precisar persistir internamente diante das dificuldades.</p>
+<p>No aspecto positivo manifesta força emocional, resistência psicológica e determinação interior.</p>
+<p>No aspecto negativo pode gerar rigidez emocional, excesso de autocontrole ou desgaste psicológico.</p>
+<p>A Potência 64 ensina que a realidade é percebida como um caminho contínuo de superação interior.</p>`,
 
-66:`<p>Autenticidade Emocional e Expressão do Eu.</p>
-<p>Na Pirâmide Pessoal, a Potência 66 faz com que você perceba a realidade como necessidade de ser verdadeira consigo mesma.</p>
-<p>No aspecto positivo manifesta identidade forte.</p>
-<p>No aspecto negativo pode gerar medo de julgamento.</p>
-<p>A Potência 66 ensina que a realidade é percebida como busca por autenticidade.</p>`,
+65:`<h4>Ascensão Interior e Busca de Propósito.</h4>
+<p>Na Matriz Pessoal, a Potência 65 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como uma busca constante de crescimento emocional alinhado ao propósito de vida. Existe forte necessidade de encontrar sentido nas experiências interiores.</p>
+<p>No aspecto positivo manifesta clareza emocional, evolução psicológica e percepção de propósito.</p>
+<p>No aspecto negativo pode gerar ambição emocional excessiva ou frustração existencial.</p>
+<p>A Potência 65 ensina que a realidade é percebida como uma jornada de propósito e ascensão interior.</p>`,
 
-67:`<p>Confiança Interior e Realização Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 67 faz com que você perceba a realidade como capacidade de concretizar sonhos internos.</p>
-<p>No aspecto positivo manifesta autoconfiança emocional.</p>
-<p>No aspecto negativo pode gerar materialismo emocional.</p>
-<p>A Potência 67 ensina que a realidade é percebida como concretização interior.</p>`,
+66:`<h4>Autenticidade Emocional e Expressão do Eu.</h4>
+<p>Na Matriz Pessoal, a Potência 66 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como necessidade de ser verdadeira consigo mesma e expressar sua essência emocional com autenticidade.</p>
+<p>No aspecto positivo manifesta identidade emocional forte, sinceridade afetiva e segurança interior.</p>
+<p>No aspecto negativo pode gerar medo de julgamento, insegurança emocional ou dificuldade de exposição afetiva.</p>
+<p>A Potência 66 ensina que a realidade é percebida como busca por autenticidade emocional.</p>`,
 
-68:`<p>Valor Pessoal e Autoestima Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 68 faz com que você perceba a realidade como reconhecimento do próprio valor.</p>
-<p>No aspecto positivo manifesta autoestima elevada.</p>
-<p>No aspecto negativo pode gerar vaidade emocional.</p>
-<p>A Potência 68 ensina que a realidade é percebida como valorização interior.</p>`,
+67:`<h4>Confiança Interior e Realização Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 67 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como capacidade de concretizar desejos internos e alcançar realização emocional através da própria confiança.</p>
+<p>No aspecto positivo manifesta autoconfiança emocional, motivação interior e sensação de realização.</p>
+<p>No aspecto negativo pode gerar materialismo emocional ou excesso de expectativa sobre resultados.</p>
+<p>A Potência 67 ensina que a realidade é percebida como concretização e fortalecimento interior.</p>`,
 
-69:`<p>Plenitude Emocional e Realização Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 69 faz com que você perceba a realidade como colheita emocional.</p>
-<p>No aspecto positivo manifesta felicidade interna.</p>
-<p>No aspecto negativo pode gerar excesso de satisfação e acomodação.</p>
-<p>A Potência 69 ensina que a realidade é percebida como plenitude interior.</p>`,
+68:`<h4>Valor Pessoal e Autoestima Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 68 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como reconhecimento do próprio valor emocional e fortalecimento da autoestima.</p>
+<p>No aspecto positivo manifesta segurança afetiva, valorização pessoal e confiança emocional.</p>
+<p>No aspecto negativo pode gerar vaidade emocional, necessidade excessiva de reconhecimento ou orgulho afetivo.</p>
+<p>A Potência 68 ensina que a realidade é percebida como valorização da própria identidade interior.</p>`,
 
-70:`<p>Autossuficiência Emocional e Segurança Interna.</p>
-<p>Na Pirâmide Pessoal, a Potência 70 faz com que você perceba a realidade como busca por independência emocional.</p>
-<p>No aspecto positivo manifesta estabilidade interior.</p>
-<p>No aspecto negativo pode gerar isolamento emocional.</p>
-<p>A Potência 70 ensina que a realidade é percebida como autossuficiência emocional.</p>`,
+69:`<h4>Plenitude Emocional e Realização Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 69 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como colheita emocional e sensação de realização afetiva. Existe a percepção de plenitude interna construída através das experiências vividas.</p>
+<p>No aspecto positivo manifesta felicidade emocional, satisfação interior e sensação de completude.</p>
+<p>No aspecto negativo pode gerar acomodação emocional ou excesso de conforto psicológico.</p>
+<p>A Potência 69 ensina que a realidade é percebida como plenitude e realização interior.</p>`,
 
-71:`<p>Prudência Emocional e Conservação Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 71 faz com que você perceba a realidade como necessidade de preservar conquistas emocionais.</p>
-<p>No aspecto positivo manifesta maturidade e planejamento. </p>
-<p>No aspecto negativo pode gerar medo de mudanças.</p>
-<p>A Potência 71 ensina que a realidade é percebida como preservação interior.</p>`,
+70:`<h4>Autossuficiência Emocional e Segurança Interna.</h4>
+<p>Na Matriz Pessoal, a Potência 70 indica que você, MASCULINO-FEMININO-NEUTRO, percebe a realidade como necessidade de independência emocional e fortalecimento da própria segurança interior.</p>
+<p>No aspecto positivo manifesta estabilidade emocional, autonomia afetiva e autoconfiança psicológica.</p>
+<p>No aspecto negativo pode gerar isolamento emocional, excesso de autossuficiência ou dificuldade de se abrir afetivamente.</p>
+<p>A Potência 70 ensina que a realidade é percebida como construção de segurança e autonomia interior.</p>`,
 
-72:`<p>Clareza Mental e Direção Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 72 faz com que você perceba a realidade como busca por direção clara.</p>
-<p>No aspecto positivo manifesta discernimento.</p>
-<p>No aspecto negativo pode gerar rigidez emocional.</p>
-<p>A Potência 72 ensina que a realidade é percebida como clareza interior.</p>`,
 
-73:`<p>Generosidade Emocional e Trocas Afetivas.</p>
-<p>Na Pirâmide Pessoal, a Potência 73 faz com que você perceba a realidade como trocas emocionais constantes.</p>
-<p>No aspecto positivo manifesta empatia.</p>
-<p>No aspecto negativo pode gerar ilusões afetivas.</p>
-<p>A Potência 73 ensina que a realidade é percebida como troca emocional.</p>`,
+ 71:`<h4>Prudência Emocional e Conservação Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 71 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma necessidade de preservar conquistas emocionais e manter estabilidade interior. Existe a sensação de que proteger aquilo que foi construído emocionalmente se torna essencial para manter segurança psicológica.</p>
+<p>No aspecto positivo manifesta maturidade emocional, prudência e capacidade de planejar o próprio equilíbrio interior com consciência.</p>
+<p>No aspecto negativo pode gerar medo de mudanças, resistência emocional e dificuldade para sair da zona de conforto.</p>
+<p>A Potência 71 ensina que a realidade é percebida como um processo de preservação emocional e construção de estabilidade interior.</p>`,
 
-74:`<p>Instabilidade Interior e Reconstrução Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 74 faz com que você perceba a realidade como necessidade de reorganização interna.</p>
-<p>No aspecto positivo manifesta superação emocional.</p>
-<p>No aspecto negativo pode gerar insegurança.</p>
-<p>A Potência 74 ensina que a realidade é percebida como reconstrução interior.</p>`,
+72:`<h4>Clareza Mental e Direção Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 72 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma busca constante por direção emocional e compreensão interna. Existe a necessidade de entender os próprios sentimentos antes de tomar decisões importantes.</p>
+<p>No aspecto positivo manifesta discernimento emocional, lucidez interior e capacidade de agir com consciência psicológica.</p>
+<p>No aspecto negativo pode gerar rigidez emocional, excesso de análise e dificuldade de flexibilizar opiniões internas.</p>
+<p>A Potência 72 ensina que a realidade é percebida como um caminho de clareza emocional e orientação interior.</p>`,
 
-75:`<p>Segurança Emocional e Consolidação Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 75 faz com que você perceba a realidade como busca por estabilidade emocional.</p>
-<p>No aspecto positivo manifesta segurança interna.</p>
-<p>No aspecto negativo pode gerar apego emocional.</p>
-<p>A Potência 75 ensina que a realidade é percebida como consolidação emocional.</p>`,
+73:`<h4>Generosidade Emocional e Trocas Afetivas.</h4>
+<p>Na Matriz Pessoal, a Potência 73 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade através das trocas emocionais e da necessidade de conexão afetiva. Existe a sensação de que vínculos emocionais possuem grande influência sobre seu equilíbrio interior.</p>
+<p>No aspecto positivo manifesta empatia, generosidade emocional e facilidade para criar conexões afetivas verdadeiras.</p>
+<p>No aspecto negativo pode gerar ilusões emocionais, excesso de entrega e dificuldade em reconhecer limites afetivos.</p>
+<p>A Potência 73 ensina que a realidade é percebida como uma experiência de troca emocional e aprendizado afetivo.</p>`,
 
-76:`<p>Reconhecimento Interior e Construção Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 76 faz com que você perceba a realidade como valorização do próprio esforço interno.</p>
-<p>No aspecto positivo manifesta crescimento emocional.</p>
-<p>No aspecto negativo pode gerar ansiedade por resultados. </p>
-<p>A Potência 76 ensina que a realidade é percebida como reconhecimento interior.</p>`,
+74:`<h4>Instabilidade Interior e Reconstrução Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 74 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como períodos de reorganização emocional e necessidade de reconstrução psicológica. Existe a sensação de precisar reconstruir internamente aquilo que foi abalado emocionalmente.</p>
+<p>No aspecto positivo manifesta superação emocional, força interior e capacidade de adaptação psicológica.</p>
+<p>No aspecto negativo pode gerar insegurança emocional, sensação de instabilidade e medo de perder o controle interno.</p>
+<p>A Potência 74 ensina que a realidade é percebida como um processo contínuo de reconstrução emocional.</p>`,
 
-77:`<p>Despertar Espiritual e Transformação Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 77 faz com que você perceba a realidade como evolução espiritual interna.</p>
-<p>No aspecto positivo manifesta sabedoria emocional.</p>
-<p>No aspecto negativo pode gerar instabilidade emocional.</p>
-<p>A Potência 77 ensina que a realidade é percebida como despertar interior.</p>`,
+75:`<h4>Segurança Emocional e Consolidação Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 75 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma busca constante por estabilidade emocional e fortalecimento afetivo. Existe a necessidade de consolidar relações e construir segurança psicológica duradoura.</p>
+<p>No aspecto positivo manifesta equilíbrio emocional, sensação de proteção interior e estabilidade afetiva.</p>
+<p>No aspecto negativo pode gerar apego emocional, resistência a mudanças e medo de perdas afetivas.</p>
+<p>A Potência 75 ensina que a realidade é percebida como uma construção de segurança emocional contínua.</p>`,
 
-78:`<p>Alegria Interior e Expansão Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 78 faz com que você perceba a realidade como fases de felicidade emocional.</p>
-<p>No aspecto positivo manifesta entusiasmo e alegria.</p>
-<p>No aspecto negativo pode gerar excessos emocionais.</p>
-<p>A Potência 78 ensina que a realidade é percebida como expansão emocional.</p>`,
+76:`<h4>Reconhecimento Interior e Construção Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 76 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como valorização do próprio crescimento emocional e reconhecimento do esforço interior. Existe a sensação de que cada experiência psicológica contribui para fortalecer sua identidade.</p>
+<p>No aspecto positivo manifesta crescimento emocional, amadurecimento psicológico e confiança construída através das experiências.</p>
+<p>No aspecto negativo pode gerar ansiedade por resultados, necessidade excessiva de validação e autocobrança emocional.</p>
+<p>A Potência 76 ensina que a realidade é percebida como reconhecimento gradual da própria evolução interior.</p>`,
 
-79:`<p>Libertação Emocional e Novo Começo Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 79 faz com que você perceba a realidade como necessidade de recomeçar emocionalmente.</p>
-<p>No aspecto positivo manifesta independência emocional.</p>
-<p>No aspecto negativo pode gerar instabilidade.</p>
-<p>A Potência 79 ensina que a realidade é percebida como libertação.</p>`,
+77:`<h4>Despertar Espiritual e Transformação Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 77 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como um processo profundo de evolução espiritual e transformação emocional. Existe a sensação de que experiências internas possuem significados maiores ligados ao crescimento da consciência.</p>
+<p>No aspecto positivo manifesta sabedoria emocional, intuição elevada e capacidade de compreensão espiritual da vida.</p>
+<p>No aspecto negativo pode gerar instabilidade emocional, excesso de introspecção e dificuldade de lidar com o mundo externo.</p>
+<p>A Potência 77 ensina que a realidade é percebida como um caminho de despertar interior e expansão da consciência.</p>`,
 
-81:`<p>Consciência Cármica e Responsabilidade Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 81 faz com que você perceba a realidade como aprendizado através das consequências.</p>
-<p>No aspecto positivo manifesta maturidade emocional.</p>
-<p>No aspecto negativo pode gerar sensação de peso emocional.</p>
-<p>A Potência 81 ensina que a realidade é percebida como responsabilidade interior.</p>`,
+78:`<h4>Alegria Interior e Expansão Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 78 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como fases de felicidade emocional, entusiasmo e expansão afetiva. Existe a sensação de que viver emoções positivas fortalece sua conexão com a vida.</p>
+<p>No aspecto positivo manifesta alegria emocional, entusiasmo interior e capacidade de irradiar energia positiva.</p>
+<p>No aspecto negativo pode gerar excessos emocionais, impulsividade afetiva e dificuldade em lidar com limitações.</p>
+<p>A Potência 78 ensina que a realidade é percebida como expansão emocional e celebração da vida interior.</p>`,
 
-82:`<p>Ciclos Emocionais e Padrões Internos.</p>
-<p>Na Pirâmide Pessoal, a Potência 82 faz com que você perceba a realidade como repetição de padrões emocionais.</p>
-<p>No aspecto positivo manifesta consciência dos ciclos.</p>
-<p>No aspecto negativo pode gerar sensação de repetição constante.</p>
-<p>A Potência 82 ensina que a realidade é percebida como ciclos emocionais.</p>`,
+79:`<h4>Libertação Emocional e Novo Começo Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 79 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como necessidade de libertação emocional e renovação psicológica. Existe a sensação de que certos ciclos precisam ser encerrados para permitir novos começos internos.</p>
+<p>No aspecto positivo manifesta independência emocional, coragem psicológica e capacidade de recomeçar.</p>
+<p>No aspecto negativo pode gerar instabilidade emocional, medo de vínculos profundos e dificuldade em manter constância afetiva.</p>
+<p>A Potência 79 ensina que a realidade é percebida como um processo de libertação e renovação interior.</p>`,
 
-83:`<p>Autocontrole Emocional e Harmonia Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 83 faz com que você perceba a realidade como busca por domínio emocional.</p>
-<p>No aspecto positivo manifesta equilíbrio interno.</p>
-<p>No aspecto negativo pode gerar controle excessivo.</p>
-<p>A Potência 83 ensina que a realidade é percebida como autodomínio.</p>`,
+80:`<h4>Responsabilidade Interior e Estrutura Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 80 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma experiência que exige responsabilidade emocional e construção de equilíbrio psicológico sólido. Existe a sensação de que amadurecimento interior depende de disciplina emocional.</p>
+<p>No aspecto positivo manifesta estabilidade psicológica, consciência emocional e capacidade de sustentar decisões internas com firmeza.</p>
+<p>No aspecto negativo pode gerar rigidez emocional, excesso de autocontrole e dificuldade para expressar vulnerabilidades.</p>
+<p>A Potência 80 ensina que a realidade é percebida como uma construção emocional baseada em responsabilidade e estabilidade interior.</p>`,
 
-84:`<p>Propósito Interior e Missão Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 84 faz com que você perceba a realidade como desejo de ter propósito.</p>
-<p>No aspecto positivo manifesta senso de missão interna.</p>
-<p>No aspecto negativo pode gerar sobrecarga emocional.</p>
-<p>A Potência 84 ensina que a realidade é percebida como missão interior.</p>`,
 
-85:`<p>Crise Interior e Recolhimento Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 85 faz com que você perceba a realidade como períodos de isolamento emocional.</p>
-<p>No aspecto positivo manifesta transformação interior.</p>
-<p>No aspecto negativo pode gerar tristeza profunda.</p>
-<p>A Potência 85 ensina que a realidade é percebida como reflexão profunda.</p>`,
+ 81:`<h4>Consciência Cármica e Responsabilidade Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 81 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como um aprendizado ligado às consequências emocionais das próprias escolhas. Existe a sensação de que cada atitude interna gera impactos importantes sobre sua evolução psicológica.</p>
+<p>No aspecto positivo manifesta maturidade emocional, consciência interior e responsabilidade afetiva.</p>
+<p>No aspecto negativo pode gerar sensação de peso emocional, culpa excessiva e autocobrança intensa.</p>
+<p>A Potência 81 ensina que a realidade é percebida como um processo de responsabilidade emocional e amadurecimento interior.</p>`,
 
-86:`<p>Persistência Emocional e Determinação Interna.</p>
-<p>Na Pirâmide Pessoal, a Potência 86 faz com que você perceba a realidade como desafios que exigem força emocional.</p>
-<p>No aspecto positivo manifesta determinação.</p>
-<p>No aspecto negativo pode gerar desgaste emocional.</p>
-<p>A Potência 86 ensina que a realidade é percebida como perseverança.</p>`,
+82:`<h4>Ciclos Emocionais e Padrões Internos.</h4>
+<p>Na Matriz Pessoal, a Potência 82 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como repetição de experiências emocionais e padrões psicológicos que precisam ser compreendidos. Existe a sensação de viver ciclos internos que retornam para gerar aprendizado.</p>
+<p>No aspecto positivo manifesta consciência emocional, percepção dos próprios padrões e capacidade de transformação interior.</p>
+<p>No aspecto negativo pode gerar sensação de repetição constante, bloqueios emocionais e dificuldade de romper hábitos psicológicos.</p>
+<p>A Potência 82 ensina que a realidade é percebida como ciclos emocionais voltados ao aprendizado interior.</p>`,
 
-87:`<p>Controle de Impulsos e Conflitos Internos.</p>
-<p>Na Pirâmide Pessoal, a Potência 87 faz com que você perceba a realidade como luta contra excessos emocionais.</p>
-<p>No aspecto positivo manifesta libertação de vícios emocionais.</p>
-<p>No aspecto negativo pode gerar autossabotagem.</p>
-<p>A Potência 87 ensina que a realidade é percebida como domínio dos impulsos.</p>`,
+83:`<h4>Autocontrole Emocional e Harmonia Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 83 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma busca constante por domínio emocional e equilíbrio psicológico. Existe a necessidade de harmonizar impulsos, sentimentos e pensamentos internos.</p>
+<p>No aspecto positivo manifesta equilíbrio emocional, maturidade psicológica e capacidade de agir com consciência.</p>
+<p>No aspecto negativo pode gerar controle excessivo, repressão emocional e dificuldade para demonstrar vulnerabilidade.</p>
+<p>A Potência 83 ensina que a realidade é percebida como um exercício contínuo de autodomínio interior.</p>`,
 
-88:`<p>Colapso Emocional e Reconstrução Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 88 faz com que você perceba a realidade como mudanças profundas internas.</p>
-<p>No aspecto positivo manifesta renascimento emocional.</p>
-<p>No aspecto negativo pode gerar sensação de caos interior.</p>
-<p>A Potência 88 ensina que a realidade é percebida como reconstrução.</p>`,
+84:`<h4>Propósito Interior e Missão Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 84 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma necessidade de encontrar propósito emocional e significado interior. Existe a sensação de que sua vida possui uma missão ligada ao crescimento psicológico e afetivo.</p>
+<p>No aspecto positivo manifesta senso de propósito, consciência emocional e desejo de contribuir positivamente para a vida das pessoas.</p>
+<p>No aspecto negativo pode gerar sobrecarga emocional, sensação de responsabilidade excessiva e dificuldade em descansar mentalmente.</p>
+<p>A Potência 84 ensina que a realidade é percebida como um caminho de propósito e realização interior.</p>`,
 
-89:`<p>Expectativas Emocionais e Aprendizado Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 89 faz com que você perceba a realidade como tensão entre desejo e realidade emocional.</p>
-<p>No aspecto positivo manifesta amadurecimento.</p>
-<p>No aspecto negativo pode gerar frustração.</p>
-<p>A Potência 89 ensina que a realidade é percebida como aprendizado emocional.</p>`,
+85:`<h4>Crise Interior e Recolhimento Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 85 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como períodos de introspecção profunda e necessidade de isolamento emocional para reorganizar sentimentos internos.</p>
+<p>No aspecto positivo manifesta transformação psicológica, autoconhecimento e fortalecimento emocional através da reflexão.</p>
+<p>No aspecto negativo pode gerar tristeza profunda, melancolia e afastamento excessivo das relações afetivas.</p>
+<p>A Potência 85 ensina que a realidade é percebida como um processo de recolhimento e reconstrução emocional.</p>`,
 
-90:`<p>Sabedoria Interior e Silêncio Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 90 faz com que você perceba a realidade como necessidade de introspecção profunda.</p>
-<p>No aspecto positivo manifesta sabedoria emocional.</p>
-<p>No aspecto negativo pode gerar isolamento.</p>
-<p>A Potência 90 ensina que a realidade é percebida como busca espiritual interior.</p>`,
+86:`<h4>Persistência Emocional e Determinação Interna.</h4>
+<p>Na Matriz Pessoal, a Potência 86 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como desafios emocionais que exigem resistência psicológica e determinação interior. Existe a sensação de precisar manter firmeza diante das dificuldades afetivas.</p>
+<p>No aspecto positivo manifesta perseverança emocional, força interior e capacidade de enfrentar situações difíceis com maturidade.</p>
+<p>No aspecto negativo pode gerar desgaste psicológico, excesso de tensão emocional e dificuldade de relaxar internamente.</p>
+<p>A Potência 86 ensina que a realidade é percebida como um processo de fortalecimento através da persistência emocional.</p>`,
 
-91:`<p>Retorno Emocional e Responsabilidade Psicológica.</p>
-<p>Na Pirâmide Pessoal, a Potência 91 faz com que você perceba a realidade como retorno de suas próprias ações emocionais.</p>
-<p>No aspecto positivo manifesta maturidade.</p>
-<p>No aspecto negativo pode gerar sensação de peso emocional. </p>
-<p>A Potência 91 ensina que a realidade é percebida como retorno interno.</p>`,
+87:`<h4>Controle de Impulsos e Conflitos Internos.</h4>
+<p>Na Matriz Pessoal, a Potência 87 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma luta constante contra excessos emocionais e impulsos internos. Existe a sensação de precisar dominar emoções intensas para manter equilíbrio psicológico.</p>
+<p>No aspecto positivo manifesta consciência emocional, superação de padrões negativos e fortalecimento da disciplina interior.</p>
+<p>No aspecto negativo pode gerar autossabotagem, conflitos emocionais recorrentes e dificuldade de controlar impulsos afetivos.</p>
+<p>A Potência 87 ensina que a realidade é percebida como um aprendizado de domínio emocional e transformação psicológica.</p>`,
 
-92:`<p>Reavaliação Interior e Questionamentos Emocionais.</p>
-<p>Na Pirâmide Pessoal, a Potência 92 faz com que você perceba a realidade como revisão constante de escolhas internas.</p>
-<p>No aspecto positivo manifesta reflexão profunda.</p>
-<p>No aspecto negativo pode gerar insegurança emocional.</p>
-<p>A Potência 92 ensina que a realidade é percebida como reavaliação.</p>`,
+88:`<h4>Colapso Emocional e Reconstrução Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 88 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como mudanças profundas que provocam rupturas emocionais e reconstrução psicológica. Existe a sensação de que antigas estruturas internas precisam ser quebradas para permitir crescimento.</p>
+<p>No aspecto positivo manifesta renascimento emocional, libertação psicológica e capacidade de reconstruir a própria identidade.</p>
+<p>No aspecto negativo pode gerar sensação de caos interior, instabilidade emocional e medo de perder segurança afetiva.</p>
+<p>A Potência 88 ensina que a realidade é percebida como um processo de transformação profunda e reconstrução interior.</p>`,
 
-93:`<p>Expansão Espiritual e Evolução Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 93 faz com que você perceba a realidade como crescimento espiritual e emocional.</p>
-<p>No aspecto positivo manifesta consciência elevada.</p>
-<p>No aspecto negativo pode gerar distanciamento emocional.</p>
-<p>A Potência 93 ensina que a realidade é percebida como evolução.</p>`,
+89:`<h4>Expectativas Emocionais e Aprendizado Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 89 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma tensão constante entre desejos emocionais e resultados da vida interior. Existe a sensação de aprender através das próprias expectativas afetivas.</p>
+<p>No aspecto positivo manifesta amadurecimento emocional, consciência psicológica e crescimento através das experiências.</p>
+<p>No aspecto negativo pode gerar frustração afetiva, ansiedade emocional e dificuldade em aceitar limitações.</p>
+<p>A Potência 89 ensina que a realidade é percebida como um aprendizado contínuo sobre emoções e expectativas internas.</p>`,
 
-94:`<p>Cansaço Emocional e Transição Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 94 faz com que você perceba a realidade como necessidade de pausa emocional.</p>
-<p>No aspecto positivo manifesta reorientação interna.</p>
-<p>No aspecto negativo pode gerar desânimo.</p>
-<p>A Potência 94 ensina que a realidade é percebida como transição.</p>`,
+90:`<h4>Sabedoria Interior e Silêncio Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 90 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como necessidade de introspecção profunda e conexão espiritual interior. Existe a sensação de que o silêncio emocional favorece compreensão e amadurecimento psicológico.</p>
+<p>No aspecto positivo manifesta sabedoria emocional, equilíbrio espiritual e capacidade de reflexão profunda.</p>
+<p>No aspecto negativo pode gerar isolamento emocional, excesso de introspecção e dificuldade de compartilhar sentimentos.</p>
+<p>A Potência 90 ensina que a realidade é percebida como um caminho de sabedoria interior e evolução emocional.</p>`,
 
-95:`<p>Harmonia Interior e Reconhecimento Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 95 faz com que você perceba a realidade como busca por equilíbrio emocional nas relações.</p>
-<p>No aspecto positivo manifesta aceitação emocional.</p>
-<p>No aspecto negativo pode gerar dependência de aprovação.</p>
-<p>A Potência 95 ensina que a realidade é percebida como harmonia.</p>`,
+ 91:`<h4>Retorno Emocional e Responsabilidade Psicológica.</h4>
+<p>Na Matriz Pessoal, a Potência 91 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como retorno emocional das próprias atitudes e escolhas internas. Existe a sensação de que pensamentos, sentimentos e ações psicológicas produzem consequências importantes no seu desenvolvimento emocional.</p>
+<p>No aspecto positivo manifesta maturidade emocional, consciência psicológica e capacidade de aprender com as próprias experiências.</p>
+<p>No aspecto negativo pode gerar sensação de peso emocional, culpa excessiva e dificuldade de desapegar do passado.</p>
+<p>A Potência 91 ensina que a realidade é percebida como um processo de responsabilidade interior e aprendizado emocional.</p>`,
 
-96:`<p>Queda de Ilusões e Clareza Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 96 faz com que você perceba a realidade como confronto com ilusões internas.</p>
-<p>No aspecto positivo manifesta libertação emocional.</p>
-<p>No aspecto negativo pode gerar confusão afetiva.</p>
-<p>A Potência 96 ensina que a realidade é percebida como despertar emocional.</p>`,
+92:`<h4>Reavaliação Interior e Questionamentos Emocionais.</h4>
+<p>Na Matriz Pessoal, a Potência 92 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como uma fase de revisão emocional e questionamentos internos profundos. Existe a necessidade de reavaliar sentimentos, escolhas e padrões psicológicos.</p>
+<p>No aspecto positivo manifesta reflexão consciente, autoconhecimento e reorganização emocional.</p>
+<p>No aspecto negativo pode gerar insegurança psicológica, excesso de dúvidas e dificuldade de tomar decisões emocionais.</p>
+<p>A Potência 92 ensina que a realidade é percebida como um processo de revisão e amadurecimento interior.</p>`,
 
-97:`<p>Rupturas Emocionais e Descoberta Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 97 faz com que você perceba a realidade como mudanças que revelam propósito emocional.</p>
-<p>No aspecto positivo manifesta libertação.</p>
-<p>No aspecto negativo pode gerar conflitos internos.</p>
-<p>A Potência 97 ensina que a realidade é percebida como redirecionamento.</p>`,
+93:`<h4>Expansão Espiritual e Evolução Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 93 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como um caminho de crescimento espiritual e expansão emocional. Existe a sensação de que a vida impulsiona sua consciência para níveis mais profundos de compreensão.</p>
+<p>No aspecto positivo manifesta consciência elevada, sabedoria emocional e conexão espiritual.</p>
+<p>No aspecto negativo pode gerar distanciamento emocional, excesso de idealismo e dificuldade de lidar com questões práticas.</p>
+<p>A Potência 93 ensina que a realidade é percebida como evolução psicológica e expansão da consciência.</p>`,
 
-98:`<p>Reconhecimento Interior e Elevação Emocional.</p>
-<p>Na Pirâmide Pessoal, a Potência 98 faz com que você perceba a realidade como recompensa emocional por esforços internos.</p>
-<p>No aspecto positivo manifesta autoestima elevada.</p>
-<p>No aspecto negativo pode gerar orgulho emocional. </p>
-<p>A Potência 98 ensina que a realidade é percebida como reconhecimento.</p>`,
+94:`<h4>Cansaço Emocional e Transição Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 94 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como momentos de desgaste emocional que antecedem transformações internas importantes. Existe a sensação de precisar desacelerar para reorganizar a própria vida psicológica.</p>
+<p>No aspecto positivo manifesta reorientação emocional, reflexão madura e capacidade de adaptação.</p>
+<p>No aspecto negativo pode gerar desânimo, sensação de esgotamento e perda temporária de motivação.</p>
+<p>A Potência 94 ensina que a realidade é percebida como um período de transição e reorganização interior.</p>`,
 
-99:`<p>Consciência Suprema e Integração Interior.</p>
-<p>Na Pirâmide Pessoal, a Potência 99 faz com que você perceba a realidade como integração total da experiência emocional.</p>
-<p>No aspecto positivo manifesta sabedoria profunda.</p>
-<p>No aspecto negativo pode gerar isolamento emocional.</p>
-<p>A Potência 99 ensina que a realidade é percebida como integração da consciência.</p>`
+95:`<h4>Harmonia Interior e Reconhecimento Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 95 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como busca constante por equilíbrio emocional nas relações e na própria vida interior. Existe a necessidade de sentir aceitação e harmonia afetiva.</p>
+<p>No aspecto positivo manifesta compreensão emocional, equilíbrio psicológico e facilidade para criar vínculos harmoniosos.</p>
+<p>No aspecto negativo pode gerar dependência de aprovação, insegurança afetiva e medo de rejeição emocional.</p>
+<p>A Potência 95 ensina que a realidade é percebida como uma busca contínua por harmonia interior.</p>`,
 
+96:`<h4>Queda de Ilusões e Clareza Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 96 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como confrontos com ilusões emocionais e revelações psicológicas importantes. Existe a sensação de enxergar verdades internas que antes estavam ocultas.</p>
+<p>No aspecto positivo manifesta libertação emocional, amadurecimento psicológico e clareza interior.</p>
+<p>No aspecto negativo pode gerar confusão afetiva, frustrações emocionais e dificuldade de aceitar certas verdades.</p>
+<p>A Potência 96 ensina que a realidade é percebida como um processo de despertar emocional e consciência interior.</p>`,
+
+97:`<h4>Rupturas Emocionais e Descoberta Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 97 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como mudanças emocionais que revelam novos caminhos internos e despertam crescimento psicológico.</p>
+<p>No aspecto positivo manifesta libertação emocional, coragem para mudanças e descoberta do próprio propósito interior.</p>
+<p>No aspecto negativo pode gerar conflitos internos, instabilidade afetiva e medo de perder referências emocionais.</p>
+<p>A Potência 97 ensina que a realidade é percebida como um redirecionamento emocional e transformação psicológica.</p>`,
+
+98:`<h4>Reconhecimento Interior e Elevação Emocional.</h4>
+<p>Na Matriz Pessoal, a Potência 98 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como reconhecimento emocional das próprias conquistas internas. Existe a sensação de valorização psicológica e crescimento afetivo após períodos de superação.</p>
+<p>No aspecto positivo manifesta autoestima elevada, confiança emocional e sensação de realização interior.</p>
+<p>No aspecto negativo pode gerar orgulho emocional, necessidade excessiva de reconhecimento e dificuldade de aceitar críticas.</p>
+<p>A Potência 98 ensina que a realidade é percebida como um processo de valorização e elevação emocional.</p>`,
+
+99:`<h4>Consciência Suprema e Integração Interior.</h4>
+<p>Na Matriz Pessoal, a Potência 99 indica que você, NOME_MASCULINO_FEMININO_NEUTRO, percebe a realidade como integração profunda das experiências emocionais e expansão máxima da consciência interior. Existe a sensação de compreender a vida através de uma visão ampla e espiritualizada.</p>
+<p>No aspecto positivo manifesta sabedoria profunda, consciência emocional elevada e forte capacidade de compreensão humana.</p>
+<p>No aspecto negativo pode gerar isolamento emocional, excesso de introspecção e dificuldade de conexão prática com a realidade.</p>
+<p>A Potência 99 ensina que a realidade é percebida como integração da consciência e evolução emocional profunda.</p>`
+ 
+ 
+ 
 };
 
   textosSocial={ 
@@ -1520,579 +1548,599 @@ textosPessoal={
 
 
 
-1: `<h3>Percepção de Liderança no Meio Social</h3>  
-<p>Para você, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.</p>
-<p>Essa regência indica que você tende a observar o meio social como um espaço onde indivíduos buscam afirmar suas ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe nas outras pessoas atitudes de competição, iniciativa ou desejo de se destacar.</p>
-<p>No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes. No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou dominado por conflitos de ego.</p>
+1:`<h3>Percepção de Liderança no Meio Social</h3>  
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 1 do Meio Social representa uma visão do ambiente baseada na iniciativa, na independência e na capacidade de liderança das pessoas ao seu redor.</p>
+<p>Essa regência indica que você tende a observar o meio social como um espaço onde as pessoas buscam afirmar ideias, conquistar autonomia e demonstrar força de vontade. Muitas vezes você percebe atitudes de competição, iniciativa ou desejo de destaque nas relações sociais.</p>
+<p>No aspecto positivo manifesta visão de liderança, iniciativa e capacidade de reconhecer pessoas fortes e determinadas. No aspecto negativo pode gerar tendência a perceber o meio social como competitivo ou marcado por conflitos de ego.</p>
 <p>O aprendizado do Regente 1 do Meio Social consiste em compreender a liderança sem transformar todas as relações em competição.</p>`,
 
-2: `<h3>Percepção Sensível das Relações Sociais</h3>  
-<p>Para você, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações entre as pessoas.</p>
-<p>Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes você identifica tensões, alianças ou conflitos ocultos que outras pessoas não percebem com facilidade. Sua visão do mundo é filtrada pela empatia.</p>
-<p>No aspecto positivo manifesta empatia social e grande percepção emocional. No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos das pessoas ao redor.</p>
-<p>O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas dos outros.</p>`,
+2:`<h3>Percepção Sensível das Relações Sociais</h3>  
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 2 do Meio Social representa uma visão do ambiente baseada na sensibilidade emocional e na observação das relações humanas.</p>
+<p>Essa regência indica que você tende a perceber facilmente os sentimentos presentes no ambiente social. Muitas vezes identifica tensões, alianças ou conflitos ocultos que outras pessoas não conseguem notar com facilidade. Sua visão do mundo é fortemente filtrada pela empatia.</p>
+<p>No aspecto positivo manifesta empatia social, sensibilidade emocional e capacidade de compreender os sentimentos das pessoas ao redor. No aspecto negativo pode gerar tendência a absorver excessivamente os conflitos emocionais do ambiente.</p>
+<p>O aprendizado do Regente 2 do Meio Social consiste em observar as emoções do ambiente sem carregar para si os problemas das outras pessoas.</p>`,
 
-3: `<h3>Percepção Criativa das Relações Sociais</h3> 
-<p>Para você, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.</p>
-<p>Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade. Você valoriza o brilho individual e a capacidade das pessoas de se expressarem no mundo.</p>
-<p>No aspecto positivo manifesta visão otimista e comunicativa das relações sociais. No aspecto negativo pode gerar tendência a perceber superficialidade nas interações sociais.</p>
-<p>O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade nas relações.</p>`,
+3:`<h3>Percepção Criativa das Relações Sociais</h3> 
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 3 do Meio Social representa uma visão do ambiente baseada na comunicação, na criatividade e na interação entre as pessoas.</p>
+<p>Essa regência indica que você tende a perceber o meio social como um espaço de troca de ideias, conversas e manifestações de personalidade. Existe valorização do brilho individual e da capacidade das pessoas de expressarem a própria identidade.</p>
+<p>No aspecto positivo manifesta visão otimista, comunicativa e criativa das relações sociais. No aspecto negativo pode gerar tendência a perceber superficialidade nas interações humanas.</p>
+<p>O aprendizado do Regente 3 do Meio Social consiste em valorizar a comunicação sem perder a profundidade emocional nas relações.</p>`,
 
-4: `<h3>Percepção Estruturada do Ambiente Social</h3> 
-<p>Para você, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.</p>
-<p>Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas. Você percebe quem são as pessoas confiáveis e quem são as que fogem das normas ou da ordem estabelecida.</p>
-<p>No aspecto positivo manifesta visão organizada e realista das relações sociais. No aspecto negativo pode gerar percepção rígida ou crítica das atitudes das pessoas.</p>
-<p>O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem regras fixas.</p>`,
+4:`<h3>Percepção Estruturada do Ambiente Social</h3> 
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 4 do Meio Social representa uma visão das relações sociais baseada na disciplina, na organização e na estabilidade.</p>
+<p>Essa regência indica que você tende a observar o meio social como um sistema de regras, responsabilidades e estruturas. Existe facilidade para perceber quem demonstra comprometimento e quem age de maneira desorganizada ou instável.</p>
+<p>No aspecto positivo manifesta visão organizada, prática e realista das relações sociais. No aspecto negativo pode gerar percepção rígida, crítica excessiva ou dificuldade de aceitar comportamentos diferentes.</p>
+<p>O aprendizado do Regente 4 do Meio Social consiste em compreender que as relações humanas nem sempre seguem padrões previsíveis.</p>`,
 
-5: `<h3>Percepção Dinâmica do Meio Social</h3>  
-<p>Para você, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.</p>
-<p>Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão sempre mudando ou buscando novas experiências. Você se sente atraído por meios plurais e detesta a monotonia social.</p>
-<p>No aspecto positivo manifesta curiosidade social e capacidade de compreender diferentes tipos de pessoas. No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.</p>
-<p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade das pessoas sem perder o equilíbrio.</p>`,
+5:`<h3>Percepção Dinâmica do Meio Social</h3>  
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 5 do Meio Social representa uma visão das relações humanas marcada pela mudança, pela diversidade e pela curiosidade em relação às pessoas.</p>
+<p>Essa regência indica que você tende a perceber o ambiente social como algo dinâmico, onde as pessoas estão constantemente mudando ou buscando novas experiências. Existe forte atração por ambientes plurais e livres de monotonia.</p>
+<p>No aspecto positivo manifesta curiosidade social, flexibilidade e capacidade de compreender diferentes tipos de personalidade. No aspecto negativo pode gerar percepção de instabilidade ou imprevisibilidade nas relações sociais.</p>
+<p>O aprendizado do Regente 5 do Meio Social consiste em compreender a diversidade humana sem perder o equilíbrio emocional.</p>`,
 
-6: `<h3>Percepção Afetiva do Meio Social</h3> 
-<p>Para você, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p>
-<p>Essa regência indica que você tende a observar o meio social através da qualidade das relações afetivas e familiares. Você percebe quem cuida de quem e valoriza ambientes onde a cooperação e o amor são as bases principais.</p>
-<p>No aspecto positivo manifesta percepção de amor, cooperação e harmonia social. No aspecto negativo pode gerar tendência a perceber conflitos emocionais entre as pessoas.</p>
-<p>O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional.</p>`,
+6:`<h3>Percepção Afetiva do Meio Social</h3> 
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 6 do Meio Social representa uma visão das relações humanas baseada no afeto, na responsabilidade emocional e na harmonia entre as pessoas.</p>
+<p>Essa regência indica que você tende a observar o meio social através da qualidade dos vínculos afetivos e familiares. Existe valorização de ambientes onde cooperação, cuidado e acolhimento emocional estão presentes.</p>
+<p>No aspecto positivo manifesta percepção de amor, harmonia social e senso de cuidado coletivo. No aspecto negativo pode gerar tendência a perceber excessivamente os conflitos emocionais das pessoas ao redor.</p>
+<p>O aprendizado do Regente 6 do Meio Social consiste em compreender as relações humanas com equilíbrio emocional e maturidade afetiva.</p>`,
 
-7: `<h3>Percepção Analítica do Meio Social</h3> 
-<p>Para você, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.</p>
-<p>Essa regência indica que você tende a observar o ambiente social de forma reflexiva, analisando atitudes e motivações ocultas. Você prefere observar a distância antes de se integrar totalmente a um grupo.</p>
-<p>No aspecto positivo manifesta compreensão profunda do comportamento humano. No aspecto negativo pode gerar tendência ao distanciamento social ou excesso de análise.</p>
+7:`<h3>Percepção Analítica do Meio Social</h3> 
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 7 do Meio Social representa uma visão das relações humanas baseada na análise, na observação e na busca de compreensão profunda do comportamento das pessoas.</p>
+<p>Essa regência indica que você tende a observar o ambiente social de maneira reflexiva, analisando atitudes, intenções e motivações ocultas. Muitas vezes prefere observar antes de se integrar totalmente aos grupos.</p>
+<p>No aspecto positivo manifesta compreensão profunda do comportamento humano e grande capacidade de análise social. No aspecto negativo pode gerar distanciamento emocional ou excesso de racionalização das relações.</p>
 <p>O aprendizado do Regente 7 do Meio Social consiste em compreender as pessoas sem se afastar emocionalmente delas.</p>`,
 
-8: `<h3>Percepção de Poder no Meio Social</h3> 
-<p>Para você, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.</p>
-<p>Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência. Você reconhece rapidamente quem detém a autoridade em qualquer grupo.</p>
-<p>No aspecto positivo manifesta visão estratégica e compreensão das estruturas sociais. No aspecto negativo pode gerar percepção excessiva de competição ou disputa por poder.</p>
-<p>O aprendizado do Regente 8 do Meio Social consiste em compreender o poder sem transformar todas as relações em competição.</p>`,
+8:`<h3>Percepção de Poder no Meio Social</h3> 
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 8 do Meio Social representa uma visão das relações humanas baseada no poder, na autoridade e nas estruturas sociais.</p>
+<p>Essa regência indica que você tende a perceber o ambiente social como um espaço onde existem hierarquias, responsabilidades e disputas por influência. Existe facilidade para reconhecer quem exerce liderança e autoridade em diferentes grupos.</p>
+<p>No aspecto positivo manifesta visão estratégica, senso de responsabilidade e compreensão das estruturas sociais. No aspecto negativo pode gerar percepção excessiva de competição ou conflitos de poder nas relações humanas.</p>
+<p>O aprendizado do Regente 8 do Meio Social consiste em compreender a autoridade sem transformar todas as relações em disputa.</p>`,
 
-9: `<h3>Percepção Humanitária do Meio Social</h3>
-<p>Para você, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.</p>
-<p>Essa regência indica que você tende a observar o ambiente social com olhar filosófico ou humanitário. Você percebe as dores e as necessidades do mundo, sentindo-se atraído por causas que visam o bem comum e a evolução da humanidade.</p>
-<p>No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária. No aspecto negativo pode gerar sensação de distância emocional ou desilusão com o comportamento humano.</p>
-<p>O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria e equilíbrio.</p>`,
-
+9:`<h3>Percepção Humanitária do Meio Social</h3>
+<p>Para você, NOME_MASCULINO_FEMININO_NEUTRO, o Regente 9 do Meio Social representa uma visão das relações humanas baseada na sabedoria, na compaixão e na compreensão das experiências coletivas.</p>
+<p>Essa regência indica que você tende a observar o ambiente social com olhar filosófico e humanitário. Existe sensibilidade para perceber dores, necessidades e desafios vividos pelas pessoas e pela sociedade.</p>
+<p>No aspecto positivo manifesta compaixão, sabedoria social e visão humanitária das relações humanas. No aspecto negativo pode gerar sensação de distância emocional ou desilusão com determinados comportamentos sociais.</p>
+<p>O aprendizado do Regente 9 do Meio Social consiste em compreender a humanidade com sabedoria, empatia e equilíbrio emocional.</p>`,
    
 
-11: `<p>Força Social e Percepção de Liderança.</p>
-<p>Na Pirâmide Social, a Potência 11 indica que você percebe o ambiente externo como um campo de força, iniciativa e tomada de decisões. Enxerga as relações sociais como espaços onde liderança, posicionamento e atitude definem os rumos coletivos. Costuma notar quem assume o controle, quem conduz situações e quem evita responsabilidades.</p>
+11: `<h4>Força Social e Percepção de Liderança.</h4>
+<p>Na Matriz Social, a Potência 11 indica que você percebe o ambiente externo como um campo de força, iniciativa e tomada de decisões. Você enxerga as relações sociais como espaços onde liderança, posicionamento e atitude definem os rumos coletivos. Costuma notar quem assume o controle, quem conduz situações e quem evita responsabilidades.</p>
 <p>No aspecto positivo manifesta postura firme, visão estratégica e capacidade de compreender dinâmicas de poder.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo ou exigente.</p>
-<p>A Potência 11 mostra que a pessoa vive e interpreta o mundo social como um cenário de liderança e afirmação.</p>`,
+<p>A Potência 11 mostra que você interpreta o mundo social como um cenário de liderança e afirmação.</p>`,
 
-12: `<p>Cooperação Social e Percepção de Sacrifício.</p>
-<p>Na Pirâmide Social, a Potência 12 indica que você percebe o ambiente social como um espaço onde colaboração, paciência e concessões são necessárias para manter o equilíbrio coletivo. Enxerga as relações como processos que exigem apoio mútuo e sustentação constante. Costuma notar quem ajuda, quem se sacrifica e quem evita compromissos.</p>
+12: `<h4>Cooperação Social e Percepção de Sacrifício.</h4>
+<p>Na Matriz Social, a Potência 12 indica que você percebe o ambiente social como um espaço onde colaboração, paciência e concessões são necessárias para manter o equilíbrio coletivo. Você enxerga as relações como processos que exigem apoio mútuo e sustentação constante. Costuma notar quem ajuda, quem se sacrifica e quem evita compromissos.</p>
 <p>No aspecto positivo manifesta empatia e compreensão das necessidades do grupo.</p>
 <p>No aspecto negativo pode perceber o meio como pesado ou marcado por cobranças excessivas.</p>
 <p>A Potência 12 revela uma vivência social interpretada sob a ótica da cooperação.</p>`,
 
-13: `<p>Transformação Social e Percepção de Mudanças.</p>
-<p>Na Pirâmide Social, a Potência 13 indica que você percebe o ambiente como instável e sujeito a constantes renovações. Enxerga ciclos de começo e fim nas relações, no trabalho e nas estruturas coletivas. Costuma notar processos de encerramento, rupturas e recomeços ao seu redor.</p>
+13: `<h4>Transformação Social e Percepção de Mudanças.</h4>
+<p>Na Matriz Social, a Potência 13 indica que você percebe o ambiente como instável e sujeito a constantes renovações. Você enxerga ciclos de começo e fim nas relações, no trabalho e nas estruturas coletivas. Costuma notar processos de encerramento, rupturas e recomeços ao seu redor.</p>
 <p>No aspecto positivo manifesta coragem para aceitar mudanças e compreender transições sociais.</p>
 <p>No aspecto negativo pode perceber o meio como imprevisível ou excessivamente mutável.</p>
 <p>A Potência 13 mostra uma vivência social marcada por transformações contínuas.</p>`,
 
-14: `<p>Diplomacia Social e Percepção de Harmonia.</p>
-<p>Na Pirâmide Social, a Potência 14 indica que você percebe o ambiente social como um espaço que exige equilíbrio, diálogo e mediação constante. Enxerga tensões nas relações e identifica a necessidade de conciliar diferenças. Costuma notar conflitos sutis e buscar compreensão entre as partes envolvidas.</p>
+14: `<h4>Diplomacia Social e Percepção de Harmonia.</h4>
+<p>Na Matriz Social, a Potência 14 indica que você percebe o ambiente social como um espaço que exige equilíbrio, diálogo e mediação constante. Você enxerga tensões nas relações e identifica a necessidade de conciliar diferenças. Costuma notar conflitos sutis e buscar compreensão entre as partes envolvidas.</p>
 <p>No aspecto positivo manifesta cooperação e visão harmonizadora das situações coletivas.</p>
 <p>No aspecto negativo pode perceber divergências com desconforto ou excesso de cautela.</p>
 <p>A Potência 14 revela uma percepção social voltada ao equilíbrio e à harmonia.</p>`,
 
-15: `<p>Magnetismo Social e Percepção de Influência.</p>
-<p>Na Pirâmide Social, a Potência 15 indica que você percebe o ambiente como repleto de interesses, desejos e disputas por influência. Enxerga jogos de poder, estratégias de persuasão e movimentações ocultas nas relações sociais. Costuma notar intenções, seduções e mecanismos de convencimento ao seu redor.</p>
+15: `<h4>Magnetismo Social e Percepção de Influência.</h4>
+<p>Na Matriz Social, a Potência 15 indica que você percebe o ambiente como repleto de interesses, desejos e disputas por influência. Você enxerga jogos de poder, estratégias de persuasão e movimentações ocultas nas relações sociais. Costuma notar intenções, seduções e mecanismos de convencimento ao seu redor.</p>
 <p>No aspecto positivo manifesta compreensão do magnetismo e da criatividade presentes no coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como excessivamente competitivo ou manipulador.</p>
 <p>A Potência 15 mostra uma percepção social ligada à dinâmica do poder e da influência.</p>`,
 
-16: `<p>Rupturas Sociais e Percepção de Instabilidade.</p>
-<p>Na Pirâmide Social, a Potência 16 indica que você percebe o ambiente como sujeito a quedas, crises e recomeços inesperados. Enxerga o meio social como um campo onde estruturas podem se romper e onde mudanças bruscas alteram relações e contextos profissionais. Costuma notar instabilidades, rompimentos e reconstruções ao seu redor.</p>
+16: `<h4>Rupturas Sociais e Percepção de Instabilidade.</h4>
+<p>Na Matriz Social, a Potência 16 indica que você percebe o ambiente como sujeito a quedas, crises e recomeços inesperados. Você enxerga o meio social como um campo onde estruturas podem se romper e onde mudanças bruscas alteram relações e contextos profissionais. Costuma notar instabilidades, rompimentos e reconstruções ao seu redor.</p>
 <p>No aspecto positivo manifesta capacidade de compreender processos de reconstrução e aprendizado coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como inseguro ou imprevisível demais.</p>
 <p>A Potência 16 revela uma percepção social marcada por mudanças abruptas e necessidade de adaptação.</p>`,
 
-17: `<p>Inspiração Social e Percepção de Esperança.</p>
-<p>Na Pirâmide Social, a Potência 17 indica que você percebe o ambiente social como um espaço de possibilidades, talentos e sonhos em construção. Enxerga potencial nas pessoas e nas situações, identificando caminhos de crescimento e superação coletiva. Costuma notar oportunidades de evolução e aspectos positivos nos grupos.</p>
+17: `<h4>Inspiração Social e Percepção de Esperança.</h4>
+<p>Na Matriz Social, a Potência 17 indica que você percebe o ambiente social como um espaço de possibilidades, talentos e sonhos em construção. Você enxerga potencial nas pessoas e nas situações, identificando caminhos de crescimento e superação coletiva. Costuma notar oportunidades de evolução e aspectos positivos nos grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e motivação ao interpretar o meio social.</p>
 <p>No aspecto negativo pode perceber o ambiente com idealismo excessivo.</p>
 <p>A Potência 17 revela uma percepção social baseada na esperança e na inspiração.</p>`,
 
-18: `<p>Sensibilidade Social e Percepção Emocional.</p>
-<p>Na Pirâmide Social, a Potência 18 indica que você percebe o ambiente social de forma profunda e emocional. Enxerga sentimentos ocultos, tensões invisíveis e nuances afetivas nas relações coletivas. Costuma notar mudanças de humor, inseguranças e climas emocionais nos grupos.</p>
+18: `<h4>Sensibilidade Social e Percepção Emocional.</h4>
+<p>Na Matriz Social, a Potência 18 indica que você percebe o ambiente social de forma profunda e emocional. Você enxerga sentimentos ocultos, tensões invisíveis e nuances afetivas nas relações coletivas. Costuma notar mudanças de humor, inseguranças e climas emocionais nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e leitura intuitiva do campo social.</p>
 <p>No aspecto negativo pode perceber o ambiente como confuso ou carregado emocionalmente.</p>
 <p>A Potência 18 revela uma percepção social guiada pela sensibilidade.</p>`,
 
-19: `<p>Reconhecimento Social e Percepção de Brilho.</p>
-<p>Na Pirâmide Social, a Potência 19 indica que você percebe o ambiente como um espaço de visibilidade, reconhecimento e destaque. Enxerga quem se sobressai, quem assume protagonismo e quem busca afirmação social. Costuma notar movimentos de sucesso e necessidade de validação coletiva.</p>
+19: `<h4>Reconhecimento Social e Percepção de Brilho.</h4>
+<p>Na Matriz Social, a Potência 19 indica que você percebe o ambiente como um espaço de visibilidade, reconhecimento e destaque. Você enxerga quem se sobressai, quem assume protagonismo e quem busca afirmação social. Costuma notar movimentos de sucesso e necessidade de validação coletiva.</p>
 <p>No aspecto positivo manifesta compreensão da importância da autoconfiança e da expressão pessoal.</p>
 <p>No aspecto negativo pode perceber o meio como competitivo ou centrado em aparências.</p>
 <p>A Potência 19 revela uma percepção social ligada ao brilho e ao reconhecimento.</p>`,
 
-21: `<p>Realização Social e Percepção de Conquistas.</p>
-<p>Na Pirâmide Social, a Potência 21 indica que você percebe o ambiente como um espaço de metas concluídas, ciclos encerrados e resultados alcançados. Enxerga processos coletivos que chegam ao fim e situações que exigem fechamento. Costuma notar quem concretiza objetivos e quem finaliza etapas importantes.</p>
+21: `<h4>Realização Social e Percepção de Conquistas.</h4>
+<p>Na Matriz Social, a Potência 21 indica que você percebe o ambiente como um espaço de metas concluídas, ciclos encerrados e resultados alcançados. Você enxerga processos coletivos que chegam ao fim e situações que exigem fechamento. Costuma notar quem concretiza objetivos e quem finaliza etapas importantes.</p>
 <p>No aspecto positivo manifesta sensação de estabilidade e compreensão de conquistas coletivas.</p>
 <p>No aspecto negativo pode perceber o meio como repetitivo ou acomodado.</p>
 <p>A Potência 21 revela uma percepção social voltada à realização e conclusão de ciclos.</p>`,
 
-22: `<p>Liberdade Social e Percepção de Oportunidades.</p>
-<p>Na Pirâmide Social, a Potência 22 indica que você percebe o ambiente como cheio de oportunidades, riscos e novos caminhos. Enxerga o meio social como um espaço aberto à experimentação e mudanças inesperadas. Costuma notar portas se abrindo e possibilidades surgindo de forma repentina.</p>
+22: `<h4>Liberdade Social e Percepção de Oportunidades.</h4>
+<p>Na Matriz Social, a Potência 22 indica que você percebe o ambiente como cheio de oportunidades, riscos e novos caminhos. Você enxerga o meio social como um espaço aberto à experimentação e mudanças inesperadas. Costuma notar portas se abrindo e possibilidades surgindo de forma repentina.</p>
 <p>No aspecto positivo manifesta visão inovadora e coragem ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível.</p>
 <p>A Potência 22 revela uma percepção social marcada pela liberdade e expansão.</p>`,
 
-23: `<p>Proteção Social e Percepção de Mérito.</p>
-<p>Na Pirâmide Social, a Potência 23 indica que você percebe o ambiente como regido por mérito, esforço e responsabilidade. Enxerga as relações sociais como estruturadas por competência e reconhecimento do trabalho realizado. Costuma notar quem conquista espaço por dedicação e disciplina.</p>
+23: `<h4>Proteção Social e Percepção de Mérito.</h4>
+<p>Na Matriz Social, a Potência 23 indica que você percebe o ambiente como regido por mérito, esforço e responsabilidade. Você enxerga as relações sociais como estruturadas por competência e reconhecimento do trabalho realizado. Costuma notar quem conquista espaço por dedicação e disciplina.</p>
 <p>No aspecto positivo manifesta compreensão do valor do compromisso coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como exigente ou rigoroso demais.</p>
 <p>A Potência 23 revela uma percepção social baseada em mérito e responsabilidade.</p>`,
 
-24: `<p>Harmonia Social e Percepção de Estabilidade.</p>
-<p>Na Pirâmide Social, a Potência 24 indica que você percebe o ambiente como um espaço de vínculos, segurança e estabilidade relacional. Enxerga a importância das parcerias, do apoio mútuo e da construção de relações duradouras. Costuma notar a necessidade de cooperação e proteção coletiva.</p>
+24: `<h4>Harmonia Social e Percepção de Estabilidade.</h4>
+<p>Na Matriz Social, a Potência 24 indica que você percebe o ambiente como um espaço de vínculos, segurança e estabilidade relacional. Você enxerga a importância das parcerias, do apoio mútuo e da construção de relações duradouras. Costuma notar a necessidade de cooperação e proteção coletiva.</p>
 <p>No aspecto positivo manifesta confiança nas estruturas sociais consolidadas.</p>
 <p>No aspecto negativo pode perceber o ambiente como conservador ou resistente a mudanças.</p>
 <p>A Potência 24 revela uma percepção social voltada à estabilidade e harmonia.</p>`,
 
-25: `<p>Ação Social e Percepção de Movimento.</p>
-<p>Na Pirâmide Social, a Potência 25 indica que você percebe o ambiente como dinâmico, competitivo e orientado para conquistas. Enxerga o meio social como um campo de desafios e oportunidades de ação. Costuma notar movimentações estratégicas, disputas e iniciativas coletivas.</p>
+25: `<h4>Ação Social e Percepção de Movimento.</h4>
+<p>Na Matriz Social, a Potência 25 indica que você percebe o ambiente como dinâmico, competitivo e orientado para conquistas. Você enxerga o meio social como um campo de desafios e oportunidades de ação. Costuma notar movimentações estratégicas, disputas e iniciativas coletivas.</p>
 <p>No aspecto positivo manifesta coragem e iniciativa ao interpretar o cenário social.</p>
 <p>No aspecto negativo pode perceber o ambiente como conflituoso ou excessivamente acelerado.</p>
 <p>A Potência 25 revela uma percepção social baseada em movimento e conquista.</p>`,
 
-26: `<p>Potencial Social e Percepção de Expectativas.</p>
-<p>Na Pirâmide Social, a Potência 26 indica que você percebe o ambiente como cheio de promessas, possibilidades futuras e situações ainda em desenvolvimento. Enxerga o meio social como um campo onde projetos amadurecem gradualmente e onde o crescimento depende de preparo e constância. Costuma notar oportunidades em fase inicial e contextos que exigem paciência para se consolidar.</p>
+26: `<h4>Potencial Social e Percepção de Expectativas.</h4>
+<p>Na Matriz Social, a Potência 26 indica que você percebe o ambiente como cheio de promessas, possibilidades futuras e situações ainda em desenvolvimento. Você enxerga o meio social como um campo onde projetos amadurecem gradualmente e onde o crescimento depende de preparo e constância. Costuma notar oportunidades em fase inicial e contextos que exigem paciência para se consolidar.</p>
 <p>No aspecto positivo manifesta entusiasmo diante do progresso coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como incerto ou excessivamente dependente de fatores externos.</p>
 <p>A Potência 26 revela uma percepção social voltada ao potencial e às expectativas futuras.</p>`,
 
-27: `<p>Desafios Sociais e Percepção de Provas.</p>
-<p>Na Pirâmide Social, a Potência 27 indica que você percebe o ambiente como exigente e repleto de desafios constantes. Enxerga as relações e contextos profissionais como campos de prova e superação. Costuma notar tensões, dificuldades e processos de amadurecimento ao redor.</p>
+27: `<h4>Desafios Sociais e Percepção de Provas.</h4>
+<p>Na Matriz Social, a Potência 27 indica que você percebe o ambiente como exigente e repleto de desafios constantes. Você enxerga as relações e contextos profissionais como campos de prova e superação. Costuma notar tensões, dificuldades e processos de amadurecimento ao redor.</p>
 <p>No aspecto positivo manifesta resiliência e capacidade de adaptação diante das pressões coletivas.</p>
 <p>No aspecto negativo pode perceber o meio como pesado ou excessivamente desafiador.</p>
 <p>A Potência 27 revela uma percepção social marcada por provas e superações contínuas.</p>`,
 
-28: `<p>Estratégia Social e Percepção de Planejamento.</p>
-<p>Na Pirâmide Social, a Potência 28 indica que você percebe o ambiente como um campo onde organização, planejamento e prudência são fundamentais. Enxerga o meio social como estruturado por estratégias e decisões calculadas. Costuma notar quem age com método e quem se precipita.</p>
+28: `<h4>Estratégia Social e Percepção de Planejamento.</h4>
+<p>Na Matriz Social, a Potência 28 indica que você percebe o ambiente como um campo onde organização, planejamento e prudência são fundamentais. Você enxerga o meio social como estruturado por estratégias e decisões calculadas. Costuma notar quem age com método e quem se precipita.</p>
 <p>No aspecto positivo manifesta visão estratégica ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como arriscado ou exigir cautela excessiva.</p>
 <p>A Potência 28 revela uma percepção social baseada em estratégia e análise.</p>`,
 
-29: `<p>Expansão Social e Percepção de Reconhecimento.</p>
-<p>Na Pirâmide Social, a Potência 29 indica que você percebe o ambiente como palco de crescimento, visibilidade e busca por reconhecimento. Enxerga o meio social como um espaço de expansão coletiva e conquista de espaço. Costuma notar movimentos de ascensão e necessidade de afirmação pública.</p>
+29: `<h4>Expansão Social e Percepção de Reconhecimento.</h4>
+<p>Na Matriz Social, a Potência 29 indica que você percebe o ambiente como palco de crescimento, visibilidade e busca por reconhecimento. Você enxerga o meio social como um espaço de expansão coletiva e conquista de espaço. Costuma notar movimentos de ascensão e necessidade de afirmação pública.</p>
 <p>No aspecto positivo manifesta compreensão da importância da projeção social.</p>
 <p>No aspecto negativo pode perceber o ambiente como competitivo ou marcado por disputas por destaque.</p>
 <p>A Potência 29 revela uma percepção social voltada ao crescimento e à expansão.</p>`,
 
-30: `<p>Silêncio Social e Percepção de Preparação.</p>
-<p>Na Pirâmide Social, a Potência 30 indica que você percebe o ambiente como um espaço onde nem tudo é visível e onde processos acontecem nos bastidores. Enxerga períodos de preparação, amadurecimento e construção silenciosa nas relações coletivas. Costuma notar fases de espera e reorganização antes de grandes movimentos sociais.</p>
+30: `<h4>Silêncio Social e Percepção de Preparação.</h4>
+<p>Na Matriz Social, a Potência 30 indica que você percebe o ambiente como um espaço onde nem tudo é visível e onde processos acontecem nos bastidores. Você enxerga períodos de preparação, amadurecimento e construção silenciosa nas relações coletivas. Costuma notar fases de espera e reorganização antes de grandes movimentos sociais.</p>
 <p>No aspecto positivo manifesta prudência e observação atenta.</p>
 <p>No aspecto negativo pode perceber o meio como lento ou indefinido.</p>
 <p>A Potência 30 revela uma percepção social ligada à preparação e ao tempo de maturação.</p>`,
 
-31: `<p>Disciplina Social e Percepção de Esforço.</p>
-<p>Na Pirâmide Social, a Potência 31 indica que você percebe o ambiente como um espaço onde constância, dedicação e responsabilidade são determinantes para conquistar reconhecimento. Enxerga o meio social como estruturado por trabalho consistente e construção gradual de resultados. Costuma notar quem se compromete seriamente e quem persevera ao longo do tempo.</p>
+
+31: `<h4>Disciplina Social e Percepção de Esforço.</h4>
+<p>Na Matriz Social, a Potência 31 indica que você percebe o ambiente como um espaço onde constância, dedicação e responsabilidade são determinantes para conquistar reconhecimento. Você enxerga o meio social como estruturado por trabalho consistente e construção gradual de resultados. Costuma notar quem se compromete seriamente e quem persevera ao longo do tempo.</p>
 <p>No aspecto positivo manifesta confiabilidade e visão de longo prazo.</p>
 <p>No aspecto negativo pode perceber o ambiente como exigente ou rígido demais.</p>
 <p>A Potência 31 revela uma percepção social baseada em disciplina e construção sólida.</p>`,
 
-32: `<p>Estabilidade Social e Percepção de Reconhecimento.</p>
-<p>Na Pirâmide Social, a Potência 32 indica que você percebe o ambiente como um espaço onde alianças, parcerias e reputação são essenciais para manter equilíbrio coletivo. Enxerga a importância de vínculos estruturados e reconhecimento mútuo nas relações sociais. Costuma notar quem constrói segurança e consolida posições ao longo do tempo.</p>
+32: `<h4>Estabilidade Social e Percepção de Reconhecimento.</h4>
+<p>Na Matriz Social, a Potência 32 indica que você percebe o ambiente como um espaço onde alianças, parcerias e reputação são essenciais para manter equilíbrio coletivo. Você enxerga a importância de vínculos estruturados e reconhecimento mútuo nas relações sociais. Costuma notar quem constrói segurança e consolida posições ao longo do tempo.</p>
 <p>No aspecto positivo manifesta compreensão da estabilidade relacional.</p>
 <p>No aspecto negativo pode perceber o meio como competitivo ou excessivamente voltado à imagem pública.</p>
 <p>A Potência 32 revela uma percepção social orientada à estabilidade e reconhecimento.</p>`,
 
-33: `<p>Expansão Social e Percepção de Crescimento Coletivo.</p>
-<p>Na Pirâmide Social, a Potência 33 indica que você percebe o ambiente como um espaço de cooperação e desenvolvimento conjunto. Enxerga o meio social como terreno fértil para projetos que crescem através da colaboração. Costuma notar oportunidades que se fortalecem por meio da união e da troca entre pessoas.</p>
+33: `<h4>Expansão Social e Percepção de Crescimento Coletivo.</h4>
+<p>Na Matriz Social, a Potência 33 indica que você percebe o ambiente como um espaço de cooperação e desenvolvimento conjunto. Você enxerga o meio social como terreno fértil para projetos que crescem através da colaboração. Costuma notar oportunidades que se fortalecem por meio da união e da troca entre pessoas.</p>
 <p>No aspecto positivo manifesta visão de crescimento compartilhado.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de validação externa.</p>
 <p>A Potência 33 revela uma percepção social de expansão conjunta.</p>`,
 
-34: `<p>Criatividade Social e Percepção de Oportunidades.</p>
-<p>Na Pirâmide Social, a Potência 34 indica que você percebe o ambiente como cheio de ideias, caminhos alternativos e possibilidades inovadoras. Enxerga o meio social como dinâmico e aberto a soluções criativas. Costuma notar oportunidades que surgem de forma inesperada e contextos que permitem reinvenção.</p>
+34: `<h4>Criatividade Social e Percepção de Oportunidades.</h4>
+<p>Na Matriz Social, a Potência 34 indica que você percebe o ambiente como cheio de ideias, caminhos alternativos e possibilidades inovadoras. Você enxerga o meio social como dinâmico e aberto a soluções criativas. Costuma notar oportunidades que surgem de forma inesperada e contextos que permitem reinvenção.</p>
 <p>No aspecto positivo manifesta iniciativa e originalidade ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou disperso.</p>
 <p>A Potência 34 revela uma percepção social criativa e expansiva.</p>`,
 
-35: `<p>Crise Social e Percepção de Questionamentos.</p>
-<p>Na Pirâmide Social, a Potência 35 indica que você percebe o ambiente como atravessado por dúvidas, revisões e processos de redefinição. Enxerga momentos de crise coletiva como fases de aprendizado e questionamento profundo. Costuma notar mudanças de direção, rupturas de ideias e necessidade de ajustes sociais.</p>
+35: `<h4>Crise Social e Percepção de Questionamentos.</h4>
+<p>Na Matriz Social, a Potência 35 indica que você percebe o ambiente como atravessado por dúvidas, revisões e processos de redefinição. Você enxerga momentos de crise coletiva como fases de aprendizado e questionamento profundo. Costuma notar mudanças de direção, rupturas de ideias e necessidade de ajustes sociais.</p>
 <p>No aspecto positivo manifesta reflexão e amadurecimento diante das incertezas.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou excessivamente crítico.</p>
 <p>A Potência 35 revela uma percepção social marcada por questionamento e reconstrução.</p>`,
 
-36: `<p>Ruptura Social e Percepção de Mudanças.</p>
-<p>Na Pirâmide Social, a Potência 36 indica que você percebe o ambiente como sujeito a transformações estruturais e recomeços significativos. Enxerga o meio social como um campo onde padrões antigos se desfazem para dar lugar a novas configurações. Costuma notar alterações nas relações, nas hierarquias e nos contextos profissionais.</p>
+36: `<h4>Ruptura Social e Percepção de Mudanças.</h4>
+<p>Na Matriz Social, a Potência 36 indica que você percebe o ambiente como sujeito a transformações estruturais e recomeços significativos. Você enxerga o meio social como um campo onde padrões antigos se desfazem para dar lugar a novas configurações. Costuma notar alterações nas relações, nas hierarquias e nos contextos profissionais.</p>
 <p>No aspecto positivo manifesta capacidade de adaptação e renovação diante das mudanças coletivas.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível demais.</p>
 <p>A Potência 36 revela uma percepção social marcada por transição e reconstrução.</p>`,
 
-37: `<p>Mediação Social e Percepção de Relações.</p>
-<p>Na Pirâmide Social, a Potência 37 indica que você percebe o ambiente como um espaço de trocas constantes, amizades e interações dinâmicas. Enxerga o meio social como estruturado por vínculos, acordos e relações interpessoais. Costuma notar a importância da comunicação e das alianças nos grupos.</p>
+37: `<h4>Mediação Social e Percepção de Relações.</h4>
+<p>Na Matriz Social, a Potência 37 indica que você percebe o ambiente como um espaço de trocas constantes, amizades e interações dinâmicas. Você enxerga o meio social como estruturado por vínculos, acordos e relações interpessoais. Costuma notar a importância da comunicação e das alianças nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e habilidade de compreender dinâmicas relacionais.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais da opinião coletiva.</p>
 <p>A Potência 37 revela uma percepção social essencialmente relacional.</p>`,
 
-38: `<p>Expressão Social e Percepção Emocional.</p>
-<p>Na Pirâmide Social, a Potência 38 indica que você percebe o ambiente de forma emocional e expressiva. Enxerga o meio social como um espaço onde sentimentos, palavras e gestos moldam as relações. Costuma notar estados emocionais, reações intensas e climas afetivos nos grupos.</p>
+38: `<h4>Expressão Social e Percepção Emocional.</h4>
+<p>Na Matriz Social, a Potência 38 indica que você percebe o ambiente de forma emocional e expressiva. Você enxerga o meio social como um espaço onde sentimentos, palavras e gestos moldam as relações. Costuma notar estados emocionais, reações intensas e climas afetivos nos grupos.</p>
 <p>No aspecto positivo manifesta sensibilidade comunicativa e compreensão emocional.</p>
 <p>No aspecto negativo pode perceber o ambiente como exagerado ou instável emocionalmente.</p>
 <p>A Potência 38 revela uma percepção social guiada pela expressão e emoção.</p>`,
 
-39: `<p>Conexão Social e Percepção de Afeto.</p>
-<p>Na Pirâmide Social, a Potência 39 indica que você percebe o ambiente como um espaço de vínculos afetivos e conexões humanas profundas. Enxerga as relações sociais como baseadas em proximidade, acolhimento e troca emocional. Costuma notar laços de união e sentimentos compartilhados entre as pessoas.</p>
+39: `<h4>Conexão Social e Percepção de Afeto.</h4>
+<p>Na Matriz Social, a Potência 39 indica que você percebe o ambiente como um espaço de vínculos afetivos e conexões humanas profundas. Você enxerga as relações sociais como baseadas em proximidade, acolhimento e troca emocional. Costuma notar laços de união e sentimentos compartilhados entre as pessoas.</p>
 <p>No aspecto positivo manifesta empatia e valorização das relações humanas.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de validação afetiva.</p>
 <p>A Potência 39 revela uma percepção social voltada à conexão emocional.</p>`,
 
-40: `<p>Renovação Social e Percepção de Vínculos.</p>
-<p>Na Pirâmide Social, a Potência 40 indica que a pessoa percebe o ambiente como um espaço de renovação constante nas relações e nos grupos. Enxerga o meio social como sujeito a mudanças de vínculos, ciclos de aproximação e afastamento. Costuma notar reconfigurações nos relacionamentos e nas estruturas coletivas.</p>
+40: `<h4>Renovação Social e Percepção de Vínculos.</h4>
+<p>Na Matriz Social, a Potência 40 indica que você percebe o ambiente como um espaço de renovação constante nas relações e nos grupos. Você enxerga o meio social como sujeito a mudanças de vínculos, ciclos de aproximação e afastamento. Costuma notar reconfigurações nos relacionamentos e nas estruturas coletivas.</p>
 <p>No aspecto positivo manifesta abertura para novas experiências sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável nos laços estabelecidos.</p>
 <p>A Potência 40 revela uma percepção social de renovação relacional.</p>`,
 
-41: `<p>Harmonia Social e Percepção de Bem-Estar.</p>
-<p>Na Pirâmide Social, a Potência 41 indica que você percebe o ambiente como um espaço onde convivência equilibrada e bem-estar coletivo são fundamentais. Enxerga a importância de ambientes agradáveis e relações harmoniosas. Costuma notar onde existe cooperação e onde há desequilíbrio nas interações sociais.</p>
+41: `<h4>Harmonia Social e Percepção de Bem-Estar.</h4>
+<p>Na Matriz Social, a Potência 41 indica que você percebe o ambiente como um espaço onde convivência equilibrada e bem-estar coletivo são fundamentais. Você enxerga a importância de ambientes agradáveis e relações harmoniosas. Costuma notar onde existe cooperação e onde há desequilíbrio nas interações sociais.</p>
 <p>No aspecto positivo manifesta busca por integração e equilíbrio nas relações.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais de aprovação coletiva.</p>
 <p>A Potência 41 revela uma percepção social orientada à convivência harmoniosa.</p>`,
 
-42: `<p>Prosperidade Social e Percepção de Oportunidades.</p>
-<p>Na Pirâmide Social, a Potência 42 indica que você percebe o ambiente como repleto de oportunidades de crescimento e expansão coletiva. Enxerga o meio social como um campo fértil para desenvolvimento e conquistas. Costuma notar momentos de avanço, prosperidade e crescimento ao redor.</p>
+42: `<h4>Prosperidade Social e Percepção de Oportunidades.</h4>
+<p>Na Matriz Social, a Potência 42 indica que você percebe o ambiente como repleto de oportunidades de crescimento e expansão coletiva. Você enxerga o meio social como um campo fértil para desenvolvimento e conquistas. Costuma notar momentos de avanço, prosperidade e crescimento ao redor.</p>
 <p>No aspecto positivo manifesta entusiasmo diante das possibilidades sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente acelerado ou desorganizado.</p>
 <p>A Potência 42 revela uma percepção social voltada à prosperidade.</p>`,
 
-43: `<p>Conflitos Sociais e Percepção de Tensões.</p>
-<p>Na Pirâmide Social, a Potência 43 indica que você percebe o ambiente como atravessado por divergências e tensões que provocam transformação. Enxerga conflitos como motores de mudança coletiva. Costuma notar disputas, debates e confrontos nas relações sociais.</p>
+43: `<h4>Conflitos Sociais e Percepção de Tensões.</h4>
+<p>Na Matriz Social, a Potência 43 indica que você percebe o ambiente como atravessado por divergências e tensões que provocam transformação. Você enxerga conflitos como motores de mudança coletiva. Costuma notar disputas, debates e confrontos nas relações sociais.</p>
 <p>No aspecto positivo manifesta maturidade ao compreender processos de crescimento através das diferenças.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou excessivamente conflituoso.</p>
 <p>A Potência 43 revela uma percepção social marcada por tensão e aprendizado.</p>`,
 
-44: `<p>Decisão Social e Percepção de Escolhas.</p>
-<p>Na Pirâmide Social, a Potência 44 indica que você percebe o ambiente como estruturado por decisões estratégicas e escolhas determinantes. Enxerga o meio social como um espaço onde planejamento e análise moldam o futuro coletivo. Costuma notar caminhos possíveis, alternativas e consequências das decisões.</p>
+44: `<h4>Decisão Social e Percepção de Escolhas.</h4>
+<p>Na Matriz Social, a Potência 44 indica que você percebe o ambiente como estruturado por decisões estratégicas e escolhas determinantes. Você enxerga o meio social como um espaço onde planejamento e análise moldam o futuro coletivo. Costuma notar caminhos possíveis, alternativas e consequências das decisões.</p>
 <p>No aspecto positivo manifesta clareza e visão estratégica ao interpretar o contexto social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente racional ou calculista.</p>
 <p>A Potência 44 revela uma percepção social estratégica.</p>`,
 
-45: `<p>Memória Social e Percepção de Passado.</p>
-<p>Na Pirâmide Social, a Potência 45 indica que você percebe o ambiente como influenciado por histórias, experiências e vínculos antigos. Enxerga padrões repetidos e ciclos que retornam nas relações coletivas. Costuma notar reencontros, memórias compartilhadas e aprendizados acumulados ao longo do tempo.</p>
+45: `<h4>Memória Social e Percepção de Passado.</h4>
+<p>Na Matriz Social, a Potência 45 indica que você percebe o ambiente como influenciado por histórias, experiências e vínculos antigos. Você enxerga padrões repetidos e ciclos que retornam nas relações coletivas. Costuma notar reencontros, memórias compartilhadas e aprendizados acumulados ao longo do tempo.</p>
 <p>No aspecto positivo manifesta capacidade de aprender com experiências passadas.</p>
 <p>No aspecto negativo pode perceber o meio como preso a padrões antigos.</p>
 <p>A Potência 45 revela uma percepção social ligada à memória e ao passado.</p>`,
 
-46: `<p>Desilusões Sociais e Percepção de Verdades.</p>
-<p>Na Pirâmide Social, a Potência 46 indica que você percebe o ambiente como um espaço onde ilusões se desfazem e verdades emergem com clareza. Enxerga o meio social como cenário de revelações e ajustes de expectativa. Costuma notar incoerências, promessas não cumpridas e mudanças de postura nas relações.</p>
+46: `<h4>Desilusões Sociais e Percepção de Verdades.</h4>
+<p>Na Matriz Social, a Potência 46 indica que você percebe o ambiente como um espaço onde ilusões se desfazem e verdades emergem com clareza. Você enxerga o meio social como cenário de revelações e ajustes de expectativa. Costuma notar incoerências, promessas não cumpridas e mudanças de postura nas relações.</p>
 <p>No aspecto positivo manifesta lucidez e maturidade ao interpretar os fatos coletivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como decepcionante ou excessivamente crítico.</p>
 <p>A Potência 46 revela uma percepção social realista e desmistificadora.</p>`,
 
-47: `<p>Introspecção Social e Percepção de Distanciamento.</p>
-<p>Na Pirâmide Social, a Potência 47 indica que a pessoa percebe o ambiente como um espaço que alterna entre interação e recolhimento. Enxerga momentos em que o distanciamento é necessário para compreender melhor as dinâmicas coletivas. Costuma notar períodos de afastamento estratégico e análise silenciosa nas relações.</p>
+47: `<h4>Introspecção Social e Percepção de Distanciamento.</h4>
+<p>Na Matriz Social, a Potência 47 indica que você percebe o ambiente como um espaço que alterna entre interação e recolhimento. Você enxerga momentos em que o distanciamento é necessário para compreender melhor as dinâmicas coletivas. Costuma notar períodos de afastamento estratégico e análise silenciosa nas relações.</p>
 <p>No aspecto positivo manifesta sabedoria e observação profunda.</p>
 <p>No aspecto negativo pode perceber o meio como frio ou emocionalmente distante.</p>
 <p>A Potência 47 revela uma percepção social introspectiva.</p>`,
 
-48: `<p>Abundância Social e Percepção de Celebração.</p>
-<p>Na Pirâmide Social, a Potência 48 indica que a pessoa percebe o ambiente como fértil, expansivo e propício a encontros e celebrações. Enxerga momentos de crescimento coletivo e integração social. Costuma notar fases de prosperidade, eventos marcantes e união entre grupos.</p>
+48: `<h4>Abundância Social e Percepção de Celebração.</h4>
+<p>Na Matriz Social, a Potência 48 indica que você percebe o ambiente como fértil, expansivo e propício a encontros e celebrações. Você enxerga momentos de crescimento coletivo e integração social. Costuma notar fases de prosperidade, eventos marcantes e união entre grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e valorização da convivência.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivo ou disperso.</p>
 <p>A Potência 48 revela uma percepção social voltada à abundância e integração.</p>`,
 
-49: `<p>Autonomia Social e Percepção de Liberdade.</p>
-<p>Na Pirâmide Social, a Potência 49 indica que a pessoa percebe o ambiente como um espaço onde liberdade e individualidade são essenciais. Enxerga as relações sociais como campos que exigem respeito à autonomia pessoal. Costuma notar limites, independência e necessidade de espaço nas interações.</p>
+49: `<h4>Autonomia Social e Percepção de Liberdade.</h4>
+<p>Na Matriz Social, a Potência 49 indica que você percebe o ambiente como um espaço onde liberdade e individualidade são essenciais. Você enxerga as relações sociais como campos que exigem respeito à autonomia pessoal. Costuma notar limites, independência e necessidade de espaço nas interações.</p>
 <p>No aspecto positivo manifesta maturidade e autenticidade ao interpretar o coletivo.</p>
 <p>No aspecto negativo pode perceber o meio como distante ou fragmentado.</p>
 <p>A Potência 49 revela uma percepção social orientada à autonomia.</p>`,
 
-50: `<p>União Social e Percepção de Compromisso.</p>
-<p>Na Pirâmide Social, a Potência 50 indica que a pessoa percebe o ambiente como estruturado por vínculos, compromissos e responsabilidades compartilhadas. Enxerga as relações sociais como baseadas em estabilidade e acordos duradouros. Costuma notar estruturas firmes e alianças consolidadas no meio coletivo.</p>
+50: `<h4>União Social e Percepção de Compromisso.</h4>
+<p>Na Matriz Social, a Potência 50 indica que você percebe o ambiente como estruturado por vínculos, compromissos e responsabilidades compartilhadas. Você enxerga as relações sociais como baseadas em estabilidade e acordos duradouros. Costuma notar estruturas firmes e alianças consolidadas no meio coletivo.</p>
 <p>No aspecto positivo manifesta valorização da segurança e da confiança mútua.</p>
 <p>No aspecto negativo pode perceber o ambiente como rígido ou tradicional demais.</p>
 <p>A Potência 50 revela uma percepção social voltada ao compromisso.</p>`,
 
-51: `<p>Liderança Social e Percepção de Autoridade.</p>
-<p>Na Pirâmide Social, a Potência 51 indica que a pessoa percebe o ambiente como organizado por hierarquias, estratégias e centros de decisão. Enxerga claramente quem conduz processos e quem assume responsabilidades. Costuma notar movimentos de liderança e influência nos grupos.</p>
+
+51: `<h4>Liderança Social e Percepção de Autoridade.</h4>
+<p>Na Matriz Social, a Potência 51 indica que você percebe o ambiente como organizado por hierarquias, estratégias e centros de decisão. Você enxerga com clareza quem conduz processos e quem assume responsabilidades. Costuma notar movimentos de liderança e influência nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão estratégica das estruturas sociais.</p>
 <p>No aspecto negativo pode perceber o meio como autoritário ou centralizador.</p>
 <p>A Potência 51 revela uma percepção social de liderança e comando.</p>`,
 
-52: `<p>Autodomínio Social e Percepção de Disciplina.</p>
-<p>Na Pirâmide Social, a Potência 52 indica que a pessoa percebe o ambiente como regido por metas, desempenho e exigência de resultados. Enxerga o meio social como estruturado por regras e padrões de excelência. Costuma notar quem mantém foco e quem se dispersa.</p>
+52: `<h4>Autodomínio Social e Percepção de Disciplina.</h4>
+<p>Na Matriz Social, a Potência 52 indica que você percebe o ambiente como regido por metas, desempenho e exigência de resultados. Você enxerga o meio social como estruturado por regras e padrões de excelência. Costuma notar quem mantém foco e quem se dispersa.</p>
 <p>No aspecto positivo manifesta visão organizada e orientada a objetivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente rigoroso.</p>
 <p>A Potência 52 revela uma percepção social disciplinada.</p>`,
 
-53: `<p>Transformação Social e Percepção de Mudanças Profundas.</p>
-<p>Na Pirâmide Social, a Potência 53 indica que a pessoa percebe o ambiente como atravessado por transformações significativas e rupturas estruturais. Enxerga ciclos de encerramento e reconstrução nas relações coletivas. Costuma notar alterações profundas em valores, posições e estruturas sociais.</p>
+53: `<h4>Transformação Social e Percepção de Mudanças Profundas.</h4>
+<p>Na Matriz Social, a Potência 53 indica que você percebe o ambiente como atravessado por transformações significativas e rupturas estruturais. Você enxerga ciclos de encerramento e reconstrução nas relações coletivas. Costuma notar alterações profundas em valores, posições e estruturas sociais.</p>
 <p>No aspecto positivo manifesta abertura à inovação e evolução coletiva.</p>
 <p>No aspecto negativo pode perceber o meio como instável ou imprevisível.</p>
 <p>A Potência 53 revela uma percepção social transformadora.</p>`,
 
-54: `<p>Vigilância Social e Percepção de Tensões.</p>
-<p>Na Pirâmide Social, a Potência 54 indica que a pessoa percebe o ambiente como exigindo atenção constante e leitura estratégica das situações. Enxerga disputas, rivalidades e jogos de interesse nas relações sociais. Costuma notar conflitos latentes e mudanças sutis no comportamento coletivo.</p>
+54: `<h4>Vigilância Social e Percepção de Tensões.</h4>
+<p>Na Matriz Social, a Potência 54 indica que você percebe o ambiente como exigindo atenção constante e leitura estratégica das situações. Você enxerga disputas, rivalidades e jogos de interesse nas relações sociais. Costuma notar conflitos latentes e mudanças sutis no comportamento coletivo.</p>
 <p>No aspecto positivo manifesta prudência e análise cuidadosa.</p>
 <p>No aspecto negativo pode perceber o ambiente como ameaçador ou excessivamente competitivo.</p>
 <p>A Potência 54 revela uma percepção social vigilante.</p>`,
 
-55: `<p>Renascimento Social e Percepção de Recomeços.</p>
-<p>Na Pirâmide Social, a Potência 55 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos. Enxerga fases de reconstrução e retomada após momentos de crise coletiva. Costuma notar oportunidades de recomeço nas relações e nos projetos sociais.</p>
+55: `<h4>Renascimento Social e Percepção de Recomeços.</h4>
+<p>Na Matriz Social, a Potência 55 indica que você percebe o ambiente como marcado por encerramentos e novos ciclos. Você enxerga fases de reconstrução e retomada após momentos de crise coletiva. Costuma notar oportunidades de recomeço nas relações e nos projetos sociais.</p>
 <p>No aspecto positivo manifesta capacidade de renovação e esperança.</p>
 <p>No aspecto negativo pode perceber o meio como instável devido às constantes mudanças.</p>
 <p>A Potência 55 revela uma percepção social de renascimento e reinício.</p>`,
 
-56: `<p>Resistência Social e Percepção de Provações.</p>
-<p>Na Pirâmide Social, a Potência 56 indica que a pessoa percebe o ambiente como exigente e desafiador, onde a resistência é necessária para manter posição e equilíbrio. Enxerga o meio social como campo de testes constantes e situações que exigem firmeza emocional. Costuma notar dificuldades coletivas e momentos em que é preciso suportar pressões externas.</p>
+56: `<h4>Resistência Social e Percepção de Provações.</h4>
+<p>Na Matriz Social, a Potência 56 indica que você percebe o ambiente como exigente e desafiador, onde a resistência é necessária para manter posição e equilíbrio. Você enxerga o meio social como campo de testes constantes e situações que exigem firmeza emocional. Costuma notar dificuldades coletivas e momentos em que é preciso suportar pressões externas.</p>
 <p>No aspecto positivo manifesta força interior e perseverança diante das adversidades sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente pesado ou desgastante.</p>
 <p>A Potência 56 revela uma percepção social baseada em resistência e superação.</p>`,
 
-57: `<p>Decisões Sociais e Percepção de Dilemas.</p>
-<p>Na Pirâmide Social, a Potência 57 indica que a pessoa percebe o ambiente como marcado por escolhas importantes e dilemas constantes. Enxerga o meio social como um espaço onde decisões moldam relações e caminhos profissionais. Costuma notar bifurcações, alternativas e consequências nas atitudes coletivas.</p>
+57: `<h4>Decisões Sociais e Percepção de Dilemas.</h4>
+<p>Na Matriz Social, a Potência 57 indica que você percebe o ambiente como marcado por escolhas importantes e dilemas constantes. Você enxerga o meio social como um espaço onde decisões moldam relações e caminhos profissionais. Costuma notar bifurcações, alternativas e consequências nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta clareza ao analisar opções disponíveis.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável devido às incertezas.</p>
 <p>A Potência 57 revela uma percepção social voltada às decisões e responsabilidades.</p>`,
 
-58: `<p>Crises Sociais e Percepção de Despertar.</p>
-<p>Na Pirâmide Social, a Potência 58 indica que a pessoa percebe o ambiente como atravessado por crises que provocam amadurecimento coletivo. Enxerga rupturas como momentos de aprendizado e evolução social. Costuma notar mudanças bruscas que exigem reestruturação de valores e atitudes.</p>
+58: `<h4>Crises Sociais e Percepção de Despertar.</h4>
+<p>Na Matriz Social, a Potência 58 indica que você percebe o ambiente como atravessado por crises que provocam amadurecimento coletivo. Você enxerga rupturas como momentos de aprendizado e evolução social. Costuma notar mudanças bruscas que exigem reestruturação de valores e atitudes.</p>
 <p>No aspecto positivo manifesta consciência crítica e capacidade de adaptação.</p>
 <p>No aspecto negativo pode perceber o meio como turbulento ou imprevisível.</p>
 <p>A Potência 58 revela uma percepção social ligada ao despertar através das crises.</p>`,
 
-59: `<p>Revelação Social e Percepção de Verdades.</p>
-<p>Na Pirâmide Social, a Potência 59 indica que a pessoa percebe o ambiente como um espaço onde verdades ocultas vêm à tona. Enxerga revelações e esclarecimentos nas relações e nos contextos coletivos. Costuma notar informações que mudam a compreensão das situações sociais.</p>
+59: `<h4>Revelação Social e Percepção de Verdades.</h4>
+<p>Na Matriz Social, a Potência 59 indica que você percebe o ambiente como um espaço onde verdades ocultas vêm à tona. Você enxerga revelações e esclarecimentos nas relações e nos contextos coletivos. Costuma notar informações que mudam a compreensão das situações sociais.</p>
 <p>No aspecto positivo manifesta discernimento e busca por autenticidade.</p>
 <p>No aspecto negativo pode perceber o meio como instável diante das revelações.</p>
 <p>A Potência 59 revela uma percepção social orientada à descoberta e clareza.</p>`,
 
-61: `<p>Retiro Social e Percepção de Recolhimento.</p>
-<p>Na Pirâmide Social, a Potência 61 indica que a pessoa percebe o ambiente como alternando entre movimento e silêncio. Enxerga momentos em que o recolhimento é necessário para reorganizar relações e estratégias sociais. Costuma notar pausas coletivas e afastamentos estratégicos.</p>
+60: `<h4>Equilíbrio Social e Percepção de Responsabilidade.</h4>
+<p>Na Matriz Social, a Potência 60 indica que você percebe o ambiente como um espaço onde estabilidade, responsabilidade e maturidade sustentam as relações coletivas. Você enxerga a importância de manter equilíbrio entre liberdade individual e compromisso social. Costuma notar quem assume deveres e quem evita responsabilidades.</p>
+<p>No aspecto positivo manifesta senso de equilíbrio e comprometimento.</p>
+<p>No aspecto negativo pode perceber o meio como excessivamente rígido ou carregado de cobranças.</p>
+<p>A Potência 60 revela uma percepção social baseada em responsabilidade e estabilidade.</p>`,
+
+61: `<h4>Retiro Social e Percepção de Recolhimento.</h4>
+<p>Na Matriz Social, a Potência 61 indica que você percebe o ambiente como alternando entre movimento e silêncio. Você enxerga momentos em que o recolhimento é necessário para reorganizar relações e estratégias sociais. Costuma notar pausas coletivas e afastamentos estratégicos.</p>
 <p>No aspecto positivo manifesta prudência e capacidade de observação profunda.</p>
 <p>No aspecto negativo pode perceber o meio como distante ou pouco comunicativo.</p>
 <p>A Potência 61 revela uma percepção social de recolhimento e reorganização.</p>`,
 
-62: `<p>Libertação Social e Percepção de Conflitos Emocionais.</p>
-<p>Na Pirâmide Social, a Potência 62 indica que a pessoa percebe o ambiente como marcado por emoções intensas, rupturas e reconciliações. Enxerga conflitos como processos de cura e libertação coletiva. Costuma notar tensões emocionais e necessidade de resolução nos grupos.</p>
+62: `<h4>Libertação Social e Percepção de Conflitos Emocionais.</h4>
+<p>Na Matriz Social, a Potência 62 indica que você percebe o ambiente como marcado por emoções intensas, rupturas e reconciliações. Você enxerga conflitos como processos de cura e libertação coletiva. Costuma notar tensões emocionais e necessidade de resolução nos grupos.</p>
 <p>No aspecto positivo manifesta empatia e compreensão das dinâmicas afetivas.</p>
 <p>No aspecto negativo pode perceber o meio como instável emocionalmente.</p>
 <p>A Potência 62 revela uma percepção social voltada à libertação emocional.</p>`,
 
-63: `<p>Dúvida Social e Percepção de Insegurança Coletiva.</p>
-<p>Na Pirâmide Social, a Potência 63 indica que a pessoa percebe o ambiente como permeado por hesitação e incertezas. Enxerga o meio social como atravessado por revisões e questionamentos constantes. Costuma notar indecisões e necessidade de ajustes nas relações.</p>
+63: `<h4>Dúvida Social e Percepção de Insegurança Coletiva.</h4>
+<p>Na Matriz Social, a Potência 63 indica que você percebe o ambiente como permeado por hesitação e incertezas. Você enxerga o meio social como atravessado por revisões e questionamentos constantes. Costuma notar indecisões e necessidade de ajustes nas relações.</p>
 <p>No aspecto positivo manifesta prudência e reflexão antes de agir.</p>
 <p>No aspecto negativo pode perceber o ambiente como frágil ou indefinido.</p>
 <p>A Potência 63 revela uma percepção social baseada em análise e cautela.</p>`,
 
-64: `<p>Superação Social e Percepção de Luta.</p>
-<p>Na Pirâmide Social, a Potência 64 indica que a pessoa percebe o ambiente como competitivo e exigente. Enxerga o meio social como campo de esforço, disputa e necessidade de conquista. Costuma notar empenho, resistência e superação nas atitudes coletivas.</p>
+64: `<h4>Superação Social e Percepção de Luta.</h4>
+<p>Na Matriz Social, a Potência 64 indica que você percebe o ambiente como competitivo e exigente. Você enxerga o meio social como campo de esforço, disputa e necessidade de conquista. Costuma notar empenho, resistência e superação nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta determinação e foco em resultados.</p>
-<p>No aspecto negativo pode perceber o ambiente como excessivamente duro ou conflituoso.</p>
+<p>No aspecto negativo pode perceber o meio como excessivamente duro ou conflituoso.</p>
 <p>A Potência 64 revela uma percepção social orientada à luta e conquista.</p>`,
 
-65: `<p>Propósito Social e Percepção de Direção.</p>
-<p>Na Pirâmide Social, a Potência 65 indica que a pessoa percebe o ambiente como guiado por metas, objetivos e crescimento coletivo. Enxerga sentido nas ações sociais e direção nas relações estabelecidas. Costuma notar quem possui clareza de propósito e quem age sem rumo definido.</p>
+65: `<h4>Propósito Social e Percepção de Direção.</h4>
+<p>Na Matriz Social, a Potência 65 indica que você percebe o ambiente como guiado por metas, objetivos e crescimento coletivo. Você enxerga sentido nas ações sociais e direção nas relações estabelecidas. Costuma notar quem possui clareza de propósito e quem age sem rumo definido.</p>
 <p>No aspecto positivo manifesta visão estratégica e orientação para evolução.</p>
 <p>No aspecto negativo pode perceber o meio como disperso ou sem foco.</p>
 <p>A Potência 65 revela uma percepção social direcionada por propósito e metas.</p>`,
 
-66: `<p>Autenticidade Social e Percepção de Exposição.</p>
-<p>Na Pirâmide Social, a Potência 66 indica que a pessoa percebe o ambiente como um espaço onde autenticidade e transparência são constantemente testadas. Enxerga o meio social como cenário de revelações pessoais e exposição de verdades. Costuma notar quem age com coerência e quem assume máscaras sociais.</p>
+66: `<h4>Autenticidade Social e Percepção de Exposição.</h4>
+<p>Na Matriz Social, a Potência 66 indica que você percebe o ambiente como um espaço onde autenticidade e transparência são constantemente testadas. Você enxerga o meio social como cenário de revelações pessoais e exposição de verdades. Costuma notar quem age com coerência e quem assume máscaras sociais.</p>
 <p>No aspecto positivo manifesta valorização da sinceridade e das relações verdadeiras.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente crítico ou invasivo.</p>
 <p>A Potência 66 revela uma percepção social centrada na autenticidade e na clareza das intenções.</p>`,
 
-67: `<p>Concretização Social e Percepção de Resultados.</p>
-<p>Na Pirâmide Social, a Potência 67 indica que a pessoa percebe o ambiente como orientado à produtividade e à realização concreta. Enxerga o meio social como campo de execução prática e construção de resultados tangíveis. Costuma notar eficiência, organização e cumprimento de metas nas relações profissionais.</p>
+67: `<h4>Concretização Social e Percepção de Resultados.</h4>
+<p>Na Matriz Social, a Potência 67 indica que você percebe o ambiente como orientado à produtividade e à realização concreta. Você enxerga o meio social como campo de execução prática e construção de resultados tangíveis. Costuma notar eficiência, organização e cumprimento de metas nas relações profissionais.</p>
 <p>No aspecto positivo manifesta objetividade e foco na concretização coletiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente pragmático ou materialista.</p>
 <p>A Potência 67 revela uma percepção social voltada à realização prática.</p>`,
 
-68: `<p>Valor Social e Percepção de Prosperidade.</p>
-<p>Na Pirâmide Social, a Potência 68 indica que a pessoa percebe o ambiente como regido por valor, reconhecimento e estabilidade material. Enxerga o meio social como estruturado por recompensas e conquistas financeiras ou profissionais. Costuma notar quem prospera, quem consolida patrimônio e quem busca crescimento seguro.</p>
+68: `<h4>Valor Social e Percepção de Prosperidade.</h4>
+<p>Na Matriz Social, a Potência 68 indica que você percebe o ambiente como regido por valor, reconhecimento e estabilidade material. Você enxerga o meio social como estruturado por recompensas e conquistas financeiras ou profissionais. Costuma notar quem prospera, quem consolida patrimônio e quem busca crescimento seguro.</p>
 <p>No aspecto positivo manifesta compreensão estratégica sobre prosperidade coletiva.</p>
-<p>No aspecto negativo pode perceber o ambiente como excessivamente voltado ao ganho material.</p>
+<p>No aspecto negativo pode perceber o meio como excessivamente voltado ao ganho material.</p>
 <p>A Potência 68 revela uma percepção social associada a valor e prosperidade.</p>`,
 
-69: `<p>Plenitude Social e Percepção de Sucesso.</p>
-<p>Na Pirâmide Social, a Potência 69 indica que a pessoa percebe o ambiente como palco de conquistas, realizações e reconhecimento amplo. Enxerga o meio social como espaço de crescimento consistente e expansão consolidada. Costuma notar momentos de sucesso coletivo e consolidação de projetos.</p>
+69: `<h4>Plenitude Social e Percepção de Sucesso.</h4>
+<p>Na Matriz Social, a Potência 69 indica que você percebe o ambiente como palco de conquistas, realizações e reconhecimento amplo. Você enxerga o meio social como espaço de crescimento consistente e expansão consolidada. Costuma notar momentos de sucesso coletivo e consolidação de projetos.</p>
 <p>No aspecto positivo manifesta visão otimista sobre evolução social.</p>
 <p>No aspecto negativo pode perceber o ambiente como competitivo ou centrado em status.</p>
 <p>A Potência 69 revela uma percepção social de plenitude e êxito.</p>`,
 
-70: `<p>Autossuficiência Social e Percepção de Independência.</p>
-<p>Na Pirâmide Social, a Potência 70 indica que a pessoa percebe o ambiente como exigente e estruturado pela autonomia individual. Enxerga as relações sociais como campos onde cada um responde por suas próprias escolhas. Costuma notar independência, responsabilidade pessoal e limites claros nas interações.</p>
+70: `<h4>Autossuficiência Social e Percepção de Independência.</h4>
+<p>Na Matriz Social, a Potência 70 indica que você percebe o ambiente como exigente e estruturado pela autonomia individual. Você enxerga as relações sociais como campos onde cada pessoa responde por suas próprias escolhas. Costuma notar independência, responsabilidade pessoal e limites claros nas interações.</p>
 <p>No aspecto positivo manifesta maturidade e firmeza interpretativa.</p>
 <p>No aspecto negativo pode perceber o ambiente como distante ou excessivamente individualista.</p>
 <p>A Potência 70 revela uma percepção social orientada à autossuficiência.</p>`,
 
-71: `<p>Conservação Social e Percepção de Prudência.</p>
-<p>Na Pirâmide Social, a Potência 71 indica que a pessoa percebe o ambiente como exigindo planejamento, cautela e preservação de recursos. Enxerga o meio social como estruturado por estratégias de manutenção e equilíbrio. Costuma notar riscos, excessos e necessidade de contenção nas atitudes coletivas.</p>
+
+71: `<h4>Conservação Social e Percepção de Prudência.</h4>
+<p>Na Matriz Social, a Potência 71 indica que você percebe o ambiente como exigindo planejamento, cautela e preservação de recursos. Você enxerga o meio social como estruturado por estratégias de manutenção e equilíbrio. Costuma notar riscos, excessos e necessidade de contenção nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta prudência e visão preventiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como restritivo ou conservador demais.</p>
 <p>A Potência 71 revela uma percepção social baseada em prudência e conservação.</p>`,
 
-72: `<p>Clareza Social e Percepção de Direcionamento.</p>
-<p>Na Pirâmide Social, a Potência 72 indica que a pessoa percebe o ambiente como guiado por decisões conscientes e direcionamentos estratégicos. Enxerga o meio social como organizado por escolhas claras e objetivos definidos. Costuma notar coerência ou incoerência nas atitudes coletivas.</p>
+72: `<h4>Clareza Social e Percepção de Direcionamento.</h4>
+<p>Na Matriz Social, a Potência 72 indica que você percebe o ambiente como guiado por decisões conscientes e direcionamentos estratégicos. Você enxerga o meio social como organizado por escolhas claras e objetivos definidos. Costuma notar coerência ou incoerência nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta discernimento e capacidade analítica.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente racional ou calculado.</p>
 <p>A Potência 72 revela uma percepção social voltada à clareza e direcionamento.</p>`,
 
-73: `<p>Generosidade Social e Percepção de Cooperação.</p>
-<p>Na Pirâmide Social, a Potência 73 indica que a pessoa percebe o ambiente como estruturado por trocas, colaboração e apoio mútuo. Enxerga o meio social como espaço de ajuda recíproca e construção coletiva. Costuma notar gestos de solidariedade e parcerias produtivas.</p>
+73: `<h4>Generosidade Social e Percepção de Cooperação.</h4>
+<p>Na Matriz Social, a Potência 73 indica que você percebe o ambiente como estruturado por trocas, colaboração e apoio mútuo. Você enxerga o meio social como espaço de ajuda recíproca e construção coletiva. Costuma notar gestos de solidariedade e parcerias produtivas.</p>
 <p>No aspecto positivo manifesta abertura para cooperação e integração.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente demais de validação externa.</p>
 <p>A Potência 73 revela uma percepção social centrada na cooperação.</p>`,
 
-74: `<p>Crise Social e Percepção de Reestruturação.</p>
-<p>Na Pirâmide Social, a Potência 74 indica que a pessoa percebe o ambiente como sujeito a crises que exigem reorganização estrutural. Enxerga o meio social como campo de ajustes profundos e redefinições de posição. Costuma notar rupturas que precedem reconstruções coletivas.</p>
+74: `<h4>Crise Social e Percepção de Reestruturação.</h4>
+<p>Na Matriz Social, a Potência 74 indica que você percebe o ambiente como sujeito a crises que exigem reorganização estrutural. Você enxerga o meio social como campo de ajustes profundos e redefinições de posição. Costuma notar rupturas que precedem reconstruções coletivas.</p>
 <p>No aspecto positivo manifesta capacidade de adaptação estratégica.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou inseguro.</p>
 <p>A Potência 74 revela uma percepção social de reconstrução e reestruturação.</p>`,
 
-75: `<p>Prosperidade Social e Percepção de Segurança.</p>
-<p>Na Pirâmide Social, a Potência 75 indica que a pessoa percebe o ambiente como focado em estabilidade material e segurança coletiva. Enxerga o meio social como estruturado por crescimento financeiro e consolidação de recursos. Costuma notar oportunidades de fortalecimento econômico e estabilidade profissional.</p>
+75: `<h4>Prosperidade Social e Percepção de Segurança.</h4>
+<p>Na Matriz Social, a Potência 75 indica que você percebe o ambiente como focado em estabilidade material e segurança coletiva. Você enxerga o meio social como estruturado por crescimento financeiro e consolidação de recursos. Costuma notar oportunidades de fortalecimento econômico e estabilidade profissional.</p>
 <p>No aspecto positivo manifesta confiança no desenvolvimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente conservador ou materialista.</p>
 <p>A Potência 75 revela uma percepção social orientada à segurança e prosperidade.</p>`,
 
-76: `<p>Reconhecimento Social e Percepção de Mérito.</p>
-<p>Na Pirâmide Social, a Potência 76 indica que a pessoa percebe o ambiente como estruturado por esforço, mérito e recompensa proporcional às ações realizadas. Enxerga o meio social como campo onde dedicação e competência geram reconhecimento legítimo. Costuma notar quem conquista espaço por trabalho consistente e quem depende de fatores externos.</p>
+76: `<h4>Reconhecimento Social e Percepção de Mérito.</h4>
+<p>Na Matriz Social, a Potência 76 indica que você percebe o ambiente como estruturado por esforço, mérito e recompensa proporcional às ações realizadas. Você enxerga o meio social como campo onde dedicação e competência geram reconhecimento legítimo. Costuma notar quem conquista espaço por trabalho consistente e quem depende de fatores externos.</p>
 <p>No aspecto positivo manifesta senso de justiça e valorização do empenho coletivo.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo ou comparativo.</p>
 <p>A Potência 76 revela uma percepção social baseada em mérito e reconhecimento.</p>`,
 
-77: `<p>Transformação Social e Percepção de Despertar.</p>
-<p>Na Pirâmide Social, a Potência 77 indica que a pessoa percebe o ambiente como atravessado por processos de evolução profunda e mudanças estruturais. Enxerga o meio social como campo de despertar coletivo e revisão de valores antigos. Costuma notar transições significativas nas atitudes e nas consciências das pessoas ao redor.</p>
+77: `<h4>Transformação Social e Percepção de Despertar.</h4>
+<p>Na Matriz Social, a Potência 77 indica que você percebe o ambiente como atravessado por processos de evolução profunda e mudanças estruturais. Você enxerga o meio social como campo de despertar coletivo e revisão de valores antigos. Costuma notar transições significativas nas atitudes e nas consciências das pessoas ao redor.</p>
 <p>No aspecto positivo manifesta compreensão sobre ciclos de crescimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível.</p>
 <p>A Potência 77 revela uma percepção social de transformação e despertar.</p>`,
 
-78: `<p>Realização Social e Percepção de Celebração.</p>
-<p>Na Pirâmide Social, a Potência 78 indica que a pessoa percebe o ambiente como propício a conquistas, reconhecimento e celebrações coletivas. Enxerga o meio social como palco de resultados positivos e momentos de expansão compartilhada. Costuma notar fases de prosperidade e alegria nos grupos.</p>
+78: `<h4>Realização Social e Percepção de Celebração.</h4>
+<p>Na Matriz Social, a Potência 78 indica que você percebe o ambiente como propício a conquistas, reconhecimento e celebrações coletivas. Você enxerga o meio social como palco de resultados positivos e momentos de expansão compartilhada. Costuma notar fases de prosperidade e alegria nos grupos.</p>
 <p>No aspecto positivo manifesta entusiasmo e valorização das vitórias sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como superficial ou excessivamente voltado à aparência de sucesso.</p>
 <p>A Potência 78 revela uma percepção social orientada à realização e celebração.</p>`,
 
-79: `<p>Libertação Social e Percepção de Recomeços.</p>
-<p>Na Pirâmide Social, a Potência 79 indica que a pessoa percebe o ambiente como marcado por encerramentos e novos ciclos de autonomia. Enxerga o meio social como campo de libertação de padrões antigos e início de novas fases coletivas. Costuma notar rupturas que geram independência e renovação nas relações.</p>
+79: `<h4>Libertação Social e Percepção de Recomeços.</h4>
+<p>Na Matriz Social, a Potência 79 indica que você percebe o ambiente como marcado por encerramentos e novos ciclos de autonomia. Você enxerga o meio social como campo de libertação de padrões antigos e início de novas fases coletivas. Costuma notar rupturas que geram independência e renovação nas relações.</p>
 <p>No aspecto positivo manifesta compreensão sobre a importância de recomeços.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou fragmentado.</p>
 <p>A Potência 79 revela uma percepção social voltada à libertação e renovação.</p>`,
 
-81: `<p>Carma Social e Percepção de Consequências.</p>
-<p>Na Pirâmide Social, a Potência 81 indica que a pessoa percebe o ambiente como regido por responsabilidade e retorno das ações praticadas. Enxerga o meio social como estruturado por causa e efeito nas relações e nos contextos profissionais. Costuma notar como atitudes produzrent resultados proporcionais ao longo do tempo.</p>
+80: `<h4>Equilíbrio Social e Percepção de Estrutura.</h4>
+<p>Na Matriz Social, a Potência 80 indica que você percebe o ambiente como sustentado por organização, estabilidade e responsabilidade coletiva. Você enxerga a importância de manter estruturas sólidas para preservar harmonia nas relações sociais. Costuma notar quem contribui para estabilidade e quem provoca desordem.</p>
+<p>No aspecto positivo manifesta maturidade e senso de responsabilidade social.</p>
+<p>No aspecto negativo pode perceber o meio como rígido ou excessivamente controlador.</p>
+<p>A Potência 80 revela uma percepção social baseada em estrutura e equilíbrio.</p>`,
+
+81: `<h4>Carma Social e Percepção de Consequências.</h4>
+<p>Na Matriz Social, a Potência 81 indica que você percebe o ambiente como regido por responsabilidade e retorno das ações praticadas. Você enxerga o meio social como estruturado por causa e efeito nas relações e nos contextos profissionais. Costuma notar como atitudes produzem resultados proporcionais ao longo do tempo.</p>
 <p>No aspecto positivo manifesta maturidade e senso de responsabilidade coletiva.</p>
 <p>No aspecto negativo pode perceber o ambiente como rígido ou severo nas consequências.</p>
 <p>A Potência 81 revela uma percepção social baseada em responsabilidade e retorno.</p>`,
 
-82: `<p>Ciclos Sociais e Percepção de Padrões.</p>
-<p>Na Pirâmide Social, a Potência 82 indica que a pessoa percebe o ambiente como composto por situações que se repetem até serem compreendidas. Enxerga padrões recorrentes nas relações e nos comportamentos coletivos. Costuma notar repetições de atitudes, erros ou aprendizados nos grupos sociais.</p>
+82: `<h4>Ciclos Sociais e Percepção de Padrões.</h4>
+<p>Na Matriz Social, a Potência 82 indica que você percebe o ambiente como composto por situações que se repetem até serem compreendidas. Você enxerga padrões recorrentes nas relações e nos comportamentos coletivos. Costuma notar repetições de atitudes, erros ou aprendizados nos grupos sociais.</p>
 <p>No aspecto positivo manifesta capacidade de identificar e romper ciclos improdutivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como previsível ou repetitivo demais.</p>
 <p>A Potência 82 revela uma percepção social orientada à identificação de padrões.</p>`,
 
-83: `<p>Autodomínio Social e Percepção de Controle.</p>
-<p>Na Pirâmide Social, a Potência 83 indica que a pessoa percebe o ambiente como exigindo equilíbrio emocional e controle das próprias reações. Enxerga o meio social como campo onde autocontrole é essencial para manter estabilidade nas relações. Costuma notar quem mantém serenidade e quem age por impulso.</p>
+83: `<h4>Autodomínio Social e Percepção de Controle.</h4>
+<p>Na Matriz Social, a Potência 83 indica que você percebe o ambiente como exigindo equilíbrio emocional e controle das próprias reações. Você enxerga o meio social como campo onde autocontrole é essencial para manter estabilidade nas relações. Costuma notar quem mantém serenidade e quem age por impulso.</p>
 <p>No aspecto positivo manifesta maturidade emocional e disciplina interpretativa.</p>
 <p>No aspecto negativo pode perceber o ambiente como tenso ou sujeito a excessos.</p>
 <p>A Potência 83 revela uma percepção social baseada em equilíbrio e autocontrole.</p>`,
 
-84: `<p>Missão Social e Percepção de Impacto Coletivo.</p>
-<p>Na Pirâmide Social, a Potência 84 indica que a pessoa percebe o ambiente como um espaço de responsabilidade coletiva e impacto social. Enxerga as relações como oportunidades de exercer influência significativa no grupo. Costuma notar o papel de cada indivíduo na construção do todo.</p>
+84: `<h4>Missão Social e Percepção de Impacto Coletivo.</h4>
+<p>Na Matriz Social, a Potência 84 indica que você percebe o ambiente como um espaço de responsabilidade coletiva e impacto social. Você enxerga as relações como oportunidades de exercer influência significativa no grupo. Costuma notar o papel de cada indivíduo na construção do todo.</p>
 <p>No aspecto positivo manifesta senso de propósito e consciência social ampliada.</p>
 <p>No aspecto negativo pode perceber o ambiente como pesado devido às responsabilidades assumidas.</p>
 <p>A Potência 84 revela uma percepção social orientada à missão e impacto coletivo.</p>`,
 
-85: `<p>Queda Social e Percepção de Isolamento.</p>
-<p>Na Pirâmide Social, a Potência 85 indica que a pessoa percebe o ambiente como sujeito a afastamentos, revisões e momentos de introspecção coletiva. Enxerga fases de distanciamento como necessárias para reorganizar vínculos e estruturas sociais. Costuma notar períodos de isolamento ou retração nos grupos.</p>
+85: `<h4>Queda Social e Percepção de Isolamento.</h4>
+<p>Na Matriz Social, a Potência 85 indica que você percebe o ambiente como sujeito a afastamentos, revisões e momentos de introspecção coletiva. Você enxerga fases de distanciamento como necessárias para reorganizar vínculos e estruturas sociais. Costuma notar períodos de isolamento ou retração nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão sobre a importância do recolhimento estratégico.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou emocionalmente distante.</p>
 <p>A Potência 85 revela uma percepção social ligada a isolamento e reavaliação.</p>`,
 
-86: `<p>Determinação Social e Percepção de Esforço.</p>
-<p>Na Pirâmide Social, a Potência 86 indica que a pessoa percebe o ambiente como competitivo e orientado por persistência. Enxerga o meio social como campo onde esforço contínuo é indispensável para manter posição e reconhecimento. Costuma notar dedicação, disciplina e resistência nas atitudes coletivas.</p>
+86: `<h4>Determinação Social e Percepção de Esforço.</h4>
+<p>Na Matriz Social, a Potência 86 indica que você percebe o ambiente como competitivo e orientado por persistência. Você enxerga o meio social como campo onde esforço contínuo é indispensável para manter posição e reconhecimento. Costuma notar dedicação, disciplina e resistência nas atitudes coletivas.</p>
 <p>No aspecto positivo manifesta firmeza e constância diante das exigências sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente exigente ou desgastante.</p>
 <p>A Potência 86 revela uma percepção social baseada em determinação e esforço.</p>`,
 
-87: `<p>Excessos Sociais e Percepção de Tentações.</p>
-<p>Na Pirâmide Social, a Potência 87 indica que a pessoa percebe o ambiente como permeado por impulsos, exageros e disputas de intensidade. Enxerga o meio social como cenário de tentações e comportamentos extremos. Costuma notar exageros emocionais, ambições desmedidas e atitudes impulsivas nos grupos.</p>
+87: `<h4>Excessos Sociais e Percepção de Tentações.</h4>
+<p>Na Matriz Social, a Potência 87 indica que você percebe o ambiente como permeado por impulsos, exageros e disputas de intensidade. Você enxerga o meio social como cenário de tentações e comportamentos extremos. Costuma notar exageros emocionais, ambições desmedidas e atitudes impulsivas nos grupos.</p>
 <p>No aspecto positivo manifesta consciência crítica diante dos excessos coletivos.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou descontrolado.</p>
 <p>A Potência 87 revela uma percepção social ligada à intensidade e aos excessos.</p>`,
 
-88: `<p>Rupturas Sociais e Percepção de Colapsos.</p>
-<p>Na Pirâmide Social, a Potência 88 indica que a pessoa percebe o ambiente como sujeito a quedas estruturais e transformações radicais. Enxerga o meio social como campo de colapsos que antecedem reconstruções significativas. Costuma notar crises profundas e mudanças abruptas nas estruturas coletivas.</p>
+88: `<h4>Rupturas Sociais e Percepção de Colapsos.</h4>
+<p>Na Matriz Social, a Potência 88 indica que você percebe o ambiente como sujeito a quedas estruturais e transformações radicais. Você enxerga o meio social como campo de colapsos que antecedem reconstruções significativas. Costuma notar crises profundas e mudanças abruptas nas estruturas coletivas.</p>
 <p>No aspecto positivo manifesta compreensão sobre a necessidade de reconstrução.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável ou imprevisível demais.</p>
 <p>A Potência 88 revela uma percepção social de transformação radical.</p>`,
 
-89: `<p>Frustrações Sociais e Percepção de Expectativas.</p>
-<p>Na Pirâmide Social, a Potência 89 indica que a pessoa percebe o ambiente como marcado por promessas, atrasos e expectativas não plenamente atendidas. Enxerga o meio social como espaço onde resultados dependem de maturação e paciência. Costuma notar discrepâncias entre o que é anunciado e o que se concretiza.</p>
+89: `<h4>Frustrações Sociais e Percepção de Expectativas.</h4>
+<p>Na Matriz Social, a Potência 89 indica que você percebe o ambiente como marcado por promessas, atrasos e expectativas não plenamente atendidas. Você enxerga o meio social como espaço onde resultados dependem de maturação e paciência. Costuma notar discrepâncias entre o que é anunciado e o que se concretiza.</p>
 <p>No aspecto positivo manifesta tolerância e aprendizado diante das frustrações.</p>
 <p>No aspecto negativo pode perceber o ambiente como decepcionante ou inconsistente.</p>
 <p>A Potência 89 revela uma percepção social orientada à paciência e maturação.</p>`,
 
-90: `<p>Sabedoria Social e Percepção de Retiro.</p>
-<p>Na Pirâmide Social, a Potência 90 indica que a pessoa percebe o ambiente como exigindo reflexão e distanciamento estratégico em determinados momentos. Enxerga o meio social como campo de aprendizado acumulado e observação madura. Costuma notar a importância do silêncio e da análise antes de agir coletivamente.</p>
+90: `<h4>Sabedoria Social e Percepção de Retiro.</h4>
+<p>Na Matriz Social, a Potência 90 indica que você percebe o ambiente como exigindo reflexão e distanciamento estratégico em determinados momentos. Você enxerga o meio social como campo de aprendizado acumulado e observação madura. Costuma notar a importância do silêncio e da análise antes de agir coletivamente.</p>
 <p>No aspecto positivo manifesta discernimento e visão ampla das situações sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente reservado ou lento.</p>
 <p>A Potência 90 revela uma percepção social introspectiva e reflexiva.</p>`,
 
-91: `<p>Retorno Social e Percepção de Justiça.</p>
-<p>Na Pirâmide Social, a Potência 91 indica que a pessoa percebe o ambiente como regido por justiça natural e retorno proporcional às atitudes praticadas. Enxerga o meio social como estruturado por consequências inevitáveis. Costuma notar como comportamentos geram resultados diretos nas relações.</p>
+91: `<h4>Retorno Social e Percepção de Justiça.</h4>
+<p>Na Matriz Social, a Potência 91 indica que você percebe o ambiente como regido por justiça natural e retorno proporcional às atitudes praticadas. Você enxerga o meio social como estruturado por consequências inevitáveis. Costuma notar como comportamentos geram resultados diretos nas relações.</p>
 <p>No aspecto positivo manifesta senso de responsabilidade e equilíbrio interpretativo.</p>
 <p>No aspecto negativo pode perceber o ambiente como severo ou rígido nas respostas.</p>
 <p>A Potência 91 revela uma percepção social baseada em justiça e retorno.</p>`,
 
-92: `<p>Reavaliação Social e Percepção de Questionamentos.</p>
-<p>Na Pirâmide Social, a Potência 92 indica que a pessoa percebe o ambiente como atravessado por dúvidas e necessidade de revisão constante. Enxerga o meio social como campo de reflexão coletiva e ajustes de postura. Costuma notar incertezas e debates nas relações e decisões grupais.</p>
+92: `<h4>Reavaliação Social e Percepção de Questionamentos.</h4>
+<p>Na Matriz Social, a Potência 92 indica que você percebe o ambiente como atravessado por dúvidas e necessidade de revisão constante. Você enxerga o meio social como campo de reflexão coletiva e ajustes de postura. Costuma notar incertezas e debates nas relações e decisões grupais.</p>
 <p>No aspecto positivo manifesta análise criteriosa antes de conclusões.</p>
 <p>No aspecto negativo pode perceber o ambiente como indeciso ou instável.</p>
 <p>A Potência 92 revela uma percepção social marcada por questionamento e revisão.</p>`,
 
-93: `<p>Evolução Social e Percepção de Crescimento.</p>
-<p>Na Pirâmide Social, a Potência 93 indica que a pessoa percebe o ambiente como espaço de aprendizado contínuo e desenvolvimento coletivo. Enxerga o meio social como processo evolutivo em constante expansão. Costuma notar amadurecimento progressivo nas atitudes e nos projetos coletivos.</p>
+93: `<h4>Evolução Social e Percepção de Crescimento.</h4>
+<p>Na Matriz Social, a Potência 93 indica que você percebe o ambiente como espaço de aprendizado contínuo e desenvolvimento coletivo. Você enxerga o meio social como processo evolutivo em constante expansão. Costuma notar amadurecimento progressivo nas atitudes e nos projetos coletivos.</p>
 <p>No aspecto positivo manifesta visão otimista sobre crescimento social.</p>
 <p>No aspecto negativo pode perceber o ambiente como lento em sua evolução.</p>
 <p>A Potência 93 revela uma percepção social voltada ao progresso e amadurecimento.</p>`,
 
-94: `<p>Transição Social e Percepção de Encerramentos.</p>
-<p>Na Pirâmide Social, a Potência 94 indica que a pessoa percebe o ambiente como marcado por finais de ciclo e preparações para novos começos. Enxerga o meio social como campo de encerramentos necessários e redefinições estruturais. Costuma notar conclusões de processos e mudanças de direção nas relações coletivas.</p>
+94: `<h4>Transição Social e Percepção de Encerramentos.</h4>
+<p>Na Matriz Social, a Potência 94 indica que você percebe o ambiente como marcado por finais de ciclo e preparações para novos começos. Você enxerga o meio social como campo de encerramentos necessários e redefinições estruturais. Costuma notar conclusões de processos e mudanças de direção nas relações coletivas.</p>
 <p>No aspecto positivo manifesta compreensão sobre o tempo correto de finalizar etapas.</p>
 <p>No aspecto negativo pode perceber o ambiente como instável devido às constantes transições.</p>
 <p>A Potência 94 revela uma percepção social de encerramento e renovação.</p>`,
 
-95: `<p>Reconhecimento Social e Percepção de Harmonia.</p>
-<p>Na Pirâmide Social, a Potência 95 indica que a pessoa percebe o ambiente como estruturado por integração e convivência equilibrada. Enxerga o meio social como espaço onde harmonia e cooperação sustentam estabilidade coletiva. Costuma notar ambientes bem organizados e relações saudáveis.</p>
+95: `<h4>Reconhecimento Social e Percepção de Harmonia.</h4>
+<p>Na Matriz Social, a Potência 95 indica que você percebe o ambiente como estruturado por integração e convivência equilibrada. Você enxerga o meio social como espaço onde harmonia e cooperação sustentam estabilidade coletiva. Costuma notar ambientes bem organizados e relações saudáveis.</p>
 <p>No aspecto positivo manifesta valorização da integração e da paz social.</p>
 <p>No aspecto negativo pode perceber o ambiente como dependente de consenso excessivo.</p>
 <p>A Potência 95 revela uma percepção social orientada à harmonia.</p>`,
 
-96: `<p>Dissolução Social e Percepção de Ilusões.</p>
-<p>Na Pirâmide Social, a Potência 96 indica que a pessoa percebe o ambiente como espaço onde ilusões se desfazem e emoções profundas emergem. Enxerga o meio social como campo de revelação emocional e compreensão além das aparências. Costuma notar incoerências e máscaras sociais sendo gradualmente removidas.</p>
+96: `<h4>Dissolução Social e Percepção de Ilusões.</h4>
+<p>Na Matriz Social, a Potência 96 indica que você percebe o ambiente como espaço onde ilusões se desfazem e emoções profundas emergem. Você enxerga o meio social como campo de revelação emocional e compreensão além das aparências. Costuma notar incoerências e máscaras sociais sendo gradualmente removidas.</p>
 <p>No aspecto positivo manifesta sensibilidade e percepção aguçada.</p>
 <p>No aspecto negativo pode perceber o ambiente como confuso ou emocionalmente instável.</p>
 <p>A Potência 96 revela uma percepção social de verdade e dissolução de ilusões.</p>`,
 
-97: `<p>Destino Social e Percepção de Rupturas.</p>
-<p>Na Pirâmide Social, a Potência 97 indica que a pessoa percebe o ambiente como palco de acontecimentos decisivos e mudanças marcantes. Enxerga o meio social como campo de eventos que alteram trajetórias coletivas. Costuma notar situações determinantes que redefinem vínculos e posições.</p>
+97: `<h4>Destino Social e Percepção de Rupturas.</h4>
+<p>Na Matriz Social, a Potência 97 indica que você percebe o ambiente como palco de acontecimentos decisivos e mudanças marcantes. Você enxerga o meio social como campo de eventos que alteram trajetórias coletivas. Costuma notar situações determinantes que redefinem vínculos e posições.</p>
 <p>No aspecto positivo manifesta consciência estratégica diante de eventos importantes.</p>
 <p>No aspecto negativo pode perceber o ambiente como imprevisível ou abrupto.</p>
 <p>A Potência 97 revela uma percepção social ligada a destino e rupturas significativas.</p>`,
 
-98: `<p>Ascensão Social e Percepção de Poder.</p>
-<p>Na Pirâmide Social, a Potência 98 indica que a pessoa percebe o ambiente como estruturado por conquista, influência e reconhecimento de autoridade. Enxerga o meio social como campo de ascensão e consolidação de poder. Costuma notar hierarquias e disputas por posição nos grupos.</p>
+98: `<h4>Ascensão Social e Percepção de Poder.</h4>
+<p>Na Matriz Social, a Potência 98 indica que você percebe o ambiente como estruturado por conquista, influência e reconhecimento de autoridade. Você enxerga o meio social como campo de ascensão e consolidação de poder. Costuma notar hierarquias e disputas por posição nos grupos.</p>
 <p>No aspecto positivo manifesta compreensão estratégica das estruturas sociais.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente competitivo.</p>
 <p>A Potência 98 revela uma percepção social voltada à ascensão e poder.</p>`,
 
-99: `<p>Consciência Social e Percepção de Sabedoria.</p>
-<p>Na Pirâmide Social, a Potência 99 indica que a pessoa percebe o ambiente com visão ampla e maturidade interpretativa. Enxerga o meio social como campo de aprendizado profundo e compreensão das dinâmicas humanas. Costuma notar padrões complexos e conexões sutis nas relações coletivas.</p>
+99: `<h4>Consciência Social e Percepção de Sabedoria.</h4>
+<p>Na Matriz Social, a Potência 99 indica que você percebe o ambiente com visão ampla e maturidade interpretativa. Você enxerga o meio social como campo de aprendizado profundo e compreensão das dinâmicas humanas. Costuma notar padrões complexos e conexões sutis nas relações coletivas.</p>
 <p>No aspecto positivo manifesta sabedoria e equilíbrio na leitura social.</p>
 <p>No aspecto negativo pode perceber o ambiente como excessivamente denso ou carregado de responsabilidades.</p>
 <p>A Potência 99 revela uma percepção social marcada por consciência e sabedoria.</p>`
-};
-  
+};   
+   
+
+
+
+
+
+   
   textosDestino={ 
 
 
