@@ -2150,63 +2150,63 @@ textosPessoal={
 
 11: `<h4>Força e Autodomínio</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 11, pode perceber uma fase em que surge a necessidade de desenvolver domínio interior diante das circunstâncias da vida. A sensação de enfrentar desafios ou situações que exigem firmeza emocional pode aparecer com mais intensidade, como se a própria experiência estivesse convidando você ao fortalecimento da vontade e da consciência.</p>
-<p>Essa influência pode ser percebida por MASCULINO-FEMININO-NEUTRO como um impulso para agir com equilíbrio mesmo diante de pressões externas. Surge a percepção de que determinadas situações pedem paciência, controle das reações e clareza nas decisões. Quando compreendida com maturidade, essa potência revela um período voltado ao fortalecimento interior e ao desenvolvimento da verdadeira força que nasce do autocontrole.</p>`,
+<p>Essa influência pode ser percebida por você, MASCULINO-FEMININO-NEUTRO, como um impulso para agir com equilíbrio mesmo diante de pressões externas. Surge a percepção de que determinadas situações pedem paciência, controle das reações e clareza nas decisões. Quando compreendida com maturidade, essa potência revela um período voltado ao fortalecimento interior e ao desenvolvimento da verdadeira força que nasce do autocontrole.</p>`,
 
 12: `<h4>Sacrifício e Nova Perspectiva</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 12, pode perceber momentos em que a vida parece convidar você a observar determinadas situações sob outro ponto de vista. Circunstâncias que exigem pausa, reflexão ou mudança de perspectiva podem surgir, trazendo a sensação de que algo precisa ser compreendido com mais profundidade.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO a percepção de que certos avanços acontecem apenas depois de um período de observação ou de aceitação de limites momentâneos. A experiência pode estimular reflexão sobre valores, escolhas e prioridades. Quando assimilada com consciência, essa fase revela aprendizado ligado à paciência e à capacidade de enxergar novas possibilidades dentro de situações aparentemente paralisadas.</p>`,
+<p>Essa influência pode despertar em você a percepção de que certos avanços acontecem apenas depois de um período de observação ou de aceitação de limites momentâneos. A experiência pode estimular reflexão sobre valores, escolhas e prioridades. Quando assimilada com consciência, essa fase revela aprendizado ligado à paciência e à capacidade de enxergar novas possibilidades dentro de situações aparentemente paralisadas.</p>`,
 
 13: `<h4>Transformação e Renascimento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 13, pode perceber uma fase marcada por mudanças significativas ou pela necessidade de encerrar determinados ciclos. Surge a sensação de que algumas estruturas antigas já não correspondem ao momento atual, estimulando em você uma reorganização natural de caminhos e escolhas.</p>
-<p>Essa influência pode trazer para MASCULINO-FEMININO-NEUTRO percepções profundas sobre desapego e renovação. Em alguns momentos pode surgir resistência diante das mudanças, porém essa potência indica aprendizado ligado à transformação. Quando compreendida com clareza, essa fase revela que todo encerramento abre espaço para novas possibilidades de crescimento e evolução.</p>`,
+<p>Essa influência pode trazer percepções profundas sobre desapego e renovação. Em alguns momentos pode surgir resistência diante das mudanças, porém essa potência indica aprendizado ligado à transformação. Quando compreendida com clareza, essa fase revela que todo encerramento abre espaço para novas possibilidades de crescimento e evolução.</p>`,
 
 14: `<h4>Equilíbrio e Harmonia</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 14, pode perceber uma influência voltada à busca de equilíbrio entre diferentes áreas da vida. Surge a sensação de que conciliar ideias, emoções e atitudes passa a ser fundamental para manter estabilidade diante das experiências do cotidiano.</p>
-<p>Essa potência pode estimular em MASCULINO-FEMININO-NEUTRO uma percepção mais consciente sobre moderação, paciência e adaptação às circunstâncias. Em alguns momentos pode surgir a necessidade de reorganizar rotinas ou ajustar expectativas. Quando bem assimilada, essa fase revela aprendizado sobre harmonia e construção gradual de estabilidade interior.</p>`,
+<p>Essa potência pode estimular  uma percepção mais consciente sobre moderação, paciência e adaptação às circunstâncias. Em alguns momentos pode surgir a necessidade de reorganizar rotinas ou ajustar expectativas. Quando bem assimilada, essa fase revela aprendizado sobre harmonia e construção gradual de estabilidade interior.</p>`,
 
 15: `<h4>Conflito e Vigilância</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 15, pode perceber uma fase em que desejos intensos, pressões externas ou situações desafiadoras chamam atenção para escolhas importantes. Surge a sensação de confronto entre impulsos imediatos e decisões mais conscientes.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO maior percepção sobre limites pessoais, responsabilidades e consequências das escolhas. Em alguns momentos podem surgir tentações ou situações que exigem discernimento. Quando compreendida com maturidade, essa potência revela aprendizado sobre consciência das próprias decisões e liberdade interior diante das influências externas.</p>`,
+<p>Essa influência pode despertar  maior percepção sobre limites pessoais, responsabilidades e consequências das escolhas. Em alguns momentos podem surgir tentações ou situações que exigem discernimento. Quando compreendida com maturidade, essa potência revela aprendizado sobre consciência das próprias decisões e liberdade interior diante das influências externas.</p>`,
 
 16: `<h4>Ruptura e Despertar</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 16, pode perceber momentos de quebra de padrões ou mudanças inesperadas em determinadas situações. Estruturas que pareciam sólidas podem sofrer alterações, trazendo a sensação de que algo precisa ser reconstruído de forma diferente.</p>
-<p>Essa influência pode provocar em MASCULINO-FEMININO-NEUTRO reflexão sobre crenças antigas, atitudes repetidas ou caminhos que já não correspondem à realidade atual. Embora certas mudanças possam gerar desconforto inicial, essa potência revela aprendizado ligado ao despertar de novas compreensões e à reconstrução de bases mais conscientes para o futuro.</p>`,
+<p>Essa influência pode provocar em você reflexões sobre crenças antigas, atitudes repetidas ou caminhos que já não correspondem à realidade atual. Embora certas mudanças possam gerar desconforto inicial, essa potência revela aprendizado ligado ao despertar de novas compreensões e à reconstrução de bases mais conscientes para o futuro.</p>`,
 
 17: `<h4>Esperança e Inspiração</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 17, pode perceber uma fase marcada por renovação de expectativas e inspiração em relação ao futuro. Surge a sensação de que novas possibilidades começam a se revelar gradualmente, trazendo confiança na continuidade da jornada.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO uma percepção mais otimista sobre experiências vividas e caminhos que ainda podem ser construídos. Ideias, projetos ou sonhos podem ganhar novo significado durante esse período. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre confiança, esperança e abertura para novos horizontes.</p>`,
+<p>Essa influência pode estimular  uma percepção mais otimista sobre experiências vividas e caminhos que ainda podem ser construídos. Ideias, projetos ou sonhos podem ganhar novo significado durante esse período. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre confiança, esperança e abertura para novos horizontes.</p>`,
 
 18: `<h4>Intuição e Profundidade Interior</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 18, pode perceber intensificação da sensibilidade e maior atenção aos aspectos internos da experiência humana. Emoções, pressentimentos e percepções subjetivas podem ganhar destaque na forma como determinadas situações são interpretadas.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO reflexão sobre medos, dúvidas ou aspectos ocultos das próprias escolhas. Em alguns momentos pode surgir necessidade de buscar clareza entre imaginação e realidade. Quando compreendida com maturidade, essa fase revela aprendizado sobre desenvolvimento da intuição e compreensão mais profunda do mundo interior.</p>`,
+<p>Essa influência pode estimular reflexão sobre medos, dúvidas ou aspectos ocultos das próprias escolhas. Em alguns momentos pode surgir necessidade de buscar clareza entre imaginação e realidade. Quando compreendida com maturidade, essa fase revela aprendizado sobre desenvolvimento da intuição e compreensão mais profunda do mundo interior.</p>`,
 
 19: `<h4>Clareza e Vitalidade</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 19, pode perceber uma fase marcada por maior sensação de clareza, vitalidade e confiança nas próprias capacidades. Circunstâncias que favorecem expressão pessoal e realização de objetivos podem surgir com mais evidência.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO uma percepção positiva sobre conquistas, progresso e desenvolvimento das próprias habilidades. Em determinados momentos pode surgir tendência ao excesso de confiança, exigindo atenção ao equilíbrio. Quando bem integrada, essa potência revela aprendizado sobre autenticidade, transparência e reconhecimento das próprias capacidades.</p>`,
+<p>Essa influência pode estimular uma percepção positiva sobre conquistas, progresso e desenvolvimento das próprias habilidades. Em determinados momentos pode surgir tendência ao excesso de confiança, exigindo atenção ao equilíbrio. Quando bem integrada, essa potência revela aprendizado sobre autenticidade, transparência e reconhecimento das próprias capacidades.</p>`,
 
 20: `<h4>Chamado e Renovação de Caminho</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 20, pode perceber momentos que despertam reflexão profunda sobre escolhas, valores e direção da própria jornada. Surge a sensação de que determinadas experiências funcionam como um chamado para reavaliar caminhos e assumir novas responsabilidades.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO a percepção de que acontecimentos recentes carregam significado importante para o futuro. Surge a oportunidade de revisar atitudes passadas e reorganizar prioridades. Quando compreendida com clareza, essa fase revela aprendizado sobre renovação de propósito e alinhamento com direções mais conscientes da própria trajetória.</p>`,
+<p>Essa influência pode estimular em você a percepção de que acontecimentos recentes carregam significado importante para o futuro. Surge a oportunidade de revisar atitudes passadas e reorganizar prioridades. Quando compreendida com clareza, essa fase revela aprendizado sobre renovação de propósito e alinhamento com direções mais conscientes da própria trajetória.</p>`,
 
 21: `<h4>Expansão e Realização</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 21, pode perceber uma fase em que surge a sensação de ampliação de horizontes e compreensão mais abrangente sobre a própria trajetória. Experiências que antes pareciam isoladas passam a formar conexões mais claras, permitindo que você perceba como diferentes acontecimentos participam de um mesmo processo de crescimento.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO a percepção de conclusão de ciclos importantes e abertura para novos caminhos. Surge a sensação de que determinadas conquistas representam não apenas resultados externos, mas também aprendizado acumulado ao longo da jornada. Quando assimilada com consciência, essa potência revela um período de integração e realização gradual.</p>`,
+<p>Essa influência pode despertar em você a percepção de conclusão de ciclos importantes e abertura para novos caminhos. Surge a sensação de que determinadas conquistas representam não apenas resultados externos, mas também aprendizado acumulado ao longo da jornada. Quando assimilada com consciência, essa potência revela um período de integração e realização gradual.</p>`,
 
 22: `<h4>Liberdade e Novo Caminho</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 22, pode perceber uma fase marcada pela sensação de liberdade diante das possibilidades da vida. Surge a percepção de que novos caminhos podem ser explorados sem necessariamente seguir padrões já conhecidos, estimulando curiosidade e abertura para experiências diferentes.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO o desejo de iniciar novas direções ou abandonar limitações que antes pareciam inevitáveis. Em alguns momentos pode surgir dispersão ou decisões impulsivas, exigindo atenção ao equilíbrio entre liberdade e responsabilidade. Quando compreendida com maturidade, essa potência revela aprendizado ligado à confiança na própria jornada.</p>`,
+<p>Essa influência pode despertar em você o desejo de iniciar novas direções ou abandonar limitações que antes pareciam inevitáveis. Em alguns momentos pode surgir dispersão ou decisões impulsivas, exigindo atenção ao equilíbrio entre liberdade e responsabilidade. Quando compreendida com maturidade, essa potência revela aprendizado ligado à confiança na própria jornada.</p>`,
 
 23: `<h4>Comunicação e Movimento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 23, pode perceber maior estímulo para troca de ideias, diálogo e interação com o ambiente ao redor. Conversas, informações e contatos podem ganhar relevância na forma como caminhos e decisões passam a ser percebidos.</p>
-<p>Essa influência pode favorecer para MASCULINO-FEMININO-NEUTRO novas conexões, aprendizado através da comunicação e abertura para diferentes pontos de vista. Em alguns momentos pode surgir excesso de estímulos ou dificuldade em manter concentração em apenas uma direção. Quando equilibrada, essa fase revela aprendizado sobre expressão clara e construção de caminhos através do diálogo.</p>`,
+<p>Essa influência pode favorecer para você novas conexões, aprendizado através da comunicação e abertura para diferentes pontos de vista. Em alguns momentos pode surgir excesso de estímulos ou dificuldade em manter concentração em apenas uma direção. Quando equilibrada, essa fase revela aprendizado sobre expressão clara e construção de caminhos através do diálogo.</p>`,
 
 24: `<h4>Estrutura e Estabilidade</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 24, pode perceber uma fase voltada para construção de bases mais sólidas na própria vida. Questões relacionadas à organização, responsabilidades e compromissos cotidianos podem ganhar maior destaque na percepção das prioridades.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atenção à segurança, à estrutura das relações e ao fortalecimento de projetos duradouros. Em alguns momentos pode surgir excesso de preocupação com estabilidade ou necessidade de controle sobre as circunstâncias. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de segurança.</p>`,
+<p>Essa influência pode estimular atenção à segurança, à estrutura das relações e ao fortalecimento de projetos duradouros. Em alguns momentos pode surgir excesso de preocupação com estabilidade ou necessidade de controle sobre as circunstâncias. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade e construção consciente de segurança.</p>`,
 
 25: `<h4>Reflexão e Sabedoria</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 25, pode perceber uma fase marcada por questionamentos e busca por compreensão mais profunda das experiências vividas. Surge a sensação de necessidade de analisar acontecimentos com mais atenção, procurando perceber significados que antes passavam despercebidos.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO introspecção, estudo e observação cuidadosa da própria trajetória. Em alguns momentos pode surgir sensação de afastamento em relação ao ambiente externo, favorecendo momentos de silêncio e reflexão. Quando assimilada com maturidade, essa potência revela aprendizado ligado ao desenvolvimento da sabedoria interior.</p>`,
+<p>Essa influência pode estimular introspecção, estudo e observação cuidadosa da própria trajetória. Em alguns momentos pode surgir sensação de afastamento em relação ao ambiente externo, favorecendo momentos de silêncio e reflexão. Quando assimilada com maturidade, essa potência revela aprendizado ligado ao desenvolvimento da sabedoria interior.</p>`,
 
 26: `<h4>Realização e Responsabilidade</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 26, pode perceber uma fase em que objetivos concretos e resultados práticos passam a ocupar maior espaço na percepção das prioridades. Surge a sensação de necessidade de organizar esforços para alcançar conquistas e consolidar projetos importantes.</p>
@@ -2214,15 +2214,15 @@ textosPessoal={
 
 27: `<h4>Sensibilidade e Compreensão</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 27, pode perceber intensificação da sensibilidade em relação às necessidades das pessoas ao redor. Surge a sensação de maior empatia diante das experiências humanas, estimulando compreensão mais profunda das relações.</p>
-<p>Essa influência pode favorecer em MASCULINO-FEMININO-NEUTRO atitudes de cooperação, apoio e cuidado nas interações sociais. Em alguns momentos pode surgir desgaste emocional ao absorver situações externas com intensidade. Quando bem equilibrada, essa fase revela aprendizado sobre compaixão e desenvolvimento de sensibilidade consciente.</p>`,
+<p>Essa influência pode favorecer atitudes de cooperação, apoio e cuidado nas interações sociais. Em alguns momentos pode surgir desgaste emocional ao absorver situações externas com intensidade. Quando bem equilibrada, essa fase revela aprendizado sobre compaixão e desenvolvimento de sensibilidade consciente.</p>`,
 
 28: `<h4>Iniciativa e Liderança</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 28, pode perceber estímulo para agir com maior autonomia diante das circunstâncias da vida. Surge a sensação de impulso para iniciar projetos, tomar decisões importantes ou conduzir determinadas situações com mais independência.</p>
-<p>Essa influência pode fortalecer em MASCULINO-FEMININO-NEUTRO a percepção de capacidade para assumir responsabilidades e direcionar caminhos com confiança. Em alguns momentos pode surgir impaciência ou tendência a agir rapidamente diante dos desafios. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e iniciativa equilibrada.</p>`,
+<p>Essa influência pode fortalecer a sua percepção de capacidade para assumir responsabilidades e direcionar caminhos com confiança. Em alguns momentos pode surgir impaciência ou tendência a agir rapidamente diante dos desafios. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e iniciativa equilibrada.</p>`,
 
 29: `<h4>Emoção e Introspecção</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 29, pode perceber intensificação das emoções e maior sensibilidade em relação às experiências da própria vida. Situações afetivas ou relações próximas podem ganhar destaque na forma como acontecimentos são interpretados.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO reflexão sobre sentimentos, vínculos e necessidades emocionais. Em alguns momentos pode surgir dificuldade em compreender plenamente determinadas reações internas. Quando compreendida com equilíbrio, essa fase revela aprendizado sobre maturidade emocional e desenvolvimento da percepção interior.</p>`,
+<p>Essa influência pode estimular em você a refletir sobre sentimentos, vínculos e necessidades emocionais. Em alguns momentos pode surgir dificuldade em compreender plenamente determinadas reações internas. Quando compreendida com equilíbrio, essa fase revela aprendizado sobre maturidade emocional e desenvolvimento da percepção interior.</p>`,
 
 30: `<h4>Expressão e Criatividade</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 30, pode perceber estímulo à expressão pessoal e ao compartilhamento das próprias ideias. Surge a sensação de desejo de comunicar pensamentos, desenvolver criatividade ou transformar percepções em algo que possa ser manifestado no mundo.</p>
@@ -2230,19 +2230,19 @@ textosPessoal={
 
 31: `<h4>Iniciativa e Construção de Caminho</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 31, pode perceber um impulso para iniciar movimentos que dependem principalmente da própria decisão. Surge a sensação de que determinadas direções precisam ser assumidas com mais autonomia, como se a experiência estivesse convidando você à construção consciente de novos caminhos.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes mais independentes e disposição para transformar ideias em ações concretas. Em alguns momentos pode surgir a percepção de que certas escolhas dependem menos da aprovação externa e mais da própria convicção interior. Quando assimilada com equilíbrio, essa potência revela aprendizado ligado à iniciativa e à construção responsável do próprio percurso.</p>`,
+<p>Essa influência pode estimular em você atitudes mais independentes e disposição para transformar ideias em ações concretas. Em alguns momentos pode surgir a percepção de que certas escolhas dependem menos da aprovação externa e mais da própria convicção interior. Quando assimilada com equilíbrio, essa potência revela aprendizado ligado à iniciativa e à construção responsável do próprio percurso.</p>`,
 
 32: `<h4>Cooperação e Alinhamento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 32, pode perceber maior atenção às relações de parceria e colaboração. Surge a sensação de que determinados objetivos se desenvolvem melhor quando existe troca equilibrada de ideias e esforços entre diferentes pessoas.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO percepção sobre a importância do diálogo, da diplomacia e da construção conjunta de soluções. Em alguns momentos pode surgir a necessidade de ajustar expectativas ou encontrar pontos de equilíbrio nas relações. Quando compreendida com maturidade, essa potência revela aprendizado sobre cooperação consciente e harmonia nas interações.</p>`,
+<p>Essa influência pode estimular você a percepção sobre a importância do diálogo, da diplomacia e da construção conjunta de soluções. Em alguns momentos pode surgir a necessidade de ajustar expectativas ou encontrar pontos de equilíbrio nas relações. Quando compreendida com maturidade, essa potência revela aprendizado sobre cooperação consciente e harmonia nas interações.</p>`,
 
 33: `<h4>Compreensão e Expansão Interior</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 33, pode perceber uma fase marcada pela ampliação da sensibilidade em relação ao significado das experiências humanas. Surge a sensação de compreender com mais profundidade situações que envolvem crescimento, aprendizado e desenvolvimento coletivo.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes voltadas ao apoio, à orientação e à compreensão das necessidades ao redor. Em alguns momentos pode surgir tendência a assumir responsabilidades que pertencem a outras pessoas. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre consciência ampliada e responsabilidade no uso da própria influência.</p>`,
+<p>Essa influência pode estimular em você  atitudes voltadas ao apoio, à orientação e à compreensão das necessidades ao redor. Em alguns momentos pode surgir tendência a assumir responsabilidades que pertencem a outras pessoas. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre consciência ampliada e responsabilidade no uso da própria influência.</p>`,
 
 34: `<h4>Disciplina e Estrutura</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 34, pode perceber uma fase voltada à organização prática da vida e ao fortalecimento de estruturas necessárias para alcançar estabilidade. Surge a sensação de que certos resultados dependem diretamente de esforço constante e planejamento cuidadoso.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO foco no trabalho, na responsabilidade e na construção gradual de objetivos sólidos. Em alguns momentos pode surgir sensação de esforço intenso ou necessidade de enfrentar desafios com persistência. Quando compreendida com maturidade, essa potência revela aprendizado sobre disciplina e construção consistente de resultados.</p>`,
+<p>Essa influência pode estimular o foco no trabalho, na responsabilidade e na construção gradual de objetivos sólidos. Em alguns momentos pode surgir sensação de esforço intenso ou necessidade de enfrentar desafios com persistência. Quando compreendida com maturidade, essa potência revela aprendizado sobre disciplina e construção consistente de resultados.</p>`,
 
 35: `<h4>Mudança e Adaptação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 35, pode perceber uma fase marcada por transformações, movimento e adaptação às circunstâncias que surgem ao longo da jornada. Situações inesperadas podem convidar você a desenvolver flexibilidade diante das experiências.</p>
@@ -2250,19 +2250,19 @@ textosPessoal={
 
 36: `<h4>Responsabilidade e Harmonia</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 36, pode perceber maior atenção às responsabilidades ligadas à vida familiar, às relações próximas ou aos compromissos que sustentam estabilidade emocional. Surge a sensação de necessidade de cuidar de estruturas importantes que mantêm equilíbrio na vida cotidiana.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes de proteção, organização e comprometimento com o bem-estar coletivo. Em alguns momentos pode surgir tendência a assumir mais responsabilidades do que o necessário. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade consciente e manutenção da harmonia nas relações.</p>`,
+<p>Essa influência pode estimular em você atitudes de proteção, organização e comprometimento com o bem-estar coletivo. Em alguns momentos pode surgir tendência a assumir mais responsabilidades do que o necessário. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre responsabilidade consciente e manutenção da harmonia nas relações.</p>`,
 
 37: `<h4>Conhecimento e Reflexão</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 37, pode perceber uma fase em que o interesse pelo conhecimento, pela observação e pela análise das experiências se intensifica. Surge a sensação de necessidade de compreender melhor determinados acontecimentos antes de tomar decisões importantes.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO estudo, investigação e reflexão sobre caminhos futuros. Em alguns momentos pode surgir tendência ao isolamento ou à busca excessiva por respostas internas. Quando assimilada com maturidade, essa potência revela aprendizado sobre sabedoria construída através da reflexão e do entendimento profundo.</p>`,
+<p>Essa influência pode estimular estudo, investigação e reflexão sobre seus caminhos futuros. Em alguns momentos pode surgir tendência ao isolamento ou à busca excessiva por respostas internas. Quando assimilada com maturidade, essa potência revela aprendizado sobre sabedoria construída através da reflexão e do entendimento profundo.</p>`,
 
 38: `<h4>Autoridade e Realização</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 38, pode perceber estímulo para assumir responsabilidades ligadas à liderança ou à organização de projetos importantes. Surge a sensação de que determinadas circunstâncias exigem postura firme diante de decisões que afetam o próprio caminho.</p>
-<p>Essa influência pode favorecer em MASCULINO-FEMININO-NEUTRO conquistas materiais, reconhecimento por esforços anteriores ou consolidação de objetivos práticos. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
+<p>Essa influência pode favorecer você a conquistas materiais, reconhecimento por esforços anteriores ou consolidação de objetivos práticos. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
 
 39: `<h4>Sensibilidade e Propósito Coletivo</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 39, pode perceber intensificação da sensibilidade em relação às necessidades humanas e aos movimentos que acontecem no ambiente ao redor. Surge a sensação de conexão mais profunda com questões que envolvem cooperação e compreensão coletiva.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes voltadas à solidariedade, ao apoio e à participação em causas que beneficiam outras pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver com intensidade as experiências externas. Quando assimilada com maturidade, essa potência revela aprendizado sobre consciência coletiva e propósito compartilhado.</p>`,
+<p>Essa influência pode estimular você a ter atitudes voltadas à solidariedade, ao apoio e à participação em causas que beneficiam outras pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver com intensidade as experiências externas. Quando assimilada com maturidade, essa potência revela aprendizado sobre consciência coletiva e propósito compartilhado.</p>`,
 
 40: `<h4>Estrutura e Consolidação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 40, pode perceber uma fase voltada à consolidação de aprendizados e à construção de bases mais estáveis para o futuro. Surge a sensação de que determinadas experiências pedem organização, responsabilidade e continuidade de esforços.</p>
@@ -2270,23 +2270,23 @@ textosPessoal={
 
 41: `<h4>Iniciativa e Renovação de Caminho</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 41, pode perceber o surgimento de um impulso para iniciar novas etapas dentro da própria trajetória. Algumas situações podem apresentar a sensação de recomeço ou abertura de possibilidades que antes não estavam visíveis.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO decisões que favorecem movimento e renovação de objetivos. Em alguns momentos pode surgir a necessidade de agir com coragem diante de mudanças que exigem posicionamento. Quando compreendida com clareza, essa potência revela aprendizado relacionado à capacidade de iniciar novos caminhos com consciência.</p>`,
+<p>Essa influência pode estimular em você decisões que favorecem movimento e renovação de objetivos. Em alguns momentos pode surgir a necessidade de agir com coragem diante de mudanças que exigem posicionamento. Quando compreendida com clareza, essa potência revela aprendizado relacionado à capacidade de iniciar novos caminhos com consciência.</p>`,
 
 42: `<h4>Equilíbrio e Cooperação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 42, pode perceber maior atenção às relações e à forma como decisões afetam o equilíbrio entre diferentes pessoas e situações. Surge a sensação de que determinados avanços dependem de diálogo, compreensão e cooperação.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes conciliadoras e a busca por harmonia nas interações cotidianas. Em alguns momentos pode surgir necessidade de ajustar expectativas ou rever acordos. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio relacional e construção conjunta de soluções.</p>`,
+<p>Essa influência pode estimular em você atitudes conciliadoras e a busca por harmonia nas interações cotidianas. Em alguns momentos pode surgir necessidade de ajustar expectativas ou rever acordos. Quando assimilada com maturidade, essa potência revela aprendizado sobre equilíbrio relacional e construção conjunta de soluções.</p>`,
 
 43: `<h4>Expressão e Desenvolvimento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 43, pode perceber estímulo à expressão das próprias ideias e à expansão da criatividade. Surge a sensação de que pensamentos, projetos ou percepções desejam ganhar forma e serem compartilhados.</p>
-<p>Essa influência pode favorecer em MASCULINO-FEMININO-NEUTRO comunicação, inovação e desenvolvimento de talentos pessoais. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre transformar inspiração em manifestação prática.</p>`,
+<p>Essa influência pode te favorecer na comunicação, inovação e desenvolvimento de talentos pessoais. Em alguns momentos pode surgir dispersão entre muitas ideias diferentes. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre transformar inspiração em manifestação prática.</p>`,
 
 44: `<h4>Estrutura e Segurança</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 44, pode perceber uma fase em que estabilidade e organização ganham importância dentro da própria jornada. Algumas situações podem exigir planejamento cuidadoso e construção de bases sólidas para o futuro.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO disciplina, responsabilidade e atenção às estruturas que sustentam segurança material ou emocional. Em alguns momentos pode surgir sensação de peso nas responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre construção de estabilidade duradoura.</p>`,
+<p>Essa influência pode estimular em você disciplina, responsabilidade e atenção às estruturas que sustentam segurança material ou emocional. Em alguns momentos pode surgir sensação de peso nas responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre construção de estabilidade duradoura.</p>`,
 
 45: `<h4>Mudança e Movimento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 45, pode perceber maior dinamismo nas experiências que surgem ao longo do caminho. Situações inesperadas ou mudanças de direção podem convidar você à adaptação e ao desenvolvimento de flexibilidade.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO curiosidade, aprendizado através de novas experiências e ampliação de perspectivas. Em alguns momentos pode surgir sensação de instabilidade diante das transformações. Quando compreendida com maturidade, essa potência revela aprendizado sobre adaptação inteligente às mudanças da vida.</p>`,
+<p>Essa influência pode estimular em você curiosidade, aprendizado através de novas experiências e ampliação de perspectivas. Em alguns momentos pode surgir sensação de instabilidade diante das transformações. Quando compreendida com maturidade, essa potência revela aprendizado sobre adaptação inteligente às mudanças da vida.</p>`,
 
 46: `<h4>Responsabilidade e Harmonia Familiar</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 46, pode perceber maior atenção às relações próximas e aos compromissos que envolvem estabilidade emocional ou familiar. Surge a sensação de necessidade de cuidar de estruturas que sustentam equilíbrio no cotidiano.</p>
@@ -2294,15 +2294,15 @@ textosPessoal={
 
 47: `<h4>Busca de Conhecimento</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 47, pode perceber intensificação do interesse por compreensão, estudo e reflexão sobre as experiências vividas. Surge a sensação de que determinadas respostas exigem observação mais profunda antes de qualquer decisão.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO investigação, aprendizado e desenvolvimento de sabedoria através da análise das situações. Em alguns momentos pode surgir tendência ao recolhimento ou introspecção. Quando compreendida com equilíbrio, essa potência revela aprendizado ligado à construção de conhecimento interior.</p>`,
+<p>Essa influência pode estimular investigação, aprendizado e desenvolvimento de sabedoria através da análise das situações. Em alguns momentos pode surgir tendência ao recolhimento ou introspecção. Quando compreendida com equilíbrio, essa potência revela aprendizado ligado à construção de conhecimento interior.</p>`,
 
 48: `<h4>Autoridade e Conquista</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 48, pode perceber estímulo para assumir responsabilidades que envolvem liderança, organização ou tomada de decisões importantes. Algumas circunstâncias podem convidar à consolidação de conquistas materiais ou profissionais.</p>
-<p>Essa influência pode favorecer em MASCULINO-FEMININO-NEUTRO realização prática, reconhecimento de esforços anteriores e fortalecimento de posições alcançadas. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
+<p>Essa influência pode favorecer você na realização prática, reconhecimento de esforços anteriores e fortalecimento de posições alcançadas. Em alguns momentos pode surgir pressão relacionada ao peso das responsabilidades assumidas. Quando assimilada com maturidade, essa potência revela aprendizado sobre liderança consciente e realização estruturada.</p>`,
 
 49: `<h4>Compaixão e Consciência Coletiva</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 49, pode perceber maior sensibilidade em relação às necessidades humanas e aos acontecimentos que envolvem o coletivo. Surge a sensação de conexão mais profunda com questões que ultrapassam interesses exclusivamente pessoais.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO atitudes de solidariedade, cooperação e compreensão das experiências compartilhadas entre as pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver intensamente as situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre consciência coletiva e empatia.</p>`,
+<p>Essa influência pode estimular em você atitudes de solidariedade, cooperação e compreensão das experiências compartilhadas entre as pessoas. Em alguns momentos pode surgir desgaste emocional ao absorver intensamente as situações externas. Quando compreendida com equilíbrio, essa potência revela aprendizado sobre consciência coletiva e empatia.</p>`,
 
 50: `<h4>Liberdade e Transformação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 50, pode perceber um período marcado por desejo de liberdade diante de padrões que antes pareciam fixos. Algumas situações podem convidar você a experimentar novos caminhos ou a transformar percepções estabelecidas.</p>
@@ -2310,7 +2310,7 @@ textosPessoal={
 
  51: `<h4>Impulso e Determinação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 51, pode perceber um impulso mais intenso para agir diante de situações que exigem decisão. Circunstâncias podem despertar em você uma sensação de urgência para assumir direção em questões que antes estavam em espera.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO coragem para enfrentar desafios e iniciar movimentos que exigem firmeza interior. Em alguns momentos pode surgir tensão ou necessidade de controlar impulsos antes de agir. Quando compreendida com consciência, essa potência revela aprendizado sobre determinação e uso equilibrado da força de vontade.</p>`,
+<p>Essa influência pode estimular em você a coragem para enfrentar desafios e iniciar movimentos que exigem firmeza interior. Em alguns momentos pode surgir tensão ou necessidade de controlar impulsos antes de agir. Quando compreendida com consciência, essa potência revela aprendizado sobre determinação e uso equilibrado da força de vontade.</p>`,
 
 52: `<h4>Pausa e Observação</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 52, pode perceber uma fase que convida à redução do ritmo habitual das ações. Algumas situações podem despertar a sensação de que observar com atenção é mais importante do que agir imediatamente.</p>
@@ -2318,27 +2318,27 @@ textosPessoal={
 
 53: `<h4>Crescimento Gradual</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 53, pode perceber uma fase marcada por evolução progressiva das experiências. Situações podem se desenvolver passo a passo, revelando que determinados resultados exigem paciência e continuidade de esforços.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO perseverança e confiança no processo natural de crescimento. Em alguns momentos pode surgir sensação de lentidão diante dos acontecimentos. Quando compreendida com clareza, essa potência revela aprendizado sobre desenvolvimento constante e construção gradual de caminhos.</p>`,
+<p>Essa influência pode estimular em você perseverança e confiança no processo natural de crescimento. Em alguns momentos pode surgir sensação de lentidão diante dos acontecimentos. Quando compreendida com clareza, essa potência revela aprendizado sobre desenvolvimento constante e construção gradual de caminhos.</p>`,
 
 54: `<h4>Ambição e Realização</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 54, pode perceber maior atenção aos objetivos ligados à realização material ou reconhecimento social. Algumas circunstâncias podem despertar motivação para alcançar posições mais estáveis ou ampliar conquistas já iniciadas.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO planejamento estratégico, iniciativa e foco em resultados concretos. Em alguns momentos pode surgir conflito entre ambição e equilíbrio interior. Quando assimilada com consciência, essa potência revela aprendizado sobre uso responsável da ambição na construção de realizações.</p>`,
+<p>Essa influência pode estimular planejamento estratégico, iniciativa e foco em resultados concretos. Em alguns momentos pode surgir conflito entre ambição e equilíbrio interior. Quando assimilada com consciência, essa potência revela aprendizado sobre uso responsável da ambição na construção de realizações.</p>`,
 
 55: `<h4>Expansão e Experiência</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 55, pode perceber um período marcado por movimento, novidades e desejo de experimentar caminhos diferentes. Situações inesperadas podem abrir novas possibilidades de aprendizado.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO curiosidade, liberdade de pensamento e ampliação de perspectivas. Em alguns momentos pode surgir dispersão diante de muitas opções disponíveis. Quando compreendida com maturidade, essa potência revela aprendizado sobre expansão de horizontes através da experiência.</p>`,
+<p>Essa influência pode estimular curiosidade, liberdade de pensamento e ampliação de perspectivas. Em alguns momentos pode surgir dispersão diante de muitas opções disponíveis. Quando compreendida com maturidade, essa potência revela aprendizado sobre expansão de horizontes através da experiência.</p>`,
 
 56: `<h4>Responsabilidade e Compromisso</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 56, pode perceber maior atenção às responsabilidades assumidas ao longo da jornada. Algumas situações podem convidar você à reorganização de compromissos e ao fortalecimento de vínculos importantes.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO senso de dever, cuidado com relações próximas e busca por estabilidade nas estruturas que sustentam a vida cotidiana. Em alguns momentos pode surgir sensação de peso diante das responsabilidades. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre compromisso consciente.</p>`,
+<p>Essa influência pode estimular no senso de dever, cuidado com relações próximas e busca por estabilidade nas estruturas que sustentam a vida cotidiana. Em alguns momentos pode surgir sensação de peso diante das responsabilidades. Quando assimilada com equilíbrio, essa potência revela aprendizado sobre compromisso consciente.</p>`,
 
 57: `<h4>Intuição e Percepção</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 57, pode perceber maior sensibilidade para captar nuances sutis das experiências ao redor. Situações podem despertar percepção intuitiva sobre caminhos, decisões ou ambientes.</p>
-<p>Essa influência pode estimular em MASCULINO-FEMININO-NEUTRO observação profunda e confiança nas percepções internas que surgem diante das circunstâncias. Em alguns momentos pode surgir dúvida sobre como interpretar essas impressões. Quando compreendida com maturidade, essa potência revela aprendizado sobre integração entre intuição e discernimento.</p>`,
+<p>Essa influência pode estimular em você, MASCULINO-FEMININO-NEUTRO, a observação profunda e confiança nas percepções internas que surgem diante das circunstâncias. Em alguns momentos pode surgir dúvida sobre como interpretar essas impressões. Quando compreendida com maturidade, essa potência revela aprendizado sobre integração entre intuição e discernimento.</p>`,
 
 58: `<h4>Conquista e Liderança</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 58, pode perceber estímulo para assumir responsabilidades que envolvem liderança ou organização de projetos relevantes. Algumas situações podem apresentar oportunidades de avanço em áreas que exigem capacidade de decisão.</p>
-<p>Essa influência pode favorecer em MASCULINO-FEMININO-NEUTRO realização prática, fortalecimento de autoridade pessoal e reconhecimento de competências. Em alguns momentos pode surgir pressão associada às responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre liderança equilibrada e construção de resultados sólidos.</p>`,
+<p>Essa influência pode favorecer você a realização prática, fortalecimento de autoridade pessoal e reconhecimento de competências. Em alguns momentos pode surgir pressão associada às responsabilidades assumidas. Quando assimilada com consciência, essa potência revela aprendizado sobre liderança equilibrada e construção de resultados sólidos.</p>`,
 
 59: `<h4>Compreensão e Humanidade</h4>
 <p>Você, MASCULINO-FEMININO-NEUTRO, durante a vigência da Potência 59, pode perceber ampliação da sensibilidade em relação às experiências humanas e às necessidades das pessoas ao redor. Algumas situações podem despertar reflexão sobre valores ligados à cooperação e compreensão.</p>
@@ -2350,27 +2350,27 @@ textosPessoal={
 
 61: `<h4>Expansão e Visão Ampliada</h4>
 <p>Durante a vigência da potência 61, você, MASCULINO-FEMININO-NEUTRO, pode perceber um movimento interior voltado à ampliação de visão e compreensão da própria trajetória. Surge uma sensação de que novas ideias, possibilidades ou caminhos começam a aparecer com mais clareza, como se o destino abrisse pequenas janelas de entendimento sobre o futuro.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO uma necessidade de explorar novos horizontes mentais ou espirituais, incentivando reflexões mais profundas sobre propósito e direção. Ao mesmo tempo, pode surgir a percepção de que certas oportunidades ou inspirações não acontecem por acaso, mas como sinais que apontam para algo maior em construção.</p>
+<p>Essa influência pode despertar em você uma necessidade de explorar novos horizontes mentais ou espirituais, incentivando reflexões mais profundas sobre propósito e direção. Ao mesmo tempo, pode surgir a percepção de que certas oportunidades ou inspirações não acontecem por acaso, mas como sinais que apontam para algo maior em construção.</p>
 <p>Nesse período, você pode sentir que existe um convite silencioso para confiar mais na própria percepção e ampliar a forma como enxerga a realidade. A potência 61 costuma estimular consciência, expansão intelectual e sensibilidade diante das sincronicidades que surgem no caminho.</p>`,
 
 62: `<h4>Equilíbrio entre Ideia e Realidade</h4>
 <p>Durante a vigência da potência 62, você, MASCULINO-FEMININO-NEUTRO, pode perceber um movimento interno voltado à organização das ideias e à busca de equilíbrio entre aquilo que imagina e aquilo que realmente pode ser construído na prática. Surge a sensação de que pensamentos e planos precisam encontrar uma forma concreta de manifestação.</p>
-<p>Essa influência pode levar MASCULINO-FEMININO-NEUTRO a observar com mais atenção as estruturas da própria vida, avaliando quais projetos merecem continuidade e quais precisam ser ajustados. Pode aparecer também uma percepção mais clara de que certas decisões exigem prudência, análise e responsabilidade.</p>
+<p>Essa influência pode levar você a observar com mais atenção as estruturas da própria vida, avaliando quais projetos merecem continuidade e quais precisam ser ajustados. Pode aparecer também uma percepção mais clara de que certas decisões exigem prudência, análise e responsabilidade.</p>
 <p>Nesse período, o destino pode parecer estimular um alinhamento entre inspiração e disciplina. A potência 62 costuma revelar que ideias ganham força quando encontram base sólida, convidando você a transformar intenção em realização gradual.</p>`,
 
 63: `<h4>Transição e Ajuste de Caminho</h4>
 <p>Durante a vigência da potência 63, você, MASCULINO-FEMININO-NEUTRO, pode perceber um momento de transição interior, como se certas situações estivessem chegando a um ponto de ajuste ou redefinição. Surge a sensação de que algo precisa ser reorganizado para que o caminho continue de forma mais equilibrada.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO reflexões sobre escolhas recentes, mostrando que pequenas mudanças de direção podem produzir efeitos importantes no futuro. Ao mesmo tempo, pode surgir a percepção de que alguns acontecimentos funcionam como alertas ou orientações discretas do destino.</p>
+<p>Essa influência pode despertar você a reflexões sobre escolhas recentes, mostrando que pequenas mudanças de direção podem produzir efeitos importantes no futuro. Ao mesmo tempo, pode surgir a percepção de que alguns acontecimentos funcionam como alertas ou orientações discretas do destino.</p>
 <p>Nesse período, você pode sentir que a vida convida à observação de detalhes e sinais antes de seguir adiante. A potência 63 costuma indicar uma fase de preparação, em que compreensão e prudência ajudam a construir os próximos passos com mais consciência.</p>`,
 
 64: `<h4>Reorganização Interior</h4>
 <p>Durante a vigência da potência 64, você, MASCULINO-FEMININO-NEUTRO, pode perceber um impulso voltado à reorganização de pensamentos, valores e prioridades. Surge a sensação de que certas estruturas internas precisam ser revistas para que novas possibilidades possam surgir.</p>
-<p>Essa influência pode levar MASCULINO-FEMININO-NEUTRO à reflexão sobre o que realmente tem significado em sua jornada, incentivando um processo de seleção natural entre aquilo que permanece e aquilo que já não possui a mesma importância.</p>
+<p>Essa influência pode te levar  à reflexão sobre o que realmente tem significado em sua jornada, incentivando um processo de seleção natural entre aquilo que permanece e aquilo que já não possui a mesma importância.</p>
 <p>Nesse período, o destino pode parecer estimular maturidade emocional e clareza mental. A potência 64 costuma favorecer momentos de introspecção produtiva, nos quais você percebe que reorganizar o interior muitas vezes é o primeiro passo para transformar o exterior.</p>`,
 
 65: `<h4>Chamado para Responsabilidade</h4>
 <p>Durante a vigência da potência 65, você, MASCULINO-FEMININO-NEUTRO, pode perceber um aumento na consciência sobre responsabilidades e compromissos assumidos ao longo da vida. Surge a sensação de que determinadas decisões possuem impacto mais profundo do que parecia inicialmente.</p>
-<p>Essa influência pode despertar em MASCULINO-FEMININO-NEUTRO uma postura mais atenta diante das próprias atitudes, incentivando equilíbrio entre liberdade pessoal e deveres necessários para manter estabilidade.</p>
+<p>Essa influência pode despertar  uma postura mais atenta diante das próprias atitudes, incentivando equilíbrio entre liberdade pessoal e deveres necessários para manter estabilidade.</p>
 <p>Nesse período, você pode sentir que o destino apresenta situações que convidam à maturidade e ao senso de responsabilidade. A potência 65 costuma revelar que crescimento verdadeiro acontece quando consciência e ação caminham juntas.</p>`,
 
 66: `<h4>Harmonia e Ajuste de Relações</h4>
