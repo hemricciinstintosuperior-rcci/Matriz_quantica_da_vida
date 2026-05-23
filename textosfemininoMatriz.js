@@ -431,8 +431,8 @@ destino:{
 "97": "Esta influência se origina da potência 97, revelando experiências de grande lucidez espiritual e compreensão profunda da existência. O universo amplia sua sabedoria feminina e fortalece sua conexão com as verdades invisíveis.",
 "98": "Esta influência se origina da potência 98, indicando eventos ligados à justiça, responsabilidade e equilíbrio cármico. O destino recompensa atitudes íntegras e conduz você a viver de acordo com leis mais elevadas.",
 "99": "Esta influência se origina da potência 99, revelando experiências de profunda expansão espiritual e consciência universal. O universo conduz você a compreender o amor, a compaixão e a conexão entre todas as formas de vida."
+},
 }
-};
 
 textosVida={
 
