@@ -1294,7 +1294,7 @@ textosPessoal={
 
 };
 
-  let textosSocial={ 
+  textosSocial={ 
 
 
 
