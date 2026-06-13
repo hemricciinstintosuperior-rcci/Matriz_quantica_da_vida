@@ -1,4 +1,4 @@
-let resultadoPotencia = {
+resultadoPotencia = {
  principal:{
 "10": "Esta vibração se origina da potência 10, que indica momentos de reconhecimento ou mudanças favoráveis que impulsionam novas oportunidades na vida. Representa o início de um novo ciclo onde o universo conspira para que sua liderança natural floresça sem grandes obstruções externas.",
 "11": "Esta vibração se origina da potência 11, trazendo um canal de intuição e inspiração que ilumina suas decisões. Indica que sua força de vontade é guiada por uma percepção superior, permitindo que você tome a frente de projetos com uma sensibilidade que outros não possuem.",
@@ -380,7 +380,7 @@ destino:{
 },
 };
 
-let textosVida={
+textosVida={
 
 
 
@@ -729,7 +729,7 @@ let textosVida={
   
 };
   
-let textosPessoal={
+textosPessoal={
 
 
 
@@ -1872,7 +1872,7 @@ let textosPessoal={
 <p>A Potência 99 revela uma percepção social marcada por consciência e sabedoria.</p>`
 };
   
-  let textosDestino={ 
+  textosDestino={ 
 
 
 
@@ -2503,7 +2503,7 @@ let textosPessoal={
     
 
 // 🚨 TEXTOS SEQUÊNCIAS NEGATIVAS
-let textosSeqNegVida = {
+textosSeqNegVida = {
 
   1: ` Nesta fase, você poderá sentir que sua chama interna de motivação está sendo abafada por obstáculos inesperados.
 A influência desta sequência tende a minar sua capacidade de iniciativa, tornando o ato de começar algo novo um verdadeiro desafio.
@@ -2623,7 +2623,7 @@ Doenças somáticas e hipocondria podem aparecer como reflexo de uma mente que n
 A lição fundamental deste período é o desapego e a busca por uma nova forma de enxergar o valor da vida.`
 };
 
-let textosSeqNegPessoal = { 
+textosSeqNegPessoal = { 
   1: `<p>  No âmbito pessoal, esta vibração indica um conflito latente com sua própria identidade e poder de decisão. Você pode se sentir mentalmente paralisado, como se uma voz interna questionasse cada impulso de ação antes mesmo de ele se manifestar. A insegurança sobre quem você é pode gerar um estado de dúvida constante, sabotando sua autoestima e impedindo que você se sinta o protagonista da sua própria mente.</p>`,
 
   2: `<p>  Esta influência atua na sua percepção de valor interno. Há uma tendência a se sentir emocionalmente frágil e excessivamente dependente da validação interna que você imagina que os outros deveriam dar. O medo da rejeição pode criar um diálogo mental submisso, onde você se critica duramente por não ser "bom o suficiente", gerando uma timidez psicológica que sufoca sua expressão autêntica.</p>`,
@@ -2644,7 +2644,7 @@ let textosSeqNegPessoal = {
 };
 
 
-let textosSeqNegSocial = {
+textosSeqNegSocial = {
   1: `<p>  No ambiente social, você pode perceber uma atmosfera de falta de iniciativa ou bloqueios nas pessoas ao seu redor. Pode parecer que o meio em que você convive é desestimulante, onde ninguém deseja tomar a frente ou onde as novas ideias são recebidas com passividade. É um campo social marcado pela estagnação criativa dos grupos com os quais você interage.</p>`,
 
   2: `<p>  Esta influência revela um meio social onde impera a fofoca, a dependência emocional excessiva ou a timidez coletiva. Você pode se ver cercado por pessoas inseguras que buscam constantemente sua aprovação ou que tentam influenciá-lo através da vitimização. O ambiente social tende a ser hesitante, dificultando a construção de parcerias sólidas e independentes.</p>`,
@@ -2664,7 +2664,7 @@ let textosSeqNegSocial = {
   9: `<p>  O desafio social aqui é a convivência com pessoas que estão passando por crises profundas ou que se recusam a evoluir. O meio ao seu redor pode parecer desgastado, como se os grupos de que você participa estivessem chegando ao fim. Há um sentimento coletivo de derrota ou cansaço que pode drenar sua energia se você tentar carregar os problemas dos outros nas costas.</p>`
 };
 
-let textosSeqNegDestino = {
+textosSeqNegDestino = {
   1: `<p>  No caminho do destino, esta vibração se manifesta como obstáculos súbitos que impedem o início de novos ciclos. O destino parece colocar barreiras toda vez que você tenta exercer sua autonomia. São eventos externos que forçam a paciência e exigem que você encontre novas formas de liderar sua vida quando as portas parecem trancadas por forças maiores.</p>`,
 
   2: `<p> Esta influência traz situações de destino que testam sua capacidade de se manter firme diante de pressões externas. Você pode enfrentar circunstâncias que o colocam em posição de submissão ou que exigem que você aprenda a discernir em quem confiar. O caminho pode apresentar parcerias duvidosas que servem como teste para o seu fortalecimento pessoal.</p>`,
@@ -2684,7 +2684,7 @@ let textosSeqNegDestino = {
   9: `<p>  No destino, esta vibração marca o encerramento forçado de grandes capítulos. O caminho pode "limpar" da sua vida tudo o que já não serve mais, muitas vezes de forma dolorosa e definitiva. São eventos de perda de patrimônio ou fim de eras que, embora desafiadores, têm o propósito de liberar seu caminho para uma nova existência totalmente diferente.</p>`
 };
 // ⭐ TEXTOS SEQUÊNCIAS ESPECIAIS
-let textosSeqEspVida = {
+textosSeqEspVida = {
 
   "116": `Este é um estágio onde sua imagem pública e reputação podem ser postas à prova por interferências de terceiros.
 Existe o risco de enfrentar críticas infundadas ou situações que visam abalar sua credibilidade profissional e pessoal.
@@ -2756,7 +2756,7 @@ Evite comentários desnecessários ou julgamentos para não alimentar fofocas qu
 
 };
 
-let textosSeqEspPessoal = {
+textosSeqEspPessoal = {
   "116": `<p> No nível pessoal, você pode ou não sentir uma preocupação interna com sua própria imagem. Pode surgir o pensamento ou a insegurança de que outros estão julgando sua conduta. 
   É um processo puramente mental sobre como você imagina que sua reputação está sendo percebida.</p>`,
   "119": `<p> Esta vibração pode despertar conflitos internos de fé ou valores. Você pode se pegar questionando suas próprias crenças ou sentindo uma desconfiança mental sobre o que é verdadeiro, podendo gerar um sentimento de desilusão com conceitos que antes considerava sagrados.</p>`,
@@ -2777,7 +2777,7 @@ let textosSeqEspPessoal = {
   "927": `<p> No plano da imaginação, pode haver a preocupação com segredos ou informações ocultas. Você pode se sentir mentalmente curioso ou apreensivo sobre o que não foi dito, voltando seus pensamentos para mistérios do passado.</p>`
 };
 
-let textosSeqEspSocial = {
+textosSeqEspSocial = {
   
  "116": `<p> No seu ambiente social, você pode notar pessoas sendo alvo de críticas ou discussões sobre reputação. É um momento onde a fofoca ou o julgamento público ganham força nos grupos que você frequenta.</p>`,
   "119": `<p> Você poderá observar comportamentos de fanatismo ou falsas promessas vindo de pessoas próximas ou do meio coletivo. O ambiente social pode estar carregado de influências hipócritas ou causas vazias.</p>`,
@@ -2798,7 +2798,7 @@ let textosSeqEspSocial = {
   "927": `<p> Você percebe um clima de mistério ou revelação de segredos no seu meio. É uma fase onde intrigas e escândalos de terceiros podem vir à tona nos círculos de convivência.</p>`
 };
 
-let textosSeqEspDestino = {
+textosSeqEspDestino = {
   "116": `<p> O destino pode trazer eventos externos que testam sua resistência à opinião pública. Podem surgir situações inesperadas que exigem que você defenda sua integridade diante do mundo.</p>`,
   "119": `<p> Situações do destino podem colocá-lo frente a frente com instituições ou causas que se revelam falsas. O caminho pode apresentar obstáculos criados por visões dogmáticas de terceiros.</p>`,
   "123": `<p> O destino abre portas para o reconhecimento oficial. Podem surgir oportunidades externas, como prêmios ou honrarias, que chegam até você como um reflexo de sua trajetória.</p>`,
@@ -2818,17 +2818,17 @@ let textosSeqEspDestino = {
   "927": `<p> O caminho pode ser atravessado por revelações de fatos ocultos ou situações do passado que retornam através de eventos externos, exigindo ética e neutralidade.</p>`
 };
 // --- BANCOS FINANCEIROS SEPARADOS ---
-let textosFinVida = { 999: "" };
-let textosFinPessoal = { 999: "" };
-let textosFinSocial = { 999: "" };
-let textosFinDestino = { 999: "" };
+ textosFinVida = { 999: "" };
+textosFinPessoal = { 999: "" };
+textosFinSocial = { 999: "" };
+textosFinDestino = { 999: "" };
 
 
 // --- Certifica-te que tens o mesmo para Negativas e Especiais (Vida, Pessoal, Social, Destino) ---  
 // =======================
 // 📖 TEXTOS EXPLICATIVOS DAS PIRÂMIDES
 // =======================
-let explicacoes = {
+explicacoes = {
 
 principal: `
 
